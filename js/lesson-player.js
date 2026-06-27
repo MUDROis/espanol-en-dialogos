@@ -141,6 +141,9 @@ const LessonPlayer = {
   },
   renderGrammar() {
     const d = this.dialog;
+
+    const verbRu = { ser: 'быть', estar: 'находиться', llamarse: 'называться' };
+
     const app = document.getElementById('app');
     app.className = 'container';
 
@@ -148,22 +151,36 @@ const LessonPlayer = {
       <div class="card fade-in">
         <h2>📚 Грамматика диалога</h2>
 
-        ${Object.entries(d.grammar).map(([verb, forms]) => `
+        ${Object.entries(d.grammar).map(([verb, forms]) => {
+          const ttsPerson = { yo: 'yo', tu: 'tú', el_ella: 'él', nosotros: 'nosotros', vosotros: 'vosotros', ellos_ellas: 'ellos' };
+          const fullPhrases = Object.entries(forms).map(([p, f]) =>
+            `${ttsPerson[p] || p.replace('_', '/')} ${typeof f === 'string' ? f : f.es}`
+          ).join(', ');
+          return `
           <div style="margin:16px 0">
-            <h3>Глагол <em>${verb}</em> (${verb === 'ser' ? 'быть' : verb === 'estar' ? 'находиться' : verb === 'llamarse' ? 'называться' : verb})</h3>
+            <h3>Глагол <em>${verb}</em> (${verbRu[verb] || verb})</h3>
             <table style="width:100%;border-collapse:collapse;margin:8px 0">
-              ${Object.entries(forms).map(([person, form]) => `
+              <tr style="background:var(--gray)">
+                <th style="padding:6px 12px;border:1px solid var(--gray);text-align:left">Лицо</th>
+                <th style="padding:6px 12px;border:1px solid var(--gray);text-align:left">Español</th>
+                <th style="padding:6px 12px;border:1px solid var(--gray);text-align:left">Русский</th>
+              </tr>
+              ${Object.entries(forms).map(([person, form]) => {
+                const es = typeof form === 'string' ? form : form.es;
+                const ru = typeof form === 'string' ? '—' : form.ru;
+                return `
                 <tr>
-                  <td style="padding:6px 12px;border:1px solid var(--gray);font-weight:600">${person}</td>
-                  <td style="padding:6px 12px;border:1px solid var(--gray)">${form}</td>
-                </tr>
-              `).join('')}
+                  <td style="padding:6px 12px;border:1px solid var(--gray);font-weight:600">${person.replace('_', '/')}</td>
+                  <td style="padding:6px 12px;border:1px solid var(--gray)">${es}</td>
+                  <td style="padding:6px 12px;border:1px solid var(--gray);color:var(--gray-dark)">${ru}</td>
+                </tr>`;
+              }).join('')}
             </table>
-            <button class="btn btn-secondary" style="font-size:14px" onclick="Speech.say('${Object.values(forms).join(' ').replace(/'/g, "\\'")}', 'es-ES')">
+            <button class="btn btn-secondary" style="font-size:14px" onclick="Speech.say('${fullPhrases.replace(/'/g, "\\'")}', 'es-ES')">
               🔊 Прослушать формы
             </button>
-          </div>
-        `).join('')}
+          </div>`;
+        }).join('')}
 
         <div style="margin-top:24px">
           <p style="margin-bottom:8px;font-weight:600">💡 Запомните:</p>

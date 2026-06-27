@@ -12,18 +12,18 @@
   ],
   "grammar": {
     "ser": {
-      "yo": "soy",
-      "tu": "eres",
-      "el_ella": "es"
+      "yo": { "es": "soy", "ru": "я есть" },
+      "tu": { "es": "eres", "ru": "ты есть" },
+      "el_ella": { "es": "es", "ru": "он/она есть" }
     },
     "estar": {
-      "yo": "estoy",
-      "tu": "estás",
-      "el_ella": "está"
+      "yo": { "es": "estoy", "ru": "я нахожусь" },
+      "tu": { "es": "estás", "ru": "ты находишься" },
+      "el_ella": { "es": "está", "ru": "он/она находится" }
     },
     "llamarse": {
-      "yo": "me llamo",
-      "tu": "te llamas"
+      "yo": { "es": "me llamo", "ru": "меня зовут" },
+      "tu": { "es": "te llamas", "ru": "тебя зовут" }
     }
   },
   "vocabulary": {
