@@ -66,8 +66,68 @@ const LessonPlayer = {
   },
 
   // Step renderers — filled in later tasks
-  renderPreparation() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Подготовка...</p></div>'; },
-  renderVocabulary() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Словарный запас...</p></div>'; },
+  renderPreparation() {
+    const d = this.dialog;
+    const app = document.getElementById('app');
+    app.className = 'container';
+    app.innerHTML = `
+      <div class="card fade-in">
+        <h2>🎯 Добро пожаловать в урок!</h2>
+        <p style="margin:12px 0">Сегодня вы научитесь <strong>знакомиться на испанском</strong>.
+        Представьте: вы на языковых курсах в Малаге и встречаете нового друга...</p>
+
+        <h3 style="margin:20px 0 8px">Цели урока:</h3>
+        <ul style="list-style:none">
+          ${d.objectives.map(o => `<li style="padding:4px 0">✅ ${o}</li>`).join('')}
+        </ul>
+
+        <div style="margin-top:20px;padding:16px;background:var(--gray);border-radius:8px;font-size:14px">
+          📖 <strong>Диалог:</strong> ${d.title} (${d.titleRu})<br>
+          📚 <strong>Уровень:</strong> ${d.level} &nbsp;|&nbsp; 📂 <strong>Тема:</strong> ${d.theme}
+        </div>
+
+        <button class="btn btn-primary" style="margin-top:16px" onclick="LessonPlayer.goToStep(LessonPlayer.currentStep + 1)">
+          Начать урок →
+        </button>
+      </div>
+    `;
+  },
+
+  renderVocabulary() {
+    const d = this.dialog;
+    const app = document.getElementById('app');
+    app.className = 'container';
+
+    const allVocab = [];
+    Object.values(d.vocabulary).forEach(group => {
+      group.forEach(item => allVocab.push(item));
+    });
+
+    app.innerHTML = `
+      <div class="card fade-in">
+        <h2>📖 Словарный запас</h2>
+        <p style="margin:8px 0 16px;color:var(--gray-dark)">Слушайте и повторяйте вслух!</p>
+        <div class="two-column">
+          ${allVocab.map((v, i) => `
+            <div class="vocab-card" onclick="Speech.say('${v.es.replace(/'/g, "\\'")}', 'es-ES')">
+              <span class="es">${v.es}</span>
+              <span class="ru">${v.ru}</span>
+              <span style="font-size:12px;color:var(--accent);cursor:pointer">🔊</span>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+
+      <div class="card fade-in" style="margin-top:16px">
+        <h3>🎮 Игра: Соедини пары</h3>
+        <p style="margin:8px 0;color:var(--gray-dark)">Найди соответствие между испанским словом и переводом</p>
+        <div id="memory-game"></div>
+      </div>
+    `;
+
+    const pairs = allVocab.slice(0, 8);
+    Games.memoryGame('memory-game', pairs);
+  },
   renderGrammar() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Грамматика...</p></div>'; },
   renderDialogue() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Диалог...</p></div>'; },
   renderSpeaking() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Практика говорения...</p></div>'; },
