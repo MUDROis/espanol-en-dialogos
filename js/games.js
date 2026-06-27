@@ -151,6 +151,10 @@ const Games = {
         <div style="text-align:center;margin-top:12px">
           <span style="color:var(--gray-dark)">${currentIndex + 1} / ${lines.length}</span>
         </div>
+        <div style="display:flex;justify-content:space-between;margin-top:12px">
+          <button class="btn btn-secondary" id="prev-line" ${currentIndex === 0 ? 'disabled' : ''}>← Назад</button>
+          <button class="btn btn-primary" id="next-line" ${currentIndex === lines.length - 1 ? 'disabled' : ''}>Далее →</button>
+        </div>
       `;
 
       document.getElementById('listen-btn').addEventListener('click', async () => {
@@ -173,23 +177,15 @@ const Games = {
           }
         });
       });
+
+      document.getElementById('prev-line')?.addEventListener('click', () => {
+        if (currentIndex > 0) { currentIndex--; renderLine(); }
+      });
+      document.getElementById('next-line')?.addEventListener('click', () => {
+        if (currentIndex < lines.length - 1) { currentIndex++; renderLine(); }
+      });
     };
 
     renderLine();
-
-    const navDiv = document.createElement('div');
-    navDiv.style.cssText = 'display:flex;justify-content:space-between;margin-top:12px';
-    navDiv.innerHTML = `
-      <button class="btn btn-secondary" id="prev-line" ${currentIndex === 0 ? 'disabled' : ''}>← Назад</button>
-      <button class="btn btn-primary" id="next-line" ${currentIndex === lines.length - 1 ? 'disabled' : ''}>Далее →</button>
-    `;
-    container.appendChild(navDiv);
-
-    document.getElementById('prev-line')?.addEventListener('click', () => {
-      if (currentIndex > 0) { currentIndex--; renderLine(); }
-    });
-    document.getElementById('next-line')?.addEventListener('click', () => {
-      if (currentIndex < lines.length - 1) { currentIndex++; renderLine(); }
-    });
   }
 };
