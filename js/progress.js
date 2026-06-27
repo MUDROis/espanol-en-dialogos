@@ -1,17 +1,21 @@
 /* js/progress.js */
 const Progress = {
-  STORAGE_KEY: 'espanol_progress',
+  _getKey() {
+    const activation = typeof AUTH !== 'undefined' ? AUTH.getActivation() : null;
+    const suffix = activation ? activation.codeHash.slice(0, 12) : 'anonymous';
+    return 'espanol_progress_' + suffix;
+  },
 
   _load() {
     try {
-      return JSON.parse(localStorage.getItem(this.STORAGE_KEY) || '{}');
+      return JSON.parse(localStorage.getItem(this._getKey()) || '{}');
     } catch {
       return {};
     }
   },
 
   _save(data) {
-    localStorage.setItem(this.STORAGE_KEY, JSON.stringify(data));
+    localStorage.setItem(this._getKey(), JSON.stringify(data));
   },
 
   get(dialogId) {
