@@ -25,5 +25,14 @@
     "partTitle": "Базовый уровень (A2)",
     "level": "A2",
     "theme": "La vida social, la familia, las celebraciones"
+  },
+  {
+    "id": 4,
+    "title": "En la ciudad",
+    "titleRu": "В городе",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "La ciudad, orientación, lugares de interés"
   }
 ]
