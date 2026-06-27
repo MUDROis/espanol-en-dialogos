@@ -1,0 +1,213 @@
+{
+  "id": 3,
+  "title": "En la clase de español",
+  "titleRu": "На уроке испанского языка",
+  "\"part\": 1,"}
+  "level": "A2",
+  "theme": "La vida social, la familia, las celebraciones (Социальная жизнь, семья, праздники)",
+  "characters": ["ana", "belen"],
+  "objectives": [
+    "Говорить о чувствах и проблемах",
+    "Приглашать и отвечать на приглашения",
+    "Рассказывать о семье и личных предпочтениях",
+    "Использовать конструкции con, de, por y porque"
+  ],
+  "grammar": {
+    "estar_triste": {
+      "yo": { "es": "estoy triste", "ru": "я грустный" },
+      "tu": { "es": "estás triste", "ru": "ты грустный" },
+      "el_ella": { "es": "está triste", "ru": "он/она грустный" },
+      "nosotros": { "es": "estamos tristes", "ru": "мы грустные" },
+      "vosotros": { "es": "estáis tristes", "ru": "вы грустные" },
+      "ellos_ellas": { "es": "están tristes", "ru": "они грустные" }
+    },
+    "tener_problemas": {
+      "yo": { "es": "tengo problemas", "ru": "у меня проблемы" },
+      "tu": { "es": "tienes problemas", "ru": "у тебя проблемы" },
+      "el_ella": { "es": "tiene problemas", "ru": "у него/неё проблемы" },
+      "nosotros": { "es": "tenemos problemas", "ru": "у нас проблемы" },
+      "vosotros": { "es": "tenéis problemas", "ru": "у вас проблемы" },
+      "ellos_ellas": { "es": "tienen problemas", "ru": "у них проблемы" }
+    },
+    "preparado_para": {
+      "yo": { "es": "estoy preparado/a para", "ru": "я готов/готова к" },
+      "tu": { "es": "estás preparado/a para", "ru": "ты готов/готова к" },
+      "el_ella": { "es": "está preparado/a para", "ru": "он/она готов/готова к" },
+      "nosotros": { "es": "estamos preparados/as para", "ru": "мы готовы к" },
+      "vosotros": { "es": "estáis preparados/as para", "ru": "вы готовы к" },
+      "ellos_ellas": { "es": "están preparados/as para", "ru": "они готовы к" }
+    },
+    "dormido": {
+      "yo": { "es": "estoy dormido/a", "ru": "я спящий" },
+      "tu": { "es": "estás dormido/a", "ru": "ты спящий" },
+      "el_ella": { "es": "está dormido/a", "ru": "он/она спящий" },
+      "nosotros": { "es": "estamos dormidos/as", "ru": "мы спящие" },
+      "vosotros": { "es": "estáis dormidos/as", "ru": "вы спящие" },
+      "ellos_ellas": { "es": "están dormidos/as", "ru": "они спящие" }
+    }
+  },
+  "vocabulary": {
+    "feelings_problems": [
+      { "es": "triste", "ru": "грустный" },
+      { "es": "problema", "ru": "проблема" },
+      { "es": "ejercicio", "ru": "упражнение" },
+      { "es": "preparado/a", "ru": "готовый/готовая" },
+      { "es": "cansado/a", "ru": "усталый/усталая" },
+      { "es": "dormido/a", "ru": "спящий/спящая" },
+      { "es": "ayuda", "ru": "помощь" },
+      { "es": "escuchar", "ru": "слушать" }
+    ],
+    "celebrations": [
+      { "es": "cumpleaños", "ru": "день рождения" },
+      { "es": "fiesta", "ru": "вечеринка" },
+      { "es": "casa", "ru": "дом" },
+      { "es": "pequeña", "ru": "маленький" },
+      { "es": "invitar", "ru": "приглашать" },
+      { "es": "libre", "ru": "свободный" },
+      { "es": "tarde", "ru": "после обеда" },
+      { "es": "invitación", "ru": "приглашение" }
+    ],
+    "family": [
+      { "es": "hermano", "ru": "брат" },
+      { "es": "hermano mayor", "ru": "старший брат" },
+      { "es": "cuñada", "ru": "шурин" },
+      { "es": "casado/a", "ru": "женатый/замужем" },
+      { "es": "español/a", "ru": "испанец/испанка" },
+      { "es": "chico/a", "ru": "парень/девушка" },
+      { "es": "bien", "ru": "хорошо" },
+      { "es": "loco/a por", "ru": "сходит/сходит с ума от" },
+      { "es": "canción", "ru": "песня" },
+      { "es": "día y noche", "ru": "день и ночь" },
+      { "es": "cansado/a de", "ru": "усталый/усталая от" },
+      { "es": "harto/a de", "ru": "насытился/насытилась" }
+    ],
+    "dates": [
+      { "es": "qué fecha es", "ru": "какое число" },
+      { "es": "5 de junio", "ru": "5 июня" },
+      { "es": "mañana", "ru": "завтра" },
+      { "es": "ayer", "ru": "вчера" },
+      { "es": "hoy", "ru": "сегодня" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Ana", "es": "Belén, ¿por qué estás triste?", "ru": "Белен, почему ты грустная?" },
+    { "speaker": "Belén", "es": "Es que tengo problemas con este ejercicio. Además, no estoy preparada para otras clases. Casi estoy dormida.", "ru": "Дело в том, что у меня проблемы с этим упражнением. Кроме того, я не готова к остальным урокам. Я почти сплю." },
+    { "speaker": "Ana", "es": "¿Te ayudo?", "ru": "Помочь тебе?" },
+    { "speaker": "Belén", "es": "Sí, gracias... Escucha, Ana, mañana es mi cumpleaños y hago una fiesta pequeña en mi casa. ¿Estás libre mañana por la tarde?", "ru": "Да, спасибо... Послушай, Анна, завтра у меня день рождения, и я устраиваю маленький праздник дома. Ты свободна завтра вечером?" },
+    { "speaker": "Ana", "es": "¿Qué fecha es mañana?", "ru": "Какое завтра число?" },
+    { "speaker": "Belén", "es": "Es 5 de junio.", "ru": "Пятое июня." },
+    { "speaker": "Ana", "es": "Sí, estoy libre.", "ru": "Да, свободна." },
+    { "speaker": "Belén", "es": "Entonces, te invito. Mi cuñada cocina muy bien, comida típica española.", "ru": "Тогда я тебя приглашаю. Жена моего брата очень хорошо готовит, типично испанские блюда." },
+    { "speaker": "Ana", "es": "¡Muchas gracias! Pues, ¿tienes un hermano casado con una española?", "ru": "Большое спасибо! Значит, у тебя брат женат на испанке?" },
+    { "speaker": "Belén", "es": "Sí, mi hermano mayor. Su mujer es una chica muy buena, pero está loca por Enrique Iglesias, así que escuchamos sus canciones día y noche. Ya estoy harta de él.", "ru": "Да, мой старший брат. Его жена очень хорошая девушка, но она сходит с ума по Энрике Иглесиасу, так что мы слушаем его песни день и ночь. Я уже сыта им по горло." },
+    { "speaker": "Ana", "es": "Ja, ja. Por eso estás casi dormida...", "ru": "Ха-ха. Поэтому ты почти спишь..." },
+    { "speaker": "Belén", "es": "Sí, eso.", "ru": "Да, именно так." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "triste", "ru": "грустный" },
+        { "es": "problema", "ru": "проблема" },
+        { "es": "cumpleaños", "ru": "день рождения" },
+        { "es": "fiesta", "ru": "вечеринка" },
+        { "es": "invitar", "ru": "приглашать" },
+        { "es": "cuñada", "ru": "шурин" },
+        { "es": "cansado de", "ru": "устал от" },
+        { "es": "harto de", "ru": "насытился от" }
+      ]
+    },
+    {
+      "type": "fill-gap",
+      "title": "Вставь глагол или предлог",
+      "description": "Выбери правильную форму глагола или предлог",
+      "sentences": [
+        { "text": "Yo ___ triste por el ejercicio.", "answer": "estoy", "options": ["soy", "estoy", "tengo"] },
+        { "text": "Ella ___ problemas con la tarea.", "answer": "tiene", "options": ["tiene", "tengo", "está"] },
+        { "text": "¿Estás libre ___ la tarde?", "answer": "por", "options": ["por", "para", "de"] },
+        { "text": "Mi hermano está casado ___ una española.", "answer": "con", "options": ["con", "de", "por"] },
+        { "text": "Estoy harta ___ escuchar canciones todo el día.", "answer": "de", "options": ["de", "por", "para"] },
+        { "text": "No ___ preparada para la clase.", "answer": "estoy", "options": ["soy", "estoy", "tengo"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Белен",
+      "role": "Belén",
+      "description": "Отвечай на реплики Анны своим голосом"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Анной",
+      "role": "Ana",
+      "description": "Теперь ты Анна — отвечай Белен"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Составь свой диалог о дне рождения",
+      "template": [
+        { "label": "Приветствие", "es": "Hola, ¿___ estás?" },
+        { "label": "Спрашиваешь о человеке", "es": "¿Por qué ___ triste?" },
+        { "label": "Предлагаешь помощь", "es": "¿___ ayudo?" },
+        { "label": "Приглашаешь на праздник", "es": "___ una fiesta en mi casa. ¿___ libre?" },
+        { "label": "Отвечаешь на приглашение", "es": "Sí, ___ libre. ¡___ gracias!" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Cómo se dice «почему ты грустная»?",
+          "ru": "Как сказать «почему ты грустная»?",
+          "options": ["¿Por qué estás triste?", "¿Por qué eres triste?", "¿Por qué tienes triste?", "¿Por qué estás trista?"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué día es el cumpleaños de Belén?",
+          "ru": "Какого числа день рождения Белен?",
+          "options": ["4 de junio", "5 de junio", "6 de junio", "5 de julio"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué cocina la cuñada de Belén?",
+          "ru": "Что готовит шурин Белен?",
+          "options": ["Comida italiana", "Comida típica española", "Comida francesa", "Comida mexicana"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué está escuchando Belén día y noche?",
+          "ru": "Что слушает Белен день и ночь?",
+          "options": ["Canciones de Enrique Iglesias", "Canciones de Shakira", "Canciones de Alejandro Sanz", "Canciones de David Bisbal"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se dice «я уже сыта им по горло»?",
+          "ru": "Как сказать «я уже сыта им по горло»?",
+          "options": ["Ya estoy harta de él", "Ya estoy cansada de él", "Ya estoy triste de él", "Ya estoy loca de él"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se dice «помочь тебе»?",
+          "ru": "Как сказать «помочь тебе»?",
+          "options": ["¿Te ayudo?", "¿Te ayudas?", "¿Te ayudo a?", "¿Te ayudo por?"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить слова в приложении (чувства, праздники, семья)",
+    "Практика: Напиши приглашение на день рождения другу на испанском",
+    "Дневник: Напиши 5 предложений о том, как ты проводишь день рождения"
+  ]
+}
