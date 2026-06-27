@@ -78,8 +78,10 @@ jobs:
 
       - name: Deactivate code
         if: inputs.mode == 'deactivate'
+        env:
+          HASH_INPUT: ${{ inputs.hash }}
         run: |
-          jq '(.[] | select(.hash | startswith("${{ inputs.hash }}")) | .active) = false' data/access-codes.json > tmp.json && mv tmp.json data/access-codes.json
+          jq --arg h "$HASH_INPUT" 'map(if .hash | startswith($h) then . + {active: false} else . end)' data/access-codes.json > tmp.json && mv tmp.json data/access-codes.json
 
       - name: Commit and push
         run: |
