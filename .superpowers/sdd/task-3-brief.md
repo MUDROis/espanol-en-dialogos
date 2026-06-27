@@ -1,73 +1,66 @@
-# Task 3: Speech module (speech.js)
+### Task 3: Modify `js/progress.js` — per-code progress isolation
 
 **Files:**
-- Modify: `js/speech.js`
+- Modify: `js/progress.js`
+
+**Goal:** Change the localStorage key from a static `STORAGE_KEY` to a dynamic key based on the code hash prefix, so different users on the same device have separate progress.
 
 **Interfaces:**
-- Produces:
-  - `Speech.say(text, lang, rate)` — TTS
-  - `Speech.recognize(expectedText, callback)` — starts mic, calls `callback(matchPercent, recognizedText)`
-  - `Speech.isSupported` — bool
-  - `Speech.isRecognitionSupported` — bool
+- Consumes: `AUTH.getActivation()` (optional — works without auth too)
 
-### Step 1: Write speech.js — replace the placeholder
+- [ ] **Step 1: Replace entire file content with:**
 
-```javascript
-/* js/speech.js */
-const Speech = {
-  isSupported: 'speechSynthesis' in window,
-  isRecognitionSupported: 'SpeechRecognition' in window || 'webkitSpeechRecognition' in window,
-
-  say(text, lang = 'es-ES', rate = 0.9) {
-    return new Promise((resolve) => {
-      if (!this.isSupported) { resolve(); return; }
-      speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = lang;
-      utterance.rate = rate;
-      utterance.onend = resolve;
-      utterance.onerror = resolve;
-      speechSynthesis.speak(utterance);
-    });
+```js
+/* js/progress.js */
+const Progress = {
+  _getKey() {
+    const activation = typeof AUTH !== 'undefined' ? AUTH.getActivation() : null;
+    const suffix = activation ? activation.codeHash.slice(0, 12) : 'anonymous';
+    return 'espanol_progress_' + suffix;
   },
 
-  recognize(expectedText, callback) {
-    if (!this.isRecognitionSupported) {
-      callback(null, 'Распознавание не поддерживается в этом браузере');
-      return;
+  _load() {
+    try {
+      return JSON.parse(localStorage.getItem(this._getKey()) || '{}');
+    } catch {
+      return {};
     }
-    const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-    const recognizer = new Recognition();
-    recognizer.lang = 'es-ES';
-    recognizer.interimResults = false;
-    recognizer.maxAlternatives = 3;
+  },
 
-    recognizer.onresult = (event) => {
-      const results = event.results[0];
-      const topText = results[0].transcript.toLowerCase().trim();
-      const confidence = results[0].confidence;
+  _save(data) {
+    localStorage.setItem(this._getKey(), JSON.stringify(data));
+  },
 
-      const expectedWords = expectedText.toLowerCase().split(/\s+/);
-      const recognizedWords = topText.split(/\s+/);
-      const matched = expectedWords.filter(w => recognizedWords.some(rw => rw.includes(w) || w.includes(rw)));
-      const percent = expectedWords.length > 0 ? Math.round((matched.length / expectedWords.length) * 100) : 0;
+  get(dialogId) {
+    const data = this._load();
+    return data[dialogId] || { completed: false, score: null, lastStep: 0 };
+  },
 
-      callback(percent, topText);
+  set(dialogId, updates) {
+    const data = this._load();
+    data[dialogId] = { ...this.get(dialogId), ...updates };
+    this._save(data);
+  },
+
+  getAll() {
+    return this._load();
+  },
+
+  getStats() {
+    const data = this._load();
+    const entries = Object.values(data);
+    return {
+      total: Object.keys(data).length,
+      completed: entries.filter(e => e.completed).length
     };
-
-    recognizer.onerror = () => {
-      callback(null, 'Ошибка микрофона. Разрешите доступ к микрофону.');
-    };
-
-    recognizer.start();
   }
 };
 ```
 
-### Step 2: Test TTS
-Open lesson.html in Chrome, console:
-```
-Speech.say('Hola, ¿qué tal?', 'es-ES');
-// Should hear Spanish voice
-console.log(Speech.isSupported); // true
-```
+Key changes from current `js/progress.js`:
+- Removed `STORAGE_KEY: 'espanol_progress'`
+- Added `_getKey()` that uses first 12 chars of code hash (or 'anonymous' if not authenticated)
+- All methods now use `this._getKey()` instead of `this.STORAGE_KEY`
+
+- [ ] **Step 2: Verify file is valid JS**
+- [ ] **Step 3: Commit**
