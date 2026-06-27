@@ -248,7 +248,6 @@ const LessonPlayer = {
   },
   renderReflection() {
     const d = this.dialog;
-    const prog = Progress.get(`dialog-${d.id}`);
     const app = document.getElementById('app');
     app.className = 'container';
 
@@ -258,17 +257,16 @@ const LessonPlayer = {
         <p style="margin:12px 0;color:var(--gray-dark)">Поздравляю! Ты успешно прошёл диалог "${d.title}"</p>
 
         <div class="score-display">
-          <div class="score-number">${d.id}</div>
-          <div class="score-label">Диалог пройден</div>
+          <div class="score-number">✅</div>
+          <div class="score-label">Диалог ${d.id} пройден</div>
         </div>
 
         <div style="max-width:400px;margin:16px auto">
           <h3 style="margin-bottom:12px">✅ Чек-лист достижений:</h3>
           <div style="text-align:left">
             <p>✅ Выучил(а) ${Object.values(d.vocabulary).flat().length} новых слов</p>
-            <p>✅ Понимаю диалог на слух</p>
-            <p>✅ Могу представиться на испанском</p>
-            <p>✅ Различаю ser и estar</p>
+            <p>✅ Прослушал(а) и повторил(а) диалог</p>
+            <p>✅ Выполнил(а) грамматические упражнения</p>
             <p>✅ Записал(а) свой диалог</p>
           </div>
         </div>

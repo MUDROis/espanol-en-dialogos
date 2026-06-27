@@ -215,7 +215,7 @@ const Games = {
         return;
       }
 
-      const dialogue = `Hola, me llamo ${values[0]}. Soy de ${values[1]}. Estoy aqu\u00ED porque ${values[2]}.`;
+      const dialogue = template.map((f, i) => f.es.replace('___', values[i])).join('. ') + '.';
 
       const saved = JSON.parse(localStorage.getItem('espanol_my_dialogues') || '[]');
       saved.push({ date: new Date().toISOString(), text: dialogue, values });
@@ -270,7 +270,8 @@ const Games = {
           container.querySelectorAll('.quiz-option').forEach((b, i) => {
             b.classList.remove('selected', 'correct', 'incorrect');
             if (i === q.answer) b.classList.add('correct');
-            else if (i === selected) b.classList.add('incorrect');
+            if (i === selected) b.classList.add('selected');
+            if (i === selected && i !== q.answer) b.classList.add('incorrect');
           });
 
           if (isCorrect) score++;
