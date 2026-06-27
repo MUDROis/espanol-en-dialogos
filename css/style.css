@@ -375,3 +375,62 @@ body {
   border-radius: var(--radius);
   border: 2px solid var(--gray);
 }
+
+/* Auth */
+.auth-card {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 32px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+.auth-input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid var(--gray);
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.auth-input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+.auth-error {
+  background: #fee;
+  color: #c00;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin: 8px 0;
+  font-size: 14px;
+}
+.btn-secondary {
+  display: inline-block;
+  padding: 10px 24px;
+  border: 2px solid var(--primary);
+  background: transparent;
+  color: var(--primary);
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.btn-secondary:hover {
+  background: var(--primary);
+  color: #fff;
+}
+.dialog-link--locked {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  opacity: 0.5;
+  cursor: not-allowed;
+  text-decoration: none;
+  color: var(--gray-dark);
+}
+.status.locked {
+  font-size: 16px;
+}
