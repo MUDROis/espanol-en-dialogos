@@ -1,7 +1,7 @@
 /* js/auth.js */
 const AUTH = (() => {
-  const SUPABASE_URL = 'https://hsxnjgvcvdvjzgxzztov.supabase.co';
-  const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhzeG5qZ3ZjdmR2anpneHp6dG92Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA2ODYzMTYsImV4cCI6MjA5NjI2MjMxNn0.2pw3uKMHRl8l9PAsrGOsk-MnuZtZ-ZwV-tFgg5glIWA';
+  const SUPABASE_URL = 'https://rotxbdrftnrksyhukkth.supabase.co';
+  const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJvdHhiZHJmdG5ya3N5aHVra3RoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI1MDQ5MjQsImV4cCI6MjA5ODA4MDkyNH0.9yh1k6p1A_uvm0-wHnybVvoEFO7_eZSDiGI6eH67Ee0';
 
   const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
