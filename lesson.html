@@ -3,17 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Урок — Испанский в диалогах</title>
+  <title>Español en Diálogos — Урок</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="header">
     <div class="container">
-      <h1><a href="index.html">Испанский в диалогах</a></h1>
+      <a href="index.html">← Español en Diálogos</a>
+      <h1 id="lesson-title">Урок</h1>
     </div>
   </header>
-  <main class="container" id="lesson-content">
+
+  <main>
+    <div class="container">
+      <div id="step-indicator" class="step-indicator"></div>
+      <div id="step-title" style="font-size:24px;font-weight:700;margin-bottom:16px"></div>
+    </div>
+    <div id="app"></div>
+    <div class="container">
+      <div id="nav-buttons" class="nav-buttons"></div>
+    </div>
   </main>
+
+  <footer style="text-align:center;padding:24px;color:var(--gray-dark);font-size:14px">
+    <p>Español en Diálogos — интерактивный курс испанского</p>
+  </footer>
+
   <script src="js/progress.js"></script>
   <script src="js/speech.js"></script>
   <script src="js/games.js"></script>
