@@ -26,48 +26,13 @@
     <div id="admin-content" style="display:none">
       <div class="container">
         <div class="card" style="margin-bottom:16px">
-          <h2>🔑 Сгенерировать новый код</h2>
-          <div id="generate-error" class="auth-error" style="display:none"></div>
-          <div style="display:flex;flex-direction:column;gap:12px;margin-top:16px">
-            <div>
-              <label style="font-weight:600;display:block;margin-bottom:4px">Метка (ФИО ученика)</label>
-              <input type="text" id="new-label" class="auth-input" placeholder="Иван Петров">
-            </div>
-            <div>
-              <label style="font-weight:600;display:block;margin-bottom:4px">Тип доступа</label>
-              <select id="new-type" class="auth-input">
-                <option value="demo">Демо (урок 1)</option>
-                <option value="full" selected>Полный (все уроки)</option>
-                <option value="admin">Администратор</option>
-              </select>
-            </div>
-            <div>
-              <label style="font-weight:600;display:block;margin-bottom:4px">Срок действия</label>
-              <select id="new-expires" class="auth-input">
-                <option value="">Навсегда</option>
-                <option value="P1M">1 месяц</option>
-                <option value="P6M">6 месяцев</option>
-                <option value="P1Y" selected>1 год</option>
-              </select>
-            </div>
-            <button id="generate-btn" class="btn btn-primary" style="width:100%">Сгенерировать код</button>
-          </div>
-
-          <div id="generated-result" style="display:none;margin-top:16px;padding:16px;background:#f0fff4;border-radius:8px">
-            <p style="font-weight:600;margin-bottom:8px">✅ Код сгенерирован</p>
-            <div style="font-size:24px;font-family:monospace;text-align:center;padding:16px;background:#fff;border-radius:8px;border:2px dashed var(--success);margin:8px 0;word-break:break-all" id="generated-code"></div>
-            <button id="copy-btn" class="btn btn-secondary" style="width:100%;margin-bottom:8px">📋 Скопировать код</button>
-            <p style="font-size:12px;color:var(--gray-dark);margin-top:8px">
-              Хеш (SHA-256): <code id="generated-hash" style="font-size:11px;word-break:break-all"></code>
-            </p>
-            <details style="margin-top:8px;font-size:13px">
-              <summary style="cursor:pointer;color:var(--primary)">Как добавить код в репозиторий?</summary>
-              <div style="margin-top:8px;padding:8px;background:var(--gray);border-radius:6px">
-                <p><strong>Вариант 1:</strong> Откройте GitHub → Actions → Manage Codes → Run workflow → Mode: add → введите код, тип, метку → Run</p>
-                <p><strong>Вариант 2:</strong> Добавьте хеш и данные вручную в <code>data/access-codes.json</code> и закоммитьте</p>
-              </div>
-            </details>
-          </div>
+          <h2>🔑 Новый код</h2>
+          <p style="margin:12px 0;color:var(--gray-dark)">
+            Коды создаются через GitHub Actions — код генерируется и сохраняется автоматически.
+          </p>
+          <a href="https://github.com/MUDROis/espanol-en-dialogos/actions/workflows/manage-codes.yml" target="_blank" class="btn btn-primary" style="display:inline-block;text-align:center">
+            ⚡ Открыть GitHub Actions
+          </a>
         </div>
 
         <div class="card">
@@ -113,38 +78,6 @@
       document.getElementById('admin-loading').style.display = 'none';
       document.getElementById('admin-content').style.display = 'block';
 
-      // Generate code
-      document.getElementById('generate-btn').addEventListener('click', async () => {
-        const label = document.getElementById('new-label').value.trim();
-        if (!label) {
-          document.getElementById('generate-error').textContent = 'Введите метку';
-          document.getElementById('generate-error').style.display = 'block';
-          return;
-        }
-        document.getElementById('generate-error').style.display = 'none';
-
-        const type = document.getElementById('new-type').value;
-        const expiresIn = document.getElementById('new-expires').value;
-        const code = Math.random().toString(36).toUpperCase().slice(2, 8) + '-' +
-                     Math.random().toString(36).toUpperCase().slice(2, 8);
-
-        const buf = new TextEncoder().encode(code);
-        const hashBuf = await crypto.subtle.digest('SHA-256', buf);
-        const hash = Array.from(new Uint8Array(hashBuf)).map(b => b.toString(16).padStart(2, '0')).join('');
-
-        document.getElementById('generated-code').textContent = code;
-        document.getElementById('generated-hash').textContent = hash;
-        document.getElementById('generated-result').style.display = 'block';
-      });
-
-      // Copy button
-      document.getElementById('copy-btn').addEventListener('click', () => {
-        const code = document.getElementById('generated-code').textContent;
-        navigator.clipboard.writeText(code).catch(() => {});
-        document.getElementById('copy-btn').textContent = '✅ Скопировано!';
-        setTimeout(() => { document.getElementById('copy-btn').textContent = '📋 Скопировать код'; }, 2000);
-      });
-
       // Load existing codes
       (async function loadCodes() {
         const resp = await fetch('data/access-codes.json');
@@ -172,20 +105,9 @@
 
     window.deactivateCode = function(hash) {
       if (!confirm('Деактивировать этот код? Его больше нельзя будет использовать.')) return;
-      fetch('data/access-codes.json')
-        .then(r => r.json())
-        .then(codes => {
-          const updated = codes.map(c => c.hash === hash ? { ...c, active: false } : c);
-          const blob = new Blob([JSON.stringify(updated, null, 2)], { type: 'application/json' });
-          const url = URL.createObjectURL(blob);
-          const a = document.createElement('a');
-          a.href = url;
-          a.download = 'access-codes.json';
-          a.click();
-          URL.revokeObjectURL(url);
-          alert('Файл access-codes.json скачан. Закоммитьте его в репозиторий.\n\nЛибо откройте GitHub → Actions → Manage Codes → Run workflow → Mode: deactivate → введите хеш: ' + hash);
-          location.reload();
-        });
+      const url = 'https://github.com/MUDROis/espanol-en-dialogos/actions/workflows/manage-codes.yml';
+      alert('Откройте GitHub Actions и запустите workflow с:\nMode: deactivate\nHash: ' + hash + '\n\nСсылка открывается в новом окне.');
+      window.open(url, '_blank');
     };
   </script>
 </body>
