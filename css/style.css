@@ -100,11 +100,12 @@ body {
   margin: 20px 0;
 }
 .step-dot {
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
   background: var(--gray);
   transition: all 0.3s;
+  cursor: pointer;
 }
 .step-dot.active { background: var(--primary); }
 .step-dot.done { background: var(--success); }

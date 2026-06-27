@@ -44,8 +44,14 @@ const LessonPlayer = {
     const container = document.getElementById('step-indicator');
     if (!container) return;
     container.innerHTML = this.steps.map((step, i) =>
-      `<div class="step-dot ${i < this.currentStep ? 'done' : ''} ${i === this.currentStep ? 'active' : ''}" style="cursor:pointer" title="Шаг ${i+1}: ${step.title}" onclick="LessonPlayer.goToStep(${i})"></div>`
+      `<div class="step-dot ${i < this.currentStep ? 'done' : ''} ${i === this.currentStep ? 'active' : ''}" data-step="${i}" title="Шаг ${i+1}: ${step.title}"></div>`
     ).join('');
+    container.querySelectorAll('.step-dot').forEach(el => {
+      el.addEventListener('click', (e) => {
+        const step = parseInt(e.currentTarget.dataset.step);
+        LessonPlayer.goToStep(step);
+      });
+    });
   },
 
   renderStepContent() {
