@@ -104,10 +104,11 @@ body {
   height: 12px;
   border-radius: 50%;
   background: var(--gray);
-  transition: background 0.3s;
+  transition: all 0.3s;
 }
 .step-dot.active { background: var(--primary); }
 .step-dot.done { background: var(--success); }
+.step-dot:hover { transform: scale(1.3); opacity: 0.8; }
 
 /* Grid layouts */
 .two-column {

@@ -44,7 +44,7 @@ const LessonPlayer = {
     const container = document.getElementById('step-indicator');
     if (!container) return;
     container.innerHTML = this.steps.map((step, i) =>
-      `<div class="step-dot ${i < this.currentStep ? 'done' : ''} ${i === this.currentStep ? 'active' : ''}"></div>`
+      `<div class="step-dot ${i < this.currentStep ? 'done' : ''} ${i === this.currentStep ? 'active' : ''}" style="cursor:pointer" title="Шаг ${i+1}: ${step.title}" onclick="LessonPlayer.goToStep(${i})"></div>`
     ).join('');
   },
 
