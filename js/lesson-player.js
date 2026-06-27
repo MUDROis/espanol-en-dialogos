@@ -6,6 +6,10 @@ const LessonPlayer = {
 
   init(dialog) {
     this.dialog = dialog;
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('reset') === 'true') {
+      Progress.set(`dialog-${dialog.id}`, { completed: false, score: null, lastStep: 0 });
+    }
     const saved = Progress.get(`dialog-${dialog.id}`);
     this.currentStep = saved.lastStep || 0;
 
@@ -290,7 +294,7 @@ const LessonPlayer = {
         </div>
 
         <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
-          <a href="lesson.html?id=${d.id}" class="btn btn-secondary">🔄 Пройти заново</a>
+          <a href="lesson.html?id=${d.id}&reset=true" class="btn btn-secondary">🔄 Пройти заново</a>
           <a href="index.html" class="btn btn-primary">🏠 На главную</a>
         </div>
       </div>
