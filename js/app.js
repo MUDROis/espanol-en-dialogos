@@ -1,9 +1,16 @@
 /* js/app.js */
-document.addEventListener('DOMContentLoaded', () => {
+window.allCharacters = [];
+
+document.addEventListener('DOMContentLoaded', async () => {
   if (Speech.isSupported) {
     speechSynthesis.getVoices();
     speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices();
   }
+
+  try {
+    const resp = await fetch('data/characters.json');
+    window.allCharacters = await resp.json();
+  } catch (e) {}
 
   const params = new URLSearchParams(window.location.search);
   const dialogId = params.get('id');

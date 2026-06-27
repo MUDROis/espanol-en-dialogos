@@ -100,6 +100,10 @@ const LessonPlayer = {
         <div style="margin-top:20px;padding:16px;background:var(--gray);border-radius:8px;font-size:14px">
           📖 <strong>Диалог:</strong> ${d.title} (${d.titleRu})<br>
           📚 <strong>Уровень:</strong> ${d.level} &nbsp;|&nbsp; 📂 <strong>Тема:</strong> ${d.theme}
+          ${d.characters ? `<br><br><strong>🎭 Персонажи:</strong><br><small style="display:block;margin-top:4px">${d.characters.map(cId => {
+            const ch = window.allCharacters.find(c => c.id === cId);
+            return ch ? `${ch.es}<br>${ch.ru}` : '';
+          }).join('<br>')}</small>` : ''}
         </div>
 
         <button class="btn btn-primary" style="margin-top:16px" onclick="LessonPlayer.goToStep(LessonPlayer.currentStep + 1)">
