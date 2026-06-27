@@ -257,6 +257,7 @@ body {
 }
 .part-header:hover { background: #fef0e6; }
 .part-body { padding: 8px 24px 16px; }
+.part-body--hidden { display: none; }
 
 /* Dialog link */
 .dialog-link {
