@@ -155,16 +155,27 @@
       }
     }
 
-    document.addEventListener('DOMContentLoaded', async () => {
-      await AUTH.init();
+    document.addEventListener('DOMContentLoaded', () => {
+      AUTH.init().catch(() => {});
 
-      const resp = await fetch('data/dialogs.json');
-      const dialogs = await resp.json();
+      const showInitial = () => {
+        if (AUTH.isAuthenticated()) {
+          showAuth(true, AUTH.getActivation());
+        } else {
+          showAuth(false, null);
+        }
+      };
+
+      showInitial();
 
       AUTH.onChange((type) => {
         const act = AUTH.getActivation();
         showAuth(!!act, act);
-        if (act) { renderCourse(dialogs); }
+        if (act) {
+          fetch('data/dialogs.json').then(r => r.json()).then(dialogs => {
+            renderCourse(dialogs);
+          }).catch(() => {});
+        }
       });
 
       document.getElementById('auth-submit').addEventListener('click', async () => {
@@ -173,6 +184,11 @@
         if (!code) { showAuthError('Введите код доступа'); return; }
         const res = await AUTH.activate(code);
         if (res.error) { showAuthError(res.error); return; }
+        if (res.success) {
+          fetch('data/dialogs.json').then(r => r.json()).then(dialogs => {
+            renderCourse(dialogs);
+          }).catch(() => {});
+        }
       });
 
       document.getElementById('auth-code').addEventListener('keydown', (e) => {
@@ -185,10 +201,9 @@
       });
 
       if (AUTH.isAuthenticated()) {
-        showAuth(true, AUTH.getActivation());
-        renderCourse(dialogs);
-      } else {
-        showAuth(false, null);
+        fetch('data/dialogs.json').then(r => r.json()).then(dialogs => {
+          renderCourse(dialogs);
+        }).catch(() => {});
       }
     });
   </script>
