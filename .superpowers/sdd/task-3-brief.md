@@ -1,3 +1,18 @@
+# Task 3: Speech module (speech.js)
+
+**Files:**
+- Modify: `js/speech.js`
+
+**Interfaces:**
+- Produces:
+  - `Speech.say(text, lang, rate)` — TTS
+  - `Speech.recognize(expectedText, callback)` — starts mic, calls `callback(matchPercent, recognizedText)`
+  - `Speech.isSupported` — bool
+  - `Speech.isRecognitionSupported` — bool
+
+### Step 1: Write speech.js — replace the placeholder
+
+```javascript
 /* js/speech.js */
 const Speech = {
   isSupported: 'speechSynthesis' in window,
@@ -47,3 +62,12 @@ const Speech = {
     recognizer.start();
   }
 };
+```
+
+### Step 2: Test TTS
+Open lesson.html in Chrome, console:
+```
+Speech.say('Hola, ¿qué tal?', 'es-ES');
+// Should hear Spanish voice
+console.log(Speech.isSupported); // true
+```
