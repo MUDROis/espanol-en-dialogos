@@ -237,6 +237,17 @@ body {
 }
 .header h1 { font-size: 20px; }
 .header a { color: #fff; text-decoration: none; }
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.header-logo {
+  height: 48px;
+  width: auto;
+  flex-shrink: 0;
+}
 
 /* Part card on landing */
 .part-card {
