@@ -78,4 +78,5 @@ jobs:
           git config user.email "actions@github.com"
           git add data/access-codes.json
           git commit -m "chore: update access codes (${{ inputs.mode }})" || echo "No changes to commit"
+          git pull --rebase origin main
           git push
