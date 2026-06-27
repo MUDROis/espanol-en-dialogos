@@ -1,21 +1,17 @@
 /* js/progress.js */
 const Progress = {
-  _getKey() {
-    const user = typeof AUTH !== 'undefined' ? AUTH.getUser() : null;
-    const suffix = user ? user.id : 'anonymous';
-    return 'espanol_progress_' + suffix;
-  },
+  STORAGE_KEY: 'espanol_progress',
 
   _load() {
     try {
-      return JSON.parse(localStorage.getItem(this._getKey()) || '{}');
+      return JSON.parse(localStorage.getItem(this.STORAGE_KEY) || '{}');
     } catch {
       return {};
     }
   },
 
   _save(data) {
-    localStorage.setItem(this._getKey(), JSON.stringify(data));
+    localStorage.setItem(this.STORAGE_KEY, JSON.stringify(data));
   },
 
   get(dialogId) {

@@ -2,8 +2,6 @@
 window.allCharacters = [];
 
 document.addEventListener('DOMContentLoaded', async () => {
-  await AUTH.init();
-
   if (Speech.isSupported) {
     speechSynthesis.getVoices();
     speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices();
@@ -18,23 +16,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   const dialogId = params.get('id');
 
   if (window.location.pathname.endsWith('lesson.html') && dialogId) {
-    const id = parseInt(dialogId, 10);
-    if (!AUTH.isAuthenticated()) {
-      window.location.href = 'index.html';
-      return;
-    }
-    if (!AUTH.canAccessLesson(id)) {
-      const container = document.getElementById('app');
-      if (container) {
-        container.innerHTML = `
-          <div class="container" style="text-align:center;padding:40px">
-            <h2>Урок недоступен</h2>
-            <p>Этот урок не входит в ваш тарифный план.</p>
-            <a href="index.html" class="btn btn-primary">На главную</a>
-          </div>`;
-      }
-      return;
-    }
     loadDialog(dialogId);
   }
 });
