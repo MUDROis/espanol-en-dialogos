@@ -2,9 +2,9 @@
   "id": 3,
   "title": "En la clase de español",
   "titleRu": "На уроке испанского языка",
-  "\"part\": 1,"}
+  "part": 1,
   "level": "A2",
-  "theme": "La vida social, la familia, las celebraciones (Социальная жизнь, семья, праздники)",
+  "theme": "La vida social, la familia, las celebraciones",
   "characters": ["ana", "belen"],
   "objectives": [
     "Говорить о чувствах и проблемах",
