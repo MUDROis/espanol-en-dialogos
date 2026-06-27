@@ -97,7 +97,7 @@
             '<td>' + createdDate + '</td>' +
             '<td>' + (c.active
               ? '<button class="btn btn-secondary" style="font-size:13px;padding:6px 12px" onclick="deactivateCode(\'' + c.hash + '\')">Деактивировать</button>'
-              : '—') + '</td>' +
+              : '—') + ' <a href="https://github.com/MUDROis/espanol-en-dialogos/blob/main/data/access-codes.json" target="_blank" style="font-size:12px;color:var(--gray-dark)" title="Редактировать JSON">✏</a></td>' +
             '</tr>';
         }).join('');
       })();
@@ -106,8 +106,12 @@
     window.deactivateCode = function(hash) {
       if (!confirm('Деактивировать этот код? Его больше нельзя будет использовать.')) return;
       const url = 'https://github.com/MUDROis/espanol-en-dialogos/actions/workflows/manage-codes.yml';
-      alert('Откройте GitHub Actions и запустите workflow с:\nMode: deactivate\nHash: ' + hash + '\n\nСсылка открывается в новом окне.');
-      window.open(url, '_blank');
+      const fileUrl = 'https://github.com/MUDROis/espanol-en-dialogos/blob/main/data/access-codes.json';
+      if (confirm('Открыть GitHub Actions (workflow) — Да\nОткрыть файл access-codes.json для ручного редактирования — Отмена')) {
+        window.open(url, '_blank');
+      } else {
+        window.open(fileUrl, '_blank');
+      }
     };
   </script>
 </body>
