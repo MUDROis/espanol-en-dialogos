@@ -313,9 +313,10 @@ const Games = {
       }
 
       const dialogue = template.map((f, i) => f.es.replace('___', values[i])).join('. ') + '.';
+      const savedText = values.join(', ');
 
       const saved = JSON.parse(localStorage.getItem('espanol_my_dialogues') || '[]');
-      saved.push({ date: new Date().toISOString(), text: dialogue, values });
+      saved.push({ date: new Date().toISOString(), text: savedText, values });
       localStorage.setItem('espanol_my_dialogues', JSON.stringify(saved));
 
       resultDiv.innerHTML = `
