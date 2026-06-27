@@ -7,8 +7,22 @@ const Games = {
     if (!container) return;
 
     const stateId = 'memory_' + Date.now();
+    // Create shuffled index arrays so columns don't match in order
+    const shuffle = (arr) => {
+      const a = [...arr];
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    };
+    const esOrder = shuffle(pairs.map((_, i) => i));
+    const ruOrder = shuffle(pairs.map((_, i) => i));
+
     this.memoryState[stateId] = {
       pairs,
+      esOrder,
+      ruOrder,
       selectedEs: null,
       selectedRu: null,
       matched: new Set()
@@ -20,11 +34,11 @@ const Games = {
       <div class="memory-grid">
         <div class="memory-column" id="memory-es-${stateId}">
           <h3 style="font-size:14px;color:var(--gray-dark);margin-bottom:8px">Español</h3>
-          ${pairs.map((p, i) => `<div class="memory-item" data-id="${i}" data-side="es">${p.es}</div>`).join('')}
+          ${esOrder.map(i => `<div class="memory-item" data-id="${i}" data-side="es">${pairs[i].es}</div>`).join('')}
         </div>
         <div class="memory-column" id="memory-ru-${stateId}">
           <h3 style="font-size:14px;color:var(--gray-dark);margin-bottom:8px">Русский</h3>
-          ${pairs.map((p, i) => `<div class="memory-item" data-id="${i}" data-side="ru">${p.ru}</div>`).join('')}
+          ${ruOrder.map(i => `<div class="memory-item" data-id="${i}" data-side="ru">${pairs[i].ru}</div>`).join('')}
         </div>
       </div>
       <div id="memory-status-${stateId}" style="text-align:center;margin-top:12px;font-weight:600">
