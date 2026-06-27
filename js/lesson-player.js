@@ -172,7 +172,42 @@ const LessonPlayer = {
       Games.fillGap('fill-gap', grammarEx.sentences);
     }
   },
-  renderDialogue() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Диалог...</p></div>'; },
+  renderDialogue() {
+    const d = this.dialog;
+    const app = document.getElementById('app');
+    app.className = 'container';
+
+    app.innerHTML = `
+      <div class="card fade-in">
+        <h2>💬 Диалог: ${d.title}</h2>
+        <p style="margin:8px 0;color:var(--gray-dark)">Прочитайте диалог, затем переходите к упражнениям на говорение</p>
+        <div style="margin:16px 0">
+          <button class="btn btn-primary" id="play-all-btn">🔊 Прослушать весь диалог</button>
+        </div>
+        <div id="dialogue-text">
+          ${d.dialogue.map(line => `
+            <div class="dialogue-line">
+              <span class="speaker">${line.speaker}:</span>
+              <span class="es">${line.es}</span>
+              <span class="ru">${line.ru}</span>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+
+      <div class="card fade-in" style="margin-top:16px">
+        <h3>🎤 Shadowing — повторяй за диктором</h3>
+        <p style="margin:8px 0;color:var(--gray-dark)">Слушай фразу, затем нажми "Повторить" и произнеси вслух</p>
+        <div id="shadowing-player"></div>
+      </div>
+    `;
+
+    document.getElementById('play-all-btn').addEventListener('click', () => {
+      Speech.say(d.dialogue.map(l => l.es).join('. '), 'es-ES');
+    });
+
+    Games.shadowingPlayer('shadowing-player', d.dialogue);
+  },
   renderSpeaking() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Практика говорения...</p></div>'; },
   renderTest() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Тестирование...</p></div>'; },
   renderReflection() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Рефлексия...</p></div>'; }
