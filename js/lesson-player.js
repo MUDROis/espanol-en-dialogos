@@ -36,6 +36,7 @@ const LessonPlayer = {
     }
     this.currentStep = index;
     Progress.set(`dialog-${this.dialog.id}`, { lastStep: index });
+    window.scrollTo(0, 0);
     this.renderStepIndicator();
     this.renderStepContent();
   },
