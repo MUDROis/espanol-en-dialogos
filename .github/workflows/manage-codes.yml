@@ -1,0 +1,77 @@
+name: Manage Access Codes
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Action mode'
+        required: true
+        default: 'add'
+        type: choice
+        options:
+          - add
+          - deactivate
+      code:
+        description: 'Plaintext code (for add mode)'
+        required: false
+        type: string
+      type:
+        description: 'Access type (for add mode)'
+        required: false
+        type: choice
+        options:
+          - demo
+          - full
+          - admin
+      label:
+        description: 'Student label (for add mode)'
+        required: false
+        type: string
+      expires_in:
+        description: 'Expiration (e.g. P1Y, P1M, or empty for never)'
+        required: false
+        default: ''
+        type: string
+      hash:
+        description: 'SHA-256 hash to deactivate (for deactivate mode)'
+        required: false
+        type: string
+
+jobs:
+  manage-codes:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Add code
+        if: inputs.mode == 'add'
+        run: |
+          HASH=$(echo -n "${{ inputs.code }}" | sha256sum | cut -d' ' -f1)
+          EXPIRES_LINE=""
+          if [ -n "${{ inputs.expires_in }}" ]; then
+            EXPIRES_LINE=', "expires_in": "${{ inputs.expires_in }}"'
+          else
+            EXPIRES_LINE=', "expires_in": null'
+          fi
+          jq --argjson entry "{
+            \"hash\": \"$HASH\",
+            \"type\": \"${{ inputs.type }}\",
+            \"label\": \"${{ inputs.label }}\",
+            \"active\": true,
+            \"created_at\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"
+          }" '. + [$entry]' data/access-codes.json > tmp.json && mv tmp.json data/access-codes.json
+
+      - name: Deactivate code
+        if: inputs.mode == 'deactivate'
+        run: |
+          jq '(.[] | select(.hash | startswith("${{ inputs.hash }}")) | .active) = false' data/access-codes.json > tmp.json && mv tmp.json data/access-codes.json
+
+      - name: Commit and push
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add data/access-codes.json
+          git commit -m "chore: update access codes (${{ inputs.mode }})" || echo "No changes to commit"
+          git push
