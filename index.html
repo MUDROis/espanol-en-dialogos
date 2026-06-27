@@ -19,29 +19,6 @@
   </header>
 
   <main>
-    <div id="auth-section" class="container" style="display:none">
-      <div class="auth-card">
-        <div id="auth-form-area">
-          <h2 id="auth-title">Вход в курс</h2>
-          <div id="auth-error" class="auth-error" style="display:none"></div>
-          <input type="email" id="auth-email" class="auth-input" placeholder="Email">
-          <input type="password" id="auth-password" class="auth-input" placeholder="Пароль">
-          <button id="auth-submit" class="btn btn-primary" style="width:100%">Войти</button>
-          <p style="text-align:center;margin-top:12px;font-size:14px">
-            <a href="#" id="auth-toggle" style="color:var(--primary)">Зарегистрироваться</a>
-          </p>
-          <p style="text-align:center;margin-top:8px;font-size:14px;color:var(--gray-dark)">
-            После регистрации сразу откроется демо-доступ к уроку 1
-          </p>
-        </div>
-        <div id="auth-user-area" style="display:none">
-          <p style="text-align:center">Вы вошли как <strong id="auth-user-email"></strong></p>
-          <p style="text-align:center;font-size:14px;color:var(--gray-dark)" id="auth-access-info"></p>
-          <button id="auth-logout" class="btn btn-secondary" style="width:100%">Выйти</button>
-        </div>
-      </div>
-    </div>
-
     <div class="container">
       <div id="progress-summary" style="text-align:center;margin-bottom:24px">
         <p style="font-size:14px;color:var(--gray-dark)">Прогресс: <span id="progress-text">0</span> из <span id="total-text">55</span> диалогов</p>
@@ -61,39 +38,31 @@
     <p style="margin-top:8px">© 2026 — Громова Анна, ИНТЕРАКТИВНАЯ ШКОЛА МУДРО</p>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="js/auth.js"></script>
   <script src="js/progress.js"></script>
+  <script src="js/speech.js"></script>
   <script src="js/app.js"></script>
   <script>
-    let isRegisterMode = false;
+    document.addEventListener('DOMContentLoaded', async () => {
+      const resp = await fetch('data/dialogs.json');
+      const dialogs = await resp.json();
 
-    function showAuthError(msg) {
-      const el = document.getElementById('auth-error');
-      el.textContent = msg;
-      el.style.display = 'block';
-    }
-
-    function hideAuthError() {
-      document.getElementById('auth-error').style.display = 'none';
-    }
-
-    function renderCourse(dialogs) {
       const stats = Progress.getStats();
-      const enrollment = AUTH.getEnrollment();
+
+      // Group by part
+      const parts = {};
+      for (const d of dialogs) {
+        const key = d.part;
+        if (!parts[key]) {
+          parts[key] = { part: key, title: d.partTitle, dialogs: [] };
+        }
+        parts[key].dialogs.push(d);
+      }
 
       const total = 55;
       document.getElementById('total-text').textContent = total;
       document.getElementById('progress-text').textContent = stats.completed;
       const pct = total > 0 ? Math.round((stats.completed / total) * 100) : 0;
       document.getElementById('progress-fill').style.width = pct + '%';
-
-      const parts = {};
-      for (const d of dialogs) {
-        const key = d.part;
-        if (!parts[key]) { parts[key] = { part: key, title: d.partTitle, dialogs: [] }; }
-        parts[key].dialogs.push(d);
-      }
 
       let html = '';
       for (const key of Object.keys(parts).sort((a,b) => a - b)) {
@@ -106,107 +75,21 @@
             </div>
             <div class="part-body">
               ${p.dialogs.map(d => {
-                if (AUTH.canAccessLesson(d.id)) {
-                  const prog = Progress.get('dialog-' + d.id);
-                  let statusClass = 'available';
-                  let statusText = '→';
-                  if (prog.completed) { statusClass = 'done'; statusText = '✓'; }
-                  return '<a href="lesson.html?id=' + d.id + '" class="dialog-link">' +
-                    '<span>' + d.id + '. ' + d.title + '</span>' +
-                    '<span style="font-size:14px;color:var(--gray-dark)">' + d.theme + '</span>' +
-                    '<span class="status ' + statusClass + '">' + statusText + '</span>' +
-                    '</a>';
-                }
-                return '<div class="dialog-link--locked" title="Доступно после покупки курса">' +
-                  '<span>' + d.id + '. ' + d.title + '</span>' +
-                  '<span style="font-size:14px;color:var(--gray-dark)">' + d.theme + '</span>' +
-                  '<span class="status locked">🔒</span>' +
-                  '</div>';
+                const prog = Progress.get(`dialog-${d.id}`);
+                let statusClass = 'available';
+                let statusText = '→';
+                if (prog.completed) { statusClass = 'done'; statusText = '✓'; }
+                return `<a href="lesson.html?id=${d.id}" class="dialog-link">
+                  <span>${d.id}. ${d.title}</span>
+                  <span style="font-size:14px;color:var(--gray-dark)">${d.theme}</span>
+                  <span class="status ${statusClass}">${statusText}</span>
+                </a>`;
               }).join('')}
             </div>
           </div>`;
       }
+
       document.getElementById('course-content').innerHTML = html;
-    }
-
-    function showAuth(isAuthenticated, enrollment) {
-      const authSection = document.getElementById('auth-section');
-      const courseSection = document.getElementById('progress-summary').parentElement;
-      if (!isAuthenticated) {
-        authSection.style.display = 'block';
-        courseSection.style.display = 'none';
-        document.getElementById('auth-form-area').style.display = 'block';
-        document.getElementById('auth-user-area').style.display = 'none';
-      } else {
-        authSection.style.display = 'block';
-        courseSection.style.display = 'block';
-        document.getElementById('auth-form-area').style.display = 'none';
-        document.getElementById('auth-user-area').style.display = 'block';
-        document.getElementById('auth-user-email').textContent = AUTH.getUser().email;
-        const accessInfo = document.getElementById('auth-access-info');
-        if (enrollment && enrollment.access_type === 'admin') {
-          accessInfo.textContent = 'Администратор — полный доступ ко всем урокам';
-        } else if (enrollment && enrollment.access_type === 'demo') {
-          accessInfo.textContent = 'Демо-доступ: открыт урок 1';
-        } else if (enrollment && enrollment.access_type === 'full') {
-          if (enrollment.access_expires_at) {
-            const expiry = new Date(enrollment.access_expires_at).toLocaleDateString('ru-RU');
-            accessInfo.textContent = 'Полный доступ до ' + expiry;
-          } else {
-            accessInfo.textContent = 'Полный доступ — все уроки открыты';
-          }
-        } else {
-          accessInfo.textContent = '';
-        }
-      }
-    }
-
-    document.addEventListener('DOMContentLoaded', async () => {
-      await AUTH.init();
-
-      const resp = await fetch('data/dialogs.json');
-      const dialogs = await resp.json();
-
-      AUTH.onChange((user, enrollment) => {
-        showAuth(!!user, enrollment);
-        if (user) {
-          renderCourse(dialogs);
-        }
-      });
-
-      document.getElementById('auth-submit').addEventListener('click', async () => {
-        hideAuthError();
-        const email = document.getElementById('auth-email').value.trim();
-        const password = document.getElementById('auth-password').value;
-        if (!email || !password) { showAuthError('Заполните email и пароль'); return; }
-        let error;
-        if (isRegisterMode) {
-          const res = await AUTH.register(email, password);
-          if (res.error) { showAuthError(res.error.message); return; }
-          showAuthError('Регистрация успешна! Проверьте email для подтверждения (если требуется).');
-        } else {
-          const res = await AUTH.login(email, password);
-          if (res.error) { showAuthError(res.error.message); return; }
-        }
-      });
-
-      document.getElementById('auth-toggle').addEventListener('click', (e) => {
-        e.preventDefault();
-        isRegisterMode = !isRegisterMode;
-        document.getElementById('auth-title').textContent = isRegisterMode ? 'Регистрация' : 'Вход в курс';
-        document.getElementById('auth-submit').textContent = isRegisterMode ? 'Зарегистрироваться' : 'Войти';
-        document.getElementById('auth-toggle').textContent = isRegisterMode ? 'Уже есть аккаунт? Войти' : 'Зарегистрироваться';
-        hideAuthError();
-      });
-
-      document.getElementById('auth-logout').addEventListener('click', () => {
-        AUTH.logout();
-      });
-
-      if (AUTH.isAuthenticated()) {
-        showAuth(true, AUTH.getEnrollment());
-        renderCourse(dialogs);
-      }
     });
   </script>
 </body>
