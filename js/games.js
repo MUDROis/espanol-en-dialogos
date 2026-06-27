@@ -187,5 +187,108 @@ const Games = {
     };
 
     renderLine();
+  },
+
+  createDialogue(containerId, template) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
+    container.innerHTML = `
+      <p style="margin-bottom:16px">Заполни пропуски своей информацией, затем нажми «Записать»</p>
+      ${template.map((field, i) => `
+        <div class="create-dialogue-field">
+          <label>${field.label}</label>
+          <input type="text" id="cd-${i}" placeholder="${field.es}" data-es="${field.es}">
+          <p style="font-size:14px;color:var(--gray-dark);margin-top:2px">${field.es}</p>
+        </div>
+      `).join('')}
+      <button class="btn btn-success" id="save-dialogue">💾 Сохранить мой диалог</button>
+      <div id="my-dialogue-result" style="margin-top:16px"></div>
+    `;
+
+    document.getElementById('save-dialogue').addEventListener('click', () => {
+      const values = template.map((_, i) => document.getElementById(`cd-${i}`).value.trim());
+      const resultDiv = document.getElementById('my-dialogue-result');
+
+      if (values.some(v => !v)) {
+        resultDiv.innerHTML = '<span style="color:var(--error)">Заполните все поля!</span>';
+        return;
+      }
+
+      const dialogue = `Hola, me llamo ${values[0]}. Soy de ${values[1]}. Estoy aqu\u00ED porque ${values[2]}.`;
+
+      const saved = JSON.parse(localStorage.getItem('espanol_my_dialogues') || '[]');
+      saved.push({ date: new Date().toISOString(), text: dialogue, values });
+      localStorage.setItem('espanol_my_dialogues', JSON.stringify(saved));
+
+      resultDiv.innerHTML = `
+        <div style="padding:16px;background:#f0fff4;border-radius:8px">
+          <p style="font-weight:600">✅ Твой диалог сохранён!</p>
+          <p style="margin:8px 0">${dialogue}</p>
+          <button class="btn btn-secondary" style="font-size:14px" id="play-my-dialogue">🔊 Прослушать</button>
+        </div>
+      `;
+
+      document.getElementById('play-my-dialogue').addEventListener('click', () => {
+        Speech.say(dialogue, 'es-ES');
+      });
+    });
+  },
+
+  quiz(containerId, questions) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
+    let currentQ = 0;
+    let score = 0;
+    let answered = false;
+
+    const renderQuestion = () => {
+      const q = questions[currentQ];
+      container.innerHTML = `
+        <p style="margin-bottom:12px;color:var(--gray-dark)">Вопрос ${currentQ + 1} из ${questions.length}</p>
+        <p style="font-size:18px;font-weight:600;margin-bottom:12px">${q.question}</p>
+        <div class="quiz-options">
+          ${q.options.map((opt, i) => `
+            <button class="quiz-option" data-index="${i}">${opt}</button>
+          `).join('')}
+        </div>
+        <div id="quiz-feedback" style="margin-top:12px"></div>
+        <div style="display:flex;justify-content:space-between;margin-top:16px">
+          <button class="btn btn-secondary" id="quiz-prev" ${currentQ === 0 ? 'disabled' : ''}>← Назад</button>
+          <span style="color:var(--gray-dark)">Правильно: ${score}</span>
+          <button class="btn btn-primary" id="quiz-next" ${currentQ === questions.length - 1 ? 'disabled' : ''}>Далее →</button>
+        </div>
+      `;
+
+      container.querySelectorAll('.quiz-option').forEach(btn => {
+        btn.addEventListener('click', () => {
+          if (answered) return;
+          const selected = parseInt(btn.dataset.index);
+          const isCorrect = selected === q.answer;
+
+          container.querySelectorAll('.quiz-option').forEach((b, i) => {
+            b.classList.remove('selected', 'correct', 'incorrect');
+            if (i === q.answer) b.classList.add('correct');
+            else if (i === selected) b.classList.add('incorrect');
+          });
+
+          if (isCorrect) score++;
+          answered = true;
+          document.getElementById('quiz-feedback').innerHTML = isCorrect
+            ? '<span style="color:var(--success);font-weight:600">✅ Верно!</span>'
+            : `<span style="color:var(--error);font-weight:600">❌ Неверно. Правильный ответ: ${q.options[q.answer]}</span>`;
+        });
+      });
+
+      document.getElementById('quiz-prev')?.addEventListener('click', () => {
+        if (currentQ > 0) { currentQ--; answered = false; renderQuestion(); }
+      });
+      document.getElementById('quiz-next')?.addEventListener('click', () => {
+        if (currentQ < questions.length - 1) { currentQ++; answered = false; renderQuestion(); }
+      });
+    };
+
+    renderQuestion();
   }
 };

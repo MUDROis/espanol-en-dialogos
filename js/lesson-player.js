@@ -208,7 +208,83 @@ const LessonPlayer = {
 
     Games.shadowingPlayer('shadowing-player', d.dialogue);
   },
-  renderSpeaking() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Практика говорения...</p></div>'; },
-  renderTest() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Тестирование...</p></div>'; },
-  renderReflection() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Рефлексия...</p></div>'; }
+  renderSpeaking() {
+    const d = this.dialog;
+    const app = document.getElementById('app');
+    app.className = 'container';
+
+    const createEx = d.exercises.find(e => e.type === 'create-dialogue');
+
+    app.innerHTML = `
+      <div class="card fade-in">
+        <h2>🗣 Практика говорения</h2>
+        <p style="margin:8px 0;color:var(--gray-dark)">Теперь твоя очередь! Создай свой собственный диалог.</p>
+        <div id="create-dialogue"></div>
+      </div>
+    `;
+
+    if (createEx) {
+      Games.createDialogue('create-dialogue', createEx.template);
+    }
+  },
+  renderTest() {
+    const d = this.dialog;
+    const app = document.getElementById('app');
+    app.className = 'container';
+
+    const quizEx = d.exercises.find(e => e.type === 'quiz');
+
+    app.innerHTML = `
+      <div class="card fade-in">
+        <h2>📝 Тестирование</h2>
+        <p style="margin:8px 0;color:var(--gray-dark)">Проверь, что ты усвоил в этом уроке</p>
+        <div id="quiz-container"></div>
+      </div>
+    `;
+
+    if (quizEx) {
+      Games.quiz('quiz-container', quizEx.questions);
+    }
+  },
+  renderReflection() {
+    const d = this.dialog;
+    const prog = Progress.get(`dialog-${d.id}`);
+    const app = document.getElementById('app');
+    app.className = 'container';
+
+    app.innerHTML = `
+      <div class="card fade-in" style="text-align:center">
+        <h2>🎉 Урок завершён!</h2>
+        <p style="margin:12px 0;color:var(--gray-dark)">Поздравляю! Ты успешно прошёл диалог "${d.title}"</p>
+
+        <div class="score-display">
+          <div class="score-number">${d.id}</div>
+          <div class="score-label">Диалог пройден</div>
+        </div>
+
+        <div style="max-width:400px;margin:16px auto">
+          <h3 style="margin-bottom:12px">✅ Чек-лист достижений:</h3>
+          <div style="text-align:left">
+            <p>✅ Выучил(а) ${Object.values(d.vocabulary).flat().length} новых слов</p>
+            <p>✅ Понимаю диалог на слух</p>
+            <p>✅ Могу представиться на испанском</p>
+            <p>✅ Различаю ser и estar</p>
+            <p>✅ Записал(а) свой диалог</p>
+          </div>
+        </div>
+
+        <div style="margin:24px 0;padding:16px;background:var(--gray);border-radius:8px;text-align:left">
+          <h3>📚 Домашнее задание:</h3>
+          <ol style="margin:8px 0 0 20px">
+            ${d.homework.map(h => `<li style="padding:4px 0">${h}</li>`).join('')}
+          </ol>
+        </div>
+
+        <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+          <a href="lesson.html?id=${d.id}" class="btn btn-secondary">🔄 Пройти заново</a>
+          <a href="index.html" class="btn btn-primary">🏠 На главную</a>
+        </div>
+      </div>
+    `;
+  }
 };
