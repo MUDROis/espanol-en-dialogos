@@ -118,10 +118,21 @@ const LessonPlayer = {
     const app = document.getElementById('app');
     app.className = 'container';
 
+    // Собираем всю лексику для карточек
     const allVocab = [];
     Object.values(d.vocabulary).forEach(group => {
       group.forEach(item => allVocab.push(item));
     });
+
+    // Определяем пары для Memory игры
+    let memoryPairs = [];
+    const memoryEx = d.exercises.find(e => e.type === 'memory');
+    if (memoryEx && memoryEx.pairs && memoryEx.pairs.length > 0) {
+      memoryPairs = memoryEx.pairs;
+    } else {
+      // Запасной вариант: берём первые 8 слов из лексики
+      memoryPairs = allVocab.slice(0, 8);
+    }
 
     app.innerHTML = `
       <div class="card fade-in">
@@ -145,8 +156,8 @@ const LessonPlayer = {
       </div>
     `;
 
-    const pairs = allVocab.slice(0, 8);
-    Games.memoryGame('memory-game', pairs);
+    // Запускаем Memory игру с найденными парами
+    Games.memoryGame('memory-game', memoryPairs);
   },
 
   renderGrammar() {
