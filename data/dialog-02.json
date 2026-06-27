@@ -24,7 +24,10 @@
     "estar_acostumbrado": {
       "yo": { "es": "estoy acostumbrado/a", "ru": "я привык/привыкла" },
       "tu": { "es": "estás acostumbrado/a", "ru": "ты привык/привыкла" },
-      "el_ella": { "es": "está acostumbrado/a", "ru": "он/она привык/привыкла" }
+      "el_ella": { "es": "está acostumbrado/a", "ru": "он/она привык/привыкла" },
+      "nosotros": { "es": "estamos acostumbrados/as", "ru": "мы привыкли" },
+      "vosotros": { "es": "estáis acostumbrados/as", "ru": "вы привыкли" },
+      "ellos_ellas": { "es": "están acostumbrados/as", "ru": "они привыкли" }
     },
     "tener": {
       "yo": { "es": "tengo", "ru": "я имею" },

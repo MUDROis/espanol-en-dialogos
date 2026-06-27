@@ -15,16 +15,26 @@
     "ser": {
       "yo": { "es": "soy", "ru": "я есть" },
       "tu": { "es": "eres", "ru": "ты есть" },
-      "el_ella": { "es": "es", "ru": "он/она есть" }
+      "el_ella": { "es": "es", "ru": "он/она есть" },
+      "nosotros": { "es": "somos", "ru": "мы есть" },
+      "vosotros": { "es": "sois", "ru": "вы есть" },
+      "ellos_ellas": { "es": "son", "ru": "они есть" }
     },
     "estar": {
       "yo": { "es": "estoy", "ru": "я нахожусь" },
       "tu": { "es": "estás", "ru": "ты находишься" },
-      "el_ella": { "es": "está", "ru": "он/она находится" }
+      "el_ella": { "es": "está", "ru": "он/она находится" },
+      "nosotros": { "es": "estamos", "ru": "мы находимся" },
+      "vosotros": { "es": "estáis", "ru": "вы находитесь" },
+      "ellos_ellas": { "es": "están", "ru": "они находятся" }
     },
     "llamarse": {
       "yo": { "es": "me llamo", "ru": "меня зовут" },
-      "tu": { "es": "te llamas", "ru": "тебя зовут" }
+      "tu": { "es": "te llamas", "ru": "тебя зовут" },
+      "el_ella": { "es": "se llama", "ru": "его/её зовут" },
+      "nosotros": { "es": "nos llamamos", "ru": "нас зовут" },
+      "vosotros": { "es": "os llamáis", "ru": "вас зовут" },
+      "ellos_ellas": { "es": "se llaman", "ru": "их зовут" }
     }
   },
   "vocabulary": {
