@@ -189,6 +189,89 @@ const Games = {
     renderLine();
   },
 
+  roleplayGame(containerId, dialogue, role) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
+    const userLines = dialogue.filter(l => l.speaker === role);
+    const allLines = dialogue;
+    let currentIndex = 0;
+    let score = 0;
+
+    const renderLine = () => {
+      const line = userLines[currentIndex];
+      const lineIndex = allLines.findIndex(l => l === line);
+      const prevLine = lineIndex > 0 ? allLines[lineIndex - 1] : null;
+
+      container.innerHTML = `
+        <div style="text-align:center;margin-bottom:12px">
+          <span style="font-weight:700;color:var(--primary)">Твоя роль: ${role}</span>
+          <span style="color:var(--gray-dark);margin-left:12px">${currentIndex + 1} / ${userLines.length}</span>
+        </div>
+        ${prevLine ? `
+          <div style="padding:12px;background:var(--gray);border-radius:8px;margin-bottom:12px">
+            <p style="font-size:14px;color:var(--gray-dark)">${prevLine.speaker} говорит:</p>
+            <p style="font-weight:600">${prevLine.es}</p>
+            <p style="font-size:14px;color:var(--gray-dark)">${prevLine.ru}</p>
+          </div>
+        ` : '<p style="text-align:center;color:var(--gray-dark);margin:12px 0">Ты начинаешь диалог!</p>'}
+        <div style="padding:12px;border:2px solid var(--primary);border-radius:8px;background:#fff0f0">
+          <p style="font-size:14px;color:var(--primary)">Твоя реплика (${role}):</p>
+          <p style="font-weight:600;font-size:18px;margin:4px 0">${line.es}</p>
+          <p style="font-size:14px;color:var(--gray-dark)">${line.ru}</p>
+        </div>
+        <div style="text-align:center;margin:12px 0">
+          <button class="btn btn-primary" id="roleplay-listen">🔊 Прослушать контекст</button>
+          <button class="btn btn-secondary" id="roleplay-speak">🎤 Скажи это</button>
+        </div>
+        <div id="roleplay-result" style="text-align:center"></div>
+        <div style="display:flex;justify-content:space-between;margin-top:12px">
+          <button class="btn btn-secondary" id="roleplay-prev" ${currentIndex === 0 ? 'disabled' : ''}>← Назад</button>
+          <span style="color:var(--gray-dark)">Очки: ${score}</span>
+          <button class="btn btn-primary" id="roleplay-next" ${currentIndex === userLines.length - 1 ? 'disabled' : ''}>Далее →</button>
+        </div>
+      `;
+
+      document.getElementById('roleplay-listen')?.addEventListener('click', () => {
+        const text = prevLine ? prevLine.es : line.es;
+        Speech.say(text, 'es-ES');
+      });
+
+      document.getElementById('roleplay-speak')?.addEventListener('click', () => {
+        const resultDiv = document.getElementById('roleplay-result');
+        resultDiv.innerHTML = '🎤 Говорите...';
+        Speech.recognize(line.es, (percent, text) => {
+          if (percent === null) {
+            resultDiv.innerHTML = `<span style="color:var(--error)">${text}</span>`;
+          } else {
+            resultDiv.innerHTML = `
+              <div>Распознано: ${percent}%</div>
+              <div style="font-size:14px;color:var(--gray-dark)">Вы сказали: "${text}"</div>
+            `;
+            if (percent >= 50) score++;
+          }
+        });
+      });
+
+      document.getElementById('roleplay-prev')?.addEventListener('click', () => {
+        if (currentIndex > 0) { currentIndex--; renderLine(); }
+      });
+      document.getElementById('roleplay-next')?.addEventListener('click', () => {
+        if (currentIndex < userLines.length - 1) { currentIndex++; renderLine(); }
+        else {
+          container.innerHTML = `
+            <div style="text-align:center;padding:24px">
+              <h3>🎉 Ролевая игра завершена!</h3>
+              <p>Правильно произнесено: ${score} из ${userLines.length}</p>
+            </div>
+          `;
+        }
+      });
+    };
+
+    renderLine();
+  },
+
   createDialogue(containerId, template) {
     const container = document.getElementById(containerId);
     if (!container) return;
@@ -235,7 +318,7 @@ const Games = {
     });
   },
 
-  quiz(containerId, questions) {
+  quiz(containerId, questions, dialogId) {
     const container = document.getElementById(containerId);
     if (!container) return;
 
@@ -275,6 +358,7 @@ const Games = {
           });
 
           if (isCorrect) score++;
+          if (dialogId) Progress.set(dialogId, { score });
           answered = true;
           document.getElementById('quiz-feedback').innerHTML = isCorrect
             ? '<span style="color:var(--success);font-weight:600">✅ Верно!</span>'

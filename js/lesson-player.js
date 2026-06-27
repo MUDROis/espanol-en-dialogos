@@ -214,6 +214,7 @@ const LessonPlayer = {
     app.className = 'container';
 
     const createEx = d.exercises.find(e => e.type === 'create-dialogue');
+    const roleplayExs = d.exercises.filter(e => e.type === 'roleplay');
 
     app.innerHTML = `
       <div class="card fade-in">
@@ -221,11 +222,21 @@ const LessonPlayer = {
         <p style="margin:8px 0;color:var(--gray-dark)">Теперь твоя очередь! Создай свой собственный диалог.</p>
         <div id="create-dialogue"></div>
       </div>
+      ${roleplayExs.map((ex, i) => `
+        <div class="card fade-in" style="margin-top:16px">
+          <h3>🎭 ${ex.title}</h3>
+          <p style="margin:8px 0;color:var(--gray-dark)">${ex.description || 'Сыграй роль и произнеси свои реплики'}</p>
+          <div id="roleplay-${i}"></div>
+        </div>
+      `).join('')}
     `;
 
     if (createEx) {
       Games.createDialogue('create-dialogue', createEx.template);
     }
+    roleplayExs.forEach((ex, i) => {
+      Games.roleplayGame(`roleplay-${i}`, d.dialogue, ex.role);
+    });
   },
   renderTest() {
     const d = this.dialog;
@@ -243,7 +254,7 @@ const LessonPlayer = {
     `;
 
     if (quizEx) {
-      Games.quiz('quiz-container', quizEx.questions);
+      Games.quiz('quiz-container', quizEx.questions, `dialog-${d.id}`);
     }
   },
   renderReflection() {
