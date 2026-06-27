@@ -53,6 +53,11 @@ jobs:
           LABEL: ${{ inputs.label }}
           EXPIRES_IN: ${{ inputs.expires_in }}
         run: |
+          if [ -z "$CODE" ]; then
+            CODE=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c8 | sed 's/\(....\)/\1-/; s/-$//')
+            echo "GENERATED_CODE=$CODE" >> $GITHUB_ENV
+          fi
+          echo "Using code: $CODE"
           HASH=$(echo -n "$CODE" | sha256sum | cut -d' ' -f1)
           CREATED_AT=$(date -u +%Y-%m-%dT%H:%M:%SZ)
           if [ -n "$EXPIRES_IN" ]; then
@@ -66,6 +71,10 @@ jobs:
               '. + [{$hash, type: $type, label: $label, active: true, expires_in: null, created_at: $created_at}]' \
               data/access-codes.json > tmp.json && mv tmp.json data/access-codes.json
           fi
+
+      - name: Show generated code
+        if: inputs.mode == 'add' && env.GENERATED_CODE != ''
+        run: echo "::notice title=Generated Code::$GENERATED_CODE"
 
       - name: Deactivate code
         if: inputs.mode == 'deactivate'
