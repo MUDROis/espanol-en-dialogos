@@ -197,6 +197,7 @@ const LessonPlayer = {
           <p><strong>SER</strong> — для постоянных характеристик (национальность, профессия, имя)</p>
           <p><strong>ESTAR</strong> — для временных состояний и местоположения</p>` : `
           <p><strong>ESTAR + прилагательное</strong> — для временных состояний и чувств: <em>estoy contento, estoy cansado</em></p>
+          <p><strong>Окончание женского рода</strong> — прилагательные меняют <em>-o</em> на <em>-a</em>: <em>contento → contenta, cansado → cansada, enamorado → enamorada</em></p>
           <p><strong>ESTAR acostumbrado a</strong> — «быть привыкшим к»: <em>estoy acostumbrado a la vida aquí</em></p>
           <p><strong>TENER + возраст</strong> — для указания возраста: <em>tiene 17 años</em></p>
           <p><strong>VIVIR</strong> — спряжение: <em>vivo, vives, vive, vivimos, vivís, viven</em></p>`}
