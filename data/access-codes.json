@@ -1,0 +1,26 @@
+[
+  {
+    "hash": "c06eb9f7e1ac0c877d6ca986ee1981decc241410d580ad5cdc103d083a9350d5",
+    "type": "demo",
+    "expires_at": null,
+    "label": "Демо-доступ"
+  },
+  {
+    "hash": "6643631c26607f801caaa528712f9df71e7896b27481c72d96520970da1c35f0",
+    "type": "full",
+    "expires_at": null,
+    "label": "Полный доступ"
+  },
+  {
+    "hash": "99b77750f374d40df26e232c8f6f17dbfdf95754b38626fe9fda1c419dbf059c",
+    "type": "full",
+    "expires_at": null,
+    "label": "Полный доступ"
+  },
+  {
+    "hash": "d5dff81938a5909d9272618b2ceea32b28eba9702c76ef9333a1406ddc1e50c7",
+    "type": "admin",
+    "expires_at": null,
+    "label": "Администратор"
+  }
+]

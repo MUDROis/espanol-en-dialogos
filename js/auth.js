@@ -1,105 +1,99 @@
 /* js/auth.js */
 const AUTH = (() => {
-  const SUPABASE_URL = 'https://rotxbdrftnrksyhukkth.supabase.co';
-  const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJvdHhiZHJmdG5ya3N5aHVra3RoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI1MDQ5MjQsImV4cCI6MjA5ODA4MDkyNH0.9yh1k6p1A_uvm0-wHnybVvoEFO7_eZSDiGI6eH67Ee0';
+  const CODES_URL = 'data/access-codes.json';
+  const STORAGE_KEY = 'espanol_activation';
 
-  const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-
-  let currentUser = null;
-  let currentEnrollment = null;
+  let currentActivation = null;
+  let codesCache = null;
   let authListeners = [];
-  let initialized = false;
 
-  function notify() {
-    authListeners.forEach(fn => fn(currentUser, currentEnrollment));
+  async function sha256(str) {
+    const buf = new TextEncoder().encode(str);
+    const hash = await crypto.subtle.digest('SHA-256', buf);
+    return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, '0')).join('');
   }
 
-  async function loadEnrollment() {
-    if (!currentUser) { currentEnrollment = null; return; }
-    const { data } = await supabase
-      .from('enrollments')
-      .select('*')
-      .eq('user_id', currentUser.id)
-      .single();
-    currentEnrollment = data || null;
+  async function loadCodes() {
+    if (codesCache) return codesCache;
+    const resp = await fetch(CODES_URL);
+    codesCache = await resp.json();
+    return codesCache;
+  }
+
+  function loadActivation() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      return raw ? JSON.parse(raw) : null;
+    } catch { return null; }
+  }
+
+  function saveActivation(data) {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+  }
+
+  function notify() {
+    authListeners.forEach(fn => fn(currentActivation?.type || null));
   }
 
   return {
     async init() {
-      if (initialized) return;
-      initialized = true;
-
-      try {
-        const result = await Promise.race([
-          supabase.auth.getSession(),
-          new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 8000))
-        ]);
-        const session = result.data?.session || null;
-        if (session) {
-          currentUser = session.user;
-          await loadEnrollment();
-        }
-      } catch (e) {
-        currentUser = null;
-        currentEnrollment = null;
-      }
+      currentActivation = loadActivation();
       notify();
-
-      supabase.auth.onAuthStateChange(async (event, session) => {
-        if (session && (event === 'SIGNED_IN' || event === 'TOKEN_REFRESHED')) {
-          currentUser = session.user;
-          await loadEnrollment();
-        } else if (event === 'SIGNED_OUT') {
-          currentUser = null;
-          currentEnrollment = null;
-        }
-        notify();
-      });
     },
 
-    getUser() { return currentUser; },
-    getEnrollment() { return currentEnrollment; },
-    isAuthenticated() { return !!currentUser; },
+    isAuthenticated() { return !!currentActivation; },
+    getActivation() { return currentActivation; },
 
     canAccessLesson(lessonId) {
-      if (!currentEnrollment) return false;
-      if (currentEnrollment.access_type === 'admin') return true;
-      if (currentEnrollment.access_type === 'full') {
-        if (currentEnrollment.access_expires_at) {
-          return new Date(currentEnrollment.access_expires_at) > new Date();
+      if (!currentActivation) return false;
+      if (currentActivation.type === 'admin') return true;
+      if (currentActivation.type === 'full') {
+        if (currentActivation.expires_at) {
+          return new Date(currentActivation.expires_at) > new Date();
         }
         return true;
       }
-      if (currentEnrollment.access_type === 'demo') {
+      if (currentActivation.type === 'demo') {
         return lessonId === 1;
       }
       return false;
     },
 
-    async register(email, password) {
-      const { data, error } = await supabase.auth.signUp({ email, password });
-      return { data, error };
+    async activate(code) {
+      const hash = await sha256(code);
+      const codes = await loadCodes();
+      const match = codes.find(c => c.hash === hash);
+      if (!match) return { error: 'Неверный код доступа' };
+      if (match.expires_at && new Date(match.expires_at) < new Date()) {
+        return { error: 'Срок действия кода истёк' };
+      }
+      currentActivation = {
+        type: match.type,
+        expires_at: match.expires_at || null,
+        activated_at: new Date().toISOString(),
+        codeHash: hash
+      };
+      saveActivation(currentActivation);
+      notify();
+      return { success: true };
     },
 
-    async login(email, password) {
-      const { data, error } = await supabase.auth.signInWithPassword({ email, password });
-      return { data, error };
-    },
-
-    async logout() {
-      await supabase.auth.signOut();
+    logout() {
+      currentActivation = null;
+      localStorage.removeItem(STORAGE_KEY);
+      notify();
     },
 
     onChange(fn) {
       authListeners.push(fn);
-      if (currentUser !== null) {
-        setTimeout(() => fn(currentUser, currentEnrollment), 0);
+      if (currentActivation) {
+        setTimeout(() => fn(currentActivation.type), 0);
       }
       return () => { authListeners = authListeners.filter(f => f !== fn); };
     },
 
     getAccessType() {
-      return currentEnrollment ? currentEnrollment.access_type : null;
+      return currentActivation ? currentActivation.type : null;
     }
   };
 })();
