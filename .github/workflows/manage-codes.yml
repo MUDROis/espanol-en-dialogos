@@ -47,21 +47,25 @@ jobs:
 
       - name: Add code
         if: inputs.mode == 'add'
+        env:
+          CODE: ${{ inputs.code }}
+          TYPE: ${{ inputs.type }}
+          LABEL: ${{ inputs.label }}
+          EXPIRES_IN: ${{ inputs.expires_in }}
         run: |
-          HASH=$(echo -n "${{ inputs.code }}" | sha256sum | cut -d' ' -f1)
-          EXPIRES_LINE=""
-          if [ -n "${{ inputs.expires_in }}" ]; then
-            EXPIRES_LINE=', "expires_in": "${{ inputs.expires_in }}"'
+          HASH=$(echo -n "$CODE" | sha256sum | cut -d' ' -f1)
+          CREATED_AT=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          if [ -n "$EXPIRES_IN" ]; then
+            jq --arg hash "$HASH" --arg type "$TYPE" --arg label "$LABEL" \
+              --arg created_at "$CREATED_AT" --arg expires_in "$EXPIRES_IN" \
+              '. + [{$hash, type: $type, label: $label, active: true, expires_in: $expires_in, created_at: $created_at}]' \
+              data/access-codes.json > tmp.json && mv tmp.json data/access-codes.json
           else
-            EXPIRES_LINE=', "expires_in": null'
+            jq --arg hash "$HASH" --arg type "$TYPE" --arg label "$LABEL" \
+              --arg created_at "$CREATED_AT" \
+              '. + [{$hash, type: $type, label: $label, active: true, expires_in: null, created_at: $created_at}]' \
+              data/access-codes.json > tmp.json && mv tmp.json data/access-codes.json
           fi
-          jq --argjson entry "{
-            \"hash\": \"$HASH\",
-            \"type\": \"${{ inputs.type }}\",
-            \"label\": \"${{ inputs.label }}\",
-            \"active\": true,
-            \"created_at\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"
-          }" '. + [$entry]' data/access-codes.json > tmp.json && mv tmp.json data/access-codes.json
 
       - name: Deactivate code
         if: inputs.mode == 'deactivate'
