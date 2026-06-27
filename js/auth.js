@@ -28,10 +28,20 @@ const AUTH = (() => {
     async init() {
       if (initialized) return;
       initialized = true;
-      const { data: { session } } = await supabase.auth.getSession();
-      if (session) {
-        currentUser = session.user;
-        await loadEnrollment();
+
+      try {
+        const result = await Promise.race([
+          supabase.auth.getSession(),
+          new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 8000))
+        ]);
+        const session = result.data?.session || null;
+        if (session) {
+          currentUser = session.user;
+          await loadEnrollment();
+        }
+      } catch (e) {
+        currentUser = null;
+        currentEnrollment = null;
       }
       notify();
 
