@@ -187,6 +187,8 @@
       if (AUTH.isAuthenticated()) {
         showAuth(true, AUTH.getActivation());
         renderCourse(dialogs);
+      } else {
+        showAuth(false, null);
       }
     });
   </script>
