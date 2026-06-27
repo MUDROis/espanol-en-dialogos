@@ -1,3 +1,34 @@
+# Task 5: Landing page (index.html)
+
+**Files:**
+- Modify: `index.html` (replace with full landing page)
+
+**Dependencies:**
+- Consumes: `Progress.getStats()`, `Progress.get(dialogId)` from Task 2
+- Consumes: `data/dialogs.json` from Task 1
+
+### Step 1: Verify dialogs.json exists at `data/dialogs.json`
+
+It should contain:
+```json
+[
+  {
+    "id": 1,
+    "title": "Javier conoce a Ana",
+    "titleRu": "Хавьер знакомится с Анной",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "Presentaciones"
+  }
+]
+```
+
+If it has `{"parts": []}` or different format, overwrite it with the above.
+
+### Step 2: Replace index.html with full landing page
+
+```html
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -88,3 +119,7 @@
   </script>
 </body>
 </html>
+```
+
+### Step 3: Test
+Open `index.html`. Should see header, progress bar, and Part I card with "1. Javier conoce a Ana". Click → `lesson.html?id=1`.

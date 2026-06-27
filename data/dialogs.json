@@ -1,3 +1,11 @@
-{
-  "parts": []
-}
+[
+  {
+    "id": 1,
+    "title": "Javier conoce a Ana",
+    "titleRu": "Хавьер знакомится с Анной",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "Presentaciones"
+  }
+]
