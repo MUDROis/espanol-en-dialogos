@@ -125,22 +125,26 @@
       "questions": [
         {
           "question": "¿Cómo se dice «Меня зовут»?",
+          "ru": "Как сказать «Меня зовут»?",
           "options": ["Me llamo", "Soy", "Estoy", "Te llamas"],
           "answer": 0
         },
         {
           "question": "¿De dónde es Javier?",
+          "ru": "Откуда Хавьер?",
           "options": ["De Holanda", "De Italia", "De España", "De Francia"],
           "answer": 1
         },
         {
           "question": "¿Dónde vive Ana?",
+          "ru": "Где живёт Анна?",
           "options": ["En el centro", "En los alrededores", "En Turín", "En la universidad"],
           "answer": 1
         },
         {
           "question": "¿Qué estudia Javier?",
-          "options": ["Español", "Medicina", "Arte", "Historia"],
+          "ru": "Что изучает Хавьер?",
+          "options": ["Medicina", "Arte", "Historia"],
           "answer": 1
         }
       ]

@@ -345,7 +345,8 @@ const Games = {
       const q = questions[currentQ];
       container.innerHTML = `
         <p style="margin-bottom:12px;color:var(--gray-dark)">Вопрос ${currentQ + 1} из ${questions.length}</p>
-        <p style="font-size:18px;font-weight:600;margin-bottom:12px">${q.question}</p>
+        <p style="font-size:18px;font-weight:600;margin-bottom:4px">${q.question}</p>
+        ${q.ru ? `<p style="font-size:14px;color:var(--gray-dark);margin-bottom:12px">${q.ru}</p>` : ''}
         <div class="quiz-options">
           ${q.options.map((opt, i) => `
             <button class="quiz-option" data-index="${i}">${opt}</button>
