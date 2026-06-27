@@ -3,7 +3,7 @@ const Speech = {
   isSupported: 'speechSynthesis' in window,
   isRecognitionSupported: 'SpeechRecognition' in window || 'webkitSpeechRecognition' in window,
 
-  say(text, lang = 'es-ES', rate = 0.9) {
+  say(text, lang = 'es-ES', rate = 0.72) {
     return new Promise((resolve) => {
       if (!this.isSupported) { resolve(); return; }
       speechSynthesis.cancel();
