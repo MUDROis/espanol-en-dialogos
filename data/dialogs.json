@@ -7,5 +7,14 @@
     "partTitle": "Базовый уровень (A2)",
     "level": "A2",
     "theme": "Presentaciones"
+  },
+  {
+    "id": 2,
+    "title": "Javier y Ana están en el café",
+    "titleRu": "Хавьер и Анна находятся в кафе",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "La escuela, la familia, la vida diaria"
   }
 ]

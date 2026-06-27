@@ -81,11 +81,16 @@ const LessonPlayer = {
     const d = this.dialog;
     const app = document.getElementById('app');
     app.className = 'container';
+    const themeIntro = {
+      "Presentaciones": "Сегодня вы научитесь <strong>знакомиться на испанском</strong>. Представьте: вы на языковых курсах в Малаге и встречаете нового друга...",
+      "La escuela, la familia, la vida diaria": "Продолжаем общение! Сегодня вы научитесь <strong>говорить о своих чувствах, учёбе и семье</strong>. Хавьер и Анна встретились в кафе после занятий..."
+    };
+    const intro = themeIntro[d.theme] || `Сегодня вы будете работать с диалогом: <strong>${d.title}</strong>.`;
+
     app.innerHTML = `
       <div class="card fade-in">
         <h2>🎯 Добро пожаловать в урок!</h2>
-        <p style="margin:12px 0">Сегодня вы научитесь <strong>знакомиться на испанском</strong>.
-        Представьте: вы на языковых курсах в Малаге и встречаете нового друга...</p>
+        <p style="margin:12px 0">${intro}</p>
 
         <h3 style="margin:20px 0 8px">Цели урока:</h3>
         <ul style="list-style:none">
@@ -142,7 +147,7 @@ const LessonPlayer = {
   renderGrammar() {
     const d = this.dialog;
 
-    const verbRu = { ser: 'быть', estar: 'находиться', llamarse: 'называться' };
+    const verbRu = { ser: 'быть', estar: 'находиться', llamarse: 'называться', estar_adjectives: 'estar + прилагательные', estar_acostumbrado: 'estar acostumbrado a', tener: 'tener (иметь, возраст)', vivir: 'vivir (жить)' };
 
     const app = document.getElementById('app');
     app.className = 'container';
@@ -184,8 +189,13 @@ const LessonPlayer = {
 
         <div style="margin-top:24px">
           <p style="margin-bottom:8px;font-weight:600">💡 Запомните:</p>
+          ${d.id === 1 ? `
           <p><strong>SER</strong> — для постоянных характеристик (национальность, профессия, имя)</p>
-          <p><strong>ESTAR</strong> — для временных состояний и местоположения</p>
+          <p><strong>ESTAR</strong> — для временных состояний и местоположения</p>` : `
+          <p><strong>ESTAR + прилагательное</strong> — для временных состояний и чувств: <em>estoy contento, estoy cansado</em></p>
+          <p><strong>ESTAR acostumbrado a</strong> — «быть привыкшим к»: <em>estoy acostumbrado a la vida aquí</em></p>
+          <p><strong>TENER + возраст</strong> — для указания возраста: <em>tiene 17 años</em></p>
+          <p><strong>VIVIR</strong> — спряжение: <em>vivo, vives, vive, vivimos, vivís, viven</em></p>`}
         </div>
       </div>
 

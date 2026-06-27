@@ -1,0 +1,188 @@
+{
+  "id": 2,
+  "title": "Javier y Ana están en el café",
+  "titleRu": "Хавьер и Анна находятся в кафе",
+  "part": 1,
+  "level": "A2",
+  "theme": "La escuela, la familia, la vida diaria (Школа, семья, повседневная жизнь)",
+  "objectives": [
+    "Выражать состояния и чувства с глаголом estar",
+    "Говорить о семье и совместном проживании",
+    "Использовать конструкцию estar acostumbrado a",
+    "Указывать возраст с глаголом tener"
+  ],
+  "grammar": {
+    "estar_adjectives": {
+      "yo": { "es": "estoy contento/a", "ru": "я доволен/довольна" },
+      "tu": { "es": "estás contento/a", "ru": "ты доволен/довольна" },
+      "el_ella": { "es": "está contento/a", "ru": "он/она доволен/довольна" },
+      "nosotros": { "es": "estamos contentos/as", "ru": "мы довольны" },
+      "vosotros": { "es": "estáis contentos/as", "ru": "вы довольны" },
+      "ellos_ellas": { "es": "están contentos/as", "ru": "они довольны" }
+    },
+    "estar_acostumbrado": {
+      "yo": { "es": "estoy acostumbrado/a", "ru": "я привык/привыкла" },
+      "tu": { "es": "estás acostumbrado/a", "ru": "ты привык/привыкла" },
+      "el_ella": { "es": "está acostumbrado/a", "ru": "он/она привык/привыкла" }
+    },
+    "tener": {
+      "yo": { "es": "tengo", "ru": "я имею" },
+      "tu": { "es": "tienes", "ru": "ты имеешь" },
+      "el_ella": { "es": "tiene", "ru": "он/она имеет" },
+      "nosotros": { "es": "tenemos", "ru": "мы имеем" },
+      "vosotros": { "es": "tenéis", "ru": "вы имеете" },
+      "ellos_ellas": { "es": "tienen", "ru": "они имеют" }
+    },
+    "vivir": {
+      "yo": { "es": "vivo", "ru": "я живу" },
+      "tu": { "es": "vives", "ru": "ты живёшь" },
+      "el_ella": { "es": "vive", "ru": "он/она живёт" },
+      "nosotros": { "es": "vivimos", "ru": "мы живём" },
+      "vosotros": { "es": "vivís", "ru": "вы живёте" },
+      "ellos_ellas": { "es": "viven", "ru": "они живут" }
+    }
+  },
+  "vocabulary": {
+    "feelings": [
+      { "es": "contento/a", "ru": "довольный" },
+      { "es": "cansado/a", "ru": "усталый" },
+      { "es": "ocupado/a", "ru": "занятой" },
+      { "es": "preocupado/a", "ru": "обеспокоенный" },
+      { "es": "enamorado/a", "ru": "влюблённый" },
+      { "es": "acostumbrado/a", "ru": "привыкший" }
+    ],
+    "school": [
+      { "es": "la escuela", "ru": "школа" },
+      { "es": "el profesor / la profesora", "ru": "преподаватель" },
+      { "es": "la clase", "ru": "урок" },
+      { "es": "la información", "ru": "информация" },
+      { "es": "los estudios", "ru": "учёба" },
+      { "es": "fácil", "ru": "лёгкий" }
+    ],
+    "family": [
+      { "es": "la familia", "ru": "семья" },
+      { "es": "el hermano menor", "ru": "младший брат" },
+      { "es": "la hermana menor", "ru": "младшая сестра" },
+      { "es": "el primo / la prima", "ru": "двоюродный брат / сестра" },
+      { "es": "la tía", "ru": "тётя" },
+      { "es": "el marido", "ru": "муж" },
+      { "es": "la chica", "ru": "девушка" }
+    ],
+    "phrases": [
+      { "es": "estar acostumbrado/a a", "ru": "быть привыкшим к" },
+      { "es": "estar enamorado/a de", "ru": "быть влюблённым в" },
+      { "es": "vivir juntos", "ru": "жить вместе" },
+      { "es": "vivir con", "ru": "жить с" },
+      { "es": "tener años", "ru": "иметь лет / быть возраста" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Javier", "es": "Pues, ¿estás contenta con la escuela donde estudias español?", "ru": "Ну как, ты довольна школой, где изучаешь испанский?" },
+    { "speaker": "Ana", "es": "Sí, estoy muy contenta, aunque todavía no estoy acostumbrada a la vida aquí. Tenemos unos profesores muy buenos, pero a veces estoy muy cansada de las clases. Mucha información.", "ru": "Да, я очень довольна, хотя все еще не привыкла к жизни здесь. У нас очень хорошие преподаватели, но иногда я очень устаю от уроков. Много информации." },
+    { "speaker": "Javier", "es": "Yo también estoy muy ocupado con los estudios. No es tan fácil estudiar en español. Aquí estudia mi hermano menor, pero no estudia bien. Estoy preocupado por él. Pasa mucho tiempo con una chica, de la que está enamorado. Claro, tiene 17 años y...", "ru": "Я тоже очень занят учебой. Не так легко учиться на испанском. Здесь учится мой младший брат, но не учится хорошо. Я беспокоюсь за него. Он проводит много времени с одной девушкой, в которую влюблен. Конечно, ему 17 лет и..." },
+    { "speaker": "Ana", "es": "¿Vivís juntos?", "ru": "Вы живете вместе?" },
+    { "speaker": "Javier", "es": "Sí, vivimos juntos.", "ru": "Да, живем вместе." },
+    { "speaker": "Ana", "es": "Y yo vivo con la familia de mi tía: su marido, español, y mis primas: dos niñas de 9 y 10 años.", "ru": "А я живу с семьей моей тети: ее мужем, испанцем, и моими двоюродными сестрами: две девочки 9 и 10 лет." },
+    { "speaker": "Javier", "es": "Yo tengo muchos primos, pero están en Italia.", "ru": "У меня много кузенов, но они в Италии." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "contento", "ru": "довольный" },
+        { "es": "cansado", "ru": "усталый" },
+        { "es": "preocupado", "ru": "обеспокоенный" },
+        { "es": "enamorado", "ru": "влюблённый" },
+        { "es": "acostumbrado", "ru": "привыкший" },
+        { "es": "la tía", "ru": "тётя" },
+        { "es": "el marido", "ru": "муж" },
+        { "es": "el primo", "ru": "двоюродный брат" }
+      ]
+    },
+    {
+      "type": "fill-gap",
+      "title": "Вставь глагол",
+      "description": "Выбери правильную форму глагола",
+      "sentences": [
+        { "text": "Yo ___ muy contenta con la escuela.", "answer": "estoy", "options": ["estoy", "soy", "tengo"] },
+        { "text": "¿Tú ___ acostumbrado a la vida aquí?", "answer": "estás", "options": ["eres", "estás", "tienes"] },
+        { "text": "Nosotros ___ juntos.", "answer": "vivimos", "options": ["viven", "vivimos", "vivís"] },
+        { "text": "Mi hermano ___ 17 años.", "answer": "tiene", "options": ["tiene", "tengo", "está"] },
+        { "text": "Ellos ___ enamorados.", "answer": "están", "options": ["están", "son", "tienen"] },
+        { "text": "¿Vosotros ___ con la familia?", "answer": "vivís", "options": ["vivimos", "vivís", "viven"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Хавьером",
+      "role": "Javier",
+      "description": "Отвечай на реплики Анны своим голосом"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Анной",
+      "role": "Ana",
+      "description": "Теперь ты Анна — отвечай Хавьеру"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи о своей учёбе и семье",
+      "template": [
+        { "label": "Я доволен/довольна", "es": "Estoy ___ con..." },
+        { "label": "Я занят/а", "es": "Estoy ___ con..." },
+        { "label": "Я живу с", "es": "Vivo con ___" },
+        { "label": "У меня есть", "es": "Tengo ___" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Cómo se dice «я доволен»?",
+          "ru": "Как сказать «я доволен»?",
+          "options": ["Estoy contento", "Soy contento", "Tengo contento", "Estoy cansado"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se dice «привыкший»?",
+          "ru": "Как сказать «привыкший»?",
+          "options": ["enamorado", "acostumbrado", "preocupado", "ocupado"],
+          "answer": 1
+        },
+        {
+          "question": "¿Con quién vive Ana?",
+          "ru": "С кем живёт Анна?",
+          "options": ["Con su hermana", "Con su tía", "Con Javier", "Con su prima"],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuántos años tiene el hermano de Javier?",
+          "ru": "Сколько лет брату Хавьера?",
+          "options": ["15", "16", "17", "18"],
+          "answer": 2
+        },
+        {
+          "question": "¿Cómo se dice «влюблён»?",
+          "ru": "Как сказать «влюблён»?",
+          "options": ["ocupado", "cansado", "preocupado", "enamorado"],
+          "answer": 3
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить новые слова (чувства и семья) в приложении",
+    "Практика: Расскажи другу на испанском о своей семье и учёбе",
+    "Дневник: Напиши 5 предложений о том, чем ты доволен/не доволен"
+  ]
+}
