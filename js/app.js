@@ -16,6 +16,22 @@ document.addEventListener('DOMContentLoaded', async () => {
   const dialogId = params.get('id');
 
   if (window.location.pathname.endsWith('lesson.html') && dialogId) {
+    await AUTH.init();
+    if (!AUTH.canAccessLesson(parseInt(dialogId))) {
+      const container = document.getElementById('app');
+      if (container) {
+        container.innerHTML = `
+          <div class="container" style="text-align:center;padding:40px">
+            <h2>🚫 Доступ запрещён</h2>
+            <p>У вас нет доступа к этому уроку.</p>
+            <a href="index.html" class="btn btn-primary">На главную</a>
+          </div>`;
+      }
+      document.getElementById('lesson-title').textContent = 'Доступ запрещён';
+      document.getElementById('step-indicator').style.display = 'none';
+      document.getElementById('nav-buttons').style.display = 'none';
+      return;
+    }
     loadDialog(dialogId);
   }
 });
