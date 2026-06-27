@@ -93,5 +93,42 @@ const Games = {
         status.innerHTML = '🎉 Все пары найдены! Нажмите "Далее" для продолжения.';
       }
     }
+  },
+
+  fillGap(containerId, sentences) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
+    container.innerHTML = sentences.map((s, i) => `
+      <div class="gap-sentence" data-index="${i}">
+        ${s.text.replace('___', `<select data-index="${i}" class="gap-select">
+          <option value="">—</option>
+          ${s.options.map(opt => `<option value="${opt}">${opt}</option>`).join('')}
+        </select>`)}
+        <span class="gap-result" style="margin-left:8px"></span>
+      </div>
+    `).join('') + `
+      <button class="btn btn-primary" id="check-gaps" style="margin-top:12px">Проверить</button>
+      <div id="gap-score" style="margin-top:8px;font-weight:600"></div>
+    `;
+
+    document.getElementById('check-gaps').addEventListener('click', () => {
+      let correct = 0;
+      sentences.forEach((s, i) => {
+        const select = container.querySelector(`select[data-index="${i}"]`);
+        const result = container.querySelector(`.gap-sentence[data-index="${i}"] .gap-result`);
+        if (select.value === s.answer) {
+          select.className = 'gap-select correct';
+          result.textContent = '✓';
+          result.style.color = 'var(--success)';
+          correct++;
+        } else {
+          select.className = 'gap-select incorrect';
+          result.textContent = `✗ (${s.answer})`;
+          result.style.color = 'var(--error)';
+        }
+      });
+      document.getElementById('gap-score').textContent = `Правильно: ${correct} из ${sentences.length}`;
+    });
   }
 };

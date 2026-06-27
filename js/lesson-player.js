@@ -128,7 +128,50 @@ const LessonPlayer = {
     const pairs = allVocab.slice(0, 8);
     Games.memoryGame('memory-game', pairs);
   },
-  renderGrammar() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Грамматика...</p></div>'; },
+  renderGrammar() {
+    const d = this.dialog;
+    const app = document.getElementById('app');
+    app.className = 'container';
+
+    app.innerHTML = `
+      <div class="card fade-in">
+        <h2>📚 Грамматика диалога</h2>
+
+        ${Object.entries(d.grammar).map(([verb, forms]) => `
+          <div style="margin:16px 0">
+            <h3>Глагол <em>${verb}</em> (${verb === 'ser' ? 'быть' : verb === 'estar' ? 'находиться' : verb === 'llamarse' ? 'называться' : verb})</h3>
+            <table style="width:100%;border-collapse:collapse;margin:8px 0">
+              ${Object.entries(forms).map(([person, form]) => `
+                <tr>
+                  <td style="padding:6px 12px;border:1px solid var(--gray);font-weight:600">${person}</td>
+                  <td style="padding:6px 12px;border:1px solid var(--gray)">${form}</td>
+                </tr>
+              `).join('')}
+            </table>
+            <button class="btn btn-secondary" style="font-size:14px" onclick="Speech.say('${Object.values(forms).join(' ').replace(/'/g, "\\'")}', 'es-ES')">
+              🔊 Прослушать формы
+            </button>
+          </div>
+        `).join('')}
+
+        <div style="margin-top:24px">
+          <p style="margin-bottom:8px;font-weight:600">💡 Запомните:</p>
+          <p><strong>SER</strong> — для постоянных характеристик (национальность, профессия, имя)</p>
+          <p><strong>ESTAR</strong> — для временных состояний и местоположения</p>
+        </div>
+      </div>
+
+      <div class="card fade-in" style="margin-top:16px">
+        <h3>🎮 Упражнение: Вставь правильную форму</h3>
+        <div id="fill-gap"></div>
+      </div>
+    `;
+
+    const grammarEx = d.exercises.find(e => e.type === 'fill-gap');
+    if (grammarEx) {
+      Games.fillGap('fill-gap', grammarEx.sentences);
+    }
+  },
   renderDialogue() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Диалог...</p></div>'; },
   renderSpeaking() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Практика говорения...</p></div>'; },
   renderTest() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Тестирование...</p></div>'; },
