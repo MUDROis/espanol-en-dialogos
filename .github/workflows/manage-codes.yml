@@ -1,0 +1,81 @@
+name: Manage Access Codes
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Action mode'
+        required: true
+        default: 'add'
+        type: choice
+        options:
+          - add
+          - deactivate
+      code:
+        description: 'Plaintext code (for add mode)'
+        required: false
+        type: string
+      type:
+        description: 'Access type (for add mode)'
+        required: false
+        type: choice
+        options:
+          - demo
+          - full
+          - admin
+      label:
+        description: 'Student label (for add mode)'
+        required: false
+        type: string
+      expires_in:
+        description: 'Expiration (e.g. P1Y, P1M, or empty for never)'
+        required: false
+        default: ''
+        type: string
+      hash:
+        description: 'SHA-256 hash to deactivate (for deactivate mode)'
+        required: false
+        type: string
+
+jobs:
+  manage-codes:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Add code
+        if: inputs.mode == 'add'
+        env:
+          CODE: ${{ inputs.code }}
+          TYPE: ${{ inputs.type }}
+          LABEL: ${{ inputs.label }}
+          EXPIRES_IN: ${{ inputs.expires_in }}
+        run: |
+          HASH=$(echo -n "$CODE" | sha256sum | cut -d' ' -f1)
+          CREATED_AT=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          if [ -n "$EXPIRES_IN" ]; then
+            jq --arg hash "$HASH" --arg type "$TYPE" --arg label "$LABEL" \
+              --arg created_at "$CREATED_AT" --arg expires_in "$EXPIRES_IN" \
+              '. + [{$hash, type: $type, label: $label, active: true, expires_in: $expires_in, created_at: $created_at}]' \
+              data/access-codes.json > tmp.json && mv tmp.json data/access-codes.json
+          else
+            jq --arg hash "$HASH" --arg type "$TYPE" --arg label "$LABEL" \
+              --arg created_at "$CREATED_AT" \
+              '. + [{$hash, type: $type, label: $label, active: true, expires_in: null, created_at: $created_at}]' \
+              data/access-codes.json > tmp.json && mv tmp.json data/access-codes.json
+          fi
+
+      - name: Deactivate code
+        if: inputs.mode == 'deactivate'
+        run: |
+          jq '(.[] | select(.hash | startswith("${{ inputs.hash }}")) | .active) = false' data/access-codes.json > tmp.json && mv tmp.json data/access-codes.json
+
+      - name: Commit and push
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add data/access-codes.json
+          git commit -m "chore: update access codes (${{ inputs.mode }})" || echo "No changes to commit"
+          git push

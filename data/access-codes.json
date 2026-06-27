@@ -1,0 +1,18 @@
+[
+  {
+    "hash": "4e775cb4fae09efda9407bdbf7d838bf67fce8e44ebaffd03847bb50062c36fb",
+    "type": "demo",
+    "label": "Демо-доступ",
+    "active": true,
+    "expires_in": null,
+    "created_at": "2026-06-27T00:00:00.000Z"
+  },
+  {
+    "hash": "ee8426acb6f8ba9b4d1d1526c5173294daa25c808d3d4181bf21ca1bee5069aa",
+    "type": "admin",
+    "label": "Администратор",
+    "active": true,
+    "expires_in": null,
+    "created_at": "2026-06-27T00:00:00.000Z"
+  }
+]

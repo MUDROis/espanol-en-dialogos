@@ -375,3 +375,75 @@ body {
   border-radius: var(--radius);
   border: 2px solid var(--gray);
 }
+
+/* Auth */
+.auth-card {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 32px;
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.auth-input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 2px solid var(--gray);
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.auth-input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+.auth-error {
+  background: #fee;
+  color: #c00;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+/* Locked dialogs */
+.dialog-link--locked {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  margin: 4px 0;
+  opacity: 0.5;
+  cursor: not-allowed;
+  text-decoration: none;
+  color: var(--gray-dark);
+  border-radius: 8px;
+}
+.dialog-link--locked .status.locked {
+  font-size: 16px;
+}
+select.auth-input {
+  cursor: pointer;
+}
+
+/* Admin panel */
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.admin-table th {
+  text-align: left;
+  padding: 10px 12px;
+  background: var(--gray);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.admin-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--gray);
+}
+.admin-table tr:hover {
+  background: #fef0e6;
+}

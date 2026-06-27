@@ -1,125 +1,90 @@
-# Task 5: Landing page (index.html)
+### Task 5: Modify `js/app.js` + `lesson.html` — lesson access guard
 
 **Files:**
-- Modify: `index.html` (replace with full landing page)
+- Modify: `js/app.js`
+- Modify: `lesson.html`
 
-**Dependencies:**
-- Consumes: `Progress.getStats()`, `Progress.get(dialogId)` from Task 2
-- Consumes: `data/dialogs.json` from Task 1
+**Goal:** Prevent unauthorized access to lessons. When someone opens `lesson.html?id=N`, check if the user has access via `AUTH.canAccessLesson(N)`. If not, show "Доступ запрещён" instead of loading the lesson.
 
-### Step 1: Verify dialogs.json exists at `data/dialogs.json`
+- [ ] **Step 1: Replace `js/app.js` with:**
 
-It should contain:
-```json
-[
-  {
-    "id": 1,
-    "title": "Javier conoce a Ana",
-    "titleRu": "Хавьер знакомится с Анной",
-    "part": 1,
-    "partTitle": "Базовый уровень (A2)",
-    "level": "A2",
-    "theme": "Presentaciones"
+```js
+/* js/app.js */
+window.allCharacters = [];
+
+document.addEventListener('DOMContentLoaded', async () => {
+  if (Speech.isSupported) {
+    speechSynthesis.getVoices();
+    speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices();
   }
-]
-```
 
-If it has `{"parts": []}` or different format, overwrite it with the above.
+  try {
+    const resp = await fetch('data/characters.json');
+    window.allCharacters = await resp.json();
+  } catch (e) {}
 
-### Step 2: Replace index.html with full landing page
+  const params = new URLSearchParams(window.location.search);
+  const dialogId = params.get('id');
 
-```html
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Español en Diálogos — интерактивный курс испанского</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <header class="header">
-    <div class="container">
-      <h1>🇪🇸 Español en Diálogos</h1>
-      <p style="opacity:0.8;margin-top:4px">Интерактивный курс испанского языка по книге «Испанский в диалогах»</p>
-    </div>
-  </header>
-
-  <main>
-    <div class="container">
-      <div id="progress-summary" style="text-align:center;margin-bottom:24px">
-        <p style="font-size:14px;color:var(--gray-dark)">Прогресс: <span id="progress-text">0</span> из <span id="total-text">55</span> диалогов</p>
-        <div class="progress-bar" style="margin-top:8px">
-          <div id="progress-fill" class="progress-bar-fill" style="width:0%"></div>
-        </div>
-      </div>
-
-      <div id="course-content">
-        <p style="text-align:center;color:var(--gray-dark);padding:40px">Загрузка...</p>
-      </div>
-    </div>
-  </main>
-
-  <footer style="text-align:center;padding:24px;color:var(--gray-dark);font-size:14px">
-    <p>На основе книги «Испанский в диалогах» (55 диалогов, уровни A2–C1)</p>
-  </footer>
-
-  <script src="js/progress.js"></script>
-  <script src="js/app.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', async () => {
-      const resp = await fetch('data/dialogs.json');
-      const dialogs = await resp.json();
-
-      const stats = Progress.getStats();
-
-      // Group by part
-      const parts = {};
-      for (const d of dialogs) {
-        const key = d.part;
-        if (!parts[key]) {
-          parts[key] = { part: key, title: d.partTitle, dialogs: [] };
-        }
-        parts[key].dialogs.push(d);
-      }
-
-      const total = 55;
-      document.getElementById('total-text').textContent = total;
-      document.getElementById('progress-text').textContent = stats.completed;
-      const pct = total > 0 ? Math.round((stats.completed / total) * 100) : 0;
-      document.getElementById('progress-fill').style.width = pct + '%';
-
-      let html = '';
-      for (const key of Object.keys(parts).sort((a,b) => a - b)) {
-        const p = parts[key];
-        html += `
-          <div class="part-card">
-            <div class="part-header" onclick="this.nextElementSibling.classList.toggle('part-body--hidden')">
-              <span>Parte ${['I','II','III','IV','V','VI'][key-1] || key}: ${p.title}</span>
-              <span style="font-size:14px;color:var(--gray-dark)">${p.dialogs.length} диалогов</span>
-            </div>
-            <div class="part-body">
-              ${p.dialogs.map(d => {
-                const prog = Progress.get(`dialog-${d.id}`);
-                let statusClass = 'available';
-                let statusText = '→';
-                if (prog.completed) { statusClass = 'done'; statusText = '✓'; }
-                return `<a href="lesson.html?id=${d.id}" class="dialog-link">
-                  <span>${d.id}. ${d.title}</span>
-                  <span style="font-size:14px;color:var(--gray-dark)">${d.theme}</span>
-                  <span class="status ${statusClass}">${statusText}</span>
-                </a>`;
-              }).join('')}
-            </div>
+  if (window.location.pathname.endsWith('lesson.html') && dialogId) {
+    await AUTH.init();
+    if (!AUTH.canAccessLesson(parseInt(dialogId))) {
+      const container = document.getElementById('app');
+      if (container) {
+        container.innerHTML = `
+          <div class="container" style="text-align:center;padding:40px">
+            <h2>🚫 Доступ запрещён</h2>
+            <p>У вас нет доступа к этому уроку.</p>
+            <a href="index.html" class="btn btn-primary">На главную</a>
           </div>`;
       }
+      document.getElementById('lesson-title').textContent = 'Доступ запрещён';
+      document.getElementById('step-indicator').style.display = 'none';
+      document.getElementById('nav-buttons').style.display = 'none';
+      return;
+    }
+    loadDialog(dialogId);
+  }
+});
 
-      document.getElementById('course-content').innerHTML = html;
-    });
-  </script>
-</body>
-</html>
+async function loadDialog(id) {
+  const container = document.getElementById('app');
+  if (!container) return;
+
+  container.innerHTML = '<div class="container" style="text-align:center;padding:40px"><p>Загрузка...</p></div>';
+
+  try {
+    const paddedId = String(id).padStart(2, '0');
+    const response = await fetch(`data/dialog-${paddedId}.json`);
+    if (!response.ok) throw new Error('Not found');
+    const dialog = await response.json();
+    LessonPlayer.init(dialog);
+  } catch (e) {
+    container.innerHTML = `
+      <div class="container" style="text-align:center;padding:40px">
+        <h2>Диалог не найден</h2>
+        <p>Диалог с номером ${id} ещё не добавлен.</p>
+        <a href="index.html" class="btn btn-primary">На главную</a>
+      </div>`;
+  }
+}
 ```
 
-### Step 3: Test
-Open `index.html`. Should see header, progress bar, and Part I card with "1. Javier conoce a Ana". Click → `lesson.html?id=1`.
+Key change from current `js/app.js`: Added `await AUTH.init()` and `AUTH.canAccessLesson()` guard before loading dialog.
+
+- [ ] **Step 2: Update `lesson.html` script order**
+
+Ensure `lesson.html` script section is:
+```html
+  <script src="js/auth.js"></script>
+  <script src="js/progress.js"></script>
+  <script src="js/speech.js"></script>
+  <script src="js/games.js"></script>
+  <script src="js/lesson-player.js"></script>
+  <script src="js/app.js"></script>
+```
+
+Add `auth.js` before `progress.js` (it may already have `progress.js`).
+
+- [ ] **Step 3: Verify valid syntax**
+- [ ] **Step 4: Commit**

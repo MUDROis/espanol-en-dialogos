@@ -1,24 +1,3 @@
-### Task 2: Create `js/auth.js`
-
-**Files:**
-- Create: `js/auth.js`
-
-**Interfaces:**
-- Produces: global `AUTH` object consumed by `index.html`, `admin.html`, `js/app.js`, `js/progress.js`
-
-**API:**
-- `AUTH.init()` — load session from localStorage
-- `AUTH.activate(code)` — async → `{success: true}` | `{error: 'message'}`
-- `AUTH.logout()` — clear session
-- `AUTH.isAuthenticated()` — boolean
-- `AUTH.getActivation()` — `{type, expires_at, codeHash, activated_at}` | null
-- `AUTH.getAccessType()` — `'demo'` | `'full'` | `'admin'` | null
-- `AUTH.canAccessLesson(lessonId)` — boolean
-- `AUTH.onChange(fn)` — subscribe, returns unsubscribe fn
-
-**Implementation details:**
-
-```js
 /* js/auth.js */
 const AUTH = (() => {
   const CODES_URL = 'data/access-codes.json';
@@ -132,8 +111,3 @@ const AUTH = (() => {
     }
   };
 })();
-```
-
-- [ ] **Step 1: Create the file with the exact code above**
-- [ ] **Step 2: Verify the file loads without errors** (check syntax)
-- [ ] **Step 3: Commit**

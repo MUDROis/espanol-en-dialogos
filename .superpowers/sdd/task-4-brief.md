@@ -1,196 +1,231 @@
-# Task 4: App shell + lesson player scaffold
+### Task 4: Modify `index.html` — auth UI + lesson gating
 
 **Files:**
-- Modify: `js/app.js` (replace placeholder)
-- Modify: `js/lesson-player.js` (replace placeholder)
-- Modify: `lesson.html` (update with proper title/step elements)
-- Modify: `index.html` (link JS files)
+- Modify: `index.html`
+
+**Goal:** Add code authorization UI to the main page. Unauthenticated users see a code input form. Authenticated users see the course with lesson gating (demo → only lesson 1 unlocked).
 
 **Interfaces:**
-- Produces: `LessonPlayer.init(dialog)` — renders step 1, handles nav; `App` router
-- Consumes: `Progress`, `Speech`, dialog JSON (`data/dialog-XX.json`)
+- Consumes: `AUTH` from `js/auth.js`, `Progress` from `js/progress.js`
 
-### Step 1: Write app.js (router)
+**Steps:**
 
-Replace `js/app.js` content:
+- [ ] **Step 1: Add auth.js script before progress.js**
 
-```javascript
-/* js/app.js */
-document.addEventListener('DOMContentLoaded', () => {
-  if (Speech.isSupported) {
-    speechSynthesis.getVoices();
-    speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices();
-  }
-
-  const params = new URLSearchParams(window.location.search);
-  const dialogId = params.get('id');
-
-  if (window.location.pathname.endsWith('lesson.html') && dialogId) {
-    loadDialog(dialogId);
-  }
-});
-
-async function loadDialog(id) {
-  const container = document.getElementById('app');
-  if (!container) return;
-
-  container.innerHTML = '<div class="container" style="text-align:center;padding:40px"><p>Загрузка...</p></div>';
-
-  try {
-    const paddedId = String(id).padStart(2, '0');
-    const response = await fetch(`data/dialog-${paddedId}.json`);
-    if (!response.ok) throw new Error('Not found');
-    const dialog = await response.json();
-    LessonPlayer.init(dialog);
-  } catch (e) {
-    container.innerHTML = `
-      <div class="container" style="text-align:center;padding:40px">
-        <h2>Диалог не найден</h2>
-        <p>Диалог с номером ${id} ещё не добавлен.</p>
-        <a href="index.html" class="btn btn-primary">На главную</a>
-      </div>`;
-  }
-}
+Change the script order. Before the existing script tags, add:
+```html
+<script src="js/auth.js"></script>
 ```
 
-### Step 2: Update lesson.html
+The full script section should be:
+```html
+  <script src="js/auth.js"></script>
+  <script src="js/progress.js"></script>
+  <script src="js/speech.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    // inline script with auth logic (Step 3)
+  </script>
+```
 
-Replace entire content of `lesson.html`:
+- [ ] **Step 2: Add auth-section HTML after main opening, before progress-summary**
+
+Replace the entire `<main>` content. The auth section goes BEFORE the progress-summary div:
 
 ```html
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Español en Diálogos — Урок</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <header class="header">
-    <div class="container">
-      <a href="index.html">← Español en Diálogos</a>
-      <h1 id="lesson-title">Урок</h1>
-    </div>
-  </header>
-
   <main>
-    <div class="container">
-      <div id="step-indicator" class="step-indicator"></div>
-      <div id="step-title" style="font-size:24px;font-weight:700;margin-bottom:16px"></div>
+    <div id="auth-section" class="container" style="display:none">
+      <div class="auth-card">
+        <div id="auth-form-area">
+          <h2>Введите код доступа</h2>
+          <p style="text-align:center;margin-bottom:16px;font-size:14px;color:var(--gray-dark)">
+            Код вы получаете после оплаты курса
+          </p>
+          <div id="auth-error" class="auth-error" style="display:none"></div>
+          <input type="text" id="auth-code" class="auth-input" placeholder="Код доступа" autocomplete="off">
+          <button id="auth-submit" class="btn btn-primary" style="width:100%">Активировать</button>
+        </div>
+        <div id="auth-user-area" style="display:none">
+          <p style="text-align:center;font-size:14px;color:var(--gray-dark)" id="auth-access-info"></p>
+          <button id="auth-logout" class="btn btn-secondary" style="width:100%">Выйти</button>
+        </div>
+      </div>
     </div>
-    <div id="app"></div>
+
     <div class="container">
-      <div id="nav-buttons" class="nav-buttons"></div>
+      <div id="progress-summary" style="text-align:center;margin-bottom:24px">
+        <p style="font-size:14px;color:var(--gray-dark)">Прогресс: <span id="progress-text">0</span> из <span id="total-text">55</span> диалогов</p>
+        <div class="progress-bar" style="margin-top:8px">
+          <div id="progress-fill" class="progress-bar-fill" style="width:0%"></div>
+        </div>
+      </div>
+
+      <div id="course-content">
+        <p style="text-align:center;color:var(--gray-dark);padding:40px">Загрузка...</p>
+      </div>
     </div>
   </main>
-
-  <footer style="text-align:center;padding:24px;color:var(--gray-dark);font-size:14px">
-    <p>Español en Diálogos — интерактивный курс испанского</p>
-  </footer>
-
-  <script src="js/progress.js"></script>
-  <script src="js/speech.js"></script>
-  <script src="js/games.js"></script>
-  <script src="js/lesson-player.js"></script>
-  <script src="js/app.js"></script>
-</body>
-</html>
 ```
 
-### Step 3: Write lesson-player.js (7 step stubs + navigation)
+- [ ] **Step 3: Add admin link to the header**
 
-Replace `js/lesson-player.js`:
-
-```javascript
-/* js/lesson-player.js */
-const LessonPlayer = {
-  dialog: null,
-  currentStep: 0,
-  steps: [],
-
-  init(dialog) {
-    this.dialog = dialog;
-    const saved = Progress.get(`dialog-${dialog.id}`);
-    this.currentStep = saved.lastStep || 0;
-
-    document.getElementById('lesson-title').textContent = `${dialog.id}. ${dialog.title}`;
-
-    this.steps = [
-      { id: 'preparation', title: 'Подготовка', render: this.renderPreparation },
-      { id: 'vocabulary', title: 'Словарный запас', render: this.renderVocabulary },
-      { id: 'grammar', title: 'Грамматика', render: this.renderGrammar },
-      { id: 'dialogue', title: 'Диалог', render: this.renderDialogue },
-      { id: 'speaking', title: 'Практика говорения', render: this.renderSpeaking },
-      { id: 'test', title: 'Тестирование', render: this.renderTest },
-      { id: 'reflection', title: 'Рефлексия', render: this.renderReflection }
-    ];
-
-    this.goToStep(this.currentStep);
-  },
-
-  goToStep(index) {
-    if (index < 0) index = 0;
-    if (index >= this.steps.length) {
-      Progress.set(`dialog-${this.dialog.id}`, { completed: true, lastStep: this.steps.length - 1 });
-      return;
-    }
-    this.currentStep = index;
-    Progress.set(`dialog-${this.dialog.id}`, { lastStep: index });
-    this.renderStepIndicator();
-    this.renderStepContent();
-  },
-
-  renderStepIndicator() {
-    const container = document.getElementById('step-indicator');
-    if (!container) return;
-    container.innerHTML = this.steps.map((step, i) =>
-      `<div class="step-dot ${i < this.currentStep ? 'done' : ''} ${i === this.currentStep ? 'active' : ''}"></div>`
-    ).join('');
-  },
-
-  renderStepContent() {
-    const step = this.steps[this.currentStep];
-    document.getElementById('step-title').textContent = `Шаг ${this.currentStep + 1}: ${step.title}`;
-    step.render.call(this);
-
-    const nav = document.getElementById('nav-buttons');
-    if (!nav) return;
-    nav.innerHTML = `
-      ${this.currentStep > 0 ? '<button class="btn btn-secondary" onclick="LessonPlayer.goToStep(LessonPlayer.currentStep - 1)">← Назад</button>' : '<div></div>'}
-      ${this.currentStep < this.steps.length - 1
-        ? '<button class="btn btn-primary" onclick="LessonPlayer.goToStep(LessonPlayer.currentStep + 1)">Далее →</button>'
-        : '<button class="btn btn-success" onclick="LessonPlayer.finishLesson()">Завершить урок ✓</button>'
-      }
-    `;
-  },
-
-  finishLesson() {
-    Progress.set(`dialog-${this.dialog.id}`, { completed: true, lastStep: this.steps.length - 1 });
-    window.location.href = 'index.html';
-  },
-
-  // Step renderers — filled in later tasks
-  renderPreparation() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Подготовка...</p></div>'; },
-  renderVocabulary() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Словарный запас...</p></div>'; },
-  renderGrammar() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Грамматика...</p></div>'; },
-  renderDialogue() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Диалог...</p></div>'; },
-  renderSpeaking() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Практика говорения...</p></div>'; },
-  renderTest() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Тестирование...</p></div>'; },
-  renderReflection() { document.getElementById('app').innerHTML = '<div class="container card fade-in"><p>Рефлексия...</p></div>'; }
-};
-```
-
-### Step 4: Update index.html to link JS
-
-Add these before `</body>` in `index.html`:
+Add the admin link after the existing header content:
 ```html
-  <script src="js/progress.js"></script>
-  <script src="js/speech.js"></script>
-  <script src="js/games.js"></script>
-  <script src="js/lesson-player.js"></script>
-  <script src="js/app.js"></script>
+  <header class="header">
+    <div class="container header-inner">
+      <div>
+        <h1>🇪🇸 Español en Diálogos</h1>
+        <p style="opacity:0.8;margin-top:4px">Интерактивный курс испанского языка по книге «Испанский в диалогах»</p>
+        <a id="admin-link" href="admin.html" style="color:#fff;font-size:14px;display:none;margin-top:4px">⚙ Управление кодами</a>
+      </div>
+      <a href="https://xn--80aaagnrcpdkofpu2ae0iuf.xn--p1ai/" target="_blank" rel="noopener"><img src="logo.png" alt="Español en Diálogos" class="header-logo"></a>
+    </div>
+  </header>
 ```
 
-### Step 5: Test
-Open `lesson.html?id=1` in browser. Should show "Загрузка...", then step 1 with "Подготовка" placeholder. Click "Далее" → step 2 "Словарный запас". Step dots should update.
+- [ ] **Step 4: Replace inline script with auth-gated version**
+
+Replace everything from the last `<script>` (after `app.js`) to `</body>` with:
+
+```html
+  <script>
+    function showAuthError(msg) {
+      const el = document.getElementById('auth-error');
+      el.textContent = msg;
+      el.style.display = 'block';
+    }
+
+    function hideAuthError() {
+      document.getElementById('auth-error').style.display = 'none';
+    }
+
+    function renderCourse(dialogs) {
+      const stats = Progress.getStats();
+      const activation = AUTH.getActivation();
+
+      const total = 55;
+      document.getElementById('total-text').textContent = total;
+      document.getElementById('progress-text').textContent = stats.completed;
+      const pct = total > 0 ? Math.round((stats.completed / total) * 100) : 0;
+      document.getElementById('progress-fill').style.width = pct + '%';
+
+      const parts = {};
+      for (const d of dialogs) {
+        const key = d.part;
+        if (!parts[key]) { parts[key] = { part: key, title: d.partTitle, dialogs: [] }; }
+        parts[key].dialogs.push(d);
+      }
+
+      let html = '';
+      for (const key of Object.keys(parts).sort((a,b) => a - b)) {
+        const p = parts[key];
+        html += `
+          <div class="part-card">
+            <div class="part-header" onclick="this.nextElementSibling.classList.toggle('part-body--hidden')">
+              <span>Parte ${['I','II','III','IV','V','VI'][key-1] || key}: ${p.title}</span>
+              <span style="font-size:14px;color:var(--gray-dark)">${p.dialogs.length} диалогов</span>
+            </div>
+            <div class="part-body">
+              ${p.dialogs.map(d => {
+                if (AUTH.canAccessLesson(d.id)) {
+                  const prog = Progress.get('dialog-' + d.id);
+                  let statusClass = 'available';
+                  let statusText = '→';
+                  if (prog.completed) { statusClass = 'done'; statusText = '✓'; }
+                  return '<a href="lesson.html?id=' + d.id + '" class="dialog-link">' +
+                    '<span>' + d.id + '. ' + d.title + '</span>' +
+                    '<span style="font-size:14px;color:var(--gray-dark)">' + d.theme + '</span>' +
+                    '<span class="status ' + statusClass + '">' + statusText + '</span>' +
+                    '</a>';
+                }
+                return '<div class="dialog-link--locked" title="Доступно после оплаты курса">' +
+                  '<span>' + d.id + '. ' + d.title + '</span>' +
+                  '<span style="font-size:14px;color:var(--gray-dark)">' + d.theme + '</span>' +
+                  '<span class="status locked">🔒</span>' +
+                  '</div>';
+              }).join('')}
+            </div>
+          </div>`;
+      }
+      document.getElementById('course-content').innerHTML = html;
+    }
+
+    function showAuth(isAuthenticated, activation) {
+      const authSection = document.getElementById('auth-section');
+      const courseSection = document.getElementById('progress-summary').parentElement;
+      const adminLink = document.getElementById('admin-link');
+      if (!isAuthenticated) {
+        authSection.style.display = 'block';
+        courseSection.style.display = 'none';
+        document.getElementById('auth-form-area').style.display = 'block';
+        document.getElementById('auth-user-area').style.display = 'none';
+        if (adminLink) adminLink.style.display = 'none';
+      } else {
+        authSection.style.display = 'block';
+        courseSection.style.display = 'block';
+        document.getElementById('auth-form-area').style.display = 'none';
+        document.getElementById('auth-user-area').style.display = 'block';
+        const accessInfo = document.getElementById('auth-access-info');
+        if (activation.type === 'admin') {
+          accessInfo.textContent = 'Администратор — полный доступ';
+          if (adminLink) adminLink.style.display = 'inline';
+        } else if (activation.type === 'demo') {
+          accessInfo.textContent = 'Демо-доступ: открыт урок 1';
+        } else if (activation.type === 'full') {
+          if (activation.expires_at) {
+            const expiry = new Date(activation.expires_at).toLocaleDateString('ru-RU');
+            accessInfo.textContent = 'Полный доступ до ' + expiry;
+          } else {
+            accessInfo.textContent = 'Полный доступ — все уроки открыты';
+          }
+        }
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      await AUTH.init();
+
+      const resp = await fetch('data/dialogs.json');
+      const dialogs = await resp.json();
+
+      AUTH.onChange((type) => {
+        const act = AUTH.getActivation();
+        showAuth(!!act, act);
+        if (act) { renderCourse(dialogs); }
+      });
+
+      document.getElementById('auth-submit').addEventListener('click', async () => {
+        hideAuthError();
+        const code = document.getElementById('auth-code').value.trim();
+        if (!code) { showAuthError('Введите код доступа'); return; }
+        const res = await AUTH.activate(code);
+        if (res.error) { showAuthError(res.error); return; }
+      });
+
+      document.getElementById('auth-code').addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') document.getElementById('auth-submit').click();
+      });
+
+      document.getElementById('auth-logout').addEventListener('click', () => {
+        AUTH.logout();
+        document.getElementById('auth-code').value = '';
+      });
+
+      if (AUTH.isAuthenticated()) {
+        showAuth(true, AUTH.getActivation());
+        renderCourse(dialogs);
+      }
+    });
+  </script>
+```
+
+Key behaviors:
+- Not authenticated: auth form shown, course hidden
+- Demo authenticated: course shown, only lesson 1 clickable, others locked 🔒
+- Full authenticated: all lessons clickable
+- Admin authenticated: all lessons + "Управление кодами" link visible
+- Enter key on code input triggers activation
+- Logout clears input field
+
+- [ ] **Step 5: Verify the file is valid HTML**
+- [ ] **Step 6: Commit**
