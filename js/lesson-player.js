@@ -151,7 +151,7 @@ const LessonPlayer = {
   renderGrammar() {
     const d = this.dialog;
 
-    const verbRu = { ser: 'быть', estar: 'находиться', llamarse: 'называться', estar_adjectives: 'estar + прилагательные', estar_acostumbrado: 'estar acostumbrado a', tener: 'tener (иметь, возраст)', vivir: 'vivir (жить)' };
+    const verbLabel = { ser: 'Глагол ser (быть)', estar: 'Глагол estar (находиться)', llamarse: 'Глагол llamarse (называться)', estar_adjectives: 'Глагол estar + прилагательные (быть каким-то)', estar_acostumbrado: 'Конструкция estar acostumbrado a (быть привыкшим к)', tener: 'Глагол tener (иметь, возраст)', vivir: 'Глагол vivir (жить)' };
 
     const app = document.getElementById('app');
     app.className = 'container';
@@ -167,7 +167,7 @@ const LessonPlayer = {
           ).join(', ');
           return `
           <div style="margin:16px 0">
-            <h3>Глагол <em>${verb}</em> (${verbRu[verb] || verb})</h3>
+            <h3>${verbLabel[verb] || verb}</h3>
             <table style="width:100%;border-collapse:collapse;margin:8px 0">
               <tr style="background:var(--gray)">
                 <th style="padding:6px 12px;border:1px solid var(--gray);text-align:left">Лицо</th>
