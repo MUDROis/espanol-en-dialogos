@@ -22,15 +22,20 @@
     <div id="auth-section" class="container" style="display:none">
       <div class="auth-card">
         <div id="auth-form-area">
-          <h2>Введите код доступа</h2>
-          <p style="text-align:center;margin-bottom:16px;font-size:14px;color:var(--gray-dark)">
-            Код вы получаете после оплаты курса
-          </p>
+          <h2 id="auth-title">Вход в курс</h2>
           <div id="auth-error" class="auth-error" style="display:none"></div>
-          <input type="text" id="auth-code" class="auth-input" placeholder="Код доступа">
-          <button id="auth-submit" class="btn btn-primary" style="width:100%">Активировать</button>
+          <input type="email" id="auth-email" class="auth-input" placeholder="Email">
+          <input type="password" id="auth-password" class="auth-input" placeholder="Пароль">
+          <button id="auth-submit" class="btn btn-primary" style="width:100%">Войти</button>
+          <p style="text-align:center;margin-top:12px;font-size:14px">
+            <a href="#" id="auth-toggle" style="color:var(--primary)">Зарегистрироваться</a>
+          </p>
+          <p style="text-align:center;margin-top:8px;font-size:14px;color:var(--gray-dark)">
+            После регистрации сразу откроется демо-доступ к уроку 1
+          </p>
         </div>
         <div id="auth-user-area" style="display:none">
+          <p style="text-align:center">Вы вошли как <strong id="auth-user-email"></strong></p>
           <p style="text-align:center;font-size:14px;color:var(--gray-dark)" id="auth-access-info"></p>
           <button id="auth-logout" class="btn btn-secondary" style="width:100%">Выйти</button>
         </div>
@@ -56,10 +61,13 @@
     <p style="margin-top:8px">© 2026 — Громова Анна, ИНТЕРАКТИВНАЯ ШКОЛА МУДРО</p>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/auth.js"></script>
   <script src="js/progress.js"></script>
   <script src="js/app.js"></script>
   <script>
+    let isRegisterMode = false;
+
     function showAuthError(msg) {
       const el = document.getElementById('auth-error');
       el.textContent = msg;
@@ -72,7 +80,7 @@
 
     function renderCourse(dialogs) {
       const stats = Progress.getStats();
-      const activation = AUTH.getActivation();
+      const enrollment = AUTH.getEnrollment();
 
       const total = 55;
       document.getElementById('total-text').textContent = total;
@@ -121,7 +129,7 @@
       document.getElementById('course-content').innerHTML = html;
     }
 
-    function showAuth(isAuthenticated, activation) {
+    function showAuth(isAuthenticated, enrollment) {
       const authSection = document.getElementById('auth-section');
       const courseSection = document.getElementById('progress-summary').parentElement;
       if (!isAuthenticated) {
@@ -134,14 +142,15 @@
         courseSection.style.display = 'block';
         document.getElementById('auth-form-area').style.display = 'none';
         document.getElementById('auth-user-area').style.display = 'block';
+        document.getElementById('auth-user-email').textContent = AUTH.getUser().email;
         const accessInfo = document.getElementById('auth-access-info');
-        if (activation && activation.type === 'admin') {
+        if (enrollment && enrollment.access_type === 'admin') {
           accessInfo.textContent = 'Администратор — полный доступ ко всем урокам';
-        } else if (activation && activation.type === 'demo') {
+        } else if (enrollment && enrollment.access_type === 'demo') {
           accessInfo.textContent = 'Демо-доступ: открыт урок 1';
-        } else if (activation && activation.type === 'full') {
-          if (activation.expires_at) {
-            const expiry = new Date(activation.expires_at).toLocaleDateString('ru-RU');
+        } else if (enrollment && enrollment.access_type === 'full') {
+          if (enrollment.access_expires_at) {
+            const expiry = new Date(enrollment.access_expires_at).toLocaleDateString('ru-RU');
             accessInfo.textContent = 'Полный доступ до ' + expiry;
           } else {
             accessInfo.textContent = 'Полный доступ — все уроки открыты';
@@ -158,18 +167,36 @@
       const resp = await fetch('data/dialogs.json');
       const dialogs = await resp.json();
 
-      AUTH.onChange((type) => {
-        const act = AUTH.getActivation();
-        showAuth(!!act, act);
-        if (act) { renderCourse(dialogs); }
+      AUTH.onChange((user, enrollment) => {
+        showAuth(!!user, enrollment);
+        if (user) {
+          renderCourse(dialogs);
+        }
       });
 
       document.getElementById('auth-submit').addEventListener('click', async () => {
         hideAuthError();
-        const code = document.getElementById('auth-code').value.trim();
-        if (!code) { showAuthError('Введите код доступа'); return; }
-        const res = await AUTH.activate(code);
-        if (res.error) { showAuthError(res.error); return; }
+        const email = document.getElementById('auth-email').value.trim();
+        const password = document.getElementById('auth-password').value;
+        if (!email || !password) { showAuthError('Заполните email и пароль'); return; }
+        let error;
+        if (isRegisterMode) {
+          const res = await AUTH.register(email, password);
+          if (res.error) { showAuthError(res.error.message); return; }
+          showAuthError('Регистрация успешна! Проверьте email для подтверждения (если требуется).');
+        } else {
+          const res = await AUTH.login(email, password);
+          if (res.error) { showAuthError(res.error.message); return; }
+        }
+      });
+
+      document.getElementById('auth-toggle').addEventListener('click', (e) => {
+        e.preventDefault();
+        isRegisterMode = !isRegisterMode;
+        document.getElementById('auth-title').textContent = isRegisterMode ? 'Регистрация' : 'Вход в курс';
+        document.getElementById('auth-submit').textContent = isRegisterMode ? 'Зарегистрироваться' : 'Войти';
+        document.getElementById('auth-toggle').textContent = isRegisterMode ? 'Уже есть аккаунт? Войти' : 'Зарегистрироваться';
+        hideAuthError();
       });
 
       document.getElementById('auth-logout').addEventListener('click', () => {
@@ -177,7 +204,7 @@
       });
 
       if (AUTH.isAuthenticated()) {
-        showAuth(true, AUTH.getActivation());
+        showAuth(true, AUTH.getEnrollment());
         renderCourse(dialogs);
       }
     });

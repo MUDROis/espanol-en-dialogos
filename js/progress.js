@@ -1,8 +1,8 @@
 /* js/progress.js */
 const Progress = {
   _getKey() {
-    const activation = typeof AUTH !== 'undefined' ? AUTH.getActivation() : null;
-    const suffix = activation ? activation.codeHash.slice(0, 12) : 'anonymous';
+    const user = typeof AUTH !== 'undefined' ? AUTH.getUser() : null;
+    const suffix = user ? user.id : 'anonymous';
     return 'espanol_progress_' + suffix;
   },
 
