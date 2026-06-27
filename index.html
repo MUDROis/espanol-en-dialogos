@@ -15,26 +15,26 @@
         <p style="opacity:0.8;margin-top:4px">Интерактивный курс испанского языка по книге «Испанский в диалогах»</p>
         <a id="admin-link" href="admin.html" style="color:#fff;font-size:14px;display:none;margin-top:4px">⚙ Управление кодами</a>
       </div>
-      <a href="https://xn--80aaagnrcpdkofpu2ae0iuf.xn--p1ai/" target="_blank" rel="noopener"><img src="logo.png" alt="Español en Diálogos" class="header-logo"></a>
+      <div style="display:flex;align-items:center;gap:12px">
+        <div id="auth-badge" style="display:none;align-items:center;gap:8px">
+          <span id="auth-badge-type" style="font-size:13px;opacity:0.9;white-space:nowrap"></span>
+          <button id="auth-badge-logout" class="btn" style="padding:4px 12px;font-size:12px;background:rgba(255,255,255,0.2);color:#fff;border:none;border-radius:8px;cursor:pointer;min-width:auto">Выйти</button>
+        </div>
+        <a href="https://xn--80aaagnrcpdkofpu2ae0iuf.xn--p1ai/" target="_blank" rel="noopener"><img src="logo.png" alt="Español en Diálogos" class="header-logo"></a>
+      </div>
     </div>
   </header>
 
   <main>
     <div id="auth-section" class="container" style="display:none">
       <div class="auth-card">
-        <div id="auth-form-area">
-          <h2>Введите код доступа</h2>
-          <p style="text-align:center;margin-bottom:16px;font-size:14px;color:var(--gray-dark)">
-            Код вы получаете после оплаты курса
-          </p>
-          <div id="auth-error" class="auth-error" style="display:none"></div>
-          <input type="text" id="auth-code" class="auth-input" placeholder="Код доступа" autocomplete="off">
-          <button id="auth-submit" class="btn btn-primary" style="width:100%">Активировать</button>
-        </div>
-        <div id="auth-user-area" style="display:none">
-          <p style="text-align:center;font-size:14px;color:var(--gray-dark)" id="auth-access-info"></p>
-          <button id="auth-logout" class="btn btn-secondary" style="width:100%">Выйти</button>
-        </div>
+        <h2>Введите код доступа</h2>
+        <p style="text-align:center;margin-bottom:16px;font-size:14px;color:var(--gray-dark)">
+          Код вы получаете после оплаты курса
+        </p>
+        <div id="auth-error" class="auth-error" style="display:none"></div>
+        <input type="text" id="auth-code" class="auth-input" placeholder="Код доступа" autocomplete="off">
+        <button id="auth-submit" class="btn btn-primary" style="width:100%">Активировать</button>
       </div>
     </div>
 
@@ -126,30 +126,29 @@
     function showAuth(isAuthenticated, activation) {
       const authSection = document.getElementById('auth-section');
       const courseSection = document.getElementById('progress-summary').parentElement;
+      const authBadge = document.getElementById('auth-badge');
+      const badgeType = document.getElementById('auth-badge-type');
       const adminLink = document.getElementById('admin-link');
       if (!isAuthenticated) {
         authSection.style.display = 'block';
         courseSection.style.display = 'none';
-        document.getElementById('auth-form-area').style.display = 'block';
-        document.getElementById('auth-user-area').style.display = 'none';
+        authBadge.style.display = 'none';
         if (adminLink) adminLink.style.display = 'none';
       } else {
-        authSection.style.display = 'block';
+        authSection.style.display = 'none';
         courseSection.style.display = 'block';
-        document.getElementById('auth-form-area').style.display = 'none';
-        document.getElementById('auth-user-area').style.display = 'block';
-        const accessInfo = document.getElementById('auth-access-info');
+        authBadge.style.display = 'flex';
         if (activation.type === 'admin') {
-          accessInfo.textContent = 'Администратор — полный доступ';
+          badgeType.textContent = 'Администратор';
           if (adminLink) adminLink.style.display = 'inline';
         } else if (activation.type === 'demo') {
-          accessInfo.textContent = 'Демо-доступ: открыт урок 1';
+          badgeType.textContent = 'Демо-доступ (урок 1)';
         } else if (activation.type === 'full') {
           if (activation.expires_at) {
             const expiry = new Date(activation.expires_at).toLocaleDateString('ru-RU');
-            accessInfo.textContent = 'Полный доступ до ' + expiry;
+            badgeType.textContent = 'Полный доступ до ' + expiry;
           } else {
-            accessInfo.textContent = 'Полный доступ — все уроки открыты';
+            badgeType.textContent = 'Полный доступ';
           }
         }
       }
@@ -195,10 +194,8 @@
         if (e.key === 'Enter') document.getElementById('auth-submit').click();
       });
 
-      document.getElementById('auth-logout').addEventListener('click', () => {
-        AUTH.logout();
-        document.getElementById('auth-code').value = '';
-      });
+      const doLogout = () => { AUTH.logout(); document.getElementById('auth-code').value = ''; };
+      document.getElementById('auth-badge-logout').addEventListener('click', doLogout);
 
       if (AUTH.isAuthenticated()) {
         fetch('data/dialogs.json').then(r => r.json()).then(dialogs => {
