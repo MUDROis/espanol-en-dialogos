@@ -131,10 +131,9 @@ body {
 }
 .fade-in { animation: fadeIn 0.3s ease; }
 
-/* Vocabulary cards */
+/* Vocabulary cards – изменённая часть */
 .vocab-card {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 12px 16px;
   background: #fff;
@@ -143,9 +142,26 @@ body {
   cursor: pointer;
   transition: all 0.2s;
 }
-.vocab-card:hover { border-color: var(--primary); }
-.vocab-card .es { font-weight: 600; }
-.vocab-card .ru { color: var(--gray-dark); }
+.vocab-card:hover {
+  border-color: var(--primary);
+}
+.vocab-card .es {
+  font-weight: 600;
+  margin-right: 12px;
+  white-space: nowrap;
+}
+.vocab-card .ru {
+  color: var(--gray-dark);
+  flex: 1;
+  text-align: left;
+}
+.vocab-card .play-icon {
+  font-size: 14px;
+  color: var(--accent);
+  cursor: pointer;
+  margin-left: 8px;
+  flex-shrink: 0;
+}
 
 /* Dialogue lines */
 .dialogue-line {

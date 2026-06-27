@@ -10,40 +10,87 @@
     "Говорить о чувствах и проблемах",
     "Приглашать и отвечать на приглашения",
     "Рассказывать о семье и личных предпочтениях",
-    "Использовать конструкции con, de, por y porque"
+    "Использовать конструкции con, de, por y porque",
+    "Запрашивать и сообщать время",
+    "Выражать физические состояния с tener"
   ],
   "grammar": {
-    "estar_triste": {
-      "yo": { "es": "estoy triste", "ru": "я грустный" },
-      "tu": { "es": "estás triste", "ru": "ты грустный" },
-      "el_ella": { "es": "está triste", "ru": "он/она грустный" },
-      "nosotros": { "es": "estamos tristes", "ru": "мы грустные" },
-      "vosotros": { "es": "estáis tristes", "ru": "вы грустные" },
-      "ellos_ellas": { "es": "están tristes", "ru": "они грустные" }
+    "estar_con_adjetivos": {
+      "title": "Estar + прилагательные (временное состояние)",
+      "description": "Используется для эмоций, физического состояния, местоположения.",
+      "forms": {
+        "yo": { "es": "estoy", "ru": "я нахожусь/являюсь временно" },
+        "tu": { "es": "estás", "ru": "ты находишься" },
+        "el_ella": { "es": "está", "ru": "он/она находится" },
+        "nosotros": { "es": "estamos", "ru": "мы находимся" },
+        "vosotros": { "es": "estáis", "ru": "вы находитесь" },
+        "ellos_ellas": { "es": "están", "ru": "они находятся" }
+      },
+      "examples": [
+        { "es": "Estoy triste", "ru": "Я грустный (сейчас)" },
+        { "es": "Estás libre", "ru": "Ты свободен" },
+        { "es": "Está dormida", "ru": "Она сонная" },
+        { "es": "No estoy preparada", "ru": "Я не готова" },
+        { "es": "Está loca por Enrique", "ru": "Она без ума от Энрике" },
+        { "es": "Estoy harta de él", "ru": "Я сыта им по горло" }
+      ]
     },
-    "tener_problemas": {
-      "yo": { "es": "tengo problemas", "ru": "у меня проблемы" },
-      "tu": { "es": "tienes problemas", "ru": "у тебя проблемы" },
-      "el_ella": { "es": "tiene problemas", "ru": "у него/неё проблемы" },
-      "nosotros": { "es": "tenemos problemas", "ru": "у нас проблемы" },
-      "vosotros": { "es": "tenéis problemas", "ru": "у вас проблемы" },
-      "ellos_ellas": { "es": "tienen problemas", "ru": "у них проблемы" }
+    "tener_expresiones": {
+      "title": "Глагол TENER (иметь) и устойчивые выражения",
+      "forms": {
+        "yo": { "es": "tengo", "ru": "я имею" },
+        "tu": { "es": "tienes", "ru": "ты имеешь" },
+        "el_ella": { "es": "tiene", "ru": "он/она имеет" },
+        "nosotros": { "es": "tenemos", "ru": "мы имеем" },
+        "vosotros": { "es": "tenéis", "ru": "вы имеете" },
+        "ellos_ellas": { "es": "tienen", "ru": "они имеют" }
+      },
+      "expressions": [
+        { "es": "tener problemas", "ru": "иметь проблемы" },
+        { "es": "tener hambre", "ru": "хотеть есть" },
+        { "es": "tener años", "ru": "иметь возраст (мне ... лет)" },
+        { "es": "tener razón", "ru": "быть правым" }
+      ],
+      "examples": [
+        { "es": "Tengo problemas con el ejercicio", "ru": "У меня проблемы с упражнением" },
+        { "es": "¡Tengo hambre!", "ru": "Я голоден!" },
+        { "es": "Tiene 17 años", "ru": "Ему 17 лет" },
+        { "es": "Tienes razón", "ru": "Ты прав" }
+      ]
     },
-    "preparado_para": {
-      "yo": { "es": "estoy preparado/a para", "ru": "я готов/готова к" },
-      "tu": { "es": "estás preparado/a para", "ru": "ты готов/готова к" },
-      "el_ella": { "es": "está preparado/a para", "ru": "он/она готов/готова к" },
-      "nosotros": { "es": "estamos preparados/as para", "ru": "мы готовы к" },
-      "vosotros": { "es": "estáis preparados/as para", "ru": "вы готовы к" },
-      "ellos_ellas": { "es": "están preparados/as para", "ru": "они готовы к" }
+    "ser_vs_estar": {
+      "title": "SER vs ESTAR – постоянное vs временное",
+      "rule": "SER – для идентификации, происхождения, профессии, дат; ESTAR – для состояния, местоположения, эмоций.",
+      "examples": [
+        { "es": "Es el 5 de junio", "ru": "Сегодня 5 июня (дата – SER)" },
+        { "es": "Estoy triste", "ru": "Я грустный (состояние – ESTAR)" },
+        { "es": "Es una chica buena", "ru": "Она хорошая девушка (характер – SER)" }
+      ]
     },
-    "dormido": {
-      "yo": { "es": "estoy dormido/a", "ru": "я спящий" },
-      "tu": { "es": "estás dormido/a", "ru": "ты спящий" },
-      "el_ella": { "es": "está dormido/a", "ru": "он/она спящий" },
-      "nosotros": { "es": "estamos dormidos/as", "ru": "мы спящие" },
-      "vosotros": { "es": "estáis dormidos/as", "ru": "вы спящие" },
-      "ellos_ellas": { "es": "están dormidos/as", "ru": "они спящие" }
+    "preposiciones_con_adjetivos": {
+      "title": "Устойчивые конструкции: прилагательное + предлог",
+      "list": [
+        { "es": "preparado/a para", "ru": "готовый к" },
+        { "es": "casado/a con", "ru": "женат/замужем за" },
+        { "es": "loco/a por", "ru": "без ума от" },
+        { "es": "harto/a de", "ru": "сыт по горло от" }
+      ]
+    },
+    "hacer": {
+      "title": "Глагол HACER (делать, устраивать)",
+      "description": "Неправильный глагол, важный для темы праздников и приглашений.",
+      "forms": {
+        "yo": { "es": "hago", "ru": "я делаю" },
+        "tu": { "es": "haces", "ru": "ты делаешь" },
+        "el_ella": { "es": "hace", "ru": "он/она делает" },
+        "nosotros": { "es": "hacemos", "ru": "мы делаем" },
+        "vosotros": { "es": "hacéis", "ru": "вы делаете" },
+        "ellos_ellas": { "es": "hacen", "ru": "они делают" }
+      },
+      "examples": [
+        { "es": "Hago una fiesta", "ru": "Я устраиваю вечеринку" },
+        { "es": "¿Qué haces?", "ru": "Что ты делаешь?" }
+      ]
     }
   },
   "vocabulary": {
@@ -86,7 +133,30 @@
       { "es": "5 de junio", "ru": "5 июня" },
       { "es": "mañana", "ru": "завтра" },
       { "es": "ayer", "ru": "вчера" },
-      { "es": "hoy", "ru": "сегодня" }
+      { "es": "hoy", "ru": "сегодня" },
+      { "es": "¿qué hora es?", "ru": "который час?" }
+    ],
+    "time_expressions": [
+      { "es": "mañana", "ru": "завтра" },
+      { "es": "hoy", "ru": "сегодня" },
+      { "es": "ayer", "ru": "вчера" },
+      { "es": "por la mañana", "ru": "утром" },
+      { "es": "por la tarde", "ru": "днём / после обеда" },
+      { "es": "por la noche", "ru": "вечером / ночью" },
+      { "es": "ahora", "ru": "сейчас" },
+      { "es": "luego", "ru": "потом" },
+      { "es": "tarde", "ru": "поздно" },
+      { "es": "pronto", "ru": "рано" }
+    ],
+    "tener_expressions": [
+      { "es": "tengo hambre", "ru": "я голоден" },
+      { "es": "tengo sed", "ru": "я хочу пить" },
+      { "es": "tengo frío", "ru": "мне холодно" },
+      { "es": "tengo calor", "ru": "мне жарко" },
+      { "es": "tengo sueño", "ru": "я хочу спать" },
+      { "es": "tengo ganas de...", "ru": "я хочу..." },
+      { "es": "tengo razón", "ru": "я прав" },
+      { "es": "tienes razón", "ru": "ты прав" }
     ]
   },
   "dialogue": [
@@ -96,12 +166,15 @@
     { "speaker": "Belén", "es": "Sí, gracias... Escucha, Ana, mañana es mi cumpleaños y hago una fiesta pequeña en mi casa. ¿Estás libre mañana por la tarde?", "ru": "Да, спасибо... Послушай, Анна, завтра у меня день рождения, и я устраиваю маленький праздник дома. Ты свободна завтра вечером?" },
     { "speaker": "Ana", "es": "¿Qué fecha es mañana?", "ru": "Какое завтра число?" },
     { "speaker": "Belén", "es": "Es 5 de junio.", "ru": "Пятое июня." },
+    { "speaker": "Ana", "es": "¿Qué hora es?", "ru": "Который час?" },
+    { "speaker": "Belén", "es": "Es la una y media.", "ru": "Одна тридцать." },
     { "speaker": "Ana", "es": "Sí, estoy libre.", "ru": "Да, свободна." },
     { "speaker": "Belén", "es": "Entonces, te invito. Mi cuñada cocina muy bien, comida típica española.", "ru": "Тогда я тебя приглашаю. Жена моего брата очень хорошо готовит, типично испанские блюда." },
     { "speaker": "Ana", "es": "¡Muchas gracias! Pues, ¿tienes un hermano casado con una española?", "ru": "Большое спасибо! Значит, у тебя брат женат на испанке?" },
     { "speaker": "Belén", "es": "Sí, mi hermano mayor. Su mujer es una chica muy buena, pero está loca por Enrique Iglesias, así que escuchamos sus canciones día y noche. Ya estoy harta de él.", "ru": "Да, мой старший брат. Его жена очень хорошая девушка, но она сходит с ума по Энрике Иглесиасу, так что мы слушаем его песни день и ночь. Я уже сыта им по горло." },
     { "speaker": "Ana", "es": "Ja, ja. Por eso estás casi dormida...", "ru": "Ха-ха. Поэтому ты почти спишь..." },
-    { "speaker": "Belén", "es": "Sí, eso.", "ru": "Да, именно так." }
+    { "speaker": "Belén", "es": "Sí, eso. ¡Tengo hambre! ¿A qué hora es la fiesta?", "ru": "Да, именно так. Я голодна! В котором часу вечеринка?" },
+    { "speaker": "Ana", "es": "Por la tarde, a las seis.", "ru": "Днём, в шесть часов." }
   ],
   "exercises": [
     {
@@ -114,9 +187,11 @@
         { "es": "cumpleaños", "ru": "день рождения" },
         { "es": "fiesta", "ru": "вечеринка" },
         { "es": "invitar", "ru": "приглашать" },
-        { "es": "cuñada", "ru": "шурин" },
-        { "es": "cansado de", "ru": "устал от" },
-        { "es": "harto de", "ru": "насытился от" }
+        { "es": "libre", "ru": "свободный" },
+        { "es": "preparado", "ru": "готовый" },
+        { "es": "tengo hambre", "ru": "я голоден" },
+        { "es": "por la tarde", "ru": "днём" },
+        { "es": "harto de", "ru": "сыт по горло" }
       ]
     },
     {
@@ -125,11 +200,36 @@
       "description": "Выбери правильную форму глагола или предлог",
       "sentences": [
         { "text": "Yo ___ triste por el ejercicio.", "answer": "estoy", "options": ["soy", "estoy", "tengo"] },
+        { "text": "Mañana ___ una fiesta en mi casa.", "answer": "hago", "options": ["hago", "haces", "hace"] },
         { "text": "Ella ___ problemas con la tarea.", "answer": "tiene", "options": ["tiene", "tengo", "está"] },
         { "text": "¿Estás libre ___ la tarde?", "answer": "por", "options": ["por", "para", "de"] },
         { "text": "Mi hermano está casado ___ una española.", "answer": "con", "options": ["con", "de", "por"] },
         { "text": "Estoy harta ___ escuchar canciones todo el día.", "answer": "de", "options": ["de", "por", "para"] },
-        { "text": "No ___ preparada para la clase.", "answer": "estoy", "options": ["soy", "estoy", "tengo"] }
+        { "text": "No ___ preparada para la clase.", "answer": "estoy", "options": ["soy", "estoy", "tengo"] },
+        { "text": "___ qué hora es la fiesta?", "answer": "¿", "options": ["¿", "A", "En"] },
+        { "text": "Tengo ___ hambre.", "answer": "", "options": ["hambre", "sed", "calor"] }
+      ]
+    },
+    {
+      "type": "fill-gap-time",
+      "title": "Вставь время",
+      "description": "Выбери правильное временное выражение",
+      "sentences": [
+        { "text": "Me levanto ___ (утром).", "answer": "por la mañana", "options": ["por la mañana", "por la tarde", "por la noche"] },
+        { "text": "Veo la tele ___ (вечером).", "answer": "por la noche", "options": ["por la mañana", "por la tarde", "por la noche"] },
+        { "text": " trabajo de lunes a viernes ___.", "answer": "hoy", "options": ["mañana", "hoy", "ayer"] },
+        { "text": "___ es mi cumpleaños.", "answer": "Mañana", "options": ["Mañana", "Hoy", "Ayer"] }
+      ]
+    },
+    {
+      "type": "fill-gap-tenir",
+      "title": "Tener в разных значениях",
+      "description": "Выбери правильное выражение с tener",
+      "sentences": [
+        { "text": "___ frío. ¡Cierra la ventana!", "answer": "Tengo", "options": ["Tengo", "Tienes", "Tiene"] },
+        { "text": "___ muchas ganas de ir a la fiesta.", "answer": "Tengo", "options": ["Tengo", "Estoy", "Soy"] },
+        { "text": "¿Qué ___? — Tengo sed.", "answer": "tienes", "options": ["tienes", "estás", "eres"] },
+        { "text": "Mi hermano ___ un coche nuevo.", "answer": "tiene", "options": ["tiene", "está", "es"] }
       ]
     },
     {
@@ -152,13 +252,15 @@
     {
       "type": "create-dialogue",
       "title": "Создай свой диалог",
-      "description": "Составь свой диалог о дне рождения",
+      "description": "Заполни пропуски (глаголы estar, tener, hacer и предлоги para, con, por, de)",
       "template": [
-        { "label": "Приветствие", "es": "Hola, ¿___ estás?" },
-        { "label": "Спрашиваешь о человеке", "es": "¿Por qué ___ triste?" },
-        { "label": "Предлагаешь помощь", "es": "¿___ ayudo?" },
-        { "label": "Приглашаешь на праздник", "es": "___ una fiesta en mi casa. ¿___ libre?" },
-        { "label": "Отвечаешь на приглашение", "es": "Sí, ___ libre. ¡___ gracias!" }
+        { "label": "Вопрос о состоянии", "es": "¿Por qué ___ triste?" },
+        { "label": "Предложение помощи", "es": "¿Te ___?" },
+        { "label": "Приглашение на день рождения", "es": "Mañana es mi cumpleaños, ___ una fiesta. ¿___ libre?" },
+        { "label": "Ответ на приглашение", "es": "Sí, ___ libre. ¡Muchas gracias!" },
+        { "label": "Вопрос о времени", "es": "¿A qué ___ es?" },
+        { "label": "Выражение голода", "es": "¡Tengo ___!" },
+        { "label": "Устойчивое выражение с предлогом", "es": "Mi cuñada está loca ___ la música." }
       ]
     },
     {
@@ -201,13 +303,56 @@
           "ru": "Как сказать «помочь тебе»?",
           "options": ["¿Te ayudo?", "¿Te ayudas?", "¿Te ayudo a?", "¿Te ayudo por?"],
           "answer": 0
+        },
+        {
+          "question": "¿Cómo se dice «который час?»?",
+          "ru": "Как сказать «который час?»?",
+          "options": ["¿Qué hora es?", "¿Qué tiempo es?", "¿Cuántas horas son?", "¿Hora es?"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se dice «я голоден»?",
+          "ru": "Как сказать «я голоден»?",
+          "options": ["Tengo hambre", "Estoy hambre", "Soy hambre", "Tengo comida"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuándo escuchan las canciones de Enrique Iglesias?",
+          "ru": "Когда они слушают песни Энрике Иглесиаса?",
+          "options": ["Día y noche", "Sólo por la mañana", "Sólo por la noche", "Sólo por la tarde"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué es un verbo irregular con tener?",
+          "ru": "Какая форма — неправильная для tener?",
+          "options": ["tengo", "teno", "tienes", "tiene"],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuál es la forma correcta? Ella ___ triste hoy.",
+          "ru": "Какая форма правильная? Она грустна сегодня.",
+          "options": ["es", "está", "tiene", "soy"],
+          "answer": 1
+        },
+        {
+          "question": "Elige la preposición correcta: Estoy preparado ___ el examen.",
+          "ru": "Выбери правильный предлог: Я готов к экзамену.",
+          "options": ["para", "con", "por", "de"],
+          "answer": 0
+        },
+        {
+          "question": "Elige la preposición correcta: Mi hermana está casada ___ un profesor.",
+          "ru": "Выбери правильный предлог: Моя сестра замужем за учителем.",
+          "options": ["con", "por", "de", "para"],
+          "answer": 0
         }
       ]
     }
   ],
   "homework": [
-    "5 мин: Повторить слова в приложении (чувства, праздники, семья)",
-    "Практика: Напиши приглашение на день рождения другу на испанском",
-    "Дневник: Напиши 5 предложений о том, как ты проводишь день рождения"
+    "5 мин: Повторить слова в приложении (чувства, праздники, семья, время, tener expressions)",
+    "Практика: Напиши приглашение на день рождения другу на испанском (используй: ¿Qué hora es?, tengo hambre, por la tarde)",
+    "Дневник: Напиши 5 предложений о том, как ты проводишь день рождения (используй: por la mañana, por la tarde, por la noche, tengo hambre, tengo ganas de...)",
+    "Грамматика: Составь 3 предложения с estar (временное) и 3 с ser (постоянное)"
   ]
 }

@@ -76,7 +76,7 @@ const LessonPlayer = {
     window.location.href = 'index.html';
   },
 
-  // Step renderers — filled in later tasks
+  // Step renderers
   renderPreparation() {
     const d = this.dialog;
     const app = document.getElementById('app');
@@ -132,7 +132,7 @@ const LessonPlayer = {
             <div class="vocab-card" onclick="Speech.say('${v.es.replace(/'/g, "\\'")}', 'es-ES')">
               <span class="es">${v.es}</span>
               <span class="ru">${v.ru}</span>
-              <span style="font-size:12px;color:var(--accent);cursor:pointer">🔊</span>
+              <span class="play-icon">🔊</span>
             </div>
           `).join('')}
         </div>
@@ -148,24 +148,96 @@ const LessonPlayer = {
     const pairs = allVocab.slice(0, 8);
     Games.memoryGame('memory-game', pairs);
   },
+
   renderGrammar() {
     const d = this.dialog;
-
-    const verbLabel = { ser: 'Глагол ser (быть)', estar: 'Глагол estar (находиться)', llamarse: 'Глагол llamarse (называться)', estar_adjectives: 'Глагол estar + прилагательные (быть каким-то)', estar_acostumbrado: 'Конструкция estar acostumbrado a (быть привыкшим к)', tener: 'Глагол tener (иметь, возраст)', vivir: 'Глагол vivir (жить)' };
-
     const app = document.getElementById('app');
     app.className = 'container';
 
-    app.innerHTML = `
-      <div class="card fade-in">
-        <h2>📚 Грамматика диалога</h2>
+    // Определяем, новый ли формат (есть ли у первого блока поле 'forms' или 'list')
+    const grammarKeys = Object.keys(d.grammar);
+    const isNewFormat = grammarKeys.length > 0 && 
+      (d.grammar[grammarKeys[0]].forms || d.grammar[grammarKeys[0]].list);
 
-        ${Object.entries(d.grammar).map(([verb, forms]) => {
+    let html = '<div class="card fade-in"><h2>📚 Грамматика диалога</h2>';
+
+    if (isNewFormat) {
+      // Новый формат с title/description/forms/examples
+      for (const [key, block] of Object.entries(d.grammar)) {
+        html += `<div style="margin:24px 0;border-bottom:1px solid var(--gray);padding-bottom:16px">`;
+        if (block.title) {
+          html += `<h3>${block.title}</h3>`;
+        }
+        if (block.description) {
+          html += `<p style="color:var(--gray-dark);margin:4px 0 12px">${block.description}</p>`;
+        }
+
+        // Если есть forms — таблица спряжения
+        if (block.forms) {
+          const forms = block.forms;
           const ttsPerson = { yo: 'yo', tu: 'tú', el_ella: 'él', nosotros: 'nosotros', vosotros: 'vosotros', ellos_ellas: 'ellos' };
           const fullPhrases = Object.entries(forms).map(([p, f]) =>
             `${ttsPerson[p] || p.replace('_', '/')} ${typeof f === 'string' ? f : f.es}`
           ).join(', ');
-          return `
+
+          html += `
+            <table style="width:100%;border-collapse:collapse;margin:8px 0">
+              <tr style="background:var(--gray)">
+                <th style="padding:6px 12px;border:1px solid var(--gray);text-align:left">Лицо</th>
+                <th style="padding:6px 12px;border:1px solid var(--gray);text-align:left">Español</th>
+                <th style="padding:6px 12px;border:1px solid var(--gray);text-align:left">Русский</th>
+              </tr>
+              ${Object.entries(forms).map(([person, form]) => {
+                const es = typeof form === 'string' ? form : form.es;
+                const ru = typeof form === 'string' ? '—' : form.ru;
+                return `
+                <tr>
+                  <td style="padding:6px 12px;border:1px solid var(--gray);font-weight:600">${person.replace('_', '/')}</td>
+                  <td style="padding:6px 12px;border:1px solid var(--gray)">${es}</td>
+                  <td style="padding:6px 12px;border:1px solid var(--gray);color:var(--gray-dark)">${ru}</td>
+                </tr>`;
+              }).join('')}
+            </table>
+            <button class="btn btn-secondary" style="font-size:14px" onclick="Speech.say('${fullPhrases.replace(/'/g, "\\'")}', 'es-ES')">
+              🔊 Прослушать формы
+            </button>
+          `;
+        }
+
+        // Если есть rule (для ser_vs_estar)
+        if (block.rule) {
+          html += `<p style="margin:8px 0;background:var(--gray);padding:8px;border-radius:6px">${block.rule}</p>`;
+        }
+
+        // Если есть list — список конструкций
+        if (block.list) {
+          html += `<ul style="margin:8px 0;padding-left:20px">`;
+          block.list.forEach(item => {
+            html += `<li><strong>${item.es}</strong> — ${item.ru}</li>`;
+          });
+          html += `</ul>`;
+        }
+
+        // Если есть examples
+        if (block.examples) {
+          html += `<div style="margin-top:8px">`;
+          block.examples.forEach(ex => {
+            html += `<p style="margin:4px 0"><em>${ex.es}</em> — ${ex.ru}</p>`;
+          });
+          html += `</div>`;
+        }
+
+        html += `</div>`;
+      }
+    } else {
+      // Старый формат (как в уроках 1 и 2)
+      const verbLabel = { ser: 'Глагол ser (быть)', estar: 'Глагол estar (находиться)', llamarse: 'Глагол llamarse (называться)', estar_adjectives: 'Глагол estar + прилагательные (быть каким-то)', estar_acostumbrado: 'Конструкция estar acostumbrado a (быть привыкшим к)', tener: 'Глагол tener (иметь, возраст)', vivir: 'Глагол vivir (жить)' };
+      for (const [verb, forms] of Object.entries(d.grammar)) {
+        const ttsPerson = { yo: 'yo', tu: 'tú', el_ella: 'él', nosotros: 'nosotros', vosotros: 'vosotros', ellos_ellas: 'ellos' };
+        const fullPhrases = Object.entries(forms).map(([p, f]) =>
+          `${ttsPerson[p] || p.replace('_', '/')} ${typeof f === 'string' ? f : f.es}`
+        ).join(', ');
+        html += `
           <div style="margin:16px 0">
             <h3>${verbLabel[verb] || verb}</h3>
             <table style="width:100%;border-collapse:collapse;margin:8px 0">
@@ -189,32 +261,36 @@ const LessonPlayer = {
               🔊 Прослушать формы
             </button>
           </div>`;
-        }).join('')}
+      }
+      // Добавляем замечание про SER/ESTAR для старых уроков
+      if (d.id === 1) {
+        html += `
+          <div style="margin-top:24px">
+            <p style="margin-bottom:8px;font-weight:600">💡 Запомните:</p>
+            <p><strong>SER</strong> — для постоянных характеристик (национальность, профессия, имя)</p>
+            <p><strong>ESTAR</strong> — для временных состояний и местоположения</p>
+          </div>`;
+      }
+    }
 
-        <div style="margin-top:24px">
-          <p style="margin-bottom:8px;font-weight:600">💡 Запомните:</p>
-          ${d.id === 1 ? `
-          <p><strong>SER</strong> — для постоянных характеристик (национальность, профессия, имя)</p>
-          <p><strong>ESTAR</strong> — для временных состояний и местоположения</p>` : `
-          <p><strong>ESTAR + прилагательное</strong> — для временных состояний и чувств: <em>estoy contento, estoy cansado</em></p>
-          <p><strong>Окончание женского рода</strong> — прилагательные меняют <em>-o</em> на <em>-a</em>: <em>contento → contenta, cansado → cansada, enamorado → enamorada</em></p>
-          <p><strong>ESTAR acostumbrado a</strong> — «быть привыкшим к»: <em>estoy acostumbrado a la vida aquí</em></p>
-          <p><strong>TENER + возраст</strong> — для указания возраста: <em>tiene 17 años</em></p>
-          <p><strong>VIVIR</strong> — спряжение: <em>vivo, vives, vive, vivimos, vivís, viven</em></p>`}
-        </div>
-      </div>
+    html += `</div>`; // закрываем card
 
+    // Добавляем fill-gap упражнение
+    html += `
       <div class="card fade-in" style="margin-top:16px">
         <h3>🎮 Упражнение: Вставь правильную форму</h3>
         <div id="fill-gap"></div>
       </div>
     `;
 
+    app.innerHTML = html;
+
     const grammarEx = d.exercises.find(e => e.type === 'fill-gap');
     if (grammarEx) {
       Games.fillGap('fill-gap', grammarEx.sentences);
     }
   },
+
   renderDialogue() {
     const d = this.dialog;
     const app = document.getElementById('app');
@@ -251,6 +327,7 @@ const LessonPlayer = {
 
     Games.shadowingPlayer('shadowing-player', d.dialogue);
   },
+
   renderSpeaking() {
     const d = this.dialog;
     const app = document.getElementById('app');
@@ -281,6 +358,7 @@ const LessonPlayer = {
       Games.roleplayGame(`roleplay-${i}`, d.dialogue, ex.role);
     });
   },
+
   renderTest() {
     const d = this.dialog;
     const app = document.getElementById('app');
@@ -300,6 +378,7 @@ const LessonPlayer = {
       Games.quiz('quiz-container', quizEx.questions, `dialog-${d.id}`);
     }
   },
+
   renderReflection() {
     const d = this.dialog;
     const app = document.getElementById('app');
