@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Javier conoce a Ana",
+    "titleRu": "Хавьер знакомится с Анной",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "Presentaciones"
+  },
+  {
+    "id": 2,
+    "title": "Javier y Ana están en el café",
+    "titleRu": "Хавьер и Анна находятся в кафе",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "La escuela, la familia, la vida diaria"
+  },
+  {
+    "id": 3,
+    "title": "En la clase de español",
+    "titleRu": "На уроке испанского языка",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "La vida social, la familia, las celebraciones"
+  },
+  {
+    "id": 4,
+    "title": "En la ciudad",
+    "titleRu": "В городе",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "La ciudad, orientación, lugares de interés"
+  },
+  {
+    "id": 5,
+    "title": "La tía de Ana, Amalia, y su vecina María",
+    "titleRu": "Тётя Анны, Амалия, и её соседка Мария",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "Salud, familia, descripción física"
+  }
+]

@@ -1,0 +1,175 @@
+{
+  "id": 1,
+  "title": "Javier conoce a Ana",
+  "titleRu": "Хавьер знакомится с Анной",
+  "part": 1,
+  "level": "A2",
+  "theme": "Presentaciones (Знакомство)",
+  "characters": ["javier", "ana"],
+  "objectives": [
+    "Научиться представлять себя",
+    "Спрашивать имя и говорить о себе",
+    "Использовать глаголы ser, estar, llamarse"
+  ],
+  "grammar": {
+    "ser": {
+      "yo": { "es": "soy", "ru": "я есть" },
+      "tu": { "es": "eres", "ru": "ты есть" },
+      "el_ella": { "es": "es", "ru": "он/она есть" },
+      "nosotros": { "es": "somos", "ru": "мы есть" },
+      "vosotros": { "es": "sois", "ru": "вы есть" },
+      "ellos_ellas": { "es": "son", "ru": "они есть" }
+    },
+    "estar": {
+      "yo": { "es": "estoy", "ru": "я нахожусь" },
+      "tu": { "es": "estás", "ru": "ты находишься" },
+      "el_ella": { "es": "está", "ru": "он/она находится" },
+      "nosotros": { "es": "estamos", "ru": "мы находимся" },
+      "vosotros": { "es": "estáis", "ru": "вы находитесь" },
+      "ellos_ellas": { "es": "están", "ru": "они находятся" }
+    },
+    "llamarse": {
+      "yo": { "es": "me llamo", "ru": "меня зовут" },
+      "tu": { "es": "te llamas", "ru": "тебя зовут" },
+      "el_ella": { "es": "se llama", "ru": "его/её зовут" },
+      "nosotros": { "es": "nos llamamos", "ru": "нас зовут" },
+      "vosotros": { "es": "os llamáis", "ru": "вас зовут" },
+      "ellos_ellas": { "es": "se llaman", "ru": "их зовут" }
+    }
+  },
+  "vocabulary": {
+    "greetings": [
+      { "es": "Hola", "ru": "Привет" },
+      { "es": "¿Qué tal?", "ru": "Как дела?" },
+      { "es": "Bien, gracias", "ru": "Хорошо, спасибо" },
+      { "es": "Mucho gusto", "ru": "Очень приятно" },
+      { "es": "El gusto es mío", "ru": "Взаимно" }
+    ],
+    "questions": [
+      { "es": "¿Cómo te llamas?", "ru": "Как тебя зовут?" },
+      { "es": "¿De dónde eres?", "ru": "Откуда ты?" }
+    ],
+    "places": [
+      { "es": "Italia", "ru": "Италия" },
+      { "es": "Turín", "ru": "Турин" },
+      { "es": "Holanda", "ru": "Голландия" },
+      { "es": "Rotterdam", "ru": "Роттердам" },
+      { "es": "el norte", "ru": "север" },
+      { "es": "el sur", "ru": "юг" },
+      { "es": "el centro", "ru": "центр" },
+      { "es": "los alrededores", "ru": "окраина" }
+    ],
+    "verbs": [
+      { "es": "estudiar", "ru": "изучать" },
+      { "es": "pasear", "ru": "гулять" },
+      { "es": "vivir", "ru": "жить" },
+      { "es": "alquilar", "ru": "снимать (жильё)" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Javier", "es": "Hola, ¿qué tal?", "ru": "Привет, как дела?" },
+    { "speaker": "Ana", "es": "Hola. Bien, gracias. ¿Cómo te llamas?", "ru": "Привет. Хорошо, спасибо. Как тебя зовут?" },
+    { "speaker": "Javier", "es": "Me llamo Javier. Y tú, ¿cómo te llamas?", "ru": "Меня зовут Хавьер. А тебя как зовут?" },
+    { "speaker": "Ana", "es": "Mi nombre es Ana. Mucho gusto.", "ru": "Мое имя Анна. Очень приятно." },
+    { "speaker": "Javier", "es": "El gusto es mío. Yo soy del norte de Italia, de Turín. Estoy aquí porque estudio la medicina en la Universidad.", "ru": "Взаимно. Я с севера Италии, из Турина. Я здесь, потому что изучаю медицину в университете." },
+    { "speaker": "Ana", "es": "Y yo soy del sur de Holanda, de Rotterdam. Aquí estudio español. Málaga es una ciudad bonita, ¿verdad?", "ru": "А я с юга Голландии, из Роттердама. Учусь здесь испанский. Малага – красивый город, правда?" },
+    { "speaker": "Javier", "es": "Sí, es preciosa. Cuando no tengo clases y mucha tarea de casa, paseo por la ciudad. Vivo en el centro.", "ru": "Да, красивый. Когда у меня нет занятий и большого количества домашнего задания, гуляю по городу. Я живу в центре." },
+    { "speaker": "Ana", "es": "Yo vivo un poco lejos, casi en los alrededores de la ciudad.", "ru": "А я живу немного далеко, почти на окраине города." },
+    { "speaker": "Javier", "es": "¿Es que es caro alquilar un apartamento más cerca del centro?", "ru": "Разве дорого снимать квартиру поближе к центру?" },
+    { "speaker": "Ana", "es": "No es eso. Es que tengo una tía que vive aquí, y por eso estoy en su casa. ¡Uf, qué calor!", "ru": "Не поэтому. Дело в том, что у меня есть тетя, которая здесь живет. Поэтому я остановилась у нее. Уф, как же жарко!" },
+    { "speaker": "Javier", "es": "Sí, verdad. Aquí hay un café cerca...", "ru": "Да, правда. Здесь есть одно кафе рядом..." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "Hola", "ru": "Привет" },
+        { "es": "Mucho gusto", "ru": "Очень приятно" },
+        { "es": "¿Cómo te llamas?", "ru": "Как тебя зовут?" },
+        { "es": "Soy de...", "ru": "Я из..." }
+      ]
+    },
+    {
+      "type": "fill-gap",
+      "title": "Вставь глагол",
+      "description": "Выбери правильную форму глагола",
+      "sentences": [
+        { "text": "Yo ___ de Italia.", "ru": "Я из Италии", "answer": "soy", "options": ["soy", "eres", "estoy"] },
+        { "text": "¿Cómo ___ llamas?", "ru": "Как тебя зовут?", "answer": "te", "options": ["te", "se", "me"] },
+        { "text": "Ella ___ en Málaga.", "ru": "Она находится в Малаге", "answer": "está", "options": ["es", "está", "estoy"] },
+        { "text": "Nosotros ___ estudiantes.", "ru": "Мы студенты", "answer": "somos", "options": ["somos", "son", "estamos"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Хавьером",
+      "role": "Javier",
+      "description": "Отвечай на реплики Анны своим голосом"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Анной",
+      "role": "Ana",
+      "description": "Теперь ты Анна — отвечай Хавьеру"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Заполни пропуски своей информацией",
+      "template": [
+        { "label": "Имя", "es": "Me llamo ___" },
+        { "label": "Откуда ты", "es": "Soy de ___" },
+        { "label": "Почему ты здесь", "es": "Estoy aquí porque ___" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Cómo se dice «Меня зовут»?",
+          "ru": "Как сказать «Меня зовут»?",
+          "options": ["Me llamo", "Soy", "Estoy", "Te llamas"],
+          "answer": 0
+        },
+        {
+          "question": "¿De dónde es Javier?",
+          "ru": "Откуда Хавьер?",
+          "options": ["De Holanda", "De Italia", "De España", "De Francia"],
+          "answer": 1
+        },
+        {
+          "question": "¿Dónde vive Ana?",
+          "ru": "Где живёт Анна?",
+          "options": ["En el centro", "En los alrededores", "En Turín", "En la universidad"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué estudia Javier?",
+          "ru": "Что изучает Хавьер?",
+          "options": ["Medicina", "Arte", "Historia"],
+          "answer": 0
+        },
+        {
+          "question": "¿Dónde vive Javier?",
+          "ru": "Где живёт Хавьер?",
+          "options": ["En el centro", "En los alrededores", "En Turín", "En la universidad"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить слова в приложении",
+    "Практика: Найди партнёра на italki/Tandem и представься",
+    "Дневник: Запиши 3 факта о себе на испанском"
+  ]
+}

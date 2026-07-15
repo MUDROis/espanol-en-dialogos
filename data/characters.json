@@ -1,0 +1,18 @@
+[
+  { "id": "javier", "es": "Javier – estudiante de Italia, estudia medicina en Málaga", "ru": "Хавьер – студент из Италии, изучает медицину в Малаге" },
+  { "id": "ana", "es": "Ana – es holandesa, estudia en Málaga español", "ru": "Анна – голландка, изучает испанский в Малаге" },
+  { "id": "tomas", "es": "Tomás – hermano menor de Javier, estudia con él", "ru": "Томас – младший брат Хавьера, учится вместе с ним" },
+  { "id": "elena", "es": "Elena – novia de Tomás, es española", "ru": "Елена – девушка Томаса, испанка" },
+  { "id": "amalia", "es": "Amalia – tía de Ana, holandesa, vive en Málaga", "ru": "Амалия – тётя Анны, голландка, живёт в Малаге" },
+  { "id": "silvio", "es": "Silvio – marido de Amalia, es español", "ru": "Сильвио – муж Амалии, испанец" },
+  { "id": "barbara", "es": "Bárbara – la hija mayor de Amalia y Silvio", "ru": "Барбара – старшая дочь Амалии и Сильвио" },
+  { "id": "susana", "es": "Susana – la hija menor de Amalia y Silvio", "ru": "Сусана – младшая дочь Амалии и Сильвио" },
+  { "id": "belen", "es": "Belén – es portuguesa, estudia español en Málaga con Ana", "ru": "Белен – португалка, изучает испанский в Малаге вместе с Анной" },
+  { "id": "marta", "es": "Marta – amiga de Belén, es alemana", "ru": "Марта – подруга Белен, немка" },
+  { "id": "miguel", "es": "Miguel – amigo de Belén, es español", "ru": "Мигель – друг Белен, испанец" },
+  { "id": "alejandro", "es": "Alejandro – amigo de Belén, es español", "ru": "Алехандро – друг Белен, испанец" },
+  { "id": "gloria", "es": "Gloria Paoletti – madre de Javier", "ru": "Глория Паолетти – мать Хавьера" },
+  { "id": "rafael", "es": "Rafael – novio de Belén, es español", "ru": "Рафаэль – парень Белен, испанец" },
+  { "id": "maria", "es": "María – vecina de Amalia", "ru": "Мария – соседка Амалии" },
+  { "id": "daniel", "es": "Daniel – amigo y vecino de Belén y otros", "ru": "Даниэль – друг и сосед Белен и других" }
+]

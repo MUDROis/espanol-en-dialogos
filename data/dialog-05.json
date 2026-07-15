@@ -1,0 +1,301 @@
+{
+  "id": 5,
+  "title": "La tía de Ana, Amalia, y su vecina María",
+  "titleRu": "Тётя Анны, Амалия, и её соседка Мария",
+  "part": 1,
+  "level": "A2",
+  "theme": "Salud, familia, descripción física (Здоровье, семья, описание внешности)",
+  "characters": ["amalia", "maria"],
+  "objectives": [
+    "Говорить о здоровье, аллергии и самочувствии",
+    "Описывать внешность человека (pelo, gafas, color)",
+    "Использовать относительные предложения с que",
+    "Различать ser и estar в углублённом контексте",
+    "Использовать предлоги времени и места (en, de, con, dentro de)",
+    "Употреблять степень сравнения mejor/peor"
+  ],
+  "grammar": {
+    "ser_vs_estar": {
+      "title": "SER vs ESTAR — углублённый разбор",
+      "description": "В диалоге оба глагола встречаются в разных контекстах. SER — для постоянных характеристик и определений. ESTAR — для временных состояний, местоположения и здоровья.",
+      "rule": "<strong>SER:</strong> идентификация, происхождение, профессия, характеристика личности<br><strong>ESTAR:</strong> состояние здоровья, эмоции, местоположение, временные ситуации",
+      "examples": [
+        { "es": "Es alergia a unas flores.", "ru": "Это аллергия на цветы (определение — SER)" },
+        { "es": "¿No estás resfriada?", "ru": "Ты не простужена? (состояние — ESTAR)" },
+        { "es": "Es una niña muy activa.", "ru": "Она очень активная девочка (характер — SER)" },
+        { "es": "Está en la cama.", "ru": "Он в кровати (местоположение — ESTAR)" },
+        { "es": "Es la hija de mi hermano.", "ru": "Это дочь моего брата (идентификация — SER)" }
+      ]
+    },
+    "oraciones_relativas_que": {
+      "title": "Относительные предложения с QUE",
+      "description": "Que = который/ая/ое. Не изменяется по родам и числам. Связывает описание с существительным.",
+      "list": [
+        { "es": "Belén, que es su compañera de clase", "ru": "Белен, которая её одноклассница" },
+        { "es": "Mi sobrina, que ahora vive con nosotros", "ru": "Моя племянница, которая сейчас живёт с нами" },
+        { "es": "La chica rubia, que lleva gafas", "ru": "Светлая девушка, которая носит очки" }
+      ],
+      "examples": [
+        { "es": "Tengo un amigo que es médico.", "ru": "У меня есть друг, который врач." },
+        { "es": "La chica que tiene el pelo largo es mi prima.", "ru": "Девушка, у которой длинные волосы — моя двоюродная сестра." },
+        { "es": "El hombre que está en la cama es mi marido.", "ru": "Мужчина, который лежит в кровати — мой муж." }
+      ]
+    },
+    "preposiciones_tiempo_lugar": {
+      "title": "Предлоги времени и места",
+      "description": "В диалоге используются разные предлоги для указания времени, места и принадлежности.",
+      "list": [
+        { "es": "en + время года / месяц", "ru": "в (летом, в июне)" },
+        { "es": "en + место", "ru": "в (в доме, на террасе)" },
+        { "es": "dentro de + lugar", "ru": "внутри (внутри дома)" },
+        { "es": "de + принадлежность", "ru": "чей (дочь моего брата)" },
+        { "es": "con + компания", "ru": "с (с нами, с кем-то)" },
+        { "es": "a + alergia a algo", "ru": "на (аллергия на цветы)" }
+      ],
+      "examples": [
+        { "es": "En verano tengo alergia.", "ru": "Летом у меня аллергия." },
+        { "es": "Bebemos té dentro de la casa.", "ru": "Мы пьём чай внутри дома." },
+        { "es": "Es la hija de mi hermano.", "ru": "Это дочь моего брата." },
+        { "es": "Vive con nosotros.", "ru": "Она живёт с нами." },
+        { "es": "Es alergia a unas flores.", "ru": "Это аллергия на какие-то цветы." }
+      ]
+    },
+    "descripcion_fisica": {
+      "title": "Описание внешности",
+      "description": "Для описания внешности используются конструкции с de + часть тела + прилагательное, а также глагол llevar.",
+      "list": [
+        { "es": "de pelo largo / corto", "ru": "с длинными / короткими волосами" },
+        { "es": "rubio / moreno / pelirrojo", "ru": "светлый / тёмный / рыжий" },
+        { "es": "llevar gafas / barba / bigote", "ru": "носить очки / бороду / усы" },
+        { "es": "ser + adjetivo (activo, alto, delgado)", "ru": "быть (активным, высоким, худым)" }
+      ],
+      "examples": [
+        { "es": "La chica rubia, de pelo largo, que lleva gafas.", "ru": "Светлая девушка с длинными волосами, которая носит очки." },
+        { "es": "Es una niña muy activa.", "ru": "Она очень активная девочка." },
+        { "es": "Mi sobrina es alta y delgada.", "ru": "Моя племянница высокая и худая." }
+      ]
+    },
+    "comparacion_mejor": {
+      "title": "Степени сравнения — mejor / peor",
+      "description": "Неправильные формы сравнительной степени: mejor (лучше) от bueno, peor (хуже) от malo.",
+      "list": [
+        { "es": "mejor (que)", "ru": "лучше (чем)" },
+        { "es": "peor (que)", "ru": "хуже (чем)" },
+        { "es": "un poco mejor", "ru": "немного лучше" },
+        { "es": "mucho mejor", "ru": "гораздо лучше" }
+      ],
+      "examples": [
+        { "es": "Ya está un poco mejor.", "ru": "Ему уже немного лучше." },
+        { "es": "Este ejercicio es mejor que el otro.", "ru": "Это упражнение лучше, чем другое." },
+        { "es": "La alergia en primavera es peor que en otoño.", "ru": "Аллергия весной хуже, чем осенью." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "salud": [
+      { "es": "resfriado/a", "ru": "простуженный/ая" },
+      { "es": "la alergia", "ru": "аллергия" },
+      { "es": "las flores", "ru": "цветы" },
+      { "es": "enfermo/a", "ru": "больной/ая" },
+      { "es": "la cama", "ru": "кровать" },
+      { "es": "mejor", "ru": "лучше" }
+    ],
+    "estaciones_meses": [
+      { "es": "el verano", "ru": "лето" },
+      { "es": "el otoño", "ru": "осень" },
+      { "es": "el invierno", "ru": "зима" },
+      { "es": "la primavera", "ru": "весна" },
+      { "es": "junio", "ru": "июнь" },
+      { "es": "marzo", "ru": "март" },
+      { "es": "abril", "ru": "апрель" }
+    ],
+    "descripcion_fisica": [
+      { "es": "rubio/a", "ru": "светловолосый/ая" },
+      { "es": "el pelo largo", "ru": "длинные волосы" },
+      { "es": "llevar gafas", "ru": "носить очки" },
+      { "es": "activo/a", "ru": "активный/ая" }
+    ],
+    "familia": [
+      { "es": "la vecina", "ru": "соседка" },
+      { "es": "la compañera de clase", "ru": "одноклассница" },
+      { "es": "el marido", "ru": "муж" },
+      { "es": "la sobrina", "ru": "племянница" },
+      { "es": "la hija", "ru": "дочь" }
+    ],
+    "casa_lugares": [
+      { "es": "la terraza", "ru": "терраса" },
+      { "es": "beber té", "ru": "пить чай" },
+      { "es": "la fiesta de cumpleaños", "ru": "день рождения" },
+      { "es": "dentro de", "ru": "внутри, в" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "María", "es": "¿Dónde está Ana?", "ru": "Где Анна?" },
+    { "speaker": "Amalia", "es": "En casa de Belén, que es su compañera de clase, en la fiesta de su cumpleaños.", "ru": "Она у Белен, её одноклассницы, на Дне Рождения." },
+    { "speaker": "María", "es": "Bueno... Escucha, ¿no estás resfriada?", "ru": "Ясно... Слушай, ты не простужена?" },
+    { "speaker": "Amalia", "es": "No. Es alergia a unas flores. En verano tengo este problema... Sobre todo, en junio. En otoño y en invierno estoy bien, pero en marzo y en abril tengo alergia también.", "ru": "Нет. Это аллергия на какие-то цветы. Летом у меня такая проблема... Особенно в июне. Осенью и зимой чувствую себя хорошо, а в марте и в апреле тоже бывает аллергия." },
+    { "speaker": "María", "es": "Pues, ¿por qué no bebemos té dentro de la casa?", "ru": "Тогда почему бы нам не попить чаю в доме?" },
+    { "speaker": "Amalia", "es": "Igual. No pasa nada, tranquila. ¿Cómo está tu marido? ¿Está todavía enfermo?", "ru": "Без разницы. Ничего страшного, не беспокойся. Как поживает твой муж? Всё ещё болеет?" },
+    { "speaker": "María", "es": "Sí, ahora está en la cama, pobre. Pero ya está un poco mejor. Mi sobrina, que ahora vive con nosotros, también está enferma.", "ru": "Да, лежит сейчас в кровати, бедняжка. Но ему уже немного лучше. Моя племянница, которая сейчас живёт с нами, тоже заболела." },
+    { "speaker": "Amalia", "es": "¿La chica rubia, de pelo largo, que lleva gafas? ¿Es tu sobrina?", "ru": "Светлая девушка с длинными волосами, которая носит очки? Это твоя племянница?" },
+    { "speaker": "María", "es": "Sí, la hija de mi hermano. Es una niña muy activa, pero ahora...", "ru": "Да, дочь моего брата. Очень активная девочка, но сейчас..." }
+  ],
+  "exercises": [
+    {
+      "type": "fill-gap",
+      "title": "SER или ESTAR?",
+      "description": "Выбери правильный глагол: ser (постоянное) или estar (временное состояние / местоположение)",
+      "sentences": [
+        { "text": "Ana ___ en casa de Belén.", "ru": "Анна находится в доме Белен", "answer": "está", "options": ["es", "está", "estoy"] },
+        { "text": "Belén ___ su compañera de clase.", "ru": "Белен — её одноклассница", "answer": "es", "options": ["es", "está", "tiene"] },
+        { "text": "Yo ___ alérgica a las flores.", "ru": "У меня аллергия на цветы (это характеристика)", "answer": "soy", "options": ["soy", "estoy", "tengo"] },
+        { "text": "Mi marido ___ enfermo hoy.", "ru": "Мой муж сегодня болен", "answer": "está", "options": ["es", "está", "tiene"] },
+        { "text": "La niña ___ muy activa.", "ru": "Девочка очень активная (характер)", "answer": "es", "options": ["es", "está", "tiene"] }
+      ]
+    },
+    {
+      "type": "fill-gap-preposiciones",
+      "title": "Предлоги (en, de, con, a, dentro de)",
+      "description": "Вставь правильный предлог",
+      "sentences": [
+        { "text": "___ verano tengo alergia.", "ru": "Летом у меня аллергия", "answer": "En", "options": ["En", "De", "A"] },
+        { "text": "Es la hija ___ mi hermano.", "ru": "Это дочь моего брата", "answer": "de", "options": ["de", "en", "con"] },
+        { "text": "Vive ___ nosotros.", "ru": "Она живёт с нами", "answer": "con", "options": ["con", "de", "a"] },
+        { "text": "Es alergia ___ unas flores.", "ru": "Это аллергия на цветы", "answer": "a", "options": ["a", "de", "en"] },
+        { "text": "Bebemos té ___ de la casa.", "ru": "Мы пьём чай внутри дома", "answer": "dentro", "options": ["dentro", "a", "en"] }
+      ]
+    },
+    {
+      "type": "fill-gap-que",
+      "title": "Соедини с QUE",
+      "description": "Вставь que, чтобы соединить предложения",
+      "sentences": [
+        { "text": "Belén, ___ es su compañera de clase.", "ru": "Белен, которая её одноклассница", "answer": "que", "options": ["que", "quien", "como"] },
+        { "text": "Mi sobrina, ___ vive con nosotros.", "ru": "Моя племянница, которая живёт с нами", "answer": "que", "options": ["que", "quien", "donde"] },
+        { "text": "La chica ___ lleva gafas es mi sobrina.", "ru": "Девушка, которая носит очки — моя племянница", "answer": "que", "options": ["que", "quien", "de"] },
+        { "text": "Tengo un amigo ___ es médico.", "ru": "У меня есть друг, который врач", "answer": "que", "options": ["que", "como", "porque"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Марией",
+      "role": "María",
+      "description": "Отвечай на реплики Амалии своим голосом"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Амалией",
+      "role": "Amalia",
+      "description": "Теперь ты Амалия — отвечай Марии"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи о здоровье и опиши внешность человека (заполни пропуски)",
+      "template": [
+        { "label": "Вопрос о самочувствии", "es": "¿Cómo ___?" },
+        { "label": "Ответ о состоянии", "es": "___ enfermo/a." },
+        { "label": "Причина (аллергия)", "es": "Es alergia ___ las flores." },
+        { "label": "Описание внешности", "es": "La chica ___ pelo largo y lleva ___." },
+        { "label": "Характеристика", "es": "___ una persona muy activa." },
+        { "label": "Сравнение", "es": "Hoy estoy un poco ___ que ayer." }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Dónde está Ana?",
+          "ru": "Где Анна?",
+          "options": ["En casa de Belén", "En casa de Amalia", "En la universidad", "En el centro"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué tiene Amalia?",
+          "ru": "Что у Амалии?",
+          "options": ["Alergia a las flores", "Un resfriado", "Fiebre", "Dolor de cabeza"],
+          "answer": 0
+        },
+        {
+          "question": "¿En qué meses tiene alergia Amalia?",
+          "ru": "В какие месяцы у Амалии аллергия?",
+          "options": ["En junio, marzo y abril", "En verano solamente", "En junio y julio", "En diciembre y enero"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo está el marido de María?",
+          "ru": "Как поживает муж Марии?",
+          "options": ["Está en la cama, un poco mejor", "Está en el hospital", "Está completamente sano", "Está de viaje"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo es la sobrina de María?",
+          "ru": "Какая племянница Марии?",
+          "options": ["Rubia, de pelo largo, lleva gafas", "Morena, de pelo corto", "Pelirroja, de pelo largo", "Rubia, de pelo corto"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se dice «простуженный»?",
+          "ru": "Как сказать «простуженный»?",
+          "options": ["Resfriado", "Alergia", "Enfermo", "Cansado"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se dice «аллергия»?",
+          "ru": "Как сказать «аллергия»?",
+          "options": ["La alergia", "El resfriado", "La fiebre", "El dolor"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se dice «носить очки»?",
+          "ru": "Как сказать «носить очки»?",
+          "options": ["Llevar gafas", "Tener gafas", "Estar con gafas", "Poner gafas"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué estación es junio?",
+          "ru": "Какой сезон — июнь?",
+          "options": ["Verano", "Otoño", "Invierno", "Primavera"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se dice «племянница»?",
+          "ru": "Как сказать «племянница»?",
+          "options": ["La sobrina", "La hija", "La nieta", "La prima"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se dice «лучше»?",
+          "ru": "Как сказать «лучше»?",
+          "options": ["Mejor", "Peor", "Bueno", "Más"],
+          "answer": 0
+        },
+        {
+          "question": "Elige la preposición correcta: Es alergia ___ las flores.",
+          "ru": "Выбери правильный предлог: Это аллергия на цветы.",
+          "options": ["a", "de", "en", "con"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se dice «внутри дома»?",
+          "ru": "Как сказать «внутри дома»?",
+          "options": ["Dentro de la casa", "En la casa", "Fuera de la casa", "A la casa"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить слова по темам «Здоровье», «Внешность», «Семья» и «Месяцы» в приложении",
+    "Практика: Опиши внешность своего друга или члена семьи на испанском (5 предложений, используй ser, estar, que, описание внешности)",
+    "Грамматика: Составь 3 предложения с que (относительные) и 3 предложения с estar для состояния здоровья",
+    "Дневник: Напиши, в какие месяцы у тебя бывает аллергия или как ты чувствуешь себя в разные времена года (3–4 предложения)"
+  ]
+}
