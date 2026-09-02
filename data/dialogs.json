@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "",
+    "titleRu": "",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "Знакомство  Presentaciones"
+  },
+  {
+    "id": 2,
+    "title": "Javier y Ana están en el café",
+    "titleRu": "Хавьер и Анна находятся в кафе",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "Школа, семья, повседневная жизнь  La escuela, la familia, la vida diaria"
+  },
+  {
+    "id": 3,
+    "title": "En la clase de español",
+    "titleRu": "На уроке испанского языка",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "Общение, семья, праздники  La vida social, la familia, las celebraciones"
+  },
+  {
+    "id": 4,
+    "title": "En la ciudad",
+    "titleRu": "В городе",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "Город, ориентирование, достопримечательности  La ciudad, orientación, lugares de interés"
+  },
+  {
+    "id": 5,
+    "title": "La tía de Ana, Amalia, y su vecina María",
+    "titleRu": "Тётя Анны, Амалия, и её соседка Мария",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "Здоровье, семья, описание внешности  Salud, familia, descripción física"
+  }
+]

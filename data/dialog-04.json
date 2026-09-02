@@ -1,0 +1,295 @@
+{
+  "id": 4,
+  "title": "En la ciudad",
+  "titleRu": "В городе",
+  "part": 1,
+  "level": "A2",
+  "theme": "La ciudad, orientación, lugares de interés",
+  "characters": ["ana", "javier"],
+  "objectives": [
+    "Спрашивать и указывать местоположение объектов",
+    "Использовать предлоги места (a la derecha de, al final de, delante de, detrás de, alrededor de)",
+    "Описывать город и его достопримечательности",
+    "Использовать глаголы estar и hay для описания местоположения",
+    "Запоминать названия городских объектов"
+  ],
+  "grammar": {
+    "preposiciones_de_lugar": {
+      "title": "Предлоги места",
+      "description": "Используются для указания положения одного объекта относительно другого.",
+      "list": [
+        { "es": "a la derecha de", "ru": "справа от" },
+        { "es": "a la izquierda de", "ru": "слева от" },
+        { "es": "al final de", "ru": "в конце" },
+        { "es": "delante de", "ru": "перед" },
+        { "es": "detrás de", "ru": "за" },
+        { "es": "alrededor de", "ru": "вокруг" },
+        { "es": "al lado de", "ru": "рядом с" }
+      ],
+      "examples": [
+        { "es": "A la derecha de la iglesia está el teatro.", "ru": "Справа от церкви находится театр." },
+        { "es": "Al final de la calle hay una plaza.", "ru": "В конце улицы есть площадь." },
+        { "es": "Delante de la biblioteca hay una parada.", "ru": "Перед библиотекой есть остановка." },
+        { "es": "Detrás del mercado está la estación.", "ru": "За рынком находится вокзал." }
+      ]
+    },
+    "estar_ubicacion": {
+      "title": "Глагол ESTAR – местоположение",
+      "description": "Используется для указания конкретного местоположения (где находится).",
+      "forms": {
+        "yo": { "es": "estoy", "ru": "я нахожусь" },
+        "tu": { "es": "estás", "ru": "ты находишься" },
+        "el_ella": { "es": "está", "ru": "он/она находится" },
+        "nosotros": { "es": "estamos", "ru": "мы находимся" },
+        "vosotros": { "es": "estáis", "ru": "вы находитесь" },
+        "ellos_ellas": { "es": "están", "ru": "они находятся" }
+      },
+      "examples": [
+        { "es": "El museo está a la derecha.", "ru": "Музей находится справа." },
+        { "es": "Mi apartamento está lejos de aquí.", "ru": "Моя квартира находится далеко отсюда." },
+        { "es": "¿Dónde está Correos?", "ru": "Где находится почта?" }
+      ]
+    },
+    "hay": {
+      "title": "Глагол HAY – наличие",
+      "description": "Используется для указания наличия (есть, существует). Форма только одна – hay (настоящее время).",
+      "forms": {
+        "—": { "es": "hay", "ru": "есть / имеется" }
+      },
+      "examples": [
+        { "es": "Hay una plaza al final de la calle.", "ru": "В конце улицы есть площадь." },
+        { "es": "En mi barrio hay muchas tiendas.", "ru": "В моём районе есть много магазинов." },
+        { "es": "¿Hay una parada de autobuses aquí?", "ru": "Здесь есть остановка автобуса?" }
+      ]
+    },
+    "preguntas_de_lugar": {
+      "title": "Вопросительные слова для ориентирования",
+      "description": "Используются для запроса информации о местоположении.",
+      "list": [
+        { "es": "¿Dónde está...?", "ru": "Где находится...?" },
+        { "es": "¿Cómo se llama...?", "ru": "Как называется...?" },
+        { "es": "¿Qué es...?", "ru": "Что это...?" }
+      ],
+      "examples": [
+        { "es": "¿Dónde está el teatro?", "ru": "Где находится театр?" },
+        { "es": "¿Cómo se llama esta avenida?", "ru": "Как называется этот проспект?" },
+        { "es": "¿Qué es este edificio?", "ru": "Что это за здание?" }
+      ]
+    },
+    "demostrativos": {
+      "title": "Указательные местоимения",
+      "description": "Используются для указания на объекты в пространстве.",
+      "list": [
+        { "es": "este / esta", "ru": "этот / эта (близко)" },
+        { "es": "ese / esa", "ru": "тот / та (недалеко)" },
+        { "es": "aquel / aquella", "ru": "тот / та (далеко)" },
+        { "es": "estos / estas", "ru": "эти (близко)" },
+        { "es": "esos / esas", "ru": "те (недалеко)" },
+        { "es": "aquellos / aquellas", "ru": "те (далеко)" }
+      ],
+      "examples": [
+        { "es": "Este es un museo provincial.", "ru": "Это провинциальный музей." },
+        { "es": "¿Qué es este edificio?", "ru": "Что это за здание?" },
+        { "es": "Delante de aquella biblioteca hay una parada.", "ru": "Перед той библиотекой есть остановка." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "city_objects": [
+      { "es": "el museo", "ru": "музей" },
+      { "es": "el teatro", "ru": "театр" },
+      { "es": "la iglesia", "ru": "церковь" },
+      { "es": "la plaza", "ru": "площадь" },
+      { "es": "el mercado", "ru": "рынок" },
+      { "es": "la estación de buses", "ru": "автовокзал" },
+      { "es": "la biblioteca", "ru": "библиотека" },
+      { "es": "la parada de autobuses", "ru": "остановка автобуса" },
+      { "es": "el ayuntamiento", "ru": "мэрия" },
+      { "es": "Correos", "ru": "почта" },
+      { "es": "la avenida", "ru": "проспект" },
+      { "es": "la calle", "ru": "улица" }
+    ],
+    "shops_services": [
+      { "es": "la tienda", "ru": "магазин" },
+      { "es": "la librería", "ru": "книжный магазин" },
+      { "es": "la farmacia", "ru": "аптека" },
+      { "es": "el supermercado", "ru": "супермаркет" },
+      { "es": "la cafetería", "ru": "кафе" }
+    ],
+    "prepositions": [
+      { "es": "a la derecha de", "ru": "справа от" },
+      { "es": "a la izquierda de", "ru": "слева от" },
+      { "es": "al final de", "ru": "в конце" },
+      { "es": "delante de", "ru": "перед" },
+      { "es": "detrás de", "ru": "за" },
+      { "es": "alrededor de", "ru": "вокруг" },
+      { "es": "al lado de", "ru": "рядом с" }
+    ],
+    "verbs_orientation": [
+      { "es": "estar", "ru": "находиться" },
+      { "es": "hay", "ru": "есть / имеется" },
+      { "es": "llamarse", "ru": "называться" },
+      { "es": "ver", "ru": "видеть" },
+      { "es": "mirar", "ru": "смотреть" }
+    ],
+    "expressions": [
+      { "es": "Ya veo...", "ru": "Теперь я вижу... / Понятно..." },
+      { "es": "Está claro.", "ru": "Понятно / Ясно." },
+      { "es": "¿Dónde estamos?", "ru": "Где мы находимся?" },
+      { "es": "¿Cómo se llama...?", "ru": "Как называется...?" },
+      { "es": "A su derecha", "ru": "По правую сторону" },
+      { "es": "15 minutos de aquí", "ru": "15 минут отсюда" },
+      { "es": "en bus", "ru": "на автобусе" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Ana", "es": "¿Dónde estamos?", "ru": "Где мы находимся?" },
+    { "speaker": "Javier", "es": "Es uno de los barrios viejos de la ciudad. Este es un museo provincial, a su derecha está el teatro 'La Máscara'.", "ru": "Это один из старых районов города. Это провинциальный музей, по правую сторону находится театр 'Ла Маскара'." },
+    { "speaker": "Ana", "es": "En mi barrio sólo hay tiendas, librerías, farmacias, supermercados...", "ru": "В моём районе есть только магазины, книжные, аптеки, супермаркеты..." },
+    { "speaker": "Javier", "es": "Más lejos hay una de las iglesias del siglo 14. Al final de esta calle hay una plaza muy hermosa, con muchas cafeterías a su alrededor.", "ru": "Дальше есть одна из церквей 14 века. В конце этой улицы есть очень красивая площадь, с множеством кафе вокруг неё." },
+    { "speaker": "Ana", "es": "Ya veo... ¿Qué es este edificio? ¿El ayuntamiento?", "ru": "Теперь я вижу... Что это за здание? Мэрия?" },
+    { "speaker": "Javier", "es": "No, es Correos. Yo a veces mando regalos para mi familia.", "ru": "Нет, это почта. Я иногда отправляю подарки своей семье." },
+    { "speaker": "Ana", "es": "¡Muy buena idea! ¿Cómo se llama esta avenida que está a la derecha de la iglesia?", "ru": "Очень хорошая идея! Как называется этот проспект, который находится справа от церкви?" },
+    { "speaker": "Javier", "es": "Es Avenida De Los Santos. Al final hay un mercado, y detrás del mercado está la estación de buses.", "ru": "Это проспект Де Лос Сантос. В конце есть рынок, а за рынком находится автовокзал." },
+    { "speaker": "Ana", "es": "¿Está tu apartamento lejos de aquí?", "ru": "Твоя квартира далеко отсюда?" },
+    { "speaker": "Javier", "es": "No. Mira, delante de aquella biblioteca hay una parada de autobuses. Pues, 15 minutos de aquí en bus.", "ru": "Нет. Смотри, перед той библиотекой есть автобусная остановка. Так что 15 минут отсюда на автобусе." },
+    { "speaker": "Ana", "es": "Ah, está claro.", "ru": "А, понятно." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el museo", "ru": "музей" },
+        { "es": "la iglesia", "ru": "церковь" },
+        { "es": "la plaza", "ru": "площадь" },
+        { "es": "el mercado", "ru": "рынок" },
+        { "es": "la biblioteca", "ru": "библиотека" },
+        { "es": "la parada", "ru": "остановка" },
+        { "es": "la avenida", "ru": "проспект" },
+        { "es": "Correos", "ru": "почта" },
+        { "es": "a la derecha de", "ru": "справа от" },
+        { "es": "detrás de", "ru": "за" }
+      ]
+    },
+    {
+      "type": "fill-gap",
+      "title": "Вставь предлог или глагол",
+      "description": "Выбери правильный предлог места или глагол estar/hay",
+      "sentences": [
+        { "text": "El museo está ___ la derecha.", "ru": "Музей находится справа", "answer": "a", "options": ["a", "de", "en"] },
+        { "text": "Al final de la calle ___ una plaza.", "ru": "В конце улицы есть площадь", "answer": "hay", "options": ["hay", "está", "tiene"] },
+        { "text": "A su derecha ___ el teatro.", "ru": "По правую сторону находится театр", "answer": "está", "options": ["está", "hay", "tiene"] },
+        { "text": "Delante ___ la biblioteca hay una parada.", "ru": "Перед библиотекой есть остановка", "answer": "de", "options": ["de", "la", "en"] },
+        { "text": "El apartamento está detrás ___ mercado.", "ru": "Квартира находится за рынком", "answer": "del", "options": ["del", "de", "al"] },
+        { "text": "¿___ está tu apartamento?", "ru": "Где находится твоя квартира?", "answer": "Dónde", "options": ["Dónde", "Qué", "Cómo"] },
+        { "text": "¿Cómo se llama esta ___?", "ru": "Как называется этот проспект?", "answer": "avenida", "options": ["avenida", "calle", "plaza"] },
+        { "text": "Hay muchas cafeterías a su ___.", "ru": "Вокруг много кафе", "answer": "alrededor", "options": ["alrededor", "lado", "derecha"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Хавьером",
+      "role": "Javier",
+      "description": "Отвечай на вопросы Анны своим голосом"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Анной",
+      "role": "Ana",
+      "description": "Теперь ты Анна — спрашивай Хавьера о городе"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи о своём городе или районе (заполни пропуски глаголами и предлогами)",
+      "template": [
+        { "label": "Вопрос о месте", "es": "¿Dónde ___?" },
+        { "label": "Ответ с предлогом", "es": "Está a la ___ de la iglesia." },
+        { "label": "Описание наличия", "es": "En mi barrio ___ muchas tiendas y cafés." },
+        { "label": "Описание расстояния", "es": "El apartamento está ___ de aquí." },
+        { "label": "Вопрос о названии", "es": "¿Cómo se llama esta ___?" },
+        { "label": "Заключительная фраза", "es": "Ah, ___ claro." }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Cómo se dice «где мы находимся»?",
+          "ru": "Как сказать «где мы находимся»?",
+          "options": ["¿Dónde estamos?", "¿Dónde están?", "¿Dónde es?", "¿Qué es?"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué está a la derecha del museo?",
+          "ru": "Что находится справа от музея?",
+          "options": ["El teatro", "La iglesia", "El mercado", "La biblioteca"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se llama la avenida?",
+          "ru": "Как называется проспект?",
+          "options": ["Avenida De Los Santos", "Avenida Central", "Avenida de la Iglesia", "Avenida del Museo"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué hay al final de la calle?",
+          "ru": "Что есть в конце улицы?",
+          "options": ["Una plaza", "Un museo", "Un teatro", "Un mercado"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué hay al final de la avenida?",
+          "ru": "Что есть в конце проспекта?",
+          "options": ["Un mercado", "Una plaza", "Una iglesia", "Un teatro"],
+          "answer": 0
+        },
+        {
+          "question": "¿Dónde está la estación de buses?",
+          "ru": "Где находится автовокзал?",
+          "options": ["Detrás del mercado", "Al final de la calle", "A la derecha del museo", "Delante de la biblioteca"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuántos minutos en bus es el apartamento?",
+          "ru": "Сколько минут на автобусе до квартиры?",
+          "options": ["15", "10", "20", "5"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué hay delante de la biblioteca?",
+          "ru": "Что находится перед библиотекой?",
+          "options": ["Una parada de autobuses", "Un mercado", "Un museo", "Una plaza"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se dice «теперь я вижу»?",
+          "ru": "Как сказать «теперь я вижу»?",
+          "options": ["Ya veo", "Ya sé", "Está claro", "Ya entiendo"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué es el edificio Correos?",
+          "ru": "Что это за здание — Correos?",
+          "options": ["El correo", "El ayuntamiento", "El museo", "El teatro"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить слова по теме «Город» (объекты, предлоги места) в приложении",
+    "Практика: Напиши 5 предложений о своём районе на испанском (используй предлоги места: a la derecha de, al final de, delante de, detrás de, alrededor de)",
+    "Дневник: Опиши свой любимый маршрут по городу на испанском (3–4 предложения)",
+    "Грамматика: Составь 3 вопроса с ¿Dónde está...? и 3 вопроса с ¿Cómo se llama...?"
+  ]
+}
