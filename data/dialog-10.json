@@ -1,0 +1,234 @@
+{
+  "id": 10,
+  "title": "Rubén invita a Lucía a su casa",
+  "titleRu": "Рубен приглашает Люсию к себе домой",
+  "part": 1,
+  "level": "A2",
+  "theme": "Квартира, комнаты, мебель  El piso, las habitaciones, los muebles",
+  "characters": ["ruben", "lucia"],
+  "objectives": [
+    "Описывать расположение комнат и мебели в квартире",
+    "Использовать выражения места: a la izquierda, frente a, al final de",
+    "Различать ser и estar при описании дома",
+    "Называть цвета предметов (sofá marrón, sillón rojo)",
+    "Показывать гостю квартиру и предлагать кофе"
+  ],
+  "grammar": {
+    "ubicacion_casa": {
+      "title": "Расположение в доме",
+      "description": "Выражения места для описания, где находится комната или предмет: a la izquierda (слева), al final de (в конце), frente a (напротив), dentro de (внутри).",
+      "list": [
+        { "es": "a la izquierda está el salón", "ru": "слева гостиная" },
+        { "es": "al final del pasillo", "ru": "в конце коридора" },
+        { "es": "frente a la cocina", "ru": "напротив кухни" },
+        { "es": "dentro del armario", "ru": "внутри шкафа" },
+        { "es": "el cuarto de baño está frente a la cocina", "ru": "ванная находится напротив кухни" }
+      ]
+    },
+    "ser_estar": {
+      "title": "Ser или Estar при описании дома",
+      "description": "ser — постоянный признак предмета (el salón es espacioso). estar — временное состояние (la puerta está cerrada, el piso está vacío).",
+      "list": [
+        { "es": "el salón es espacioso", "ru": "гостиная просторная (постоянно)" },
+        { "es": "el salón es luminoso", "ru": "гостиная светлая" },
+        { "es": "la puerta está cerrada", "ru": "дверь закрыта (состояние)" },
+        { "es": "el piso está vacío", "ru": "квартира пустая" },
+        { "es": "el piso está frío", "ru": "в квартире холодно" }
+      ]
+    },
+    "colores": {
+      "title": "Цвета предметов",
+      "description": "Цвет согласуется с предметом: sofá marrón, sillón rojo, alfombra azul.",
+      "list": [
+        { "es": "un sofá marrón", "ru": "коричневый диван" },
+        { "es": "un sillón rojo", "ru": "красное кресло" },
+        { "es": "la alfombra azul", "ru": "синий ковёр" },
+        { "es": "las paredes blancas", "ru": "белые стены" },
+        { "es": "la puerta de madera", "ru": "деревянная дверь" }
+      ]
+    },
+    "hay_muebles": {
+      "title": "Hay + мебель",
+      "description": "hay (есть) используется, чтобы перечислить предметы в комнате.",
+      "list": [
+        { "es": "hay un sofá y un sillón", "ru": "есть диван и кресло" },
+        { "es": "hay una alfombra azul", "ru": "есть синий ковёр" },
+        { "es": "hay una mesa grande", "ru": "есть большой стол" },
+        { "es": "hay una cocina de gas", "ru": "есть газовая плита" }
+      ]
+    },
+    "preguntas_donde": {
+      "title": "Вопросы с ¿Dónde...?",
+      "description": "¿Dónde está...? — Где находится...? ¿En qué piso vives? — На каком этаже ты живёшь?",
+      "list": [
+        { "es": "¿Dónde está el cuarto de baño?", "ru": "Где находится ванная комната?" },
+        { "es": "¿En qué piso vives?", "ru": "На каком этаже ты живёшь?" },
+        { "es": "¿Dónde está el salón?", "ru": "Где гостиная?" },
+        { "es": "¿En qué calle vives?", "ru": "На какой улице ты живёшь?" }
+      ]
+    }
+  },
+  "vocabulary": {
+    "las_habitaciones": [
+      { "es": "el salón", "ru": "гостиная" },
+      { "es": "el dormitorio", "ru": "спальня" },
+      { "es": "el pasillo", "ru": "коридор" },
+      { "es": "la cocina", "ru": "кухня" },
+      { "es": "el cuarto de baño", "ru": "ванная комната" },
+      { "es": "la puerta", "ru": "дверь" }
+    ],
+    "los_muebles": [
+      { "es": "el sofá", "ru": "диван" },
+      { "es": "el sillón", "ru": "кресло" },
+      { "es": "la alfombra", "ru": "ковёр" },
+      { "es": "el armario", "ru": "шкаф" },
+      { "es": "el jabón", "ru": "мыло" },
+      { "es": "las toallas", "ru": "полотенца" },
+      { "es": "el microondas", "ru": "микроволновка" },
+      { "es": "la taza", "ru": "чашка" },
+      { "es": "la cocina de gas", "ru": "газовая плита" },
+      { "es": "el café con leche", "ru": "кофе с молоком" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Rubén", "es": "Este es el edificio donde vivo.", "ru": "Вот здание, где я живу." },
+    { "speaker": "Lucía", "es": "¿En qué piso vives?", "ru": "На каком этаже ты живёшь?" },
+    { "speaker": "Rubén", "es": "En el tercero. Pasa, pasa. El piso está un poco vacío y frío, perdona.", "ru": "На третьем. Проходи, проходи. Квартира немного пустая и холодная, извини." },
+    { "speaker": "Lucía", "es": "No pasa nada.", "ru": "Ничего." },
+    { "speaker": "Rubén", "es": "Mira, a la izquierda está el salón, al final del pasillo está mi dormitorio.", "ru": "Смотри, слева находится гостиная, а в конце коридора — моя спальня." },
+    { "speaker": "Lucía", "es": "¡Qué hermoso es el salón! En mi casa en el salón también hay un sofá marrón, un sillón rojo y la alfombra también es azul.", "ru": "Какая красивая гостиная! В моём доме в гостиной тоже стоит коричневый диван, красное кресло, и ковёр тоже синий." },
+    { "speaker": "Rubén", "es": "El salón es muy espacioso, ¿verdad?", "ru": "Зал просторный, правда?" },
+    { "speaker": "Lucía", "es": "Sí. Además, es muy luminoso. ¿Y esta puerta...?", "ru": "Да. К тому же светлый. И эта дверь...?" },
+    { "speaker": "Rubén", "es": "Ah, es el dormitorio de mi hermana. Está cerrado.", "ru": "Это спальня моей сестры. Она закрыта." },
+    { "speaker": "Lucía", "es": "¿Dónde está el cuarto de baño?", "ru": "Где ванная комната?" },
+    { "speaker": "Rubén", "es": "Frente a la cocina. El jabón y las toallas están dentro del armario.", "ru": "Напротив кухни. Мыло и полотенца внутри шкафа." },
+    { "speaker": "Lucía", "es": "Vale, gracias.", "ru": "Ок, спасибо." },
+    { "speaker": "Rubén", "es": "La cocina es grande y cómoda. No tengo cocina de gas pero uso el microondas. Ahora tomamos un café.", "ru": "Кухня большая и удобная. У меня нет газовой плиты, но я использую микроволновку. Сейчас выпьем кофе." },
+    { "speaker": "Lucía", "es": "Sí, gracias. Una taza de café con leche, por favor.", "ru": "Да, спасибо. Чашечку кофе с молоком, пожалуйста." }
+  ],
+  "exercises": [
+    {
+      "type": "fill-gap-ubicacion_casa",
+      "title": "Dónde está cada cosa",
+      "description": "Выберите правильное выражение места.",
+      "sentences": [
+        { "text": "A la ___ está el salón.", "ru": "Слева находится гостиная.", "answer": "izquierda", "options": ["izquierda", "derecha", "final"] },
+        { "text": "El dormitorio está ___ final del pasillo.", "ru": "Спальня находится в конце коридора.", "answer": "al", "options": ["al", "en la", "dentro"] },
+        { "text": "El cuarto de baño está ___ la cocina.", "ru": "Ванная находится напротив кухни.", "answer": "frente a", "options": ["frente a", "detrás", "lejos de"] },
+        { "text": "El jabón está ___ del armario.", "ru": "Мыло находится внутри шкафа.", "answer": "dentro", "options": ["dentro", "encima", "debajo"] },
+        { "text": "Mi dormitorio está a la ___ del pasillo.", "ru": "Моя спальня находится слева от коридора.", "answer": "izquierda", "options": ["izquierda", "final", "puerta"] }
+      ]
+    },
+    {
+      "type": "fill-gap-ser_estar",
+      "title": "Ser o estar",
+      "description": "Выберите ser или estar.",
+      "sentences": [
+        { "text": "El salón ___ muy espacioso.", "ru": "Гостиная очень просторная.", "answer": "es", "options": ["es", "está", "hay"] },
+        { "text": "El salón ___ luminoso.", "ru": "Гостиная светлая.", "answer": "es", "options": ["es", "está", "estoy"] },
+        { "text": "La puerta ___ cerrada.", "ru": "Дверь закрыта.", "answer": "está", "options": ["está", "es", "se"] },
+        { "text": "El piso ___ un poco vacío.", "ru": "Квартира немного пустая.", "answer": "está", "options": ["está", "es", "hay"] },
+        { "text": "La cocina ___ grande y cómoda.", "ru": "Кухня большая и удобная.", "answer": "es", "options": ["es", "está", "tiene"] }
+      ]
+    },
+    {
+      "type": "fill-gap-colores",
+      "title": "Los colores",
+      "description": "Выберите правильный цвет.",
+      "sentences": [
+        { "text": "Tengo un sofá ___.", "ru": "У меня есть коричневый диван.", "answer": "marrón", "options": ["marrón", "rojo", "azul"] },
+        { "text": "El sillón es ___.", "ru": "Кресло красное.", "answer": "rojo", "options": ["rojo", "verde", "azul"] },
+        { "text": "La alfombra es ___.", "ru": "Ковёр синий.", "answer": "azul", "options": ["azul", "marrón", "rojo"] },
+        { "text": "La pared es ___.", "ru": "Стена белая.", "answer": "blanca", "options": ["blanca", "negro", "marrón"] },
+        { "text": "La puerta es de ___ color.", "ru": "Дверь деревянного цвета (коричневая).", "answer": "rojo", "options": ["rojo", "marrón", "azul"] }
+      ]
+    },
+    {
+      "type": "fill-gap-hay_muebles",
+      "title": "Hay + muebles",
+      "description": "Выберите правильную форму для перечисления мебели.",
+      "sentences": [
+        { "text": "En el salón ___ un sofá.", "ru": "В гостиной есть диван.", "answer": "hay", "options": ["hay", "tiene", "está"] },
+        { "text": "___ un sillón rojo.", "ru": "Есть красное кресло.", "answer": "Hay", "options": ["Hay", "Es", "Tengo"] },
+        { "text": "En mi casa ___ la alfombra azul.", "ru": "В моём доме есть синий ковёр.", "answer": "hay", "options": ["hay", "está", "soy"] },
+        { "text": "___ dos ventanas en el salón.", "ru": "В гостиной два окна.", "answer": "Hay", "options": ["Hay", "Es", "Está"] },
+        { "text": "En la cocina ___ un microondas.", "ru": "На кухне есть микроволновка.", "answer": "hay", "options": ["hay", "tiene", "está"] }
+      ]
+    },
+    {
+      "type": "fill-gap-preguntas_donde",
+      "title": "Preguntas con ¿Dónde...?",
+      "description": "Составьте правильный вопрос.",
+      "sentences": [
+        { "text": "¿___ está el cuarto de baño?", "ru": "Где находится ванная комната?", "answer": "Dónde", "options": ["Dónde", "Qué", "Cuándo"] },
+        { "text": "¿En ___ piso vives?", "ru": "На каком этаже ты живёшь?", "answer": "qué", "options": ["qué", "dónde", "cómo"] },
+        { "text": "¿___ está el salón?", "ru": "Где гостиная?", "answer": "Dónde", "options": ["Dónde", "Quién", "Cuánto"] },
+        { "text": "¿En ___ calle vives?", "ru": "На какой улице ты живёшь?", "answer": "qué", "options": ["qué", "dónde", "cuál"] },
+        { "text": "¿___ está la cocina?", "ru": "Где кухня?", "answer": "Dónde", "options": ["Dónde", "Por qué", "Quiénes"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Соедините всё: расположение, ser/estar, цвета, hay.",
+      "sentences": [
+        { "text": "A la ___ está el salón.", "ru": "Слева находится гостиная.", "answer": "izquierda", "options": ["izquierda", "derecha", "final"] },
+        { "text": "El salón ___ muy espacioso.", "ru": "Гостиная очень просторная.", "answer": "es", "options": ["es", "está", "hay"] },
+        { "text": "La puerta ___ cerrada.", "ru": "Дверь закрыта.", "answer": "está", "options": ["está", "es", "son"] },
+        { "text": "En el salón ___ un sofá.", "ru": "В гостиной есть диван.", "answer": "hay", "options": ["hay", "tiene", "está"] },
+        { "text": "El sillón es ___.", "ru": "Кресло красное.", "answer": "rojo", "options": ["rojo", "azul", "marrón"] },
+        { "text": "¿___ está el cuarto de baño?", "ru": "Где находится ванная комната?", "answer": "Dónde", "options": ["Dónde", "Qué", "Cuándo"] }
+      ]
+    },
+    {
+      "type": "shadowing"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Рубеном",
+      "role": "Rubén",
+      "description": "Проведи Люсию по своей квартире и покажи комнаты."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Люсией",
+      "role": "Lucía",
+      "description": "Спрашивай, где находится каждая комната, и хвали квартиру."
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Покажи другу свою квартиру и опиши комнаты и мебель.",
+      "template": [
+        { "label": "Слева гостиная", "es": "A la ___ está el salón" },
+        { "label": "В конце коридора спальня", "es": "___ final del pasillo está el dormitorio" },
+        { "label": "Ванная напротив кухни", "es": "El cuarto de baño está ___ la cocina" },
+        { "label": "В гостиной есть диван", "es": "En el salón ___ un sofá" },
+        { "label": "Дверь закрыта", "es": "La puerta ___ cerrada" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест по уроку 10",
+      "description": "Проверь, как ты понял урок про квартиру Рубена.",
+      "questions": [
+        { "question": "¿En qué piso vive Rubén?", "ru": "На каком этаже живёт Рубен?", "options": ["En el primero", "En el segundo", "En el tercero", "En el quinto"], "answer": 2 },
+        { "question": "¿Dónde está el salón?", "ru": "Где находится гостиная?", "options": ["Frente a la cocina", "A la izquierda", "Al final del pasillo", "Dentro del armario"], "answer": 1 },
+        { "question": "¿Dónde está el dormitorio de Rubén?", "ru": "Где находится спальня Рубена?", "options": ["Al final del pasillo", "A la izquierda", "Frente a la cocina", "Dentro del armario"], "answer": 0 },
+        { "question": "¿Dónde está el cuarto de baño?", "ru": "Где находится ванная комната?", "options": ["A la izquierda", "Al final del pasillo", "Frente a la cocina", "En el salón"], "answer": 2 },
+        { "question": "¿Qué color es el sillón en el salón de Rubén?", "ru": "Какого цвета кресло в гостиной?", "options": ["Marrón", "Rojo", "Azul", "Verde"], "answer": 1 },
+        { "question": "¿De quién es el dormitorio cerrado?", "ru": "Чья это закрытая спальня?", "options": ["De la hermana de Rubén", "De los padres de Rubén", "De Lucía", "Del hermano de Rubén"], "answer": 0 },
+        { "question": "¿Dónde están el jabón y las toallas?", "ru": "Где находятся мыло и полотенца?", "options": ["En el salón", "Dentro del armario", "En la cocina", "En el pasillo"], "answer": 1 },
+        { "question": "Rubén no tiene cocina de ___.", "ru": "У Рубена нет газовой ___.", "options": ["eléctrica", "de gas", "grande", "pequeña"], "answer": 1 },
+        { "question": "¿Qué toma Lucía?", "ru": "Что пьёт Люсия?", "options": ["Un café solo", "Un café con leche", "Un té", "Un zumo"], "answer": 1 },
+        { "question": "¿Cómo es el salón de Rubén?", "ru": "Какая гостиная у Рубена?", "options": ["Pequeño y oscuro", "Espacioso y luminoso", "Vacío y frío", "Grande y caliente"], "answer": 1 }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить слова в приложении",
+    "Практика: опиши свою квартиру, используя a la izquierda, frente a, al final de",
+    "Дневник: опиши комнату и мебель, используя hay и ser/estar",
+    "Грамматика: составь 3 предложения с ser и 3 с estar о своём доме"
+  ]
+}

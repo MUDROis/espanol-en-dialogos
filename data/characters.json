@@ -1,0 +1,402 @@
+[
+  {
+    "id": "carlos",
+    "es": "Carlos – estudiante de Francia, estudia ingeniería en Valencia",
+    "ru": "Карлос – студент из Франции, изучает инженерное дело в Валенсии"
+  },
+  {
+    "id": "lucia",
+    "es": "Lucía – es alemana, estudia en Valencia español",
+    "ru": "Лусия – немка, изучает испанский в Валенсии"
+  },
+  {
+    "id": "javier",
+    "es": "Javier – estudiante de Italia, estudia medicina en Málaga",
+    "ru": "Хавьер – студент из Италии, изучает медицину в Малаге"
+  },
+  {
+    "id": "ana",
+    "es": "Ana – es holandesa, estudia en Málaga español",
+    "ru": "Анна – голландка, изучает испанский в Малаге"
+  },
+  {
+    "id": "tomas",
+    "es": "Tomás – hermano menor de Javier, estudia con él",
+    "ru": "Томас – младший брат Хавьера, учится вместе с ним"
+  },
+  {
+    "id": "elena",
+    "es": "Elena – novia de Tomás, es española",
+    "ru": "Елена – девушка Томаса, испанка"
+  },
+  {
+    "id": "amalia",
+    "es": "Amalia – tía de Ana, holandesa, vive en Málaga",
+    "ru": "Амалия – тётя Анны, голландка, живёт в Малаге"
+  },
+  {
+    "id": "silvio",
+    "es": "Silvio – marido de Amalia, es español",
+    "ru": "Сильвио – муж Амалии, испанец"
+  },
+  {
+    "id": "barbara",
+    "es": "Bárbara – la hija mayor de Amalia y Silvio",
+    "ru": "Барбара – старшая дочь Амалии и Сильвио"
+  },
+  {
+    "id": "susana",
+    "es": "Susana – la hija menor de Amalia y Silvio",
+    "ru": "Сусана – младшая дочь Амалии и Сильвио"
+  },
+  {
+    "id": "belen",
+    "es": "Belén – es portuguesa, estudia español en Málaga con Ana",
+    "ru": "Белен – португалка, изучает испанский в Малаге вместе с Анной"
+  },
+  {
+    "id": "marta",
+    "es": "Marta – amiga de Belén, es alemana",
+    "ru": "Марта – подруга Белен, немка"
+  },
+  {
+    "id": "miguel",
+    "es": "Miguel – amigo de Belén, es español",
+    "ru": "Мигель – друг Белен, испанец"
+  },
+  {
+    "id": "alejandro",
+    "es": "Alejandro – amigo de Belén, es español",
+    "ru": "Алехандро – друг Белен, испанец"
+  },
+  {
+    "id": "gloria",
+    "es": "Gloria Paoletti – madre de Javier",
+    "ru": "Глория Паолетти – мать Хавьера"
+  },
+  {
+    "id": "rafael",
+    "es": "Rafael – novio de Belén, es español",
+    "ru": "Рафаэль – парень Белен, испанец"
+  },
+  {
+    "id": "maria",
+    "es": "María – vecina de Amalia",
+    "ru": "Мария – соседка Амалии"
+  },
+  {
+    "id": "daniel",
+    "es": "Daniel – amigo y vecino de Belén y otros",
+    "ru": "Даниэль – друг и сосед Белен и других"
+  },
+  {
+    "id": "pablo",
+    "es": "Pablo – estudiante de Buenos Aires, estudia español en la escuela",
+    "ru": "Пабло – студент из Буэнос-Айреса, изучает испанский в школе"
+  },
+  {
+    "id": "sofia",
+    "es": "Sofía – es argentina, estudia español con su hermano",
+    "ru": "София – аргентинка, изучает испанский вместе с братом"
+  },
+  {
+    "id": "clara",
+    "es": "Clara – amiga de Rosa, estudia en la misma escuela",
+    "ru": "Клара – подруга Розы, учится в той же школе"
+  },
+  {
+    "id": "rosa",
+    "es": "Rosa – estudiante, celebra su cumpleaños",
+    "ru": "Роза – студентка, празднует свой день рождения"
+  },
+  {
+    "id": "pedro",
+    "es": "Pedro – vive en el barrio antiguo de la ciudad",
+    "ru": "Педро – живёт в старом районе города"
+  },
+  {
+    "id": "elisa",
+    "es": "Elisa – amiga de Pedro, pasea por la ciudad",
+    "ru": "Элиса – подруга Педро, гуляет по городу"
+  },
+  {
+    "id": "carmen",
+    "es": "Carmen – celebra su cumpleaños, presenta a sus invitados",
+    "ru": "Кармен – празднует свой день рождения, представляет гостей"
+  },
+  {
+    "id": "luisa",
+    "es": "Luisa – tiene alergia, vecina de Carmen",
+    "ru": "Луиса – страдает аллергией, соседка Кармен"
+  },
+  {
+    "id": "irene",
+    "es": "Irene – amiga de Carmen, es italiana, habla varios idiomas",
+    "ru": "Ирене – подруга Кармен, итальянка, говорит на нескольких языках"
+  },
+  {
+    "id": "paula",
+    "es": "Paula – cuñada de Carmen, lleva gafas",
+    "ru": "Паула – жена брата Кармен, носит очки"
+  },
+  {
+    "id": "hugo",
+    "es": "Hugo – primo de Paula, de pelo largo y rubio",
+    "ru": "Уго – кузен Паулы, длинноволосый блондин"
+  },
+  {
+    "id": "alvaro",
+    "es": "Álvaro – hermano menor de Carmen, calvo, con barba y bigote",
+    "ru": "Альваро – младший брат Кармен, лысый, с бородой и усами"
+  },
+  {
+    "id": "lea",
+    "es": "Lea – hija de Álvaro, es una niña",
+    "ru": "Леа – дочь Альваро, девочка"
+  },
+  {
+    "id": "nora",
+    "es": "Nora – amiga y vecina de Carmen, de pelo corto y ondulado",
+    "ru": "Нора – подруга и соседка Кармен, с короткими волнистыми волосами"
+  },
+  {
+    "id": "silvia",
+    "es": "Silvia – amiga y vecina de Carmen",
+    "ru": "Сильвия – подруга и соседка Кармен"
+  },
+  {
+    "id": "andres",
+    "es": "Andrés – amigo de Pablo, tiene un coche",
+    "ru": "Андрес – друг Пабло, у него есть машина"
+  },
+  {
+    "id": "julia",
+    "es": "Julia – tía de Lucía, le gusta cocinar",
+    "ru": "Юлия – тётя Люсии, любит готовить"
+  },
+  {
+    "id": "antonio",
+    "es": "Antonio – marido de Julia",
+    "ru": "Антонио – муж Юлии"
+  },
+  {
+    "id": "ruben",
+    "es": "Rubén – amigo de Lucía, vive en el tercer piso",
+    "ru": "Рубен – друг Люсии, живёт на третьем этаже"
+  },
+  {
+    "id": "laura",
+    "es": "Laura – trabaja en Valencia y va a aprender a cocinar",
+    "ru": "Лаура – работает в Валенсии и собирается учиться готовить"
+  },
+  {
+    "id": "carmen_madre",
+    "es": "Carmen – madre de Pablo y Lucía, cocina y organiza la casa",
+    "ru": "Кармен – мама Пабло и Лусии, готовит и следит за порядком в доме"
+  },
+  {
+    "id": "pablo_hijo",
+    "es": "Pablo – hijo de Carmen, toca la guitarra y le gustan los juegos de mesa",
+    "ru": "Пабло – сын Кармен, играет на гитаре и любит настольные игры"
+  },
+  {
+    "id": "lucia_hija",
+    "es": "Lucía – hija de Carmen, quiere aprender ritmos modernos",
+    "ru": "Лусия – дочь Кармен, хочет научиться современным ритмам"
+  },
+  {
+    "id": "papa",
+    "es": "Papá – padre de Carlos, repartidor, quiere cambiar de empleo",
+    "ru": "Папа – отец Карлоса, курьер, хочет сменить работу"
+  },
+  {
+    "id": "carlos_hijo",
+    "es": "Carlos – hijo, vive en México y estudia portugués",
+    "ru": "Карлос – сын, живёт в Мексике и изучает португальский"
+  },
+  {
+    "id": "tia",
+    "es": "Tía de Sofía – pasea con su sobrina por el lago, le gustan las ferias de cerámica",
+    "ru": "Тётя Софии – гуляет с племянницей у озера, любит ярмарки керамики"
+  },
+  {
+    "id": "paula_amiga",
+    "es": "Paula – amiga de Lucía, viaja con ella a Sevilla",
+    "ru": "Паула – подруга Лусии, путешествует с ней в Севилью"
+  },
+  {
+    "id": "taquillero",
+    "es": "El taquillero de la estación de autobuses",
+    "ru": "Кассир автовокзала"
+  },
+  {
+    "id": "hombre",
+    "es": "Un hombre – devuelve la mochila a las chicas en la cafetería",
+    "ru": "Мужчина – возвращает девушкам рюкзак в кафе"
+  },
+  {
+    "id": "laura_moreno",
+    "es": "Laura Moreno – profesora, mamá de Carlos, primer día de trabajo en un centro de idiomas",
+    "ru": "Лаура Морено – преподаватель, мама Карлоса, первый день работы в языковом центре"
+  },
+  {
+    "id": "director",
+    "es": "El director – señor Gutiérrez, jefe de Laura en el centro",
+    "ru": "Директор – сеньор Гутьеррес, начальник Лауры в центре"
+  },
+  {
+    "id": "vendedor",
+    "es": "El vendedor del mercado artesanal, vende cerámica hecha a mano",
+    "ru": "Продавец на рынке ремёсел, продаёт керамику ручной работы"
+  },
+  {
+    "id": "carmen_viaje",
+    "es": "Carmen – amiga de Sofía, viajan juntas a Córdoba",
+    "ru": "Кармен – подруга Софии, путешествуют вместе в Кордову"
+  },
+  {
+    "id": "luis",
+    "es": "Luis – amigo de Carlos, viaja con él a San Petersburgo",
+    "ru": "Луис – друг Карлоса, путешествует вместе с ним в Санкт-Петербург"
+  },
+  {
+    "id": "laura_vecina",
+    "es": "Laura – vecina de Carmen, elige con ella un regalo para Pablo",
+    "ru": "Лаура – соседка Кармен, вместе выбирают подарок для Пабло"
+  },
+  {
+    "id": "elena_hermana",
+    "es": "Elena – hermana de Carlos, llega tarde a casa y discuten por el ruido de los vecinos",
+    "ru": "Елена – сестра Карлоса, поздно возвращается домой, они спорят из-за шума соседей"
+  },
+  {
+    "id": "portero",
+    "es": "El portero del edificio, viene a comprobar de dónde sale el ruido",
+    "ru": "Консьерж здания, приходит выяснить, откуда идёт шум"
+  },
+  {
+    "id": "chica_vecina",
+    "es": "La chica del 4ºB, vecina de Carlos, dice que está durmiendo y no pone la tele",
+    "ru": "Девушка из 4-го «Б», соседка Карлоса, говорит, что спала и не включала телевизор"
+  },
+  {
+    "id": "pablo_amalia",
+    "es": "Pablo – hijo de Amalia, celebra su fiesta en casa con la familia",
+    "ru": "Пабло – сын Амалии, устраивает праздник дома в кругу семьи"
+  },
+  {
+    "id": "dependienta",
+    "es": "La dependienta de una tienda de ropa, ayuda a Sofía a elegir una blusa",
+    "ru": "Продавщица магазина одежды, помогает Софии выбрать блузку"
+  },
+  {
+    "id": "recepcionista",
+    "es": "La recepcionista del hotel en San Petersburgo, registra a los huéspedes",
+    "ru": "Администратор отеля в Санкт-Петербурге, регистрирует гостей"
+  },
+  {
+    "id": "camarero",
+    "es": "El camarero del restaurante, atiende a Carlos y a Lucía",
+    "ru": "Официант ресторана, обслуживает Карлоса и Лусию"
+  },
+  {
+    "id": "camarera",
+    "es": "La camarera del restaurante, atiende a Carlos y a Lucía la noche de la cena",
+    "ru": "Официантка ресторана, обслуживает Карлоса и Лусию вечером, когда они приходят ужинать"
+  },
+  {
+    "id": "mario",
+    "es": "Mario – amigo y vecino de Sofía, le gusta ir de compras",
+    "ru": "Марио – друг и сосед Софии, любит ходить по магазинам"
+  },
+  {
+    "id": "profesora",
+    "es": "La profesora de dibujo, enseña a los chicos a pintar",
+    "ru": "Учительница рисования, учит ребят рисовать"
+  },
+  {
+    "id": "policia",
+    "es": "El policía de la comisaría, toma declaración a Carlos",
+    "ru": "Полицейский в участке, принимает заявление у Карлоса"
+  },
+  {
+    "id": "medico",
+    "es": "El médico del centro de salud, examina a Lucía",
+    "ru": "Врач медицинского центра, осматривает Лусию"
+  },
+  {
+    "id": "papa_lucia",
+    "es": "Papá de Lucía – escucha el relato de su hija sobre el viaje a Portugal",
+    "ru": "Папа Лусии – слушает рассказ дочери о поездке в Португалию"
+  },
+  {
+    "id": "elena_madre",
+    "es": "Elena – madre de Pablo y Lucía, organiza el campamento de verano en la montaña",
+    "ru": "Елена – мама Пабло и Лусии, организует летний лагерь в горах"
+  },
+  {
+    "id": "olga",
+    "es": "Olga – es rusa, llega a Valencia y aprende español desde cero",
+    "ru": "Ольга – русская, приезжает в Валенсию и учит испанский с нуля"
+  },
+  {
+    "id": "mateo",
+    "es": "Mateo – vecino español de Olga, paciente y siempre dispuesto a ayudar",
+    "ru": "Матео – испанский сосед Ольги, терпеливый и всегда готов помочь"
+  },
+  {
+    "id": "ana_valencia",
+    "es": "Ana – compañera de clase de Olga en la escuela de español",
+    "ru": "Ана – однокурсница Ольги в испанской школе"
+  },
+  {
+    "id": "roberto",
+    "es": "Roberto – vecino y conocido de Olga en el parque",
+    "ru": "Роберто – сосед и знакомый Ольги из парка"
+  },
+  {
+    "id": "clara_vecina",
+    "es": "Clara – vecina de Olga, la conoce en la calle al final de la parte 1",
+    "ru": "Клара – соседка Ольги, знакомство с ней завершает часть 1"
+  },
+  {
+    "id": "recepcionista_hotel",
+    "es": "La recepcionista del hotel de Valencia, entrega la llave a Olga",
+    "ru": "Администратор отеля в Валенсии, выдаёт Ольге ключ"
+  },
+  {
+    "id": "vendedor_mercado",
+    "es": "El vendedor del mercado central, vende frutas y verduras",
+    "ru": "Продавец Центрального рынка, продаёт овощи и фрукты"
+  },
+  {
+    "id": "dependienta_ropa",
+    "es": "La dependienta de la tienda de ropa, ayuda a Olga con las tallas",
+    "ru": "Продавщица в магазине одежды, помогает Ольге с размерами"
+  },
+  {
+    "id": "paseante",
+    "es": "Un transeúnte, explica a Olga cómo llegar a la estación",
+    "ru": "Прохожий, объясняет Ольге, как дойти до вокзала"
+  },
+  {
+    "id": "taquillero_tren",
+    "es": "El taquillero de la estación, vende el billete a Madrid",
+    "ru": "Кассир вокзала, продаёт билет до Мадрида"
+  },
+  {
+    "id": "camarero_cafe",
+    "es": "El camarero de la cafetería, sirve el desayuno y la cuenta",
+    "ru": "Официант кафе, подаёт завтрак и счёт"
+  },
+  {
+    "id": "camarero_madrid",
+    "es": "El camarero del restaurante de Madrid, toma la comanda",
+    "ru": "Официант ресторана в Мадриде, принимает заказ"
+  },
+  {
+    "id": "farmaceutico",
+    "es": "El farmacéutico de la farmacia, pregunta los síntomas a Olga",
+    "ru": "Фармацевт аптеки, спрашивает Ольгу о симптомах"
+  }
+]

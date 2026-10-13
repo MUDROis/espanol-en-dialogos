@@ -1,0 +1,719 @@
+{
+  "id": 67,
+  "title": "La ropa y los colores",
+  "titleRu": "Одежда и цвета: в магазине",
+  "module": "a0-a1",
+  "block": 2,
+  "part": 2,
+  "blockTitle": "Часть 2 · Продолжение начального уровня",
+  "level": "A1",
+  "theme": "Одежда и цвета: покупка  La ropa y los colores: en la tienda",
+  "mission": "Выбрать одежду нужного цвета и размера, примерить её и купить без переводчика.",
+  "mapPoint": "Магазин одежды на улице Колон",
+  "duration": "45 минут",
+  "stepsCount": 7,
+  "readingNote": "Прочитайте вслух цвета: rojo = «ро-хо» (j = [х]), gris = «грис» (g = [г]), а h в h ия не читается.",
+  "characters": [
+    "olga",
+    "dependienta_ropa"
+  ],
+  "objectives": [
+    "Назвать 5 предметов одежды и 6 цветов: la camisa, el vestido, rojo, azul, gris",
+    "Согласовать цвет с родом: una camisa roja, un vestido rojo",
+    "Спросить наличие цвета и размера: ¿Tiene esta camisa en azul? La M, por favor",
+    "Попросить примерочную и оценить посадку: me queda bien / no me queda mal",
+    "Читать буквы g и j: g перед a, o, u = [г], перед e, i = [х], j = [х]"
+  ],
+  "grammar": {
+    "color_despues_del_sustantivo": {
+      "title": "Цвет после существительного и согласование рода",
+      "description": "В испанском цвет стоит ПОСЛЕ вещи: la camisa roja, а не «красная камера». Цвет согласуется в роде: женский род получает -a (la camisa roja), мужской остаётся на -o (el vestido rojo). Во множественном числе добавляется -s: los zapatos negros.",
+      "forms": {
+        "yo": {
+          "es": "yo busco una camisa roja",
+          "ru": "я ищу красную рубашку"
+        },
+        "tu": {
+          "es": "tú buscas un pantalón negro",
+          "ru": "ты ищешь чёрные брюки"
+        },
+        "el_ella": {
+          "es": "ella tiene un vestido blanco",
+          "ru": "у неё белое платье"
+        },
+        "nosotros": {
+          "es": "nosotros buscamos una chaqueta azul",
+          "ru": "мы ищем синюю куртку"
+        }
+      },
+      "examples": [
+        {
+          "es": "Una camisa roja y un vestido rojo.",
+          "ru": "Красная рубашка и красное платье."
+        },
+        {
+          "es": "Un pantalón negro y unos zapatos negros.",
+          "ru": "Чёрные брюки и чёрная обувь."
+        }
+      ]
+    },
+    "colores_sin_cambio": {
+      "title": "Цвета, которые не меняются: azul и gris",
+      "description": "Некоторые цвета не имеют формы рода: azul и gris одинаковы для любого предмета — camisa azul, vestido azul, pantalón gris. Называйте их одним словом, окончание не нужно.",
+      "list": [
+        {
+          "es": "azul",
+          "ru": "синий (не меняется)"
+        },
+        {
+          "es": "camisa azul / vestido azul",
+          "ru": "синяя рубашка / синее платье"
+        },
+        {
+          "es": "gris",
+          "ru": "серый (не меняется)"
+        },
+        {
+          "es": "camisa gris / pantalón gris",
+          "ru": "серая рубашка / серые брюки"
+        },
+        {
+          "es": "el color",
+          "ru": "цвет"
+        },
+        {
+          "es": "una camisa blanca",
+          "ru": "белая рубашка"
+        }
+      ],
+      "examples": [
+        {
+          "es": "¿Tiene esta camisa en azul?",
+          "ru": "Есть эта рубашка в синем?"
+        },
+        {
+          "es": "Un vestido rojo, unos zapatos negros.",
+          "ru": "Красное платье, чёрная обувь."
+        }
+      ]
+    },
+    "en_la_tienda": {
+      "title": "Покупка одежды: цвет, размер, примерка",
+      "description": "Порядок покупки простой: спросить цвет → назвать размер → попросить примерочную → оценить посадку → решить. Оценка всегда про me queda: me queda bien — подходит, me queda mal — не подходит.",
+      "list": [
+        {
+          "es": "¿Tiene esta camisa en azul?",
+          "ru": "Есть эта рубашка в синем?"
+        },
+        {
+          "es": "¿Qué talla necesita?",
+          "ru": "Какой размер вам нужен?"
+        },
+        {
+          "es": "La M, por favor.",
+          "ru": "Размер M, пожалуйста."
+        },
+        {
+          "es": "¿Puedo probármelo?",
+          "ru": "Можно это примерить?"
+        },
+        {
+          "es": "Me queda bien.",
+          "ru": "Мне подходит."
+        },
+        {
+          "es": "No, me queda mal.",
+          "ru": "Нет, мне не подходит."
+        },
+        {
+          "es": "Lo compro.",
+          "ru": "Я это беру."
+        }
+      ],
+      "examples": [
+        {
+          "es": "La M, por favor. El probador está a la derecha.",
+          "ru": "Размер M, пожалуйста. Примерочная справа."
+        },
+        {
+          "es": "¿Qué tal? ¿Le queda bien?",
+          "ru": "Ну как? Вам подходит?"
+        }
+      ]
+    }
+  },
+  "vocabulary": {
+    "la_ropa": [
+      {
+        "es": "la camisa",
+        "ru": "рубашка"
+      },
+      {
+        "es": "el pantalón",
+        "ru": "брюки"
+      },
+      {
+        "es": "el vestido",
+        "ru": "платье"
+      },
+      {
+        "es": "los zapatos",
+        "ru": "обувь"
+      },
+      {
+        "es": "la chaqueta",
+        "ru": "куртка"
+      }
+    ],
+    "los_colores": [
+      {
+        "es": "el color",
+        "ru": "цвет"
+      },
+      {
+        "es": "rojo",
+        "ru": "красный"
+      },
+      {
+        "es": "azul",
+        "ru": "синий"
+      },
+      {
+        "es": "negro",
+        "ru": "чёрный"
+      },
+      {
+        "es": "blanco",
+        "ru": "белый"
+      },
+      {
+        "es": "gris",
+        "ru": "серый"
+      }
+    ],
+    "en_la_tienda": [
+      {
+        "es": "la talla",
+        "ru": "размер"
+      },
+      {
+        "es": "el probador",
+        "ru": "примерочная"
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "La dependienta",
+      "es": "Buenas tardes. ¿Puedo ayudarle?",
+      "ru": "Добрый день. Можно вам помочь?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Sí. ¿Tiene esta camisa en azul?",
+      "ru": "Да. Есть эта рубашка в синем?"
+    },
+    {
+      "speaker": "La dependienta",
+      "es": "Sí, claro. ¿Qué talla necesita?",
+      "ru": "Да, конечно. Какой размер вам нужен?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "La M, por favor.",
+      "ru": "Размер M, пожалуйста."
+    },
+    {
+      "speaker": "La dependienta",
+      "es": "Aquí tiene. El probador está a la derecha.",
+      "ru": "Вот, пожалуйста. Примерочная справа."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Gracias. ¿Puedo probármelo?",
+      "ru": "Спасибо. Можно это примерить?"
+    },
+    {
+      "speaker": "La dependienta",
+      "es": "Claro. ¿Qué tal? ¿Le queda bien?",
+      "ru": "Конечно. Ну как? Вам подходит?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Me queda bien. Lo compro.",
+      "ru": "Мне подходит. Я это беру."
+    },
+    {
+      "speaker": "La dependienta",
+      "es": "Muy bien. ¿Y unos zapatos negros?",
+      "ru": "Отлично. А чёрная обувь?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "No, hoy solo la camisa.",
+      "ru": "Нет, сегодня только рубашка."
+    },
+    {
+      "speaker": "La dependienta",
+      "es": "Son veinticinco euros.",
+      "ru": "Двадцать пять евро."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Aquí tiene. ¡Gracias!",
+      "ru": "Вот, пожалуйста. Спасибо!"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        {
+          "es": "la camisa",
+          "ru": "рубашка"
+        },
+        {
+          "es": "el pantalón",
+          "ru": "брюки"
+        },
+        {
+          "es": "el vestido",
+          "ru": "платье"
+        },
+        {
+          "es": "los zapatos",
+          "ru": "обувь"
+        },
+        {
+          "es": "la chaqueta",
+          "ru": "куртка"
+        },
+        {
+          "es": "rojo",
+          "ru": "красный"
+        },
+        {
+          "es": "azul",
+          "ru": "синий"
+        },
+        {
+          "es": "negro",
+          "ru": "чёрный"
+        },
+        {
+          "es": "blanco",
+          "ru": "белый"
+        },
+        {
+          "es": "la talla",
+          "ru": "размер"
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-color_despues_del_sustantivo",
+      "title": "Практика: Цвет после вещи и согласование рода",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Una camisa ___.",
+          "ru": "Красная рубашка.",
+          "answer": "roja",
+          "options": [
+            "roja",
+            "rojo",
+            "rojas"
+          ]
+        },
+        {
+          "text": "Un vestido ___.",
+          "ru": "Красное платье.",
+          "answer": "rojo",
+          "options": [
+            "rojo",
+            "roja",
+            "rojos"
+          ]
+        },
+        {
+          "text": "Unos zapatos ___.",
+          "ru": "Чёрная обувь.",
+          "answer": "negros",
+          "options": [
+            "negros",
+            "negras",
+            "negro"
+          ]
+        },
+        {
+          "text": "Una chaqueta ___.",
+          "ru": "Белая куртка.",
+          "answer": "blanca",
+          "options": [
+            "blanca",
+            "blanco",
+            "blancos"
+          ]
+        },
+        {
+          "text": "Él busca un vestido ___.",
+          "ru": "Он ищет красное платье.",
+          "answer": "rojo",
+          "options": [
+            "rojo",
+            "roja",
+            "rojas"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-colores_sin_cambio",
+      "title": "Практика: Цвета, которые не меняются",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Una camisa ___.",
+          "ru": "Синяя рубашка.",
+          "answer": "azul",
+          "options": [
+            "azul",
+            "azula",
+            "azules"
+          ]
+        },
+        {
+          "text": "Un vestido ___.",
+          "ru": "Синее платье.",
+          "answer": "azul",
+          "options": [
+            "azul",
+            "azula",
+            "azulaz"
+          ]
+        },
+        {
+          "text": "Un pantalón ___.",
+          "ru": "Серые брюки.",
+          "answer": "gris",
+          "options": [
+            "gris",
+            "grisa",
+            "grisesa"
+          ]
+        },
+        {
+          "text": "¿Tiene esta camisa en ___?",
+          "ru": "Есть эта рубашка в синем?",
+          "answer": "azul",
+          "options": [
+            "azul",
+            "azulaz",
+            "la azul"
+          ]
+        },
+        {
+          "text": "El ___ de la camisa es rojo.",
+          "ru": "Цвет рубашки — красный.",
+          "answer": "color",
+          "options": [
+            "color",
+            "colores",
+            "talla"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-en_la_tienda",
+      "title": "Практика: Цвет, размер и примерка",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "¿___ esta camisa en azul?",
+          "ru": "Есть эта рубашка в синем?",
+          "answer": "Tiene",
+          "options": [
+            "Tiene",
+            "Tienen",
+            "Hay"
+          ]
+        },
+        {
+          "text": "¿Qué ___ necesita?",
+          "ru": "Какой размер вам нужен?",
+          "answer": "talla",
+          "options": [
+            "talla",
+            "color",
+            "tallas"
+          ]
+        },
+        {
+          "text": "___ M, por favor.",
+          "ru": "Размер M, пожалуйста.",
+          "answer": "La",
+          "options": [
+            "La",
+            "El",
+            "Los"
+          ]
+        },
+        {
+          "text": "¿Puedo ___?",
+          "ru": "Можно это примерить?",
+          "answer": "probármelo",
+          "options": [
+            "probármelo",
+            "probarla",
+            "comprarlo"
+          ]
+        },
+        {
+          "text": "___ queda bien. Lo compro.",
+          "ru": "Мне подходит. Я это беру.",
+          "answer": "Me",
+          "options": [
+            "Me",
+            "Mi",
+            "Le"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Sí. ¿___ esta camisa en azul?",
+          "ru": "Да. Есть эта рубашка в синем?",
+          "answer": "Tiene",
+          "options": [
+            "Tiene",
+            "Tienen",
+            "Hay"
+          ]
+        },
+        {
+          "text": "Una camisa ___.",
+          "ru": "Красная рубашка.",
+          "answer": "roja",
+          "options": [
+            "roja",
+            "rojo",
+            "rojas"
+          ]
+        },
+        {
+          "text": "Un vestido ___.",
+          "ru": "Красное платье.",
+          "answer": "rojo",
+          "options": [
+            "rojo",
+            "roja",
+            "rojos"
+          ]
+        },
+        {
+          "text": "Unos zapatos ___.",
+          "ru": "Чёрная обувь.",
+          "answer": "negros",
+          "options": [
+            "negros",
+            "negro",
+            "negras"
+          ]
+        },
+        {
+          "text": "El probador está a ___.",
+          "ru": "Примерочная справа.",
+          "answer": "la derecha",
+          "options": [
+            "la derecha",
+            "la izquierda",
+            "todo recto"
+          ]
+        },
+        {
+          "text": "___ queda bien. Lo compro.",
+          "ru": "Мне подходит. Я это беру.",
+          "answer": "Me",
+          "options": [
+            "Me",
+            "Mi",
+            "Le"
+          ]
+        },
+        {
+          "text": "No, me ___ mal.",
+          "ru": "Нет, мне не подходит.",
+          "answer": "queda",
+          "options": [
+            "queda",
+            "quedo",
+            "quide"
+          ]
+        },
+        {
+          "text": "___ gracias.",
+          "ru": "Спасибо.",
+          "answer": "Muchas",
+          "options": [
+            "Muchas",
+            "Mucho",
+            "Muy"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Ольгой",
+      "role": "Olga",
+      "description": "Ты — покупательница: спрашиваешь цвет, называешь размер, просишь примерочную и решаешь покупку"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь продавщицей",
+      "role": "La dependienta",
+      "description": "Ты — продавщица: предлагаешь вещь, спрашиваешь размер, показываешь примерочную и называешь сумму"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Купи одну вещь: спроси цвет, назови размер, примери и скажи «подходит» или «не подходит»",
+      "template": [
+        {
+          "label": "Есть эта рубашка в синем?",
+          "es": "¿Tiene esta camisa en ___?"
+        },
+        {
+          "label": "Какой размер вам нужен?",
+          "es": "¿Qué ___ necesita?"
+        },
+        {
+          "label": "Размер M, пожалуйста",
+          "es": "___ M, por favor."
+        },
+        {
+          "label": "Вам подходит?",
+          "es": "¿Le ___ bien?"
+        },
+        {
+          "label": "Мне подходит, я беру",
+          "es": "Me ___ bien. Lo compro."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Qué color quiere la camisa?",
+          "ru": "Какого цвета рубашка?",
+          "options": [
+            "Azul",
+            "Roja",
+            "Negra"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se dice «красная рубашка»?",
+          "ru": "Как по-испански «красная рубашка»?",
+          "options": [
+            "una camisa rojo",
+            "una camisa roja",
+            "un camisa roja"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué color nunca cambia?",
+          "ru": "Какой цвет никогда не меняется?",
+          "options": [
+            "rojo",
+            "azul",
+            "negro"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué talla pide Olga?",
+          "ru": "Какой размер просит Ольга?",
+          "options": [
+            "La S",
+            "La M",
+            "La L"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué significa «¿Le queda bien?»",
+          "ru": "Что значит «¿Le queda bien?»",
+          "options": [
+            "Вам подходит?",
+            "Сколько это стоит?",
+            "Где примерочная?"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué dice Olga al final?",
+          "ru": "Что говорит Ольга в конце?",
+          "options": [
+            "Me queda bien. Lo compro",
+            "No hay",
+            "¿Algo más?"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se lee «rojo»?",
+          "ru": "Как читается «rojo»?",
+          "options": [
+            "«ро-йо»",
+            "«ро-хо»",
+            "«ро-жо»"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Dónde está el probador?",
+          "ru": "Где примерочная?",
+          "options": [
+            "A la derecha",
+            "A la izquierda",
+            "Todo recto"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    "Я называю одежду и цвета вместе с артиклями",
+    "Я согласовываю цвет и род: camisa roja, vestido rojo",
+    "Я помню, что azul и gris не меняются",
+    "Я спрашиваю цвет и размер: ¿Tiene esta camisa en azul? La M",
+    "Я говорю о посадке: me queda bien / me queda mal",
+    "Я читаю g и j: gris = [г], rojo = [х]"
+  ],
+  "homework": [
+    "Опиши 5 вещей из своего шкафа по модели «артикль + вещь + цвет»: la camisa blanca, el pantalón azul",
+    "Произнеси список вслух в приложении: минимум один раз используй пару rojo/roja и один раз — цвет без изменения",
+    "Запиши 30 секунд речи: спроси цвет, назови размер, попроси примерочную и скажи «подходит»",
+    "Прочитай вслух цвета по правилам g / j: rojo, gris, gente, hija, azul"
+  ]
+}

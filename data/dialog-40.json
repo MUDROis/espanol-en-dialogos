@@ -1,0 +1,316 @@
+{
+  "id": 40,
+  "title": "Carlos y Lucía hablan de los robos",
+  "titleRu": "Карлос и Лусия говорят о кражах",
+  "part": 5,
+  "level": "B2",
+  "theme": "Кражи, карманные воры, рассказы о прошлом  Los robos, los carteristas, las historias del pasado",
+  "characters": ["carlos", "lucia"],
+  "objectives": [
+    "Рассказывать о краже в прошлом: me robaron el piso, me sacaron la cartera, perdí el teléfono",
+    "Использовать pretérito pluscuamperfecto: le había comprado un regalo, ya habían desaparecido",
+    "Различать indefinido и imperfecto в рассказе: me rodearon / iba en metro",
+    "Говорить о намерениях в прошлом: iba a pagarlas, iba a entregárselo",
+    "Понимать рассказ о карманной краже: el bolso abierto, los bolsillos vacíos, el helado",
+    "Выражать осторожность: debemos tener cuidado, eso le puede pasar a cualquiera"
+  ],
+  "grammar": {
+    "pluscuamperfecto": {
+      "title": "Pretérito Pluscuamperfecto: действие, предшествующее другому прошлому",
+      "description": "Pluscuamperfecto образуется из imperfecto глагола HABER + причастие на -ado/-ido и обозначает действие, которое произошло РАНЬШЕ другого прошлого действия: ya habían desaparecido cuando me di cuenta (они уже исчезли, когда я заметил).",
+      "forms": {
+        "yo": { "es": "había comprado", "ru": "я уже купил" },
+        "tu": { "es": "habías pagado", "ru": "ты уже заплатил" },
+        "el_ella": { "es": "había visto", "ru": "он/она уже видел(а)" },
+        "nosotros": { "es": "habíamos salido", "ru": "мы уже вышли" },
+        "vosotros": { "es": "habíais elegido", "ru": "вы уже выбрали" },
+        "ellos_ellas": { "es": "habían sacado", "ru": "они уже вытащили" }
+      },
+      "examples": [
+        { "es": "Le había comprado un regalo para su cumpleaños.", "ru": "Я купил ему подарок на день рождения." },
+        { "es": "Ya habían desaparecido cuando me di cuenta de que no tenía la cámara.", "ru": "Они уже исчезли, когда я заметил, что фотоаппарата у меня нет." },
+        { "es": "Una me había empujado y se apartó enseguida.", "ru": "Одна толкнула меня и сразу отошла." }
+      ]
+    },
+    "indefinido_imperfecto": {
+      "title": "Indefinido e imperfecto en la narración",
+      "description": "В рассказе о прошлом INDEFINIDO продвигает сюжет — называет точки событий (me rodearon, me di cuenta, perdí), а IMPERFECTO описывает фон и обстановку (estaba eligiendo, iba en metro).",
+      "list": [
+        { "es": "estaba eligiendo cosas cuando me di cuenta de que mi cartera no estaba", "ru": "я выбирала вещи, когда заметила, что кошелька нет" },
+        { "es": "me rodearon tres mujeres con un mapa", "ru": "меня окружили три женщины с картой" },
+        { "es": "iba en metro cuando me sacaron la cámara", "ru": "я ехал в метро, когда у меня вытащили фотоаппарат" },
+        { "es": "estaba andando por la calle cuando me choqué con un hombre", "ru": "я шла по улице, когда столкнулась с мужчиной" },
+        { "es": "una me había empujado y se apartó enseguida", "ru": "одна толкнула меня и сразу отошла" },
+        { "es": "los ladrones desaparecieron de repente", "ru": "воры исчезли внезапно" }
+      ],
+      "examples": [
+        { "es": "Cuando había elegido las cosas e iba a pagarlas, me di cuenta de que mi cartera no estaba.", "ru": "Когда я выбрала вещи и собиралась оплатить их, я заметила, что моего кошелька нет." },
+        { "es": "Cuando vi que no tenía la cámara, ya habían desaparecido.", "ru": "Когда я увидел, что фотоаппарата нет, они уже исчезли." }
+      ]
+    },
+    "ir_a_imperfecto": {
+      "title": "IR A + infinitivo en imperfecto (собираться…)",
+      "description": "Форма iba/ibas/iba… + a + infinitivo в imperfecto означает «собирался / намеревался что-то сделать» — действие было запланировано, но чаще всего не случилось.",
+      "list": [
+        { "es": "iba a entregárselo en octubre", "ru": "собирался вручить его в октябре" },
+        { "es": "iba a pagarlas en la caja", "ru": "собиралась оплатить их на кассе" },
+        { "es": "el piso iba a estar vacío por un tiempo", "ru": "квартира должна была пустовать какое-то время" },
+        { "es": "¿qué ibas a hacer?", "ru": "что ты собирался делать?" },
+        { "es": "no iba a volver hasta octubre", "ru": "он не собирался возвращаться до октября" }
+      ],
+      "examples": [
+        { "es": "Le había comprado un regalo e iba a entregárselo en octubre.", "ru": "Я купил ему подарок и собирался вручить его в октябре." },
+        { "es": "Cuando había elegido las cosas e iba a pagarlas, me di cuenta del robo.", "ru": "Когда я выбрала вещи и собиралась оплатить их, я заметила кражу." }
+      ]
+    },
+    "expresiones_robo": {
+      "title": "Как рассказывать о краже",
+      "description": "Частотные разговорные конструкции для рассказа об ограблении или карманной краже: me robaron… (у меня украли…), me sacaron… (у меня вытащили…), perdí… (я потерял…).",
+      "list": [
+        { "es": "me robaron el apartamento", "ru": "у меня обокрали квартиру" },
+        { "es": "me sacaron la cartera", "ru": "у меня вытащили кошелёк" },
+        { "es": "me sacaron la cámara de fotos", "ru": "у меня вытащили фотоаппарат" },
+        { "es": "me choqué con un hombre", "ru": "я столкнулась с мужчиной" },
+        { "es": "alguien me empujó", "ru": "кто-то меня толкнул" },
+        { "es": "los bolsillos estaban vacíos", "ru": "карманы были пусты" }
+      ],
+      "examples": [
+        { "es": "Estoy segura de que habían sacado mi cartera mientras yo estaba eligiendo cosas.", "ru": "Я уверена, что они вытащили мой кошелёк, пока я выбирала вещи." },
+        { "es": "De ese modo, perdí mi teléfono y 50 euros.", "ru": "Таким образом, я потеряла свой телефон и 50 евро." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "el_robo_y_los_ladrones": [
+      { "es": "el ladrón", "ru": "вор" },
+      { "es": "el robo", "ru": "кража" },
+      { "es": "la cartera", "ru": "кошелёк" },
+      { "es": "el bolso", "ru": "сумка" },
+      { "es": "el bolsillo", "ru": "карман" },
+      { "es": "la cámara de fotos", "ru": "фотоаппарат" },
+      { "es": "la tableta", "ru": "планшет" },
+      { "es": "la servilleta", "ru": "салфетка" },
+      { "es": "el mapa", "ru": "карта" },
+      { "es": "el helado", "ru": "мороженое" }
+    ],
+    "las_cosas_valiosas": [
+      { "es": "la colección de sellos", "ru": "коллекция марок" },
+      { "es": "el sello", "ru": "марка" },
+      { "es": "las joyas", "ru": "украшения" },
+      { "es": "las cosas anticuadas", "ru": "старинные вещи" },
+      { "es": "el ordenador", "ru": "компьютер" }
+    ],
+    "las_personas_y_lugares": [
+      { "es": "la portera", "ru": "консьержка" },
+      { "es": "la gente", "ru": "люди" },
+      { "es": "la tienda", "ru": "магазин" },
+      { "es": "el metro", "ru": "метро" },
+      { "es": "la calle", "ru": "улица" },
+      { "es": "la camisa", "ru": "рубашка" }
+    ],
+    "los_verbos": [
+      { "es": "sacar", "ru": "вытаскивать" },
+      { "es": "robar", "ru": "красть" },
+      { "es": "empujar", "ru": "толкать" },
+      { "es": "rodear", "ru": "окружать" },
+      { "es": "ensuciar", "ru": "пачкать" },
+      { "es": "secar", "ru": "вытирать" },
+      { "es": "alejarse", "ru": "отходить, удаляться" },
+      { "es": "desaparecer", "ru": "исчезать" },
+      { "es": "elegir", "ru": "выбирать" },
+      { "es": "vigilar", "ru": "следить, охранять" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Lucía", "es": "Aún no me lo puedo creer — robaron su piso en Sevilla.", "ru": "Я всё ещё не могу поверить — обокрали его квартиру в Севилье." },
+    { "speaker": "Carlos", "es": "Sí... Ayer, cuando mi hermano me lo comunicó, me puse nervioso. Es que le había comprado un regalo para su cumpleaños e iba a entregárselo en octubre.", "ru": "Да... Вчера, когда мой брат мне об этом сообщил, я разнервничался. Дело в том, что я купил ему подарок на день рождения и собирался вручить его в октябре." },
+    { "speaker": "Lucía", "es": "¿Qué pasó con mi regalo?", "ru": "Что произошло с моим подарком?" },
+    { "speaker": "Carlos", "es": "Por suerte, nada. Luis me dijo que no lo habían tocado. Pues, no teníamos nada valioso en el piso. Me he quedado sin mi tableta, pero esto no me importa mucho.", "ru": "К счастью, ничего. Луис мне сказал, что они его не трогали. У нас ничего ценного не было в квартире. Я остался без планшета, но это не сильно важно." },
+    { "speaker": "Lucía", "es": "Pues, yo tengo cosas valiosas en mi casa. Una colección de sellos que me regaló mi abuelo, unas joyas que compré hace tiempo, mi ordenador y unas cosas anticuadas. Pero tenemos una portera que vigila bien a la gente que entra y sale.", "ru": "У меня есть ценные вещи дома. Коллекция марок, которую мне подарил дедушка, некоторые украшения, которые я купила много времени назад, компьютер и несколько старинных вещей. Но у нас есть консьержка, которая следит за теми, кто входит и выходит." },
+    { "speaker": "Carlos", "es": "¿No te han robado nunca?", "ru": "У тебя никогда ничего не крали?" },
+    { "speaker": "Lucía", "es": "Sí, dos veces. Cuando tenía dieciséis años, mi madre me envió a la tienda a comprar algo. Pues, cuando había elegido las cosas e iba a pagarlas, me di cuenta de que mi cartera no estaba. El bolso estaba abierto, además, había visto a dos gitanas cerca de mí... Una me había empujado y se apartó enseguida. Estoy segura de que habían sacado mi cartera mientras yo estaba eligiendo cosas.", "ru": "Да, два раза. Когда мне было шестнадцать лет, мама послала меня в магазин купить что-то. Так вот, когда я выбрала вещи и собиралась их оплатить, я заметила, что моего кошелька нет. Сумка была открыта, и к тому же я видела рядом двух цыганок... Одна меня толкнула и сразу отошла. Я уверена, что они вытащили мой кошелёк, пока я выбирала вещи." },
+    { "speaker": "Carlos", "es": "A mí me sacaron una vez la cámara de fotos. Iba en metro, me rodearon tres mujeres con un mapa. Dijeron que eran turistas y no entendían algo. Les mostré lo que querían saber y, cuando vi que no tenía la cámara, ya habían desaparecido.", "ru": "А у меня как-то вытащили фотоаппарат. Я ехал в метро, и меня окружили три женщины с картой. Сказали, что они туристки и что-то не понимают. Я показал им то, что они хотели знать, а когда увидел, что фотоаппарата у меня нет, они уже исчезли." },
+    { "speaker": "Lucía", "es": "He escuchado de esa manera de robar. La segunda vez que me robaron fue hace un año. Estaba andando por la calle cuando, de repente, me choqué con un hombre que comía un helado. Claro que el helado me ensució la ropa. Él sacó una servilleta y, disculpándose, me ayudó a secar un poco la camisa. Cuando ya se había alejado, me di cuenta de que mis bolsillos estaban vacíos. De ese modo, perdí mi teléfono y 50 euros.", "ru": "Я слышала об этом способе кражи. Второй раз, когда меня обокрали, был год назад. Я шла по улице, когда вдруг столкнулась с мужчиной, который ел мороженое. Конечно, мороженое испачкало мою одежду. Мужчина достал салфетку и, извиняясь, помог мне вытереть немного рубашку. Когда он уже отошёл, я заметила, что мои карманы пусты. Таким образом, я потеряла мой телефон и 50 евро." },
+    { "speaker": "Carlos", "es": "Debemos tener cuidado, aunque eso le puede pasar a cualquiera.", "ru": "Мы должны быть осторожны, хотя это может случиться с каждым." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el ladrón", "ru": "вор" },
+        { "es": "el robo", "ru": "кража" },
+        { "es": "la cartera", "ru": "кошелёк" },
+        { "es": "el bolso", "ru": "сумка" },
+        { "es": "el bolsillo", "ru": "карман" },
+        { "es": "la cámara de fotos", "ru": "фотоаппарат" },
+        { "es": "la tableta", "ru": "планшет" },
+        { "es": "la servilleta", "ru": "салфетка" },
+        { "es": "el mapa", "ru": "карта" },
+        { "es": "el helado", "ru": "мороженое" }
+      ]
+    },
+    {
+      "type": "fill-gap-pluscuamperfecto",
+      "title": "Практика: Pretérito Pluscuamperfecto",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Le ___ comprado un regalo para su cumpleaños.", "ru": "Я купил ему подарок на день рождения", "answer": "había", "options": ["había", "he", "habéis"] },
+        { "text": "Luis me dijo que no lo ___ tocado.", "ru": "Луис сказал мне, что они его не трогали", "answer": "habían", "options": ["habían", "han", "fueron"] },
+        { "text": "Las tres mujeres ya ___ desaparecido.", "ru": "Три женщины уже исчезли", "answer": "habían", "options": ["habían", "habrá", "tienen"] },
+        { "text": "Cuando ___ elegido las cosas, iba a pagarlas.", "ru": "Когда я выбрала вещи, я собиралась оплатить их", "answer": "había", "options": ["había", "he", "habrían"] },
+        { "text": "Una me ___ empujado y se apartó enseguida.", "ru": "Одна толкнула меня и сразу отошла", "answer": "había", "options": ["había", "ha", "hablamos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-indefinido_imperfecto",
+      "title": "Практика: Indefinido / Imperfecto",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Me ___ de cuenta de que mi cartera no estaba.", "ru": "Я заметила, что моего кошелька нет", "answer": "di", "options": ["di", "daba", "doy"] },
+        { "text": "Me ___ tres mujeres con un mapa.", "ru": "Меня окружили три женщины с картой", "answer": "rodearon", "options": ["rodearon", "rodeaban", "rodean"] },
+        { "text": "___ andando por la calle cuando me choqué con un hombre.", "ru": "Я шла по улице, когда столкнулась с мужчиной", "answer": "Estaba", "options": ["Estaba", "Estuve", "Estoy"] },
+        { "text": "De repente me ___ con un hombre que comía un helado.", "ru": "Вдруг я столкнулась с мужчиной, который ел мороженое", "answer": "choqué", "options": ["choqué", "chocaba", "choco"] },
+        { "text": "Iba en metro cuando me ___ la cámara de fotos.", "ru": "Я ехал в метро, когда у меня вытащили фотоаппарат", "answer": "sacaron", "options": ["sacaron", "sacaban", "sacan"] }
+      ]
+    },
+    {
+      "type": "fill-gap-ir_a_imperfecto",
+      "title": "Практика: IR A + infinitivo en imperfecto",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Iba ___ entregárselo en octubre.", "ru": "Я собирался вручить его в октябре", "answer": "a", "options": ["a", "para", "de"] },
+        { "text": "Cuando había elegido las cosas e ___ a pagarlas, me di cuenta del robo.", "ru": "Когда я выбрала вещи и собиралась их оплатить, я заметила кражу", "answer": "iba", "options": ["iba", "fue", "voy"] },
+        { "text": "El piso iba a ___ vacío por un tiempo.", "ru": "Квартира должна была пустовать какое-то время", "answer": "estar", "options": ["estar", "ser", "estaba"] },
+        { "text": "¿Qué ___ a hacer cuando pasó todo?", "ru": "Что ты собирался делать, когда всё произошло?", "answer": "ibas", "options": ["ibas", "fue", "vas"] },
+        { "text": "No ___ a volver hasta octubre.", "ru": "Он не собирался возвращаться до октября", "answer": "iba", "options": ["iba", "fue", "voy"] }
+      ]
+    },
+    {
+      "type": "fill-gap-expresiones_robo",
+      "title": "Практика: как рассказывать о краже",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Me ___ el apartamento.", "ru": "У меня обокрали квартиру", "answer": "robaron", "options": ["robaron", "roban", "robaban"] },
+        { "text": "De ese ___, perdí mi teléfono y 50 euros.", "ru": "Таким образом, я потеряла телефон и 50 евро", "answer": "modo", "options": ["modo", "tiempo", "mundo"] },
+        { "text": "El helado me ___ la ropa.", "ru": "Мороженое испачкало мне одежду", "answer": "ensució", "options": ["ensució", "ensucia", "limpia"] },
+        { "text": "Debemos tener ___, aunque le puede pasar a cualquiera.", "ru": "Мы должны быть осторожны, хотя это может случиться с каждым", "answer": "cuidado", "options": ["cuidado", "miedo", "tiempo"] },
+        { "text": "Mis ___ estaban vacíos.", "ru": "Мои карманы были пусты", "answer": "bolsillos", "options": ["bolsillos", "bolsos", "carteras"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Me ___ el apartamento mientras estaba ausente.", "ru": "У меня обокрали квартиру, пока меня не было", "answer": "robaron", "options": ["robaron", "han", "roban"] },
+        { "text": "Luis me dijo que no lo ___ tocado.", "ru": "Луис сказал, что его не трогали", "answer": "habían", "options": ["habían", "han", "fueron"] },
+        { "text": "Cuando iba a ___, me di cuenta de que mi cartera no estaba.", "ru": "Когда я собиралась платить, я заметила, что кошелька нет", "answer": "pagar", "options": ["pagar", "comprar", "salir"] },
+        { "text": "Estaba andando por la calle cuando de repente me ___.", "ru": "Я шла по улице, когда вдруг столкнулась", "answer": "choqué", "options": ["choqué", "chocaba", "choco"] },
+        { "text": "El hombre ___ una servilleta y me ayudó a secar la camisa.", "ru": "Мужчина достал салфетку и помог вытереть рубашку", "answer": "sacó", "options": ["sacó", "sacaba", "saca"] },
+        { "text": "Ya habían ___ cuando me di cuenta.", "ru": "Они уже исчезли, когда я заметил", "answer": "desaparecido", "options": ["desaparecido", "desaparecidos", "desaparecían"] },
+        { "text": "Debemos tener cuidado, aunque eso le puede pasar a ___.", "ru": "Мы должны быть осторожны, хотя это может случиться с каждым", "answer": "cualquiera", "options": ["cualquiera", "alguien", "nadie"] },
+        { "text": "Me he quedado sin mi ___.", "ru": "Я остался без своего планшета", "answer": "tableta", "options": ["tableta", "cartera", "cámara"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Ты — Карлос, рассказываешь Лусии о краже в квартире брата и о своей истории в метро"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Ты — Лусия, рассказываешь Карлосу о двух случаях, когда у тебя что-то украли"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи собеседнику о краже: что случилось, что именно пропало и что ты думаешь об этом",
+      "template": [
+        { "label": "Я всё ещё не могу в это поверить", "es": "Aún no me lo ___ creer." },
+        { "label": "У меня обокрали квартиру", "es": "Me ___ el piso." },
+        { "label": "Они уже исчезли", "es": "Ya ___ desaparecido." },
+        { "label": "Я заметил, что", "es": "Me ___ de cuenta de que..." },
+        { "label": "У меня вытащили кошелёк", "es": "Me ___ la cartera." },
+        { "label": "Мы должны быть осторожны", "es": "Debemos tener ___." },
+        { "label": "Это может случиться с каждым", "es": "Eso le puede pasar a ___." }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Qué pasó con el regalo que Carlos había comprado a su hermano?",
+          "ru": "Что случилось с подарком, который Карлос купил своему брату?",
+          "options": ["Se lo robaron", "No lo habían tocado", "Se lo rompió", "Lo perdió"],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuántas veces le han robado a Lucía?",
+          "ru": "Сколько раз у Лусии что-то украли?",
+          "options": ["Una vez", "Dos veces", "Tres veces", "Nunca"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué le sacaron a Lucía la primera vez?",
+          "ru": "Что у Лусии вытащили в первый раз?",
+          "options": ["El teléfono", "La cámara de fotos", "La cartera", "El bolso"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué le sacaron a Carlos en el metro?",
+          "ru": "Что у Карлоса вытащили в метро?",
+          "options": ["La cámara de fotos", "La tableta", "La cartera", "El móvil"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo perdió Lucía su teléfono?",
+          "ru": "Как Лусия потеряла свой телефон?",
+          "options": ["Se le cayó en el metro", "El hombre del helado se lo robó", "Lo dejó en la tienda", "Lo olvidó en casa"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué hizo el hombre cuando se chocó con Lucía?",
+          "ru": "Что сделал мужчина, когда столкнулся с Лусией?",
+          "options": ["Se disculpó y le ayudó a secar la camisa", "Le dio el helado", "Llamó a la policía", "Se fue corriendo"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué cosas valiosas tiene Lucía en casa?",
+          "ru": "Какие ценные вещи есть у Лусии дома?",
+          "options": ["Una colección de sellos y unas joyas", "Una colección de coches", "Unos cuadros famosos", "Dinero en efectivo"],
+          "answer": 0
+        },
+        {
+          "question": "¿Quién vigila a la gente que entra y sale en la casa de Lucía?",
+          "ru": "Кто следит за людьми, которые входят и выходят, в доме Лусии?",
+          "options": ["La portera", "El abuelo", "La madre de Lucía", "Nadie"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué perdió Carlos en el robo del piso?",
+          "ru": "Что потерял Карлос при краже в квартире?",
+          "options": ["Su tableta", "Su ordenador", "Su colección de sellos", "Su cámara de fotos"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повтори слова по теме «кража, вещи, вор»",
+    "Практика: расскажи о случае, когда у тебя что-то украли. Используй: me robaron / me sacaron..., cuando... + me di cuenta de que..., ya habían desaparecido",
+    "Дневник: опиши историю (реальную или выдуманную) кражи в городе",
+    "Грамматика: составь 5 предложений с pluscuamperfecto и 5 с indefinido/imperfecto (фон)"
+  ]
+}

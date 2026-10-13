@@ -1,0 +1,320 @@
+{
+  "id": 39,
+  "title": "Carlos va a la comisaría",
+  "titleRu": "Карлос идёт в полицейский участок",
+  "part": 5,
+  "level": "B2",
+  "theme": "Полиция, кража, заявление  La policía, el robo, la declaración",
+  "characters": ["policia", "carlos"],
+  "objectives": [
+    "Сообщать о происшествии в полицию: me robaron el apartamento, rompieron el cerrojo, todo está patas arriba",
+    "Рассказывать в pretérito indefinido: estuve, volví, se fueron, llamé, se enteraron, lo supieron",
+    "Описывать обстановку в pretérito imperfecto: estaba ausente, estaban buscando, el piso iba a estar vacío",
+    "Говорить о недавних действиях: acabo de volver, acaba de llamar",
+    "Понимать формульные выражения полиции: usted debe llenar esta declaración, ¿sospecha de alguien?, no tengo ni idea",
+    "Называть ценные вещи и предметы дома: el ordenador, el monitor portátil, la tablet, la vajilla"
+  ],
+  "grammar": {
+    "indefinido": {
+      "title": "Pretérito Indefinido: завершённые действия в прошлом",
+      "description": "Pretérito indefinido для цепочки завершённых действий при рассказе: me robaron el apartamento (у меня обокрали квартиру), no estuve en casa dos meses (меня не было дома два месяца), se fueron de vacaciones (они уехали в отпуск), le llamé enseguida (я ему сразу позвонил), lo supieron por casualidad (узнали случайно).",
+      "forms": {
+        "yo": { "es": "volví de Marruecos", "ru": "я вернулся из Марокко" },
+        "tu": { "es": "viste el desorden", "ru": "ты увидел беспорядок" },
+        "el_ella": { "es": "se enteró de la noticia", "ru": "он/она узнал о новости" },
+        "nosotros": { "es": "fuimos de viaje", "ru": "мы ездили в путешествие" },
+        "vosotros": { "es": "rompisteis algo de vajilla", "ru": "вы разбили что-то из посуды" },
+        "ellos_ellas": { "es": "robaron el apartamento", "ru": "они обокрали квартиру" }
+      },
+      "examples": [
+        { "es": "Sí, es que me robaron el apartamento mientras estaba ausente.", "ru": "Да, дело в том, что у меня обокрали квартиру, пока меня не было." },
+        { "es": "Me fui de viaje a Marruecos.", "ru": "Я ездил в путешествие в Марокко." }
+      ]
+    },
+    "imperfecto_descripcion": {
+      "title": "Pretérito Imperfecto: фон и описание в прошлом",
+      "description": "Pretérito imperfecto для фона, на котором происходило действие: mientras estaba ausente (пока меня не было), creo que estaban buscando dinero o cosas valiosas (думаю, они искали деньги или ценные вещи), estaba muy lejos (он был очень далеко), el piso iba a estar vacío por un tiempo (квартира должна была пустовать какое-то время).",
+      "list": [
+        { "es": "mientras estaba ausente", "ru": "пока меня не было" },
+        { "es": "estaban buscando dinero o cosas valiosas", "ru": "они искали деньги или ценные вещи" },
+        { "es": "el dueño estaba muy lejos", "ru": "хозяин был очень далеко" },
+        { "es": "el piso iba a estar vacío por un tiempo", "ru": "квартира должна была пустовать какое-то время" },
+        { "es": "todo estaba patas arriba", "ru": "всё было перевёрнуто вверх дном" },
+        { "es": "¿quién lo sabía?", "ru": "кто это знал?" }
+      ],
+      "examples": [
+        { "es": "Me robaron el apartamento mientras estaba ausente.", "ru": "У меня обокрали квартиру, пока меня не было." },
+        { "es": "La gente que lo robó se había enterado de que el piso iba a estar vacío por un tiempo.", "ru": "Люди, которые обокрали, узнали, что квартира будет пустовать какое-то время." }
+      ]
+    },
+    "acabar_de": {
+      "title": "ACABAR DE + infinitivo: только что сделать",
+      "description": "ACABAR DE + глагол — «только что сделать что-то»: acabo de volver y todo está patas arriba (я только что вернулся, и всё вверх дном), mi hermana acaba de llamar (моя сестра только что позвонила).",
+      "list": [
+        { "es": "acabo de volver", "ru": "я только что вернулся" },
+        { "es": "acabas de llamar", "ru": "ты только что позвонил" },
+        { "es": "acaba de enterarse", "ru": "он/она только что узнал" },
+        { "es": "acabamos de llegar", "ru": "мы только что приехали" },
+        { "es": "los vecinos acaban de ver a los ladrones", "ru": "соседи только что видели воров" },
+        { "es": "acababa de volver cuando sonó el teléfono", "ru": "я как раз вернулся, когда зазвонил телефон" }
+      ],
+      "examples": [
+        { "es": "No estuve en casa dos meses, acabo de volver y... Todo está patas arriba.", "ru": "Меня не было дома два месяца, я только что вернулся и... Всё перевёрнуто вверх дном." },
+        { "es": "Sí, le llamé enseguida, pero hace unos días que se fue a otra parte de España.", "ru": "Да, я позвонил ему сразу же, но несколько дней назад он уехал в другую часть Испании." }
+      ]
+    },
+    "declaracion": {
+      "title": "Формулы полиции и заявления",
+      "description": "Формальные выражения при обращении в полицию: usted debe llenar esta declaración (вы должны заполнить это заявление), ahora mando a dos personas a su piso (сейчас я отправлю двух человек в вашу квартиру), ¿sospecha de alguien? (вы подозреваете кого-нибудь?), no tengo ni idea (не имею ни малейшего понятия).",
+      "list": [
+        { "es": "usted debe llenar esta declaración", "ru": "вы должны заполнить это заявление" },
+        { "es": "ahora mando a dos personas a su piso", "ru": "сейчас я отправлю двух человек в вашу квартиру" },
+        { "es": "¿sospecha de alguien?", "ru": "вы подозреваете кого-нибудь?" },
+        { "es": "no tengo ni idea", "ru": "не имею ни малейшего понятия" },
+        { "es": "el apartamento le pertenece a usted", "ru": "квартира принадлежит вам" },
+        { "es": "¿ya se lo ha comunicado al dueño?", "ru": "вы уже сообщили об этом хозяину?" }
+      ],
+      "examples": [
+        { "es": "Bueno, ahora mando a dos personas a su piso. Usted debe llenar esta declaración...", "ru": "Хорошо, сейчас отправлю двух человек в вашу квартиру. Вы должны заполнить это заявление..." },
+        { "es": "Ni idea. No sé quién pudo hacerlo.", "ru": "Не имею понятия. Не знаю, кто мог это сделать." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "la_casa_y_el_robo": [
+      { "es": "el apartamento", "ru": "квартира" },
+      { "es": "el piso", "ru": "квартира" },
+      { "es": "el cerrojo", "ru": "замок" },
+      { "es": "la vajilla", "ru": "посуда" },
+      { "es": "el suelo", "ru": "пол" },
+      { "es": "el desorden", "ru": "беспорядок" },
+      { "es": "la ropa", "ru": "одежда" },
+      { "es": "las cosas valiosas", "ru": "ценные вещи" },
+      { "es": "el ordenador", "ru": "компьютер" },
+      { "es": "el monitor portátil", "ru": "ноутбук" }
+    ],
+    "la_comisaria": [
+      { "es": "la comisaría", "ru": "полицейский участок" },
+      { "es": "el policía", "ru": "полицейский" },
+      { "es": "la declaración", "ru": "заявление" },
+      { "es": "el ladrón", "ru": "вор" }
+    ],
+    "los_verbos": [
+      { "es": "robar", "ru": "красть, обкрадывать" },
+      { "es": "romper", "ru": "разбивать, взламывать" },
+      { "es": "tirar", "ru": "бросать" },
+      { "es": "dejar", "ru": "оставлять" },
+      { "es": "llenar", "ru": "заполнять" },
+      { "es": "sospechar", "ru": "подозревать" },
+      { "es": "enterarse", "ru": "узнавать" },
+      { "es": "pertenecer", "ru": "принадлежать" },
+      { "es": "alquilar", "ru": "снимать (жильё)" },
+      { "es": "volver", "ru": "возвращаться" }
+    ],
+    "el_viaje_y_la_familia": [
+      { "es": "el viaje", "ru": "поездка" },
+      { "es": "Marruecos", "ru": "Марокко" },
+      { "es": "Francia", "ru": "Франция" },
+      { "es": "las vacaciones", "ru": "отпуск, каникулы" },
+      { "es": "la hermana", "ru": "сестра" },
+      { "es": "los vecinos", "ru": "соседи" },
+      { "es": "los compañeros", "ru": "товарищи, друзья" },
+      { "es": "los amigos", "ru": "друзья" },
+      { "es": "el dueño", "ru": "хозяин, владелец" },
+      { "es": "el trabajo", "ru": "работа" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "El policía", "es": "Buenas tardes. ¿Tiene usted un problema?", "ru": "Добрый день. У вас какая-то проблема?" },
+    { "speaker": "Carlos", "es": "Sí, es que me robaron el apartamento mientras estaba ausente. No estuve en casa dos meses, acabo de volver y... Todo está patas arriba.", "ru": "Да, дело в том, что у меня обокрали квартиру, пока меня не было. Меня не было дома два месяца, я только что вернулся и... Всё перевёрнуто вверх дном." },
+    { "speaker": "El policía", "es": "¿El apartamento le pertenece a usted?", "ru": "Квартира принадлежит вам?" },
+    { "speaker": "Carlos", "es": "No, lo alquilo. Pues, con mi hermana menor. Ella se fue a Francia de vacaciones, aún no ha vuelto.", "ru": "Нет, я её снимаю. Со своей младшей сестрой. Она уехала во Францию в отпуск и ещё не вернулась." },
+    { "speaker": "El policía", "es": "¿Rompieron el cerrojo?", "ru": "Взломали замок?" },
+    { "speaker": "Carlos", "es": "Sí. Creo que estaban buscando dinero o cosas valiosas porque dejaron el piso en un gran desorden. Tiraron la ropa al suelo, rompieron algo de vajilla...", "ru": "Да. Думаю, они искали деньги или ценные вещи, потому что оставили в квартире огромный беспорядок. Бросали одежду на пол, разбили что-то из посуды..." },
+    { "speaker": "El policía", "es": "Pues, ¿qué exactamente perdió usted?", "ru": "Итак, что именно у вас пропало?" },
+    { "speaker": "Carlos", "es": "El ordenador, que no era mío, sino del dueño del piso, mi monitor portátil y la tablet de mi hermana.", "ru": "Компьютер, который был не моим, а принадлежал хозяину квартиры, мой ноутбук и планшет моей сестры." },
+    { "speaker": "El policía", "es": "¿Ya se lo ha comunicado al dueño del piso?", "ru": "Вы уже сообщили об этом хозяину квартиры?" },
+    { "speaker": "Carlos", "es": "Sí, le llamé enseguida pero hace unos días que se fue a otra parte de España por su trabajo. Está muy lejos y me dijo que por ahora no podía volver.", "ru": "Да, я позвонил ему сразу же, но несколько дней назад он уехал в другую часть Испании по работе. Он очень далеко и сказал, что пока не может приехать." },
+    { "speaker": "El policía", "es": "¿Dónde estuvo usted las últimas dos semanas?", "ru": "Где вы были последние две недели?" },
+    { "speaker": "Carlos", "es": "Me fui de viaje a Marruecos.", "ru": "Я ездил в путешествие в Марокко." },
+    { "speaker": "El policía", "es": "¿Quién lo sabía?", "ru": "Кто знал об этом?" },
+    { "speaker": "Carlos", "es": "Pues, mucha gente. Se lo dije a unos vecinos, a un par de amigos, también lo sabían algunos compañeros de mi hermana...", "ru": "Ну, много народу. Я сказал об этом некоторым соседям, паре друзей, также об этом знали некоторые друзья моей сестры..." },
+    { "speaker": "El policía", "es": "La gente que lo robó, seguramente, se habían enterado de que el piso iba a estar vacío por un tiempo. ¿Sospecha de alguien?", "ru": "Люди, которые вас обокрали, скорее всего, узнали о том, что квартира будет пустовать некоторое время. Вы подозреваете кого-нибудь?" },
+    { "speaker": "Carlos", "es": "Ni idea. No sé quién pudo hacerlo. Creo que los ladrones lo supieron por casualidad.", "ru": "Не имею понятия. Не знаю, кто мог это сделать. Думаю, что воры об этом узнали случайно." },
+    { "speaker": "El policía", "es": "Bueno, ahora mando a dos personas a su piso. Usted debe llenar esta declaración...", "ru": "Хорошо, сейчас отправлю двух человек в вашу квартиру. Вы должны заполнить это заявление..." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el apartamento", "ru": "квартира" },
+        { "es": "el piso", "ru": "квартира" },
+        { "es": "el cerrojo", "ru": "замок" },
+        { "es": "la vajilla", "ru": "посуда" },
+        { "es": "el suelo", "ru": "пол" },
+        { "es": "el desorden", "ru": "беспорядок" },
+        { "es": "la ropa", "ru": "одежда" },
+        { "es": "las cosas valiosas", "ru": "ценные вещи" },
+        { "es": "el ordenador", "ru": "компьютер" },
+        { "es": "el monitor portátil", "ru": "ноутбук" }
+      ]
+    },
+    {
+      "type": "fill-gap-indefinido",
+      "title": "Практика: Pretérito Indefinido",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Me ___ el apartamento mientras estaba ausente.", "ru": "У меня обокрали квартиру, пока меня не было", "answer": "robaron", "options": ["robaron", "robar", "roban"] },
+        { "text": "No ___ en casa dos meses.", "ru": "Меня не было дома два месяца", "answer": "estuve", "options": ["estuve", "estaba", "estoy"] },
+        { "text": "___ el cerrojo de la puerta.", "ru": "Взломали замок на двери", "answer": "Rompieron", "options": ["Rompieron", "Rompen", "Romperán"] },
+        { "text": "Le ___ enseguida al dueño del piso.", "ru": "Я сразу позвонил хозяину квартиры", "answer": "llamé", "options": ["llamé", "llamo", "llamaba"] },
+        { "text": "Mi hermana se ___ a Francia de vacaciones.", "ru": "Моя сестра уехала во Францию в отпуск", "answer": "fue", "options": ["fue", "iba", "va"] }
+      ]
+    },
+    {
+      "type": "fill-gap-imperfecto_descripcion",
+      "title": "Практика: Pretérito Imperfecto (фон)",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Me robaron el apartamento mientras ___ ausente.", "ru": "У меня обокрали квартиру, пока меня не было", "answer": "estaba", "options": ["estaba", "estuve", "estoy"] },
+        { "text": "Creo que ___ buscando dinero o cosas valiosas.", "ru": "Думаю, они искали деньги или ценные вещи", "answer": "estaban", "options": ["estaban", "estuvieron", "están"] },
+        { "text": "El dueño me dijo que ___ muy lejos.", "ru": "Хозяин сказал мне, что он очень далеко", "answer": "estaba", "options": ["estaba", "estuvo", "está"] },
+        { "text": "El piso ___ a estar vacío por un tiempo.", "ru": "Квартира должна была пустовать какое-то время", "answer": "iba", "options": ["iba", "fue", "va"] },
+        { "text": "Todo ___ patas arriba.", "ru": "Всё было перевёрнуто вверх дном", "answer": "estaba", "options": ["estaba", "estuvo", "está"] }
+      ]
+    },
+    {
+      "type": "fill-gap-acabar_de",
+      "title": "Практика: ACABAR DE + infinitivo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "___ de volver y todo está patas arriba.", "ru": "Я только что вернулся, и всё вверх дном", "answer": "Acabo", "options": ["Acabo", "Acaba", "Acaban"] },
+        { "text": "Mi hermana ___ de llamar al dueño.", "ru": "Моя сестра только что позвонила хозяину", "answer": "acaba", "options": ["acaba", "acabo", "acaban"] },
+        { "text": "Los vecinos ___ de ver a los ladrones.", "ru": "Соседи только что видели воров", "answer": "acaban", "options": ["acaban", "acabo", "acaba"] },
+        { "text": "Nosotros ___ de enterarnos de la noticia.", "ru": "Мы только что узнали новость", "answer": "acabamos", "options": ["acabamos", "acabáis", "acaba"] },
+        { "text": "¿___ de volver de Marruecos?", "ru": "Ты только что вернулся из Марокко?", "answer": "Acabas", "options": ["Acabas", "Acabo", "Acabe"] }
+      ]
+    },
+    {
+      "type": "fill-gap-declaracion",
+      "title": "Практика: Формулы полиции",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Usted debe ___ esta declaración.", "ru": "Вы должны заполнить это заявление", "answer": "llenar", "options": ["llenar", "llena", "llenaba"] },
+        { "text": "El apartamento le ___ a usted.", "ru": "Квартира принадлежит вам", "answer": "pertenece", "options": ["pertenece", "pertenecen", "pertenecía"] },
+        { "text": "Ahora ___ a dos personas a su piso.", "ru": "Сейчас я отправлю двух человек в вашу квартиру", "answer": "mando", "options": ["mando", "mandaré", "mandaba"] },
+        { "text": "¿___ de alguien?", "ru": "Вы подозреваете кого-нибудь?", "answer": "Sospecha", "options": ["Sospecha", "Sospechas", "Sospechaba"] },
+        { "text": "No tengo ___ idea quién pudo hacerlo.", "ru": "Не имею ни малейшего понятия, кто мог это сделать", "answer": "ni", "options": ["ni", "ninguna", "una"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Me ___ el apartamento mientras estaba ausente.", "ru": "У меня обокрали квартиру, пока меня не было", "answer": "robaron", "options": ["robaron", "robar", "roban"] },
+        { "text": "___ de volver y todo está patas arriba.", "ru": "Я только что вернулся, и всё вверх дном", "answer": "Acabo", "options": ["Acabo", "Acaba", "Acaban"] },
+        { "text": "Creo que ___ buscando dinero.", "ru": "Думаю, они искали деньги", "answer": "estaban", "options": ["estaban", "estuvieron", "están"] },
+        { "text": "No ___ en casa dos meses.", "ru": "Меня не было дома два месяца", "answer": "estuve", "options": ["estuve", "estaba", "estoy"] },
+        { "text": "Usted debe ___ esta declaración.", "ru": "Вы должны заполнить это заявление", "answer": "llenar", "options": ["llenar", "llena", "llenaba"] },
+        { "text": "No tengo ___ idea quién pudo hacerlo.", "ru": "Не имею ни малейшего понятия, кто мог это сделать", "answer": "ni", "options": ["ni", "ninguna", "una"] },
+        { "text": "El apartamento le ___ a usted.", "ru": "Квартира принадлежит вам", "answer": "pertenece", "options": ["pertenece", "pertenecen", "pertenecía"] },
+        { "text": "Mi hermana se ___ a Francia de vacaciones.", "ru": "Моя сестра уехала во Францию в отпуск", "answer": "fue", "options": ["fue", "iba", "va"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Ты — Карлос, сообщаешь полицейскому о краже и отвечаешь на вопросы"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь полицейским",
+      "role": "El policía",
+      "description": "Ты — полицейский, расспрашиваешь Карлоса о краже и просишь заполнить заявление"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи полицейскому о происшествии и отвечай на его вопросы",
+      "template": [
+        { "label": "Я иду в полицейский участок", "es": "Voy a la ___." },
+        { "label": "У меня обокрали квартиру", "es": "Me ___ el apartamento" },
+        { "label": "Меня не было дома два месяца", "es": "No ___ en casa dos meses" },
+        { "label": "Я только что вернулся", "es": "___ de volver" },
+        { "label": "Я позвонил хозяину", "es": "Le ___ al dueño" },
+        { "label": "У меня нет ни малейшего понятия", "es": "No tengo ___ idea" },
+        { "label": "Вы должны заполнить заявление", "es": "Debe ___ esta declaración" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Dónde ha estado Carlos los últimos dos meses?",
+          "ru": "Где Карлос был последние два месяца?",
+          "options": ["En Francia", "De viaje a Marruecos", "En casa de su hermana", "En el trabajo"],
+          "answer": 1
+        },
+        {
+          "question": "¿De quién es el ordenador robado?",
+          "ru": "Чей украденный компьютер?",
+          "options": ["De Carlos", "De la hermana de Carlos", "Del dueño del piso", "Del policía"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué le robaron a Carlos?",
+          "ru": "Что украли у Карлоса?",
+          "options": ["El ordenador, el monitor portátil y la tablet de su hermana", "La ropa y la vajilla", "El coche", "El dinero y los documentos"],
+          "answer": 0
+        },
+        {
+          "question": "¿Por qué no puede venir el dueño del piso?",
+          "ru": "Почему не может приехать хозяин квартиры?",
+          "options": ["Está de vacaciones en Francia", "Está en el hospital", "Está visitando a sus padres", "Se ha ido a otra parte de España por su trabajo"],
+          "answer": 3
+        },
+        {
+          "question": "¿A quién contó Carlos que iba a estar fuera?",
+          "ru": "Кому Карлос рассказал, что его не будет дома?",
+          "options": ["Solo al dueño del piso", "A unos vecinos, un par de amigos y compañeros de su hermana", "Al policía", "A nadie"],
+          "answer": 1
+        },
+        {
+          "question": "¿Quién sabe quiénes fueron los ladrones?",
+          "ru": "Кто знает, кто были воры?",
+          "options": ["Carlos sospecha de sus amigos", "El dueño sospecha de Carlos", "El policía sospecha de la hermana", "Nadie, Carlos no tiene ni idea"],
+          "answer": 3
+        },
+        {
+          "question": "¿Qué debe llenar Carlos?",
+          "ru": "Что должен заполнить Карлос?",
+          "options": ["La declaración", "El cartel", "La estadística", "El permiso"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo supieron los ladrones que el piso iba a estar vacío?",
+          "ru": "Как воры узнали, что квартира будет пустовать?",
+          "options": ["Por el periódico", "Esperaron en la puerta del piso", "Probablemente, por casualidad", "Por la televisión"],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 минут: повтори слова по теме «полиция, квартира, кража»",
+    "Практика: расскажи, что делать, если обокрали квартиру. Используй: me robaron..., estaba..., acabo de..., usted debe...",
+    "Дневник: опиши ситуацию (реальную или выдуманную), когда что-то потеряно или украдено",
+    "Грамматика: составь 3 предложения с pretérito indefinido, 3 с imperfecto (фон), 3 с acabar de + infinitivo"
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "id": 52,
+  "title": "Carlos y Lucía se están preparando para el examen",
+  "titleRu": "Карлос и Лусия готовятся к экзамену",
+  "part": 6,
+  "level": "B2+",
+  "theme": "Подготовка к экзамену, учёба и планы  Preparación para el examen, el estudio y los planes",
+  "characters": ["carlos", "lucia"],
+  "objectives": [
+    "Говорить об учёбе и подготовке: el examen de historia, estudiar, memorizar las fechas y los nombres",
+    "Выражать трудность и лёгкость: me cuesta memorizar, me resulta más fácil, me pasa lo mismo",
+    "Выражать надёжду и страх: seguro que lo vas a hacer bien, creo que no voy a aprobar, no digas eso",
+    "Рассказывать о занятиях: he estudiado bastante, he hecho resúmenes y esquemas, no he tenido tiempo",
+    "Договариваться о встрече: ¿a qué hora quedamos?, quedamos a las cinco, en la biblioteca",
+    "Говорить, что берёшь с собой: llevo mis apuntes y mis resúmenes, yo llevo el libro y mis notas"
+  ],
+  "grammar": {
+    "cuesta_resultar": {
+      "title": "Me cuesta + infinitivo / Me resulta + adjetivo",
+      "description": "Чтобы сказать, что что-то даётся с трудом или легко: me cuesta memorizar las fechas (мне трудно запоминать даты), me resulta más fácil estudiar con esquemas (мне легче заниматься по схемам). Оборот с Dativo (me, te, le...) + cuesta + infinitivo передаёт усилие, а resultar + adjetivo — итоговое впечатление.",
+      "forms": {
+        "yo": { "es": "me cuesta memorizar las fechas", "ru": "мне трудно запоминать даты" },
+        "tu": { "es": "te cuesta concentrarte", "ru": "тебе трудно сосредоточиться" },
+        "el_ella": { "es": "le resulta difícil estudiar solo", "ru": "ему/ей трудно заниматься одному" },
+        "nosotros": { "es": "nos cuesta hacer resúmenes", "ru": "нам трудно делать конспекты" },
+        "vosotros": { "es": "os cuesta entender los esquemas", "ru": "вам трудно понимать схемы" },
+        "ellos_ellas": { "es": "les resulta más fácil estudiar juntos", "ru": "им легче заниматься вместе" }
+      },
+      "examples": [
+        { "es": "He estudiado bastante, pero me cuesta memorizar las fechas y los nombres.", "ru": "Я довольно много занималась, но мне трудно запоминать даты и имена." },
+        { "es": "He hecho resúmenes y esquemas. Así me resulta más fácil.", "ru": "Я сделал конспекты и схемы. Так мне легче." }
+      ]
+    },
+    "seguro_que_futuro": {
+      "title": "Seguro que + futuro: esperanzas y miedos",
+      "description": "Чтобы подбодрить или выразить сомнение: seguro que lo vas a hacer bien (уверен, у тебя всё получится), seguro que lo entiendes (ты точно поймёшь), creo que no voy a aprobar (думаю, что не сдам), no digas eso (не говори так).",
+      "list": [
+        { "es": "seguro que lo vas a hacer bien", "ru": "уверен, у тебя всё получится" },
+        { "es": "creo que no voy a aprobar", "ru": "думаю, что не сдам" },
+        { "es": "no digas eso", "ru": "не говори так" },
+        { "es": "seguro que vamos a sacar buena nota", "ru": "уверен, мы получим хорошую оценку" },
+        { "es": "no creo que vayamos a suspender", "ru": "не думаю, что мы провалимся" },
+        { "es": "¿has estudiado mucho?", "ru": "ты много занимался?" }
+      ],
+      "examples": [
+        { "es": "No digas eso. Seguro que lo vas a hacer bien.", "ru": "Не говори так. Уверен, ты справишься." },
+        { "es": "Creo que no voy a aprobar.", "ru": "Думаю, что не сдам." }
+      ]
+    },
+    "quedar_llevar": {
+      "title": "Quedar y llevar: planes y materiales",
+      "description": "quedar — договариваться о встрече: ¿a qué hora quedamos? (во сколько встретимся?), quedamos a las cinco, en la biblioteca (встречаемся в пять в библиотеке), podemos estudiar juntos (мы можем позаниматься вместе). llevar — брать с собой: llevo mis apuntes y mis resúmenes (я возьму свои конспекты и схемы), yo llevo el libro y mis notas (я возьму учебник и свои записи). Ме encantaría справедливо для вежливой просьбы-желания: me encantaría estudiar juntos (я бы с удовольствием позанимался с тобой).",
+      "list": [
+        { "es": "¿a qué hora quedamos?", "ru": "во сколько встретимся?" },
+        { "es": "quedamos a las cinco, en la biblioteca", "ru": "встречаемся в пять, в библиотеке" },
+        { "es": "podemos estudiar juntos esta tarde", "ru": "мы можем позаниматься вместе сегодня днём" },
+        { "es": "llevo mis apuntes y mis resúmenes", "ru": "я возьму свои конспекты и схемы" },
+        { "es": "yo llevo el libro y mis notas", "ru": "я возьму учебник и свои записи" },
+        { "es": "me encantaría estudiar juntos", "ru": "я бы с удовольствием позанимался вместе с тобой" }
+      ],
+      "examples": [
+        { "es": "¿A qué hora quedamos? — A las cinco, en la biblioteca.", "ru": "Во сколько встретимся? — В пять, в библиотеке." },
+        { "es": "Perfecto. Llevo mis apuntes y mis resúmenes.", "ru": "Отлично. Я возьму свои конспекты и схемы." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "el_examen_y_el_estudio": [
+      { "es": "el examen", "ru": "экзамен" },
+      { "es": "aprobar", "ru": "сдать (экзамен)" },
+      { "es": "suspender", "ru": "провалить" },
+      { "es": "memorizar", "ru": "запоминать" },
+      { "es": "las fechas y los nombres", "ru": "даты и имена" },
+      { "es": "los resúmenes", "ru": "конспекты" },
+      { "es": "los esquemas", "ru": "схемы" },
+      { "es": "los apuntes", "ru": "записи, конспекты" },
+      { "es": "las notas", "ru": "заметки, записи" },
+      { "es": "la biblioteca", "ru": "библиотека" }
+    ],
+    "las_emociones_y_la_dificultad": [
+      { "es": "estar nervioso/a", "ru": "нервничать" },
+      { "es": "creo que no voy a aprobar", "ru": "думаю, что не сдам" },
+      { "es": "seguro que lo vas a hacer bien", "ru": "уверен, ты справишься" },
+      { "es": "me cuesta memorizar", "ru": "мне трудно запоминать" },
+      { "es": "me resulta más fácil", "ru": "мне легче" },
+      { "es": "me pasa lo mismo", "ru": "у меня та же проблема" },
+      { "es": "no digas eso", "ru": "не говори так" }
+    ],
+    "los_planes": [
+      { "es": "quedar", "ru": "договариваться о встрече" },
+      { "es": "esta tarde", "ru": "сегодня днём" },
+      { "es": "¿a qué hora quedamos?", "ru": "во сколько встретимся?" },
+      { "es": "llevar", "ru": "брать с собой" },
+      { "es": "estar ocupado/a", "ru": "быть занятым" },
+      { "es": "ayudar en casa", "ru": "помогать по дому" },
+      { "es": "explicar", "ru": "объяснять" },
+      { "es": "me encantaría", "ru": "с удовольствием бы" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Carlos", "es": "¡Hola! ¿Qué tal? ¿Ya estás lista para el examen de historia?", "ru": "Привет! Как дела? Ты уже готова к экзамену по истории?" },
+    { "speaker": "Lucía", "es": "Hola. No, todavía no. Estoy muy nerviosa. Creo que no voy a aprobar.", "ru": "Привет. Нет, ещё нет. Я очень нервничаю. Думаю, что не сдам." },
+    { "speaker": "Carlos", "es": "No digas eso. Seguro que lo vas a hacer bien. ¿Has estudiado mucho?", "ru": "Не говори так. Уверен, ты справишься. Ты много занималась?" },
+    { "speaker": "Lucía", "es": "He estudiado bastante, pero me cuesta memorizar las fechas y los nombres.", "ru": "Я довольно много занималась, но мне трудно запоминать даты и имена." },
+    { "speaker": "Carlos", "es": "A mí me pasa lo mismo. Pero he hecho resúmenes y esquemas. Así me resulta más fácil.", "ru": "У меня та же проблема. Но я сделал конспекты и схемы. Так мне легче." },
+    { "speaker": "Lucía", "es": "¡Qué buena idea! Yo no he tenido tiempo de hacerlos.", "ru": "Какая хорошая идея! У меня не было времени их сделать." },
+    { "speaker": "Carlos", "es": "¿Por qué? ¿Has estado muy ocupada?", "ru": "Почему? Ты была очень занята?" },
+    { "speaker": "Lucía", "es": "Sí, he tenido que trabajar y además he ayudado a mi madre en casa.", "ru": "Да, мне пришлось работать, и к тому же я помогала маме по дому." },
+    { "speaker": "Carlos", "es": "Entiendo. Bueno, si quieres, podemos estudiar juntos esta tarde.", "ru": "Понимаю. Ну, если хочешь, мы можем позаниматься вместе сегодня днём." },
+    { "speaker": "Lucía", "es": "¡Me encantaría! Así me puedes explicar algunas cosas que no entiendo.", "ru": "С удовольствием! Так ты сможешь объяснить мне некоторые вещи, которые я не понимаю." },
+    { "speaker": "Carlos", "es": "Claro. ¿A qué hora quedamos?", "ru": "Конечно. Во сколько встретимся?" },
+    { "speaker": "Lucía", "es": "A las cinco, en la biblioteca.", "ru": "В пять, в библиотеке." },
+    { "speaker": "Carlos", "es": "Perfecto. Llevo mis apuntes y mis resúmenes.", "ru": "Отлично. Я возьму свои конспекты и схемы." },
+    { "speaker": "Lucía", "es": "Genial. Yo llevo el libro y mis notas.", "ru": "Здорово. Я возьму учебник и свои записи." },
+    { "speaker": "Carlos", "es": "Vale. Entonces, nos vemos a las cinco.", "ru": "Хорошо. Тогда увидимся в пять." },
+    { "speaker": "Lucía", "es": "Sí, hasta luego.", "ru": "Да, до встречи." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el examen", "ru": "экзамен" },
+        { "es": "aprobar", "ru": "сдать (экзамен)" },
+        { "es": "suspender", "ru": "провалить" },
+        { "es": "memorizar", "ru": "запоминать" },
+        { "es": "los resúmenes", "ru": "конспекты" },
+        { "es": "los esquemas", "ru": "схемы" },
+        { "es": "los apuntes", "ru": "записи, конспекты" },
+        { "es": "la biblioteca", "ru": "библиотека" },
+        { "es": "quedar", "ru": "договариваться о встрече" },
+        { "es": "estar nervioso/a", "ru": "нервничать" }
+      ]
+    },
+    {
+      "type": "fill-gap-cuesta_resultar",
+      "title": "Практика: Me cuesta / Me resulta",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Me ___ memorizar las fechas y los nombres.", "ru": "Мне трудно запоминать даты и имена", "answer": "cuesta", "options": ["cuesta", "resulta", "canto"] },
+        { "text": "He hecho resúmenes y esquemas. Así me ___ más fácil.", "ru": "Я сделал конспекты и схемы. Так мне легче", "answer": "resulta", "options": ["resulta", "cuesta", "sale"] },
+        { "text": "Me cuesta ___ las palabras nuevas.", "ru": "Мне трудно запоминать новые слова", "answer": "memorizar", "options": ["memorizar", "memorizo", "memorizado"] },
+        { "text": "¿Te resulta ___ estudiar sola?", "ru": "Тебе трудно заниматься одной?", "answer": "difícil", "options": ["difícil", "fácil", "rápido"] },
+        { "text": "Nos ___ concentrarnos con tanto ruido.", "ru": "Нам трудно сосредоточиться при таком шуме", "answer": "cuesta", "options": ["cuesta", "costamos", "costar"] }
+      ]
+    },
+    {
+      "type": "fill-gap-seguro_que_futuro",
+      "title": "Практика: Seguro que + futuro",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Seguro que lo ___ a hacer bien.", "ru": "Уверен, ты справишься", "answer": "vas", "options": ["vas", "voy", "va"] },
+        { "text": "Creo que no ___ a aprobar.", "ru": "Думаю, что не сдам", "answer": "voy", "options": ["voy", "vamos", "va"] },
+        { "text": "No ___ eso. Seguro que lo vas a hacer bien.", "ru": "Не говори так", "answer": "digas", "options": ["digas", "dices", "diga"] },
+        { "text": "Seguro que vamos a ___ buena nota.", "ru": "Уверен, мы получим хорошую оценку", "answer": "sacar", "options": ["sacar", "saco", "sacando"] },
+        { "text": "No creo que ___ a suspender.", "ru": "Не думаю, что мы провалимся", "answer": "vayamos", "options": ["vayamos", "vamos", "van"] }
+      ]
+    },
+    {
+      "type": "fill-gap-quedar_llevar",
+      "title": "Практика: Quedar y llevar",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Podemos ___ juntos esta tarde.", "ru": "Мы можем позаниматься вместе сегодня днём", "answer": "estudiar", "options": ["estudiar", "estudiemos", "estudio"] },
+        { "text": "Me ___: así me puedes explicar algunas cosas.", "ru": "С удовольствием", "answer": "encantaría", "options": ["encantaría", "encanta", "encantado"] },
+        { "text": "¿A qué ___ quedamos?", "ru": "Во сколько встретимся?", "answer": "hora", "options": ["hora", "días", "sitio"] },
+        { "text": "Quedamos a las cinco, en la ___.", "ru": "Встречаемся в пять, в библиотеке", "answer": "biblioteca", "options": ["biblioteca", "cafetería", "casa"] },
+        { "text": "Yo ___ mis apuntes y mis resúmenes.", "ru": "Я возьму свои конспекты и схемы", "answer": "llevo", "options": ["llevo", "traigo", "ven"] },
+        { "text": "Yo llevo el libro y mis ___.", "ru": "Я возьму учебник и свои записи", "answer": "notas", "options": ["notas", "apuntes", "sabores"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Ya estás ___ para el examen de historia?", "ru": "Ты уже готова к экзамену по истории?", "answer": "lista", "options": ["lista", "listo", "linda"] },
+        { "text": "Estoy muy ___.", "ru": "Я очень нервничаю", "answer": "nerviosa", "options": ["nerviosa", "nervioso", "feliz"] },
+        { "text": "Creo que no voy a ___.", "ru": "Думаю, что не сдам", "answer": "aprobar", "options": ["aprobar", "suspender", "estudiar"] },
+        { "text": "He estudiado bastante, pero me ___ memorizar las fechas.", "ru": "Мне трудно запоминать даты", "answer": "cuesta", "options": ["cuesta", "sirve", "vale"] },
+        { "text": "He hecho ___ y esquemas.", "ru": "Я сделал конспекты и схемы", "answer": "resúmenes", "options": ["resúmenes", "dibujos", "fotografías"] },
+        { "text": "¿Has estado muy ___?", "ru": "Ты была очень занята?", "answer": "ocupada", "options": ["ocupada", "ocupado", "libre"] },
+        { "text": "He tenido que trabajar y además he ayudado a mi madre en ___.", "ru": "Мне пришлось работать и помогать маме", "answer": "casa", "options": ["casa", "calle", "colegio"] },
+        { "text": "¿A qué ___ quedamos?", "ru": "Во сколько встретимся?", "answer": "hora", "options": ["hora", "día", "noche"] },
+        { "text": "A las cinco, en la ___.", "ru": "В пять, в библиотеке", "answer": "biblioteca", "options": ["biblioteca", "tienda", "playa"] },
+        { "text": "Llevo mis ___ y mis resúmenes.", "ru": "Я возьму свои записи и схемы", "answer": "apuntes", "options": ["apuntes", "libros", "sillas"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Ты — Карлос, подбадриваешь Лусию и предлагаешь позаниматься вместе"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Ты — Лусия, нервничаешь из-за экзамена и соглашаешься на совместную учёбу"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Договорись с другом позаниматься вместе к экзамену",
+      "template": [
+        { "label": "Ты готов к экзамену?", "es": "¿Ya estás ___ para el examen?" },
+        { "label": "Думаю, что не сдам", "es": "Creo que no voy a ___." },
+        { "label": "Уверен, ты справишься", "es": "Seguro que lo vas a hacer ___." },
+        { "label": "Мне трудно запоминать", "es": "Me ___ memorizar las fechas." },
+        { "label": "Я сделал конспекты и схемы", "es": "He hecho ___ y esquemas." },
+        { "label": "Так мне легче", "es": "Así me ___ más fácil." },
+        { "label": "Мне пришлось работать", "es": "He ___ que trabajar." },
+        { "label": "Можем позаниматься вместе", "es": "Podemos ___ juntos." },
+        { "label": "С удовольствием", "es": "Me ___." },
+        { "label": "Во сколько встретимся?", "es": "¿A qué ___ quedamos?" },
+        { "label": "В пять, в библиотеке", "es": "A las cinco, en la ___." },
+        { "label": "Я возьму записи", "es": "Llevo mis ___." }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Qué examen tienen Carlos y Lucía?",
+          "ru": "Какой экзамен у Карлоса и Лусии?",
+          "options": ["El de historia", "El de matemáticas", "El de inglés", "El de arte"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se siente Lucía?",
+          "ru": "Как себя чувствует Лусия?",
+          "options": ["Muy tranquila", "Muy nerviosa", "Muy contenta", "Muy aburrida"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué ha hecho Carlos para estudiar?",
+          "ru": "Что сделал Карлос для подготовки?",
+          "options": ["Resúmenes y esquemas", "Muchas fotos", "Un vídeo", "Nada"],
+          "answer": 0
+        },
+        {
+          "question": "¿Por qué no ha tenido tiempo Lucía de hacer resúmenes?",
+          "ru": "Почему у Лусии не было времени сделать конспекты?",
+          "options": ["Estaba de viaje", "No le importa", "Ha trabajado y ha ayudado a su madre", "Estaba enferma"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué le propone Carlos a Lucía?",
+          "ru": "Что предлагает Карлос Лусии?",
+          "options": ["Estudiar juntos por la tarde", "Ver una película", "Salir de fiesta", "Llamar al profesor"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué contesta Lucía cuando Carlos le ofrece estudiar juntos?",
+          "ru": "Что отвечает Лусия на предложение позаниматься вместе?",
+          "options": ["Me encantaría", "No, no tengo ganas", "Quizás", "Ya lo he estudiado todo"],
+          "answer": 0
+        },
+        {
+          "question": "¿A qué hora quedan?",
+          "ru": "Во сколько они встречаются?",
+          "options": ["A las seis", "A las cuatro", "A las cinco", "A las siete"],
+          "answer": 2
+        },
+        {
+          "question": "¿Dónde quedan?",
+          "ru": "Где они встречаются?",
+          "options": ["En el parque", "En la biblioteca", "En el café", "En casa de Carlos"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué lleva Carlos?",
+          "ru": "Что берёт с собой Карлос?",
+          "options": ["Sus apuntes y sus resúmenes", "Su ordenador", "Su pelota", "Su guitarra"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué lleva Lucía?",
+          "ru": "Что берёт с собой Лусия?",
+          "options": ["Sus bocadillos", "Su bicicleta", "Su mochila", "El libro y sus notas"],
+          "answer": 3
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повтори слова по теме «экзамен, учёба, планы»",
+    "Практика: расскажи о подготовке к экзамену. Используй: me cuesta..., me resulta..., he hecho resúmenes, creo que no voy a..., seguro que...",
+    "Дневник: опиши, как ты готовишься к важному экзамену и с кем договорился(ась) о совместной учёбе",
+    "Грамматика: составь 4 предложения с me cuesta/me resulta + infinitivo и 4 вопроса с quedar (¿a qué hora quedamos? и т.д.)"
+  ]
+}

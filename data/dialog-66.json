@@ -1,0 +1,714 @@
+{
+  "id": 66,
+  "title": "En el mercado",
+  "titleRu": "На рынке: покупки и цены",
+  "module": "a0-a1",
+  "block": 2,
+  "part": 2,
+  "blockTitle": "Часть 2 · Продолжение начального уровня",
+  "level": "A1",
+  "theme": "Рынок: покупки и цены  El mercado: las compras y los precios",
+  "mission": "Купить продукты на рынке: спросить цену за килограмм, назвать количество и понять итоговую сумму.",
+  "mapPoint": "Рынок Сентраль: гастрономический ряд",
+  "duration": "45 минут",
+  "stepsCount": 7,
+  "readingNote": "Прочитайте вслух слова и цены: hay = «ай», seis = «сейс», hoy = «ой», muy = «муи» — дифтонг в одном слоге.",
+  "characters": [
+    "olga",
+    "vendedor_mercado"
+  ],
+  "objectives": [
+    "Назвать 8–10 продуктов рынка вместе с артиклем: la manzana, el tomate, el queso",
+    "Спросить цену за килограмм вежливой формулой: ¿A cómo están los tomates?",
+    "Заказать количество: quisiera un kilo de… / quisiera medio kilo de…",
+    "Понять итоговую сумму на слух: son cuatro euros con cincuenta",
+    "Читать цены и слова с дифтонгами ai, ei, oi, ui: hay, seis, hoy, muy"
+  ],
+  "grammar": {
+    "quisiera": {
+      "title": "Quisiera: «я бы хотел(а)» — вежливая просьба",
+      "description": "Quisiera — самая вежливая формула покупателя, мягче, чем quiero («я хочу»). Схема заказа: quisiera + количество + de + продукт — quisiera un kilo de manzanas. Учить нужно только одну форму: ella и делает всю работу за вас.",
+      "forms": {
+        "yo": {
+          "es": "quisiera un kilo de manzanas",
+          "ru": "я бы хотел(а) килограмм яблок"
+        },
+        "tu": {
+          "es": "quisieras medio kilo de queso",
+          "ru": "ты бы хотел(а) полкило сыра"
+        },
+        "el_ella": {
+          "es": "quisiera una bolsa, por favor",
+          "ru": "он(она) бы хотел(а) пакет, пожалуйста"
+        },
+        "nosotros": {
+          "es": "quisiéramos dos kilos de tomates",
+          "ru": "мы бы хотели два кило помидоров"
+        }
+      },
+      "examples": [
+        {
+          "es": "Quisiera un kilo de manzanas, por favor.",
+          "ru": "Я бы хотел(а) килограмм яблок, пожалуйста."
+        },
+        {
+          "es": "Quisiera medio kilo de queso.",
+          "ru": "Я бы хотел(а) полкило сыра."
+        }
+      ]
+    },
+    "cantidades": {
+      "title": "Количество: un kilo, medio kilo, dos kilos",
+      "description": "Количество всегда идёт перед продуктом, а продукт — после de: un kilo de manzanas, medio kilo de queso, dos kilos de tomates. После количества о нём говорят «килограмм чего-либо».",
+      "list": [
+        {
+          "es": "un kilo de + producto",
+          "ru": "килограмм чего-либо"
+        },
+        {
+          "es": "medio kilo de queso",
+          "ru": "полкило сыра"
+        },
+        {
+          "es": "dos kilos de tomates",
+          "ru": "два кило помидоров"
+        },
+        {
+          "es": "una bolsa",
+          "ru": "пакет"
+        },
+        {
+          "es": "todo fresco",
+          "ru": "всё свежее"
+        },
+        {
+          "es": "la lista de la compra",
+          "ru": "список покупок"
+        }
+      ],
+      "examples": [
+        {
+          "es": "Sí: medio kilo de plátanos y una bolsa, por favor.",
+          "ru": "Да: полкило бананов и пакет, пожалуйста."
+        },
+        {
+          "es": "Los plátanos están muy frescos.",
+          "ru": "Бананы очень свежие."
+        }
+      ]
+    },
+    "precios": {
+      "title": "Цена: ¿A cómo está? y итог счёта",
+      "description": "Цена спрашивается цельной формулой: ¿A cómo están los tomates? Ответ продавца: a dos euros el kilo. Счёт в конце: son cuatro euros con cincuenta — это только для понимания, произносить сумму не нужно.",
+      "list": [
+        {
+          "es": "¿A cómo están los tomates?",
+          "ru": "Сколько стоят помидоры?"
+        },
+        {
+          "es": "A dos euros el kilo, señora.",
+          "ru": "Два евро за кило, сеньора."
+        },
+        {
+          "es": "¿Algo más?",
+          "ru": "Что-нибудь ещё?"
+        },
+        {
+          "es": "Son cuatro euros con cincuenta.",
+          "ru": "С вас четыре евро пятьдесят."
+        },
+        {
+          "es": "Aquí tiene.",
+          "ru": "Вот, пожалуйста."
+        },
+        {
+          "es": "Son seis euros con veinte.",
+          "ru": "Шесть евро двадцать."
+        }
+      ],
+      "examples": [
+        {
+          "es": "Buenos días. ¿A cómo están los tomates?",
+          "ru": "Доброе утро. Сколько стоят помидоры?"
+        },
+        {
+          "es": "Son cuatro euros con cincuenta.",
+          "ru": "С вас четыре евро пятьдесят."
+        }
+      ]
+    }
+  },
+  "vocabulary": {
+    "los_productos": [
+      {
+        "es": "la manzana",
+        "ru": "яблоко"
+      },
+      {
+        "es": "el plátano",
+        "ru": "банан"
+      },
+      {
+        "es": "el tomate",
+        "ru": "помидор"
+      },
+      {
+        "es": "el pan",
+        "ru": "хлеб"
+      },
+      {
+        "es": "el queso",
+        "ru": "сыр"
+      },
+      {
+        "es": "la naranja",
+        "ru": "апельсин"
+      },
+      {
+        "es": "el pescado",
+        "ru": "рыба"
+      }
+    ],
+    "en_el_mercado": [
+      {
+        "es": "fresco",
+        "ru": "свежий"
+      },
+      {
+        "es": "la bolsa",
+        "ru": "пакет"
+      },
+      {
+        "es": "un kilo de",
+        "ru": "килограмм чего-либо"
+      },
+      {
+        "es": "medio kilo",
+        "ru": "полкило"
+      }
+    ],
+    "las_fórmulas_del_precio": [
+      {
+        "es": "¿a cómo está?",
+        "ru": "почём?"
+      },
+      {
+        "es": "¿algo más?",
+        "ru": "что-нибудь ещё?"
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "Olga",
+      "es": "Buenos días. ¿A cómo están los tomates?",
+      "ru": "Доброе утро. Сколько стоят помидоры?"
+    },
+    {
+      "speaker": "El vendedor",
+      "es": "A dos euros el kilo, señora.",
+      "ru": "Два евро за кило, сеньора."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Quisiera un kilo, por favor.",
+      "ru": "Я бы хотела килограмм, пожалуйста."
+    },
+    {
+      "speaker": "El vendedor",
+      "es": "¿Algo más? Los plátanos están muy frescos.",
+      "ru": "Что-нибудь ещё? Бананы очень свежие."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Sí: medio kilo de plátanos, por favor.",
+      "ru": "Да: полкило бананов, пожалуйста."
+    },
+    {
+      "speaker": "El vendedor",
+      "es": "¿Y el queso?",
+      "ru": "А сыр?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Quisiera medio kilo de queso.",
+      "ru": "Я бы хотела полкило сыра."
+    },
+    {
+      "speaker": "El vendedor",
+      "es": "Muy bien. ¿Una bolsa?",
+      "ru": "Отлично. Пакет?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Sí, una bolsa, por favor.",
+      "ru": "Да, пакет, пожалуйста."
+    },
+    {
+      "speaker": "El vendedor",
+      "es": "Son cuatro euros con cincuenta.",
+      "ru": "С вас четыре евро пятьдесят."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Gracias. ¡Hasta luego!",
+      "ru": "Спасибо. До скорого!"
+    },
+    {
+      "speaker": "El vendedor",
+      "es": "¡Hasta luego, señora!",
+      "ru": "До скорого, сеньора!"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        {
+          "es": "la manzana",
+          "ru": "яблоко"
+        },
+        {
+          "es": "el plátano",
+          "ru": "банан"
+        },
+        {
+          "es": "el tomate",
+          "ru": "помидор"
+        },
+        {
+          "es": "el queso",
+          "ru": "сыр"
+        },
+        {
+          "es": "el pescado",
+          "ru": "рыба"
+        },
+        {
+          "es": "la bolsa",
+          "ru": "пакет"
+        },
+        {
+          "es": "medio kilo",
+          "ru": "полкило"
+        },
+        {
+          "es": "fresco",
+          "ru": "свежий"
+        },
+        {
+          "es": "¿a cómo está?",
+          "ru": "почём?"
+        },
+        {
+          "es": "¿algo más?",
+          "ru": "что-нибудь ещё?"
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-quisiera",
+      "title": "Практика: Quisiera — вежливая просьба",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "___ un kilo de manzanas, por favor.",
+          "ru": "Я бы хотел(а) килограмм яблок, пожалуйста.",
+          "answer": "Quisiera",
+          "options": [
+            "Quisiera",
+            "Quiero",
+            "Cómo"
+          ]
+        },
+        {
+          "text": "___ medio kilo de queso.",
+          "ru": "Я бы хотел(а) полкило сыра.",
+          "answer": "Quisiera",
+          "options": [
+            "Quisiera",
+            "Quiso",
+            "Está"
+          ]
+        },
+        {
+          "text": "Quisiera ___ kilos de tomates.",
+          "ru": "Я бы хотел(а) два кило помидоров.",
+          "answer": "dos",
+          "options": [
+            "dos",
+            "tres",
+            "medio"
+          ]
+        },
+        {
+          "text": "___ dos kilos de pescado.",
+          "ru": "Я хочу два кило рыбы.",
+          "answer": "Quiero",
+          "options": [
+            "Quiero",
+            "Quisiera",
+            "Quiso"
+          ]
+        },
+        {
+          "text": "Quisiera un kilo ___ naranjas.",
+          "ru": "Я бы хотел(а) килограмм апельсинов.",
+          "answer": "de",
+          "options": [
+            "de",
+            "a",
+            "con"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-cantidades",
+      "title": "Практика: Количество перед продуктом",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Quisiera ___ kilo de manzanas.",
+          "ru": "Я бы хотел(а) килограмм яблок.",
+          "answer": "un",
+          "options": [
+            "un",
+            "una",
+            "unos"
+          ]
+        },
+        {
+          "text": "___ kilo de queso, por favor.",
+          "ru": "Полкило сыра, пожалуйста.",
+          "answer": "medio",
+          "options": [
+            "medio",
+            "medios",
+            "miles"
+          ]
+        },
+        {
+          "text": "Quisiera dos ___ de tomates.",
+          "ru": "Я бы хотел(а) два кило помидоров.",
+          "answer": "kilos",
+          "options": [
+            "kilos",
+            "kilo",
+            "kilos de"
+          ]
+        },
+        {
+          "text": "Todo ___ y fresco.",
+          "ru": "Всё свежее.",
+          "answer": "fresco",
+          "options": [
+            "fresco",
+            "fresca",
+            "frescos"
+          ]
+        },
+        {
+          "text": "¿Me da ___ bolsa, por favor?",
+          "ru": "Дайте пакет, пожалуйста?",
+          "answer": "una",
+          "options": [
+            "una",
+            "uno",
+            "un"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-precios",
+      "title": "Практика: Цена и итог счёта",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "¿___ están los tomates?",
+          "ru": "Сколько стоят помидоры?",
+          "answer": "A cómo",
+          "options": [
+            "A cómo",
+            "A qué",
+            "Cuánto"
+          ]
+        },
+        {
+          "text": "Son cuatro euros ___ cincuenta.",
+          "ru": "Четыре евро пятьдесят.",
+          "answer": "con",
+          "options": [
+            "con",
+            "de",
+            "a"
+          ]
+        },
+        {
+          "text": "¿Algo ___?",
+          "ru": "Что-нибудь ещё?",
+          "answer": "más",
+          "options": [
+            "más",
+            "menos",
+            "tanto"
+          ]
+        },
+        {
+          "text": "___ dos euros el kilo, señora.",
+          "ru": "Два евро за кило, сеньора.",
+          "answer": "A",
+          "options": [
+            "A",
+            "De",
+            "En"
+          ]
+        },
+        {
+          "text": "Aquí ___.",
+          "ru": "Вот, пожалуйста.",
+          "answer": "tiene",
+          "options": [
+            "tiene",
+            "tengo",
+            "tienees"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Buenos días. ¿___ están los tomates?",
+          "ru": "Доброе утро. Сколько стоят помидоры?",
+          "answer": "A cómo",
+          "options": [
+            "A cómo",
+            "A qué",
+            "Dónde"
+          ]
+        },
+        {
+          "text": "___ un kilo, por favor.",
+          "ru": "Я бы хотел(а) килограмм, пожалуйста.",
+          "answer": "Quisiera",
+          "options": [
+            "Quisiera",
+            "Quiero",
+            "Hay"
+          ]
+        },
+        {
+          "text": "___ kilo de plátanos.",
+          "ru": "Полкило бананов.",
+          "answer": "medio",
+          "options": [
+            "medio",
+            "medios",
+            "medio medio"
+          ]
+        },
+        {
+          "text": "Quisiera una ___, por favor.",
+          "ru": "Я бы хотел(а) пакет, пожалуйста.",
+          "answer": "bolsa",
+          "options": [
+            "bolsa",
+            "caja",
+            "botella"
+          ]
+        },
+        {
+          "text": "El pescado está muy ___.",
+          "ru": "Рыба очень свежая.",
+          "answer": "fresco",
+          "options": [
+            "fresco",
+            "fresca",
+            "frescos"
+          ]
+        },
+        {
+          "text": "___ cuatro euros con cincuenta.",
+          "ru": "С вас четыре евро пятьдесят.",
+          "answer": "Son",
+          "options": [
+            "Son",
+            "Soy",
+            "Están"
+          ]
+        },
+        {
+          "text": "Tres kilos de ___.",
+          "ru": "Три кило помидоров.",
+          "answer": "tomates",
+          "options": [
+            "tomates",
+            "queso",
+            "naranjas"
+          ]
+        },
+        {
+          "text": "Gracias. ¡___ luego!",
+          "ru": "Спасибо. До скорого!",
+          "answer": "Hasta",
+          "options": [
+            "Hasta",
+            "Hola",
+            "Buenos"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Ольгой",
+      "role": "Olga",
+      "description": "Ты — покупательница: спрашиваешь цену, называешь количество, просишь пакет и благодаришь"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь продавцом",
+      "role": "El vendedor",
+      "description": "Ты — продавец рынка: называешь цену за кило, предлагаешь бананы и пробиваешь итог"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Собери свой список покупок: спроси цену, закажи количество, добавь пакет",
+      "template": [
+        {
+          "label": "Доброе утро, сколько стоят помидоры?",
+          "es": "Buenos días. ¿A cómo ___ los tomates?"
+        },
+        {
+          "label": "Я бы хотела килограмм",
+          "es": "___ un kilo, por favor."
+        },
+        {
+          "label": "Что-нибудь ещё?",
+          "es": "¿Algo ___?"
+        },
+        {
+          "label": "Полкило бананов",
+          "es": "Sí: ___ kilo de plátanos."
+        },
+        {
+          "label": "Дайте пакет, пожалуйста",
+          "es": "Sí, ___ bolsa, por favor."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Qué pregunta Olga al principio?",
+          "ru": "Что Ольга спрашивает в начале?",
+          "options": [
+            "¿A cómo están los tomates?",
+            "¿Dónde está el museo?",
+            "¿Tiene esta camisa en azul?"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuánto cuestan los tomates?",
+          "ru": "Сколько стоят помидоры?",
+          "options": [
+            "A dos euros el kilo",
+            "A cuatro euros la pieza",
+            "A veinte euros el kilo"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué significa quisiera?",
+          "ru": "Что значит quisiera?",
+          "options": [
+            "я бы хотел(а)",
+            "я хочу",
+            "у меня есть"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuánto queso pide Olga?",
+          "ru": "Сколько сыра заказывает Ольга?",
+          "options": [
+            "Un kilo",
+            "Medio kilo",
+            "Dos kilos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué pregunta el vendedor con «¿Algo más?»",
+          "ru": "Что спрашивает продавец фразой «¿Algo más?»",
+          "options": [
+            "Что-нибудь ещё?",
+            "Сколько это стоит?",
+            "Где это находится?"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuánto dice el vendedor que debe Olga?",
+          "ru": "Сколько продавец говорит, что должна Ольга?",
+          "options": [
+            "Tres euros con cincuenta",
+            "Cuatro euros con cincuenta",
+            "Seis euros con veinte"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo se lee «muy»?",
+          "ru": "Как читается «muy»?",
+          "options": [
+            "«му-и» — два слога",
+            "«муи» — ui в одном слоге",
+            "«му-й-и» — три слога"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué significa fresco?",
+          "ru": "Что значит fresco?",
+          "options": [
+            "свежий",
+            "дорогой",
+            "сладкий"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    "Я называю продукты рынка вместе с артиклем",
+    "Я спрашиваю цену формулой ¿A cómo está…?",
+    "Я заказываю количество: un kilo / medio kilo",
+    "Я понимаю итоговую сумму на слух",
+    "Я читаю дифтонги ai, ei, oi, ui: hay, seis, hoy, muy"
+  ],
+  "homework": [
+    "Напиши по-испански список из 6 продуктов своего «рынка» с артиклями и произнеси его вслух",
+    "Добавь к трём продуктам количество: un kilo de… / medio kilo de…",
+    "Запиши в дневник прогресса 30 секунд речи: приветствие, вопрос цены, заказ, благодарность",
+    "Прочитай вслух цены: «dos euros», «cuatro euros con cincuenta», «seis euros con veinte»"
+  ]
+}

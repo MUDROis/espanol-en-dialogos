@@ -1,0 +1,335 @@
+{
+  "id": 13,
+  "title": "Carmen habla con sus hijos, Pablo y Lucía",
+  "titleRu": "Кармен разговаривает со своими детьми, Пабло и Лусией",
+  "part": 2,
+  "level": "A2",
+  "theme": "Семья, обязанности, досуг и игры  La familia, las obligaciones, el ocio y los juegos",
+  "characters": ["carmen_madre", "pablo_hijo", "lucia_hija"],
+  "objectives": [
+    "Выражать обязанности и необходимость (tener que, hay que)",
+    "Говорить о желаниях и планах (querer + infinitivo, vamos a)",
+    "Использовать безличные предложения с SE (Se reparten, ¿cómo se juega?)",
+    "Сравнивать (más... que, tan... como)"
+  ],
+  "grammar": {
+    "tener_que": {
+      "title": "Глагол TENER QUE + infinitivo (должен, обязан)",
+      "description": "TENER QUE + инфинитив выражает обязанность: «Primero tienen que ordenar sus habitaciones» — «Сначала вы должны убрать свои комнаты».",
+      "forms": {
+        "yo": { "es": "tengo que ordenar", "ru": "я должен убрать" },
+        "tu": { "es": "tienes que ordenar", "ru": "ты должен убрать" },
+        "el_ella": { "es": "tiene que ordenar", "ru": "он/она должен/должна убрать" },
+        "nosotros": { "es": "tenemos que ordenar", "ru": "мы должны убрать" },
+        "vosotros": { "es": "tenéis que ordenar", "ru": "вы должны убрать" },
+        "ellos_ellas": { "es": "tienen que ordenar", "ru": "они должны убрать" }
+      },
+      "examples": [
+        { "es": "Primero tienen que ordenar sus habitaciones.", "ru": "Сначала вы должны убрать свои комнаты." },
+        { "es": "Tengo que hacer los deberes.", "ru": "Я должен сделать домашнее задание." }
+      ]
+    },
+    "querer": {
+      "title": "Глагол QUERER + infinitivo (хотеть)",
+      "description": "QUERER + инфинитив — «хотеть что-то сделать»: «Queremos ver una película» — «Мы хотим посмотреть фильм».",
+      "forms": {
+        "yo": { "es": "quiero ver", "ru": "я хочу посмотреть" },
+        "tu": { "es": "quieres ver", "ru": "ты хочешь посмотреть" },
+        "el_ella": { "es": "quiere ver", "ru": "он/она хочет посмотреть" },
+        "nosotros": { "es": "queremos ver", "ru": "мы хотим посмотреть" },
+        "vosotros": { "es": "queréis ver", "ru": "вы хотите посмотреть" },
+        "ellos_ellas": { "es": "quieren ver", "ru": "они хотят посмотреть" }
+      },
+      "examples": [
+        { "es": "Queremos ver una película.", "ru": "Мы хотим посмотреть фильм." },
+        { "es": "Yo quiero aprender ritmos modernos.", "ru": "Я хочу учить современные ритмы." }
+      ]
+    },
+    "hay_que": {
+      "title": "Конструкция HAY QUE + infinitivo (надо, нужно)",
+      "description": "HAY QUE + инфинитив — безличная необходимость («надо»): «Hay que ir colocándolas por parejas iguales» — «Надо выкладывать их парами с одинаковыми числами».",
+      "list": [
+        { "es": "hay que ordenar", "ru": "надо убрать" },
+        { "es": "hay que repartir", "ru": "надо раздать" },
+        { "es": "hay que tener paciencia", "ru": "надо иметь терпение" },
+        { "es": "no hay que ...", "ru": "не надо ..." }
+      ],
+      "examples": [
+        { "es": "Hay que ir colocándolas por parejas iguales.", "ru": "Надо выкладывать их парами с одинаковыми числами." }
+      ]
+    },
+    "se_impersonal": {
+      "title": "Безличные предложения с SE",
+      "description": "SE + глагол в 3-м лице образует безличную конструкцию: «Se reparten las fichas» — «Раздаются фишки», «¿Cómo se juega?» — «Как играют?».",
+      "list": [
+        { "es": "se reparten las fichas", "ru": "раздаются фишки" },
+        { "es": "¿cómo se juega?", "ru": "как играют?" },
+        { "es": "se van emparejando", "ru": "постепенно соединяются в пары" },
+        { "es": "se pasa turno", "ru": "пропускается ход" }
+      ],
+      "examples": [
+        { "es": "Se reparten las fichas, y por turnos se van emparejando los números iguales.", "ru": "Раздаются фишки, и по очереди соединяются одинаковые числа." }
+      ]
+    },
+    "tan_como": {
+      "title": "Сравнение: TAN + прилагательное + COMO",
+      "description": "TAN + прилагательное + COMO — «такой же ... как»: «No es tan fácil tocar bien la guitarra» — «Не так просто хорошо играть на гитаре».",
+      "list": [
+        { "es": "tan fácil como", "ru": "такой же простой, как" },
+        { "es": "tan divertido como", "ru": "такой же весёлый, как" },
+        { "es": "tan dinámico como", "ru": "такой же живой, как" }
+      ],
+      "examples": [
+        { "es": "No es tan fácil tocar bien la guitarra.", "ru": "Не так просто хорошо играть на гитаре." },
+        { "es": "Este juego es tan sencillo como el dominó.", "ru": "Эта игра такая же простая, как домино." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "casa": [
+      { "es": "la habitación", "ru": "комната" },
+      { "es": "la cocina", "ru": "кухня" },
+      { "es": "la tortilla de patatas", "ru": "картофельный омлет" },
+      { "es": "la ensalada verde", "ru": "зелёный салат" },
+      { "es": "los deberes", "ru": "домашнее задание" },
+      { "es": "ordenar la habitación", "ru": "убирать комнату" },
+      { "es": "recoger", "ru": "убирать, собирать" },
+      { "es": "cenar", "ru": "ужинать" },
+      { "es": "descansar", "ru": "отдыхать" },
+      { "es": "agotado/a", "ru": "вымотанный, очень усталый" }
+    ],
+    "escuela": [
+      { "es": "la guitarra", "ru": "гитара" },
+      { "es": "la clase de guitarra", "ru": "урок гитары" },
+      { "es": "el profesor / la profesora", "ru": "преподаватель" },
+      { "es": "tocar la guitarra", "ru": "играть на гитаре" },
+      { "es": "las canciones", "ru": "песни" },
+      { "es": "los ritmos modernos", "ru": "современные ритмы" },
+      { "es": "la música pop", "ru": "поп-музыка" },
+      { "es": "las bandas sonoras", "ru": "саундтреки" },
+      { "es": "aprender", "ru": "учиться" },
+      { "es": "la paciencia", "ru": "терпение" }
+    ],
+    "juegos": [
+      { "es": "el dominó", "ru": "домино" },
+      { "es": "las fichas", "ru": "фишки" },
+      { "es": "los puntos", "ru": "очки, точки" },
+      { "es": "el jugador", "ru": "игрок" },
+      { "es": "el juego de mesa", "ru": "настольная игра" },
+      { "es": "repartir las fichas", "ru": "раздать фишки" },
+      { "es": "emparejar", "ru": "соединять в пары" },
+      { "es": "pasar turno", "ru": "пропустить ход" },
+      { "es": "entretenido/a", "ru": "увлекательный" },
+      { "es": "divertido/a", "ru": "весёлый, забавный" },
+      { "es": "sencillo/a", "ru": "простой" },
+      { "es": "emocionante", "ru": "захватывающий" }
+    ],
+    "tiempo": [
+      { "es": "a las siete de la tarde", "ru": "в семь вечера" },
+      { "es": "por turnos", "ru": "по очереди" },
+      { "es": "primero", "ru": "сначала" },
+      { "es": "luego", "ru": "потом" },
+      { "es": "después", "ru": "после" },
+      { "es": "un rato", "ru": "немного времени" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Carmen", "es": "Chicos, ¿por qué siguen en la cocina?", "ru": "Дети, почему вы всё ещё на кухне?" },
+    { "speaker": "Pablo", "es": "Mamá, queremos ver una película.", "ru": "Мам, мы хотим посмотреть фильм." },
+    { "speaker": "Carmen", "es": "Primero tienen que ordenar sus habitaciones.", "ru": "Сначала вы должны убрать свои комнаты." },
+    { "speaker": "Lucía", "es": "Pero, mamá... Estamos agotados. Queremos descansar un rato.", "ru": "Но, мам... Мы устали. Хотим немного отдохнуть." },
+    { "speaker": "Carmen", "es": "No, ahora recogen sus cuartos, luego cenamos. Voy a preparar una tortilla de patatas y una ensalada verde. Después, pueden descansar.", "ru": "Нет, сейчас убираете комнаты, потом ужинаем. Я приготовлю омлет с картошкой и зелёный салат. Потом можете отдохнуть." },
+    { "speaker": "Pablo", "es": "A las siete de la tarde tenemos clase de guitarra. ¿Cuándo veremos la película?", "ru": "В семь вечера у нас урок гитары. Когда мы посмотрим фильм?" },
+    { "speaker": "Lucía", "es": "No tenemos deberes para mañana, solo para el viernes.", "ru": "У нас нет домашнего задания на завтра, только на пятницу." },
+    { "speaker": "Carmen", "es": "¿Seguros? Bueno, entonces está bien. ¿Qué tal van las clases de guitarra?", "ru": "Уверены? Ну, тогда ладно. Как проходят уроки гитары?" },
+    { "speaker": "Pablo", "es": "Bien, con el nuevo profesor las clases son más dinámicas que con el anterior.", "ru": "Хорошо, с новым преподавателем уроки более живые, чем с прежним." },
+    { "speaker": "Lucía", "es": "Pero siempre tocamos las mismas canciones. Yo quiero aprender ritmos modernos, o música pop, o bandas sonoras.", "ru": "Но мы всегда играем одни и те же песни. Я хочу учить современные ритмы, или поп-музыку, или саундтреки." },
+    { "speaker": "Carmen", "es": "Paciencia, hijos, paciencia. No es tan fácil tocar bien la guitarra.", "ru": "Терпение, дети, терпение. Не так просто научиться хорошо играть на гитаре." },
+    { "speaker": "Pablo", "es": "Y además, hemos hecho un buen trabajo esta tarde, y ahora vamos a jugar al dominó.", "ru": "И к тому же, мы сегодня хорошо поработали днём, а теперь давайте сыграем в домино." },
+    { "speaker": "Carmen", "es": "¿Y eso cómo es?", "ru": "А это как?" },
+    { "speaker": "Pablo", "es": "Es un juego de mesa donde cada jugador tiene fichas con puntos. Hay que ir colocándolas por parejas iguales. Gana el que se queda sin fichas. Es muy entretenido y divertido.", "ru": "Это настольная игра, где у каждого игрока есть фишки с точками. Надо выкладывать их парами с одинаковыми числами. Выигрывает тот, кто первым избавится от всех фишек. Это очень увлекательно и весело." },
+    { "speaker": "Carmen", "es": "¿Y cómo se juega exactamente?", "ru": "А как именно играют?" },
+    { "speaker": "Pablo", "es": "Se reparten las fichas, y por turnos se van emparejando los números iguales. Si no tienes, pasas turno. Es sencillo pero emocionante.", "ru": "Раздаются фишки, и по очереди выкладываются одинаковые числа. Если нет подходящей фишки, пропускаешь ход. Всё просто, но захватывающе." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "la habitación", "ru": "комната" },
+        { "es": "la cocina", "ru": "кухня" },
+        { "es": "la tortilla de patatas", "ru": "картофельный омлет" },
+        { "es": "la ensalada verde", "ru": "зелёный салат" },
+        { "es": "los deberes", "ru": "домашнее задание" },
+        { "es": "la guitarra", "ru": "гитара" },
+        { "es": "el dominó", "ru": "домино" },
+        { "es": "las fichas", "ru": "фишки" }
+      ]
+    },
+    {
+      "type": "fill-gap-tener_que",
+      "title": "Практика: TENER QUE",
+      "description": "Вставь правильную форму глагола tener",
+      "sentences": [
+        { "text": "Primero ___ que ordenar sus habitaciones.", "ru": "Сначала вы должны убрать свои комнаты", "answer": "tienen", "options": ["tienen", "tiene", "tenemos"] },
+        { "text": "Yo ___ que hacer los deberes.", "ru": "Я должен сделать домашнее задание", "answer": "tengo", "options": ["tengo", "tienes", "tiene"] },
+        { "text": "Lucía ___ que tocar la guitarra.", "ru": "Лусия должна играть на гитаре", "answer": "tiene", "options": ["tiene", "tengo", "tienen"] },
+        { "text": "Nosotros ___ que recoger el cuarto.", "ru": "Мы должны убрать комнату", "answer": "tenemos", "options": ["tenemos", "tenéis", "tienen"] },
+        { "text": "¿Vosotros ___ que cenar a las nueve?", "ru": "Вы должны ужинать в девять?", "answer": "tenéis", "options": ["tenéis", "tienen", "tenemos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-querer",
+      "title": "Практика: QUERER",
+      "description": "Вставь правильную форму глагола querer",
+      "sentences": [
+        { "text": "Nosotros ___ ver una película.", "ru": "Мы хотим посмотреть фильм", "answer": "queremos", "options": ["queremos", "quieren", "queréis"] },
+        { "text": "Yo ___ descansar un rato.", "ru": "Я хочу немного отдохнуть", "answer": "quiero", "options": ["quiero", "quiere", "quieren"] },
+        { "text": "Lucía ___ aprender ritmos modernos.", "ru": "Лусия хочет учить современные ритмы", "answer": "quiere", "options": ["quiere", "quiero", "queremos"] },
+        { "text": "¿Tú ___ jugar al dominó?", "ru": "Ты хочешь сыграть в домино?", "answer": "quieres", "options": ["quieres", "quiere", "quiero"] },
+        { "text": "Ellos ___ ver la película hoy.", "ru": "Они хотят посмотреть фильм сегодня", "answer": "quieren", "options": ["quieren", "queremos", "quieres"] }
+      ]
+    },
+    {
+      "type": "fill-gap-hay_que",
+      "title": "Практика: HAY QUE",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Por la mañana ___ que hacer los deberes.", "ru": "Утром надо делать домашнее задание", "answer": "hay", "options": ["hay", "tiene", "es"] },
+        { "text": "En este juego ___ que tener paciencia.", "ru": "В этой игре надо иметь терпение", "answer": "hay", "options": ["hay", "hay que", "tiene"] },
+        { "text": "Siempre ___ que repartir las fichas.", "ru": "Всегда надо раздавать фишки", "answer": "hay", "options": ["hay", "tienen", "somos"] },
+        { "text": "No ___ que jugar solos.", "ru": "Не надо играть в одиночку", "answer": "hay", "options": ["hay", "hay que", "es"] },
+        { "text": "Para tocar bien la guitarra ___ que practicar mucho.", "ru": "Чтобы хорошо играть на гитаре, надо много практиковаться", "answer": "hay", "options": ["hay", "tengo", "es"] }
+      ]
+    },
+    {
+      "type": "fill-gap-se_impersonal",
+      "title": "Практика: безличные предложения с SE",
+      "description": "Вставь правильную форму глагола",
+      "sentences": [
+        { "text": "Se ___ las fichas.", "ru": "Раздаются фишки", "answer": "reparten", "options": ["reparten", "reparte", "repartimos"] },
+        { "text": "¿Cómo se ___ al dominó?", "ru": "Как играют в домино?", "answer": "juega", "options": ["juega", "juegan", "juegas"] },
+        { "text": "Se ___ los números iguales.", "ru": "Соединяются одинаковые числа", "answer": "emparejan", "options": ["emparejan", "empareja", "emparejamos"] },
+        { "text": "Si no tienes, se ___ el turno.", "ru": "Если у тебя нет, пропускается ход", "answer": "pasa", "options": ["pasa", "pasan", "pasamos"] },
+        { "text": "Con el nuevo profesor se ___ mejor.", "ru": "С новым преподавателем играется лучше", "answer": "toca", "options": ["toca", "tocan", "tocamos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-tan_como",
+      "title": "Практика: TAN... COMO",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "No es ___ fácil tocar bien la guitarra.", "ru": "Не так просто хорошо играть на гитаре", "answer": "tan", "options": ["tan", "más", "menos"] },
+        { "text": "Este juego es ___ divertido como el dominó.", "ru": "Эта игра такая же весёлая, как домино", "answer": "tan", "options": ["tan", "más", "muy"] },
+        { "text": "La clase con el nuevo profesor es ___ dinámica como antes.", "ru": "Урок с новым преподавателем такой же живой, как раньше", "answer": "tan", "options": ["tan", "más", "tanto"] },
+        { "text": "Es tan sencillo ___ el dominó.", "ru": "Это так же просто, как домино", "answer": "como", "options": ["como", "que", "de"] },
+        { "text": "La película es tan interesante ___ el juego.", "ru": "Фильм так же интересен, как игра", "answer": "como", "options": ["como", "que", "de"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Primero ___ que ordenar las habitaciones.", "ru": "Сначала вы должны убрать комнаты", "answer": "tienen", "options": ["tienen", "hay", "quieren"] },
+        { "text": "Nosotros ___ ver una película.", "ru": "Мы хотим посмотреть фильм", "answer": "queremos", "options": ["queremos", "tenemos", "podemos"] },
+        { "text": "¿Cómo ___ juega al dominó?", "ru": "Как играют в домино?", "answer": "se", "options": ["se", "te", "me"] },
+        { "text": "Primero ___ que repartir las fichas.", "ru": "Сначала надо раздать фишки", "answer": "hay", "options": ["hay", "tiene", "es"] },
+        { "text": "No es ___ fácil tocar la guitarra.", "ru": "Не так просто играть на гитаре", "answer": "tan", "options": ["tan", "más", "muy"] },
+        { "text": "El nuevo profesor es mejor que ___ anterior.", "ru": "Новый преподаватель лучше прежнего", "answer": "el", "options": ["el", "la", "un"] },
+        { "text": "Vamos a ___ al dominó.", "ru": "Давайте сыграем в домино", "answer": "jugar", "options": ["jugar", "juego", "juega"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Кармен",
+      "role": "Carmen",
+      "description": "Отвечай на реплики детей своим голосом"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Пабло",
+      "role": "Pablo",
+      "description": "Теперь ты Пабло — отвечай Кармен и Лусии"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Теперь ты Лусия — отвечай маме и брату"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи о своих обязанностях и любимой игре",
+      "template": [
+        { "label": "Я должен", "es": "Tengo que ___" },
+        { "label": "Я хочу", "es": "Quiero ___" },
+        { "label": "Надо", "es": "Hay que ___" },
+        { "label": "Любимая игра", "es": "___ es muy divertido/a" },
+        { "label": "Так же просто, как", "es": "Es tan sencillo como ___" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Qué tienen que hacer primero los chicos?",
+          "ru": "Что сначала должны сделать дети?",
+          "options": ["Ordenar sus habitaciones", "Ver una película", "Tocar la guitarra", "Cenar"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué quieren ver Pablo y Lucía?",
+          "ru": "Что хотят посмотреть Пабло и Лусия?",
+          "options": ["Una película", "El dominó", "Una canción", "La cocina"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué va a preparar Carmen?",
+          "ru": "Что собирается приготовить Кармен?",
+          "options": ["Una tortilla de patatas y una ensalada verde", "Una pizza", "Un pastel", "Sopas"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuándo tienen clase de guitarra?",
+          "ru": "Когда у них урок гитары?",
+          "options": ["A las cinco de la tarde", "A las siete de la tarde", "A las nueve de la noche", "El viernes"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué quiere aprender Lucía?",
+          "ru": "Чему хочет научиться Лусия?",
+          "options": ["Ritmos modernos, música pop, bandas sonoras", "Canciones clásicas", "Dominó", "Cocina"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se juega al dominó?",
+          "ru": "Как играют в домино?",
+          "options": ["Se lanzan dados", "Se reparten unas fichas y se emparejan números iguales", "Se pintan cartas", "Se cantan canciones"],
+          "answer": 1
+        },
+        {
+          "question": "¿Por qué son mejores las clases con el nuevo profesor?",
+          "ru": "Почему с новым преподавателем занятия лучше?",
+          "options": ["Son más dinámicas", "Son más cortas", "Son gratis", "Son en inglés"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить новые слова (дом, школа, игры) в приложении",
+    "Практика: Расскажи партнёру (italki/Tandem) о своих обязанностях (tener que) и любимой настольной игре",
+    "Дневник: Напиши правила любимой игры на испанском, используя SE + глагол",
+    "Грамматика: Составь 4 предложения с hay que / tener que / querer"
+  ]
+}

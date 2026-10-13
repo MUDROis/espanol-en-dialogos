@@ -1,0 +1,281 @@
+{
+  "id": 33,
+  "title": "La madre de Carlos, Laura, habla con su hijo",
+  "titleRu": "Мама Карлоса, Лаура, разговаривает со своим сыном",
+  "part": 4,
+  "level": "B1",
+  "theme": "Семья, работа, путешествия  La familia, el trabajo, los viajes",
+  "characters": ["carlos", "laura_moreno"],
+  "objectives": [
+    "Рассказывать о недавних событиях: me he acostumbrado, hemos ido de excursión, hemos visitado, ha terminado",
+    "Говорить о том, что осталось сделать: falta pintar las paredes, me ha quedado dinero",
+    "Соглашаться и выражать мнение: estoy de acuerdo, vale la pena, me alegro por ella",
+    "Планировать будущее: alquilaremos un coche, la traerás, la venderé, estudiaré aquí dos años más",
+    "Сообщать новости о спорте и наградах: ha participado, ha ganado un premio, ha quedado segunda"
+  ],
+  "grammar": {
+    "acostumbrarse": {
+      "title": "ACOSTUMBRARSE A: привыкать к",
+      "description": "Возвратный глагол ACOSTUMBRARSE A + объект — «привыкать к чему-то». С pretérito perfecto: Ya me he acostumbrado al nuevo trabajo en la biblioteca (Я уже привыкла к новой работе в библиотеке).",
+      "forms": {
+        "yo": { "es": "me acostumbro a la ciudad", "ru": "я привыкаю к городу" },
+        "tu": { "es": "te acostumbras al nuevo trabajo", "ru": "ты привыкаешь к новой работе" },
+        "el_ella": { "es": "se acostumbra a la vida aquí", "ru": "он/она привыкает к здешней жизни" },
+        "nosotros": { "es": "nos acostumbramos a los compañeros", "ru": "мы привыкаем к коллегам" },
+        "vosotros": { "es": "os acostumbráis a las clases", "ru": "вы привыкаете к занятиям" },
+        "ellos_ellas": { "es": "se acostumbran al horario", "ru": "они привыкают к расписанию" }
+      },
+      "examples": [
+        { "es": "Ya me he acostumbrado al nuevo trabajo en la biblioteca.", "ru": "Я уже привыкла к новой работе в библиотеке." },
+        { "es": "Tu padre ya casi ha terminado las reformas en el garaje.", "ru": "Твой отец уже почти закончил ремонт в гараже." }
+      ]
+    },
+    "falta_queda": {
+      "title": "FALTA + infinitivo и QUEDAR: «осталось», «оставаться»",
+      "description": "FALTA + infinitivo — «осталось сделать»: falta pintar las paredes del salón (осталось покрасить стены гостиной). QUEDAR — «оставаться»: me ha quedado dinero para comprar una tableta (у меня остались деньги на покупку планшета). QUEDAR + порядковое — «занять место»: ha quedado segunda en llegar a la meta (она пришла второй к финишу).",
+      "list": [
+        { "es": "falta pintar las paredes del salón", "ru": "осталось покрасить стены гостиной" },
+        { "es": "me ha quedado dinero para una tableta", "ru": "у меня остались деньги на планшет" },
+        { "es": "ha quedado segunda en llegar a la meta", "ru": "она пришла второй к финишу" },
+        { "es": "le han entregado un certificado", "ru": "ей вручили сертификат" },
+        { "es": "¿Qué nos falta para terminar?", "ru": "что нам осталось, чтобы закончить?" }
+      ],
+      "examples": [
+        { "es": "Falta pintar las paredes del salón.", "ru": "Осталось покрасить стены гостиной." },
+        { "es": "Le han entregado un certificado y unas gafas nuevas.", "ru": "Ей вручили сертификат и новые очки." }
+      ]
+    },
+    "vale_la_pena": {
+      "title": "VALE LA PENA, ESTAR DE ACUERDO, ALEGRARSE",
+      "description": "VALE LA PENA + infinitivo — «стоит того, чтобы»: vale la pena comprarla (стоит её купить). ESTAR DE ACUERDO — «быть согласным»: estoy de acuerdo (я согласен). ALEGRARSE POR + объект — «радоваться за»: me alegro por ella (я рад за неё).",
+      "list": [
+        { "es": "vale la pena comprarla", "ru": "стоит её купить" },
+        { "es": "estoy de acuerdo", "ru": "я согласен" },
+        { "es": "me alegro por ella", "ru": "я рад за неё" },
+        { "es": "será toda una deportista en el futuro", "ru": "она станет настоящей спортсменкой в будущем" },
+        { "es": "hemos pagado 900 euros por las dos", "ru": "мы заплатили 900 евро за двоих" }
+      ],
+      "examples": [
+        { "es": "Estudiaré aquí dos años más, por eso vale la pena comprarla.", "ru": "Я буду учиться здесь ещё два года, поэтому стоит её купить." },
+        { "es": "¡Me alegro por ella! Será toda una deportista en el futuro.", "ru": "Я рад за неё! Она станет настоящей спортсменкой в будущем." }
+      ]
+    },
+    "futuro_viaje": {
+      "title": "Futuro Simple: планы на поездку",
+      "description": "Будущее время для планов и обещаний о путешествии: alquilaremos un coche (мы арендуем машину), viajaremos por las ciudades (мы поедем по городам), ¿La traerás después de Portugal? (Ты привезёшь её после Португалии?), creo que la venderé (думаю, я её продам).",
+      "list": [
+        { "es": "alquilaremos un coche", "ru": "мы арендуем машину" },
+        { "es": "viajaremos por las ciudades", "ru": "мы поедем по городам" },
+        { "es": "¿la traerás después de Portugal?", "ru": "ты привезёшь её после Португалии?" },
+        { "es": "creo que la venderé", "ru": "думаю, я её продам" },
+        { "es": "estudiaré aquí dos años más", "ru": "я буду учиться здесь ещё два года" }
+      ],
+      "examples": [
+        { "es": "Alquilaremos un coche y viajaremos por las ciudades.", "ru": "Мы арендуем машину и поедем по городам." },
+        { "es": "¿La traerás después de Portugal? ¿Y tienes una aquí?", "ru": "Ты привезёшь её после Португалии? А здесь у тебя есть такая?" }
+      ]
+    }
+  },
+  "vocabulary": {
+    "trabajo_y_reformas": [
+      { "es": "la biblioteca", "ru": "библиотека" },
+      { "es": "los compañeros", "ru": "коллеги" },
+      { "es": "la excursión", "ru": "экскурсия" },
+      { "es": "el taller de cerámica", "ru": "мастерская керамики" },
+      { "es": "la exposición", "ru": "выставка" },
+      { "es": "la fotografía antigua", "ru": "старинная фотография" },
+      { "es": "las reformas", "ru": "ремонт" },
+      { "es": "el garaje", "ru": "гараж" },
+      { "es": "las paredes", "ru": "стены" },
+      { "es": "el salón", "ru": "гостиная" }
+    ],
+    "viaje": [
+      { "es": "el viaje", "ru": "поездка" },
+      { "es": "la cultura", "ru": "культура" },
+      { "es": "la belleza", "ru": "красота" },
+      { "es": "las calles", "ru": "улицы" },
+      { "es": "el coche", "ru": "машина" },
+      { "es": "alquilar", "ru": "арендовать" },
+      { "es": "las promociones", "ru": "акции" },
+      { "es": "ahorrar", "ru": "экономить, откладывать" },
+      { "es": "la beca", "ru": "стипендия" },
+      { "es": "la tableta", "ru": "планшет" }
+    ],
+    "premio_y_deporte": [
+      { "es": "la carrera de natación", "ru": "соревнования по плаванию" },
+      { "es": "el premio", "ru": "приз" },
+      { "es": "la meta", "ru": "финиш" },
+      { "es": "el certificado", "ru": "сертификат" },
+      { "es": "las gafas", "ru": "очки" },
+      { "es": "participar", "ru": "участвовать" },
+      { "es": "ganar", "ru": "выигрывать" },
+      { "es": "entregar", "ru": "вручать" },
+      { "es": "la deportista", "ru": "спортсменка" },
+      { "es": "la sobrina", "ru": "племянница" }
+    ],
+    "verbos": [
+      { "es": "acostumbrarse a", "ru": "привыкать к" },
+      { "es": "estar de acuerdo", "ru": "быть согласным" },
+      { "es": "alegrarse por", "ru": "радоваться за" },
+      { "es": "valer la pena", "ru": "стоить того" },
+      { "es": "faltar", "ru": "недоставать, оставаться" },
+      { "es": "quedar", "ru": "оставаться" },
+      { "es": "pintar", "ru": "красить" },
+      { "es": "decidir", "ru": "решать" },
+      { "es": "desear", "ru": "желать" },
+      { "es": "pasar (lo bien)", "ru": "проводить время (хорошо)" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Carlos", "es": "Hola, mamá. ¿Qué hay de nuevo?", "ru": "Привет, мам. Что нового?" },
+    { "speaker": "Laura", "es": "Hola, hijo. Todo va bien. Ya me he acostumbrado al nuevo trabajo en la biblioteca. Mis compañeros son muy simpáticos e inteligentes. Hemos ido dos veces de excursión. Hemos visitado un taller de cerámica y una exposición de fotografía antigua.", "ru": "Привет, сынок. Всё идёт отлично. Я уже привыкла к новой работе в библиотеке. Мои коллеги очень хорошие и умные. Мы два раза ездили на экскурсию. Были на мастер-классе по керамике и на выставке старинных фотографий." },
+    { "speaker": "Carlos", "es": "Parece que te lo has pasado bien también.", "ru": "Похоже, что ты тоже неплохо развлеклась." },
+    { "speaker": "Laura", "es": "Claro. Estoy muy contenta con mi trabajo. Tu padre ya casi ha terminado las reformas en el garaje. Falta pintar las paredes del salón.", "ru": "Конечно. Я очень довольна своей работой. Твой отец уже почти закончил ремонт в гараже. Осталось покрасить стены в гостиной." },
+    { "speaker": "Carlos", "es": "¡Estará pintado pronto!", "ru": "О, её скоро покрасят!" },
+    { "speaker": "Laura", "es": "Oh, perfecto. Sabes, esta tarde he comprado un viaje para Lisboa, dos semanas. Voy con mi amiga Marta.", "ru": "О, отлично. Знаешь, сегодня днём я купила поездку в Лиссабон, на две недели. Еду со своей подругой Мартой." },
+    { "speaker": "Carlos", "es": "¿A Lisboa? ¿Por qué has decidido viajar allí? ¿Está tan lejos...?", "ru": "В Лиссабон? Почему ты решила поехать туда? Это так далеко..." },
+    { "speaker": "Laura", "es": "Sí, pero me atrae su cultura y la belleza de sus calles. Alquilaremos un coche y viajaremos por las ciudades.", "ru": "Да, но меня привлекает её культура и красота улиц. Мы арендуем машину и поедем по городам." },
+    { "speaker": "Carlos", "es": "¿Es caro el viaje?", "ru": "Дорогая поездка?" },
+    { "speaker": "Laura", "es": "No, hemos pagado 900 euros por las dos, es que ahora hay muchas promociones.", "ru": "Нет, мы заплатили 900 евро за двоих, сейчас много акций." },
+    { "speaker": "Carlos", "es": "Bueno, ¡te deseo muy buen viaje! ¿Has ahorrado el dinero de la beca?", "ru": "Хорошо, желаю тебе отличного отдыха! Ты скопила деньги со стипендии?" },
+    { "speaker": "Laura", "es": "Sí. Aún me ha quedado dinero para comprar una tableta. Tu hermana Lucía ya se ha comprado una.", "ru": "Да. У меня ещё осталось денег на покупку планшета. Твоя сестра Лусия уже купила себе один." },
+    { "speaker": "Carlos", "es": "¿La traerás después de Portugal? ¿Y tienes una aquí?", "ru": "Ты потом привезёшь её после Португалии? А здесь у тебя есть такая?" },
+    { "speaker": "Laura", "es": "No, creo que la venderé. Estudiaré aquí dos años más, por eso vale la pena comprarla.", "ru": "Нет, думаю, что я её продам. Я здесь буду учиться ещё два года, поэтому стоит её купить." },
+    { "speaker": "Carlos", "es": "Sí, estoy de acuerdo. Sabes, mi prima Elena ha participado en una carrera de natación y ha ganado un premio.", "ru": "Да, я согласен. Знаешь, моя двоюродная сестра Елена участвовала в соревнованиях по плаванию и выиграла приз." },
+    { "speaker": "Laura", "es": "¿En serio? He hablado con ella recientemente y no me ha dicho nada.", "ru": "Серьёзно? Я недавно говорила с ней, и она мне ничего не сказала." },
+    { "speaker": "Carlos", "es": "Sí, ha quedado segunda en llegar a la meta. Le han entregado un certificado y unas gafas nuevas.", "ru": "Да, она пришла второй к финишу. Ей вручили сертификат и новые очки." },
+    { "speaker": "Laura", "es": "¡Me alegro por ella! Será toda una deportista en el futuro, mi pequeña sobrina.", "ru": "Я рада за неё! Она станет настоящей спортсменкой в будущем, моя маленькая племянница." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "la biblioteca", "ru": "библиотека" },
+        { "es": "los compañeros", "ru": "коллеги" },
+        { "es": "la excursión", "ru": "экскурсия" },
+        { "es": "el taller de cerámica", "ru": "мастерская керамики" },
+        { "es": "la exposición", "ru": "выставка" },
+        { "es": "la fotografía antigua", "ru": "старинная фотография" },
+        { "es": "las reformas", "ru": "ремонт" },
+        { "es": "el garaje", "ru": "гараж" },
+        { "es": "las paredes", "ru": "стены" },
+        { "es": "el salón", "ru": "гостиная" }
+      ]
+    },
+    {
+      "type": "fill-gap-acostumbrarse",
+      "title": "Практика: ACOSTUMBRARSE A",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Ya me he ___ al nuevo trabajo en la biblioteca.", "ru": "Я уже привыкла к новой работе в библиотеке", "answer": "acostumbrado", "options": ["acostumbrado", "acostumbrada", "acostumbrarme"] },
+        { "text": "Me ___ a mis nuevos compañeros muy rápido.", "ru": "Я быстро привыкаю к новым коллегам", "answer": "acostumbro", "options": ["acostumbro", "acostumbras", "acostumbrar"] },
+        { "text": "Ellos se ___ al horario de la biblioteca.", "ru": "Они привыкают к расписанию библиотеки", "answer": "acostumbran", "options": ["acostumbran", "acostumbráis", "acostumbramos"] },
+        { "text": "Te ___ a las clases nuevas con el tiempo.", "ru": "Ты привыкнешь к новым занятиям со временем", "answer": "acostumbrarás", "options": ["acostumbrarás", "acostumbras", "acostumbrabas"] },
+        { "text": "Nos ___ a trabajar juntos poco a poco.", "ru": "Мы привыкаем работать вместе понемногу", "answer": "acostumbramos", "options": ["acostumbramos", "acostumbráis", "acostumbran"] }
+      ]
+    },
+    {
+      "type": "fill-gap-falta_queda",
+      "title": "Практика: FALTA + infinitivo, QUEDAR",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Falta ___ las paredes del salón.", "ru": "Осталось покрасить стены гостиной", "answer": "pintar", "options": ["pintar", "pinto", "pintaba"] },
+        { "text": "Me ha ___ dinero para comprar una tableta.", "ru": "У меня остались деньги на покупку планшета", "answer": "quedado", "options": ["quedado", "quedada", "quedar"] },
+        { "text": "Elena ha ___ segunda en llegar a la meta.", "ru": "Елена пришла второй к финишу", "answer": "quedado", "options": ["quedado", "quedada", "quedar"] },
+        { "text": "Le han ___ un certificado y unas gafas nuevas.", "ru": "Ей вручили сертификат и новые очки", "answer": "entregado", "options": ["entregado", "entregada", "entregar"] },
+        { "text": "¿Qué nos ___ para terminar las reformas?", "ru": "Что нам осталось, чтобы закончить ремонт?", "answer": "falta", "options": ["falta", "faltan", "faltar"] }
+      ]
+    },
+    {
+      "type": "fill-gap-vale_la_pena",
+      "title": "Практика: VALE LA PENA, DE ACUERDO, ALEGRARSE",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "___ la pena comprar la tableta.", "ru": "Стоит купить планшет", "answer": "Vale", "options": ["Vale", "Vaya", "Haga"] },
+        { "text": "Estoy de ___ contigo, es un buen plan.", "ru": "Я с тобой согласен, это хороший план", "answer": "acuerdo", "options": ["acuerdo", "acuerda", "pena"] },
+        { "text": "Me ___ mucho por ella.", "ru": "Я очень рад за неё", "answer": "alegro", "options": ["alegro", "alegras", "alegra"] },
+        { "text": "Será toda una ___ en el futuro.", "ru": "Она станет настоящей спортсменкой в будущем", "answer": "deportista", "options": ["deportista", "estudiante", "trabajadora"] },
+        { "text": "Hemos ___ 900 euros por las dos.", "ru": "Мы заплатили 900 евро за двоих", "answer": "pagado", "options": ["pagado", "pagadas", "pagar"] }
+      ]
+    },
+    {
+      "type": "fill-gap-futuro_viaje",
+      "title": "Практика: Futuro Simple — поездка",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "___ un coche y viajaremos por las ciudades.", "ru": "Мы арендуем машину и поедем по городам", "answer": "Alquilaremos", "options": ["Alquilaremos", "Alquilamos", "Alquilábamos"] },
+        { "text": "¿La ___ después de Portugal?", "ru": "Ты привезёшь её после Португалии?", "answer": "traerás", "options": ["traerás", "traes", "traíste"] },
+        { "text": "No, creo que la ___.", "ru": "Нет, думаю, я её продам", "answer": "venderé", "options": ["venderé", "vendo", "vendía"] },
+        { "text": "___ aquí dos años más.", "ru": "Я буду учиться здесь ещё два года", "answer": "Estudiaré", "options": ["Estudiaré", "Estudio", "Estudiaba"] },
+        { "text": "___ mis vacaciones en Portugal.", "ru": "Я проведу отпуск в Португалии", "answer": "Pasaré", "options": ["Pasaré", "Paso", "Pasaba"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Ya me he ___ al nuevo trabajo en la biblioteca.", "ru": "Я уже привыкла к новой работе в библиотеке", "answer": "acostumbrado", "options": ["acostumbrado", "acostumbrada", "acostumbrarme"] },
+        { "text": "Falta ___ las paredes del salón.", "ru": "Осталось покрасить стены гостиной", "answer": "pintar", "options": ["pintar", "pinto", "pintaba"] },
+        { "text": "___ la pena comprar la tableta.", "ru": "Стоит купить планшет", "answer": "Vale", "options": ["Vale", "Vaya", "Haga"] },
+        { "text": "Alquilaremos un ___ y viajaremos por las ciudades.", "ru": "Мы арендуем машину и поедем по городам", "answer": "coche", "options": ["coche", "viaje", "premio"] },
+        { "text": "Elena ha ___ segunda en llegar a la meta.", "ru": "Елена пришла второй к финишу", "answer": "quedado", "options": ["quedado", "quedada", "quedar"] },
+        { "text": "Le han ___ un certificado y unas gafas nuevas.", "ru": "Ей вручили сертификат и новые очки", "answer": "entregado", "options": ["entregado", "entregada", "entregar"] },
+        { "text": "Estoy de ___ contigo.", "ru": "Я с тобой согласен", "answer": "acuerdo", "options": ["acuerdo", "acuerda", "pena"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Ты — Карлос, расспрашиваешь маму о работе и делишься семейными новостями"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лаурой",
+      "role": "Laura",
+      "description": "Ты — Лаура, рассказываешь сыну о работе, ремонте и планах на поездку"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Поговори с близким человеком о новостях и планах",
+      "template": [
+        { "label": "Я уже привыкла к новой работе", "es": "Ya me he ___ al nuevo trabajo" },
+        { "label": "Осталось покрасить стены", "es": "Falta ___ las paredes del salón" },
+        { "label": "Стоит её купить", "es": "___ la pena comprarla" },
+        { "label": "Мы арендуем машину", "es": "___ un coche" },
+        { "label": "Желаю тебе хорошего отдыха", "es": "Te ___ muy buen viaje" },
+        { "label": "Я рад/рада за неё", "es": "Me ___ por ella" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        { "question": "¿Dónde trabaja Laura ahora?", "ru": "Где теперь работает Лаура?", "options": ["En una biblioteca", "En un centro de idiomas", "En un hospital", "En un mercado"], "answer": 0 },
+        { "question": "¿Qué han visitado con los compañeros?", "ru": "Что они посетили с коллегами?", "options": ["Un taller de cerámica y una exposición de fotografía", "Un teatro y un museo", "Un parque y un cine", "Un restaurante y un hotel"], "answer": 0 },
+        { "question": "¿Qué falta hacer en casa?", "ru": "Что осталось сделать дома?", "options": ["Comprar muebles", "Pintar las paredes del salón", "Pintar el garaje", "Limpiar el jardín"], "answer": 1 },
+        { "question": "¿A dónde va Laura de viaje?", "ru": "Куда Лаура едет в путешествие?", "options": ["A París", "A Lisboa", "A Madrid", "A Roma"], "answer": 1 },
+        { "question": "¿Cuánto han pagado por el viaje?", "ru": "Сколько они заплатили за поездку?", "options": ["900 euros por las dos", "500 euros", "Cada una 900 euros", "No han pagado nada"], "answer": 0 },
+        { "question": "¿Qué ha comprado Lucía?", "ru": "Что купила Лусия?", "options": ["Una tableta", "Un coche", "Un viaje", "Una casa"], "answer": 0 },
+        { "question": "¿Qué ha ganado Elena?", "ru": "Что выиграла Елена?", "options": ["Un viaje a Portugal", "Una beca de estudios", "Un premio en una carrera de natación", "Un certificado de idiomas"], "answer": 2 },
+        { "question": "¿Qué le han entregado a Elena?", "ru": "Что вручили Елене?", "options": ["Un certificado y unas gafas nuevas", "Un trofeo y dinero", "Una medalla y un regalo", "Un diploma y un libro"], "answer": 0 }
+      ]
+    }
+  ],
+  "homework": [
+    "5 минут: повтори слова по теме «работа, ремонт, путешествия»",
+    "Практика: расскажи, как ты привык(ла) к новой работе или учёбе: me he acostumbrado a..., falta..., vale la pena...",
+    "Дневник: опиши недавнюю семейную новость и планы на отпуск",
+    "Грамматика: напиши 3 предложения с acostumbrarse a, 3 с falta + infinitivo, 3 с futuro simple"
+  ]
+}

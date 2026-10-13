@@ -1,0 +1,333 @@
+{
+  "id": 12,
+  "title": "Carlos y Sofía preparan una cena familiar",
+  "titleRu": "Карлос и София готовят семейный ужин",
+  "part": 2,
+  "level": "A2",
+  "theme": "Продукты, покупки, семейный ужин  La comida, las compras, la cena familiar",
+  "characters": ["carlos", "sofia"],
+  "objectives": [
+    "Составлять список продуктов для ужина",
+    "Говорить о количестве (un kilo de, un par de, bastante)",
+    "Обсуждать покупки и предлагать альтернативы (¿Mejor compramos...?)",
+    "Сравнивать цену и качество (más... que, -ísimo)"
+  ],
+  "grammar": {
+    "ir_a_comprar": {
+      "title": "Конструкция IR A + lugar + A + infinitivo (цель действия)",
+      "description": "Чтобы сказать, что мы идём куда-то с какой-то целью, используем IR A + место + A + инфинитив: «Voy al mercado a comprar comida». Обрати внимание на двойное A: primero comes A, потом второй A перед глаголом.",
+      "forms": {
+        "yo": { "es": "voy al mercado a comprar", "ru": "я иду на рынок за покупками" },
+        "tu": { "es": "vas al mercado a comprar", "ru": "ты идёшь на рынок за покупками" },
+        "el_ella": { "es": "va al supermercado a comprar", "ru": "он/она идёт в супермаркет за покупками" },
+        "nosotros": { "es": "vamos a la frutería a comprar", "ru": "мы идём во фруктовый магазин за покупками" },
+        "vosotros": { "es": "vais al mercado a comprar", "ru": "вы идёте на рынок за покупками" },
+        "ellos_ellas": { "es": "van a la frutería a comprar", "ru": "они идут во фруктовый магазин за покупками" }
+      },
+      "examples": [
+        { "es": "Voy al mercado a comprar comida para la cena.", "ru": "Я иду на рынок купить продукты для ужина." },
+        { "es": "Mañana vamos a la frutería a comprar fruta.", "ru": "Завтра мы идём во фруктовый магазин покупать фрукты." }
+      ]
+    },
+    "cantidades": {
+      "title": "Количества (un kilo de, un par de, bastante)",
+      "description": "Количество в испанском обозначается как «число + мера + de + продукт»: un kilo y medio de pollo, un par de botellas, tres kilos de cordero. Bastante означает «достаточно», demasiado — «слишком много».",
+      "list": [
+        { "es": "un kilo de", "ru": "килограмм" },
+        { "es": "un kilo y medio de", "ru": "полтора килограмма" },
+        { "es": "un par de", "ru": "пара" },
+        { "es": "un brick de", "ru": "пакет (тетрапак)" },
+        { "es": "una botella de", "ru": "бутылка" },
+        { "es": "bastante", "ru": "достаточно, много" },
+        { "es": "demasiado", "ru": "слишком много" }
+      ],
+      "examples": [
+        { "es": "Necesitamos un kilo y medio de pollo y tres kilos de cordero.", "ru": "Нам нужно полтора килограмма курицы и три килограмма баранины." },
+        { "es": "Un par de botellas de agua, por favor.", "ru": "Пару бутылок воды, пожалуйста." }
+      ]
+    },
+    "falta": {
+      "title": "Конструкция FALTA (не хватает)",
+      "description": "FALTAR указывает, чего не хватает. С существительным в единственном числе — falta, во множественном — faltan: «Creo que falta pimiento para la ensalada».",
+      "list": [
+        { "es": "falta + sustantivo", "ru": "не хватает (ед. ч.)" },
+        { "es": "faltan + sustantivo (plural)", "ru": "не хватает (мн. ч.)" },
+        { "es": "me falta / me faltan", "ru": "мне не хватает" },
+        { "es": "hace falta", "ru": "нужно, необходимо" }
+      ],
+      "examples": [
+        { "es": "Creo que falta pimiento para la ensalada.", "ru": "Думаю, не хватает перца для салата." },
+        { "es": "Nos faltan cebollas.", "ru": "Нам не хватает лука." }
+      ]
+    },
+    "comparativo": {
+      "title": "Сравнительная степень (más + прилагательное + que)",
+      "description": "Сравнение: más + прилагательное + que — «более... чем». В диалоге: «allí es más fresca y más barata» — «там свежее и дешевле».",
+      "list": [
+        { "es": "más fresco/a que", "ru": "свежее, чем" },
+        { "es": "más barato/a que", "ru": "дешевле, чем" },
+        { "es": "más caro/a que", "ru": "дороже, чем" },
+        { "es": "menos + прилагательное que", "ru": "менее..., чем" }
+      ],
+      "examples": [
+        { "es": "Allí la fruta es más fresca y más barata.", "ru": "Там фрукты свежее и дешевле." },
+        { "es": "El pollo es más barato que el cordero.", "ru": "Курица дешевле баранины." }
+      ]
+    },
+    "superlativo": {
+      "title": "Превосходная степень (-ísimo/-ísima)",
+      "description": "Абсолютная превосходная степень образуется суффиксом -ísimo/-ísima: «Aquí la fruta es carísima» — «Здесь фрукты очень дорогие».",
+      "list": [
+        { "es": "carísimo/a", "ru": "очень дорогой" },
+        { "es": "baratísimo/a", "ru": "очень дешёвый" },
+        { "es": "fresquísimo/a", "ru": "очень свежий" },
+        { "es": "riquísimo/a", "ru": "очень вкусный" }
+      ],
+      "examples": [
+        { "es": "Aquí la fruta es carísima.", "ru": "Здесь фрукты очень дорогие." },
+        { "es": "Este queso es riquísimo.", "ru": "Этот сыр очень вкусный." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "comida": [
+      { "es": "el pollo", "ru": "курица" },
+      { "es": "el cordero", "ru": "баранина" },
+      { "es": "el cerdo", "ru": "свинина" },
+      { "es": "la lechuga", "ru": "листовой салат" },
+      { "es": "la zanahoria", "ru": "морковь" },
+      { "es": "la cebolla", "ru": "лук" },
+      { "es": "el pimiento", "ru": "перец (болгарский)" },
+      { "es": "el embutido", "ru": "колбасные изделия" },
+      { "es": "el queso", "ru": "сыр" },
+      { "es": "las aceitunas", "ru": "оливки" },
+      { "es": "las galletas", "ru": "печенье" },
+      { "es": "el pan", "ru": "хлеб" },
+      { "es": "las manzanas", "ru": "яблоки" },
+      { "es": "las peras", "ru": "груши" },
+      { "es": "las naranjas", "ru": "апельсины" },
+      { "es": "las fresas", "ru": "клубника" },
+      { "es": "la verdura", "ru": "овощи" },
+      { "es": "la fruta", "ru": "фрукты" }
+    ],
+    "bebidas": [
+      { "es": "la leche", "ru": "молоко" },
+      { "es": "el agua", "ru": "вода" },
+      { "es": "el vino blanco", "ru": "белое вино" },
+      { "es": "la sidra", "ru": "сидр" },
+      { "es": "el refresco", "ru": "газировка" }
+    ],
+    "shopping": [
+      { "es": "el mercado", "ru": "рынок" },
+      { "es": "la frutería", "ru": "фруктовый магазин" },
+      { "es": "el supermercado", "ru": "супермаркет" },
+      { "es": "la nevera", "ru": "холодильник" },
+      { "es": "la lista", "ru": "список" },
+      { "es": "caro/a", "ru": "дорогой" },
+      { "es": "barato/a", "ru": "дешёвый" },
+      { "es": "fresco/a", "ru": "свежий" }
+    ],
+    "cantidades": [
+      { "es": "un kilo de", "ru": "килограмм" },
+      { "es": "un kilo y medio de", "ru": "полтора килограмма" },
+      { "es": "un par de", "ru": "пара" },
+      { "es": "un brick de", "ru": "пакет (тетрапак)" },
+      { "es": "una botella de", "ru": "бутылка" },
+      { "es": "bastante", "ru": "достаточно" },
+      { "es": "demasiado", "ru": "слишком много" }
+    ],
+    "frases": [
+      { "es": "faltar", "ru": "не хватать" },
+      { "es": "tener razón", "ru": "быть правым" },
+      { "es": "venir conmigo", "ru": "пойти со мной" },
+      { "es": "no queda otra", "ru": "ничего не поделаешь" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Carlos", "es": "Voy al mercado a comprar comida para la cena. ¿Quieres venir conmigo?", "ru": "Я иду на рынок купить продукты для ужина. Хочешь пойти со мной?" },
+    { "speaker": "Sofía", "es": "Vale, voy. ¿Ya tienes la lista de lo que necesitamos?", "ru": "Хорошо, иду. У тебя уже есть список того, что нам нужно?" },
+    { "speaker": "Carlos", "es": "Sí. De carne, necesitamos un kilo y medio de pollo y tres kilos de cordero. De verduras, lechuga, zanahorias y cebollas. También unos bricks de leche, un par de botellas de agua, galletas y pan.", "ru": "Да. Из мяса — полтора килограмма курицы и три килограмма баранины. Из овощей — салат, морковь и лук. Ещё пару пакетов молока, две бутылки воды, печенье и хлеб." },
+    { "speaker": "Sofía", "es": "Creo que falta pimiento para la ensalada. Y cinco kilos de carne me parece demasiado para 8 personas. ¿Mejor compramos solo dos kilos de cerdo?", "ru": "Думаю, не хватает перца для салата. И пять килограммов мяса мне кажется многовато для 8 человек. Может, купим только два килограмма свинины?" },
+    { "speaker": "Carlos", "es": "No, en la nevera tengo bastante embutido, salami, queso variado y algunas aceitunas.", "ru": "Нет, в холодильнике у меня достаточно колбасных изделий, салями, разных сыров и немного оливок." },
+    { "speaker": "Sofía", "es": "De acuerdo. Yo también quiero refrescos o sidra.", "ru": "Договорились. Я тоже хочу газировку или сидр." },
+    { "speaker": "Carlos", "es": "Mi hermana va a traer dos botellas de vino blanco.", "ru": "Моя сестра принесёт две бутылки белого вина." },
+    { "speaker": "Sofía", "es": "¿Y la fruta? ¿Manzanas, peras, naranjas y fresas?", "ru": "А фрукты? Яблоки, груши, апельсины и клубника?" },
+    { "speaker": "Carlos", "es": "Sí, tienes razón, necesitamos fruta. Mejor, mañana vamos a la frutería, allí es más fresca y más barata.", "ru": "Да, ты права, нам нужны фрукты. Лучше завтра сходим во фруктовый магазин, там они свежее и дешевле." },
+    { "speaker": "Sofía", "es": "La frutería está un poco lejos.", "ru": "Фруктовый магазин немного далеко." },
+    { "speaker": "Carlos", "es": "Bueno, no queda otra. Aquí la fruta es carísima.", "ru": "Ну, ничего не поделаешь. Здесь фрукты очень дорогие." },
+    { "speaker": "Sofía", "es": "Vale, de acuerdo.", "ru": "Ладно, договорились." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el pollo", "ru": "курица" },
+        { "es": "el cordero", "ru": "баранина" },
+        { "es": "la zanahoria", "ru": "морковь" },
+        { "es": "la cebolla", "ru": "лук" },
+        { "es": "el pimiento", "ru": "перец (болгарский)" },
+        { "es": "la nevera", "ru": "холодильник" },
+        { "es": "la frutería", "ru": "фруктовый магазин" },
+        { "es": "la sidra", "ru": "сидр" }
+      ]
+    },
+    {
+      "type": "fill-gap-ir_a_comprar",
+      "title": "Практика: IR A + lugar + A + infinitivo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Voy al mercado ___ comprar comida.", "ru": "Я иду на рынок за продуктами", "answer": "a", "options": ["a", "en", "de"] },
+        { "text": "Vamos ___ la frutería a comprar fruta.", "ru": "Мы идём во фруктовый магазин за фруктами", "answer": "a", "options": ["a", "en", "de"] },
+        { "text": "Sofía ___ al supermercado a comprar leche.", "ru": "София идёт в супермаркет за молоком", "answer": "va", "options": ["va", "vas", "voy"] },
+        { "text": "Yo ___ al mercado a comprar carne.", "ru": "Я иду на рынок за мясом", "answer": "voy", "options": ["voy", "va", "vas"] },
+        { "text": "Mañana ___ a la frutería a comprar fruta.", "ru": "Завтра мы идём во фруктовый магазин за фруктами", "answer": "vamos", "options": ["vamos", "van", "vais"] }
+      ]
+    },
+    {
+      "type": "fill-gap-cantidades",
+      "title": "Практика: количества",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Necesitamos un kilo y ___ de pollo.", "ru": "Нам нужно полтора килограмма курицы", "answer": "medio", "options": ["medio", "par", "botella"] },
+        { "text": "Compré un ___ de botellas de agua.", "ru": "Я купил пару бутылок воды", "answer": "par", "options": ["par", "kilo", "brick"] },
+        { "text": "En la nevera tengo ___ embutido.", "ru": "В холодильнике у меня достаточно колбасных изделий", "answer": "bastante", "options": ["bastante", "demasiado", "poco"] },
+        { "text": "Tres kilos de ___ es demasiado.", "ru": "Три килограмма мяса — это слишком много", "answer": "carne", "options": ["carne", "pimiento", "leche"] },
+        { "text": "Mejor compramos solo dos kilos de ___.", "ru": "Лучше купим только два килограмма свинины", "answer": "cerdo", "options": ["cerdo", "pollo", "cordero"] }
+      ]
+    },
+    {
+      "type": "fill-gap-falta",
+      "title": "Практика: FALTA",
+      "description": "Вставь правильную форму глагола faltar",
+      "sentences": [
+        { "text": "Creo que ___ pimiento para la ensalada.", "ru": "Думаю, не хватает перца для салата", "answer": "falta", "options": ["falta", "faltan", "queda"] },
+        { "text": "¿Qué ___ para la cena?", "ru": "Чего не хватает для ужина?", "answer": "falta", "options": ["falta", "faltan", "hay"] },
+        { "text": "Me ___ las cebollas.", "ru": "Мне не хватает лука", "answer": "faltan", "options": ["faltan", "falta", "tengo"] },
+        { "text": "¿Nos ___ pan?", "ru": "Нам не хватает хлеба?", "answer": "falta", "options": ["falta", "faltan", "dan"] }
+      ]
+    },
+    {
+      "type": "fill-gap-comparativo",
+      "title": "Практика: сравнительная степень",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "En la frutería la fruta es ___ fresca.", "ru": "Во фруктовом магазине фрукты свежее", "answer": "más", "options": ["más", "menos", "muy"] },
+        { "text": "Aquí la fruta es más ___ que en la frutería.", "ru": "Здесь фрукты дороже, чем во фруктовом магазине", "answer": "cara", "options": ["cara", "carísima", "caras"] },
+        { "text": "El vino blanco es más ___ que la sidra.", "ru": "Белое вино дешевле сидра", "answer": "barato", "options": ["barato", "baratísimo", "barata"] },
+        { "text": "Yo tengo ___ dinero que tú.", "ru": "У меня меньше денег, чем у тебя", "answer": "menos", "options": ["menos", "más", "muy"] },
+        { "text": "Mi hermana es ___ joven que yo.", "ru": "Моя сестра моложе меня", "answer": "más", "options": ["más", "menos", "muy"] }
+      ]
+    },
+    {
+      "type": "fill-gap-superlativo",
+      "title": "Практика: превосходная степень",
+      "description": "Вставь правильную форму",
+      "sentences": [
+        { "text": "Aquí la fruta es ___.", "ru": "Здесь фрукты очень дорогие", "answer": "carísima", "options": ["carísima", "más cara", "caras"] },
+        { "text": "En la frutería la fruta es ___.", "ru": "Во фруктовом магазине фрукты очень дешёвые", "answer": "baratísima", "options": ["baratísima", "más barata", "baratas"] },
+        { "text": "Esta leche es ___.", "ru": "Это молоко очень свежее", "answer": "fresquísima", "options": ["fresquísima", "más fresca", "fresca"] },
+        { "text": "Este queso es ___.", "ru": "Этот сыр очень вкусный", "answer": "riquísimo", "options": ["riquísimo", "más rico", "rico"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика: покупки",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Creo que ___ pimiento para la ensalada.", "ru": "Думаю, не хватает перца для салата", "answer": "falta", "options": ["falta", "faltan", "tengo"] },
+        { "text": "Voy al mercado ___ comprar carne.", "ru": "Я иду на рынок за мясом", "answer": "a", "options": ["a", "en", "de"] },
+        { "text": "En la frutería la fruta es ___ barata.", "ru": "Во фруктовом магазине фрукты дешевле", "answer": "más", "options": ["más", "menos", "muy"] },
+        { "text": "Aquí la fruta es ___.", "ru": "Здесь фрукты очень дорогие", "answer": "carísima", "options": ["carísima", "más cara", "cara"] },
+        { "text": "Necesitamos un kilo y ___ de pollo.", "ru": "Нам нужно полтора килограмма курицы", "answer": "medio", "options": ["medio", "par", "botella"] },
+        { "text": "Sofía, tienes ___.", "ru": "София, ты права", "answer": "razón", "options": ["razón", "prisa", "suerte"] },
+        { "text": "En la nevera hay bastante ___.", "ru": "В холодильнике достаточно колбасных изделий", "answer": "embutido", "options": ["embutido", "vino", "fruta"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Отвечай на реплики Софии своим голосом"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Софией",
+      "role": "Sofía",
+      "description": "Теперь ты София — отвечай Карлосу"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Составь свой список покупок для ужина с семьёй",
+      "template": [
+        { "label": "Я иду за продуктами", "es": "Voy al mercado a ___" },
+        { "label": "Нам нужно", "es": "Necesitamos ___" },
+        { "label": "Не хватает", "es": "Falta ___" },
+        { "label": "Лучше купим", "es": "Mejor compramos ___" },
+        { "label": "Здесь очень дорого", "es": "Aquí es ___" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Cuánto pollo necesitan para la cena?",
+          "ru": "Сколько курицы им нужно для ужина?",
+          "options": ["Un kilo y medio", "Tres kilos", "Dos kilos", "Un kilo"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué falta para la ensalada?",
+          "ru": "Чего не хватает для салата?",
+          "options": ["Pimiento", "Cebolla", "Lechuga", "Tomate"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué hay en la nevera de Carlos?",
+          "ru": "Что в холодильнике у Карлоса?",
+          "options": ["Embutido, salami, queso y aceitunas", "Leche y agua", "Fruta fresca", "Vino y sidra"],
+          "answer": 0
+        },
+        {
+          "question": "¿Quién va a traer dos botellas de vino blanco?",
+          "ru": "Кто принесёт две бутылки белого вина?",
+          "options": ["La hermana de Carlos", "Sofía", "Carlos", "La madre de Carlos"],
+          "answer": 0
+        },
+        {
+          "question": "¿Por qué no compran fruta hoy?",
+          "ru": "Почему они не покупают фрукты сегодня?",
+          "options": ["Aquí la fruta es carísima", "No tienen ganas", "La frutería está cerrada", "No les gusta la fruta"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué más quiere comprar Sofía?",
+          "ru": "Что ещё хочет купить София?",
+          "options": ["Refrescos o sidra", "Vino tinto", "Dulces", "Fruta seca"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué carne le parece demasiado a Sofía?",
+          "ru": "Какое количество мяса кажется Софии слишком большим?",
+          "options": ["Cinco kilos de carne", "Tres kilos de cordero", "Un kilo y medio de pollo", "Dos kilos de cerdo"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить новые слова (еда, покупки, количества) в приложении",
+    "Практика: Найди партнёра на italki/Tandem и вместе составьте список покупок, используя ¿Falta...? / Mejor compramos...",
+    "Дневник: Напиши свой список продуктов с количеством на испанском (un kilo de, un par de, una botella de)",
+    "Грамматика: Напиши 4 сравнения цен, используя más... que и -ísimo"
+  ]
+}

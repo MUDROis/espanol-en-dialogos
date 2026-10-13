@@ -1,0 +1,746 @@
+{
+  "id": 73,
+  "title": "En la farmacia",
+  "titleRu": "В аптеке: что у вас болит",
+  "module": "a0-a1",
+  "block": 2,
+  "part": 2,
+  "blockTitle": "Часть 2 · Продолжение начального уровня",
+  "level": "A1",
+  "theme": "Аптека: симптомы и лекарство  En la farmacia: los síntomas y la medicina",
+  "mission": "Объяснить фармацевту, что и где болит, получить лекарство и понять инструкцию по приёму.",
+  "mapPoint": "Аптека на Пуэрта-дель-Соль",
+  "duration": "45 минут",
+  "stepsCount": 7,
+  "readingNote": "Прочитайте вслух весь диалог: duele — «дуэ-лэ», fiebre — «фье-брэ», garganta — «гар-ган-та».",
+  "characters": [
+    "olga",
+    "farmaceutico"
+  ],
+  "objectives": [
+    "Сказать, что болит: me duele la cabeza, me duele la garganta",
+    "Назвать симптомы: la fiebre, el resfriado",
+    "Попросить лекарство: necesito algo para el resfriado",
+    "Понять инструкцию по приёму: una pastilla al día, por la mañana",
+    "Спросить цену и поблагодарить: ¿cuánto es? — cinco euros con cuarenta"
+  ],
+  "grammar": {
+    "me_duele_el_cuerpo": {
+      "title": "Me duele + часть тела: формула жалобы",
+      "description": "Жалоба собирается как конструктор: me duele + [часть тела]. Me duele la cabeza (у меня болит голова), me duele la garganta (у меня болит горло), me duele el estómago (у меня болит живот). Ничего не спрягается — форма me duele даётся целиком. Важно не потерять артикль: он входит в слово — la cabeza, el estómago. На «вашей» стороне та же формула с le: le duele la garganta.",
+      "forms": {
+        "yo": {
+          "es": "me duele la cabeza",
+          "ru": "у меня болит голова"
+        },
+        "tu": {
+          "es": "¿qué le pasa?",
+          "ru": "что с вами?"
+        },
+        "el_ella": {
+          "es": "le duele la garganta",
+          "ru": "у него/неё болит горло"
+        },
+        "nosotros": {
+          "es": "nos duele el estómago",
+          "ru": "у нас болит живот"
+        }
+      },
+      "examples": [
+        {
+          "es": "Me duele la cabeza y me duele la garganta.",
+          "ru": "У меня болит голова и горло."
+        },
+        {
+          "es": "Me duele el estómago. No me duele la cabeza.",
+          "ru": "У меня болит живот. Голова не болит."
+        }
+      ]
+    },
+    "necesito_y_algo_para": {
+      "title": "Necesito + что нужно: necesito algo para…",
+      "description": "Вторая формула аптеки — necesito (мне нужно): necesito algo para el resfriado (мне нужно что-нибудь от простуды), necesito una medicina (мне нужно лекарство). Связка algo para… означает «что-нибудь от…»: algo para la garganta — от горла, algo para la fiebre — от температуры. Отдельно стоят симптомы-слова: la fiebre (температура), el resfriado (простуда).",
+      "list": [
+        {
+          "es": "necesito",
+          "ru": "мне нужно"
+        },
+        {
+          "es": "necesito algo para el resfriado",
+          "ru": "мне нужно что-нибудь от простуды"
+        },
+        {
+          "es": "necesito una medicina",
+          "ru": "мне нужно лекарство"
+        },
+        {
+          "es": "necesito la receta",
+          "ru": "мне нужен рецепт"
+        },
+        {
+          "es": "algo para la garganta",
+          "ru": "что-нибудь от горла"
+        },
+        {
+          "es": "tengo fiebre",
+          "ru": "у меня температура"
+        },
+        {
+          "es": "es un resfriado",
+          "ru": "это простуда"
+        }
+      ],
+      "examples": [
+        {
+          "es": "Necesito algo para el resfriado.",
+          "ru": "Мне нужно что-нибудь от простуды."
+        },
+        {
+          "es": "Tiene un resfriado. Le vendo una medicina para la garganta.",
+          "ru": "У вас простуда. Я продам вам лекарство от горла."
+        }
+      ]
+    },
+    "la_instruccion_en_la_farmacia": {
+      "title": "Инструкция и счёт: una pastilla al día",
+      "description": "Фармацевт объясняет приём лекарства целой фразой: tome esto — una pastilla al día, por la mañana (возьмите это: одна таблетка в день, утром). Ученик повторяет инструкцию вслух — это и есть проверка понимания. Дальше работает знакомая формула цены: ¿cuánto es? (сколько стоит?) — cinco euros con cuarenta (пять евро сорок). Пожелание фармацевта ¡que se ponga bien! (поправляйтесь!) — только для понимания.",
+      "list": [
+        {
+          "es": "la farmacia",
+          "ru": "аптека"
+        },
+        {
+          "es": "¿Tiene fiebre?",
+          "ru": "у вас температура?"
+        },
+        {
+          "es": "sí, un poco",
+          "ru": "да, немного"
+        },
+        {
+          "es": "tome esto",
+          "ru": "примите это"
+        },
+        {
+          "es": "una pastilla al día",
+          "ru": "одна таблетка в день"
+        },
+        {
+          "es": "por la mañana",
+          "ru": "утром"
+        },
+        {
+          "es": "¿cuánto es?",
+          "ru": "сколько стоит?"
+        },
+        {
+          "es": "cinco euros con cuarenta",
+          "ru": "пять евро сорок"
+        },
+        {
+          "es": "¡que se ponga bien!",
+          "ru": "поправляйтесь!"
+        }
+      ],
+      "examples": [
+        {
+          "es": "Una pastilla al día, por la mañana. Repito: por la mañana.",
+          "ru": "Одна таблетка в день, утром. Повторяю: утром."
+        },
+        {
+          "es": "Aquí tiene su medicina. ¡Que se ponga bien!",
+          "ru": "Вот ваше лекарство. Поправляйтесь!"
+        }
+      ]
+    }
+  },
+  "vocabulary": {
+    "la_farmacia": [
+      {
+        "es": "la farmacia",
+        "ru": "аптека"
+      },
+      {
+        "es": "la medicina",
+        "ru": "лекарство"
+      },
+      {
+        "es": "la pastilla",
+        "ru": "таблетка"
+      },
+      {
+        "es": "la receta",
+        "ru": "рецепт"
+      }
+    ],
+    "los_sintomas": [
+      {
+        "es": "me duele",
+        "ru": "у меня болит"
+      },
+      {
+        "es": "la cabeza",
+        "ru": "голова"
+      },
+      {
+        "es": "la garganta",
+        "ru": "горло"
+      },
+      {
+        "es": "el estómago",
+        "ru": "живот"
+      },
+      {
+        "es": "la fiebre",
+        "ru": "температура"
+      }
+    ],
+    "la_peticion": [
+      {
+        "es": "necesito",
+        "ru": "мне нужно"
+      },
+      {
+        "es": "algo para…",
+        "ru": "что-нибудь от…"
+      },
+      {
+        "es": "el resfriado",
+        "ru": "простуда"
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "El farmacéutico",
+      "es": "Buenas tardes. ¿Qué le pasa?",
+      "ru": "Добрый день. Что с вами?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Me duele la cabeza y me duele la garganta.",
+      "ru": "У меня болит голова и горло."
+    },
+    {
+      "speaker": "El farmacéutico",
+      "es": "¿Tiene fiebre?",
+      "ru": "У вас температура?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Sí, un poco.",
+      "ru": "Да, немного."
+    },
+    {
+      "speaker": "El farmacéutico",
+      "es": "Es un resfriado. ¿Necesita algo para la garganta?",
+      "ru": "Это простуда. Вам нужно что-нибудь от горла?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Sí, necesito algo para el resfriado. ¿Necesita la receta?",
+      "ru": "Да, мне нужно что-нибудь от простуды. Вам нужен рецепт?"
+    },
+    {
+      "speaker": "El farmacéutico",
+      "es": "No, no es necesario. Tome esto: una pastilla al día, por la mañana.",
+      "ru": "Нет, рецепт не нужен. Примите это: одна таблетка в день, утром."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Una pastilla al día, por la mañana. Repito: por la mañana.",
+      "ru": "Одна таблетка в день, утром. Повторяю: утром."
+    },
+    {
+      "speaker": "El farmacéutico",
+      "es": "Correcto. Aquí tiene su medicina.",
+      "ru": "Верно. Вот ваше лекарство."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Gracias. ¿Cuánto es?",
+      "ru": "Спасибо. Сколько стоит?"
+    },
+    {
+      "speaker": "El farmacéutico",
+      "es": "Cinco euros con cuarenta.",
+      "ru": "Пять евро сорок."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Aquí tiene. Muchas gracias.",
+      "ru": "Вот, пожалуйста. Большое спасибо."
+    },
+    {
+      "speaker": "El farmacéutico",
+      "es": "¡Que se ponga bien!",
+      "ru": "Поправляйтесь!"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Gracias. Hasta mañana.",
+      "ru": "Спасибо. До завтра."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между симптомом и средством",
+      "pairs": [
+        {
+          "es": "la farmacia",
+          "ru": "аптека"
+        },
+        {
+          "es": "me duele",
+          "ru": "у меня болит"
+        },
+        {
+          "es": "la cabeza",
+          "ru": "голова"
+        },
+        {
+          "es": "la garganta",
+          "ru": "горло"
+        },
+        {
+          "es": "el estómago",
+          "ru": "живот"
+        },
+        {
+          "es": "la fiebre",
+          "ru": "температура"
+        },
+        {
+          "es": "necesito",
+          "ru": "мне нужно"
+        },
+        {
+          "es": "algo para…",
+          "ru": "что-нибудь от…"
+        },
+        {
+          "es": "la medicina",
+          "ru": "лекарство"
+        },
+        {
+          "es": "la pastilla",
+          "ru": "таблетка"
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-me_duele_el_cuerpo",
+      "title": "Практика: me duele + часть тела",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Me ___ la cabeza.",
+          "ru": "У меня болит голова",
+          "answer": "duele",
+          "options": [
+            "duele",
+            "duelen",
+            "duelo"
+          ]
+        },
+        {
+          "text": "Me duele la ___.",
+          "ru": "У меня болит горло",
+          "answer": "garganta",
+          "options": [
+            "garganta",
+            "gracia",
+            "cabeza"
+          ]
+        },
+        {
+          "text": "Me ___ el estómago.",
+          "ru": "У меня болит живот",
+          "answer": "duele",
+          "options": [
+            "duele",
+            "duelo",
+            "duelan"
+          ]
+        },
+        {
+          "text": "A nosotros nos ___ las piernas.",
+          "ru": "У нас болят ноги",
+          "answer": "duelen",
+          "options": [
+            "duelen",
+            "duele",
+            "doler"
+          ]
+        },
+        {
+          "text": "A usted le ___ la garganta.",
+          "ru": "У вас болит горло",
+          "answer": "duele",
+          "options": [
+            "duele",
+            "me",
+            "te"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-necesito_y_algo_para",
+      "title": "Практика: necesito + algo para…",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "___ algo para el resfriado.",
+          "ru": "Мне нужно что-нибудь от простуды",
+          "answer": "Necesito",
+          "options": [
+            "Necesito",
+            "Necesita",
+            "Necesitan"
+          ]
+        },
+        {
+          "text": "Necesito una ___, por favor.",
+          "ru": "Мне нужно лекарство, пожалуйста",
+          "answer": "medicina",
+          "options": [
+            "medicina",
+            "medicamento",
+            "médico"
+          ]
+        },
+        {
+          "text": "Necesito algo ___ la garganta.",
+          "ru": "Мне нужно что-нибудь от горла",
+          "answer": "para",
+          "options": [
+            "para",
+            "por",
+            "con"
+          ]
+        },
+        {
+          "text": "¿Tiene ___ ?",
+          "ru": "У вас температура?",
+          "answer": "fiebre",
+          "options": [
+            "fiebre",
+            "sueño",
+            "sed"
+          ]
+        },
+        {
+          "text": "Es un ___.",
+          "ru": "Это простуда",
+          "answer": "resfriado",
+          "options": [
+            "resfriado",
+            "resfriar",
+            "resfrío"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-la_instruccion_en_la_farmacia",
+      "title": "Практика: инструкция по приёму и цена",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Tome esto: una pastilla al ___.",
+          "ru": "Примите это: одна таблетка в день",
+          "answer": "día",
+          "options": [
+            "día",
+            "semana",
+            "mes"
+          ]
+        },
+        {
+          "text": "Una pastilla ___ día, por la mañana.",
+          "ru": "Одна таблетка в день, утром",
+          "answer": "al",
+          "options": [
+            "al",
+            "el",
+            "a"
+          ]
+        },
+        {
+          "text": "___ la mañana",
+          "ru": "утром",
+          "answer": "Por",
+          "options": [
+            "Por",
+            "Para",
+            "De"
+          ]
+        },
+        {
+          "text": "Gracias. ¿Cuánto ___ ?",
+          "ru": "Спасибо. Сколько стоит?",
+          "answer": "es",
+          "options": [
+            "es",
+            "está",
+            "son"
+          ]
+        },
+        {
+          "text": "Cinco euros ___ cuarenta.",
+          "ru": "Пять евро сорок",
+          "answer": "con",
+          "options": [
+            "con",
+            "sin",
+            "para"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Buenas tardes. ¿Qué ___ pasa?",
+          "ru": "Добрый день. Что с вами?",
+          "answer": "le",
+          "options": [
+            "le",
+            "me",
+            "te"
+          ]
+        },
+        {
+          "text": "Me ___ la cabeza y la garganta.",
+          "ru": "У меня болит голова и горло",
+          "answer": "duele",
+          "options": [
+            "duele",
+            "gusta",
+            "hay"
+          ]
+        },
+        {
+          "text": "Sí, un poco. Tengo ___.",
+          "ru": "Да, немного. У меня температура",
+          "answer": "fiebre",
+          "options": [
+            "fiebre",
+            "frío",
+            "fortuna"
+          ]
+        },
+        {
+          "text": "___ algo para el resfriado, por favor.",
+          "ru": "Мне нужно что-нибудь от простуды, пожалуйста",
+          "answer": "Necesito",
+          "options": [
+            "Necesito",
+            "Quiero",
+            "Busco"
+          ]
+        },
+        {
+          "text": "Tome esto: una ___ al día.",
+          "ru": "Примите это: одна таблетка в день",
+          "answer": "pastilla",
+          "options": [
+            "pastilla",
+            "pasta",
+            "pastel"
+          ]
+        },
+        {
+          "text": "Aquí ___ su medicina.",
+          "ru": "Вот ваше лекарство",
+          "answer": "tiene",
+          "options": [
+            "tiene",
+            "tell",
+            "tengo"
+          ]
+        },
+        {
+          "text": "Cinco euros con cuarenta. Aquí ___.",
+          "ru": "Пять евро сорок. Вот, пожалуйста",
+          "answer": "tiene",
+          "options": [
+            "tiene",
+            "tengo",
+            "tomar"
+          ]
+        },
+        {
+          "text": "¡Que se ___ bien!",
+          "ru": "Поправляйтесь!",
+          "answer": "ponga",
+          "options": [
+            "ponga",
+            "pone",
+            "pongo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай и повторяй вслух: me duele la cabeza y me duele la garganta."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Ольгой",
+      "role": "Olga",
+      "description": "Ты — пациент: называешь два симптома, отвечаешь про температуру, повторяешь инструкцию и спрашиваешь цену"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь фармацевтом",
+      "role": "El farmacéutico",
+      "description": "Ты — фармацевт: спрашиваешь о симптомах, спрашиваешь про температуру, объясняешь приём лекарства и называешь цену"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Опиши симптомы и получи лекарство в аптеке",
+      "template": [
+        {
+          "label": "Что с вами?",
+          "es": "¿Qué ___ pasa?"
+        },
+        {
+          "label": "Болит голова и горло",
+          "es": "Me ___ la cabeza y la garganta."
+        },
+        {
+          "label": "У вас температура?",
+          "es": "¿Tiene ___ ?"
+        },
+        {
+          "label": "Мне нужно что-нибудь от простуды",
+          "es": "Necesito algo ___ el resfriado."
+        },
+        {
+          "label": "Сколько это стоит?",
+          "es": "¿Cuánto ___ ?"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "Se oye: «Me duele el estómago». ¿Qué duele?",
+          "ru": "Слышно: «Me duele el estómago». Что болит?",
+          "options": [
+            "La cabeza",
+            "La garganta",
+            "El estómago"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Se oye: «Una pastilla al día». ¿Qué significa?",
+          "ru": "Слышно: «Una pastilla al día». Что это значит?",
+          "options": [
+            "Одна таблетка в день",
+            "Две таблетки в день",
+            "Одна таблетка в неделю"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Elige la frase correcta: «У меня болит горло».",
+          "ru": "Выбери верную фразу: «У меня болит горло».",
+          "options": [
+            "Me gusta la garganta.",
+            "Me duele la garganta.",
+            "Necesito la garganta."
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo se lee fiebre?",
+          "ru": "Как читается fiebre?",
+          "options": [
+            "«фиэ-брэ»",
+            "«фье-брэ»",
+            "«фи-бе-ре»"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué responde Olga a la pregunta sobre la fiebre?",
+          "ru": "Что Ольга отвечает на вопрос о температуре?",
+          "options": [
+            "Sí, un poco",
+            "No, no tengo fiebre",
+            "No sé"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué pide Olga en la farmacia?",
+          "ru": "Что просит Ольга в аптеке?",
+          "options": [
+            "Algo para el resfriado",
+            "Un billete",
+            "La cuenta"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Necesita Olga la receta?",
+          "ru": "Нужна ли Ольге рецепт?",
+          "options": [
+            "Sí, la necesita",
+            "No, no es necesario",
+            "No habla de la receta"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuánto cuesta la medicina?",
+          "ru": "Сколько стоит лекарство?",
+          "options": [
+            "Cuatro euros con cincuenta",
+            "Cinco euros con cuarenta",
+            "Quince euros"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Cuando el farmacéutico dice «¡Que se ponga bien!», significa:",
+          "ru": "Когда фармацевт говорит «¡Que se ponga bien!», это значит:",
+          "options": [
+            "Поправляйтесь!",
+            "Сколько стоит?",
+            "Есть ли температура?"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    "Я говорю, что болит: me duele la cabeza / la garganta",
+    "Я называю симптомы: la fiebre, el resfriado",
+    "Я прошу лекарство: necesito algo para…",
+    "Я понимаю инструкцию: una pastilla al día, por la mañana",
+    "Я спрашиваю цену и благодарю: ¿cuánto es? — muchas gracias"
+  ],
+  "homework": [
+    "Выучи пять формул-симптомов и произнеси каждую вслух: me duele la cabeza, la garganta, el estómago, la fiebre, el resfriado",
+    "Прочитай вслух инструкцию целиком: «Una pastilla al día, por la mañana»",
+    "Повтори слова с дифтонгами ue и ie: duele, fiebre, resfriado, garganta",
+    "Через два дня повтори те же формулы ещё раз — это миссия безопасности для реальной поездки"
+  ]
+}

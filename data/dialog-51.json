@@ -1,0 +1,290 @@
+{
+  "id": 51,
+  "title": "Carmen y su vecina Laura hablan de los vecinos",
+  "titleRu": "Кармен и её соседка Лаура говорят о соседях",
+  "part": 6,
+  "level": "B2+",
+  "theme": "Соседи, шум, жалобы и советы  Los vecinos, el ruido, las quejas y los consejos",
+  "characters": ["carmen_madre", "laura_vecina"],
+  "objectives": [
+    "Говорить о соседях: los vecinos del quinto, la pareja joven, los niños pequeños, el pasillo",
+    "Жаловаться на шум: hacen mucho ruido, ponen la música muy alta, gritan por la noche",
+    "Давать советы с DEBERÍAS + infinitivo: deberías hablarles, no deberías llamar todavía",
+    "Использовать Es + adjetivo + QUE + subjuntivo: es normal que hagan ruido, es mejor que hables",
+    "Выражать условие с SI + indicativo + futuro: si siguen así, tendré que llamar al presidente",
+    "Описывать реакцию: darse cuenta de que molestan, no me atrevo, eso espero, eso haré"
+  ],
+  "grammar": {
+    "es_que_subjuntivo": {
+      "title": "Es + adjetivo + QUE + subjuntivo",
+      "description": "После es normal que..., es mejor que..., es importante que..., es increíble que... используется presentе de subjuntivo, чтобы выразить оценку ситуации: es normal que hagan ruido (нормально, что они шумят), es mejor que hables con ellos (лучше, чтобы ты поговорила с ними), es importante que no griten por la noche (важно, чтобы они не кричали по ночам).",
+      "forms": {
+        "yo": { "es": "es normal que yo haga ruido", "ru": "нормально, что я шумлю" },
+        "tu": { "es": "es mejor que hables con ellos", "ru": "лучше, чтобы ты поговорила с ними" },
+        "el_ella": { "es": "es normal que hagan ruido", "ru": "нормально, что они шумят" },
+        "nosotros": { "es": "es importante que hablemos primero", "ru": "важно, чтобы мы сначала поговорили" },
+        "vosotros": { "es": "es mejor que les digáis la verdad", "ru": "лучше, чтобы вы им сказали правду" },
+        "ellos_ellas": { "es": "es increíble que no se den cuenta", "ru": "невероятно, что они не замечают" }
+      },
+      "examples": [
+        { "es": "Es normal que hagan ruido, son niños.", "ru": "Нормально, что они шумят, они же дети." },
+        { "es": "Es mejor que hables con ellos primero.", "ru": "Лучше, чтобы ты сначала с ними поговорила." }
+      ]
+    },
+    "deberias": {
+      "title": "Consejos con DEBERÍAS + infinitivo",
+      "description": "DEBERÍAS + infinitivo — мягкий совет: deberías hablarles con educación (тебе стоит поговорить с ними вежливо), deberías esperar un poco (тебе стоит подождать). Также используется lo mejor es que hables primero (лучше всего сначала поговорить) и seguro que no se dan cuenta (наверняка они не замечают).",
+      "list": [
+        { "es": "deberías hablarles con educación", "ru": "тебе стоит поговорить с ними вежливо" },
+        { "es": "no deberías llamar todavía", "ru": "тебе пока не стоит звонить" },
+        { "es": "lo mejor es que hables primero", "ru": "лучше всего сначала поговорить" },
+        { "es": "seguro que no se dan cuenta de que molestan", "ru": "наверняка они не замечают, что мешают" },
+        { "es": "tendrías que avisarlos antes", "ru": "тебе следовало бы предупредить их раньше" }
+      ],
+      "examples": [
+        { "es": "Deberías hablarles con educación. Seguro que no se dan cuenta.", "ru": "Тебе стоит поговорить с ними вежливо. Наверняка они не замечают." },
+        { "es": "Lo mejor es que lo pienses antes de actuar.", "ru": "Лучше всего подумать, прежде чем действовать." }
+      ]
+    },
+    "si_futuro": {
+      "title": "Primer condicional real: SI + indicativo, futuro",
+      "description": "Структура si + presente indicativo, futuro описывает реальное условие: si siguen así, tendré que llamar al presidente (если так продолжится, мне придётся позвонить председателю), si hablas con ellos, seguro que lo entienden (если ты поговоришь с ними, они точно поймут), antes de eso, habla con ellos (но сначала поговори с ними — imperativo).",
+      "list": [
+        { "es": "si siguen así, tendré que llamar al presidente", "ru": "если так продолжится, мне придётся позвонить председателю" },
+        { "es": "si hablas con ellos, seguro que lo entienden", "ru": "если ты поговоришь с ними, они точно поймут" },
+        { "es": "antes de eso, habla con ellos", "ru": "но прежде чем это делать, поговори с ними" },
+        { "es": "eso haré", "ru": "так я и сделаю" },
+        { "es": "mañana les diré algo", "ru": "завтра я им кое-что скажу" }
+      ],
+      "examples": [
+        { "es": "Si siguen así, tendré que llamar al presidente de la comunidad.", "ru": "Если так продолжится, мне придётся позвонить председателю домкома." },
+        { "es": "Si hablas con ellos, seguro que lo entienden.", "ru": "Если ты поговоришь с ними, они точно поймут." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "los_vecinos_y_la_casa": [
+      { "es": "los vecinos", "ru": "соседи" },
+      { "es": "la vecina", "ru": "соседка" },
+      { "es": "la pareja joven", "ru": "молодая пара" },
+      { "es": "los niños pequeños", "ru": "маленькие дети" },
+      { "es": "el quinto (piso)", "ru": "пятый этаж" },
+      { "es": "el pasillo", "ru": "коридор" },
+      { "es": "el presidente de la comunidad", "ru": "председатель домкома" },
+      { "es": "los demás", "ru": "другие, прочие" }
+    ],
+    "el_ruido_y_el_conflicto": [
+      { "es": "el ruido", "ru": "шум" },
+      { "es": "hacer ruido", "ru": "шуметь" },
+      { "es": "gritar", "ru": "кричать" },
+      { "es": "correr por el pasillo", "ru": "бегать по коридору" },
+      { "es": "poner la música alta", "ru": "включать музыку громко" },
+      { "es": "molestar", "ru": "мешать" },
+      { "es": "darse cuenta de", "ru": "замечать, осознавать" },
+      { "es": "la educación", "ru": "вежливость, хорошее воспитание" }
+    ],
+    "los_verbos": [
+      { "es": "atreverse a", "ru": "осмеливаться" },
+      { "es": "hablar con educación", "ru": "говорить вежливо" },
+      { "es": "seguir", "ru": "продолжать" },
+      { "es": "llamar al presidente", "ru": "звонить председателю" },
+      { "es": "esperar", "ru": "надеяться" },
+      { "es": "el consejo", "ru": "совет" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Carmen", "es": "¿Has visto a los nuevos vecinos del quinto?", "ru": "Ты видела новых соседей с пятого этажа?" },
+    { "speaker": "Laura", "es": "Sí, son una pareja joven con dos niños pequeños. Parecen simpáticos.", "ru": "Да, это молодая пара с двумя маленькими детьми. Кажутся приятными." },
+    { "speaker": "Carmen", "es": "Sí, pero hacen mucho ruido. Los niños corren por el pasillo y gritan.", "ru": "Да, но они очень шумные. Дети бегают по коридору и кричат." },
+    { "speaker": "Laura", "es": "Bueno, son niños. Es normal que hagan ruido.", "ru": "Ну, они же дети. Нормально, что они шумят." },
+    { "speaker": "Carmen", "es": "Ya, pero también ponen la música muy alta por la noche.", "ru": "Да, но ещё они включают музыку очень громко по ночам." },
+    { "speaker": "Laura", "es": "¿Y has hablado con ellos?", "ru": "А ты с ними говорила?" },
+    { "speaker": "Carmen", "es": "Todavía no. No me atrevo.", "ru": "Пока нет. Не решаюсь." },
+    { "speaker": "Laura", "es": "Deberías hablarles con educación. Seguro que no se dan cuenta de que molestan.", "ru": "Тебе стоит поговорить с ними вежливо. Наверняка они не понимают, что мешают." },
+    { "speaker": "Carmen", "es": "Tienes razón. Mañana les diré algo.", "ru": "Ты права. Завтра скажу им что-нибудь." },
+    { "speaker": "Laura", "es": "Sí, es lo mejor. A veces la gente no se da cuenta de que molesta a los demás.", "ru": "Да, так будет лучше. Иногда люди не осознают, что мешают другим." },
+    { "speaker": "Carmen", "es": "Eso espero. Porque si siguen así, tendré que llamar al presidente de la comunidad.", "ru": "Надеюсь на это. Потому что если они не перестанут, мне придётся звонить председателю домкома." },
+    { "speaker": "Laura", "es": "Bueno, antes de eso, habla con ellos. Seguro que lo entienden.", "ru": "Ну, прежде чем это делать, поговори с ними. Уверена, они поймут." },
+    { "speaker": "Carmen", "es": "Sí, eso haré. Gracias por el consejo.", "ru": "Да, так и сделаю. Спасибо за совет." },
+    { "speaker": "Laura", "es": "De nada, mujer. Para eso estamos los vecinos.", "ru": "Не за что, дорогая. Для этого мы и соседи." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "los vecinos", "ru": "соседи" },
+        { "es": "la pareja joven", "ru": "молодая пара" },
+        { "es": "el pasillo", "ru": "коридор" },
+        { "es": "el ruido", "ru": "шум" },
+        { "es": "hacer ruido", "ru": "шуметь" },
+        { "es": "gritar", "ru": "кричать" },
+        { "es": "molestar", "ru": "мешать" },
+        { "es": "darse cuenta de", "ru": "замечать" },
+        { "es": "el consejo", "ru": "совет" },
+        { "es": "atreverse a", "ru": "осмеливаться" }
+      ]
+    },
+    {
+      "type": "fill-gap-es_que_subjuntivo",
+      "title": "Практика: Es + adjetivo + QUE + subjuntivo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Es normal que ___ ruido.", "ru": "Нормально, что они шумят", "answer": "hagan", "options": ["hagan", "hacen", "hacer"] },
+        { "text": "Es mejor que ___ primero.", "ru": "Лучше, чтобы ты сначала поговорила", "answer": "hables", "options": ["hables", "hablas", "hablar"] },
+        { "text": "Es importante que nosotros ___ con ellos.", "ru": "Важно, чтобы мы с ними поговорили", "answer": "hablemos", "options": ["hablemos", "hablamos", "hablar"] },
+        { "text": "Es increíble que no se ___ cuenta de que molestan.", "ru": "Невероятно, что они не замечают, что мешают", "answer": "den", "options": ["den", "dan", "dar"] },
+        { "text": "Es terrible que los niños ___ por el pasillo por la noche.", "ru": "Ужасно, что дети бегают по коридору ночью", "answer": "corran", "options": ["corran", "corren", "correr"] }
+      ]
+    },
+    {
+      "type": "fill-gap-deberias",
+      "title": "Практика: DEBERÍAS + infinitivo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "___ hablarles con educación.", "ru": "Тебе стоит поговорить с ними вежливо", "answer": "Deberías", "options": ["Deberías", "Deberías de", "Puedes"] },
+        { "text": "No deberías ___ todavía.", "ru": "Тебе пока не стоит звонить", "answer": "llamar", "options": ["llamar", "llamarme", "llama"] },
+        { "text": "Lo mejor es que ___ primero.", "ru": "Лучше всего сначала поговорить", "answer": "hables", "options": ["hables", "hablaras", "hablaste"] },
+        { "text": "___ que no se dan cuenta de que molestan.", "ru": "Наверняка они не замечают, что мешают", "answer": "Seguro", "options": ["Seguro", "Quizás", "Nunca"] },
+        { "text": "Tendrías que ___ a los vecinos antes.", "ru": "Тебе следовало бы предупредить соседей раньше", "answer": "avisar", "options": ["avisar", "avisaras", "avisa"] }
+      ]
+    },
+    {
+      "type": "fill-gap-si_futuro",
+      "title": "Практика: SI + indicativo, futuro",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Si siguen ___, tendré que llamar al presidente.", "ru": "Если так продолжится, мне придётся позвонить председателю", "answer": "así", "options": ["así", "igual", "luego"] },
+        { "text": "Si siguen así, ___ que llamar al presidente.", "ru": "Если так продолжится, мне придётся позвонить", "answer": "tendré", "options": ["tendré", "tendrá", "tenía"] },
+        { "text": "Si hablas con ellos, seguro que lo ___.", "ru": "Если ты поговоришь с ними, они точно поймут", "answer": "entienden", "options": ["entienden", "entendieron", "entenderán"] },
+        { "text": "Mañana les ___ algo.", "ru": "Завтра я им кое-что скажу", "answer": "diré", "options": ["diré", "digo", "deciré"] },
+        { "text": "Antes de eso, ___ con ellos.", "ru": "Но прежде чем это делать, поговори с ними", "answer": "habla", "options": ["habla", "hablar", "hablas"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Has visto a los nuevos ___ del quinto?", "ru": "Ты видела новых соседей с пятого этажа?", "answer": "vecinos", "options": ["vecinos", "amigos", "habitantes"] },
+        { "text": "Son una ___ joven con dos niños pequeños.", "ru": "Это молодая пара с двумя маленькими детьми", "answer": "pareja", "options": ["pareja", "familia", "guardia"] },
+        { "text": "Los niños corren por el ___ y gritan.", "ru": "Дети бегают по коридору и кричат", "answer": "pasillo", "options": ["pasillo", "tejado", "patio"] },
+        { "text": "Es normal que ___ ruido.", "ru": "Нормально, что они шумят", "answer": "hagan", "options": ["hagan", "hacen", "tengan"] },
+        { "text": "También ponen la música muy ___ por la noche.", "ru": "Они ещё включают музыку очень громко по ночам", "answer": "alta", "options": ["alta", "baja", "buena"] },
+        { "text": "No me ___ hablarles.", "ru": "Не решаюсь с ними поговорить", "answer": "atrevo", "options": ["atrevo", "atreví", "atreveré"] },
+        { "text": "___ hablarles con educación.", "ru": "Тебе стоит поговорить с ними вежливо", "answer": "Deberías", "options": ["Deberías", "Deberás", "Deberé"] },
+        { "text": "Seguro que no se dan ___ de que molestan.", "ru": "Наверняка они не замечают, что мешают", "answer": "cuenta", "options": ["cuenta", "cuento", "dados"] },
+        { "text": "Si siguen así, ___ que llamar al presidente de la comunidad.", "ru": "Если так продолжится, мне придётся позвонить председателю", "answer": "tendré", "options": ["tendré", "tendrá", "tendríamos"] },
+        { "text": "Gracias por el ___, Laura.", "ru": "Спасибо за совет, Лаура", "answer": "consejo", "options": ["consejo", "ruego", "encargo"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Кармен",
+      "role": "Carmen",
+      "description": "Ты — Кармен, жалуешься на шумных соседей и думаешь, что делать"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лаурой",
+      "role": "Laura",
+      "description": "Ты — Лаура, даёшь совет Кармен поговорить с соседями"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Посоветуй другу решить конфликт с соседями",
+      "template": [
+        { "label": "Ты видела новых соседей?", "es": "¿Has visto a los ___?" },
+        { "label": "Они очень шумные", "es": "Hacen mucho ___." },
+        { "label": "Нормально, что дети шумят", "es": "Es normal que ___ ruido." },
+        { "label": "Не решаюсь", "es": "No me ___." },
+        { "label": "Тебе стоит поговорить", "es": "___ hablarles con educación." },
+        { "label": "Они не замечают, что мешают", "es": "No se dan ___ de que molestan." },
+        { "label": "Если так продолжится", "es": "Si siguen ___, tendré que llamar." },
+        { "label": "Лучше поговори с ними", "es": "Lo ___ es que hables con ellos." },
+        { "label": "Завтра скажу им", "es": "Mañana les ___ algo." },
+        { "label": "Спасибо за совет", "es": "Gracias por el ___." }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿De qué piso son los nuevos vecinos?",
+          "ru": "С какого этажа новые соседи?",
+          "options": ["Del quinto", "Del primero", "Del tercero", "Del sótano"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo son los nuevos vecinos?",
+          "ru": "Какие новые соседи?",
+          "options": ["Una pareja joven con dos niños pequeños", "Una familia con un perro", "Un grupo de estudiantes", "Una señora mayor"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué hacen los niños?",
+          "ru": "Что делают дети?",
+          "options": ["Corren por el pasillo y gritan", "Juegan en el patio", "Escuchan música", "Llaman a la puerta"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué ponen los vecinos por la noche?",
+          "ru": "Что включают соседи по ночам?",
+          "options": ["La música muy alta", "La tele", "Las luces", "La radio en bajo"],
+          "answer": 0
+        },
+        {
+          "question": "¿Ha hablado Carmen ya con los vecinos?",
+          "ru": "Кармен уже говорила с соседями?",
+          "options": ["No, todavía no se atreve", "Sí, ayer", "Sí, por teléfono", "En absoluto porque no están"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué le recomienda Laura a Carmen?",
+          "ru": "Что советует Лаура Кармен?",
+          "options": ["Hablarles con educación", "Llamar a la policía", "Mudarse de casa", "Quejarse al presidente ya"],
+          "answer": 0
+        },
+        {
+          "question": "¿Por qué no se dan cuenta los vecinos según Laura?",
+          "ru": "Почему, по мнению Лауры, соседи не замечают?",
+          "options": ["Porque a veces la gente no se da cuenta de que molesta", "Porque son sordos", "Porque no les importa", "Porque están de viaje"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué hará Carmen si los vecinos siguen así?",
+          "ru": "Что сделает Кармен, если соседи продолжат?",
+          "options": ["Llamará al presidente de la comunidad", "Hablará con la policía", "Cambiará de casa", "Escribirá una queja"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué piensa hacer Carmen mañana?",
+          "ru": "Что Кармен собирается сделать завтра?",
+          "options": ["Decir algo a los vecinos", "Llamar a la policía", "Poner música alta", "Irse a vivir lejos"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué le agradece Carmen a Laura al final?",
+          "ru": "Что Кармен благодарит Лауру в конце?",
+          "options": ["El consejo", "La comida", "El dinero", "La ayuda con los niños"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повтори слова по теме «соседи, жалобы, советы»",
+    "Практика: расскажи о шумных соседах или проблеме в доме. Используй: es normal que..., deberías..., si... entonces...; no me atrevo...",
+    "Дневник: опиши конфликт с соседями (реальный или вымышленный) и как бы ты его решил(а)",
+    "Грамматика: составь 4 предложения с es + adjetivo + que + subjuntivo и 4 с si + presente, futuro"
+  ]
+}

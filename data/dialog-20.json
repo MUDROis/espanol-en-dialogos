@@ -1,0 +1,305 @@
+{
+  "id": 20,
+  "title": "Carlos y Luis planean un viaje",
+  "titleRu": "Карлос и Луис планируют поездку",
+  "part": 2,
+  "level": "A2",
+  "theme": "Поездка, достопримечательности, погода  El viaje, los lugares de interés, el tiempo",
+  "characters": ["carlos", "luis"],
+  "objectives": [
+    "Планировать поездку и обсуждать, что посетить (tenemos que, hay que, debemos)",
+    "Говорить о длительности: durar, tardar (el recorrido dura..., tardan 7 horas)",
+    "Употреблять безличное se (se puede alquilar, se puede visitar)",
+    "Выражать предположение (debe de ser muy interesante)",
+    "Обсуждать цены на билеты (cuesta 80 euros, la mitad) и прогноз погоды (el tiempo va a mejorar)"
+  ],
+  "grammar": {
+    "tener_que": {
+      "title": "Обязанность: TENER QUE, DEBER, HAY QUE",
+      "description": "TENER QUE + infinitivo — «должен сделать что-то» (спрягается), DEBER + infinitivo — то же значение, HAY QUE + infinitivo — безличное «надо, нужно». В диалоге: «Lo primero que debemos hacer...», «Tenemos que visitar la fortaleza», «Hay que visitar el Museo Ruso».",
+      "forms": {
+        "yo": { "es": "tengo que + infinitivo", "ru": "я должен ..." },
+        "tu": { "es": "tienes que + infinitivo", "ru": "ты должен ..." },
+        "el_ella": { "es": "tiene que + infinitivo", "ru": "он/она должен ..." },
+        "nosotros": { "es": "tenemos que + infinitivo", "ru": "мы должны ..." },
+        "vosotros": { "es": "tenéis que + infinitivo", "ru": "вы должны ..." },
+        "ellos_ellas": { "es": "tienen que + infinitivo", "ru": "они должны ..." }
+      },
+      "examples": [
+        { "es": "Lo primero que debemos hacer es visitar el Museo del Hermitage y la Catedral de San Isaac.", "ru": "Первое, что мы должны сделать — посетить Эрмитаж и Исаакиевский собор." },
+        { "es": "Tenemos que visitar la fortaleza de San Pedro y San Pablo.", "ru": "Мы должны посетить Петропавловскую крепость." },
+        { "es": "Además hay que visitar el Museo Ruso, tiene buena fama.", "ru": "Кроме того, нужно сходить в Русский музей, у него хорошая репутация." }
+      ]
+    },
+    "duracion": {
+      "title": "Сколько это длится: DURAR и TARDAR",
+      "description": "DURAR — «длиться» (о времени), TARDAR — «занимать время, чтобы добраться»: el recorrido dura unas dos horas y media — «прогулка длится около двух с половиной часов»; tardan 7 horas en llegar — «им нужно 7 часов, чтобы добраться».",
+      "list": [
+        { "es": "el recorrido dura unas dos horas y media", "ru": "прогулка длится около двух с половиной часов" },
+        { "es": "4 horas de viaje", "ru": "четыре часа в пути" },
+        { "es": "tardan 7 horas en llegar", "ru": "им нужно 7 часов, чтобы добраться" },
+        { "es": "trenes que van por el día", "ru": "дневные поезда" }
+      ],
+      "examples": [
+        { "es": "Un recorrido dura unas dos horas y media.", "ru": "Прогулка длится около двух с половиной часов." },
+        { "es": "Hay trenes que tardan 7 horas en llegar, pero los pasajes ya son mucho más baratos.", "ru": "Есть поезда, которым нужно 7 часов, но билеты уже гораздо дешевле." }
+      ]
+    },
+    "se_impersonal": {
+      "title": "Безличные предложения с SE",
+      "description": "SE + глагол в 3-м лице = «можно, кто-то делает»: se puede + infinitivo (можно + инфинитив), se visita (посещают). Не указывает, кто именно выполняет действие.",
+      "list": [
+        { "es": "se puede alquilar una bicicleta", "ru": "можно арендовать велосипед" },
+        { "es": "se puede recorrer la isla", "ru": "можно объехать остров" },
+        { "es": "se puede dar un paseo por el río", "ru": "можно прогуляться по реке" },
+        { "es": "se puede visitar el museo", "ru": "можно посетить музей" }
+      ],
+      "examples": [
+        { "es": "Se puede alquilar una bicicleta y recorrer la isla si hace buen tiempo y no llueve.", "ru": "Можно арендовать велосипед и объехать остров, если будет хорошая погода и не будет дождя." }
+      ]
+    },
+    "debe_de": {
+      "title": "Предположение: DEBER DE + infinitivo",
+      "description": "DEBER DE + infinitivo — «должно быть, наверное»: выражает предположение, а не обязанность. debe de ser muy interesante — «это, должно быть, очень интересно».",
+      "list": [
+        { "es": "debe de ser un viaje muy interesante", "ru": "это, должно быть, очень интересная поездка" },
+        { "es": "debe de ser barato", "ru": "это, должно быть, дёшево" },
+        { "es": "debe de estar cansado", "ru": "он, должно быть, устал" },
+        { "es": "debe de llover", "ru": "должно быть, будет дождь" }
+      ],
+      "examples": [
+        { "es": "De todos modos, debe de ser un viaje muy interesante.", "ru": "В любом случае, это должна быть очень интересная поездка." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "lugares": [
+      { "es": "el Museo del Hermitage", "ru": "Эрмитаж" },
+      { "es": "la Catedral de San Isaac", "ru": "Исаакиевский собор" },
+      { "es": "la fortaleza de San Pedro y San Pablo", "ru": "Петропавловская крепость" },
+      { "es": "el Museo Ruso", "ru": "Русский музей" },
+      { "es": "el parque de Catalina", "ru": "Екатерининский парк" },
+      { "es": "el palacio", "ru": "дворец" },
+      { "es": "los jardines", "ru": "сады" },
+      { "es": "la avenida Nevski", "ru": "Невский проспект" },
+      { "es": "la isla", "ru": "остров" },
+      { "es": "las exposiciones", "ru": "выставки" }
+    ],
+    "viaje": [
+      { "es": "la información", "ru": "информация" },
+      { "es": "dar un paseo por el río", "ru": "прогуляться по реке" },
+      { "es": "el barco", "ru": "кораблик, катер" },
+      { "es": "el recorrido", "ru": "прогулка, маршрут" },
+      { "es": "alquilar una bicicleta", "ru": "взять напрокат велосипед" },
+      { "es": "el pasaje de ida y vuelta", "ru": "билет туда-обратно" },
+      { "es": "el tren rápido", "ru": "скоростной поезд" },
+      { "es": "tardar", "ru": "занимать время (в пути)" },
+      { "es": "gastar dinero", "ru": "тратить деньги" },
+      { "es": "montar en bici", "ru": "кататься на велосипеде" }
+    ],
+    "tiempo_ciudad": [
+      { "es": "la mitad", "ru": "половина" },
+      { "es": "a prisas", "ru": "в спешке" },
+      { "es": "la semana que viene", "ru": "на следующей неделе" },
+      { "es": "estar nublado", "ru": "быть облачным, пасмурным" },
+      { "es": "llovizna", "ru": "моросит дождь" },
+      { "es": "tener suerte", "ru": "повезти" },
+      { "es": "el tiempo va a mejorar", "ru": "погода улучшится" },
+      { "es": "hacer fotos", "ru": "делать фотографии" },
+      { "es": "la cámara de fotos", "ru": "фотоаппарат" },
+      { "es": "hace buen tiempo y no llueve", "ru": "хорошая погода и не идёт дождь" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Carlos", "es": "Aquí tienes toda la información sobre San Petersburgo.", "ru": "Здесь вся информация о Санкт-Петербурге." },
+    { "speaker": "Luis", "es": "Yo también tengo algo... Lo primero que debemos hacer es visitar el Museo del Hermitage y la Catedral de San Isaac.", "ru": "У меня тоже кое-что есть. Первое, что мы должны сделать — посетить Эрмитаж и Исаакиевский собор." },
+    { "speaker": "Carlos", "es": "Por supuesto. Hay mucho que ver allí. Mira, también quiero dar un paseo por el río Neva. Aquí puedes ver los horarios de los barcos. Un recorrido dura unas dos horas y media.", "ru": "Конечно. Там много что посмотреть. Слушай, я также хочу совершить прогулку по Неве. Здесь можешь посмотреть расписание корабликов. Прогулка длится около двух с половиной часов." },
+    { "speaker": "Luis", "es": "Ah, ya veo. Mira, podemos dar un paseo por el parque de Catalina, en Tsárskoye Seló. Es enorme y muy bonito, allí podemos ver el palacio y unos jardines espectaculares.", "ru": "Ага, вижу. Смотри, можем прогуляться в Екатерининском парке в Царском Селе. Он огромный и очень красивый, там увидим дворец и потрясающие сады." },
+    { "speaker": "Carlos", "es": "Claro. ¿Qué más, qué más...? Tenemos que visitar la fortaleza de San Pedro y San Pablo.", "ru": "Да. Что ещё, что ещё... Мы должны посетить Петропавловскую крепость." },
+    { "speaker": "Luis", "es": "¿Qué tiene?", "ru": "Что там?" },
+    { "speaker": "Carlos", "es": "Aquí escriben que tiene una catedral muy impresionante, además hay muchas exposiciones y museos. Se puede alquilar una bicicleta y recorrer la isla si hace buen tiempo y no llueve.", "ru": "Здесь пишут, что там есть очень впечатляющий собор, к тому же много выставок и музеев. Можно арендовать велосипед и покататься по острову, если будет хорошая погода и не будет дождя." },
+    { "speaker": "Luis", "es": "Sí, suena interesante. Pero no sé montar muy bien en bici... Bueno, vamos a pensar en esto luego.", "ru": "Да, звучит интересно. Но я не очень умею кататься на велосипеде... Ладно, подумаем об этом потом." },
+    { "speaker": "Carlos", "es": "Bueno, además hay que visitar el Museo Ruso, tiene buena fama.", "ru": "Ну, кроме того, нужно сходить в Русский музей, у него хорошая репутация." },
+    { "speaker": "Luis", "es": "Está bien. También quiero dar una vuelta por la avenida Nevski.", "ru": "Хорошо. А я ещё хочу прогуляться по Невскому проспекту." },
+    { "speaker": "Carlos", "es": "Sí, es la avenida principal y turística, cerca del Hermitage.", "ru": "Да, это главный туристический проспект, около Эрмитажа." },
+    { "speaker": "Luis", "es": "Oye, vamos a viajar seis días, ¿qué crees, tenemos tiempo para ver Moscú?", "ru": "Слушай, мы будем путешествовать шесть дней... Как думаешь, у нас будет время, чтобы увидеть Москву?" },
+    { "speaker": "Carlos", "es": "A ver... Hay trenes que van por el día, 4 horas de viaje. Hay otros, que tardan 7 horas en llegar, pero los pasajes ya son mucho más baratos.", "ru": "Сейчас посмотрим... Есть дневные поезда, которые идут 4 часа. Есть другие — 7 часов, но билеты уже гораздо дешевле." },
+    { "speaker": "Luis", "es": "¿Cuánto valen?", "ru": "Почём они?" },
+    { "speaker": "Carlos", "es": "Pues, para el tren rápido, un pasaje de ida y vuelta cuesta 80 euros. Para el otro... La mitad, 40 euros.", "ru": "Так, на быстрый поезд билет туда-обратно стоит 80 евро. На второй... Вдвое дешевле, 40 евро." },
+    { "speaker": "Luis", "es": "No quiero gastar tanto dinero y hacer todo a prisas. Mejor no vamos.", "ru": "Не хочу тратить столько денег и всё делать в спешке. Лучше не поедем." },
+    { "speaker": "Carlos", "es": "Sí, estoy de acuerdo. De todos modos, debe de ser un viaje muy interesante.", "ru": "Да, согласен. В любом случае, это должна быть очень интересная поездка." },
+    { "speaker": "Luis", "es": "Pero mira, esta semana en San Petersburgo está muy nublado y llovizna.", "ru": "Но смотри, на этой неделе в Санкт-Петербурге очень облачно и моросит дождь." },
+    { "speaker": "Carlos", "es": "Sí, lo sé. Creo que la semana que viene vamos a tener suerte y el tiempo va a mejorar. Espero hacer buenas fotos.", "ru": "Да, знаю. Думаю, на следующей неделе нам повезёт, и погода улучшится. Надеюсь сделать хорошие фотографии." },
+    { "speaker": "Luis", "es": "Sí, me voy a llevar la nueva cámara de fotos.", "ru": "Да, я возьму с собой новый фотоаппарат." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "la fortaleza", "ru": "крепость" },
+        { "es": "el palacio", "ru": "дворец" },
+        { "es": "el barco", "ru": "кораблик, катер" },
+        { "es": "el pasaje de ida y vuelta", "ru": "билет туда-обратно" },
+        { "es": "alquilar una bicicleta", "ru": "взять напрокат велосипед" },
+        { "es": "la llovizna", "ru": "морось, мелкий дождь" },
+        { "es": "la cámara de fotos", "ru": "фотоаппарат" },
+        { "es": "la mitad", "ru": "половина" }
+      ]
+    },
+    {
+      "type": "fill-gap-tener_que",
+      "title": "Практика: TENEMOS QUE / HAY QUE",
+      "description": "Вставь правильную форму",
+      "sentences": [
+        { "text": "Lo primero que ___ hacer es visitar el Hermitage.", "ru": "Первое, что мы должны сделать — посетить Эрмитаж", "answer": "debemos", "options": ["debemos", "debes", "tiene"] },
+        { "text": "___ que visitar la fortaleza de San Pedro y San Pablo.", "ru": "Мы должны посетить Петропавловскую крепость", "answer": "Tenemos", "options": ["Tenemos", "Tienes", "Hay"] },
+        { "text": "Además ___ que visitar el Museo Ruso.", "ru": "Кроме того, нужно сходить в Русский музей", "answer": "hay", "options": ["hay", "tengo", "debo"] },
+        { "text": "¿Qué ___ que hacer el lunes?", "ru": "Что тебе нужно сделать в понедельник?", "answer": "tienes", "options": ["tienes", "tiene", "tenéis"] },
+        { "text": "Mi amiga ___ que comprar los pasajes.", "ru": "Моей подруге нужно купить билеты", "answer": "tiene", "options": ["tiene", "tienen", "tienes"] }
+      ]
+    },
+    {
+      "type": "fill-gap-duracion",
+      "title": "Практика: DURAR и TARDAR",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Un recorrido ___ unas dos horas y media.", "ru": "Прогулка длится около двух с половиной часов", "answer": "dura", "options": ["dura", "tarda", "lleva"] },
+        { "text": "Hay trenes que ___ 7 horas en llegar.", "ru": "Есть поезда, которым нужно 7 часов, чтобы добраться", "answer": "tardan", "options": ["tardan", "duran", "pagan"] },
+        { "text": "Hay trenes que van por el ___ .", "ru": "Есть дневные поезда", "answer": "día", "options": ["día", "año", "noche"] },
+        { "text": "Tenemos cuatro horas de ___ .", "ru": "У нас четыре часа в пути", "answer": "viaje", "options": ["viaje", "tren", "suerte"] },
+        { "text": "El recorrido dura unas dos horas y ___ .", "ru": "Прогулка длится около двух с половиной часов", "answer": "media", "options": ["media", "partida", "menos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-se_impersonal",
+      "title": "Практика: SE + можно",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "___ puede alquilar una bicicleta.", "ru": "Можно арендовать велосипед", "answer": "Se", "options": ["Se", "Te", "Me"] },
+        { "text": "Se puede ___ la isla.", "ru": "Можно объехать остров", "answer": "recorrer", "options": ["recorrer", "comprar", "durar"] },
+        { "text": "Se ___ dar un paseo por el río Neva.", "ru": "Можно прогуляться по Неве", "answer": "puede", "options": ["puede", "puedes", "podemos"] },
+        { "text": "Se puede ___ el Museo Ruso.", "ru": "Можно посетить Русский музей", "answer": "visitar", "options": ["visitar", "tardar", "gastar"] },
+        { "text": "Se puede alquilar una ___ en la isla.", "ru": "На острове можно арендовать велосипед", "answer": "bicicleta", "options": ["bicicleta", "cámara", "entrada"] }
+      ]
+    },
+    {
+      "type": "fill-gap-debe_de",
+      "title": "Практика: DEBER DE (предположение)",
+      "description": "Вставь форму глагола deber",
+      "sentences": [
+        { "text": "De todos modos, ___ de ser un viaje muy interesante.", "ru": "В любом случае, это, должно быть, очень интересная поездка", "answer": "debe", "options": ["debe", "debo", "debemos"] },
+        { "text": "Las entradas del museo ___ de ser caras.", "ru": "Билеты в музей, должно быть, дорогие", "answer": "deben", "options": ["deben", "debe", "debo"] },
+        { "text": "Yo ___ de comprar el pasaje esta semana.", "ru": "Я, наверное, куплю билет на этой неделе", "answer": "debo", "options": ["debo", "debe", "debemos"] },
+        { "text": "El palacio ___ de ser muy antiguo.", "ru": "Дворец, должно быть, очень старинный", "answer": "debe", "options": ["debe", "debes", "deben"] },
+        { "text": "Luis y Carlos ___ de estar muy cansados.", "ru": "Луис и Карлос, должно быть, очень устали", "answer": "deben", "options": ["deben", "debe", "debo"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Lo primero que ___ hacer es visitar el Hermitage.", "ru": "Первое, что мы должны сделать — посетить Эрмитаж", "answer": "debemos", "options": ["debemos", "duran", "puedes"] },
+        { "text": "Un recorrido en barco ___ unas dos horas y media.", "ru": "Прогулка на кораблике длится около двух с половиной часов", "answer": "dura", "options": ["dura", "tarda", "cuesta"] },
+        { "text": "___ puede alquilar una bicicleta en la fortaleza.", "ru": "В крепости можно арендовать велосипед", "answer": "Se", "options": ["Se", "Te", "De"] },
+        { "text": "Un pasaje de ida y ___ cuesta 80 euros.", "ru": "Билет туда-обратно стоит 80 евро", "answer": "vuelta", "options": ["vuelta", "media", "otra"] },
+        { "text": "De todos modos, ___ de ser un viaje muy interesante.", "ru": "В любом случае, это, должно быть, очень интересная поездка", "answer": "debe", "options": ["debe", "deben", "debeis"] },
+        { "text": "La semana que viene el tiempo ___ a mejorar.", "ru": "На следующей неделе погода улучшится", "answer": "va", "options": ["va", "vamos", "debe"] },
+        { "text": "No quiero gastar tanto dinero y hacer todo a ___ .", "ru": "Не хочу тратить столько денег и всё делать в спешке", "answer": "prisas", "options": ["prisas", "noche", "lado"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Показывай другу достопримечательности и предлагай план поездки"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Луисом",
+      "role": "Luis",
+      "description": "Теперь ты Луис — спрашивай про цены, время и погоду"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Обсуди с другом план поездки на выходные",
+      "template": [
+        { "label": "Первое, что мы должны сделать", "es": "Lo primero que ___ hacer es..." },
+        { "label": "Мы должны посетить", "es": "Tenemos que visitar ___" },
+        { "label": "Прогулка длится", "es": "El recorrido dura ___" },
+        { "label": "Можно арендовать", "es": "Se puede alquilar ___" },
+        { "label": "Билет туда-обратно стоит", "es": "El pasaje de ida y vuelta cuesta ___" },
+        { "label": "Должно быть, это очень интересно", "es": "Debe de ser muy ___" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Qué es lo primero que quieren visitar?",
+          "ru": "Что они хотят посетить в первую очередь?",
+          "options": ["El Hermitage y la Catedral de San Isaac", "El Museo Ruso", "La fortaleza", "El parque de Catalina"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuánto dura un recorrido en barco por el río Neva?",
+          "ru": "Сколько длится прогулка на кораблике по Неве?",
+          "options": ["Media hora", "Siete horas", "Unas dos horas y media", "Cuatro horas"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué hay en el parque de Catalina, en Tsárskoye Seló?",
+          "ru": "Что находится в Екатерининском парке в Царском Селе?",
+          "options": ["Un palacio y unos jardines espectaculares", "Un museo de arte", "La Catedral de San Isaac", "Una torre"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué se puede alquilar en la fortaleza?",
+          "ru": "Что можно арендовать в крепости?",
+          "options": ["Un barco", "Una bicicleta", "Un coche", "Una cámara de fotos"],
+          "answer": 1
+        },
+        {
+          "question": "¿A dónde quiere dar una vuelta Luis?",
+          "ru": "Где хочет прогуляться Луис?",
+          "options": ["Por la avenida Nevski", "Por la fortaleza", "Por el río Neva", "Por la estación"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuánto cuesta un pasaje de ida y vuelta en el tren rápido?",
+          "ru": "Сколько стоит билет туда-обратно на скоростной поезд?",
+          "options": ["40 euros", "120 euros", "80 euros", "20 euros"],
+          "answer": 2
+        },
+        {
+          "question": "¿Por qué deciden no ir a Moscú?",
+          "ru": "Почему они решают не ехать в Москву?",
+          "options": ["No quieren gastar tanto dinero y hacer todo a prisas", "No hay trenes", "Hace mal tiempo", "No tienen tiempo"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué tiempo hace esta semana en San Petersburgo?",
+          "ru": "Какая погода на этой неделе в Санкт-Петербурге?",
+          "options": ["Hace mucho calor", "Nieva", "Está muy nublado y llovizna", "Hace buen tiempo"],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить новые слова (город, поездка, погода) в приложении",
+    "Практика: Расскажи партнёру (italki/Tandem), куда ты хочешь поехать: tenemos que ..., se puede ..., el viaje dura ... horas, debe de ser ...",
+    "Дневник: Составь план поездки на 6 дней: что посетить, сколько длится дорога, сколько стоят билеты",
+    "Грамматика: Напиши 3 предложения с tener que / hay que, 2 с se puede + infinitivo и 2 с debe de + infinitivo"
+  ]
+}

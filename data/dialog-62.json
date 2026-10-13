@@ -1,0 +1,711 @@
+{
+  "id": 62,
+  "title": "¿De dónde eres?",
+  "titleRu": "Откуда ты? Страна, город, национальность",
+  "module": "a0-a1",
+  "block": 1,
+  "part": 1,
+  "blockTitle": "Часть 1 · Начальный уровень",
+  "level": "A0",
+  "theme": "Страна, город и национальность  El país, la ciudad y la nacionalidad",
+  "mission": "Рассказать новым знакомым в парке, откуда вы и где живёте, и спросить то же самое у них.",
+  "mapPoint": "Парк Турия: прогулка и знакомства",
+  "duration": "45 минут",
+  "stepsCount": 7,
+  "readingNote": "Прочитайте реплики знакомства вслух: следите за раскатистым r в Rusia, rusa, Roberto и за rr в perro.",
+  "characters": [
+    "olga",
+    "roberto"
+  ],
+  "objectives": [
+    "Спросить и ответить, откуда человек: ¿de dónde eres? — soy de…",
+    "Сказать, где живёшь: vivo en…",
+    "Назвать национальность и страну: soy rusa, soy de Rusia",
+    "Писать национальности со строчной буквы: rusa, español",
+    "Читать слова с раскатистым r и буквы w, k в заимствованиях"
+  ],
+  "readingMini": {
+    "title": "R y rr: раскатистое [р]",
+    "description": "Буква r в начале слова и сочетание rr звучат раскатисто: Rusia, rusa, Roberto, perro. Русскоязычные обычно дают мягкое [рь] — это главная звуковая работа урока. Требования «настоящего» раската нет: важно убрать русскую мягкость. Буквы w и k встречаются только в заимствованиях: wifi, kilo.",
+    "words": [
+      {
+        "es": "Rusia",
+        "how": "«Ру́с-сиа» — r раскатистое в начале слова"
+      },
+      {
+        "es": "rusa",
+        "how": "«ру́-са» — r раскатистое"
+      },
+      {
+        "es": "Roberto",
+        "how": "«Ро-бе́р-то» — первая и третья r раскатистые"
+      },
+      {
+        "es": "perro",
+        "how": "«пе́-рро» — rr раскатистое"
+      },
+      {
+        "es": "wifi",
+        "how": "«уи́-фи» — w в заимствовании"
+      },
+      {
+        "es": "kilo",
+        "how": "«ки́-ло» — k в заимствовании"
+      }
+    ]
+  },
+  "grammar": {
+    "soy_de": {
+      "title": "Soy de… — откуда ты",
+      "description": "Вопрос о происхождении — ¿De dónde eres? (откуда ты?). Ответ строится так: soy de + страна, soy de + город. Названия стран пишутся с большой буквы: Rusia, España, Alemania, Francia. Можно назвать и страну, и город в одной фразе: Soy de Rusia, de Moscú.",
+      "list": [
+        {
+          "es": "¿De dónde eres?",
+          "ru": "откуда ты?"
+        },
+        {
+          "es": "Soy de Rusia.",
+          "ru": "я из России"
+        },
+        {
+          "es": "Soy de España.",
+          "ru": "я из Испании"
+        },
+        {
+          "es": "Soy de Alemania.",
+          "ru": "я из Германии"
+        },
+        {
+          "es": "Soy de Francia.",
+          "ru": "я из Франции"
+        },
+        {
+          "es": "Soy de Rusia, de Moscú.",
+          "ru": "я из России, из Москвы"
+        }
+      ],
+      "examples": [
+        {
+          "es": "— ¿De dónde eres? — Soy de Rusia, de Moscú.",
+          "ru": "— Откуда ты? — Я из России, из Москвы."
+        },
+        {
+          "es": "Roberto es de España, de Valencia.",
+          "ru": "Роберто из Испании, из Валенсии."
+        }
+      ]
+    },
+    "ser_nacionalidad": {
+      "title": "Soy + национальность: soy rusa / soy ruso",
+      "description": "Национальность — это soy + название: soy rusa (я русская), soy ruso (я русский). В испанском национальность пишется со строчной буквы: rusa, español — контраст с русским языком проговаривается на экране. Форму выбирает говорящий: женщина — rusa, мужчина — ruso; это работает так же, как encantado / encantada в уроке 2.",
+      "forms": {
+        "yo": {
+          "es": "Soy rusa",
+          "ru": "я русская"
+        },
+        "tu": {
+          "es": "Eres ruso",
+          "ru": "ты русский"
+        },
+        "el_ella": {
+          "es": "Es española",
+          "ru": "она испанка"
+        },
+        "nosotros": {
+          "es": "Somos españoles",
+          "ru": "мы испанцы"
+        }
+      },
+      "examples": [
+        {
+          "es": "Olga es rusa.",
+          "ru": "Ольга — русская."
+        },
+        {
+          "es": "Yo soy ruso, pero vivo en España.",
+          "ru": "Я русский, но живу в Испании."
+        }
+      ]
+    },
+    "vivo_en": {
+      "title": "Vivo en… — где ты живёшь",
+      "description": "Город и страна после vivo — только en: vivo en Valencia, vivo en Madrid. Вопрос: ¿Dónde vives? (где ты живёшь?), ответ: Vivo en Valencia. Не путайте две схемы: soy de + страна, pero vivo en + город. Слово ahora (теперь) показывает изменение: antes vivía en Rusia, ahora vivo en Valencia.",
+      "list": [
+        {
+          "es": "¿Dónde vives?",
+          "ru": "где ты живёшь?"
+        },
+        {
+          "es": "Vivo en Valencia.",
+          "ru": "я живу в Валенсии"
+        },
+        {
+          "es": "Vivo en Madrid.",
+          "ru": "я живу в Мадриде"
+        },
+        {
+          "es": "Vivo en Valencia ahora.",
+          "ru": "я сейчас живу в Валенсии"
+        },
+        {
+          "es": "la ciudad",
+          "ru": "город"
+        },
+        {
+          "es": "ahora",
+          "ru": "теперь"
+        }
+      ],
+      "examples": [
+        {
+          "es": "— ¿Dónde vives ahora? — Vivo en Valencia.",
+          "ru": "— Где ты теперь живёшь? — Я живу в Валенсии."
+        },
+        {
+          "es": "Soy de Rusia, pero vivo en Valencia.",
+          "ru": "Я из России, но живу в Валенсии."
+        }
+      ]
+    }
+  },
+  "vocabulary": {
+    "los_paises": [
+      {
+        "es": "Rusia",
+        "ru": "Россия"
+      },
+      {
+        "es": "España",
+        "ru": "Испания"
+      },
+      {
+        "es": "Alemania",
+        "ru": "Германия"
+      },
+      {
+        "es": "Francia",
+        "ru": "Франция"
+      }
+    ],
+    "las_nacionalidades": [
+      {
+        "es": "ruso / rusa",
+        "ru": "русский / русская"
+      },
+      {
+        "es": "español / española",
+        "ru": "испанец / испанка"
+      }
+    ],
+    "las_formulas": [
+      {
+        "es": "¿de dónde eres?",
+        "ru": "откуда ты?"
+      },
+      {
+        "es": "soy de…",
+        "ru": "я из…"
+      },
+      {
+        "es": "¿dónde vives?",
+        "ru": "где ты живёшь?"
+      },
+      {
+        "es": "vivo en…",
+        "ru": "я живу в…"
+      },
+      {
+        "es": "la ciudad",
+        "ru": "город"
+      },
+      {
+        "es": "ahora",
+        "ru": "теперь"
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "Roberto",
+      "es": "¡Hola! ¿Tú eres Olga?",
+      "ru": "Привет! Ты Ольга?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Sí, soy Olga.",
+      "ru": "Да, я Ольга."
+    },
+    {
+      "speaker": "Roberto",
+      "es": "Soy Roberto. ¿De dónde eres?",
+      "ru": "Я Роберто. Откуда ты?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Soy de Rusia, de Moscú. ¿Y tú?",
+      "ru": "Я из России, из Москвы. А ты?"
+    },
+    {
+      "speaker": "Roberto",
+      "es": "Yo soy de España, de Valencia. Vivo aquí.",
+      "ru": "А я из Испании, из Валенсии. Живу здесь."
+    },
+    {
+      "speaker": "Olga",
+      "es": "¡Qué bien! Yo vivo en Valencia ahora.",
+      "ru": "Как здорово! Я теперь тоже живу в Валенсии."
+    },
+    {
+      "speaker": "Roberto",
+      "es": "¿Eres rusa?",
+      "ru": "Ты русская?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Sí, soy rusa. Hablo español un poco.",
+      "ru": "Да, я русская. Немного говорю по-испански."
+    },
+    {
+      "speaker": "Roberto",
+      "es": "Muy bien. ¿Dónde aprendes español?",
+      "ru": "Отлично. Где ты учишь испанский?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "En la escuela de español, en el centro.",
+      "ru": "В испанской школе, в центре."
+    },
+    {
+      "speaker": "Roberto",
+      "es": "Yo soy español y vivo aquí desde hace un año.",
+      "ru": "Я испанец и живу здесь уже год."
+    },
+    {
+      "speaker": "Olga",
+      "es": "¿Dónde vives exactamente? ¿En el centro?",
+      "ru": "Где именно ты живёшь? В центре?"
+    },
+    {
+      "speaker": "Roberto",
+      "es": "Sí, en el centro. ¡Bienvenida a Valencia!",
+      "ru": "Да, в центре. Добро пожаловать в Валенсию!"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Gracias, Roberto. Hasta luego.",
+      "ru": "Спасибо, Роберто. До скорого."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары: страна, национальность, формула",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        {
+          "es": "Rusia",
+          "ru": "Россия"
+        },
+        {
+          "es": "España",
+          "ru": "Испания"
+        },
+        {
+          "es": "Alemania",
+          "ru": "Германия"
+        },
+        {
+          "es": "Francia",
+          "ru": "Франция"
+        },
+        {
+          "es": "ruso / rusa",
+          "ru": "русский / русская"
+        },
+        {
+          "es": "español / española",
+          "ru": "испанец / испанка"
+        },
+        {
+          "es": "¿de dónde eres?",
+          "ru": "откуда ты?"
+        },
+        {
+          "es": "¿dónde vives?",
+          "ru": "где ты живёшь?"
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-soy_de",
+      "title": "Практика: soy de…",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "¿De dónde ___ ?",
+          "ru": "Откуда ты?",
+          "answer": "eres",
+          "options": [
+            "eres",
+            "es",
+            "está"
+          ]
+        },
+        {
+          "text": "Soy ___ Rusia.",
+          "ru": "Я из России",
+          "answer": "de",
+          "options": [
+            "de",
+            "en",
+            "a"
+          ]
+        },
+        {
+          "text": "Soy de España, ___ Valencia.",
+          "ru": "Я из Испании, из Валенсии",
+          "answer": "de",
+          "options": [
+            "de",
+            "en",
+            "a"
+          ]
+        },
+        {
+          "text": "Roberto ___ de España.",
+          "ru": "Роберто из Испании",
+          "answer": "es",
+          "options": [
+            "es",
+            "está",
+            "soy"
+          ]
+        },
+        {
+          "text": "Nosotros ___ de España.",
+          "ru": "Мы из Испании",
+          "answer": "somos",
+          "options": [
+            "somos",
+            "soy",
+            "son"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-ser_nacionalidad",
+      "title": "Практика: soy + национальность",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Olga es ___ .",
+          "ru": "Ольга — русская",
+          "answer": "rusa",
+          "options": [
+            "rusa",
+            "ruso",
+            "española"
+          ]
+        },
+        {
+          "text": "Yo ___ ruso.",
+          "ru": "Я русский",
+          "answer": "soy",
+          "options": [
+            "soy",
+            "estoy",
+            "tengo"
+          ]
+        },
+        {
+          "text": "Nosotros ___ españoles.",
+          "ru": "Мы испанцы",
+          "answer": "somos",
+          "options": [
+            "somos",
+            "soy",
+            "estás"
+          ]
+        },
+        {
+          "text": "¿Tú eres ___ ?",
+          "ru": "Ты испанка?",
+          "answer": "española",
+          "options": [
+            "española",
+            "español",
+            "rusa"
+          ]
+        },
+        {
+          "text": "Karl ___ alemán.",
+          "ru": "Карл — немец",
+          "answer": "es",
+          "options": [
+            "es",
+            "está",
+            "tiene"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-vivo_en",
+      "title": "Практика: vivo en…",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "¿Dónde ___ ?",
+          "ru": "Где ты живёшь?",
+          "answer": "vives",
+          "options": [
+            "vives",
+            "vivo",
+            "vive"
+          ]
+        },
+        {
+          "text": "___ en Valencia.",
+          "ru": "Я живу в Валенсии",
+          "answer": "Vivo",
+          "options": [
+            "Vivo",
+            "Vive",
+            "Viven"
+          ]
+        },
+        {
+          "text": "¿Dónde ___ Olga?",
+          "ru": "Где живёт Ольга?",
+          "answer": "vive",
+          "options": [
+            "vive",
+            "vives",
+            "vivo"
+          ]
+        },
+        {
+          "text": "La ___ es Valencia.",
+          "ru": "Город — это Валенсия",
+          "answer": "ciudad",
+          "options": [
+            "ciudad",
+            "país",
+            "familia"
+          ]
+        },
+        {
+          "text": "___ vivo en Valencia.",
+          "ru": "Сейчас я живу в Валенсии",
+          "answer": "Ahora",
+          "options": [
+            "Ahora",
+            "Antes",
+            "Después"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика урока",
+      "description": "Вставь пропущенное слово: страна, город, национальность",
+      "sentences": [
+        {
+          "text": "La capital de España es ___ .",
+          "ru": "Столица Испании — Мадрид",
+          "answer": "Madrid",
+          "options": [
+            "Madrid",
+            "Valencia",
+            "Moscú"
+          ]
+        },
+        {
+          "text": "Yo ___ en Valencia.",
+          "ru": "Я живу в Валенсии",
+          "answer": "vivo",
+          "options": [
+            "vivo",
+            "vive",
+            "vivimos"
+          ]
+        },
+        {
+          "text": "Mi familia está ___ Rusia.",
+          "ru": "Моя семья в России",
+          "answer": "en",
+          "options": [
+            "en",
+            "de",
+            "a"
+          ]
+        },
+        {
+          "text": "Mi amiga ___ rusa.",
+          "ru": "Моя подруга — русская",
+          "answer": "es",
+          "options": [
+            "es",
+            "está",
+            "tiene"
+          ]
+        },
+        {
+          "text": "¿___ es esto?",
+          "ru": "Что это?",
+          "answer": "Qué",
+          "options": [
+            "Qué",
+            "Cuánto",
+            "Cómo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай реплики знакомства и повторяй вслух. Следи за раскатистым r: Rusia, rusa, Roberto."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Ольгой",
+      "role": "Olga",
+      "description": "Ты — Ольга на прогулке в парке. Ответь, откуда ты, назови национальность, скажи, где живёшь, и задай два вопроса собеседнику."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Роберто",
+      "role": "Roberto",
+      "description": "Ты — Роберто, знакомый Ольги из парка. Поздоровайся, спроси ¿de dónde eres? и ¿dónde vives?, расскажи, откуда ты."
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Собери свою визитку: имя → страна → город, где ты живёшь",
+      "template": [
+        {
+          "label": "Привет! Ты Ольга?",
+          "es": "¡Hola! ¿Tú eres ___ ?"
+        },
+        {
+          "label": "Откуда ты?",
+          "es": "¿De ___ eres?"
+        },
+        {
+          "label": "Я из России, из Москвы",
+          "es": "Soy ___ Rusia, de Moscú."
+        },
+        {
+          "label": "Где ты живёшь?",
+          "es": "¿Dónde ___ ?"
+        },
+        {
+          "label": "Я живу в Валенсии",
+          "es": "___ en Valencia."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿De dónde eres?",
+          "ru": "Как спросить «откуда ты?»",
+          "options": [
+            "¿Dónde vives?",
+            "¿De dónde eres?",
+            "¿Qué tal?"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Аудио: «Soy de Alemania». Откуда говорящий?",
+          "ru": "Аудио: «Soy de Alemania». Откуда говорящий?",
+          "options": [
+            "Испания",
+            "Германия",
+            "Россия"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo se lee la r en la palabra Rusia?",
+          "ru": "Как читается r в слове Rusia?",
+          "options": [
+            "обычное [р]",
+            "раскатистое [рр]",
+            "мягкое [рь]"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Vivo ___ Valencia.",
+          "ru": "Vivo ___ Valencia.",
+          "options": [
+            "de",
+            "en",
+            "a"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Женщина говорит о себе: «Я русская»",
+          "ru": "Женщина говорит о себе: «Я русская»",
+          "options": [
+            "Soy ruso",
+            "Soy rusa",
+            "Soy español"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Elena es de España. Ella es ___ .",
+          "ru": "Елена из Испании. Она испанка.",
+          "options": [
+            "espanola",
+            "española",
+            "español"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo se dice «город»?",
+          "ru": "Как сказать «город»?",
+          "options": [
+            "la ciudad",
+            "el país",
+            "la familia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Dónde vives?",
+          "ru": "Выбери правильный ответ на вопрос «Где ты живёшь?»",
+          "options": [
+            "Vivo en Valencia",
+            "Soy de Rusia",
+            "Me llamo Olga"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    "Я говорю, откуда я: soy de Rusia, de Moscú",
+    "Я спрашиваю собеседника: ¿de dónde eres? / ¿dónde vives?",
+    "Я называю национальность: soy rusa / soy ruso",
+    "Я говорю, где живу: vivo en…",
+    "Я читаю слова с раскатистым r: Rusia, rusa, Roberto"
+  ],
+  "homework": [
+    "Запиши аудио-визитку о себе: имя + страна + город + где живёшь (четыре фразы)",
+    "Прочитай вслух визитку любого члена семьи, заменив страну на свою",
+    "Повтори слова с r и rr: Rusia, rusa, Roberto, perro"
+  ]
+}

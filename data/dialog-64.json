@@ -1,0 +1,723 @@
+{
+  "id": 64,
+  "title": "Repaso y misión",
+  "titleRu": "Повторение и миссия: знакомство",
+  "module": "a0-a1",
+  "block": 1,
+  "part": 1,
+  "blockTitle": "Часть 1 · Начальный уровень",
+  "level": "A0",
+  "theme": "Итоги части: знакомство  Repaso de la parte: la presentación personal",
+  "mission": "Провести полное знакомство: поздороваться, представиться, рассказать о себе и задать три вопроса.",
+  "mapPoint": "Улица у дома: итоговая миссия",
+  "duration": "45 минут",
+  "stepsCount": 7,
+  "readingNote": "Прочитайте диалог миссии вслух: следите за немой h в hola, за v = [б] в Valencia, за ñ в mañana и за раскатистым r en Rusia.",
+  "nextStep": {
+    "title": "Дальше: часть 2 · Продолжение начального уровня",
+    "text": "Часть 1 закрыта: десять печатей на карте — от аэропорта до улицы у дома. В части 2 «Продолжение начального уровня» вы пройдёте маршрут по Мадриду: отель, рынок, город, транспорт, время, ресторан и аптека. Следующая миссия — «Самостоятельный день в Мадриде»."
+  },
+  "characters": [
+    "olga",
+    "clara_vecina"
+  ],
+  "objectives": [
+    "Объединить формулы уроков 1–9 в один связный диалог знакомства",
+    "Представиться и рассказать о себе: me llamo, soy de, vivo en, tengo… años",
+    "Задать три вопроса собеседнику и понять ответы",
+    "Назвать возраст и рассказать о семье в одной фразе",
+    "Пройти итоговый тест части 1"
+  ],
+  "grammar": {
+    "me_llamo_soy_vivo": {
+      "title": "Сводная таблица части 1: llamarse, ser, tener, vivir",
+      "description": "Четыре глагола части закрывают знакомство целиком: me llamo… (меня зовут), soy de… (я из…), tengo… años (мне… лет), vivo en… (я живу в…). Порядок всегда один: имя → страна → город. Эти формулы не разбираются заново — они уже в словаре, здесь только собираются вместе.",
+      "forms": {
+        "yo": {
+          "es": "Me llamo Olga",
+          "ru": "меня зовут Ольга"
+        },
+        "tu": {
+          "es": "¿Cómo te llamas?",
+          "ru": "как тебя зовут?"
+        },
+        "el_ella": {
+          "es": "Mi hermano se llama Andréi",
+          "ru": "моего брата зовут Андрей"
+        },
+        "nosotros": {
+          "es": "Somos de España",
+          "ru": "мы из Испании"
+        }
+      },
+      "examples": [
+        {
+          "es": "Me llamo Olga. Soy de Rusia, pero vivo en Valencia.",
+          "ru": "Меня зовут Ольга. Я из России, но живу в Валенсии."
+        },
+        {
+          "es": "Tengo treinta y cinco años.",
+          "ru": "Мне тридцать пять лет."
+        }
+      ]
+    },
+    "preguntas_bloque_1": {
+      "title": "Вопросы части 1: ¿qué? ¿cómo? ¿cuánto? ¿dónde?",
+      "description": "Чтобы вести разговор, нужны вопросы. Выучите их одной шпаргалкой: ¿qué tal? (как дела?), ¿cómo te llamas? (как тебя зовут?), ¿de dónde eres? (откуда ты?), ¿dónde vives? (где живёшь?), ¿qué es esto? (что это?), ¿cuánto cuesta? (сколько стоит?). Вопрос = разговор, а не экзамен.",
+      "list": [
+        {
+          "es": "¿qué tal?",
+          "ru": "как дела?"
+        },
+        {
+          "es": "¿cómo te llamas?",
+          "ru": "как тебя зовут?"
+        },
+        {
+          "es": "¿de dónde eres?",
+          "ru": "откуда ты?"
+        },
+        {
+          "es": "¿dónde vives?",
+          "ru": "где ты живёшь?"
+        },
+        {
+          "es": "¿qué es esto?",
+          "ru": "что это?"
+        },
+        {
+          "es": "¿cuánto cuesta?",
+          "ru": "сколько стоит?"
+        }
+      ],
+      "examples": [
+        {
+          "es": "— Buenos días. ¿Qué tal? — Muy bien, gracias.",
+          "ru": "— Доброе утро. Как дела? — Очень хорошо, спасибо."
+        },
+        {
+          "es": "— ¿De dónde eres? — Soy de Rusia.",
+          "ru": "— Откуда ты? — Я из России."
+        }
+      ]
+    },
+    "tener_anos_vivir_pero": {
+      "title": "Возраст, город и связка pero",
+      "description": "Возраст — tengo + число + años: tengo treinta y cinco años (мне 35 лет). После vivo город — только en: vivo en Valencia, vivo en Madrid. Связка pero (но) держит мысль в одной фразе: Soy de Rusia, pero vivo en Valencia (я из России, но живу в Валенсии). pero дано на понимание и произносится как «пэро».",
+      "list": [
+        {
+          "es": "Tengo treinta y cinco años.",
+          "ru": "мне тридцать пять лет"
+        },
+        {
+          "es": "Tengo quince años.",
+          "ru": "мне пятнадцать лет"
+        },
+        {
+          "es": "Vivo en Valencia.",
+          "ru": "я живу в Валенсии"
+        },
+        {
+          "es": "Vivo en Madrid.",
+          "ru": "я живу в Мадриде"
+        },
+        {
+          "es": "Soy de Rusia, pero vivo en Valencia.",
+          "ru": "я из России, но живу в Валенсии"
+        },
+        {
+          "es": "Tengo un hermano.",
+          "ru": "у меня есть брат"
+        }
+      ],
+      "examples": [
+        {
+          "es": "Tengo treinta y cinco años y vivo en Valencia.",
+          "ru": "Мне тридцать пять лет, и я живу в Валенсии."
+        },
+        {
+          "es": "Soy de España, pero vivo en Francia.",
+          "ru": "Я из Испании, но живу во Франции."
+        }
+      ]
+    }
+  },
+  "vocabulary": {
+    "los_saludos": [
+      {
+        "es": "buenos días / buenas tardes",
+        "ru": "доброе утро / добрый день"
+      },
+      {
+        "es": "¿qué tal?",
+        "ru": "как дела?"
+      },
+      {
+        "es": "mucho gusto",
+        "ru": "очень приятно"
+      },
+      {
+        "es": "gracias",
+        "ru": "спасибо"
+      },
+      {
+        "es": "hasta luego",
+        "ru": "до скорого"
+      }
+    ],
+    "las_presentaciones": [
+      {
+        "es": "me llamo…",
+        "ru": "меня зовут…"
+      },
+      {
+        "es": "¿cómo te llamas?",
+        "ru": "как тебя зовут?"
+      },
+      {
+        "es": "soy de…",
+        "ru": "я из…"
+      },
+      {
+        "es": "vivo en…",
+        "ru": "я живу в…"
+      },
+      {
+        "es": "tengo… años",
+        "ru": "мне… лет"
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "Clara",
+      "es": "Buenos días. ¿Qué tal?",
+      "ru": "Доброе утро. Как дела?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Bien, gracias. Me llamo Olga.",
+      "ru": "Хорошо, спасибо. Меня зовут Ольга."
+    },
+    {
+      "speaker": "Clara",
+      "es": "Encantada. Yo soy Clara.",
+      "ru": "Очень приятно. Я Клара."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Mucho gusto, Clara.",
+      "ru": "Очень приятно, Клара."
+    },
+    {
+      "speaker": "Clara",
+      "es": "¿De dónde eres, Olga?",
+      "ru": "Откуда ты, Ольга?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Soy de Rusia, pero vivo en Valencia.",
+      "ru": "Я из России, но живу в Валенсии."
+    },
+    {
+      "speaker": "Olga",
+      "es": "¿Y tú, Clara? ¿Dónde vives?",
+      "ru": "А ты, Клара? Где ты живёшь?"
+    },
+    {
+      "speaker": "Clara",
+      "es": "Vivo aquí, en Valencia, desde hace un mes.",
+      "ru": "Живу здесь, в Валенсии, уже месяц."
+    },
+    {
+      "speaker": "Clara",
+      "es": "¿Tienes familia aquí?",
+      "ru": "У тебя есть семья здесь?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "No, mi familia está en Rusia.",
+      "ru": "Нет, моя семья в России."
+    },
+    {
+      "speaker": "Olga",
+      "es": "¿Tienes hermanos?",
+      "ru": "У тебя есть братья или сёстры?"
+    },
+    {
+      "speaker": "Clara",
+      "es": "Sí, tengo dos hermanos.",
+      "ru": "Да, у меня есть два брата."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Yo tengo un hermano. Se llama Andréi.",
+      "ru": "А у меня есть брат. Его зовут Андрей."
+    },
+    {
+      "speaker": "Clara",
+      "es": "¡Hasta luego, Olga! ¡Bienvenida a Valencia!",
+      "ru": "До скорого, Ольга! Добро пожаловать в Валенсию!"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары: формулы знакомства",
+      "description": "Найди соответствие между формулой части 1 и переводом. Это финальная проверка лексики 60 слов",
+      "pairs": [
+        {
+          "es": "buenos días / buenas tardes",
+          "ru": "доброе утро / добрый день"
+        },
+        {
+          "es": "¿qué tal?",
+          "ru": "как дела?"
+        },
+        {
+          "es": "mucho gusto",
+          "ru": "очень приятно"
+        },
+        {
+          "es": "me llamo…",
+          "ru": "меня зовут…"
+        },
+        {
+          "es": "¿cómo te llamas?",
+          "ru": "как тебя зовут?"
+        },
+        {
+          "es": "soy de…",
+          "ru": "я из…"
+        },
+        {
+          "es": "¿de dónde eres?",
+          "ru": "откуда ты?"
+        },
+        {
+          "es": "vivo en…",
+          "ru": "я живу в…"
+        },
+        {
+          "es": "¿dónde vives?",
+          "ru": "где ты живёшь?"
+        },
+        {
+          "es": "tengo… años",
+          "ru": "мне… лет"
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-me_llamo_soy_vivo",
+      "title": "Практика: llamarse, ser, vivir",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Me ___ Olga.",
+          "ru": "Меня зовут Ольга",
+          "answer": "llamo",
+          "options": [
+            "llamo",
+            "llamas",
+            "llaman"
+          ]
+        },
+        {
+          "text": "Soy ___ Rusia.",
+          "ru": "Я из России",
+          "answer": "de",
+          "options": [
+            "de",
+            "en",
+            "a"
+          ]
+        },
+        {
+          "text": "___ en Valencia.",
+          "ru": "Я живу в Валенсии",
+          "answer": "Vivo",
+          "options": [
+            "Vivo",
+            "Vive",
+            "Vivimos"
+          ]
+        },
+        {
+          "text": "Mi hermano se ___ Andréi.",
+          "ru": "Моего брата зовут Андрей",
+          "answer": "llama",
+          "options": [
+            "llama",
+            "llamo",
+            "llamas"
+          ]
+        },
+        {
+          "text": "Nosotros ___ de España.",
+          "ru": "Мы из Испании",
+          "answer": "somos",
+          "options": [
+            "somos",
+            "soy",
+            "son"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-preguntas_bloque_1",
+      "title": "Практика: вопросы части 1",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "¿Cómo te ___ ?",
+          "ru": "Как тебя зовут?",
+          "answer": "llamas",
+          "options": [
+            "llamas",
+            "llamo",
+            "llame"
+          ]
+        },
+        {
+          "text": "¿De dónde ___ ?",
+          "ru": "Откуда ты?",
+          "answer": "eres",
+          "options": [
+            "eres",
+            "es",
+            "está"
+          ]
+        },
+        {
+          "text": "¿Dónde ___ ?",
+          "ru": "Где ты живёшь?",
+          "answer": "vives",
+          "options": [
+            "vives",
+            "vivo",
+            "vive"
+          ]
+        },
+        {
+          "text": "¿Cuánto ___ ?",
+          "ru": "Сколько стоит?",
+          "answer": "cuesta",
+          "options": [
+            "cuesta",
+            "es",
+            "está"
+          ]
+        },
+        {
+          "text": "Buenos días. ¿___ tal?",
+          "ru": "Доброе утро. Как дела?",
+          "answer": "Qué",
+          "options": [
+            "Qué",
+            "Cómo",
+            "Cuánto"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-tener_anos_vivir_pero",
+      "title": "Практика: возраст, город, связка pero",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Tengo ___ años.",
+          "ru": "Мне тридцать пять лет",
+          "answer": "treinta y cinco",
+          "options": [
+            "treinta y cinco",
+            "quince",
+            "cincuenta"
+          ]
+        },
+        {
+          "text": "Vivo ___ Madrid.",
+          "ru": "Я живу в Мадриде",
+          "answer": "en",
+          "options": [
+            "en",
+            "de",
+            "a"
+          ]
+        },
+        {
+          "text": "Soy de Rusia, ___ vivo en Valencia.",
+          "ru": "Я из России, но живу в Валенсии",
+          "answer": "pero",
+          "options": [
+            "pero",
+            "porque",
+            "ponto"
+          ]
+        },
+        {
+          "text": "Tengo ___ hermano.",
+          "ru": "У меня есть брат",
+          "answer": "un",
+          "options": [
+            "un",
+            "una",
+            "uno"
+          ]
+        },
+        {
+          "text": "¿Cuántos ___ tienes?",
+          "ru": "Сколько тебе лет?",
+          "answer": "años",
+          "options": [
+            "años",
+            "meses",
+            "días"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Сводный Fill-Gap: все линии части 1",
+      "description": "Вставь пропущенное слово: восемь реплик из всех уроков части",
+      "sentences": [
+        {
+          "text": "Buenos ___ , señora.",
+          "ru": "Доброе утро, сеньора",
+          "answer": "días",
+          "options": [
+            "días",
+            "noches",
+            "tardes"
+          ]
+        },
+        {
+          "text": "Mucho ___ .",
+          "ru": "Очень приятно",
+          "answer": "gusto",
+          "options": [
+            "gusto",
+            "gracias",
+            "sueño"
+          ]
+        },
+        {
+          "text": "___ luego, Olga!",
+          "ru": "До скорого, Ольга!",
+          "answer": "Hasta",
+          "options": [
+            "Hasta",
+            "Hola",
+            "Buenas"
+          ]
+        },
+        {
+          "text": "Yo ___ rusa.",
+          "ru": "Я русская",
+          "answer": "soy",
+          "options": [
+            "soy",
+            "estoy",
+            "tengo"
+          ]
+        },
+        {
+          "text": "¿___ es la cuenta?",
+          "ru": "Сколько всего счёт?",
+          "answer": "Cuánto",
+          "options": [
+            "Cuánto",
+            "Qué",
+            "Cómo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай диалог миссии и повторяй вслух: следи за h в hola, за v = [б] в Valencia и за раскатистым r en Rusia."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Ольгой",
+      "role": "Olga",
+      "description": "Ты — Ольга на своей улице. Проведи полное знакомство: приветствие, имя, откуда ты, где живёшь, семья и прощание."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Кларой",
+      "role": "Clara",
+      "description": "Ты — Клара, соседка Ольги. Поздоровайся, представься, спроси об источнике, городе и семье и попрощайся вежливо."
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Собери полное знакомство из шести-семи реплик: приветствие → имя → откуда → где живёшь → семья → прощание",
+      "template": [
+        {
+          "label": "Доброе утро. Как дела?",
+          "es": "Buenos días. ___ tal?"
+        },
+        {
+          "label": "Меня зовут Ольга",
+          "es": "Me ___ Olga."
+        },
+        {
+          "label": "Откуда ты?",
+          "es": "¿De dónde ___ ?"
+        },
+        {
+          "label": "Я из России, но живу в Валенсии",
+          "es": "Soy de Rusia, ___ vivo en Valencia."
+        },
+        {
+          "label": "У тебя есть семья здесь?",
+          "es": "¿Tienes ___ aquí?"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Итоговый тест части 1",
+      "description": "12 заданий: лексика, грамматика, аудирование и чтение. Проходной балл — 80 %",
+      "questions": [
+        {
+          "question": "Аудио + картинка: вечер, 22:00. Выбери приветствие.",
+          "ru": "Аудио + картинка: вечер, 22:00. Выбери приветствие.",
+          "options": [
+            "Buenos días",
+            "Buenas noches",
+            "Hasta luego"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué significa «encantada»?",
+          "ru": "Что значит «encantada»?",
+          "options": [
+            "до свидания",
+            "очень приятно",
+            "не за что"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Аудио: «quince». Сколько?",
+          "ru": "Аудио: «quince». Сколько?",
+          "options": [
+            "5",
+            "15",
+            "50"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "la silla — это…",
+          "ru": "la silla — это…",
+          "options": [
+            "стол",
+            "стул",
+            "окно"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo ___ llamas?",
+          "ru": "¿Cómo ___ llamas?",
+          "options": [
+            "me",
+            "te",
+            "se"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Vivo ___ Madrid.",
+          "ru": "Vivo ___ Madrid.",
+          "options": [
+            "en",
+            "de",
+            "a"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Tengo ___ años.",
+          "ru": "Tengo ___ años.",
+          "options": [
+            "treinta y cinco",
+            "quince",
+            "cincuenta"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "la llave → las ___",
+          "ru": "la llave → las ___",
+          "options": [
+            "llaves",
+            "llave",
+            "laves"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Аудио-диалог урока 7: сколько стоит дешёвая сумка?",
+          "ru": "Сколько стоит дешёвая сумка в диалоге урока 7?",
+          "options": [
+            "15 €",
+            "20 €",
+            "12 €"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Аудио: «Soy de Alemania». Откуда говорящий?",
+          "ru": "Откуда говорящий?",
+          "options": [
+            "Испания",
+            "Германия",
+            "Россия"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Olga: «Soy de Rusia, ___ vivo en Valencia».",
+          "ru": "Ольга говорит: «Я из России, ___ живу в Валенсии».",
+          "options": [
+            "pero",
+            "porque",
+            "para"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Расскажи о себе тремя фразами. Какая цепочка подходит?",
+          "ru": "Расскажи о себе тремя фразами. Какая цепочка подходит?",
+          "options": [
+            "me llamo… / soy de… / vivo en…",
+            "quiero / tengo / por favor",
+            "aquí tiene / hasta luego / gracias"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    "Я представляюсь: me llamo… / soy de… / vivo en…",
+    "Я называю возраст: tengo… años",
+    "Я рассказываю о семье: tengo un hermano / mi familia está en…",
+    "Я задаю три вопроса: ¿de dónde eres?, ¿dónde vives?, ¿tienes hermanos?",
+    "Я прощаюсь вежливо: hasta luego, gracias"
+  ],
+  "homework": [
+    "Расскажи о себе по-испански живому человеку или отправь голосовое в чат школы",
+    "Повтори карту части 1 и список 60 слов: отметь «уверенно / повторить»",
+    "Прочитай вслух мини-текст «Mi primera semana en Valencia» дважды: с аудио и без"
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "id": 34,
+  "title": "Sofía y su amigo-vecino Mario compran ropa",
+  "titleRu": "София и её друг-сосед Марио покупают одежду",
+  "part": 4,
+  "level": "B1",
+  "theme": "Покупка одежды, магазин, скидки  La compra de ropa, la tienda, las rebajas",
+  "characters": ["sofia", "mario"],
+  "objectives": [
+    "Говорить о покупках и одежде: ir de compras, probarse, estar en rebaja, a muy buen precio",
+    "Использовать pretérito perfecto: he comprado, has visto, has pensado, le ha gustado",
+    "Описывать непреднамеренные изменения: se me han acabado, se me ha roto",
+    "Выражать будущее предположения и плана: te quedarán bien, me compraré, estaremos hasta las últimas",
+    "Давать советы и говорить о материалах: te recomiendo..., ¿me aconsejas?, es de algodón, es de cuero"
+  ],
+  "grammar": {
+    "pret_perfecto": {
+      "title": "Pretérito Perfecto: я уже сделал / у меня уже...",
+      "description": "HABER в настоящем + participio: he/has/ha + -ado/-ido. Употребляется для недавних действий и опыта: ¿Ya has pensado en qué necesitas? (Ты уже подумал?). Hace poco he comprado dos iguales (Недавно я купила две похожие).",
+      "forms": {
+        "yo": { "es": "he pensado en lo que necesito", "ru": "я уже подумал, что мне нужно" },
+        "tu": { "es": "has visto los vaqueros", "ru": "ты видела джинсы" },
+        "el_ella": { "es": "ha comprado un collar para su hermana", "ru": "он купил колье для сестры" },
+        "nosotros": { "es": "hemos pasado por la tienda", "ru": "мы зашли в магазин" },
+        "vosotros": { "es": "habéis probado la camiseta", "ru": "вы примерили футболку" },
+        "ellos_ellas": { "es": "han visto las ofertas", "ru": "они увидели скидки" }
+      },
+      "examples": [
+        { "es": "¿Ya has pensado en qué necesitas exactamente?", "ru": "Ты уже подумал, что именно тебе нужно?" },
+        { "es": "Hace poco he comprado dos iguales para mi primo.", "ru": "Недавно я купила две похожие для своего двоюродного брата." }
+      ]
+    },
+    "se_me": {
+      "title": "SE ME + глагол: что-то произошло само собой",
+      "description": "Конструкция SE + ME/TE/LE + время глагола описывает непреднамеренное действие — «само так вышло»: Ya se me han acabado las camisetas (У меня уже закончились футболки), Esta semana se me ha roto el último par de zapatos (На этой неделе у меня порвалась последняя пара кроссовок).",
+      "list": [
+        { "es": "se me han acabado las camisetas", "ru": "у меня закончились футболки" },
+        { "es": "se me ha roto el último par de zapatos", "ru": "у меня порвалась последняя пара кроссовок" },
+        { "es": "se me han caído los pendientes", "ru": "у меня упали серьги" },
+        { "es": "se me han perdido las llaves", "ru": "у меня потерялись ключи" },
+        { "es": "le ha gustado mucho el collar", "ru": "колье ей очень понравилось" }
+      ],
+      "examples": [
+        { "es": "Ya se me han acabado las camisetas.", "ru": "У меня уже закончились футболки." },
+        { "es": "Esta semana se me ha roto el último par de zapatos deportivos.", "ru": "На этой неделе у меня порвалась последняя пара кроссовок." }
+      ]
+    },
+    "futuro_simple": {
+      "title": "Futuro Simple: что будет / что надеть",
+      "description": "Будущее время -aré/-eré/-iré + окончания: creo que estas camisas te quedarán bien (думаю, эти рубашки тебе подойдут), me compraré un montón de cosas (я куплю себе кучу вещей), estaremos aquí hasta las últimas (мы пробудем здесь до закрытия).",
+      "forms": {
+        "yo": { "es": "me compraré un montón de cosas", "ru": "я куплю себе кучу вещей" },
+        "tu": { "es": "te probarás la camisa", "ru": "ты примеришь рубашку" },
+        "el_ella": { "es": "te quedará bien ese cinturón", "ru": "тебе подойдёт этот ремень" },
+        "nosotros": { "es": "estaremos aquí hasta las últimas", "ru": "мы пробудем здесь до закрытия" },
+        "vosotros": { "es": "encontraréis buenas ofertas", "ru": "вы найдёте хорошие скидки" },
+        "ellos_ellas": { "es": "quedarán bien con los pantalones", "ru": "они подойдут к штанам" }
+      },
+      "examples": [
+        { "es": "Creo que estas camisas te quedarán bien.", "ru": "Я думаю, что эти рубашки отлично тебе подойдут." },
+        { "es": "Parece que estaremos aquí hasta las últimas.", "ru": "Похоже, мы пробудем здесь до закрытия." }
+      ]
+    },
+    "materiales_consejos": {
+      "title": "Советы и материалы: RECOMENDAR, DE + материал",
+      "description": "Даём советы: ¿Me aconsejas algo? (Посоветуешь что-нибудь?), Te recomiendo comprar este pack (Рекомендую тебе купить этот набор). Материал: son de algodón (они из хлопка), es de cuero (он кожаный). Покупки: está en rebaja (со скидкой), está a muy buen precio (по очень хорошей цене), tiene buena pinta (неплохо выглядит), al lado de la caja (рядом с кассой).",
+      "list": [
+        { "es": "¿Me aconsejas algo?", "ru": "Посоветуешь мне что-нибудь?" },
+        { "es": "te recomiendo comprar este pack", "ru": "рекомендую тебе купить этот набор" },
+        { "es": "es de cuero", "ru": "он кожаный" },
+        { "es": "son de algodón", "ru": "они из хлопка" },
+        { "es": "está a muy buen precio", "ru": "по очень хорошей цене" },
+        { "es": "tiene buena pinta", "ru": "неплохо выглядит" }
+      ],
+      "examples": [
+        { "es": "Te recomiendo comprar este pack, es azul. Está a muy buen precio.", "ru": "Рекомендую тебе купить этот набор, он синий. И цена хорошая." },
+        { "es": "Mira, este cinturón te quedará bien con los pantalones.", "ru": "Смотри, этот ремень тебе подойдёт к штанам." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "ropa": [
+      { "es": "la camisa", "ru": "рубашка" },
+      { "es": "la camiseta", "ru": "футболка" },
+      { "es": "la sudadera", "ru": "толстовка" },
+      { "es": "los pantalones de verano", "ru": "летние брюки" },
+      { "es": "las bermudas", "ru": "шорты" },
+      { "es": "la gorra", "ru": "кепка" },
+      { "es": "las zapatillas deportivas", "ru": "кроссовки" },
+      { "es": "los vaqueros", "ru": "джинсы" },
+      { "es": "el cinturón", "ru": "ремень" },
+      { "es": "los calcetines", "ru": "носки" }
+    ],
+    "tienda_y_rebajas": [
+      { "es": "la tienda de bisutería", "ru": "магазин бижутерии" },
+      { "es": "la sección", "ru": "отдел" },
+      { "es": "la caja", "ru": "касса" },
+      { "es": "la época de rebajas", "ru": "сезон скидок" },
+      { "es": "la rebaja", "ru": "скидка" },
+      { "es": "la oferta", "ru": "предложение, акция" },
+      { "es": "a muy buen precio", "ru": "по очень хорошей цене" },
+      { "es": "el pack", "ru": "набор" },
+      { "es": "al lado de la caja", "ru": "рядом с кассой" },
+      { "es": "hasta las últimas", "ru": "до самого закрытия" }
+    ],
+    "accesorios": [
+      { "es": "el anillo", "ru": "кольцо" },
+      { "es": "los pendientes", "ru": "серьги" },
+      { "es": "la pulsera", "ru": "браслет" },
+      { "es": "el collar", "ru": "колье" },
+      { "es": "la falda", "ru": "юбка" },
+      { "es": "las sandalias", "ru": "сандалии" },
+      { "es": "el pañuelo de verano", "ru": "летний платок" },
+      { "es": "el traje de baño", "ru": "купальник" },
+      { "es": "el bañador", "ru": "плавки" },
+      { "es": "de algodón", "ru": "из хлопка" },
+      { "es": "de cuero", "ru": "кожаный" }
+    ],
+    "verbos": [
+      { "es": "ir de compras", "ru": "ходить за покупками" },
+      { "es": "probarse", "ru": "примерять" },
+      { "es": "comprarse", "ru": "покупать себе" },
+      { "es": "buscar", "ru": "искать" },
+      { "es": "necesitar", "ru": "нуждаться" },
+      { "es": "aconsejar", "ru": "советовать" },
+      { "es": "recomendar", "ru": "рекомендовать" },
+      { "es": "quedar bien", "ru": "подходить, идти" },
+      { "es": "tener buena pinta", "ru": "неплохо выглядеть" },
+      { "es": "pasar por", "ru": "зайти в, заглянуть" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Sofía", "es": "Bueno, primero vamos a buscar ropa para ti. ¿Ya has pensado en qué necesitas exactamente?", "ru": "Итак, сначала давай поищем одежду для тебя. Ты уже подумал, что именно тебе нужно?" },
+    { "speaker": "Mario", "es": "Sí, muchas cosas. Ya se me han acabado las camisetas, además quiero comprar pantalones de verano, bermudas, una gorra y zapatillas deportivas. ¿Me aconsejas algo?", "ru": "Да, много всего. У меня уже закончились футболки, ещё хочу купить летние штаны, шорты, кепку и кроссовки. Посоветуешь мне что-нибудь?" },
+    { "speaker": "Sofía", "es": "Claro. Vamos a esta sección. Mira, creo que estas camisas te quedarán bien.", "ru": "Конечно. Пойдём в этот отдел. Смотри, я думаю, что эти рубашки отлично тебе подойдут." },
+    { "speaker": "Mario", "es": "Sí, me gustan. Oh, ¡cuántas camisetas y sudaderas hay aquí!", "ru": "Да, мне нравятся. О, сколько футболок и толстовок здесь!" },
+    { "speaker": "Sofía", "es": "Me gustan estas. Hace poco he comprado dos iguales para mi primo, se ven muy bien. Son de algodón.", "ru": "Мне нравятся эти. Недавно я купила две похожие своему двоюродному брату, смотрятся отлично. Они из хлопка." },
+    { "speaker": "Mario", "es": "Me las pruebo ahora mismo. Están en rebaja, qué bien.", "ru": "Померяю их прямо сейчас. На них скидка, как хорошо." },
+    { "speaker": "Sofía", "es": "Mira, este cinturón te quedará bien con los pantalones.", "ru": "Смотри, этот ремень тебе подойдёт к штанам." },
+    { "speaker": "Mario", "es": "Ya, gracias. Oh, es de cuero, muy bien.", "ru": "Да, спасибо. О, кожаный, очень хорошо." },
+    { "speaker": "Mario", "es": "Bueno, me lo compro todo. ¿Has visto algunos calcetines por aquí?", "ru": "Отлично, покупаю всё. Ты здесь видела носки?" },
+    { "speaker": "Sofía", "es": "Sí, mira, allí están, al lado de la caja. Te recomiendo comprar este pack, es azul. Está a muy buen precio.", "ru": "Да, вон там, рядом с кассой. Рекомендую тебе купить этот набор, он синий. И цена хорошая." },
+    { "speaker": "Mario", "es": "Sí, tiene buena pinta.", "ru": "Да, неплохо выглядит." },
+    { "speaker": "Mario", "es": "Ahora vamos a la sección de zapatos. Esta semana se me ha roto el último par de zapatos deportivos.", "ru": "Сейчас пойдём в отдел обуви. На этой неделе у меня порвалась последняя пара кроссовок." },
+    { "speaker": "Sofía", "es": "Espera, quiero pasar un momento por esta tienda de bisutería. Necesito un anillo, unos pendientes y una pulsera.", "ru": "Подожди, я хочу на минутку зайти в магазин бижутерии. Мне нужны кольцо, серьги и браслет." },
+    { "speaker": "Mario", "es": "Es buena esta tienda. Hace poco he comprado aquí un collar para mi hermana, le ha gustado mucho. Ahora, que estamos en la época de rebajas, hay muchas ofertas.", "ru": "Это хороший магазин. Недавно я купил здесь колье для своей сестры, ей очень понравилось. Сейчас скидки, много предложений." },
+    { "speaker": "Sofía", "es": "Sí, creo que hoy me compraré un montón de cosas. Quiero una falda, sandalias, un pañuelo de verano y un traje de baño.", "ru": "Да, думаю, сегодня я куплю себе кучу вещей. Хочу юбку, сандалии, летний платок и купальник." },
+    { "speaker": "Mario", "es": "Oh, yo también me buscaré un bañador.", "ru": "О, я тоже поищу себе плавки." },
+    { "speaker": "Sofía", "es": "Parece que estaremos aquí hasta las últimas.", "ru": "Похоже, мы пробудем здесь до закрытия." },
+    { "speaker": "Mario", "es": "A mí me gusta ir de compras, por eso... ¡Adelante!", "ru": "Мне нравится ходить за покупками, поэтому... Вперёд!" },
+    { "speaker": "Mario", "es": "¡Qué bueno! ¿Has visto los vaqueros?", "ru": "Как здорово! Ты видела джинсы?" },
+    { "speaker": "Sofía", "es": "Sí, mira, están al lado de la caja. Te recomiendo comprar este pantalón, es chulo. Está a muy buen precio.", "ru": "Да, вон там, рядом с кассой. Рекомендую тебе купить эти брюки, они классные. И цена хорошая." },
+    { "speaker": "Mario", "es": "Sí, tiene buena pinta.", "ru": "Да, неплохо выглядит." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "la camisa", "ru": "рубашка" },
+        { "es": "la camiseta", "ru": "футболка" },
+        { "es": "la sudadera", "ru": "толстовка" },
+        { "es": "los pantalones de verano", "ru": "летние брюки" },
+        { "es": "las bermudas", "ru": "шорты" },
+        { "es": "la gorra", "ru": "кепка" },
+        { "es": "las zapatillas deportivas", "ru": "кроссовки" },
+        { "es": "los vaqueros", "ru": "джинсы" },
+        { "es": "el cinturón", "ru": "ремень" },
+        { "es": "los calcetines", "ru": "носки" }
+      ]
+    },
+    {
+      "type": "fill-gap-pret_perfecto",
+      "title": "Практика: Pretérito Perfecto",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Ya has ___ en qué necesitas, Mario?", "ru": "Ты уже подумал, что тебе нужно?", "answer": "pensado", "options": ["pensado", "pensando", "pensar"] },
+        { "text": "Hace poco he ___ dos iguales para mi primo.", "ru": "Недавно я купила две похожие для своего брата", "answer": "comprado", "options": ["comprado", "compradas", "comprando"] },
+        { "text": "¿Has ___ algunos calcetines por aquí?", "ru": "Ты видела здесь носки?", "answer": "visto", "options": ["visto", "vista", "viendo"] },
+        { "text": "Hace poco he ___ aquí un collar para mi hermana.", "ru": "Недавно я купил здесь колье для своей сестры", "answer": "comprado", "options": ["comprado", "oído", "caído"] },
+        { "text": "¿Te has ___ la camiseta antes de comprarla?", "ru": "Ты примерил футболку перед покупкой?", "answer": "probado", "options": ["probado", "probar", "probando"] }
+      ]
+    },
+    {
+      "type": "fill-gap-se_me",
+      "title": "Практика: SE ME + глагол",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Ya se me han ___ las camisetas.", "ru": "У меня уже закончились футболки", "answer": "acabado", "options": ["acabado", "acabados", "acabar"] },
+        { "text": "Esta semana se me ha ___ el último par de zapatos.", "ru": "На этой неделе у меня порвалась последняя пара кроссовок", "answer": "roto", "options": ["roto", "rota", "rompe"] },
+        { "text": "Hace poco he comprado aquí un collar, le ha ___ mucho.", "ru": "Недавно я купил здесь колье, ей очень понравилось", "answer": "gustado", "options": ["gustado", "gustar", "gustando"] },
+        { "text": "Oh, los pendientes se me han ___ al suelo.", "ru": "Ох, серьги у меня упали на пол", "answer": "caído", "options": ["caído", "cayendo", "cayeron"] },
+        { "text": "Se me han ___ las llaves otra vez.", "ru": "У меня опять потерялись ключи", "answer": "perdido", "options": ["perdido", "perdidas", "perdiendo"] }
+      ]
+    },
+    {
+      "type": "fill-gap-futuro_simple",
+      "title": "Практика: Futuro Simple",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Creo que estas camisas te ___ bien.", "ru": "Думаю, эти рубашки тебе подойдут", "answer": "quedarán", "options": ["quedarán", "quedan", "quedaron"] },
+        { "text": "Este cinturón te ___ bien con los pantalones.", "ru": "Этот ремень тебе подойдёт к штанам", "answer": "quedará", "options": ["quedará", "queda", "quedaba"] },
+        { "text": "Hoy me ___ un montón de cosas.", "ru": "Сегодня я куплю себе кучу вещей", "answer": "compraré", "options": ["compraré", "compro", "comprar"] },
+        { "text": "Yo también me ___ un bañador.", "ru": "Я тоже поищу себе плавки", "answer": "buscaré", "options": ["buscaré", "busco", "buscando"] },
+        { "text": "Parece que ___ aquí hasta las últimas.", "ru": "Похоже, мы пробудем здесь до закрытия", "answer": "estaremos", "options": ["estaremos", "estamos", "estuvimos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-materiales_consejos",
+      "title": "Практика: советы и материалы",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Me ___ algo?", "ru": "Посоветуешь мне что-нибудь?", "answer": "aconsejas", "options": ["aconsejas", "aconseja", "aconsejamos"] },
+        { "text": "Te ___ comprar este pack.", "ru": "Рекомендую тебе купить этот набор", "answer": "recomiendo", "options": ["recomiendo", "recomiendas", "recomienda"] },
+        { "text": "La camiseta es de ___.", "ru": "Футболка из хлопка", "answer": "algodón", "options": ["algodón", "cuero", "oro"] },
+        { "text": "Está a muy buen ___.", "ru": "По очень хорошей цене", "answer": "precio", "options": ["precio", "pinta", "rebaja"] },
+        { "text": "Los calcetines están al lado de la ___.", "ru": "Носки рядом с кассой", "answer": "caja", "options": ["caja", "sección", "bisutería"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Ya has ___ en qué necesitas?", "ru": "Ты уже подумал, что тебе нужно?", "answer": "pensado", "options": ["pensado", "pensando", "pensar"] },
+        { "text": "Ya se me han ___ las camisetas.", "ru": "У меня уже закончились футболки", "answer": "acabado", "options": ["acabado", "acabados", "acabar"] },
+        { "text": "Creo que estas camisas te ___ bien.", "ru": "Думаю, эти рубашки тебе подойдут", "answer": "quedarán", "options": ["quedarán", "quedan", "quedarían"] },
+        { "text": "Te ___ comprar este pack.", "ru": "Рекомендую тебе купить этот набор", "answer": "recomiendo", "options": ["recomiendo", "recomiendas", "recomienda"] },
+        { "text": "Hoy me ___ un montón de cosas.", "ru": "Сегодня я куплю себе кучу вещей", "answer": "compraré", "options": ["compraré", "compro", "comprar"] },
+        { "text": "Hace poco he ___ dos iguales para mi primo.", "ru": "Недавно я купила две похожие для своего брата", "answer": "comprado", "options": ["comprado", "compradas", "comprando"] },
+        { "text": "Este cinturón es de ___ , muy bien.", "ru": "Этот ремень кожаный, очень хорошо", "answer": "cuero", "options": ["cuero", "algodón", "madera"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Софией",
+      "role": "Sofía",
+      "description": "Ты — София, помогаешь соседу Марио выбрать одежду и решаешь, что купить себе"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Марио",
+      "role": "Mario",
+      "description": "Ты — Марио, покупаешь одежду, спрашиваешь советы и выбираешь вещи со скидкой"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Обсуди с другом, что купить в магазине одежды",
+      "template": [
+        { "label": "Ты уже подумал, что тебе нужно?", "es": "¿Ya has ___ en qué necesitas?" },
+        { "label": "У меня закончились футболки", "es": "Se me han ___ las camisetas" },
+        { "label": "Эти рубашки тебе подойдут", "es": "Estas camisas te ___ bien" },
+        { "label": "Померяю их прямо сейчас", "es": "Me las ___ ahora mismo" },
+        { "label": "Рекомендую тебе купить этот набор", "es": "Te ___ comprar este pack" },
+        { "label": "Сегодня я куплю себе кучу вещей", "es": "Hoy me ___ un montón de cosas" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        { "question": "¿Qué se le han acabado a Mario?", "ru": "Что у Марио закончилось?", "options": ["Las camisetas", "Los pantalones", "La gorra", "Los calcetines"], "answer": 0 },
+        { "question": "¿Qué necesita comprar Mario?", "ru": "Что нужно купить Марио?", "options": ["Camisas, corbata y abrigo", "Pantalones de verano, bermudas, gorra y zapatillas", "Falda, sandalias y pañuelo", "Vaqueros y abrigo"], "answer": 1 },
+        { "question": "¿De qué material son las camisetas que le gustan a Sofía?", "ru": "Из какого материала футболки, которые нравятся Софии?", "options": ["De lana", "De cuero", "De algodón", "De seda"], "answer": 2 },
+        { "question": "¿Para quién ha comprado Sofía dos camisetas iguales?", "ru": "Для кого София купила две похожие футболки?", "options": ["Para su primo", "Para su hermano", "Para su madre", "Para Mario"], "answer": 0 },
+        { "question": "¿Qué piensa Sofía sobre las camisas?", "ru": "Что София думает о рубашках?", "options": ["Que no le gustan", "Que estarán en rebaja", "Que le quedarán bien a Mario", "Que son caras"], "answer": 2 },
+        { "question": "¿Qué necesita Sofía en la tienda de bisutería?", "ru": "Что нужно Софии в магазине бижутерии?", "options": ["Un anillo, unos pendientes y una pulsera", "Un collar para su madre", "Un reloj", "Unos botones"], "answer": 0 },
+        { "question": "¿Qué quiere comprar Sofía para el verano?", "ru": "Что хочет купить София на лето?", "options": ["Un abrigo y guantes", "Una falda, sandalias, un pañuelo y un traje de baño", "Un sombrero y un cinturón", "Un vestido de invierno"], "answer": 1 },
+        { "question": "¿Qué le ha pasado a Mario con los zapatos esta semana?", "ru": "Что случилось у Марио с кроссовками на этой неделе?", "options": ["Le ha gustado el par", "Se le ha roto el último par", "Ha olvidado los zapatos", "No le hace falta comprar"], "answer": 1 }
+      ]
+    }
+  ],
+  "homework": [
+    "5 минут: повтори слова по теме «одежда, магазин, скидки»",
+    "Практика: опиши, что ты покупаешь в магазине одежды: he comprado..., se me han acabado..., te recomiendo... (используй pretérito perfecto, futuro simple и se me)",
+    "Дневник: опиши последнюю покупку одежды: что купил(а), из какого материала, были ли скидки",
+    "Грамматика: напиши 3 предложения с pretérito perfecto, 3 с se me + глагол, 3 с futuro simple"
+  ]
+}

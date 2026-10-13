@@ -1,0 +1,754 @@
+{
+  "id": 71,
+  "title": "En el restaurante",
+  "titleRu": "В ресторане: меню и заказ",
+  "module": "a0-a1",
+  "block": 2,
+  "part": 2,
+  "blockTitle": "Часть 2 · Продолжение начального уровня",
+  "level": "A1",
+  "theme": "Ресторан: меню и заказ  El restaurante: la carta y el pedido",
+  "mission": "Открыть меню, заказать первое, второе и десерт и попросить счёт — полный обед по-испански.",
+  "mapPoint": "Ла-Латина: ресторан в Мадриде",
+  "duration": "45 минут",
+  "stepsCount": 7,
+  "readingNote": "Прочитайте вслух позиции меню: ñ читается как [нь] — español, mañana, baño, piña.",
+  "characters": [
+    "olga",
+    "camarero_madrid"
+  ],
+  "objectives": [
+    "Понять структуру меню: de primero / de segundo / de postre",
+    "Заказать вежливо формулой quisiera: quisiera la sopa",
+    "Оценить блюдо формулой me gusta el pescado",
+    "Спросить совет официанту: ¿qué me recomienda?",
+    "Попросить счёт и поблагодарить: la cuenta, por favor"
+  ],
+  "grammar": {
+    "quisiera_pedir": {
+      "title": "Quisiera + блюдо: вежливый заказ",
+      "description": "Формула quisiera — вежливая просьба, знакомая по рынку. В ресторане она ничего не меняет: это тот же порядок «хочу + блюдо» — quisiera la sopa (я бы хотел(а) суп), quisiera el pescado. Ничего не согласуется, ничего не спрягается: только слова и порядок. Заказ из двух блюд: de primero, sopa, y de segundo, pescado (на первое суп, на второе рыбу).",
+      "forms": {
+        "yo": {
+          "es": "quisiera la sopa",
+          "ru": "я бы хотел(а) суп"
+        },
+        "tu": {
+          "es": "¿qué me recomienda?",
+          "ru": "что вы посоветуете?"
+        },
+        "el_ella": {
+          "es": "él quisiera el pollo",
+          "ru": "он бы хотел(а) курицу"
+        },
+        "nosotros": {
+          "es": "quisiera un flan, por favor",
+          "ru": "флан, пожалуйста"
+        }
+      },
+      "examples": [
+        {
+          "es": "De primero, sopa, y de segundo, pescado.",
+          "ru": "На первое суп, на второе рыбу."
+        },
+        {
+          "es": "Un flan, gracias. La cuenta, por favor.",
+          "ru": "Флан, спасибо. Счёт, пожалуйста."
+        }
+      ]
+    },
+    "me_gusta_valorar": {
+      "title": "Me gusta + блюдо: короткая оценка",
+      "description": "Вторая формула ресторана — me gusta (мне нравится): me gusta la sopa, me gusta el pescado. Ничего больше разбирать не нужно: только + блюдо. Отрицание — no me gusta (мне не нравится). После еды формула работает как комплимент повару: me gusta la comida española (мне нравится испанская еда).",
+      "list": [
+        {
+          "es": "me gusta la sopa",
+          "ru": "мне нравится суп"
+        },
+        {
+          "es": "me gusta el pescado",
+          "ru": "мне нравится рыба"
+        },
+        {
+          "es": "me gusta la comida española",
+          "ru": "мне нравится испанская еда"
+        },
+        {
+          "es": "me gusta mucho el postre",
+          "ru": "мне очень нравится десерт"
+        },
+        {
+          "es": "no me gusta el pollo",
+          "ru": "мне не нравится курица"
+        },
+        {
+          "es": "el pollo es muy bueno",
+          "ru": "курица очень хороша"
+        }
+      ],
+      "examples": [
+        {
+          "es": "Me gusta la comida española. ¡Hasta luego!",
+          "ru": "Мне нравится испанская еда. До скорого!"
+        },
+        {
+          "es": "No me gusta el pescado. Quisiera el pollo.",
+          "ru": "Мне не нравится рыба. Я бы хотел(а) курицу."
+        }
+      ]
+    },
+    "la_carta_y_la_cuenta": {
+      "title": "Меню и счёт: la carta, el postre, la cuenta",
+      "description": "Меню в Испании называется la carta — это «карта еды», её открывают в начале: la carta, por favor (меню, пожалуйста). Внутри три колонки: de primero (на первое), de segundo (на второе), postre (десерт). Официант спрашивает ¿algo de postre? (что-нибудь на десерт?) и в конце спрашивает про счёт: la cuenta, por favor (счёт, пожалуйста). Сумму он называет сам — ученик только понимает: son diecinueve euros.",
+      "list": [
+        {
+          "es": "la carta, por favor",
+          "ru": "меню, пожалуйста"
+        },
+        {
+          "es": "aquí tiene",
+          "ru": "вот, пожалуйста"
+        },
+        {
+          "es": "de primero",
+          "ru": "на первое"
+        },
+        {
+          "es": "de segundo",
+          "ru": "на второе"
+        },
+        {
+          "es": "el postre",
+          "ru": "десерт"
+        },
+        {
+          "es": "¿algo de postre?",
+          "ru": "что-нибудь на десерт?"
+        },
+        {
+          "es": "un flan",
+          "ru": "флан"
+        },
+        {
+          "es": "la cuenta, por favor",
+          "ru": "счёт, пожалуйста"
+        },
+        {
+          "es": "son diecinueve euros",
+          "ru": "девятнадцать евро"
+        },
+        {
+          "es": "¡buen provecho!",
+          "ru": "приятного аппетита!"
+        }
+      ],
+      "examples": [
+        {
+          "es": "¿Qué me recomienda? — La sopa es muy buena.",
+          "ru": "Что вы посоветуете? — Суп очень хорош."
+        },
+        {
+          "es": "Un flan, gracias. — Aquí tiene. ¡Buen provecho!",
+          "ru": "Флан, спасибо. — Вот, пожалуйста. Приятного аппетита!"
+        }
+      ]
+    }
+  },
+  "vocabulary": {
+    "la_carta_el_plato": [
+      {
+        "es": "la carta",
+        "ru": "меню"
+      },
+      {
+        "es": "el plato",
+        "ru": "блюдо"
+      },
+      {
+        "es": "la sopa",
+        "ru": "суп"
+      },
+      {
+        "es": "el pollo",
+        "ru": "курица"
+      },
+      {
+        "es": "el pescado",
+        "ru": "рыба"
+      }
+    ],
+    "el_menu": [
+      {
+        "es": "de primero",
+        "ru": "на первое"
+      },
+      {
+        "es": "de segundo",
+        "ru": "на второе"
+      },
+      {
+        "es": "de postre",
+        "ru": "на десерт"
+      },
+      {
+        "es": "el postre",
+        "ru": "десерт"
+      },
+      {
+        "es": "un flan",
+        "ru": "флан"
+      }
+    ],
+    "en_la_mesa": [
+      {
+        "es": "quisiera",
+        "ru": "я бы хотел(а)"
+      },
+      {
+        "es": "me gusta",
+        "ru": "мне нравится"
+      },
+      {
+        "es": "la cuenta",
+        "ru": "счёт"
+      },
+      {
+        "es": "¿qué me recomienda?",
+        "ru": "что вы посоветуете?"
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "Olga",
+      "es": "Buenas tardes. La carta, por favor.",
+      "ru": "Добрый день. Меню, пожалуйста."
+    },
+    {
+      "speaker": "El camarero",
+      "es": "Aquí tiene. Buenas tardes.",
+      "ru": "Вот, пожалуйста. Добрый день."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Gracias. ¿Qué me recomienda?",
+      "ru": "Спасибо. Что вы посоветуете?"
+    },
+    {
+      "speaker": "El camarero",
+      "es": "La sopa es muy buena, y el pescado, también.",
+      "ru": "Суп очень хорош, и рыба тоже."
+    },
+    {
+      "speaker": "Olga",
+      "es": "De primero, sopa, y de segundo, pescado.",
+      "ru": "На первое суп, на второе рыбу."
+    },
+    {
+      "speaker": "El camarero",
+      "es": "¿Algo de postre?",
+      "ru": "Что-нибудь на десерт?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Un flan, gracias.",
+      "ru": "Флан, спасибо."
+    },
+    {
+      "speaker": "El camarero",
+      "es": "¿Algo para beber?",
+      "ru": "Что-нибудь выпить?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Un vaso de agua, por favor.",
+      "ru": "Стакан воды, пожалуйста."
+    },
+    {
+      "speaker": "El camarero",
+      "es": "Perfecto. Sopa, pescado, flan y agua.",
+      "ru": "Отлично. Суп, рыба, флан и вода."
+    },
+    {
+      "speaker": "Olga",
+      "es": "¿Me trae la cuenta, por favor?",
+      "ru": "Принесите, пожалуйста, счёт?"
+    },
+    {
+      "speaker": "El camarero",
+      "es": "Aquí tiene. Son diecinueve euros.",
+      "ru": "Вот, пожалуйста. Девятнадцать евро."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Aquí tiene. Me gusta la comida española. ¡Hasta luego!",
+      "ru": "Вот, пожалуйста. Мне нравится испанская еда. До скорого!"
+    },
+    {
+      "speaker": "El camarero",
+      "es": "¡Buen provecho! Hasta mañana.",
+      "ru": "Приятного аппетита! До завтра."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между блюдом и его местом в меню",
+      "pairs": [
+        {
+          "es": "la carta",
+          "ru": "меню"
+        },
+        {
+          "es": "la sopa",
+          "ru": "суп"
+        },
+        {
+          "es": "el pollo",
+          "ru": "курица"
+        },
+        {
+          "es": "el pescado",
+          "ru": "рыба"
+        },
+        {
+          "es": "de primero",
+          "ru": "на первое"
+        },
+        {
+          "es": "de segundo",
+          "ru": "на второе"
+        },
+        {
+          "es": "el postre",
+          "ru": "десерт"
+        },
+        {
+          "es": "quisiera",
+          "ru": "я бы хотел(а)"
+        },
+        {
+          "es": "me gusta",
+          "ru": "мне нравится"
+        },
+        {
+          "es": "la cuenta",
+          "ru": "счёт"
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-quisiera_pedir",
+      "title": "Практика: quisiera + блюдо",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "___ la sopa, por favor.",
+          "ru": "Я бы хотел(а) суп, пожалуйста",
+          "answer": "Quisiera",
+          "options": [
+            "Quisiera",
+            "Quiso",
+            "Quiero"
+          ]
+        },
+        {
+          "text": "___ el pescado, gracias.",
+          "ru": "Я бы хотел(а) рыбу, спасибо",
+          "answer": "Quisiera",
+          "options": [
+            "Quisiera",
+            "Quería",
+            "Quiero"
+          ]
+        },
+        {
+          "text": "¿Qué me ___?",
+          "ru": "Что вы посоветуете?",
+          "answer": "recomienda",
+          "options": [
+            "recomienda",
+            "recomiendo",
+            "gusta"
+          ]
+        },
+        {
+          "text": "De primero, sopa, y de segundo, ___.",
+          "ru": "На первое суп, на второе рыбу",
+          "answer": "pescado",
+          "options": [
+            "pescado",
+            "pollo",
+            "postre"
+          ]
+        },
+        {
+          "text": "___ , gracias. La cuenta, por favor.",
+          "ru": "Флан, спасибо. Счёт, пожалуйста",
+          "answer": "Un flan",
+          "options": [
+            "Un flan",
+            "Un sopa",
+            "Una cuenta"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-me_gusta_valorar",
+      "title": "Практика: me gusta + блюдо",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Me ___ el pescado.",
+          "ru": "Мне нравится рыба",
+          "answer": "gusta",
+          "options": [
+            "gusta",
+            "quiero",
+            "gusto"
+          ]
+        },
+        {
+          "text": "Me ___ la comida española.",
+          "ru": "Мне нравится испанская еда",
+          "answer": "gusta",
+          "options": [
+            "gusta",
+            "gustan",
+            "gustó"
+          ]
+        },
+        {
+          "text": "No me ___ el pollo.",
+          "ru": "Мне не нравится курица",
+          "answer": "gusta",
+          "options": [
+            "gusta",
+            "quiero",
+            "son"
+          ]
+        },
+        {
+          "text": "La sopa es muy ___ .",
+          "ru": "Суп очень хорош",
+          "answer": "buena",
+          "options": [
+            "buena",
+            "buenos",
+            "buen"
+          ]
+        },
+        {
+          "text": "Me ___ mucho el postre.",
+          "ru": "Мне очень нравится десерт",
+          "answer": "gusta",
+          "options": [
+            "gusta",
+            "gustas",
+            "gustamos"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-la_carta_y_la_cuenta",
+      "title": "Практика: меню, десерт и счёт",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "La carta, ___ favor.",
+          "ru": "Меню, пожалуйста",
+          "answer": "por",
+          "options": [
+            "por",
+            "para",
+            "de"
+          ]
+        },
+        {
+          "text": "___ segundo, pescado.",
+          "ru": "На второе рыба",
+          "answer": "De",
+          "options": [
+            "De",
+            "En",
+            "Con"
+          ]
+        },
+        {
+          "text": "¿Algo ___ postre?",
+          "ru": "Что-нибудь на десерт?",
+          "answer": "de",
+          "options": [
+            "de",
+            "a",
+            "en"
+          ]
+        },
+        {
+          "text": "La cuenta, ___ favor.",
+          "ru": "Счёт, пожалуйста",
+          "answer": "por",
+          "options": [
+            "por",
+            "con",
+            "sin"
+          ]
+        },
+        {
+          "text": "Aquí tiene. ___ diecinueve euros.",
+          "ru": "Вот, пожалуйста. Девятнадцать евро",
+          "answer": "Son",
+          "options": [
+            "Son",
+            "Es",
+            "Estoy"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Buenas tardes. ___ , por favor.",
+          "ru": "Добрый день. Меню, пожалуйста",
+          "answer": "La carta",
+          "options": [
+            "La carta",
+            "La cuenta",
+            "La mesa"
+          ]
+        },
+        {
+          "text": "___ me recomienda?",
+          "ru": "Что вы посоветуете?",
+          "answer": "Qué",
+          "options": [
+            "Qué",
+            "Que",
+            "Quién"
+          ]
+        },
+        {
+          "text": "De primero, sopa, y de ___ , pescado.",
+          "ru": "На первое суп, на второе рыба",
+          "answer": "segundo",
+          "options": [
+            "segundo",
+            "primero",
+            "postre"
+          ]
+        },
+        {
+          "text": "___ flan, gracias.",
+          "ru": "Флан, спасибо",
+          "answer": "Un",
+          "options": [
+            "Un",
+            "Una",
+            "El"
+          ]
+        },
+        {
+          "text": "Un vaso de ___, por favor.",
+          "ru": "Стакан воды, пожалуйста",
+          "answer": "agua",
+          "options": [
+            "agua",
+            "sopa",
+            "leche"
+          ]
+        },
+        {
+          "text": "Me ___ la comida española.",
+          "ru": "Мне нравится испанская еда",
+          "answer": "gusta",
+          "options": [
+            "gusta",
+            "duele",
+            "vale"
+          ]
+        },
+        {
+          "text": "¿Me ___ la cuenta, por favor?",
+          "ru": "Принесите, пожалуйста, счёт?",
+          "answer": "trae",
+          "options": [
+            "trae",
+            "tengo",
+            "tiene"
+          ]
+        },
+        {
+          "text": "El restaurante español: una comida, tres niveles de ___ .",
+          "ru": "Испанский ресторан: одна еда, три уровня мастерства",
+          "answer": "maestría",
+          "options": [
+            "maestría",
+            "mañana",
+            "marzo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух: de primero, sopa, y de segundo, pescado."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Ольгой",
+      "role": "Olga",
+      "description": "Ты — гость ресторана: просишь меню, спрашиваешь совет, заказываешь три пункта и просишь счёт"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь официантом",
+      "role": "El camarero",
+      "description": "Ты — официант ресторана в Мадриде: подаёшь меню, советуешь блюдо, спрашиваешь про десерт и объявляешь счёт"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Собери полный заказ из трёх пунктов и попроси счёт",
+      "template": [
+        {
+          "label": "Меню, пожалуйста",
+          "es": "La carta, ___ favor."
+        },
+        {
+          "label": "Что вы посоветуете?",
+          "es": "¿Qué me ___ ?"
+        },
+        {
+          "label": "На первое суп",
+          "es": "De primero, ___ ."
+        },
+        {
+          "label": "На второе рыбу",
+          "es": "De segundo, ___ ."
+        },
+        {
+          "label": "Флан и счёт, пожалуйста",
+          "es": "Un ___ , gracias. La cuenta, ___ favor."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "Al entrar en el restaurante, Olga pide primero…",
+          "ru": "Войдя в ресторан, Ольга сначала просит…",
+          "options": [
+            "La carta",
+            "La cuenta",
+            "Un vaso de agua"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué recomienda el camarero?",
+          "ru": "Что рекомендует официант?",
+          "options": [
+            "El pollo y el postre",
+            "La sopa y el pescado",
+            "El flan y el agua"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué pidió Olga de segundo?",
+          "ru": "Что Ольга заказала на второе?",
+          "options": [
+            "La sopa",
+            "El pollo",
+            "El pescado"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué elige Olga de postre?",
+          "ru": "Что Ольга выбирает на десерт?",
+          "options": [
+            "Un flan",
+            "Una sopa",
+            "Un pollo"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Elige la frase correcta: «Я бы хотел суп».",
+          "ru": "Выбери верную фразу: «Я бы хотел суп».",
+          "options": [
+            "Quisiera la sopa.",
+            "Quiero la sopa, por favor.",
+            "Me gusta la sopa."
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Elige la frase-оценку: «Мне нравится испанская еда».",
+          "ru": "Выбери фразу-оценку: «Мне нравится испанская еда».",
+          "options": [
+            "Quisiera la comida española.",
+            "Son la comida española.",
+            "Me gusta la comida española."
+          ],
+          "answer": 2
+        },
+        {
+          "question": "¿Cómo se lee la palabra baño?",
+          "ru": "Как читается слово baño?",
+          "options": [
+            "«ба-но»",
+            "«ба-ньо»",
+            "«ба-ньо-ньо»"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "El camarero dice: «¿Algo de postre?». ¿De qué pregunta?",
+          "ru": "Официант говорит: «¿Algo de postre?». О чём он спрашивает?",
+          "options": [
+            "De la cuenta",
+            "Del postre",
+            "De la carta"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuánto es la cuenta en el diálogo?",
+          "ru": "Сколько стоит счёт в диалоге?",
+          "options": [
+            "Diecisiete euros",
+            "Diecinueve euros",
+            "Noventa euros"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    "Я понимаю структуру меню: de primero / de segundo / postre",
+    "Я заказываю вежливо: quisiera la sopa",
+    "Я оцениваю блюдо: me gusta el pescado",
+    "Я спрашиваю совет: ¿qué me recomienda?",
+    "Я прошу счёт и благодарю: la cuenta, por favor"
+  ],
+  "homework": [
+    "Произнеси вслух полный трёхпунктовый заказ по эталонному аудио и запиши голосовое в дневник",
+    "Прочитай вслух меню: «de primero: sopa; de segundo: pollo; postre: flan»",
+    "Сделай такой же заказ в реальном кафе или перед зеркалом — три пункта подряд",
+    "Прочитай вслух слова с ñ: español, mañana, baño, piña"
+  ]
+}
