@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Los números y las sumas — Урок 19 · Español A0–A1</title>
+<meta name="description" content="Урок 19: математика по-испански, más/menos, «¿Cuánto es…?», игра «La frutería». CLIL-урок курса испанского A0–A1 для детей, блок 2.">
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body data-theme="matemat">
+
+<header class="lesson-head">
+  <a class="link-back" href="course.html">← Все уроки</a>
+  <span class="lh-title">Урок 19 · La matemática</span>
+  <span class="lh-spacer"></span>
+  <a class="link-ghost" href="lesson-20.html">Урок 20 →</a>
+</header>
+
+<div class="voice-note" id="voiceNote"></div>
+<div class="save-indicator" id="saveIndicator"> Прогресс сохранён</div>
+
+<div class="container">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ШАГ 1 -->
+  <section class="step active" id="step1">
+    <h1> La matemática</h1>
+    <p style="font-size:1.5em">¡Hola, amigo! ¿Cuánto es 3 + 2? — Сколько будет?</p>
+    <p>Сегодня считаем по-испански: <em>más, menos, sumar, restar</em>.</p>
+    <h3>В этом уроке</h3>
+    <p> Звуки <strong>H</strong> (не читается) и <strong>Y</strong> = «и»<br>
+        Пять математических слов<br>
+        Фразы «¿Cuánto es…?», «más», «menos»<br>
+        Игра «La frutería» — цена фруктов</p>
+    <div class="tip"> <strong>Совет:</strong> в испанском буква <strong>h</strong> всегда молчит: <em>hay</em> = «ай» = «есть». А <strong>y</strong> между числами = «и»: <em>ochenta y dos</em> = 82.</div>
+    <div class="nav-buttons center">
+      <button class="btn btn-primary" data-next>¡Vamos! Поехали! </button>
+    </div>
+  </section>
+
+  <!-- ШАГ 2 -->
+  <section class="step" id="step2">
+    <h2> H молчит, Y — это «и»</h2>
+    <p>Два правила, которые помогут считать по-испански.</p>
+    <div class="phonetics">
+      <div class="phon-card" data-say="Hay cinco">
+        <div class="phon-letter">h</div>
+        <div class="phon-emoji">📚</div>
+        <div class="phon-word">Hay cinco</div>
+        <div class="phon-hint">«Ай синко» — есть пять. H не читается!</div>
+        <button class="mic-btn" data-mic="hay cinco" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="Ochenta y dos">
+        <div class="phon-letter">y</div>
+        <div class="phon-emoji">🔢</div>
+        <div class="phon-word">Ochenta y dos</div>
+        <div class="phon-hint">«Оччента и дос» — 82. Y = «и»</div>
+        <button class="mic-btn" data-mic="ochenta y dos" data-step="2">🎤</button>
+      </div>
+    </div>
+    <div class="tip"> <strong>Сравни:</strong> <em>hay</em> («ай» — есть) и <em>el rey</em> («рей» — король). Буквы разные, а звук <strong>h</strong> всё равно молчит.</div>
+    <div class="feedback" id="feedback2"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 3 -->
+  <section class="step" id="step3">
+    <h2> Слова для счёта</h2>
+    <p>Послушай и повтори. Эти слова нужны на уроке математики.</p>
+    <div class="words" id="mathCards"></div>
+    <p style="margin-top:26px"><strong> Найди пары: слово и знак</strong></p>
+    <div class="memory-grid" id="memoryGrid"></div>
+    <div class="memory-counter">Найдено пар: <span id="memoryCounter">0</span>/5</div>
+    <div class="feedback" id="feedback3"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 4 -->
+  <section class="step" id="step4">
+    <h2> ¿Cuánto es…?</h2>
+    <p>Учитель спрашивает про примеры, ученик отвечает. Послушай и повтори.</p>
+    <div class="dialogue">
+      <div class="dialogue-line" data-say="¿Cuánto es siete más tres?">
+        <div class="avatar">👩‍🏫</div>
+        <div class="text">¿Cuánto es siete más tres?<span class="ru">Сколько будет семь плюс три?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="cuánto es siete más tres" data-step="4" data-threshold="0.3">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Es diez.">
+        <div class="avatar">🧒</div>
+        <div class="text">Es diez.<span class="ru">Десять.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="es diez" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="¿Y diez menos cuatro?">
+        <div class="avatar">👩‍🏫</div>
+        <div class="text">¿Y diez menos cuatro?<span class="ru">А десять минус четыре?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="y diez menos cuatro" data-step="4" data-threshold="0.3">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Es seis. ¡Muy bien!">
+        <div class="avatar">🧒</div>
+        <div class="text">Es seis. ¡Muy bien!<span class="ru">Шесть. Отлично!</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="es seis muy bien" data-step="4">🎤</button>
+      </div>
+    </div>
+    <div class="bubble-row">
+      <button class="btn btn-primary" data-repeat='["¿Cuánto es siete más tres?","Es diez.","¿Y diez menos cuatro?","Es seis. ¡Muy bien!"]' data-gap="2600"> Слушать весь диалог</button>
+    </div>
+    <div class="tip"> <strong>Шпаргалка:</strong> <em>más</em> — плюс · <em>menos</em> — минус · <em>¿Cuánto es?</em> — сколько будет? · <em>hay</em> — есть</div>
+    <div class="feedback" id="feedback4"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 5 · La frutería -->
+  <section class="step" id="step5">
+    <h2> La frutería</h2>
+    <p>Ты в магазине: сложи цены и назови ответ. 5 покупок!</p>
+    <div class="game-box">
+      <span class="stage-big">🍎</span>
+      <div class="bubble" id="shopTask">Нажми «¡Jugar!»</div>
+      <div class="bubble-row">
+        <button class="big-btn" id="shopStart"> ¡Jugar!</button>
+      </div>
+      <div class="animal-grid" id="shopOptions"></div>
+      <div class="assign-progress" id="shopProgress">Покупка: 0 из 5</div>
+    </div>
+    <div class="tip"> <strong>Задание:</strong> реши примеры вслух по-испански: <em>«Tres más dos es cinco»</em> </div>
+    <div class="feedback" id="feedback5"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 6 -->
+  <section class="step" id="step6">
+    <h2> Проверь себя!</h2>
+    <p>Три вопроса про математику и буквы H/Y.</p>
+    <div id="quizContainer"></div>
+    <div class="assign-progress" id="quizScore"></div>
+    <div class="feedback" id="feedback6"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 7 -->
+  <section class="step" id="step7">
+    <div class="final">
+
+      <h1>¡Muy bien!</h1>
+      <p style="font-size:1.4em">Ты прошёл девятнадцатый урок!</p>
+      <div class="medal"> Медаль «¡Cuánto es?»</div>
+      <p>Сегодня ты узнал:</p>
+      <p> H не читается: <em>hay</em> = «ай»<br>
+        Más, menos, sumar, restar, igual<br>
+        Фразы «¿Cuánto es…?», «Es…», «hay»</p>
+
+      <h3> ¡Yo puedo! — Я могу!</h3>
+      <div class="can-do" id="canDo"></div>
+
+      <div class="homework">
+        <strong> Домашнее задание</strong><br>
+        Реши 5 примеров и запиши ответы по-испански:<br>
+        <strong>«2 + 3 es cinco», «10 − 5 es cinco», «7 + 6 es trece»</strong>
+      </div>
+
+      <div class="nav-buttons center">
+        <button class="btn btn-secondary" data-restart> Пройти ещё раз</button>
+        <a class="btn btn-primary" href="lesson-20.html" style="text-decoration:none;display:inline-block">Урок 20 →</a>
+      </div>
+      <p style="margin-top:18px"><a class="link-ghost" href="course.html">← Ко всем урокам курса</a></p>
+    </div>
+  </section>
+</div>
+
+<script src="assets/lesson.js"></script>
+<script>
+/* ============================ ДАННЫЕ УРОКА 19 ============================ */
+var MATH_WORDS = [
+  { es: 'más', ru: 'больше, плюс', e: '➕' },
+  { es: 'menos', ru: 'меньше, минус', e: '➖' },
+  { es: 'sumar', ru: 'складывать', e: '🧮' },
+  { es: 'restar', ru: 'вычитать', e: '➗' },
+  { es: 'igual', ru: 'равно', e: '🤝' }
+];
+
+var MEMORY = MATH_WORDS.map(function (m) { return { a: m.es, b: m.e, sa: m.es, sb: null }; });
+
+var SHOP = [
+  { a: '3', b: '2', sign: '+', ans: '5', say: '¿Cuánto es tres más dos?' },
+  { a: '10', b: '4', sign: '−', ans: '6', say: '¿Cuánto es diez menos cuatro?' },
+  { a: '6', b: '6', sign: '+', ans: '12', say: '¿Cuánto es seis más seis?' },
+  { a: '15', b: '5', sign: '−', ans: '10', say: '¿Cuánto es quince menos cinco?' },
+  { a: '9', b: '9', sign: '+', ans: '18', say: '¿Cuánto es nueve más nueve?' }
+];
+
+var QUIZ = [
+  { q: ' Как по-испански «плюс, больше»?', opts: ['más', 'menos', 'igual', 'restar'], correct: 'más' },
+  { q: ' Сколько будет 7 + 3?', opts: ['9', '10', '11', '13'], correct: '10' },
+  { q: ' Как читается H в слове «hay»?', opts: ['Не читается', 'Как «х»', 'Как «г»', 'Как «й»'], correct: 'Не читается' }
+];
+
+var CAN_DO = [
+  'Я считаю до 100',
+  'Я говорю «más» и «menos»',
+  'Я спрашиваю «¿Cuánto es…?»',
+  'Я решаю пример и говорю ответ'
+];
+
+/* --------------------- ШАГ 3: карточки слов --------------------- */
+function renderMathWords() {
+  var box = document.getElementById('mathCards');
+  box.innerHTML = '';
+  MATH_WORDS.forEach(function (m) {
+    var c = EL.el('div', 'word-card');
+    c.setAttribute('data-say', m.es);
+    c.style.background = 'linear-gradient(140deg, var(--c3), var(--c1))';
+    c.innerHTML = '<span class="emoji">' + m.e + '</span><span class="es">' + m.es + '</span><span class="ru">' + m.ru + '</span>' +
+      '<button class="mic-btn" data-mic="' + m.es + '" data-step="3">🎤</button>';
+    box.appendChild(c);
+  });
+}
+
+/* --------------------- ШАГ 5: La frutería --------------------- */
+var shopRound = 0, shopLocked = false, SHOP_TOTAL = 5, shopItem = null;
+
+function renderShopRound() {
+  var opts = document.getElementById('shopOptions');
+  var task = document.getElementById('shopTask');
+  document.getElementById('shopProgress').textContent = 'Покупка: ' + shopRound + ' из ' + SHOP_TOTAL;
+
+  if (shopRound >= SHOP_TOTAL) {
+    task.textContent = ' ¡Perfecto! Ты посчитал все цены!';
+    opts.innerHTML = '';
+    document.getElementById('shopProgress').classList.add('complete');
+    return;
+  }
+
+  shopItem = SHOP[shopRound];
+  task.textContent = ' ' + shopItem.a + ' ' + shopItem.sign + ' ' + shopItem.b + ' = ?';
+  EL.speak(shopItem.say);
+
+  var right = +shopItem.ans;
+  var answers = [String(right)];
+  var pool = [right + 1, right - 1, right + 2, right - 2];
+  EL.shuffle(pool).forEach(function (n) {
+    if (answers.length < 3 && n >= 0 && answers.indexOf(String(n)) < 0) answers.push(String(n));
+  });
+  while (answers.length < 3) answers.push(String(right + answers.length + 3));
+
+  opts.innerHTML = '';
+  EL.shuffle(answers).forEach(function (ans) {
+    var b = EL.el('button', 'animal-card');
+    b.dataset.key = ans;
+    b.innerHTML = '<span style="font-size:2.4em">' + ans + '</span>';
+    b.addEventListener('click', function () {
+      if (shopLocked) return;
+      shopLocked = true;
+      if (ans === shopItem.ans) {
+        b.classList.add('right');
+        EL.say(5, ' ¡Muy bien! ' + shopItem.a + ' ' + shopItem.sign + ' ' + shopItem.b + ' = ' + ans + '.', 'success');
+        shopRound++;
+        EL.set('shopRound', shopRound);
+      } else {
+        b.classList.add('wrong');
+        EL.say(5, ' ¡Casi! Посчитай ещё раз и назови ответ по-испански.', 'error');
+      }
+      setTimeout(function () { shopLocked = false; renderShopRound(); }, 1600);
+    });
+    opts.appendChild(b);
+  });
+}
+
+document.getElementById('shopStart').addEventListener('click', function () {
+  shopRound = EL.get('shopRound', 0);
+  renderShopRound();
+  EL.say(5, ' ¡Jugar! Сложи цены и выбери ответ.', 'info');
+});
+
+EL.init({
+  id: 19,
+  rate: 0.72,
+  resumeMsg: ' Продолжить урок 19 с шага ',
+  onStep: function (n) {
+    if (n === 3) { renderMathWords(); EL.memory(MEMORY, { step: 3 }); }
+    if (n === 5) { shopRound = EL.get('shopRound', 0); renderShopRound(); }
+    if (n === 6) EL.quiz(QUIZ, { step: 6 });
+    if (n === 7) EL.canDo(CAN_DO);
+  },
+  onRestart: function () { renderMathWords(); EL.memory(MEMORY, { step: 3 }); shopRound = 0; renderShopRound(); }
+});
+</script>
+
+<script src="assets/gate.js"></script>
+</body>
+</html>

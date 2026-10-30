@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El cuerpo — Урок 14 · Español A0–A1</title>
+<meta name="description" content="Урок 14: части тела по-испански, правило C и Z. Игра «Simón dice» (покажи часть тела). Курс испанского A0–A1 для детей, блок 2.">
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body data-theme="cuerpo">
+
+<header class="lesson-head">
+  <a class="link-back" href="course.html">← Все уроки</a>
+  <span class="lh-title">Урок 14 · El cuerpo</span>
+  <span class="lh-spacer"></span>
+  <a class="link-ghost" href="lesson-15.html">Урок 15 →</a>
+</header>
+
+<div class="voice-note" id="voiceNote"></div>
+<div class="save-indicator" id="saveIndicator"> Прогресс сохранён</div>
+
+<div class="container">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ШАГ 1 -->
+  <section class="step active" id="step1">
+    <h1> El cuerpo</h1>
+    <p style="font-size:1.5em">¡Hola, amigo! Покажи части тела! </p>
+    <p>Сегодня играем в движение: <strong>Simón dice</strong> («Симон говорит») — нужно быстро показать названную часть тела.</p>
+    <h3>В этом уроке</h3>
+    <p> Правила <strong>C</strong> и <strong>Z</strong><br>
+        Шесть частей тела<br>
+        Фразы «Tengo la cabeza», «¿Dónde está…?»<br>
+        Игра «Simón dice»</p>
+    <div class="tip"> <strong>Совет:</strong> в этой игре голос не нужен — вставайте с места и показывайте руками! Для проверки всё равно есть кнопки .</div>
+    <div class="nav-buttons center">
+      <button class="btn btn-primary" data-next>¡Vamos! Поехали! </button>
+    </div>
+  </section>
+
+  <!-- ШАГ 2 -->
+  <section class="step" id="step2">
+    <h2> Два правила, которые тебя удивят</h2>
+    <p>Испанские <strong>C</strong> и <strong>Z</strong> читаются непривычно. Но правило — одно и очень простое!</p>
+    <div class="phonetics">
+      <div class="phon-card" data-say="La boca, la cabeza">
+        <div class="phon-letter long">c + a/o/u</div>
+        <div class="phon-emoji">👄</div>
+        <div class="phon-word">La boca, la cabeza</div>
+        <div class="phon-hint">C перед a, o, u читается как <strong>к</strong>: «бока», «кабеса»</div>
+        <button class="mic-btn" data-mic="la boca" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="La nariz, tres">
+        <div class="phon-letter long">z / final z</div>
+        <div class="phon-emoji">👃</div>
+        <div class="phon-word">La nariz, tres</div>
+        <div class="phon-hint">Z в конце слова читается как <strong>с</strong>: «нарис», «трес»</div>
+        <button class="mic-btn" data-mic="la nariz" data-step="2">🎤</button>
+      </div>
+    </div>
+    <div class="tip"> <strong>Сравни:</strong> <em>el zoo</em> — «суо» (Z), <em>la luz</em> — «лус» (z в конце → с). А вот <em>el zumo</em> («сумо» — сок): z перед гласной тоже читается как «с», а не как русская «з».</div>
+    <div class="feedback" id="feedback2"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 3 -->
+  <section class="step" id="step3">
+    <h2> Части тела</h2>
+    <p>Послушай, повтори и покажи руками!</p>
+    <div class="words" id="bodyCards"></div>
+    <p style="margin-top:26px"><strong> Найди пары: слово и картинка</strong></p>
+    <div class="memory-grid" id="memoryGrid"></div>
+    <div class="memory-counter">Найдено пар: <span id="memoryCounter">0</span>/6</div>
+    <div class="feedback" id="feedback3"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 4 -->
+  <section class="step" id="step4">
+    <h2> Доктор и пациент</h2>
+    <p>Дети играют в докторов. Послушай и повтори.</p>
+    <div class="dialogue">
+      <div class="dialogue-line" data-say="¿Dónde te duele?">
+        <div class="avatar">👨‍⚕️</div>
+        <div class="text">¿Dónde te duele?<span class="ru">Где у тебя болит?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="dónde te duele" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Me duele la cabeza.">
+        <div class="avatar">🧒</div>
+        <div class="text">Me duele la cabeza.<span class="ru">У меня болит голова.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="me duele la cabeza" data-step="4" data-threshold="0.35">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="Ten la boca abierta.">
+        <div class="avatar">👨‍⚕️</div>
+        <div class="text">Ten la boca abierta.<span class="ru">Открой рот.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="ten la boca abierta" data-step="4" data-threshold="0.35">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="¡Muy bien, estoy sano!">
+        <div class="avatar">🧒</div>
+        <div class="text">¡Muy bien, estoy sano!<span class="ru">Отлично, я здоров!</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="muy bien estoy sano" data-step="4" data-threshold="0.35">🎤</button>
+      </div>
+    </div>
+    <div class="bubble-row">
+      <button class="btn btn-primary" data-repeat='["¿Dónde te duele?","Me duele la cabeza.","Ten la boca abierta.","¡Muy bien, estoy sano!"]' data-gap="2600"> Слушать весь диалог</button>
+    </div>
+    <div class="tip"> <strong>Шпаргалка:</strong> <em>Me duele la cabeza.</em> (болит голова) — <em>¿Dónde te duele?</em> (где болит?) — <em>Levanta la mano.</em> (подними руку)</div>
+    <div class="feedback" id="feedback4"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 5 · Simón dice -->
+  <section class="step" id="step5">
+    <h2> Simón dice</h2>
+    <p>Прочитай команду и как можно быстрей нажми на нужную часть тела. 8 команд!</p>
+    <div class="game-box">
+      <div class="bubble" id="simonCommand">Нажми «¡Jugar!»</div>
+      <div class="bubble-row">
+        <button class="big-btn" id="simonStart"> ¡Jugar!</button>
+      </div>
+      <div class="simon-timer"><div class="simon-fill" id="simonFill"></div></div>
+      <div class="animal-grid" id="simonOptions"></div>
+      <div class="assign-progress" id="simonProgress">Раундов: 0 из 8</div>
+    </div>
+    <div class="tip"> <strong>Правило игры:</strong> иногда звучит «¡Simón dice, toca la nariz!» — а иногда «¡Toca la nariz!» <em>без</em> «Simón dice». Если слова «Simón dice» нет — не выполняй!</div>
+    <div class="feedback" id="feedback5"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 6 -->
+  <section class="step" id="step6">
+    <h2> Проверь себя!</h2>
+    <p>Три вопроса про тело и правила C/Z.</p>
+    <div id="quizContainer"></div>
+    <div class="assign-progress" id="quizScore"></div>
+    <div class="feedback" id="feedback6"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 7 -->
+  <section class="step" id="step7">
+    <div class="final">
+
+      <h1>¡Muy bien!</h1>
+      <p style="font-size:1.4em">Ты прошёл четырнадцатый урок!</p>
+      <div class="medal"> Медаль «¡Simón dice!»</div>
+      <p>Сегодня ты узнал:</p>
+      <p> C перед a/o/u = «к», Z в конце = «с»<br>
+        Cabeza, ojos, nariz, boca, manos, pies<br>
+        Фразы «Me duele la…», «¿Dónde te duele?»</p>
+
+      <h3> ¡Yo puedo! — Я могу!</h3>
+      <div class="can-do" id="canDo"></div>
+
+      <div class="homework">
+        <strong> Домашнее задание</strong><br>
+        Сыграй в «Simón dice» с семьёй — команды даёт взрослый по-испански.<br>
+        Нарисуй человека и подпиши: <em>cabeza, ojos, nariz, boca, manos, pies</em>
+      </div>
+
+      <div class="nav-buttons center">
+        <button class="btn btn-secondary" data-restart> Пройти ещё раз</button>
+        <a class="btn btn-primary" href="lesson-15.html" style="text-decoration:none;display:inline-block">Урок 15 →</a>
+      </div>
+      <p style="margin-top:18px"><a class="link-ghost" href="course.html">← Ко всем урокам курса</a></p>
+    </div>
+  </section>
+</div>
+
+<script src="assets/lesson.js"></script>
+<script>
+/* ============================ ДАННЫЕ УРОКА 14 ============================ */
+var BODY = [
+  { es: 'la cabeza', ru: 'голова', e: '🧠' },
+  { es: 'los ojos', ru: 'глаза', e: '👀' },
+  { es: 'la nariz', ru: 'нос', e: '👃' },
+  { es: 'la boca', ru: 'рот', e: '👄' },
+  { es: 'las manos', ru: 'руки', e: '✋' },
+  { es: 'los pies', ru: 'ноги', e: '🦶' }
+];
+
+var MEMORY = BODY.map(function (b) { return { a: b.es, b: b.e, sa: b.es, sb: null }; });
+
+var QUIZ = [
+  { q: ' Как по-испански «нос»?', opts: ['la nariz', 'la boca', 'los ojos', 'la cabeza'], correct: 'la nariz' },
+  { q: ' Что значит «Me duele la cabeza»?', opts: ['У меня болит голова', 'У меня болит зуб', 'Я доволен', 'У меня болит нога'], correct: 'У меня болит голова' },
+  { q: ' Как читается C в слове «boca»?', opts: ['Как «к»', 'Как «с»', 'Как «х»', 'Как «б»'], correct: 'Как «к»' }
+];
+
+var CAN_DO = [
+  'Я называю шесть частей тела',
+  'Я читаю C как «к» и Z как «с»',
+  'Я говорю «Me duele la cabeza»',
+  'Я играю в «Simón dice»'
+];
+
+function renderBody() {
+  var box = document.getElementById('bodyCards');
+  box.innerHTML = '';
+  BODY.forEach(function (b) {
+    var c = EL.el('div', 'word-card');
+    c.setAttribute('data-say', b.es);
+    c.style.background = 'linear-gradient(140deg, var(--c3), var(--c1))';
+    c.innerHTML = '<span class="emoji">' + b.e + '</span><span class="es">' + b.es + '</span><span class="ru">' + b.ru + '</span>' +
+      '<button class="mic-btn" data-mic="' + b.es + '" data-step="3">🎤</button>';
+    box.appendChild(c);
+  });
+}
+
+/* --------------------- ШАГ 5: Simón dice --------------------- */
+var simonRound = 0, simonTarget = null, simonLocked = false, simonTimer = null, SIMON_TOTAL = 8;
+
+function pickPart() { return BODY[Math.floor(Math.random() * BODY.length)].es; }
+
+function simonCommand() {
+  var part = pickPart();
+  var withSimon = Math.random() < 0.65;
+  return {
+    part: part,
+    need: withSimon,
+    say: (withSimon ? '¡Simón dice! ' : '¡Ojo! ') + 'Toca ' + part + '.',
+    text: (withSimon ? ' Simón dice: ' : ' Simón NO dice: ') + 'toca ' + part
+  };
+}
+
+function renderSimonRound() {
+  var opts = document.getElementById('simonOptions');
+  var cmd = document.getElementById('simonCommand');
+  var prog = document.getElementById('simonProgress');
+  prog.textContent = 'Раундов: ' + simonRound + ' из ' + SIMON_TOTAL;
+
+  if (simonRound >= SIMON_TOTAL) {
+    cmd.textContent = ' ¡Perfecto! Ты сыграл все раунды!';
+    opts.innerHTML = '';
+    prog.classList.add('complete');
+    return;
+  }
+
+  simonTarget = simonCommand();
+  cmd.textContent = simonTarget.text;
+  EL.speak(simonTarget.say);
+
+  opts.innerHTML = '';
+  var pool = EL.shuffle(BODY).slice(0, 4);
+  if (!pool.some(function (x) { return x.es === simonTarget.part; })) pool[0] = simonTarget.part;
+  EL.shuffle(pool).forEach(function (x) {
+    var b = EL.el('button', 'animal-card');
+    b.innerHTML = '<span style="font-size:2.2em">' + x.e + '</span><span class="es">' + x.es + '</span><span class="ru">' + x.ru + '</span>';
+    b.addEventListener('click', function () {
+      if (simonLocked) return;
+      simonLocked = true;
+      var right = (x.es === simonTarget.part) === simonTarget.need;
+      if (right) {
+        b.classList.add('right');
+        b.style.borderColor = '#2C5F8A';
+        EL.speak(x.es);
+        EL.say(5, ' ¡Muy bien! ' + x.es + ' — правильно!', 'success');
+        simonRound++;
+        EL.set('simonRound', simonRound);
+      } else {
+        b.classList.add('wrong');
+        EL.say(5, ' ¡Casi! Это не то, что нужно. Послушай команду ещё раз.', 'error');
+      }
+      setTimeout(function () { simonLocked = false; renderSimonRound(); }, 1200);
+    });
+    opts.appendChild(b);
+  });
+
+  /* секундомер */
+  var fill = document.getElementById('simonFill');
+  fill.style.transition = 'none';
+  fill.style.width = '100%';
+  if (simonTimer) clearInterval(simonTimer);
+  var t = 0;
+  simonTimer = setInterval(function () {
+    t += 5;
+    fill.style.transition = 'width .1s linear';
+    fill.style.width = Math.max(0, 100 - t) + '%';
+    if (t >= 100 && !simonLocked) {
+      clearInterval(simonTimer);
+      simonLocked = true;
+      EL.say(5, ' ¡Uy, tiempo! Покажи быстрее в следующий раз.', 'error');
+      setTimeout(function () { simonLocked = false; renderSimonRound(); }, 1400);
+    }
+  }, 100);
+}
+
+/* Simón command: таймер и раунды */
+document.getElementById('simonStart').addEventListener('click', function () {
+  simonRound = EL.get('simonRound', 0);
+  renderSimonRound();
+  EL.say(5, ' ¡Jugar! Слушай внимательно: если без «Simón dice» — не выполняй.', 'info');
+});
+
+EL.init({
+  id: 14,
+  rate: 0.72,
+  resumeMsg: ' Продолжить урок 14 с шага ',
+  onStep: function (n) {
+    if (n === 3) { renderBody(); EL.memory(MEMORY, { step: 3 }); }
+    if (n === 5) {
+      simonRound = EL.get('simonRound', 0);
+      renderSimonRound();
+    }
+    if (n === 6) EL.quiz(QUIZ, { step: 6 });
+    if (n === 7) EL.canDo(CAN_DO);
+  },
+  onRestart: function () { renderBody(); EL.memory(MEMORY, { step: 3 }); simonRound = 0; renderSimonRound(); }
+});
+</script>
+
+<script src="assets/gate.js"></script>
+</body>
+</html>

@@ -1,0 +1,745 @@
+{
+  "id": 72,
+  "title": "El tiempo y los planes",
+  "titleRu": "Погода и планы на выходные",
+  "module": "a0-a1",
+  "block": 2,
+  "part": 2,
+  "blockTitle": "Часть 2 · Продолжение начального уровня",
+  "level": "A1",
+  "theme": "Погода и планы  El tiempo y los planes",
+  "mission": "Обсудить погоду, рассказать о планах на выходные и принять приглашение на языковой обмен.",
+  "mapPoint": "Парк Ретиро: планы на неделю",
+  "duration": "45 минут",
+  "stepsCount": 7,
+  "readingNote": "Читайте вслух целыми фразами, а не по словам: hace sol, hace calor, voy a salir.",
+  "characters": [
+    "olga",
+    "mateo"
+  ],
+  "objectives": [
+    "Описать погоду четырьмя формулами: hace sol, hace frío, hace calor, llueve",
+    "Рассказать о планах конструкцией voy a + инфинитив",
+    "Понять и задать вопрос о планах: ¿qué vas a hacer el fin de semana?",
+    "Отреагировать на приглашение: ¡buena idea!",
+    "Читать погодные фразы бегло, ритмом живой речи"
+  ],
+  "grammar": {
+    "voy_a_infinitivo": {
+      "title": "Voy a + инфинитив: план как поезд",
+      "description": "План по-испански строится как поезд: voy a + глагол. Voy a visitar el museo (я собираюсь посетить музей), voy a comprar regalos (собираюсь купить подарки). После a глагол стоит в словарной форме — «бесконечник»: visitar, comprar, ver. Ничего не спрягается: меняется только связка — yo voy, tú vas, él va, nosotros vamos. Вопрос о планах: ¿qué vas a hacer el fin de semana? (что ты будешь делать в выходные?).",
+      "forms": {
+        "yo": {
+          "es": "voy a visitar el museo",
+          "ru": "я собираюсь посетить музей"
+        },
+        "tu": {
+          "es": "¿qué vas a hacer el fin de semana?",
+          "ru": "что ты будешь делать в выходные?"
+        },
+        "el_ella": {
+          "es": "ella va a comprar regalos",
+          "ru": "она собирается купить подарки"
+        },
+        "nosotros": {
+          "es": "vamos a ver una película",
+          "ru": "мы собираемся посмотреть фильм"
+        }
+      },
+      "examples": [
+        {
+          "es": "Voy a comprar regalos para mi familia.",
+          "ru": "Я куплю подарки для семьи."
+        },
+        {
+          "es": "Mañana vamos al Retiro, ¿no?",
+          "ru": "Завтра идём в Ретиро, да?"
+        }
+      ]
+    },
+    "el_tiempo_hace": {
+      "title": "Погода делается: hace sol, hace frío, hace calor, llueve",
+      "description": "Вопрос о погоде один: ¿qué tiempo hace? (какая погода?). Ответ — всегда про погоду «делает», поэтому hace: hace sol (солнечно), hace frío (холодно), hace calor (жарко). Только дождь стоит отдельно: llueve (идёт дождь). Формулы короткие и ритмичные — их удобно произносить целиком, фразой: hoy llueve en Valencia, en Madrid hace sol.",
+      "list": [
+        {
+          "es": "¿qué tiempo hace?",
+          "ru": "какая погода?"
+        },
+        {
+          "es": "hace sol",
+          "ru": "солнечно"
+        },
+        {
+          "es": "hace frío",
+          "ru": "холодно"
+        },
+        {
+          "es": "hace calor",
+          "ru": "жарко"
+        },
+        {
+          "es": "llueve",
+          "ru": "идёт дождь"
+        },
+        {
+          "es": "hace sol y hace calor",
+          "ru": "солнечно и жарко"
+        },
+        {
+          "es": "hoy llueve en Valencia",
+          "ru": "сегодня в Валенсии дождь"
+        },
+        {
+          "es": "en Madrid hace sol",
+          "ru": "в Мадриде солнечно"
+        }
+      ],
+      "examples": [
+        {
+          "es": "¿Qué tiempo hace hoy? — Hace sol y hace calor.",
+          "ru": "Какая сегодня погода? — Солнечно и жарко."
+        },
+        {
+          "es": "El fin de semana hace sol. ¡Buena idea!",
+          "ru": "На выходных солнечно. Отличная идея!"
+        }
+      ]
+    },
+    "los_planes_y_la_invitacion": {
+      "title": "Планы и приглашение: voy a…, ¿vamos a…?, ¡buena idea!",
+      "description": "Рассказать о планах помогает банк глаголов: visitar (посетить), comprar (купить), ver (посмотреть) — и el regalo (подарок). Ответ на чужое приглашение — короткая реакция: ¡buena idea! (отличная идея!). Приглашение строится так же, как план: ¿vamos al Retiro mañana? (пойдём завтра в Ретиро?).",
+      "list": [
+        {
+          "es": "el fin de semana",
+          "ru": "выходные"
+        },
+        {
+          "es": "visitar",
+          "ru": "посетить"
+        },
+        {
+          "es": "comprar",
+          "ru": "купить"
+        },
+        {
+          "es": "ver",
+          "ru": "посмотреть"
+        },
+        {
+          "es": "el regalo",
+          "ru": "подарок"
+        },
+        {
+          "es": "¡buena idea!",
+          "ru": "отличная идея!"
+        },
+        {
+          "es": "¿vamos al Retiro mañana?",
+          "ru": "пойдём завтра в Ретиро?"
+        },
+        {
+          "es": "un intercambio de idiomas",
+          "ru": "языковой обмен"
+        }
+      ],
+      "examples": [
+        {
+          "es": "Voy a visitar el museo y a comprar un regalo.",
+          "ru": "Я схожу в музей и куплю подарок."
+        },
+        {
+          "es": "En Valencia hay un intercambio de idiomas. ¡Buena idea! Voy a ir contigo.",
+          "ru": "В Валенсии есть языковой обмен. Отличная идея! Я пойду с тобой."
+        }
+      ]
+    }
+  },
+  "vocabulary": {
+    "el_tiempo": [
+      {
+        "es": "¿qué tiempo hace?",
+        "ru": "какая погода?"
+      },
+      {
+        "es": "hace sol",
+        "ru": "солнечно"
+      },
+      {
+        "es": "hace frío",
+        "ru": "холодно"
+      },
+      {
+        "es": "hace calor",
+        "ru": "жарко"
+      },
+      {
+        "es": "llueve",
+        "ru": "идёт дождь"
+      }
+    ],
+    "los_planes": [
+      {
+        "es": "el fin de semana",
+        "ru": "выходные"
+      },
+      {
+        "es": "voy a…",
+        "ru": "я собираюсь…"
+      },
+      {
+        "es": "visitar",
+        "ru": "посетить"
+      },
+      {
+        "es": "comprar",
+        "ru": "купить"
+      },
+      {
+        "es": "ver",
+        "ru": "посмотреть"
+      },
+      {
+        "es": "el regalo",
+        "ru": "подарок"
+      }
+    ],
+    "las_reacciones": [
+      {
+        "es": "¡buena idea!",
+        "ru": "отличная идея!"
+      },
+      {
+        "es": "un intercambio de idiomas",
+        "ru": "языковой обмен"
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "Mateo",
+      "es": "¿Qué tiempo hace hoy en Madrid?",
+      "ru": "Какая сегодня погода в Мадриде?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Hace sol y hace calor. ¡Perfecto para el Retiro!",
+      "ru": "Солнечно и жарко. Отлично для Ретиро!"
+    },
+    {
+      "speaker": "Mateo",
+      "es": "Sí, muy bien. ¿Qué vas a hacer el fin de semana?",
+      "ru": "Да, очень хорошо. Что ты будешь делать в выходные?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Voy a comprar regalos para mi familia.",
+      "ru": "Я куплю подарки для семьи."
+    },
+    {
+      "speaker": "Mateo",
+      "es": "¿Y después? En Valencia hay un intercambio de idiomas.",
+      "ru": "А потом? В Валенсии есть языковой обмен."
+    },
+    {
+      "speaker": "Olga",
+      "es": "¡Buena idea! Voy a ir contigo.",
+      "ru": "Отличная идея! Я пойду с тобой."
+    },
+    {
+      "speaker": "Mateo",
+      "es": "Allí puedes hablar con mucha gente. ¿Vas el domingo?",
+      "ru": "Там сможешь говорить со многими людьми. Ты пойдёшь в воскресенье?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "El domingo a las seis. Voy a hablar solo en español.",
+      "ru": "В воскресенье в шесть. Буду говорить только по-испански."
+    },
+    {
+      "speaker": "Mateo",
+      "es": "Mañana, ¿qué tiempo hace? ¿Vamos al Retiro a las diez?",
+      "ru": "Завтра какая погода? Пойдём в Ретиро в десять?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Mañana hace frío. Voy a ver el mercado antes de las diez.",
+      "ru": "Завтра холодно. Я схожу на рынок до десяти."
+    },
+    {
+      "speaker": "Mateo",
+      "es": "Entonces, ¿nos vemos mañana a las diez?",
+      "ru": "Тогда встретимся завтра в десять?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Sí, mañana a las diez. ¡Hasta mañana, Mateo!",
+      "ru": "Да, завтра в десять. До завтра, Матео!"
+    },
+    {
+      "speaker": "Mateo",
+      "es": "¡Hasta mañana! Y buen viaje a Valencia.",
+      "ru": "До завтра! И хорошей поездки в Валенсию."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между погодой и планом",
+      "pairs": [
+        {
+          "es": "hace sol",
+          "ru": "солнечно"
+        },
+        {
+          "es": "hace frío",
+          "ru": "холодно"
+        },
+        {
+          "es": "hace calor",
+          "ru": "жарко"
+        },
+        {
+          "es": "llueve",
+          "ru": "идёт дождь"
+        },
+        {
+          "es": "el fin de semana",
+          "ru": "выходные"
+        },
+        {
+          "es": "voy a…",
+          "ru": "я собираюсь…"
+        },
+        {
+          "es": "comprar",
+          "ru": "купить"
+        },
+        {
+          "es": "el regalo",
+          "ru": "подарок"
+        },
+        {
+          "es": "¡buena idea!",
+          "ru": "отличная идея!"
+        },
+        {
+          "es": "un intercambio de idiomas",
+          "ru": "языковой обмен"
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-voy_a_infinitivo",
+      "title": "Практика: voy a + инфинитив",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Voy ___ visitar el museo.",
+          "ru": "Я собираюсь посетить музей",
+          "answer": "a",
+          "options": [
+            "a",
+            "de",
+            "en"
+          ]
+        },
+        {
+          "text": "Voy a ___ regalos para mi familia.",
+          "ru": "Я собираюсь купить подарки для семьи",
+          "answer": "comprar",
+          "options": [
+            "comprar",
+            "compra",
+            "compro"
+          ]
+        },
+        {
+          "text": "Voy a ___ una película.",
+          "ru": "Я собираюсь посмотреть фильм",
+          "answer": "ver",
+          "options": [
+            "ver",
+            "ves",
+            "veo"
+          ]
+        },
+        {
+          "text": "¿Qué ___ hacer el fin de semana?",
+          "ru": "Что ты будешь делать в выходные?",
+          "answer": "vas",
+          "options": [
+            "vas",
+            "voy",
+            "va"
+          ]
+        },
+        {
+          "text": "Nosotros ___ al Retiro mañana.",
+          "ru": "Мы идём завтра в Ретиро",
+          "answer": "vamos",
+          "options": [
+            "vamos",
+            "voy",
+            "vas"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-el_tiempo_hace",
+      "title": "Практика: погода — hace… и llueve",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "¿Qué ___ hace hoy?",
+          "ru": "Какая сегодня погода?",
+          "answer": "tiempo",
+          "options": [
+            "tiempo",
+            "hora",
+            "lugar"
+          ]
+        },
+        {
+          "text": "En Madrid ___ sol.",
+          "ru": "В Мадриде солнечно",
+          "answer": "hace",
+          "options": [
+            "hace",
+            "hay",
+            "está"
+          ]
+        },
+        {
+          "text": "Hoy ___ en Valencia.",
+          "ru": "Сегодня в Валенсии идёт дождь",
+          "answer": "llueve",
+          "options": [
+            "llueve",
+            "llueven",
+            "llovió"
+          ]
+        },
+        {
+          "text": "En invierno ___ frío.",
+          "ru": "Зимой холодно",
+          "answer": "hace",
+          "options": [
+            "hace",
+            "hacen",
+            "está"
+          ]
+        },
+        {
+          "text": "En agosto ___ calor.",
+          "ru": "В августе жарко",
+          "answer": "hace",
+          "options": [
+            "hace",
+            "hay",
+            "es"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-los_planes_y_la_invitacion",
+      "title": "Практика: планы, подарки и приглашение",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "¿Qué vas a hacer ___ fin de semana?",
+          "ru": "Что ты будешь делать в выходные?",
+          "answer": "el",
+          "options": [
+            "el",
+            "un",
+            "al"
+          ]
+        },
+        {
+          "text": "Voy a ___ un regalo para mi familia.",
+          "ru": "Я куплю подарок для семьи",
+          "answer": "comprar",
+          "options": [
+            "comprar",
+            "ver",
+            "visitar"
+          ]
+        },
+        {
+          "text": "¡Buena ___ ! Voy a ir contigo.",
+          "ru": "Отличная идея! Я пойду с тобой",
+          "answer": "idea",
+          "options": [
+            "idea",
+            "hora",
+            "tiempo"
+          ]
+        },
+        {
+          "text": "En Valencia hay un intercambio ___ idiomas.",
+          "ru": "В Валенсии есть языковой обмен",
+          "answer": "de",
+          "options": [
+            "de",
+            "a",
+            "en"
+          ]
+        },
+        {
+          "text": "¿Vamos al Retiro ___ las diez?",
+          "ru": "Пойдём в Ретиро в десять?",
+          "answer": "a",
+          "options": [
+            "a",
+            "de",
+            "en"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "___ tiempo hace hoy?",
+          "ru": "Какая сегодня погода?",
+          "answer": "Qué",
+          "options": [
+            "Qué",
+            "Que",
+            "Quién"
+          ]
+        },
+        {
+          "text": "Hoy ___ sol y hace calor.",
+          "ru": "Сегодня солнечно и жарко",
+          "answer": "hace",
+          "options": [
+            "hace",
+            "hay",
+            "son"
+          ]
+        },
+        {
+          "text": "En Valencia ___ .",
+          "ru": "В Валенсии идёт дождь",
+          "answer": "llueve",
+          "options": [
+            "llueve",
+            "llueva",
+            "llovió"
+          ]
+        },
+        {
+          "text": "Voy ___ visitar la ciudad vieja.",
+          "ru": "Я собираюсь осмотреть старый город",
+          "answer": "a",
+          "options": [
+            "a",
+            "de",
+            "en"
+          ]
+        },
+        {
+          "text": "Voy a ___ un regalo para mi familia.",
+          "ru": "Я собираюсь купить подарок для семьи",
+          "answer": "comprar",
+          "options": [
+            "comprar",
+            "compras",
+            "compra"
+          ]
+        },
+        {
+          "text": "¿Qué ___ a hacer mañana?",
+          "ru": "Что ты собираешься делать завтра?",
+          "answer": "vas",
+          "options": [
+            "vas",
+            "voy",
+            "va"
+          ]
+        },
+        {
+          "text": "El ___ de semana hace sol.",
+          "ru": "На выходных солнечно",
+          "answer": "fin",
+          "options": [
+            "fin",
+            "finé",
+            "fín"
+          ]
+        },
+        {
+          "text": "El intercambio ___ idiomas es el domingo.",
+          "ru": "Языковой обмен в воскресенье",
+          "answer": "de",
+          "options": [
+            "de",
+            "del",
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух без пауз: voy a visitar el museo."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Ольгой",
+      "role": "Olga",
+      "description": "Ты — Ольга: говоришь о погоде, рассказываешь два плана на выходные и принимаешь приглашение"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Матео",
+      "role": "Mateo",
+      "description": "Ты — Матео: спрашиваешь про погоду и планы, предлагаешь Ретиро и языковой обмен"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи о погоде и о планах на выходные и пригласи собеседника",
+      "template": [
+        {
+          "label": "Какая сегодня погода?",
+          "es": "¿Qué ___ hace hoy?"
+        },
+        {
+          "label": "Солнечно и жарко",
+          "es": "Hace ___ y hace ___ ."
+        },
+        {
+          "label": "Что ты будешь делать в выходные?",
+          "es": "¿Qué vas a hacer ___ fin de semana?"
+        },
+        {
+          "label": "Собираюсь купить подарки",
+          "es": "Voy a ___ regalos."
+        },
+        {
+          "label": "Пойдём в Ретиро?",
+          "es": "¿Vamos ___ Retiro?"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "Se oye: «Hoy llueve en Valencia». ¿Qué tiempo hace?",
+          "ru": "Слышно: «Hoy llueve en Valencia». Какая погода?",
+          "options": [
+            "Hace sol",
+            "Llueve",
+            "Hace frío"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Se oye: «Voy a visitar el museo». ¿Cuál es el plan?",
+          "ru": "Слышно: «Voy a visitar el museo». Какой план?",
+          "options": [
+            "Comprar regalos",
+            "Ir al museo",
+            "Ver una película"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué hace Olga el fin de semana?",
+          "ru": "Что Ольга делает в выходные?",
+          "options": [
+            "Va a comprar regalos para su familia",
+            "Va a ver el museo",
+            "Va a trabajar"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Elige la frase correcta: «Солнечно и жарко».",
+          "ru": "Выбери верную фразу: «Солнечно и жарко».",
+          "options": [
+            "Hace sol y hace calor.",
+            "Llueve y hace frío.",
+            "Hace sol y llueve."
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué le propone Mateo a Olga?",
+          "ru": "Что Матео предлагает Ольге?",
+          "options": [
+            "Un intercambio de idiomas en Valencia",
+            "Un viaje a Francia",
+            "Un trabajo en el mercado"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo responde Olga a la propuesta?",
+          "ru": "Как Ольга отвечает на предложение?",
+          "options": [
+            "No, gracias.",
+            "¡Buena idea! Voy a ir contigo.",
+            "No sé."
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Completa: «Mañana ___ frío».",
+          "ru": "Дополни: «Mañana ___ frío».",
+          "options": [
+            "hace",
+            "hay",
+            "es"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Cuando alguien dice «¡Buena idea!», significa:",
+          "ru": "Когда говорят «¡Buena idea!», это значит:",
+          "options": [
+            "Хорошая идея!",
+            "До свидания!",
+            "Как дела?"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿A qué hora se ven mañana Olga y Mateo?",
+          "ru": "Во сколько завтра встретятся Ольга и Матео?",
+          "options": [
+            "A las seis",
+            "A las diez",
+            "A las cinco"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    "Я говорю о погоде: ¿qué tiempo hace? — hace sol y hace calor",
+    "Я строю планы: voy a + глагол",
+    "Я понимаю и задаю вопрос о планах: ¿qué vas a hacer…?",
+    "Я реагирую на приглашение: ¡buena idea!",
+    "Я читаю погодные фразы целиком, а не по словам"
+  ],
+  "homework": [
+    "Составь 5 предложений о планах по схеме voy a + глагол и произнеси их вслух",
+    "Прочитай вслух прогноз погодами фразами: «Hoy llueve. El fin de semana hace sol»",
+    "Прочитай вслух слова-фразы части: hoy llueve, hace sol, voy a salir, el fin de semana",
+    "Запиши в дневник прогресса 30 секунд речи: две формулы погоды и два плана"
+  ]
+}

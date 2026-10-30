@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Los colores — Урок 4 · Español A0–A1</title>
+<meta name="description" content="Урок 4: цвета радуги и буква G (Gue, Gui). Интерактивная волшебная палитра. Курс испанского A0–A1 для детей.">
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body data-theme="colores">
+
+<header class="lesson-head">
+  <a class="link-back" href="course.html">← Все уроки</a>
+  <span class="lh-title">Урок 4 · Los colores</span>
+  <span class="lh-spacer"></span>
+  <a class="link-ghost" href="lesson-05.html">Урок 5 →</a>
+</header>
+
+<div class="voice-note" id="voiceNote"></div>
+<div class="save-indicator" id="saveIndicator"> Прогресс сохранён</div>
+
+<div class="container">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ШАГ 1 -->
+  <section class="step active" id="step1">
+    <h1> Los colores</h1>
+    <p style="font-size:1.5em">¡Hola, amigo! Добро пожаловать в мир цветов! </p>
+    <p>Сегодня ты научишься называть цвета по-испански и раскрасишь волшебный мяч в нужный цвет.</p>
+    <h3>В этом уроке</h3>
+    <p> Буква <strong>G</strong> и её хитрость<br>
+        Пять цветов радуги<br>
+        Фраза «Es …»<br>
+        Волшебная палитра</p>
+    <div class="tip"> <strong>Совет:</strong> нажимай на цвета — они сами произносят себя по-испански!</div>
+    <div class="nav-buttons center">
+      <button class="btn btn-primary" data-next>¡Vamos! Поехали! </button>
+    </div>
+  </section>
+
+  <!-- ШАГ 2 -->
+  <section class="step" id="step2">
+    <h2> Хитрость буквы G</h2>
+    <p>Буква <strong>G</strong> тоже умеет играть! Перед <strong>A, O, U</strong> она звучит как русская «Г». А в сочетаниях <strong>Gue, Gui</strong> буква U не читается — и получается «Ге», «Ги».</p>
+    <div class="phonetics">
+      <div class="phon-card" data-say="Gato, Goma">
+        <div class="phon-letter long">G + A, O, U</div>
+        <div class="phon-emoji">🐱</div>
+        <div class="phon-word">Gato, Goma</div>
+        <div class="phon-hint">Звучит как русская <strong>Г</strong>: гато, гома</div>
+        <button class="mic-btn" data-mic="gato" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="Guerra, Guiso">
+        <div class="phon-letter long">Gue, Gui</div>
+        <div class="phon-emoji">🎭</div>
+        <div class="phon-word">Guerra, Guiso</div>
+        <div class="phon-hint">U <strong>не читается</strong>: «герра», «гисо»</div>
+        <button class="mic-btn" data-mic="guerra" data-step="2">🎤</button>
+      </div>
+    </div>
+    <div class="feedback" id="feedback2"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 3 -->
+  <section class="step" id="step3">
+    <h2> Пять цветов радуги</h2>
+    <p>Послушай каждый цвет и повтори за ним. Нажми на микрофон — компьютер проверит тебя.</p>
+    <div class="words" id="colorCards"></div>
+    <p style="margin-top:26px"><strong> Найди пары: слово и цветной круг</strong></p>
+    <div class="memory-grid" id="memoryGrid"></div>
+    <div class="memory-counter">Найдено пар: <span id="memoryCounter">0</span>/5</div>
+    <div class="feedback" id="feedback3"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 4 -->
+  <section class="step" id="step4">
+    <h2> Какой это цвет?</h2>
+    <p>Два друга рассматривают игрушку. Послушай реплики и повтори их вслух.</p>
+    <div class="dialogue">
+      <div class="dialogue-line" data-say="¿De qué color es?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿De qué color es?<span class="ru">Какой это цвет?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="de qué color es" data-step="4" data-threshold="0.45">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Es azul.">
+        <div class="avatar">👧</div>
+        <div class="text">Es azul.<span class="ru">Это синий.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="es azul" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="El coche es rojo.">
+        <div class="avatar">🧑</div>
+        <div class="text">El coche es rojo.<span class="ru">Машина красная.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="el coche es rojo" data-step="4" data-threshold="0.4">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="¡Qué bonito!">
+        <div class="avatar">👧</div>
+        <div class="text">¡Qué bonito!<span class="ru">Как красиво!</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="qué bonito" data-step="4">🎤</button>
+      </div>
+    </div>
+    <div class="bubble-row">
+      <button class="btn btn-primary" data-repeat='["¿De qué color es?","Es azul.","El coche es rojo.","¡Qué bonito!"]' data-gap="2400"> Слушать весь диалог</button>
+    </div>
+    <div class="tip"> <strong>Шпаргалка:</strong> <em>Es [цвет].</em> — Это [цвет].<br>
+      <em>El coche es rojo.</em> — Машина красная.</div>
+    <div class="feedback" id="feedback4"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 5 · Волшебная палитра -->
+  <section class="step" id="step5">
+    <h2> Волшебная палитра</h2>
+    <p>Перед тобой серый мяч. Послушай вопрос, выбери нужный цвет — и мяч покрасится!</p>
+    <div class="game-box">
+      <div class="palette-stage">
+        <div class="ball" id="ball"></div>
+        <div>
+          <div class="bubble" id="paintQuestion" style="margin:0 0 12px">…</div>
+          <div class="swatches" id="swatches"></div>
+        </div>
+      </div>
+      <div class="assign-progress" id="paintProgress"></div>
+      <div class="bubble-row">
+        <button class="btn btn-secondary" id="paintHear"> Назвать цвет голосом</button>
+        <button class="btn btn-ghost" id="paintReset"> Начать заново</button>
+      </div>
+    </div>
+    <div class="feedback" id="feedback5"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 6 -->
+  <section class="step" id="step6">
+    <h2> Проверь себя!</h2>
+    <p>Три быстрых вопроса про цвета и букву G.</p>
+    <div id="quizContainer"></div>
+    <div class="assign-progress" id="quizScore"></div>
+    <div class="feedback" id="feedback6"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 7 -->
+  <section class="step" id="step7">
+    <div class="final">
+
+      <h1>¡Qué chévere!</h1>
+      <p style="font-size:1.4em">Ты прошёл четвёртый урок!</p>
+      <div class="medal"> Медаль «¡Los colores!»</div>
+      <p>Сегодня ты узнал:</p>
+      <p> G перед A, O, U = «Г», а в <strong>Gue, Gui</strong> буква U молчит<br>
+          Rojo, azul, verde, amarillo, blanco<br>
+          Фраза «Es [цвет]»</p>
+
+      <h3> ¡Yo puedo! — Я могу!</h3>
+      <div class="can-do" id="canDo"></div>
+
+      <div class="homework">
+        <strong> Домашнее задание</strong><br>
+        Найди дома 5 предметов разных цветов и скажи: <strong>«Es rojo», «Es azul»…</strong><br>
+        Раскрась что-нибудь и назови свой цвет по-испански
+      </div>
+
+      <div class="nav-buttons center">
+        <button class="btn btn-secondary" data-restart> Пройти ещё раз</button>
+        <a class="btn btn-primary" href="lesson-05.html" style="text-decoration:none;display:inline-block">Урок 5 →</a>
+      </div>
+      <p style="margin-top:18px"><a class="link-ghost" href="course.html">← Ко всем урокам курса</a></p>
+    </div>
+  </section>
+</div>
+
+<script src="assets/lesson.js"></script>
+<script>
+/* ============================ ДАННЫЕ УРОКА 4 ============================ */
+var COLORS = [
+  { es: 'rojo', ru: 'красный', hex: '#DC2626', emoji: '🔴' },
+  { es: 'azul', ru: 'синий', hex: '#2563EB', emoji: '🔵' },
+  { es: 'verde', ru: 'зелёный', hex: '#16A34A', emoji: '🟢' },
+  { es: 'amarillo', ru: 'жёлтый', hex: '#FACC15', emoji: '🟡' },
+  { es: 'blanco', ru: 'белый', hex: '#FFFFFF', emoji: '⚪' }
+];
+
+var MEMORY = COLORS.map(function (c) {
+  return { a: c.es, b: c.emoji, sa: c.es, sb: null };
+});
+
+var PAINT_Q = [
+  { q: ' Какого цвета машина?', a: 'rojo' },
+  { q: ' Какого цвета море?', a: 'azul' },
+  { q: ' Какого цвета трава?', a: 'verde' },
+  { q: ' Какого цвета лимон?', a: 'amarillo' },
+  { q: ' Какого цвета снег?', a: 'blanco' }
+];
+
+var QUIZ = [
+  { q: ' Как по-испански «красный»?', opts: ['rojo', 'azul', 'verde', 'blanco'], correct: 'rojo' },
+  { q: ' Что значит «Es azul»?', opts: ['Это синий', 'Это красный', 'Это зелёный', 'Это белый'], correct: 'Это синий' },
+  { q: ' В сочетании <strong>Gue</strong> буква U…', opts: ['читается', 'не читается', 'звучит как О', 'звучит как Ю'], correct: 'не читается' }
+];
+
+var CAN_DO = [
+  'Я называю 5 цветов по-испански',
+  'Я читаю G и Gue правильно',
+  'Я говорю «Es [цвет]»',
+  'Я спрашиваю «¿De qué color es?»'
+];
+
+function colorByName(n) {
+  for (var i = 0; i < COLORS.length; i++) if (COLORS[i].es === n) return COLORS[i];
+  return null;
+}
+
+/* ------------------------------ ШАГ 3: карточки ---------------------------- */
+function renderColors() {
+  var box = document.getElementById('colorCards');
+  box.innerHTML = '';
+  COLORS.forEach(function (c) {
+    var card = EL.el('div', 'word-card');
+    card.setAttribute('data-say', c.es);
+    card.style.background = 'linear-gradient(140deg,' + c.hex + ',' + c.hex + 'cc)';
+    card.innerHTML = '<span class="emoji">' + c.emoji + '</span><span class="es">' + c.es + '</span><span class="ru">' + c.ru + '</span>' +
+      '<button class="mic-btn" data-mic="' + c.es + '" data-step="3">🎤</button>';
+    box.appendChild(card);
+  });
+}
+
+/* --------------------------- ШАГ 5: волшебная палитра ---------------------- */
+function currentRound() { return PAINT_Q[EL.get('paintRound', 0)] || null; }
+
+function renderPaint() {
+  var q = currentRound();
+  var done = EL.get('paintScore', 0);
+  var prog = document.getElementById('paintProgress');
+  prog.textContent = 'Покрашено цветов: ' + done + ' из ' + PAINT_Q.length;
+  prog.classList.toggle('complete', done >= PAINT_Q.length);
+
+  var sw = document.getElementById('swatches');
+  sw.innerHTML = '';
+
+  if (!q) {
+    document.getElementById('ball').style.background = 'conic-gradient(#DC2626,#2563EB,#16A34A,#FACC15,#FFFFFF,#DC2626)';
+    document.getElementById('paintQuestion').textContent = ' ¡Perfecto! Ты покрасил все цвета!';
+    EL.confetti(70);
+    EL.say(5, ' ¡Excelente! Все пять цветов готовы!', 'success');
+    return;
+  }
+
+  document.getElementById('ball').style.background = '#D1D5DB';
+  document.getElementById('paintQuestion').textContent = q.q;
+
+  EL.shuffle(COLORS).forEach(function (c) {
+    var b = EL.el('button', 'swatch');
+    b.style.background = c.hex;
+    b.title = c.es;
+    b.setAttribute('aria-label', c.es);
+    b.addEventListener('click', function () {
+      if (c.es === q.a) {
+        paint(c);
+      } else {
+        b.classList.add('wrong');
+        EL.say(5, ' ¡Casi! Это не ' + q.a + '. Попробуй другой цвет!', 'error');
+        setTimeout(function () { b.classList.remove('wrong'); }, 700);
+      }
+    });
+    sw.appendChild(b);
+  });
+}
+
+function paint(c) {
+  var ball = document.getElementById('ball');
+  ball.style.background = c.hex;
+  ball.classList.add('pop');
+  setTimeout(function () { ball.classList.remove('pop'); }, 600);
+  EL.speak('Es ' + c.es + '.');
+  EL.say(5, ' ¡Muy bien! Ты сказал: «Es ' + c.es + '»', 'success');
+  EL.set('paintRound', EL.get('paintRound', 0) + 1);
+  EL.set('paintScore', EL.get('paintScore', 0) + 1);
+  setTimeout(renderPaint, 1500);
+}
+
+document.getElementById('paintHear').addEventListener('click', function () {
+  var q = currentRound();
+  if (!q) return;
+  EL.listen({
+    expect: q.a, step: 5, threshold: 0.5,
+    onOk: function () { paint(colorByName(q.a)); },
+    onFail: function (t) { EL.say(5, ' Я услышал «' + t + '». Послушай вопрос и попробуй ещё раз!', 'error'); }
+  });
+});
+
+document.getElementById('paintReset').addEventListener('click', function () {
+  EL.set('paintRound', 0);
+  EL.set('paintScore', 0);
+  renderPaint();
+});
+
+EL.init({
+  id: 4,
+  rate: 0.72,
+  resumeMsg: ' Продолжить урок 4 с шага ',
+  onStep: function (n) {
+    if (n === 3) { renderColors(); EL.memory(MEMORY, { step: 3 }); }
+    if (n === 5) renderPaint();
+    if (n === 6) EL.quiz(QUIZ, { step: 6 });
+    if (n === 7) EL.canDo(CAN_DO);
+  },
+  onRestart: function () { renderColors(); EL.memory(MEMORY, { step: 3 }); renderPaint(); }
+});
+</script>
+
+<script src="assets/gate.js"></script>
+</body>
+</html>

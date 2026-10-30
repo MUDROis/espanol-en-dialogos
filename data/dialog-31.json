@@ -1,0 +1,318 @@
+{
+  "id": 31,
+  "title": "Lucía y Carlos vuelven de la montaña",
+  "titleRu": "Лусия и Карлос возвращаются с гор",
+  "part": 4,
+  "level": "B1",
+  "theme": "Путешествия, страны, планы  Los viajes, los países, los planes",
+  "characters": ["lucia", "carlos"],
+  "objectives": [
+    "Рассказывать о прошлом опыте: pretérito perfecto (me he bañado, has estado, ha vuelto)",
+    "Строить будущее время: futuro simple (mañana iré, te acompañaré)",
+    "Выражать желание: me apetece, tener ganas de, me están entrando ganas de",
+    "Оценивать и делиться впечатлениями: me ha parecido, me ha causado buena impresión",
+    "Понимать слова по теме «путешествия, страны, туризм»: el viaje, el tour, la agencia turística, la escalada"
+  ],
+  "grammar": {
+    "perfecto": {
+      "title": "Pretérito perfecto: me he bañado, has estado",
+      "description": "Pretérito perfecto = HABER + participio. Описывает прошлое, связанное с настоящим: Me he bañado en el río (я купался в реке), He olvidado el protector solar (я забыл крем), ¿Has estado en Portugal? (ты был в Португалии?), Mi amigo ha vuelto de Egipto (мой друг вернулся из Египта).",
+      "forms": {
+        "yo": { "es": "me he bañado en el río", "ru": "я купался в реке" },
+        "tu": { "es": "has estado en Portugal", "ru": "ты был в Португалии" },
+        "el_ella": { "es": "ha vuelto de Egipto", "ru": "он вернулся из Египта" },
+        "nosotros": { "es": "hemos visto unos tours baratos", "ru": "мы видели недорогие туры" },
+        "vosotros": { "es": "habéis viajado mucho", "ru": "вы много путешествовали" },
+        "ellos_ellas": { "es": "han viajado a este país", "ru": "они путешествовали в эту страну" }
+      },
+      "examples": [
+        { "es": "Me he bañado en el río como nunca.", "ru": "Я купался в реке, как никогда." },
+        { "es": "He olvidado el protector solar en casa. Menos mal que he llevado el sombrero.", "ru": "Я забыл солнцезащитный крем дома. Хорошо ещё, что взял с собой шляпу." }
+      ]
+    },
+    "futuro_simple": {
+      "title": "Futuro simple: mañana iré, te acompañaré",
+      "description": "Futuro simple — будущее время: глагол + -ré/-rás/-rá... Mañana iré a la agencia turística (завтра пойду в турбюро), Te acompañaré (я пойду с тобой), ¿A qué hora estarás libre? (во сколько ты освободишься?).",
+      "forms": {
+        "yo": { "es": "mañana iré a la agencia turística", "ru": "завтра я пойду в туристическое агентство" },
+        "tu": { "es": "¿a qué hora estarás libre?", "ru": "во сколько ты будешь свободен?" },
+        "el_ella": { "es": "volverá a viajar allí", "ru": "он снова поедет туда" },
+        "nosotros": { "es": "iremos juntos a la Plaza Central", "ru": "мы пойдём вместе на Центральную площадь" },
+        "vosotros": { "es": "visitaréis las pirámides", "ru": "вы посетите пирамиды" },
+        "ellos_ellas": { "es": "viajarán a Marruecos", "ru": "они поедут в Марокко" }
+      },
+      "examples": [
+        { "es": "Mañana mismo iré a una agencia turística a preguntar por los tours.", "ru": "Прямо завтра пойду в туристическое агентство узнать про туры." },
+        { "es": "Te acompañaré. ¿A qué hora estarás libre?", "ru": "Я пойду с тобой. Во сколько ты освободишься?" }
+      ]
+    },
+    "apetecer_ganas": {
+      "title": "Выражение желания: ME APETECE, TENER GANAS DE",
+      "description": "ME APETECE + infinitivo — «мне хочется, не хочешь ли...»: ¿Te apetece ir a Marruecos? (не хочется ли тебе поехать в Марокко?). TENER GANAS DE — «иметь желание»: Tengo ganas de descansar (мне хочется отдохнуть). ME ESTÁN ENTRANDO GANAS DE — «мне всё больше хочется».",
+      "list": [
+        { "es": "¿te apetece ir a Marruecos?", "ru": "не хочется ли тебе поехать в Марокко?" },
+        { "es": "ya me están entrando ganas de viajar", "ru": "мне уже всё больше хочется путешествовать" },
+        { "es": "tengo ganas de descansar", "ru": "мне хочется отдохнуть" },
+        { "es": "me apetece ver las pirámides", "ru": "мне хочется посмотреть пирамиды" },
+        { "es": "¿te apetece comer frutas?", "ru": "не хочешь фруктов?" }
+      ],
+      "examples": [
+        { "es": "Ya estamos de vacaciones, ¿te apetece ir?", "ru": "У нас уже каникулы, тебе не хочется поехать?" },
+        { "es": "Ya me están entrando ganas de viajar a Egipto. Su historia es muy interesante.", "ru": "Мне уже хочется поехать в Египет. Его история очень интересна." }
+      ]
+    },
+    "parecer_impresion": {
+      "title": "Оценка и впечатления: ME HA PARECIDO, CAUSAR IMPRESIÓN",
+      "description": "PARECER — «казаться, показаться»: Me ha parecido muy interesante (мне показался очень интересным), Le han parecido maravillosas las pirámides (пирамиды ему показались чудесными). CAUSAR IMPRESIÓN — «произвести впечатление»: La gente le ha causado muy buena impresión (люди произвели на него хорошее впечатление).",
+      "list": [
+        { "es": "me ha parecido muy interesante", "ru": "мне показался очень интересным" },
+        { "es": "le han parecido maravillosas las pirámides", "ru": "пирамиды ему показались чудесными" },
+        { "es": "la gente le ha causado muy buena impresión", "ru": "люди произвели на него хорошее впечатление" },
+        { "es": "¿qué te parece esta idea?", "ru": "что ты думаешь об этой идее?" },
+        { "es": "me parece una buena idea", "ru": "мне кажется, это хорошая идея" }
+      ],
+      "examples": [
+        { "es": "Esta semana he visto por la tele un programa dedicado a Egipto. Me ha parecido muy interesante.", "ru": "На этой неделе я видел по телевизору программу про Египет. Мне она показалась очень интересной." },
+        { "es": "Las pirámides y el desierto le han parecido maravillosos y la gente le ha causado muy buena impresión.", "ru": "Пирамиды и пустыня ему показались чудесными, а люди произвели на него хорошее впечатление." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "la_montana": [
+      { "es": "la montaña", "ru": "гора" },
+      { "es": "el río", "ru": "река" },
+      { "es": "la escalada", "ru": "скалолазание" },
+      { "es": "el protector solar", "ru": "солнцезащитный крем" },
+      { "es": "el sombrero", "ru": "шляпа" },
+      { "es": "bañarse", "ru": "купаться" }
+    ],
+    "los_viajes": [
+      { "es": "las vacaciones", "ru": "каникулы, отпуск" },
+      { "es": "el viaje", "ru": "путешествие" },
+      { "es": "los tours", "ru": "туры" },
+      { "es": "la agencia turística", "ru": "туристическое агентство" },
+      { "es": "la oferta", "ru": "предложение, акция" },
+      { "es": "el turismo", "ru": "туризм" },
+      { "es": "viajar", "ru": "путешествовать" },
+      { "es": "visitar", "ru": "посещать" }
+    ],
+    "los_paises": [
+      { "es": "el país", "ru": "страна" },
+      { "es": "la naturaleza", "ru": "природа" },
+      { "es": "la cultura", "ru": "культура" },
+      { "es": "la historia", "ru": "история" },
+      { "es": "la arquitectura", "ru": "архитектура" },
+      { "es": "el desierto", "ru": "пустыня" },
+      { "es": "las pirámides", "ru": "пирамиды" },
+      { "es": "la pobreza", "ru": "бедность" },
+      { "es": "la esquina", "ru": "угол (улицы)" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Carlos", "es": "Ha sido un día muy bueno. Me he bañado en el río como nunca.", "ru": "Это был очень хороший день. Я купался в реке, как никогда." },
+    { "speaker": "Lucía", "es": "Sí, a mí también me ha gustado. Me has enseñado muy buenas técnicas de escalada. Voy a practicar.", "ru": "Да, мне тоже понравилось. Ты показал мне очень хорошие техники скалолазания. Буду тренироваться." },
+    { "speaker": "Carlos", "es": "Te has puesto un poco roja por el sol.", "ru": "Ты немного покраснела от солнца." },
+    { "speaker": "Lucía", "es": "Sí, es que he olvidado el protector solar en casa. Menos mal que he llevado conmigo el sombrero. Aquí el sol no es tan fuerte como en Portugal.", "ru": "Да, это потому что я забыла солнцезащитный крем дома. Хорошо ещё, что взяла с собой шляпу. Здесь солнце не такое сильное, как в Португалии." },
+    { "speaker": "Carlos", "es": "Oh, ¿has estado en Portugal?", "ru": "О, ты была в Португалии?" },
+    { "speaker": "Lucía", "es": "Sí, dos veces, con mi familia. Me ha gustado el país, tiene mucha naturaleza y centros históricos que vale la pena visitar.", "ru": "Да, два раза, с семьёй. Мне понравилась эта страна, там много природы и исторических центров, которые стоит посетить." },
+    { "speaker": "Carlos", "es": "¿Has probado sus frutas?", "ru": "Ты пробовала их фрукты?" },
+    { "speaker": "Lucía", "es": "Sí, por supuesto. Son riquísimas. A propósito, he visto unos tours bastante baratos a Marruecos. Ya estamos de vacaciones, ¿te apetece ir?", "ru": "Да, конечно. Они очень вкусные. Кстати, я видела недорогие туры в Марокко. У нас уже каникулы, тебе не хочется поехать?" },
+    { "speaker": "Carlos", "es": "Suena muy interesante. Marruecos es famoso por sus playas. Tengo un par de amigos que han viajado a este país, y me han contado que, a pesar de la pobreza, la gente es muy amable y alegre.", "ru": "Звучит очень интересно. Марокко славится своими пляжами. У меня есть пара друзей, которые путешествовали в эту страну, и они мне рассказали, что, несмотря на бедность, люди там очень приветливые и весёлые." },
+    { "speaker": "Lucía", "es": "Sí, he oído hablar de eso. Marruecos se ha hecho un lugar muy turístico los últimos años, así que el turismo le trae algo de dinero.", "ru": "Да, я слышала об этом. Марокко стало туристическим местом в последние годы, так что туризм приносит им какие-то деньги." },
+    { "speaker": "Carlos", "es": "A propósito, esta semana he visto por la tele un programa dedicado a Egipto. Me ha parecido muy interesante.", "ru": "Кстати, на этой неделе я видел по телевизору программу, посвящённую Египту. Мне она показалась очень интересной." },
+    { "speaker": "Lucía", "es": "Oh, claro. Yo también he pensado en ir a Egipto, a El Cairo... Me atrae su cultura.", "ru": "О, конечно. Я тоже думала о том, чтобы поехать в Египет, в Каир... Меня привлекает его культура." },
+    { "speaker": "Carlos", "es": "Un amigo mío recientemente ha vuelto de Egipto. Ha pasado allí más de tres semanas, ha recorrido casi todo el país y le ha impresionado tanto que dice que, seguramente, volverá a viajar allí.", "ru": "Один мой друг недавно вернулся из Египта. Он провёл там больше трёх недель, объехал почти всю страну, и она его так впечатлила, что он говорит, что обязательно снова поедет туда." },
+    { "speaker": "Lucía", "es": "¿Ha viajado en coche por el país?", "ru": "Он ездил по стране на машине?" },
+    { "speaker": "Carlos", "es": "Sí, con un par de amigos. Me ha hablado en breve de su viaje, sólo sé que las pirámides y el desierto le han parecido maravillosos. La arquitectura, según ha dicho, es fascinante y la gente le ha causado muy buena impresión.", "ru": "Да, с парой друзей. Он вкратце рассказал мне о своём путешествии, я только знаю, что пирамиды и пустыня ему показались чудесными. Архитектура, как он сказал, потрясающая, а люди произвели на него хорошее впечатление." },
+    { "speaker": "Lucía", "es": "Oh, ya me están entrando ganas de viajar a Egipto. Su historia es muy interesante... Mañana mismo iré a una agencia turística a preguntar por los tours.", "ru": "О, мне уже хочется поехать в Египет. Его история очень интересная... Прямо завтра пойду в туристическое агентство узнать про туры." },
+    { "speaker": "Carlos", "es": "Te acompañaré. ¿A qué hora estarás libre?", "ru": "Я пойду с тобой. Во сколько ты освободишься?" },
+    { "speaker": "Lucía", "es": "Vamos a encontrarnos a las 12 en la Plaza Central. He visto una agencia en la esquina de la calle San Marino, que tiene buenas ofertas.", "ru": "Давай встретимся в 12 на Центральной площади. Я видела одно агентство на углу улицы Сан-Марино, у которого хорошие предложения." },
+    { "speaker": "Carlos", "es": "De acuerdo.", "ru": "Договорились." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "la montaña", "ru": "гора" },
+        { "es": "el río", "ru": "река" },
+        { "es": "la escalada", "ru": "скалолазание" },
+        { "es": "el protector solar", "ru": "солнцезащитный крем" },
+        { "es": "el sombrero", "ru": "шляпа" },
+        { "es": "bañarse", "ru": "купаться" },
+        { "es": "las vacaciones", "ru": "каникулы, отпуск" },
+        { "es": "el viaje", "ru": "путешествие" },
+        { "es": "los tours", "ru": "туры" },
+        { "es": "la agencia turística", "ru": "туристическое агентство" }
+      ]
+    },
+    {
+      "type": "fill-gap-perfecto",
+      "title": "Практика: pretérito perfecto",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Me he ___ en el río como nunca.", "ru": "Я купался в реке, как никогда", "answer": "bañado", "options": ["bañado", "baño", "bañar"] },
+        { "text": "¿Has ___ en Portugal?", "ru": "Ты был в Португалии?", "answer": "estado", "options": ["estado", "sido", "estando"] },
+        { "text": "He ___ el protector solar en casa.", "ru": "Я забыл солнцезащитный крем дома", "answer": "olvidado", "options": ["olvidado", "olvido", "olvidar"] },
+        { "text": "Mi amigo ha ___ de Egipto.", "ru": "Мой друг вернулся из Египта", "answer": "vuelto", "options": ["vuelto", "volver", "vuelve"] },
+        { "text": "Hemos ___ unos tours bastante baratos.", "ru": "Мы видели довольно недорогие туры", "answer": "visto", "options": ["visto", "vemos", "viendo"] }
+      ]
+    },
+    {
+      "type": "fill-gap-futuro_simple",
+      "title": "Практика: futuro simple",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Mañana mismo ___ a una agencia turística.", "ru": "Прямо завтра пойду в туристическое агентство", "answer": "iré", "options": ["iré", "voy", "iba"] },
+        { "text": "Te ___ a la Plaza Central.", "ru": "Я пойду с тобой на Центральную площадь", "answer": "acompañaré", "options": ["acompañaré", "acompaño", "acompañaría"] },
+        { "text": "¿A qué hora ___ libre?", "ru": "Во сколько ты будешь свободен?", "answer": "estarás", "options": ["estarás", "estás", "estaré"] },
+        { "text": "Seguro que ___ a viajar allí otra vez.", "ru": "Точно он снова поедет путешествовать туда", "answer": "volverá", "options": ["volverá", "vuelve", "volver"] },
+        { "text": "Iremos ___ a la Plaza Central.", "ru": "Мы пойдём вместе на Центральную площадь", "answer": "juntos", "options": ["juntos", "solo", "lejos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-apetecer_ganas",
+      "title": "Практика: ME APETECE, TENER GANAS DE",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Te ___ ir a Marruecos?", "ru": "Тебе не хочется поехать в Марокко?", "answer": "apetece", "options": ["apetece", "apetezco", "apetecen"] },
+        { "text": "Ya me están ___ ganas de viajar a Egipto.", "ru": "Мне уже всё больше хочется поехать в Египет", "answer": "entrando", "options": ["entrando", "entrar", "entran"] },
+        { "text": "Tengo ___ de descansar un poco.", "ru": "Мне хочется немного отдохнуть", "answer": "ganas", "options": ["ganas", "gana", "pena"] },
+        { "text": "Me ___ ver las pirámides.", "ru": "Мне хочется посмотреть пирамиды", "answer": "apetece", "options": ["apetece", "apetezco", "apetecen"] },
+        { "text": "¿Te apetece ___ frutas ahora?", "ru": "Не хочешь фруктов сейчас?", "answer": "comer", "options": ["comer", "como", "comiendo"] }
+      ]
+    },
+    {
+      "type": "fill-gap-parecer_impresion",
+      "title": "Практика: PARECER, CAUSAR IMPRESIÓN",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Me ha ___ muy interesante el programa de la tele.", "ru": "Телепрограмма показалась мне очень интересной", "answer": "parecido", "options": ["parecido", "parece", "parecer"] },
+        { "text": "El desierto le ha ___ maravilloso.", "ru": "Пустыня ему показалась чудесной", "answer": "parecido", "options": ["parecido", "parece", "parecer"] },
+        { "text": "La gente le ha ___ muy buena impresión.", "ru": "Люди произвели на него хорошее впечатление", "answer": "causado", "options": ["causado", "causa", "causar"] },
+        { "text": "¿Qué te ___ esta idea de viajar a Egipto?", "ru": "Что ты думаешь об этой идее — поехать в Египет?", "answer": "parece", "options": ["parece", "parecen", "parecer"] },
+        { "text": "Me parece una buena ___.", "ru": "Мне кажется, это хорошая идея", "answer": "idea", "options": ["idea", "gente", "país"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Me he ___ en el río como nunca.", "ru": "Я купался в реке, как никогда", "answer": "bañado", "options": ["bañado", "baño", "bañar"] },
+        { "text": "Mañana mismo ___ a una agencia turística.", "ru": "Прямо завтра пойду в туристическое агентство", "answer": "iré", "options": ["iré", "voy", "iba"] },
+        { "text": "¿Te ___ ir a Marruecos?", "ru": "Тебе не хочется поехать в Марокко?", "answer": "apetece", "options": ["apetece", "apetezco", "apetecen"] },
+        { "text": "Me ha ___ muy interesante.", "ru": "Мне показался очень интересным", "answer": "parecido", "options": ["parecido", "parece", "parecer"] },
+        { "text": "¿Has ___ en Portugal?", "ru": "Ты был в Португалии?", "answer": "estado", "options": ["estado", "sido", "estando"] },
+        { "text": "Ya me están ___ ganas de viajar.", "ru": "Мне уже всё больше хочется путешествовать", "answer": "entrando", "options": ["entrando", "entrar", "entran"] },
+        { "text": "La gente le ha causado muy buena ___, según ha dicho.", "ru": "Люди произвели на него хорошее впечатление, как он сказал", "answer": "impresión", "options": ["impresión", "idea", "visita"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Ты — друг Лусии, рассказываешь о своём дне в горах и о путешествиях друзей"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Ты — подруга Карлоса, делишься впечатлениями о дне и предлагаешь поехать в Марокко или Египет"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Обсуди с другом, куда поехать в путешествие",
+      "template": [
+        { "label": "Я купался в реке", "es": "Me he ___ en el río" },
+        { "label": "Ты был в Португалии?", "es": "¿Has ___ en Portugal?" },
+        { "label": "Я забыл солнцезащитный крем дома", "es": "He ___ el protector solar en casa" },
+        { "label": "Тебе не хочется поехать в Марокко?", "es": "¿Te ___ ir a Marruecos?" },
+        { "label": "Завтра я пойду в турбюро", "es": "Mañana ___ a la agencia turística" },
+        { "label": "Мне показался очень интересным", "es": "Me ha ___ muy interesante" },
+        { "label": "Я пойду с тобой", "es": "Te ___" },
+        { "label": "Мне уже очень хочется поехать", "es": "Ya me están ___ ganas de viajar" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Dónde han estado Carlos y Lucía?",
+          "ru": "Где были Карлос и Лусия?",
+          "options": ["En la montaña", "En la playa", "En el mar", "En un museo"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué ha hecho Carlos en el río?",
+          "ru": "Что Карлос делал в реке?",
+          "options": ["Ha comido frutas", "Se ha bañado", "Ha dormido mucho", "Ha visto la tele"],
+          "answer": 1
+        },
+        {
+          "question": "¿Por qué está Lucía un poco roja?",
+          "ru": "Почему Лусия немного красная?",
+          "options": ["Porque tiene frío", "Por el viento", "Ha olvidado el protector solar", "No está roja"],
+          "answer": 2
+        },
+        {
+          "question": "¿Cuántas veces ha estado Lucía en Portugal?",
+          "ru": "Сколько раз Лусия была в Португалии?",
+          "options": ["Una vez", "Dos veces", "Cinco veces", "Nunca"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué le han contado los amigos de Carlos sobre Marruecos?",
+          "ru": "Что рассказали друзья Карлоса о Марокко?",
+          "options": ["Que no hay playas", "Que la gente es seria", "Que es muy caro", "Que la gente es amable y alegre"],
+          "answer": 3
+        },
+        {
+          "question": "¿Qué país ha visto Carlos por la tele?",
+          "ru": "Про какую страну Карлос видел передачу по телевизору?",
+          "options": ["Marruecos", "Portugal", "Egipto", "Cuba"],
+          "answer": 2
+        },
+        {
+          "question": "¿Cuánto tiempo ha pasado el amigo de Carlos en Egipto?",
+          "ru": "Сколько времени друг Карлоса провёл в Египте?",
+          "options": ["Una semana", "Más de tres semanas", "Un mes", "Dos días"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué le han parecido al amigo las pirámides y el desierto?",
+          "ru": "Какими показались другу пирамиды и пустыня?",
+          "options": ["Aburridos", "Maravillosos", "Feos", "Pequeños"],
+          "answer": 1
+        },
+        {
+          "question": "¿Dónde van a encontrarse Carlos y Lucía?",
+          "ru": "Где встретятся Карлос и Лусия?",
+          "options": ["En el aeropuerto", "En la Plaza Central", "En su casa", "En el hotel"],
+          "answer": 1
+        },
+        {
+          "question": "¿A dónde quiere ir Lucía mañana?",
+          "ru": "Куда Лусия хочет пойти завтра?",
+          "options": ["A la montaña", "Al río", "A la agencia turística", "A la playa"],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 минут: повтори слова по теме «путешествия, страны, туризм»",
+    "Практика: расскажи, куда ты ездил(а) в последний раз. Используй: he estado..., me ha gustado..., vale la pena visitar..., te apetece ir...?",
+    "Дневник: опиши страну, которую ты хотел(а) бы посетить. Что ты о ней знаешь? Почему тебе хочется туда поехать?",
+    "Грамматика: составь 3 предложения с pretérito perfecto, 3 с futuro simple (mañana iré, te acompañaré) и 3 с me apetece / tengo ganas de"
+  ]
+}

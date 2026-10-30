@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi vlog y el diploma — Урок 20 · Español A0–A1</title>
+<meta name="description" content="Урок 20: итоговый проект — свой влог по-испански и диплом. Повторяем звук R, собираем рассказ о себе. Финал курса испанского A0–A1 для детей.">
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body data-theme="vlog">
+
+<header class="lesson-head">
+  <a class="link-back" href="course.html">← Все уроки</a>
+  <span class="lh-title">Урок 20 · Mi vlog</span>
+  <span class="lh-spacer"></span>
+  <a class="link-ghost" href="course.html">Курс →</a>
+</header>
+
+<div class="voice-note" id="voiceNote"></div>
+<div class="save-indicator" id="saveIndicator"> Прогресс сохранён</div>
+
+<div class="container">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ШАГ 1 -->
+  <section class="step active" id="step1">
+    <h1> Mi vlog</h1>
+    <p style="font-size:1.5em">¡Hola, amigo! ¡Última lección! — Последний урок!</p>
+    <p>Сегодня ты снимаешь собственный влог по-испански и получаешь диплом.</p>
+    <h3>В этом уроке</h3>
+    <p> Звук <strong>R</strong>: твёрдый и мягкий<br>
+        Повторяем слова из всех уроков<br>
+        Рассказ о себе: «Me llamo…, tengo…, me gusta…, estoy…»<br>
+        Игра «Сними свой влог» + диплом</p>
+    <div class="tip"> <strong>Совет:</strong> в испанском двойная <strong>rr</strong> (<em>perro</em> «перро») и <strong>r</strong> в начале слова звучат твёрдо, а простая <strong>r</strong> между гласными — мягко (<em>carne</em> «карне»). Потренируй оба!</div>
+    <div class="nav-buttons center">
+      <button class="btn btn-primary" data-next>¡Vamos! Поехали! </button>
+    </div>
+  </section>
+
+  <!-- ШАГ 2 -->
+  <section class="step" id="step2">
+    <h2> R: два звука — два слова</h2>
+    <p>Испанская <strong>r</strong> умеет рычать и мягко щёлкать. Сравни!</p>
+    <div class="phonetics">
+      <div class="phon-card" data-say="El perro">
+        <div class="phon-letter">r</div>
+        <div class="phon-emoji">🐕</div>
+        <div class="phon-word">El perro</div>
+        <div class="phon-hint">«Перро» — собака. Двойная <strong>RR</strong> — твёрдая, рычащая!</div>
+        <button class="mic-btn" data-mic="el perro" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="La carne">
+        <div class="phon-letter">r</div>
+        <div class="phon-emoji">🥩</div>
+        <div class="phon-word">La carne</div>
+        <div class="phon-hint">«Карне» — мясо. Простая R между гласными — мягкая</div>
+        <button class="mic-btn" data-mic="la carne" data-step="2">🎤</button>
+      </div>
+    </div>
+    <div class="tip"> <strong>Сравни:</strong> <em>el perro</em> («перро») и <em>el carro</em> («карро») — RR рычит. А <em>la carne</em> («карне») — простая R, мягкая. Русское «р» ближе к твёрдой RR, чем к мягкой.</div>
+    <div class="feedback" id="feedback2"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 3 -->
+  <section class="step" id="step3">
+    <h2> Повторяем вместе</h2>
+    <p>Слова из прошлых уроков — проверь, помнишь ли ты их. Запомни: <em>un gato</em>, <em>una casa</em>, <em>siete</em>, <em>feliz</em>, <em>la madre</em>.</p>
+    <div class="words" id="recapCards"></div>
+    <p style="margin-top:26px"><strong> Найди пары: слово и картинка</strong></p>
+    <div class="memory-grid" id="memoryGrid"></div>
+    <div class="memory-counter">Найдено пар: <span id="memoryCounter">0</span>/5</div>
+    <div class="feedback" id="feedback3"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 4 -->
+  <section class="step" id="step4">
+    <h2> Расскажи о себе</h2>
+    <p>Так начинается каждый испанский влог. Послушай и повтори.</p>
+    <div class="dialogue">
+      <div class="dialogue-line" data-say="¡Hola! Me llamo Ana.">
+        <div class="avatar">🧒</div>
+        <div class="text">¡Hola! Me llamo Ana.<span class="ru">Привет! Меня зовут Ана.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="hola me llamo Ana" data-step="4" data-threshold="0.35">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="¿Cuántos años tienes?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿Cuántos años tienes?<span class="ru">Сколько тебе лет?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="cuántos años tienes" data-step="4" data-threshold="0.35">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="Tengo nueve años.">
+        <div class="avatar">🧒</div>
+        <div class="text">Tengo nueve años.<span class="ru">Мне девять лет.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="tengo nueve años" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="¿Qué te gusta? ¿Cómo estás?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿Qué te gusta? ¿Cómo estás?<span class="ru">Что тебе нравится? Как ты?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="qué te gusta cómo estás" data-step="4" data-threshold="0.3">🎤</button>
+      </div>
+    </div>
+    <div class="bubble-row">
+      <button class="btn btn-primary" data-repeat='["¡Hola! Me llamo Ana.","¿Cuántos años tienes?","Tengo nueve años.","¿Qué te gusta? ¿Cómo estás?"]' data-gap="2600"> Слушать весь диалог</button>
+    </div>
+    <div class="tip"> <strong>Шпаргалка для влога:</strong> <em>Me llamo…</em> (зовут) · <em>tengo… años</em> (мне лет) · <em>me gusta…</em> (мне нравится) · <em>estoy…</em> (я чувствую)</div>
+    <div class="feedback" id="feedback4"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 5 · Сними свой влог -->
+  <section class="step" id="step5">
+    <h2> Сними свой влог</h2>
+    <p>Отвечай на вопросы журналиста — и твой влог соберётся сам. 4 кадра!</p>
+    <div class="game-box">
+      <span class="stage-big">🎬</span>
+      <div class="bubble" id="vlogTask">Нажми «¡Grabar!»</div>
+      <div class="bubble-row">
+        <button class="big-btn" id="vlogStart"> ¡Grabar!</button>
+      </div>
+      <div class="animal-grid" id="vlogOptions"></div>
+      <div class="assign-progress" id="vlogProgress">Кадр: 0 из 4</div>
+      <div class="vlog-script" id="vlogScript"></div>
+    </div>
+    <div class="tip"> <strong>Задание:</strong> расскажи свой влог настоящим друзьям — они тебя не поймут, но будут улыбаться </div>
+    <div class="feedback" id="feedback5"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 6 -->
+  <section class="step" id="step6">
+    <h2> Проверь себя!</h2>
+    <p>Три вопроса из разных уроков.</p>
+    <div id="quizContainer"></div>
+    <div class="assign-progress" id="quizScore"></div>
+    <div class="feedback" id="feedback6"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 7 -->
+  <section class="step" id="step7">
+    <div class="final">
+
+      <h1>¡Felicidades!</h1>
+      <p style="font-size:1.4em">Ты прошёл все двадцать уроков!</p>
+      <div class="medal"> Медаль «¡Curso completo!»</div>
+
+      <div class="diploma" id="diploma">
+        <h2> Diploma de Español A0–A1</h2>
+        <p>Настоящий диплом получает:</p>
+        <input type="text" id="diplomaName" placeholder="Напиши своё имя" maxlength="24" autocomplete="off">
+        <p class="dip-name" id="diplomaLine">_______________________ </p>
+        <p>Курс испанского языка для детей · 20 уроков · Блок 1 (уроки 1–10) и Блок 2 (уроки 11–20)</p>
+        <p><strong>Навыки:</strong> звуки B/V, LL, Ñ, CH, R, X, H, GUE/GUI · 100+ слов · диалоги · 20 игр</p>
+        <div class="bubble-row center">
+          <button class="btn btn-secondary" id="printDiploma"> Распечатать диплом</button>
+        </div>
+      </div>
+
+      <h3> ¡Yo puedo! — Я могу!</h3>
+      <div class="can-do" id="canDo"></div>
+
+      <div class="homework">
+        <strong> Домашнее задание</strong><br>
+        Сними свой влог на 30 секунд по-испански и покажи родителям:<br>
+        <strong>«Me llamo…, tengo… años, me gusta…, estoy…»</strong>
+      </div>
+
+      <div class="nav-buttons center">
+        <button class="btn btn-secondary" data-restart> Пройти ещё раз</button>
+        <a class="btn btn-primary" href="course.html" style="text-decoration:none;display:inline-block">Ко всем урокам →</a>
+      </div>
+      <p style="margin-top:18px"><a class="link-ghost" href="index.html">← На главную страницу курса</a></p>
+    </div>
+  </section>
+</div>
+
+<script src="assets/lesson.js"></script>
+<script>
+/* ============================ ДАННЫЕ УРОКА 20 ============================ */
+var RECAP = [
+  { es: 'un gato', ru: 'кот', e: '🐈' },
+  { es: 'una casa', ru: 'дом', e: '🏡' },
+  { es: 'siete', ru: 'семь', e: '7️⃣' },
+  { es: 'feliz', ru: 'счастливый', e: '😊' },
+  { es: 'la madre', ru: 'мама', e: '👩' }
+];
+
+var MEMORY = RECAP.map(function (r) { return { a: r.es, b: r.e, sa: r.es, sb: null }; });
+
+var VLOG = [
+  { q: ' ¿Cómo te llamas?', say: '¿Cómo te llamas?', correct: 'Me llamo Ana.', wrong: ['Tengo nueve años.', 'Estoy feliz.'] },
+  { q: ' ¿Cuántos años tienes?', say: '¿Cuántos años tienes?', correct: 'Tengo nueve años.', wrong: ['Me gusta el fútbol.', 'Estoy feliz.'] },
+  { q: ' ¿Qué te gusta?', say: '¿Qué te gusta?', correct: 'Me gusta el fútbol.', wrong: ['Estoy feliz.', 'Me llamo Ana.'] },
+  { q: ' ¿Cómo estás?', say: '¿Cómo estás?', correct: 'Estoy feliz.', wrong: ['Me gusta el fútbol.', 'Tengo nueve años.'] }
+];
+
+var QUIZ = [
+  { q: ' Как по-испански «кот»?', opts: ['un gato', 'un perro', 'una casa', 'la madre'], correct: 'un gato' },
+  { q: ' Как произносится R в начале слова «perro»?', opts: ['Твёрдо, язык дрожит', 'Мягко, один раз', 'Как «л»', 'Как «й»'], correct: 'Твёрдо, язык дрожит' },
+  { q: ' Как сказать «Мне девять лет»?', opts: ['Me gusta el fútbol.', 'Tengo nueve años.', 'Estoy feliz.', 'Me llamo Ana.'], correct: 'Tengo nueve años.' }
+];
+
+var CAN_DO = [
+  'Я представляюсь по-испански',
+  'Я рассказываю, что мне нравится',
+  'Я говорю, как я сегодня себя чувствую',
+  'Я помню слова из всех двадцати уроков'
+];
+
+/* --------------------- ШАГ 3: карточки повторения --------------------- */
+function renderRecap() {
+  var box = document.getElementById('recapCards');
+  box.innerHTML = '';
+  RECAP.forEach(function (r) {
+    var c = EL.el('div', 'word-card');
+    c.setAttribute('data-say', r.es);
+    c.style.background = 'linear-gradient(140deg, var(--c3), var(--c1))';
+    c.innerHTML = '<span class="emoji">' + r.e + '</span><span class="es">' + r.es + '</span><span class="ru">' + r.ru + '</span>' +
+      '<button class="mic-btn" data-mic="' + r.es + '" data-step="3">🎤</button>';
+    box.appendChild(c);
+  });
+}
+
+/* --------------------- ШАГ 5: снимаем влог --------------------- */
+var vlogRound = 0, vlogLocked = false, VLOG_TOTAL = 4, vlogScene = null, vlogLines = [];
+
+function renderVlogRound() {
+  var opts = document.getElementById('vlogOptions');
+  var task = document.getElementById('vlogTask');
+  document.getElementById('vlogProgress').textContent = 'Кадр: ' + vlogRound + ' из ' + VLOG_TOTAL;
+
+  if (vlogRound >= VLOG_TOTAL) {
+    task.textContent = ' ¡Tu vlog está listo! Твой влог готов!';
+    opts.innerHTML = '';
+    document.getElementById('vlogProgress').classList.add('complete');
+    EL.speak('Hola! ' + vlogLines.join(' '));
+    EL.say(5, ' ¡Perfecto! Вот твой влог — расскажи его друзьям!', 'success');
+    EL.confetti(80);
+    return;
+  }
+
+  vlogScene = VLOG[vlogRound];
+  task.textContent = vlogScene.q;
+  EL.speak(vlogScene.say);
+
+  var answers = [vlogScene.correct].concat(vlogScene.wrong);
+  opts.innerHTML = '';
+  EL.shuffle(answers).forEach(function (ans) {
+    var b = EL.el('button', 'animal-card');
+    b.dataset.key = ans;
+    b.innerHTML = '<span class="es" style="font-size:1em">' + ans + '</span>';
+    b.addEventListener('click', function () {
+      if (vlogLocked) return;
+      vlogLocked = true;
+      if (ans === vlogScene.correct) {
+        b.classList.add('right');
+        vlogLines.push(ans);
+        document.getElementById('vlogScript').innerHTML = vlogLines.join('<br>');
+        EL.say(5, ' ¡Muy bien! Кадр записан.', 'success');
+        vlogRound++;
+        EL.set('vlogRound', vlogRound);
+        EL.set('vlogLines', vlogLines);
+      } else {
+        b.classList.add('wrong');
+        EL.say(5, ' ¡Casi! Послушай вопрос ещё раз и выбери подходящий ответ.', 'error');
+      }
+      setTimeout(function () { vlogLocked = false; renderVlogRound(); }, 1600);
+    });
+    opts.appendChild(b);
+  });
+}
+
+document.getElementById('vlogStart').addEventListener('click', function () {
+  vlogRound = EL.get('vlogRound', 0);
+  vlogLines = EL.get('vlogLines', []) || [];
+  document.getElementById('vlogScript').innerHTML = vlogLines.join('<br>');
+  renderVlogRound();
+  EL.say(5, ' ¡Grabar! Отвечай на вопросы журналиста.', 'info');
+});
+
+/* --------------------- ШАГ 7: имя и печать диплома --------------------- */
+var nameInput = document.getElementById('diplomaName');
+var nameLine = document.getElementById('diplomaLine');
+
+function paintName() {
+  var v = (nameInput.value || '').trim();
+  nameLine.textContent = v ? '¡' + v + ', curso completado!' : '_______________________ ';
+}
+nameInput.addEventListener('input', function () {
+  EL.set('name', nameInput.value.trim());
+  paintName();
+});
+
+function loadName() {
+  var savedName = EL.get('name', '');
+  if (savedName) nameInput.value = savedName;
+  paintName();
+}
+
+document.getElementById('printDiploma').addEventListener('click', function () {
+  document.body.classList.add('only-diploma');
+  window.print();
+});
+window.addEventListener('afterprint', function () { document.body.classList.remove('only-diploma'); });
+
+EL.init({
+  id: 20,
+  rate: 0.72,
+  resumeMsg: ' Продолжить урок 20 с шага ',
+  onStep: function (n) {
+    if (n === 3) { renderRecap(); EL.memory(MEMORY, { step: 3 }); }
+    if (n === 5) {
+      vlogRound = EL.get('vlogRound', 0);
+      vlogLines = EL.get('vlogLines', []) || [];
+      document.getElementById('vlogScript').innerHTML = vlogLines.join('<br>');
+      renderVlogRound();
+    }
+    if (n === 6) EL.quiz(QUIZ, { step: 6 });
+    if (n === 7) { EL.canDo(CAN_DO); loadName(); }
+  },
+  onRestart: function () {
+    renderRecap(); EL.memory(MEMORY, { step: 3 });
+    vlogRound = 0; vlogLines = [];
+    document.getElementById('vlogScript').innerHTML = '';
+    renderVlogRound();
+  }
+});
+
+loadName();
+</script>
+
+<script src="assets/gate.js"></script>
+</body>
+</html>

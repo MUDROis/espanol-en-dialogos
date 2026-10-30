@@ -1,0 +1,298 @@
+{
+  "id": 47,
+  "title": "Carlos y Lucía van al cine",
+  "titleRu": "Карлос и Лусия идут в кино",
+  "part": 6,
+  "level": "B2+",
+  "theme": "Кино, фильмы, жанры  El cine, las películas, los géneros",
+  "characters": ["carlos", "lucia"],
+  "objectives": [
+    "Называть жанры фильмов: la película de miedo, la comedia romántica, las de acción, la ciencia ficción, el suspense",
+    "Выражать предпочтения с PREFERIR + las de...: prefiero las de acción, las de ciencia ficción",
+    "Описывать фильмы: se trata de una chica que..., es una película que te hace reír y llorar",
+    "Понимать ложных друзей: acordarse de / estar de acuerdo, me han dicho que...",
+    "Говорить о сюжете и героях: la protagonista, el actor principal, la banda sonora, los diálogos",
+    "Обсуждать фильм и договариваться о походе в кино: si quieres, vamos a ver otra película"
+  ],
+  "grammar": {
+    "preferir_las_de": {
+      "title": "PREFERIR + LAS DE...: выбор жанра",
+      "description": "Чтобы выбрать категорию фильмов, используют las de / los de + жанр: prefiero las de acción (я предпочитаю боевики), prefiero las de ciencia ficción (фантастику). Также: no me gustan las de miedo (не люблю фильмы ужасов). Артикль согласуется с опущенным существительным (las películas, los diálogos).",
+      "forms": {
+        "yo": { "es": "prefiero las de acción", "ru": "я предпочитаю боевики" },
+        "tu": { "es": "prefieres las de ciencia ficción", "ru": "ты предпочитаешь фантастику" },
+        "el_ella": { "es": "prefiere las comedias románticas", "ru": "он/она предпочитает романтические комедии" },
+        "nosotros": { "es": "preferimos las de suspense", "ru": "мы предпочитаем триллеры" },
+        "vosotros": { "es": "preferís las de miedo", "ru": "вы предпочитаете фильмы ужасов" },
+        "ellos_ellas": { "es": "prefieren las de aventura", "ru": "они предпочитают приключения" }
+      },
+      "examples": [
+        { "es": "No me gustan las películas de miedo. Prefiero las de acción.", "ru": "Я не люблю фильмы ужасов. Я предпочитаю боевики." },
+        { "es": "¿Por qué no vamos a ver una comedia romántica?", "ru": "Почему бы нам не пойти на романтическую комедию?" }
+      ]
+    },
+    "se_trata_de_es_que": {
+      "title": "SE TRATA DE..., ES QUE..., TRATA DE...: о чём фильм",
+      "description": "Se trata de + существительное / trata de + существительное означает «речь идёт о»: se trata de una chica que trabaja en un periódico (речь идёт о девушке, которая работает в газете), es una película que trata de la amistad entre un millonario y su cuidador (это фильм о дружбе между миллионером и его сиделкой). Es que объясняет, оправдывает: es que no entiendo de películas (дело в том, что я не разбираюсь в фильмах).",
+      "list": [
+        { "es": "se trata de una chica que trabaja en un periódico", "ru": "речь идёт о девушке, которая работает в газете" },
+        { "es": "trata de la amistad entre un millonario y su cuidador", "ru": "о дружбе между миллионером и его сиделкой" },
+        { "es": "es que no entiendo de películas", "ru": "дело в том, что я не разбираюсь в фильмах" },
+        { "es": "es una película que te hace reír y llorar", "ru": "это фильм, который заставляет тебя смеяться и плакать" },
+        { "es": "la protagonista es una actriz famosa", "ru": "главная героиня — известная актриса" }
+      ],
+      "examples": [
+        { "es": "La película trata de la amistad entre un millonario y su cuidador.", "ru": "Фильм о дружбе между миллионером и его сиделкой." },
+        { "es": "Es que no entiendo de películas y no sé cuál elegir.", "ru": "Дело в том, что я не разбираюсь в фильмах и не знаю, что выбрать." }
+      ]
+    },
+    "falsos_amigos": {
+      "title": "ACORDARSE vs ESTAR DE ACUERDO, ME HAN DICHO QUE...",
+      "description": "acordarse de + ... = «помнить»: no me acuerdo muy bien (я не очень хорошо помню), me acuerdo de esa película (я помню этот фильм). estar de acuerdo = «соглашаться»: estoy de acuerdo (я согласен). Impersonal me han dicho que... = «мне сказали, что...»: me han dicho que es muy buena (мне говорили, что он очень хороший).",
+      "list": [
+        { "es": "no me acuerdo muy bien", "ru": "я не очень хорошо помню" },
+        { "es": "me acuerdo de esa película", "ru": "я помню этот фильм" },
+        { "es": "estoy de acuerdo contigo", "ru": "я с тобой согласен" },
+        { "es": "me han dicho que es muy buena", "ru": "мне говорили, что он очень хороший" },
+        { "es": "hemos quedado de acuerdo en verla", "ru": "мы договорились его посмотреть" }
+      ],
+      "examples": [
+        { "es": "No me acuerdo muy bien dónde vimos la película.", "ru": "Я не очень хорошо помню, где мы смотрели фильм." },
+        { "es": "Me han dicho que «Intocable» es muy buena y estoy de acuerdo.", "ru": "Мне говорили, что «Неприкасаемые» очень хорошие, и я согласен." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "los_generos": [
+      { "es": "la película de miedo", "ru": "фильм ужасов" },
+      { "es": "la comedia romántica", "ru": "романтическая комедия" },
+      { "es": "la película de acción", "ru": "боевик" },
+      { "es": "la ciencia ficción", "ru": "фантастика" },
+      { "es": "el suspense", "ru": "триллер, напряжение" },
+      { "es": "la comedia francesa", "ru": "французская комедия" },
+      { "es": "el cine", "ru": "кинотеатр, кино" },
+      { "es": "el teatro", "ru": "театр" }
+    ],
+    "las_personas": [
+      { "es": "la protagonista", "ru": "главная героиня" },
+      { "es": "la actriz", "ru": "актриса" },
+      { "es": "el actor principal", "ru": "главный актёр" },
+      { "es": "la escritora", "ru": "писательница" },
+      { "es": "el millonario", "ru": "миллионер" },
+      { "es": "el cuidador", "ru": "сиделка, опекун" }
+    ],
+    "la_pelicula": [
+      { "es": "los diálogos", "ru": "диалоги" },
+      { "es": "la banda sonora", "ru": "саундтрек" },
+      { "es": "el argumento", "ru": "сюжет" },
+      { "es": "la trama", "ru": "сюжетная линия" },
+      { "es": "el estreno", "ru": "премьера" },
+      { "es": "el periódico", "ru": "газета" },
+      { "es": "la amistad", "ru": "дружба" }
+    ],
+    "los_verbos": [
+      { "es": "acordarse de", "ru": "помнить" },
+      { "es": "estar de acuerdo", "ru": "соглашаться" },
+      { "es": "entender de", "ru": "разбираться в" },
+      { "es": "preferir", "ru": "предпочитать" },
+      { "es": "tratar de / se trata de", "ru": "речь идёт о" },
+      { "es": "hacer reír", "ru": "смешить" },
+      { "es": "hacer llorar", "ru": "доводить до слёз" },
+      { "es": "protagonizar", "ru": "исполнять главную роль" },
+      { "es": "rodar", "ru": "снимать (фильм)" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Lucía", "es": "Pues... ¿dónde viste la película que vimos: en el cine o en el teatro?", "ru": "Итак... где ты смотрел фильм, который мы видели: в кино или в театре?" },
+    { "speaker": "Carlos", "es": "No me acuerdo muy bien. Creo que fuimos a un cine del centro. La película era muy famosa: «El silencio de los inocentes». Vamos a verla una vez más.", "ru": "Я не очень хорошо помню. Думаю, мы ходили в кинотеатр в центре. Фильм был очень известный: «Молчание ягнят». Давай посмотрим его ещё раз." },
+    { "speaker": "Lucía", "es": "No me gustan las películas de miedo. ¿Por qué no vamos a ver una comedia romántica?", "ru": "Я не люблю фильмы ужасов. Почему бы нам не пойти на романтическую комедию?" },
+    { "speaker": "Carlos", "es": "No me gustan tampoco. Prefiero las de acción, las de ciencia ficción. Pero no veo ninguna cerca. Es que no entiendo de películas.", "ru": "Я их тоже не люблю. Я предпочитаю боевики, фантастику. Но ничего похожего рядом не вижу. Дело в том, что я не разбираюсь в фильмах." },
+    { "speaker": "Lucía", "es": "Sí, estoy de acuerdo. Esta película es de suspense. La protagonista es una actriz famosa. Se trata de una chica que trabaja en un periódico y que quiere ser escritora.", "ru": "Да, я согласна. Этот фильм — триллер. Главная героиня — известная актриса. Речь идёт о девушке, которая работает в газете и хочет стать писательницей." },
+    { "speaker": "Carlos", "es": "Bueno, si quieres, vamos a ver otra película. La de «Intocable» es una comedia francesa. Es una película que trata de la amistad entre un millonario y su cuidador.", "ru": "Ну, если хочешь, давай посмотрим другой фильм. «Неприкасаемые» — это французская комедия. Это фильм о дружбе между миллионером и его сиделкой." },
+    { "speaker": "Lucía", "es": "Esa película es muy divertida. Me han dicho que es muy buena. Además, el actor principal es muy famoso.", "ru": "Этот фильм очень смешной. Мне говорили, что он очень хороший. К тому же главный актёр очень известный." },
+    { "speaker": "Carlos", "es": "Sí, es muy cómico. Los diálogos son muy buenos. La banda sonora es muy bonita. Es una película que te hace reír y llorar.", "ru": "Да, он очень комичный. Диалоги очень хорошие. Саундтрек очень красивый. Это фильм, который заставляет тебя смеяться и плакать." },
+    { "speaker": "Lucía", "es": "Me gusta la idea. Vamos a verla.", "ru": "Мне нравится эта идея. Давай посмотрим его." },
+    { "speaker": "Carlos", "es": "¡Perfecto! Entonces, te espero aquí.", "ru": "Отлично! Тогда я жду тебя здесь." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "la película de miedo", "ru": "фильм ужасов" },
+        { "es": "la comedia romántica", "ru": "романтическая комедия" },
+        { "es": "la película de acción", "ru": "боевик" },
+        { "es": "la ciencia ficción", "ru": "фантастика" },
+        { "es": "el suspense", "ru": "триллер" },
+        { "es": "la banda sonora", "ru": "саундтрек" },
+        { "es": "el argumento", "ru": "сюжет" },
+        { "es": "la protagonista", "ru": "главная героиня" },
+        { "es": "el estreno", "ru": "премьера" },
+        { "es": "acordarse de", "ru": "помнить" }
+      ]
+    },
+    {
+      "type": "fill-gap-preferir_las_de",
+      "title": "Практика: PREFERIR + LAS DE...",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "___ de acción son mis favoritas.", "ru": "Боевики — мои любимые", "answer": "Las", "options": ["Las", "Los", "Lo"] },
+        { "text": "Prefiero las de ___ ficción.", "ru": "Я предпочитаю фантастику", "answer": "ciencia", "options": ["ciencia", "suspense", "miedo"] },
+        { "text": "¿Por qué no vemos una comedia ___?", "ru": "Почему бы нам не посмотреть романтическую комедию?", "answer": "romántica", "options": ["romántica", "terror", "francesa"] },
+        { "text": "No me gustan las de ___.", "ru": "Я не люблю фильмы ужасов", "answer": "miedo", "options": ["miedo", "acción", "teatro"] },
+        { "text": "Esta película es de ___.", "ru": "Этот фильм — триллер", "answer": "suspense", "options": ["suspense", "ciencia", "estreno"] }
+      ]
+    },
+    {
+      "type": "fill-gap-se_trata_de_es_que",
+      "title": "Практика: SE TRATA DE..., TRATA DE..., ES QUE...",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Se ___ de una chica que trabaja en un periódico.", "ru": "Речь идёт о девушке, которая работает в газете", "answer": "trata", "options": ["trata", "tratan", "trato"] },
+        { "text": "La película ___ de la amistad entre dos hombres.", "ru": "Фильм о дружбе между двумя мужчинами", "answer": "trata", "options": ["trata", "trátala", "trato"] },
+        { "text": "___ que no entiendo de películas.", "ru": "Дело в том, что я не разбираюсь в фильмах", "answer": "Es", "options": ["Es", "Son", "Está"] },
+        { "text": "Es una película que te hace ___ y llorar.", "ru": "Это фильм, который заставляет тебя смеяться и плакать", "answer": "reír", "options": ["reír", "llorar", "correr"] },
+        { "text": "La ___ es una actriz famosa.", "ru": "Главная героиня — известная актриса", "answer": "protagonista", "options": ["protagonista", "película", "escritora"] }
+      ]
+    },
+    {
+      "type": "fill-gap-falsos_amigos",
+      "title": "Практика: ACORDARSE vs ESTAR DE ACUERDO",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "No me ___ muy bien dónde la vimos.", "ru": "Я не очень хорошо помню, где мы его смотрели", "answer": "acuerdo", "options": ["acuerdo", "olvido", "sé"] },
+        { "text": "Estoy de ___ contigo.", "ru": "Я с тобой согласен", "answer": "acuerdo", "options": ["acuerdo", "sí", "gusto"] },
+        { "text": "Me ___ dicho que es muy buena.", "ru": "Мне сказали, что он очень хороший", "answer": "han", "options": ["han", "he", "habían"] },
+        { "text": "Me acuerdo ___ esa película.", "ru": "Я помню этот фильм", "answer": "de", "options": ["de", "en", "a"] },
+        { "text": "¿___ de acuerdo con la elección?", "ru": "Ты согласен с выбором?", "answer": "Estás", "options": ["Estás", "Estáis", "Eres"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Viste la película en el cine o en el ___?", "ru": "Ты смотрел фильм в кино или в театре?", "answer": "teatro", "options": ["teatro", "café", "parque"] },
+        { "text": "No me gustan las películas de ___.", "ru": "Я не люблю фильмы ужасов", "answer": "miedo", "options": ["miedo", "suspense", "amor"] },
+        { "text": "Prefiero las de ___ ficción.", "ru": "Я предпочитаю фантастику", "answer": "ciencia", "options": ["ciencia", "acción", "drama"] },
+        { "text": "Se ___ de una chica que quiere ser escritora.", "ru": "Речь идёт о девушке, которая хочет стать писательницей", "answer": "trata", "options": ["trata", "tratan", "cuenta"] },
+        { "text": "Es que no ___ de películas.", "ru": "Дело в том, что я не разбираюсь в фильмах", "answer": "entiendo", "options": ["entiendo", "entiendes", "sé"] },
+        { "text": "Me han ___ que es muy buena.", "ru": "Мне сказали, что он очень хороший", "answer": "dicho", "options": ["dicho", "decido", "digo"] },
+        { "text": "Es una película que te hace reír y ___.", "ru": "Это фильм, который заставляет тебя смеяться и плакать", "answer": "llorar", "options": ["llorar", "gritar", "dormir"] },
+        { "text": "La banda sonora es muy ___.", "ru": "Саундтрек очень красивый", "answer": "bonita", "options": ["bonita", "bueno", "feo"] },
+        { "text": "Entonces, te ___ aquí.", "ru": "Тогда я жду тебя здесь", "answer": "espero", "options": ["espero", "espera", "llamo"] },
+        { "text": "La ___ de la película es muy interesante.", "ru": "Сюжетная линия фильма очень интересная", "answer": "trama", "options": ["trama", "tema", "guión"] },
+        { "text": "Van a ___ la película en Valencia.", "ru": "Фильм будут снимать в Валенсии", "answer": "rodar", "options": ["rodar", "vestir", "cerrar"] },
+        { "text": "Ella ___ la película de suspense.", "ru": "Она исполняет главную роль в триллере", "answer": "protagoniza", "options": ["protagoniza", "protesta", "acompaña"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Ты — Лусия, выбираешь фильм и предлагаешь пойти в кино"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Ты — Карлос, рассказываешь о фильмах и ждёшь Лусию"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Договорись о походе в кино: жанры, сюжет, выбор фильма",
+      "template": [
+        { "label": "В кино или в театре?", "es": "¿En el ___ o en el teatro?" },
+        { "label": "Я не очень хорошо помню", "es": "No me ___ muy bien." },
+        { "label": "Фильм ужасов", "es": "La película de ___." },
+        { "label": "Я предпочитаю боевики", "es": "Prefiero las de ___." },
+        { "label": "Дело в том, что...", "es": "___ que no entiendo de películas." },
+        { "label": "Речь идёт о девушке", "es": "Se ___ de una chica." },
+        { "label": "О дружбе", "es": "Trata de la ___ entre un millonario y su cuidador." },
+        { "label": "Мне сказали, что он хороший", "es": "Me ___ dicho que es muy buena." },
+        { "label": "Смеяться и плакать", "es": "Hacer ___ y llorar." },
+        { "label": "Тогда я жду тебя здесь", "es": "Entonces, te ___ aquí." }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Dónde vieron Carlos y Lucía la película famosa?",
+          "ru": "Где Карлос и Лусия смотрели знаменитый фильм?",
+          "options": ["En un cine del centro", "En un teatro clásico", "En casa", "En un cine de las afueras"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se llama la película famosa que menciona Carlos?",
+          "ru": "Как называется знаменитый фильм, о котором говорит Карлос?",
+          "options": ["«El silencio de los inocentes»", "«Intocable»", "«El tesoro perdido»", "«Una noche de verano»"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué tipo de películas no le gustan a Lucía?",
+          "ru": "Какие фильмы не нравятся Лусии?",
+          "options": ["Las de miedo", "Las de acción", "Las románticas", "Las de ciencia ficción"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué prefiere Carlos?",
+          "ru": "Что предпочитает Карлос?",
+          "options": ["Las de acción y de ciencia ficción", "Las comedias románticas", "Los musicales", "Los documentales"],
+          "answer": 0
+        },
+        {
+          "question": "¿Por qué no ve Carlos ninguna película cerca?",
+          "ru": "Почему Карлос не видит поблизости ни одного подходящего фильма?",
+          "options": ["Porque no entiende de películas", "Porque el cine está cerrado", "Porque no tiene dinero", "Porque es tarde"],
+          "answer": 0
+        },
+        {
+          "question": "¿De qué se trata el filme de suspense?",
+          "ru": "О чём идёт речь в триллере?",
+          "options": ["De una chica que trabaja en un periódico y quiere ser escritora", "De un detective policía", "De un viaje espacial", "De un millonario"],
+          "answer": 0
+        },
+        {
+          "question": "¿De qué trata la película «Intocable»?",
+          "ru": "О чём фильм «Неприкасаемые»?",
+          "options": ["De la amistad entre un millonario y su cuidador", "De unos ladrones famosos", "De la guerra", "De un periódico"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué le han dicho a Lucía sobre «Intocable»?",
+          "ru": "Что сказали Лусии о фильме «Неприкасаемые»?",
+          "options": ["Que es muy buena", "Que es aburrida", "Que es demasiado larga", "Que no la estrenan"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué es muy bonita en la película según Carlos?",
+          "ru": "Что, по словам Карлоса, очень красивое в фильме?",
+          "options": ["La banda sonora", "La actriz", "La ciudad", "La ropa"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué hace la película contigo según Carlos?",
+          "ru": "Что фильм заставляет тебя делать, по словам Карлоса?",
+          "options": ["Reír y llorar", "Dormir", "Comer", "Correr"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повтори слова по теме «кино, фильмы, жанры»",
+    "Практика: обсуди с другом, в кино или в театр вы пойдёте. Используй: prefiero las de..., no me gustan las..., se trata de..., es que...",
+    "Дневник: опиши последний фильм, который ты смотрел(а), и свои впечатления",
+    "Грамматика: составь 4 предложения с prefiero las de + жанр и 4 с se trata de / es que"
+  ]
+}

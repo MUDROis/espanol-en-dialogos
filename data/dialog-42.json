@@ -1,0 +1,336 @@
+{
+  "id": 42,
+  "title": "Carmen lleva a Lucía al médico",
+  "titleRu": "Кармен ведёт Лусию к врачу",
+  "part": 5,
+  "level": "B2",
+  "theme": "Здоровье, врач, приём, лекарства  La salud, el médico, la consulta, los medicamentos",
+  "characters": ["medico", "carmen_madre", "lucia_hija"],
+  "objectives": [
+    "Говорить о симптомах: se quejó de dolor en la garganta, le dolió mucho, tiene fiebre",
+    "Отвечать на вопросы врача: ¿Qué le pasa?, ¿Tiene vómitos, náuseas o mareos?",
+    "Использовать Estar + gerundio: ¿no está tosiendo?, no está resfriada",
+    "Говорить о приёме лекарств: las pastillas se toman dos veces al día en ayunas",
+    "Понимать рекомендации врача: si el dolor no se pasa en una semana, recomiendo una ecografía",
+    "Успокаивать ребёнка: no te preocupes, esto no duele"
+  ],
+  "grammar": {
+    "estar_gerundio": {
+      "title": "Estar + gerundio: действие происходит сейчас",
+      "description": "Estar + gerundio описывает действие, которое происходит в момент речи: ¿No está tosiendo? (она разве не кашляет?), no está resfriada (она не простужена). Глагол estar спрягается, а gerundio не изменяется.",
+      "forms": {
+        "yo": { "es": "estoy tosiendo", "ru": "я кашляю" },
+        "tu": { "es": "estás durmiendo", "ru": "ты спишь" },
+        "el_ella": { "es": "está tosiendo", "ru": "он/она кашляет" },
+        "nosotros": { "es": "estamos esperando", "ru": "мы ждём" },
+        "vosotros": { "es": "estáis descansando", "ru": "вы отдыхаете" },
+        "ellos_ellas": { "es": "están comiendo", "ru": "они едят" }
+      },
+      "examples": [
+        { "es": "¿No está tosiendo?", "ru": "Она разве не кашляет?" },
+        { "es": "No está resfriada, pero tiene un poco de fiebre.", "ru": "Она не простужена, но у неё немного температура." }
+      ]
+    },
+    "doler": {
+      "title": "DOLER: me duele … + часть тела",
+      "description": "DOLER спрягается как gustar: me duele la garganta (у меня болит горло), me duelen los pies (у меня болят ноги). В единственном числе — si болит один предмет (duele), во множественном — duelen.",
+      "forms": {
+        "yo": { "es": "me duele la garganta", "ru": "у меня болит горло" },
+        "tu": { "es": "te duele el estómago", "ru": "у тебя болит живот" },
+        "el_ella": { "es": "le duele la cabeza", "ru": "у него/неё болит голова" },
+        "nosotros": { "es": "nos duelen los pies", "ru": "у нас болят ноги" },
+        "vosotros": { "es": "os duelen los brazos", "ru": "у вас болят руки" },
+        "ellos_ellas": { "es": "les duele el pecho", "ru": "у них болит грудь" }
+      },
+      "examples": [
+        { "es": "¿Te duele si aprieto aquí? ¿Y aquí?", "ru": "Тебе больно, если я надавлю здесь? А здесь?" },
+        { "es": "Sí, me duele un poco.", "ru": "Да, мне немного больно." }
+      ]
+    },
+    "se_instruccion": {
+      "title": "SE impersonal в инструкциях",
+      "description": "SE + глагол в 3-м лице — безличная (пассивная) форма для инструкций и рекомендаций: estas pastillas se toman dos veces al día (эти таблетки принимают два раза в день), se toma en ayunas (принимается натощак).",
+      "list": [
+        { "es": "estas pastillas se toman dos veces al día", "ru": "эти таблетки принимают два раза в день" },
+        { "es": "se toma en ayunas, antes de comer", "ru": "принимается натощак, перед едой" },
+        { "es": "se mide la tensión", "ru": "измеряют давление" },
+        { "es": "se pide otra consulta después del tratamiento", "ru": "записываются на повторный приём после лечения" },
+        { "es": "aquí se habla de la salud", "ru": "здесь говорят о здоровье" }
+      ],
+      "examples": [
+        { "es": "Estas pastillas se toman dos veces al día con agua antes de comer, en ayunas.", "ru": "Эти таблетки принимают два раза в день с водой перед едой, натощак." }
+      ]
+    },
+    "si_condicion": {
+      "title": "Si + presente → рекомендация",
+      "description": "Условное предложение первого типа: si + presente de indicativo, а следствие — рекомендация или будущее время: si el dolor no se pasa en una semana, le recomiendo hacer una ecografía (если боль не пройдёт за неделю, я рекомендую сделать УЗИ).",
+      "list": [
+        { "es": "si el dolor no se pasa en una semana", "ru": "если боль не пройдёт за неделю" },
+        { "es": "si tienes fiebre, llama al médico", "ru": "если у тебя температура, позвони врачу" },
+        { "es": "si tosemos mucho, iremos al médico", "ru": "если мы сильно кашляем, мы пойдём к врачу" },
+        { "es": "si no está mejor, venga mañana", "ru": "если ей не станет лучше, придите завтра" },
+        { "es": "si le duele la garganta, tome el jarabe", "ru": "если у неё болит горло, примите сироп" }
+      ],
+      "examples": [
+        { "es": "Si el dolor no se pasa en una semana, le recomiendo hacer una ecografía.", "ru": "Если боль не пройдёт за неделю, я рекомендую сделать УЗИ." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "la_salud": [
+      { "es": "la garganta", "ru": "горло" },
+      { "es": "el dolor", "ru": "боль" },
+      { "es": "la fiebre", "ru": "температура, жар" },
+      { "es": "la tos", "ru": "кашель" },
+      { "es": "el resfriado", "ru": "простуда" },
+      { "es": "las náuseas", "ru": "тошнота" },
+      { "es": "los vómitos", "ru": "рвота" },
+      { "es": "los mareos", "ru": "головокружение" },
+      { "es": "la tensión", "ru": "давление" },
+      { "es": "la inyección", "ru": "укол" }
+    ],
+    "los_medicamentos": [
+      { "es": "el jarabe", "ru": "сироп" },
+      { "es": "las pastillas", "ru": "таблетки" },
+      { "es": "los medicamentos", "ru": "лекарства" },
+      { "es": "la alergia", "ru": "аллергия" },
+      { "es": "la enfermedad crónica", "ru": "хроническое заболевание" },
+      { "es": "la digestión", "ru": "пищеварение" },
+      { "es": "la consulta", "ru": "приём у врача" },
+      { "es": "la ecografía", "ru": "УЗИ" }
+    ],
+    "la_comida": [
+      { "es": "la sopa", "ru": "суп" },
+      { "es": "las verduras", "ru": "овощи" },
+      { "es": "el pollo", "ru": "курица" },
+      { "es": "el helado", "ru": "мороженое" },
+      { "es": "los dulces", "ru": "сладости" }
+    ],
+    "los_verbos": [
+      { "es": "toser", "ru": "кашлять" },
+      { "es": "doler", "ru": "болеть" },
+      { "es": "apretar", "ru": "надавливать" },
+      { "es": "auscultar", "ru": "слушать (лёгкие)" },
+      { "es": "recetar", "ru": "прописывать (лекарство)" },
+      { "es": "medir", "ru": "измерять" },
+      { "es": "recomendar", "ru": "рекомендовать" },
+      { "es": "preocuparse", "ru": "беспокоиться" },
+      { "es": "quejarse", "ru": "жаловаться" },
+      { "es": "sentirse", "ru": "чувствовать себя" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "El médico", "es": "Buenos días. ¿Qué le pasa a la niña?", "ru": "Добрый день. Что случилось с девочкой?" },
+    { "speaker": "Carmen", "es": "Hace tres días se quejó de dolor en la garganta. Le di un jarabe y se sintió mejor. Pero ayer otra vez le dolió mucho la garganta.", "ru": "Три дня назад она жаловалась на боль в горле. Я дала ей сироп, и она почувствовала себя лучше. Но вчера у неё снова сильно заболело горло." },
+    { "speaker": "El médico", "es": "¿Qué comió?", "ru": "Что она ела?" },
+    { "speaker": "Carmen", "es": "Nada especial. Sopa, verduras, pollo...", "ru": "Ничего особенного. Суп, овощи, курицу..." },
+    { "speaker": "Lucía", "es": "Un par de helados cuando fuimos al parque.", "ru": "Пару мороженых, когда мы ходили в парк." },
+    { "speaker": "El médico", "es": "Nada de helados ni dulces desde ahora. Voy a auscultar... Señora, parece que su hija tiene fiebre.", "ru": "Никаких мороженых и сладостей с этого момента. Сейчас послушаю... Сеньора, похоже, что у вашей дочери температура." },
+    { "speaker": "Carmen", "es": "¿Fiebre?", "ru": "Температура?" },
+    { "speaker": "El médico", "es": "Sí. ¿No está tosiendo?", "ru": "Да. Она разве не кашляет?" },
+    { "speaker": "Carmen", "es": "No, ni está resfriada...", "ru": "Нет, и не простужена..." },
+    { "speaker": "El médico", "es": "Parece que se trata de problemas de digestión. Niña, ¿te duele si aprieto aquí? ¿Y aquí?", "ru": "Похоже, что речь идёт о проблемах с пищеварением. Девочка, тебе больно, если я надавлю здесь? А здесь?" },
+    { "speaker": "Lucía", "es": "Sí, me duele un poco.", "ru": "Да, мне немного больно." },
+    { "speaker": "El médico", "es": "Ahora te mido la tensión... Está normal. ¿Tienes vómitos, náuseas o mareos?", "ru": "Сейчас померю тебе давление... В норме. Тебя не рвёт, нет тошноты, голова не кружится?" },
+    { "speaker": "Lucía", "es": "Creo que no.", "ru": "Думаю, что нет." },
+    { "speaker": "El médico", "es": "Bueno, voy a recetarte unos medicamentos. ¿Tiene la niña alguna enfermedad crónica y alguna alergia a unos medicamentos?", "ru": "Хорошо. Я пропишу тебе лекарства. Есть у ребёнка какие-нибудь хронические заболевания или аллергия на какие-нибудь лекарства?" },
+    { "speaker": "Carmen", "es": "No, no tiene.", "ru": "Нет, нет." },
+    { "speaker": "El médico", "es": "Bueno, estas pastillas se toman dos veces al día con agua antes de comer, en ayunas. Y estas, antes de dormir. Además, si el dolor no se pasa en una semana, le recomiendo hacer una ecografía.", "ru": "Итак, эти таблетки принимают два раза в день с водой перед едой, натощак. А эти — перед сном. Кроме того, если боль не пройдёт за неделю, я рекомендую сделать УЗИ." },
+    { "speaker": "Lucía", "es": "Ay, ¿me harán inyecciones?", "ru": "Ой, мне будут делать уколы?" },
+    { "speaker": "El médico", "es": "No, hija. Esto no duele, no te preocupes. Bueno, después de este tratamiento me piden otra consulta y vamos a ver cómo está la niña.", "ru": "Нет, малышка. Это не больно, не волнуйся. Итак, после этого лечения запишитесь ко мне, и посмотрим, как дела у девочки." },
+    { "speaker": "Carmen", "es": "Muchas gracias, doctor.", "ru": "Большое спасибо, доктор." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "la garganta", "ru": "горло" },
+        { "es": "el dolor", "ru": "боль" },
+        { "es": "la fiebre", "ru": "температура, жар" },
+        { "es": "la tos", "ru": "кашель" },
+        { "es": "el resfriado", "ru": "простуда" },
+        { "es": "las náuseas", "ru": "тошнота" },
+        { "es": "los vómitos", "ru": "рвота" },
+        { "es": "los mareos", "ru": "головокружение" },
+        { "es": "la tensión", "ru": "давление" },
+        { "es": "la inyección", "ru": "укол" }
+      ]
+    },
+    {
+      "type": "fill-gap-estar_gerundio",
+      "title": "Практика: Estar + gerundio",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿No ___ tosiendo?", "ru": "Она разве не кашляет?", "answer": "está", "options": ["está", "estoy", "están"] },
+        { "text": "La niña no está ___ bien desde hace tres días.", "ru": "Девочка спит плохо уже три дня", "answer": "durmiendo", "options": ["durmiendo", "dormir", "duerme"] },
+        { "text": "Estamos ___ al médico desde hace una hora.", "ru": "Мы ждём врача уже час", "answer": "esperando", "options": ["esperando", "esperar", "esperamos"] },
+        { "text": "¿Qué está ___ la niña ahora?", "ru": "Что сейчас делает девочка?", "answer": "haciendo", "options": ["haciendo", "hacer", "hace"] },
+        { "text": "Carmen está ___ el jarabe en la farmacia.", "ru": "Кармен покупает сироп в аптеке", "answer": "comprando", "options": ["comprando", "comprar", "compra"] }
+      ]
+    },
+    {
+      "type": "fill-gap-doler",
+      "title": "Практика: DOLER",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Me ___ la garganta desde ayer.", "ru": "У меня болит горло со вчерашнего дня", "answer": "duele", "options": ["duele", "duelen", "doler"] },
+        { "text": "¿Te ___ el estómago?", "ru": "У тебя болит живот?", "answer": "duele", "options": ["duele", "duelen", "doler"] },
+        { "text": "A Lucía le ___ la cabeza.", "ru": "У Лусии болит голова", "answer": "duele", "options": ["duele", "duelen", "dolían"] },
+        { "text": "Nos ___ los pies de tanto caminar.", "ru": "У нас болят ноги от долгой ходьбы", "answer": "duelen", "options": ["duelen", "duele", "doler"] },
+        { "text": "¿Te duele si ___ aquí?", "ru": "Тебе больно, если я надавлю здесь?", "answer": "aprieto", "options": ["aprieto", "apretar", "aprietas"] }
+      ]
+    },
+    {
+      "type": "fill-gap-se_instruccion",
+      "title": "Практика: SE impersonal",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Estas pastillas se toman ___ veces al día.", "ru": "Эти таблетки принимают два раза в день", "answer": "dos", "options": ["dos", "una", "tres"] },
+        { "text": "El medicamento se toma ___ ayunas.", "ru": "Лекарство принимают натощак", "answer": "en", "options": ["en", "de", "por"] },
+        { "text": "La tensión se ___ cada mañana.", "ru": "Давление измеряют каждое утро", "answer": "mide", "options": ["mide", "mido", "media"] },
+        { "text": "Aquí se ___ de la salud.", "ru": "Здесь говорят о здоровье", "answer": "habla", "options": ["habla", "hablo", "hablan"] },
+        { "text": "La consulta se ___ después del tratamiento.", "ru": "Записываются на повторный приём после лечения", "answer": "pide", "options": ["pide", "pido", "piden"] }
+      ]
+    },
+    {
+      "type": "fill-gap-si_condicion",
+      "title": "Практика: Si + presente",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Si el dolor no se ___, le recomiendo hacer una ecografía.", "ru": "Если боль не пройдёт за неделю, я рекомендую сделать УЗИ", "answer": "pasa", "options": ["pasa", "pase", "pasó"] },
+        { "text": "Si tienes ___, llama al médico.", "ru": "Если у тебя температура, позвони врачу", "answer": "fiebre", "options": ["fiebre", "frío", "tos"] },
+        { "text": "Si la niña ___ mejor, volvemos mañana.", "ru": "Если девочке станет лучше, мы вернёмся завтра", "answer": "está", "options": ["está", "estuvo", "estaba"] },
+        { "text": "Si le duele la garganta, ___ el jarabe.", "ru": "Если у неё болит горло, примите сироп", "answer": "tome", "options": ["tome", "tomé", "tomar"] },
+        { "text": "Si no está resfriada, no ___ que tomar nada.", "ru": "Если она не простужена, не нужно ничего принимать", "answer": "hay", "options": ["hay", "ha", "habrá"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Hace tres días, Lucía se ___ de dolor en la garganta.", "ru": "Три дня назад Лусия жаловалась на боль в горле", "answer": "quejó", "options": ["quejó", "queja", "quejan"] },
+        { "text": "Le ___ un jarabe y se sintió mejor.", "ru": "Я дал ей сироп, и она почувствовала себя лучше", "answer": "di", "options": ["di", "dio", "día"] },
+        { "text": "Ayer, otra vez le ___ mucho la garganta.", "ru": "Вчера у неё снова сильно заболело горло", "answer": "dolió", "options": ["dolió", "duele", "duelen"] },
+        { "text": "¿No está ___?", "ru": "Она разве не кашляет?", "answer": "tosiendo", "options": ["tosiendo", "toser", "tose"] },
+        { "text": "Las pastillas se ___ dos veces al día.", "ru": "Таблетки принимают два раза в день", "answer": "toman", "options": ["toman", "toma", "tomar"] },
+        { "text": "Si la fiebre no se pasa, ___ hacer una ecografía.", "ru": "Если температура не пройдёт, я рекомендую сделать УЗИ", "answer": "recomiendo", "options": ["recomiendo", "recomienda", "recomendar"] },
+        { "text": "Ahora te ___ la tensión... Está normal.", "ru": "Сейчас померю тебе давление... В норме.", "answer": "mido", "options": ["mido", "mide", "media"] },
+        { "text": "No te ___, esto no duele.", "ru": "Не волнуйся, это не больно", "answer": "preocupes", "options": ["preocupes", "preocupas", "preocúpate"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь врачом",
+      "role": "El médico",
+      "description": "Ты — врач, расспрашиваешь Кармен о симптомах и назначаешь лечение"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Кармен",
+      "role": "Carmen",
+      "description": "Ты — Кармен, рассказываешь врачу, как болеет Лусия"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Ты — Лусия, отвечаешь врачу: что болит и что ты ела"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Разыграй визит к врачу: расскажи о симптомах, услышь вопросы и рекомендации врача",
+      "template": [
+        { "label": "Что случилось с девочкой?", "es": "¿Qué ___ pasa a la niña?" },
+        { "label": "У меня болит горло", "es": "Me ___ la garganta." },
+        { "label": "Она не кашляет?", "es": "¿No ___ tosiendo?" },
+        { "label": "Она не простужена", "es": "No está ___." },
+        { "label": "Тебе больно, если я надавлю здесь?", "es": "¿Te ___ si aprieto aquí?" },
+        { "label": "Я пропишу тебе лекарства", "es": "Voy a ___ unos medicamentos." },
+        { "label": "Эти таблетки принимают два раза в день", "es": "Estas pastillas ___ toman dos veces al día." },
+        { "label": "Мне сделают укол?", "es": "¿Me harán una inyección?" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Cuándo se quejó la niña de dolor en la garganta?",
+          "ru": "Когда девочка пожаловалась на боль в горле?",
+          "options": ["Hace tres días", "Ayer", "Hace una semana", "Esta mañana"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué le dio Carmen a Lucía cuando le dolió la garganta?",
+          "ru": "Что Кармен дала Лусии, когда у неё заболело горло?",
+          "options": ["Unas pastillas", "Un jarabe", "Una inyección", "Una vitamina"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué comió Lucía además de sopa, verduras y pollo?",
+          "ru": "Что Лусия ела кроме супа, овощей и курицы?",
+          "options": ["Un par de helados", "Chocolate", "Fruta", "Nada"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué debe dejar de comer Lucía a partir de ahora?",
+          "ru": "От чего Лусия должна отказаться в еде с этого момента?",
+          "options": ["Nada de helados ni dulces", "Nada de sopa", "Nada de verduras", "Nada de pollo"],
+          "answer": 0
+        },
+        {
+          "question": "¿Tose Lucía?",
+          "ru": "Кашляет ли Лусия?",
+          "options": ["Sí, tose mucho", "No está tosiendo ni resfriada", "Solo por la noche", "No lo sabe"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué problema tiene Lucía según el médico?",
+          "ru": "В чём проблема Лусии по мнению врача?",
+          "options": ["Problemas de digestión", "La gripe", "Una alergia", "La angina"],
+          "answer": 0
+        },
+        {
+          "question": "¿Tiene la niña alguna enfermedad crónica o alergia?",
+          "ru": "Есть ли у девочки хронические заболевания или аллергия?",
+          "options": ["Sí, a los dulces", "No, no tiene", "Tiene alergia a las pastillas", "No lo sabe"],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo se toman las pastillas?",
+          "ru": "Как принимают таблетки?",
+          "options": ["Dos veces al día con agua antes de comer", "Una vez al día después de comer", "Tres veces al día con leche", "Nunca"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué recomienda el médico si el dolor no se pasa en una semana?",
+          "ru": "Что рекомендует врач, если боль не пройдёт за неделю?",
+          "options": ["Hacer una ecografía", "Hacer una operación", "Descansar", "Ir a otro hospital"],
+          "answer": 0
+        },
+        {
+          "question": "¿Le harán a Lucía inyecciones?",
+          "ru": "Лусии будут делать уколы?",
+          "options": ["Sí, muchas", "No, no te preocupes, esto no duele", "Solo si hace falta", "Mañana"],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повтори слова по теме «здоровье, врач, лекарства»",
+    "Практика: расскажи, как ты ходил(а) к врачу. Используй: me dolía..., el médico me recetó..., estas pastillas se toman dos veces al día...",
+    "Дневник: опиши визит к врачу — свой или с ребёнком",
+    "Грамматика: составь 4 предложения с Estar + gerundio и 4 с конструкцией me duele / me duelen"
+  ]
+}

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi tarjeta — Урок 10 · Español A0–A1</title>
+<meta name="description" content="Урок 10: проект блока 1 «Mi Tarjeta» — собери свою испанскую визитку: имя, возраст, любимый цвет и животное. Курс испанского A0–A1 для детей.">
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body data-theme="tarjeta">
+
+<header class="lesson-head">
+  <a class="link-back" href="course.html">← Все уроки</a>
+  <span class="lh-title">Урок 10 · Mi tarjeta</span>
+  <span class="lh-spacer"></span>
+  <a class="link-ghost" href="lesson-11.html">Урок 11 →</a>
+</header>
+
+<div class="voice-note" id="voiceNote"></div>
+<div class="save-indicator" id="saveIndicator"> Прогресс сохранён</div>
+
+<div class="container">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ШАГ 1 -->
+  <section class="step active" id="step1">
+    <h1> Mi tarjeta</h1>
+    <p style="font-size:1.5em">¡Hola, amigo! Создадим твою испанскую визитку! </p>
+    <p>Первый проект блока пройден! Ты соберёшь карточку о себе — такую, какую можно показать друзьям.</p>
+    <h3>В этом уроке</h3>
+    <p> Слова о себе: nombre, edad, color, animal<br>
+        Фразы «Me llamo…», «Tengo X años»<br>
+        Проект «Mi Tarjeta»<br>
+        Получишь диплом первого блока!</p>
+    <div class="tip"> <strong>Совет:</strong> визитку можно распечатать из браузера (Ctrl+P) и повесить на стену. Пусть друзья проверяют твой испанский!</div>
+    <div class="nav-buttons center">
+      <button class="btn btn-primary" data-next>¡Vamos! Поехали! </button>
+    </div>
+  </section>
+
+  <!-- ШАГ 2 -->
+  <section class="step" id="step2">
+    <h2> Разминка: это тот же CH!</h2>
+    <p>Мы говорили о доме, а теперь — о детях. Послушай эти слова про ребёнка: CH всё тот же — «ч».</p>
+    <div class="phonetics">
+      <div class="phon-card" data-say="Niño, chico">
+        <div class="phon-letter">ch</div>
+        <div class="phon-emoji">🧒</div>
+        <div class="phon-word">Niño, chico</div>
+        <div class="phon-hint">Ниньо — ребёнок (Ñ!), чико — мальчик (CH)</div>
+        <button class="mic-btn" data-mic="niño" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="¿Cuántos años tienes?">
+        <div class="phon-letter long">¿Cuántos?</div>
+        <div class="phon-emoji">🎂</div>
+        <div class="phon-word">¿Cuántos años tienes?</div>
+        <div class="phon-hint">Сколько тебе лет? Ударение: КУА́нтос</div>
+        <button class="mic-btn" data-mic="cuántos años tienes" data-step="2">🎤</button>
+      </div>
+    </div>
+    <div class="tip"> <strong>Проверь себя:</strong> в слове <em>niño</em> буква Ñ («нь»), а в слове <em>chico</em> — CH («ч»). Одно «и», два разных звука!</div>
+    <div class="feedback" id="feedback2"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 3 -->
+  <section class="step" id="step3">
+    <h2> Четыре слова о тебе</h2>
+    <p>Послушай и повтори. Пригодится для твоей визитки!</p>
+    <div class="words" id="aboutCards"></div>
+    <p style="margin-top:26px"><strong> Найди пары: слово и картинка</strong></p>
+    <div class="memory-grid" id="memoryGrid"></div>
+    <div class="memory-counter">Найдено пар: <span id="memoryCounter">0</span>/4</div>
+    <div class="feedback" id="feedback3"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 4 -->
+  <section class="step" id="step4">
+    <h2> Расскажи о себе</h2>
+    <p>Новый друг спрашивает тебя о тебе. Послушай и повтори — это твой главный диалог!</p>
+    <div class="dialogue">
+      <div class="dialogue-line" data-say="¿Cómo te llamas?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿Cómo te llamas?<span class="ru">Как тебя зовут?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="cómo te llamas" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Me llamo Ana.">
+        <div class="avatar">👧</div>
+        <div class="text">Me llamo Ana.<span class="ru">Меня зовут Ана.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="me llamo Ana" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="¿Cuántos años tienes?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿Cuántos años tienes?<span class="ru">Сколько тебе лет?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="cuántos años tienes" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Tengo diez años.">
+        <div class="avatar">👧</div>
+        <div class="text">Tengo diez años.<span class="ru">Мне десять лет.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="tengo diez años" data-step="4" data-threshold="0.4">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="¿Cuál es tu color favorito?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿Cuál es tu color favorito?<span class="ru">Какой твой любимый цвет?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="cuál es tu color favorito" data-step="4" data-threshold="0.3">🎤</button>
+      </div>
+    </div>
+    <div class="bubble-row">
+      <button class="btn btn-primary" data-repeat='["¿Cómo te llamas?","Me llamo Ana.","¿Cuántos años tienes?","Tengo diez años.","¿Cuál es tu color favorito?"]' data-gap="2600"> Слушать весь диалог</button>
+    </div>
+    <div class="tip"> <strong>Шпаргалка:</strong> <em>Me llamo Ana.</em> — <em>Tengo diez años.</em> — <em>Mi color favorito es azul.</em> — <em>Mi animal favorito es el gato.</em></div>
+    <div class="feedback" id="feedback4"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 5 · Mi Tarjeta -->
+  <section class="step" id="step5">
+    <h2> Проект: Mi Tarjeta</h2>
+    <p>Заполни свою визитку. Нажми , чтобы услышать каждую фразу.</p>
+    <div class="game-box">
+      <div class="form-row">
+        <label for="cardName"> Me llamo…</label>
+        <input type="text" id="cardName" maxlength="24" placeholder="твоё имя" autocomplete="off">
+        <button class="btn btn-small btn-secondary" data-say="Me llamo"></button>
+      </div>
+      <div class="form-row">
+        <label for="cardAge"> Tengo … años</label>
+        <input type="number" id="cardAge" min="3" max="15" placeholder="5–15" autocomplete="off">
+        <button class="btn btn-small btn-secondary" data-say="Tengo cinco años"></button>
+      </div>
+      <div class="pick-row">
+        <span class="pick-label"> Mi color favorito es…</span>
+        <div class="pick-grid" id="colorPick"></div>
+      </div>
+      <div class="pick-row">
+        <span class="pick-label"> Mi animal favorito es…</span>
+        <div class="pick-grid" id="animalPick"></div>
+      </div>
+      <div class="bubble-row">
+        <button class="btn btn-primary" id="makeCard"> ¡Crear mi tarjeta!</button>
+      </div>
+      <div id="cardPreview"></div>
+      <div class="assign-progress" id="cardProgress">Заполни все поля</div>
+    </div>
+    <div class="feedback" id="feedback5"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 6 -->
+  <section class="step" id="step6">
+    <h2> Проверь себя!</h2>
+    <p>Три вопроса по всему первому блоку!</p>
+    <div id="quizContainer"></div>
+    <div class="assign-progress" id="quizScore"></div>
+    <div class="feedback" id="feedback6"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 7 -->
+  <section class="step" id="step7">
+    <div class="final">
+
+      <h1>¡Fin del Bloque 1!</h1>
+      <p style="font-size:1.4em">Первый блок позади — десять уроков!</p>
+      <div class="medal"> Диплом «¡Hola, Mundo!»</div>
+      <p>Ты умеешь:</p>
+      <p> Познакомиться и сказать своё имя<br>
+        Посчитать от 1 до 10 и сказать свой возраст<br>
+        Назвать цвета, семью, животных<br>
+        Назвать дни недели и еду<br>
+        Рассказать о себе: «Me llamo…», «Tengo … años»</p>
+      <div class="homework" style="max-width:640px">
+        <strong> Задание блока</strong><br>
+        Распечатай свою <em>Mi Tarjeta</em> (Ctrl+P) и представь её семье на испанском.<br>
+        В следующем блоке ты научишься рассказывать, <em>кто ты</em>: <strong>Soy español/a</strong>, <strong>tengo un perro</strong>
+      </div>
+
+      <h3> ¡Yo puedo! — Я могу!</h3>
+      <div class="can-do" id="canDo"></div>
+
+      <div class="nav-buttons center">
+        <button class="btn btn-secondary" data-restart> Пройти ещё раз</button>
+        <a class="btn btn-primary" href="lesson-11.html" style="text-decoration:none;display:inline-block">Урок 11 →</a>
+      </div>
+      <p style="margin-top:18px"><a class="link-ghost" href="course.html">← Ко всем урокам курса</a></p>
+    </div>
+  </section>
+</div>
+
+<script src="assets/lesson.js"></script>
+<script>
+/* ============================ ДАННЫЕ УРОКА 10 ============================ */
+var ABOUT = [
+  { es: 'el nombre', ru: 'имя', e: '📛' },
+  { es: 'la edad', ru: 'возраст', e: '🎂' },
+  { es: 'el color', ru: 'цвет', e: '🎨' },
+  { es: 'el animal', ru: 'животное', e: '🐾' }
+];
+
+var MEMORY = ABOUT.map(function (a) { return { a: a.es, b: a.e, sa: a.es, sb: null }; });
+
+var COLORS = [
+  { es: 'rojo', e: '🔴' }, { es: 'azul', e: '🔵' }, { es: 'verde', e: '🟢' },
+  { es: 'amarillo', e: '🟡' }, { es: 'morado', e: '🟣' }, { es: 'blanco', e: '⚪' }
+];
+
+var ANIMALS_PICK = [
+  { es: 'perro', e: '🐶' }, { es: 'gato', e: '🐱' }, { es: 'pájaro', e: '🐦' },
+  { es: 'pez', e: '🐟' }, { es: 'caballo', e: '🐴' }, { es: 'conejo', e: '🐰' }
+];
+
+var QUIZ = [
+  { q: ' Как спросить «Как тебя зовут?»', opts: ['¿Cómo te llamas?', '¿Dónde está?', '¿Qué es?', '¿Cuántos años?'], correct: '¿Cómo te llamas?' },
+  { q: ' Что значит «Tengo diez años»?', opts: ['Меня зовут Диего', 'Мне десять лет', 'У меня есть собака', 'Я живу в доме'], correct: 'Мне десять лет' },
+  { q: ' Что мы собрали в этом уроке?', opts: ['Свою визитку Mi Tarjeta', 'Домашнее задание', 'Календарь недели', 'Семейное древо'], correct: 'Свою визитку Mi Tarjeta' }
+];
+
+var CAN_DO = [
+  'Я говорю «Me llamo …»',
+  'Я называю свой возраст',
+  'Я называю любимый цвет и животное',
+  'Я собрал свою Mi Tarjeta'
+];
+
+/* --------------------- ШАГ 3: карточки ------------------------- */
+function renderAbout() {
+  var box = document.getElementById('aboutCards');
+  box.innerHTML = '';
+  ABOUT.forEach(function (a) {
+    var c = EL.el('div', 'word-card');
+    c.setAttribute('data-say', a.es);
+    c.style.background = 'linear-gradient(140deg, var(--c3), var(--c1))';
+    c.innerHTML = '<span class="emoji">' + a.e + '</span><span class="es">' + a.es + '</span><span class="ru">' + a.ru + '</span>' +
+      '<button class="mic-btn" data-mic="' + a.es + '" data-step="3">🎤</button>';
+    box.appendChild(c);
+  });
+}
+
+/* --------------------- ШАГ 5: конструктор визитки --------------------- */
+function renderPickers() {
+  var colorBox = document.getElementById('colorPick');
+  var animBox = document.getElementById('animalPick');
+  colorBox.innerHTML = ''; animBox.innerHTML = '';
+
+  COLORS.forEach(function (c) {
+    var b = EL.el('button', 'pick-btn');
+    b.innerHTML = '<span style="font-size:1.7em">' + c.e + '</span><span class="es">' + c.es + '</span>';
+    b.dataset.es = c.es;
+    b.dataset.group = 'color';
+    if (EL.get('cardColor') === c.es) b.classList.add('selected');
+    b.addEventListener('click', function () { pick('color', c.es, c.e, b); });
+    colorBox.appendChild(b);
+  });
+
+  ANIMALS_PICK.forEach(function (a) {
+    var b = EL.el('button', 'pick-btn');
+    b.innerHTML = '<span style="font-size:1.7em">' + a.e + '</span><span class="es">' + a.es + '</span>';
+    b.dataset.es = a.es;
+    b.dataset.group = 'animal';
+    if (EL.get('cardAnimal') === a.es) b.classList.add('selected');
+    b.addEventListener('click', function () { pick('animal', a.es, a.e, b); });
+    animBox.appendChild(b);
+  });
+
+  var n = document.getElementById('cardName');
+  var a = document.getElementById('cardAge');
+  if (!n.value) n.value = EL.get('cardName', '');
+  if (!a.value) a.value = EL.get('cardAge', '');
+  n.addEventListener('input', function () { EL.set('cardName', n.value); });
+  a.addEventListener('input', function () { EL.set('cardAge', a.value); });
+  updateCardProgress();
+}
+
+function pick(group, es, emoji, btn) {
+  EL.set('card' + (group === 'color' ? 'Color' : 'Animal'), es);
+  EL.set('card' + (group === 'color' ? 'ColorEmoji' : 'AnimalEmoji'), emoji);
+  var box = btn.parentNode;
+  Array.prototype.forEach.call(box.children, function (x) { x.classList.remove('selected'); });
+  btn.classList.add('selected');
+  EL.speak(es);
+  EL.say(5, ' ' + (group === 'color' ? 'Цвет: ' : 'Животное: ') + es, 'info', 2000);
+  updateCardProgress();
+}
+
+function cardData() {
+  return {
+    name: (document.getElementById('cardName').value || '').trim(),
+    age: (document.getElementById('cardAge').value || '').trim(),
+    color: EL.get('cardColor', ''),
+    colorEmoji: EL.get('cardColorEmoji', ''),
+    animal: EL.get('cardAnimal', ''),
+    animalEmoji: EL.get('cardAnimalEmoji', '')
+  };
+}
+
+function updateCardProgress() {
+  var d = cardData();
+  var filled = [d.name, d.age, d.color, d.animal].filter(function (x) { return !!x; }).length;
+  var bar = document.getElementById('cardProgress');
+  bar.textContent = 'Заполнено полей: ' + filled + ' из 4';
+  bar.classList.toggle('complete', filled === 4);
+  if (filled === 4 && !EL.get('cardMade')) {
+    EL.set('cardMade', false);
+    EL.say(5, ' Все поля заполнены! Нажми «¡Crear mi tarjeta!», чтобы показать визитку.', 'success');
+  }
+}
+
+document.getElementById('makeCard').addEventListener('click', function () {
+  var d = cardData();
+  var missing = [];
+  if (!d.name) missing.push('имя');
+  if (!d.age) missing.push('возраст');
+  if (!d.color) missing.push('цвет');
+  if (!d.animal) missing.push('животное');
+  var box = document.getElementById('cardPreview');
+
+  if (missing.length) {
+    box.innerHTML = '';
+    EL.say(5, ' Ещё нужно заполнить: ' + missing.join(', ') + '!', 'error');
+    return;
+  }
+
+  box.innerHTML = '<div class="tarjeta">' +
+    '<div class="tarjeta-head"> Mi Tarjeta</div>' +
+    '<div class="tarjeta-body">' +
+      '<div class="tarjeta-nombre">Me llamo ' + d.name + '</div>' +
+      '<div class="tarjeta-fila"> Tengo ' + d.age + ' años</div>' +
+      '<div class="tarjeta-fila">' + (d.colorEmoji || '') + ' Mi color favorito es ' + d.color + '</div>' +
+      '<div class="tarjeta-fila">' + (d.animalEmoji || '') + ' Mi animal favorito es ' + d.animal + '</div>' +
+      '<div class="tarjeta-foto">' + (d.animalEmoji || '') + '</div>' +
+    '</div>' +
+    '<div class="tarjeta-foot">¡Hola! · Español A0–A1 · Bloque 1</div>' +
+  '</div>';
+
+  EL.set('cardMade', true);
+  EL.confetti(120);
+  EL.speak('Me llamo ' + d.name + '. Tengo ' + d.age + ' años. Mi color favorito es ' + d.color + '. Mi animal favorito es ' + d.animal + '.');
+  EL.say(5, ' ¡Qué buena tarjeta! Теперь распечатай её (Ctrl+P) и расскажи о себе по-испански!', 'success', 6000);
+});
+
+EL.init({
+  id: 10,
+  rate: 0.68,
+  resumeMsg: ' Продолжить урок 10 с шага ',
+  onStep: function (n) {
+    if (n === 3) { renderAbout(); EL.memory(MEMORY, { step: 3 }); }
+    if (n === 5) renderPickers();
+    if (n === 6) EL.quiz(QUIZ, { step: 6 });
+    if (n === 7) EL.canDo(CAN_DO);
+  },
+  onRestart: function () { renderAbout(); EL.memory(MEMORY, { step: 3 }); renderPickers(); }
+});
+</script>
+
+<script src="assets/gate.js"></script>
+</body>
+</html>

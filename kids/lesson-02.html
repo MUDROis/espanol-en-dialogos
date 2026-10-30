@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>¿Cómo te llamas? — Урок 2 · Español A0–A1</title>
+<meta name="description" content="Урок 2: буква H (немая) и J (звук Х), фразы знакомства «Me llamo…», разговор с попугаем Пако. Курс испанского A0–A1 для детей.">
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body data-theme="nombre">
+
+<header class="lesson-head">
+  <a class="link-back" href="course.html">← Все уроки</a>
+  <span class="lh-title">Урок 2 · ¿Cómo te llamas?</span>
+  <span class="lh-spacer"></span>
+  <a class="link-ghost" href="lesson-03.html">Урок 3 →</a>
+</header>
+
+<div class="voice-note" id="voiceNote"></div>
+<div class="save-indicator" id="saveIndicator"> Прогресс сохранён</div>
+
+<div class="container">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ШАГ 1 -->
+  <section class="step active" id="step1">
+    <h1>¿Cómo te llamas? </h1>
+    <p style="font-size:1.5em">¡Hola, amigo! Ты снова здесь! </p>
+    <p>Сегодня попугай Пако научит тебя знакомиться по-испански. Ты узнаешь имя любого собеседника и сможешь рассказать о себе.</p>
+    <h3>В этом уроке</h3>
+    <p> Буква-невидимка <strong>H</strong><br>
+        Сильная буква <strong>J</strong><br>
+        Фраза «Me llamo…»<br>
+        Разговор с попугаем Пако</p>
+    <div class="tip"> <strong>Совет:</strong> разреши доступ к микрофону, чтобы Пако мог услышать твоё имя!</div>
+    <div class="nav-buttons center">
+      <button class="btn btn-primary" data-next>¡Vamos! Поехали! </button>
+    </div>
+  </section>
+
+  <!-- ШАГ 2 -->
+  <section class="step" id="step2">
+    <h2> Две хитрые буквы</h2>
+    <p>В испанском есть буква, которая молчит, и буква, которая рычит. Нажми на карточку, послушай слово и повтори. Потом — микрофон.</p>
+    <div class="phonetics">
+      <div class="phon-card" data-say="Hola">
+        <div class="phon-letter">H</div>
+        <div class="phon-emoji">🤫</div>
+        <div class="phon-word">Hola</div>
+        <div class="phon-hint">Буква H <strong>никогда</strong> не читается. Просто игнорируй её!</div>
+        <button class="mic-btn" data-mic="hola" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="Jugar">
+        <div class="phon-letter">J</div>
+        <div class="phon-emoji">🌬️</div>
+        <div class="phon-word">Jugar</div>
+        <div class="phon-hint">Буква J звучит как сильная русская <strong>Х</strong>. Выдохни с силой!</div>
+        <button class="mic-btn" data-mic="jugar" data-step="2">🎤</button>
+      </div>
+    </div>
+    <div class="feedback" id="feedback2"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 3 -->
+  <section class="step" id="step3">
+    <h2> Слова для знакомства</h2>
+    <p>Послушай и повтори. Эти фразы пригодятся в разговоре с Пако!</p>
+    <div class="words">
+      <div class="word-card" data-say="Me llamo">
+        <span class="emoji">📛</span><span class="es">Me llamo</span><span class="ru">Меня зовут</span>
+        <button class="mic-btn" data-mic="me llamo" data-step="3">🎤</button>
+      </div>
+      <div class="word-card" data-say="¿Y tú?">
+        <span class="emoji">👉</span><span class="es">¿Y tú?</span><span class="ru">А ты?</span>
+        <button class="mic-btn" data-mic="y tu" data-step="3">🎤</button>
+      </div>
+      <div class="word-card" data-say="Amigo">
+        <span class="emoji">👦</span><span class="es">Amigo</span><span class="ru">Друг</span>
+        <button class="mic-btn" data-mic="amigo" data-step="3">🎤</button>
+      </div>
+      <div class="word-card" data-say="¿Cómo te llamas?">
+        <span class="emoji">❓</span><span class="es">¿Cómo te llamas?</span><span class="ru">Как тебя зовут?</span>
+        <button class="mic-btn" data-mic="cómo te llamas" data-step="3">🎤</button>
+      </div>
+    </div>
+    <p style="margin-top:26px"><strong> Найди пары: фраза и картинка</strong></p>
+    <div class="memory-grid" id="memoryGrid"></div>
+    <div class="memory-counter">Найдено пар: <span id="memoryCounter">0</span>/4</div>
+    <div class="feedback" id="feedback3"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 4 -->
+  <section class="step" id="step4">
+    <h2> Дети знакомятся</h2>
+    <p>Послушай, как знакомятся Лео и Ана. Нажми на реплику, чтобы услышать её, и на микрофон, чтобы повторить.</p>
+    <div class="dialogue">
+      <div class="dialogue-line" data-say="¡Hola! Me llamo Leo. ¿Y tú?">
+        <div class="avatar">🧑</div>
+        <div class="text">¡Hola! Me llamo Leo. ¿Y tú?<span class="ru">Привет! Меня зовут Лео. А ты?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="hola me llamo leo y tu" data-step="4" data-threshold="0.35">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Me llamo Ana.">
+        <div class="avatar">👧</div>
+        <div class="text">Me llamo Ana.<span class="ru">Меня зовут Ана.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="me llamo ana" data-step="4" data-threshold="0.5">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="¡Adiós, Ana!">
+        <div class="avatar">🧑</div>
+        <div class="text">¡Adiós, Ana!<span class="ru">Пока, Ана!</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="adiós ana" data-step="4" data-threshold="0.5">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="¡Adiós, Leo!">
+        <div class="avatar">👧</div>
+        <div class="text">¡Adiós, Leo!<span class="ru">Пока, Лео!</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="adiós leo" data-step="4" data-threshold="0.5">🎤</button>
+      </div>
+    </div>
+    <div class="bubble-row">
+      <button class="btn btn-primary" data-repeat='["¡Hola! Me llamo Leo. ¿Y tú?","Me llamo Ana.","¡Adiós, Ana!","¡Adiós, Leo!"]' data-gap="2600"> Слушать весь диалог</button>
+    </div>
+    <div class="feedback" id="feedback4"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 5 · Попугай Пако -->
+  <section class="step" id="step5">
+    <h2> Разговор с попугаем Пако</h2>
+    <p>Пако хочет с тобой познакомиться! Напиши своё имя или скажи вслух: <strong>«Me llamo [Имя]»</strong>.</p>
+    <div class="game-box">
+      <span class="stage-big">🦜</span>
+      <div class="bubble" id="parrotSpeech">¡Hola! Yo soy Paco. ¿Cómo te llamas?</div>
+      <div class="name-input-group" style="display:flex;justify-content:center;gap:10px;margin:18px 0;flex-wrap:wrap">
+        <input type="text" id="nameInput" class="name-input" placeholder="Твоё имя..."
+               style="padding:15px 20px;border:3px solid var(--c2);border-radius:15px;font-size:1.15em;width:250px;text-align:center;outline:none;font-family:inherit"
+               maxlength="20">
+        <button class="btn btn-secondary" id="pacoHear"> Сказать</button>
+        <button class="btn btn-primary" id="pacoSend"> Отправить</button>
+      </div>
+      <div class="hint-line">Фраза-шаблон: <strong>Me llamo <span style="color:var(--c1)">________</span>.</strong></div>
+    </div>
+    <div class="feedback" id="feedback5"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 6 -->
+  <section class="step" id="step6">
+    <h2> Проверь себя!</h2>
+    <p>Отвечай на вопросы или просто листай дальше — мы никого не останавливаем </p>
+    <div id="quizContainer"></div>
+    <div class="assign-progress" id="quizScore"></div>
+    <div class="feedback" id="feedback6"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 7 -->
+  <section class="step" id="step7">
+    <div class="final">
+
+      <h1>¡Genial!</h1>
+      <p style="font-size:1.4em">Ты прошёл второй урок!</p>
+      <div class="medal"> Медаль «¡Me llamo!»</div>
+      <p>Сегодня ты узнал:</p>
+      <p> Буква <strong>H</strong> молчит<br>
+          Буква <strong>J</strong> рычит как Х<br>
+          Как спросить имя и назвать своё</p>
+
+      <h3> ¡Yo puedo! — Я могу!</h3>
+      <div class="can-do" id="canDo"></div>
+
+      <div class="homework">
+        <strong> Домашнее задание</strong><br>
+        Подойди к игрушке или питомцу, пожми ему лапу (или руку) и скажи:<br>
+        <strong>«¡Hola! Me llamo [твоё имя]. ¿Y tú?»</strong><br>
+        Подожди две секунды и ответь за игрушку
+      </div>
+
+      <div class="nav-buttons center">
+        <button class="btn btn-secondary" data-restart> Пройти ещё раз</button>
+        <a class="btn btn-primary" href="lesson-03.html" style="text-decoration:none;display:inline-block">Урок 3 →</a>
+      </div>
+      <p style="margin-top:18px"><a class="link-ghost" href="course.html">← Ко всем урокам курса</a></p>
+    </div>
+  </section>
+</div>
+
+<script src="assets/lesson.js"></script>
+<script>
+/* ============================ ДАННЫЕ УРОКА 2 ============================ */
+var MEMORY = [
+  { a: 'Me llamo', b: '📛', sa: 'Me llamo', sb: 'Меня зовут' },
+  { a: '¿Y tú?', b: '👉', sa: 'Y tú', sb: 'А ты?' },
+  { a: 'Amigo', b: '👦', sa: 'Amigo', sb: 'Друг' },
+  { a: '¿Cómo te llamas?', b: '❓', sa: 'Cómo te llamas', sb: 'Кто ты?' }
+];
+
+var QUIZ = [
+  { q: ' Какая буква в испанском <strong>всегда</strong> молчит?', opts: ['J', 'H', 'L', 'A'], correct: 'H' },
+  { q: ' Как звучит буква J в слове «Jugar»?', opts: ['Как русская Ж', 'Как русская Х', 'Как русская Й', 'Не читается'], correct: 'Как русская Х' },
+  { q: ' Как сказать «Меня зовут…»?', opts: ['¿Y tú?', 'Adiós', 'Me llamo', 'Gracias'], correct: 'Me llamo' }
+];
+
+var CAN_DO = [
+  'Я знаю, что H не читается',
+  'Я произношу J как русскую Х',
+  'Я говорю «Me llamo [имя]»',
+  'Я спрашиваю «¿Cómo te llamas?»'
+];
+
+function restorePaco() {
+  var name = EL.get('userName', '');
+  var met = EL.get('parrotMet', false);
+  var bubble = document.getElementById('parrotSpeech');
+  var input = document.getElementById('nameInput');
+  if (name && met) {
+    bubble.textContent = '¡Hola, ' + name + '! ¡Ya somos amigos! ';
+    input.value = name;
+  } else {
+    bubble.textContent = '¡Hola! Yo soy Paco. ¿Cómo te llamas?';
+    input.value = '';
+  }
+}
+
+function pacoResponds(name) {
+  document.getElementById('parrotSpeech').textContent = '¡Hola, ' + name + '! ¡Encantado! Ya somos amigos. ';
+  EL.speak('¡Hola, ' + name + '! ¡Encantado!');
+  EL.say(5, ' Пако запомнил тебя, ' + name + '!', 'success');
+  EL.set('userName', name);
+  EL.set('parrotMet', true);
+}
+
+document.getElementById('pacoSend').addEventListener('click', function () {
+  var v = document.getElementById('nameInput').value.trim();
+  if (!v) { EL.say(5, ' Напиши своё имя или нажми на микрофон!', 'error'); return; }
+  var name = v.charAt(0).toUpperCase() + v.slice(1);
+  document.getElementById('nameInput').value = name;
+  pacoResponds(name);
+});
+
+document.getElementById('pacoHear').addEventListener('click', function () {
+  EL.listen({
+    step: 5, threshold: 0.25,
+    okText: ' Услышал тебя!',
+    onOk: function (t) {
+      var name = t.replace(/me llamo|yo soy|mi nombre es|me llama|llamo/gi, '')
+                   .replace(/[.!?,]/g, '').trim();
+      if (name.length > 1) {
+        name = name.charAt(0).toUpperCase() + name.slice(1);
+        document.getElementById('nameInput').value = name;
+        pacoResponds(name);
+      } else {
+        EL.say(5, ' Пако не расслышал имя. Скажи: «Me llamo Лиза» — или просто напиши его!', 'error');
+      }
+    }
+  });
+});
+
+EL.init({
+  id: 2,
+  rate: 0.72,
+  resumeMsg: ' Пако помнит тебя! Продолжить урок 2 с шага ',
+  onStep: function (n) {
+    if (n === 3) EL.memory(MEMORY, { step: 3 });
+    if (n === 5) restorePaco();
+    if (n === 6) EL.quiz(QUIZ, { step: 6 });
+    if (n === 7) EL.canDo(CAN_DO);
+  }
+});
+</script>
+
+<script src="assets/gate.js"></script>
+</body>
+</html>

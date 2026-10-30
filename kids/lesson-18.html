@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Las emociones — Урок 18 · Español A0–A1</title>
+<meta name="description" content="Урок 18: эмоции по-испански, звуки Z y S. Диалог «¿Cómo estás?», игра «El día de Leo». Курс испанского A0–A1 для детей, блок 2.">
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body data-theme="emocion">
+
+<header class="lesson-head">
+  <a class="link-back" href="course.html">← Все уроки</a>
+  <span class="lh-title">Урок 18 · Las emociones</span>
+  <span class="lh-spacer"></span>
+  <a class="link-ghost" href="lesson-19.html">Урок 19 →</a>
+</header>
+
+<div class="voice-note" id="voiceNote"></div>
+<div class="save-indicator" id="saveIndicator"> Прогресс сохранён</div>
+
+<div class="container">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ШАГ 1 -->
+  <section class="step active" id="step1">
+    <h1> Las emociones</h1>
+    <p style="font-size:1.5em">¡Hola, amigo! ¿Cómo estás? — Как ты?</p>
+    <p>Сегодня научимся рассказывать, что ты чувствуешь: <em>feliz, triste, cansado…</em></p>
+    <h3>В этом уроке</h3>
+    <p> Звуки <strong>Z</strong> и <strong>S</strong><br>
+        Пять слов об эмоциях<br>
+        Фразы «¿Cómo estás?», «Estoy…»<br>
+        Игра «El día de Leo»</p>
+    <div class="tip"> <strong>Совет:</strong> в испанском <strong>z</strong> в конце слова звучит как «с» — поэтому <em>feliz</em> звучит как «фелис». Звучит знакомо, правда?</div>
+    <div class="nav-buttons center">
+      <button class="btn btn-primary" data-next>¡Vamos! Поехали! </button>
+    </div>
+  </section>
+
+  <!-- ШАГ 2 -->
+  <section class="step" id="step2">
+    <h2> Z и S — одно и то же</h2>
+    <p>Сравни два слова-близнеца: в одном <strong>z</strong>, в другом <strong>s</strong>.</p>
+    <div class="phonetics">
+      <div class="phon-card" data-say="Estoy feliz">
+        <div class="phon-letter">z</div>
+        <div class="phon-emoji">😊</div>
+        <div class="phon-word">Feliz</div>
+        <div class="phon-hint">«Фелис» — счастливый. Z звучит как «с»</div>
+        <button class="mic-btn" data-mic="estoy feliz" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="Estoy triste">
+        <div class="phon-letter">s</div>
+        <div class="phon-emoji">😢</div>
+        <div class="phon-word">Triste</div>
+        <div class="phon-hint">«Тристе» — грустный. S — тоже «с»!</div>
+        <button class="mic-btn" data-mic="estoy triste" data-step="2">🎤</button>
+      </div>
+    </div>
+    <div class="tip"> <strong>Сравни:</strong> <em>feliz</em> («фелис») и <em>pesca</em> («песка») — в обоих словах звук «с»!</div>
+    <div class="feedback" id="feedback2"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 3 -->
+  <section class="step" id="step3">
+    <h2> Слова настроения</h2>
+    <p>Послушай и повтори. Настроение — это то, что ты чувствуешь: <em>estoy feliz</em> — я счастлив.</p>
+    <div class="words" id="emoCards"></div>
+    <p style="margin-top:26px"><strong> Найди пары: слово и эмодзи</strong></p>
+    <div class="memory-grid" id="memoryGrid"></div>
+    <div class="memory-counter">Найдено пар: <span id="memoryCounter">0</span>/5</div>
+    <div class="feedback" id="feedback3"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 4 -->
+  <section class="step" id="step4">
+    <h2> ¿Cómo estás?</h2>
+    <p>Друзья спрашивают друг друга о настроении. Послушай и повтори.</p>
+    <div class="dialogue">
+      <div class="dialogue-line" data-say="¿Cómo estás?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿Cómo estás?<span class="ru">Как ты? Как настроение?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="cómo estás" data-step="4" data-threshold="0.35">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="¡Estoy feliz, gracias!">
+        <div class="avatar">🧒</div>
+        <div class="text">¡Estoy feliz, gracias!<span class="ru">Я счастлив, спасибо!</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="estoy feliz gracias" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="¿Por qué estás cansado?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿Por qué estás cansado?<span class="ru">Почему ты устал?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="por qué estás cansado" data-step="4" data-threshold="0.3">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Porque tengo sueño.">
+        <div class="avatar">🧒</div>
+        <div class="text">Porque tengo sueño.<span class="ru">Потому что мне хочется спать.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="porque tengo sueño" data-step="4" data-threshold="0.3">🎤</button>
+      </div>
+    </div>
+    <div class="bubble-row">
+      <button class="btn btn-primary" data-repeat='["¿Cómo estás?","¡Estoy feliz, gracias!","¿Por qué estás cansado?","Porque tengo sueño."]' data-gap="2600"> Слушать весь диалог</button>
+    </div>
+    <div class="tip"> <strong>Шпаргалка:</strong> <em>Estoy feliz</em> — я счастлив · <em>Estoy triste</em> — мне грустно · <em>Estoy cansado</em> — я устал</div>
+    <div class="feedback" id="feedback4"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 5 · El día de Leo -->
+  <section class="step" id="step5">
+    <h2> El día de Leo</h2>
+    <p>У Leo разные события — выбери, что он чувствует. 5 ситуаций!</p>
+    <div class="game-box">
+      <span class="stage-big">🎭</span>
+      <div class="bubble" id="emoTask">Нажми «¡Jugar!»</div>
+      <div class="bubble-row">
+        <button class="big-btn" id="emoStart"> ¡Jugar!</button>
+      </div>
+      <div class="animal-grid" id="emoOptions"></div>
+      <div class="assign-progress" id="emoProgress">Раунд: 0 из 5</div>
+    </div>
+    <div class="tip"> <strong>Задание:</strong> расскажи другу про свой день по-испански: <em>«Hoy estoy …»</em> </div>
+    <div class="feedback" id="feedback5"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 6 -->
+  <section class="step" id="step6">
+    <h2> Проверь себя!</h2>
+    <p>Три вопроса про эмоции и звуки Z/S.</p>
+    <div id="quizContainer"></div>
+    <div class="assign-progress" id="quizScore"></div>
+    <div class="feedback" id="feedback6"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 7 -->
+  <section class="step" id="step7">
+    <div class="final">
+
+      <h1>¡Muy bien!</h1>
+      <p style="font-size:1.4em">Ты прошёл восемнадцатый урок!</p>
+      <div class="medal"> Медаль «¡Cómo estás!»</div>
+      <p>Сегодня ты узнал:</p>
+      <p> Z и S звучат одинаково — «с»<br>
+        Feliz, triste, cansado, enfadado, aburrido<br>
+        Фразы «¿Cómo estás?», «Estoy…», «Porque tengo sueño»</p>
+
+      <h3> ¡Yo puedo! — Я могу!</h3>
+      <div class="can-do" id="canDo"></div>
+
+      <div class="homework">
+        <strong> Домашнее задание</strong><br>
+        Спроси у домашних «¿Cómo estás?» и ответь про сегодня:<br>
+        <strong>«Hoy estoy feliz / cansado / triste»</strong>
+      </div>
+
+      <div class="nav-buttons center">
+        <button class="btn btn-secondary" data-restart> Пройти ещё раз</button>
+        <a class="btn btn-primary" href="lesson-19.html" style="text-decoration:none;display:inline-block">Урок 19 →</a>
+      </div>
+      <p style="margin-top:18px"><a class="link-ghost" href="course.html">← Ко всем урокам курса</a></p>
+    </div>
+  </section>
+</div>
+
+<script src="assets/lesson.js"></script>
+<script>
+/* ============================ ДАННЫЕ УРОКА 18 ============================ */
+var EMOCIONES = [
+  { es: 'feliz', ru: 'счастливый', e: '😊' },
+  { es: 'triste', ru: 'грустный', e: '😢' },
+  { es: 'cansado', ru: 'усталый', e: '😴' },
+  { es: 'enfadado', ru: 'сердитый', e: '😠' },
+  { es: 'aburrido', ru: 'скучающий', e: '🥱' }
+];
+
+var MEMORY = EMOCIONES.map(function (m) { return { a: m.es, b: m.e, sa: m.es, sb: null }; });
+
+var DÍA_LEO = [
+  { ru: 'Сегодня твой день рождения!', e: '🎂', correct: 'feliz', wrong: ['cansado', 'triste', 'enfadado'] },
+  { ru: 'Ты не спал всю ночь.', e: '🌙', correct: 'cansado', wrong: ['feliz', 'aburrido', 'triste'] },
+  { ru: 'Твой друг уехал далеко.', e: '✈️', correct: 'triste', wrong: ['feliz', 'cansado', 'aburrido'] },
+  { ru: 'Брат сломал твой рисунок.', e: '🎨', correct: 'enfadado', wrong: ['feliz', 'cansado', 'aburrido'] },
+  { ru: 'За окном дождь, а игр нет.', e: '🌧️', correct: 'aburrido', wrong: ['feliz', 'triste', 'enfadado'] }
+];
+
+var QUIZ = [
+  { q: ' Как по-испански «счастливый»?', opts: ['feliz', 'triste', 'cansado', 'enfadado'], correct: 'feliz' },
+  { q: ' Как звучит Z в слове «feliz»?', opts: ['Как «с»', 'Как «з»', 'Как «ф»', 'Как «ж»'], correct: 'Как «с»' },
+  { q: ' Что значит «Estoy cansado»?', opts: ['Я устал', 'Я грустен', 'Я сердит', 'Мне скучно'], correct: 'Я устал' }
+];
+
+var CAN_DO = [
+  'Я спрашиваю «¿Cómo estás?»',
+  'Я отвечаю «Estoy feliz / cansado»',
+  'Я называю пять эмоций',
+  'Я произношу Z и S одинаково'
+];
+
+/* --------------------- ШАГ 3: карточки слов --------------------- */
+function renderEmoWords() {
+  var box = document.getElementById('emoCards');
+  box.innerHTML = '';
+  EMOCIONES.forEach(function (m) {
+    var c = EL.el('div', 'word-card');
+    c.setAttribute('data-say', 'estoy ' + m.es);
+    c.style.background = 'linear-gradient(140deg, var(--c3), var(--c1))';
+    c.innerHTML = '<span class="emoji">' + m.e + '</span><span class="es">estoy ' + m.es + '</span><span class="ru">' + m.ru + '</span>' +
+      '<button class="mic-btn" data-mic="estoy ' + m.es + '" data-step="3">🎤</button>';
+    box.appendChild(c);
+  });
+}
+
+/* --------------------- ШАГ 5: El día de Leo --------------------- */
+var emoRound = 0, emoLocked = false, EMO_TOTAL = 5, emoDay = null;
+
+function renderEmoRound() {
+  var opts = document.getElementById('emoOptions');
+  var task = document.getElementById('emoTask');
+  document.getElementById('emoProgress').textContent = 'Раунд: ' + emoRound + ' из ' + EMO_TOTAL;
+
+  if (emoRound >= EMO_TOTAL) {
+    task.textContent = ' ¡Perfecto! Ты знаешь все эмоции!';
+    opts.innerHTML = '';
+    document.getElementById('emoProgress').classList.add('complete');
+    return;
+  }
+
+  emoDay = DÍA_LEO[emoRound];
+  task.textContent = emoDay.e + ' ' + emoDay.ru;
+  EL.speak('¿Cómo estás?');
+
+  opts.innerHTML = '';
+  var answers = [emoDay.correct].concat(emoDay.wrong);
+  EL.shuffle(answers).forEach(function (ans) {
+    var b = EL.el('button', 'animal-card');
+    b.dataset.key = ans;
+    b.innerHTML = '<span style="font-size:2.2em">' +
+      (EMOCIONES.filter(function (m) { return m.es === ans; })[0] || {}).e + '</span>' +
+      '<span class="es">' + ans + '</span>';
+    b.addEventListener('click', function () {
+      if (emoLocked) return;
+      emoLocked = true;
+      if (ans === emoDay.correct) {
+        b.classList.add('right');
+        EL.say(5, ' ¡Muy bien! Leo está ' + ans + '.', 'success');
+        emoRound++;
+        EL.set('emoRound', emoRound);
+      } else {
+        b.classList.add('wrong');
+        EL.say(5, ' ¡Casi! Подумай ещё: что чувствует Leo? Leo está ' + emoDay.correct + '.', 'error');
+      }
+      setTimeout(function () { emoLocked = false; renderEmoRound(); }, 1600);
+    });
+    opts.appendChild(b);
+  });
+}
+
+document.getElementById('emoStart').addEventListener('click', function () {
+  emoRound = EL.get('emoRound', 0);
+  renderEmoRound();
+  EL.say(5, ' ¡Jugar! Выбери эмоцию Лео.', 'info');
+});
+
+EL.init({
+  id: 18,
+  rate: 0.72,
+  resumeMsg: ' Продолжить урок 18 с шага ',
+  onStep: function (n) {
+    if (n === 3) { renderEmoWords(); EL.memory(MEMORY, { step: 3 }); }
+    if (n === 5) { emoRound = EL.get('emoRound', 0); renderEmoRound(); }
+    if (n === 6) EL.quiz(QUIZ, { step: 6 });
+    if (n === 7) EL.canDo(CAN_DO);
+  },
+  onRestart: function () { renderEmoWords(); EL.memory(MEMORY, { step: 3 }); emoRound = 0; renderEmoRound(); }
+});
+</script>
+
+<script src="assets/gate.js"></script>
+</body>
+</html>

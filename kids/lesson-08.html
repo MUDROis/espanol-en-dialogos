@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La comida — Урок 8 · Español A0–A1</title>
+<meta name="description" content="Урок 8: фрукты по-испански, буква LL и фраза «Me gusta la manzana». Теневое повторение с фруктовым деревом. Курс испанского A0–A1 для детей.">
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body data-theme="comida">
+
+<header class="lesson-head">
+  <a class="link-back" href="course.html">← Все уроки</a>
+  <span class="lh-title">Урок 8 · La comida</span>
+  <span class="lh-spacer"></span>
+  <a class="link-ghost" href="lesson-09.html">Урок 9 →</a>
+</header>
+
+<div class="voice-note" id="voiceNote"></div>
+<div class="save-indicator" id="saveIndicator"> Прогресс сохранён</div>
+
+<div class="container">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ШАГ 1 -->
+  <section class="step active" id="step1">
+    <h1> La comida</h1>
+    <p style="font-size:1.5em">¡Hola, amigo! Давай есть! </p>
+    <p>Сегодня ты научишься называть фрукты и говорить, что тебе нравится. А ещё потренируешь букву LL.</p>
+    <h3>В этом уроке</h3>
+    <p> Буква <strong>LL</strong> — мягкое «й»<br>
+        Пять фруктов<br>
+        Фразы «Me gusta la…»<br>
+        Теневое повторение и фруктовое дерево</p>
+    <div class="tip"> <strong>Совет:</strong> в этом уроке особенно полезно повторять <strong>за диктором</strong> — это называется «теневое повторение». Так речь и интонация ставятся сами.</div>
+    <div class="nav-buttons center">
+      <button class="btn btn-primary" data-next>¡Vamos! Поехали! </button>
+    </div>
+  </section>
+
+  <!-- ШАГ 2 -->
+  <section class="step" id="step2">
+    <h2> Буква LL — мягкое «й»</h2>
+    <p>Две буквы <strong>L</strong> подряд читаются как одно мягкое «й» или «ль». Звучит очень по-испански!</p>
+    <div class="phonetics">
+      <div class="phon-card" data-say="Lluvia, llama">
+        <div class="phon-letter">ll</div>
+        <div class="phon-emoji">🌧️</div>
+        <div class="phon-word">Lluvia, llama</div>
+        <div class="phon-hint">Звук мягкий «й»: <strong>льювиа</strong>, <strong>льяма</strong></div>
+        <button class="mic-btn" data-mic="lluvia" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="Pollo, ello">
+        <div class="phon-letter long">ll + o/e</div>
+        <div class="phon-emoji">🍗</div>
+        <div class="phon-word">Pollo, ello</div>
+        <div class="phon-hint">Читается как «йо»: <strong>пойо</strong> — и никакой «р»!</div>
+        <button class="mic-btn" data-mic="pollo" data-step="2">🎤</button>
+      </div>
+    </div>
+    <div class="tip"> <strong>Запомни:</strong> в слове <em>caballo</em> (лошадь) тоже LL — «кабальо», а не «кабалё».</div>
+    <div class="feedback" id="feedback2"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 3 -->
+  <section class="step" id="step3">
+    <h2> Пять фруктов</h2>
+    <p>Послушай и повтори. Помни: перед фруктом нужен <em>la</em> (яблоко, апельсин — жен. род), а перед <em>uva</em> — <em>la</em> тоже.</p>
+    <div class="words" id="fruitCards"></div>
+    <p style="margin-top:26px"><strong> Найди пары: слово и фрукт</strong></p>
+    <div class="memory-grid" id="memoryGrid"></div>
+    <div class="memory-counter">Найдено пар: <span id="memoryCounter">0</span>/5</div>
+    <div class="feedback" id="feedback3"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 4 -->
+  <section class="step" id="step4">
+    <h2> Ты это любишь?</h2>
+    <p>Дети в кафе заказывают фрукты. Послушай и повтори.</p>
+    <div class="dialogue">
+      <div class="dialogue-line" data-say="¿Te gusta el plátano?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿Te gusta el plátano?<span class="ru">Тебе нравится банан?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="te gusta el plátano" data-step="4" data-threshold="0.35">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Sí, me gusta.">
+        <div class="avatar">👧</div>
+        <div class="text">Sí, me gusta.<span class="ru">Да, нравится.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="sí me gusta" data-step="4" data-threshold="0.4">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="Yo prefiero la manzana.">
+        <div class="avatar">🧑</div>
+        <div class="text">Yo prefiero la manzana.<span class="ru">Я предпочитаю яблоко.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="yo prefiero la manzana" data-step="4" data-threshold="0.35">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="¡Buen provecho!">
+        <div class="avatar">👧</div>
+        <div class="text">¡Buen provecho!<span class="ru">Приятного аппетита!</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="buen provecho" data-step="4">🎤</button>
+      </div>
+    </div>
+    <div class="bubble-row">
+      <button class="btn btn-primary" data-repeat='["¿Te gusta el plátano?","Sí, me gusta.","Yo prefiero la manzana.","¡Buen provecho!"]' data-gap="2600"> Слушать весь диалог</button>
+    </div>
+    <div class="tip"> <strong>Шпаргалка:</strong> <em>Me gusta la manzana.</em> (нравится) — <em>No me gusta la uva.</em> (не нравится)</div>
+    <div class="feedback" id="feedback4"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 5 · Теневое повторение -->
+  <section class="step" id="step5">
+    <h2> Теневое повторение</h2>
+    <p>Нажми на фразу, послушай, затем нажми и повтори <strong>ровно так же</strong>. За каждый успех на дереве вырастет фрукт!</p>
+    <div class="game-box">
+      <div class="tree-stage">
+        <span class="tree"></span>
+        <div class="fruit-row" id="fruitRow"></div>
+      </div>
+      <div id="shadowLines"></div>
+      <div class="assign-progress" id="shadowProgress"></div>
+    </div>
+    <div class="feedback" id="feedback5"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 6 -->
+  <section class="step" id="step6">
+    <h2> Проверь себя!</h2>
+    <p>Три вопроса про фрукты и букву LL.</p>
+    <div id="quizContainer"></div>
+    <div class="assign-progress" id="quizScore"></div>
+    <div class="feedback" id="feedback6"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 7 -->
+  <section class="step" id="step7">
+    <div class="final">
+
+      <h1>¡Delicioso!</h1>
+      <p style="font-size:1.4em">Ты прошёл восьмой урок!</p>
+      <div class="medal"> Медаль «¡Me gusta!»</div>
+      <p>Сегодня ты узнал:</p>
+      <p> LL читается как мягкое «й»<br>
+          Manzana, plátano, naranja, uva, fresa<br>
+          Фраза «Me gusta la…»</p>
+
+      <h3> ¡Yo puedo! — Я могу!</h3>
+      <div class="can-do" id="canDo"></div>
+
+      <div class="homework">
+        <strong> Домашнее задание</strong><br>
+        Перед обедом спроси семью: <strong>«¿Te gusta la manzana?»</strong><br>
+        И ответь за себя: <strong>«Sí, me gusta»</strong> или <strong>«No, no me gusta»</strong>
+      </div>
+
+      <div class="nav-buttons center">
+        <button class="btn btn-secondary" data-restart> Пройти ещё раз</button>
+        <a class="btn btn-primary" href="lesson-09.html" style="text-decoration:none;display:inline-block">Урок 9 →</a>
+      </div>
+      <p style="margin-top:18px"><a class="link-ghost" href="course.html">← Ко всем урокам курса</a></p>
+    </div>
+  </section>
+</div>
+
+<script src="assets/lesson.js"></script>
+<script>
+/* ============================ ДАННЫЕ УРОКА 8 ============================ */
+var FRUITS = [
+  { es: 'manzana', ru: 'яблоко', e: '🍎' },
+  { es: 'plátano', ru: 'банан', e: '🍌' },
+  { es: 'naranja', ru: 'апельсин', e: '🍊' },
+  { es: 'uva', ru: 'виноград', e: '🍇' },
+  { es: 'fresa', ru: 'клубника', e: '🍓' }
+];
+
+var MEMORY = FRUITS.map(function (f) { return { a: f.es, b: f.e, sa: f.es, sb: null }; });
+
+var SHADOW = [
+  { line: 'Me gusta la manzana.', key: 'm1', fruit: '' },
+  { line: 'Me gusta el plátano.', key: 'm2', fruit: '' },
+  { line: 'No me gusta la uva.', key: 'm3', fruit: '' },
+  { line: '¿Te gusta la fresa?', key: 'm4', fruit: '' },
+  { line: 'Me gusta la naranja.', key: 'm5', fruit: '' }
+];
+
+var QUIZ = [
+  { q: ' Как по-испански «банан»?', opts: ['manzana', 'plátano', 'naranja', 'uva'], correct: 'plátano' },
+  { q: ' Что значит «Me gusta la manzana»?', opts: ['Я не люблю яблоки', 'Мне нравится яблоко', 'Дай мне яблоко', 'Яблоко красное'], correct: 'Мне нравится яблоко' },
+  { q: ' Буква LL в слове «lluvia» читается как…', opts: ['мягкое «й»', 'твёрдое «л»', 'как «р»', 'не читается'], correct: 'мягкое «й»' }
+];
+
+var CAN_DO = [
+  'Я называю пять фруктов',
+  'Я произношу LL как мягкое «й»',
+  'Я говорю «Me gusta la manzana»',
+  'Я говорю «No me gusta la uva»'
+];
+
+function renderFruits() {
+  var box = document.getElementById('fruitCards');
+  box.innerHTML = '';
+  FRUITS.forEach(function (f) {
+    var c = EL.el('div', 'word-card');
+    c.setAttribute('data-say', f.es);
+    c.style.background = 'linear-gradient(140deg, var(--c3), var(--c1))';
+    c.innerHTML = '<span class="emoji">' + f.e + '</span><span class="es">' + f.es + '</span><span class="ru">' + f.ru + '</span>' +
+      '<button class="mic-btn" data-mic="' + f.es + '" data-step="3">🎤</button>';
+    box.appendChild(c);
+  });
+}
+
+/* --------------------- ШАГ 5: теневое повторение ------------------------- */
+function renderShadow() {
+  var done = EL.get('shadowDone', {}) || {};
+  var count = SHADOW.filter(function (s) { return done[s.key]; }).length;
+
+  document.getElementById('fruitRow').textContent =
+    SHADOW.map(function (s) { return done[s.key] ? s.fruit : ''; }).join('');
+  var prog = document.getElementById('shadowProgress');
+  prog.textContent = 'Фруктов выросло: ' + count + ' из ' + SHADOW.length;
+  prog.classList.toggle('complete', count >= SHADOW.length);
+
+  var box = document.getElementById('shadowLines');
+  box.innerHTML = '';
+  SHADOW.forEach(function (s) {
+    var row = EL.el('div', 'shadow-line');
+    row.setAttribute('data-say', s.line);
+    row.innerHTML = '<span style="font-size:1.6em">' + (done[s.key] ? s.fruit : '') + '</span>' +
+      '<span class="text">' + s.line + '</span>' +
+      '<button class="btn btn-small btn-secondary" style="margin-left:auto" data-shadow-say="' + s.line + '"></button>' +
+      '<button class="mic-btn" data-mic="' + s.line + '" data-step="5" data-threshold="0.4" data-shadow-key="' + s.key + '" style="bottom:auto;right:auto;position:static">🎤</button>';
+    box.appendChild(row);
+  });
+}
+
+document.getElementById('shadowLines').addEventListener('click', function (e) {
+  var mic = e.target.closest('[data-shadow-key]');
+  if (!mic) return;
+  e.preventDefault();
+  e.stopPropagation();
+  var key = mic.dataset.shadowKey;
+  var item = null;
+  for (var i = 0; i < SHADOW.length; i++) if (SHADOW[i].key === key) item = SHADOW[i];
+  if (!item) return;
+  EL.listen({
+    expect: item.line, step: 5, threshold: 0.4, btn: mic,
+    onOk: function () {
+      var done = EL.get('shadowDone', {}) || {};
+      done[key] = true;
+      EL.set('shadowDone', done);
+      EL.say(5, ' ¡Perfecto! Тень повторена — ' + item.fruit + ' вырос(ла) на дереве!', 'success');
+      renderShadow();
+    },
+    onFail: function (t) {
+      EL.say(5, ' Я услышал «' + t + '». Послушай ещё раз и повтори следом, как тень!', 'error');
+    }
+  });
+});
+
+EL.init({
+  id: 8,
+  rate: 0.68,
+  resumeMsg: ' Продолжить урок 8 с шага ',
+  onStep: function (n) {
+    if (n === 3) { renderFruits(); EL.memory(MEMORY, { step: 3 }); }
+    if (n === 5) renderShadow();
+    if (n === 6) EL.quiz(QUIZ, { step: 6 });
+    if (n === 7) EL.canDo(CAN_DO);
+  },
+  onRestart: function () { renderFruits(); EL.memory(MEMORY, { step: 3 }); renderShadow(); }
+});
+</script>
+
+<script src="assets/gate.js"></script>
+</body>
+</html>

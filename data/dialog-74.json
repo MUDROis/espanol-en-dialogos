@@ -1,0 +1,807 @@
+{
+  "id": 74,
+  "title": "¡El intercambio!",
+  "titleRu": "Языковой обмен: Карлос и Лусия",
+  "module": "a0-a1",
+  "block": 2,
+  "part": 2,
+  "blockTitle": "Часть 2 · Продолжение начального уровня",
+  "level": "A1",
+  "theme": "Языковой обмен: итог части  ¡El intercambio de idiomas!",
+  "mission": "Познакомиться на вечернем языковом обмене в Валенсии: представиться, спросить имя, страну и планы — без подсказок.",
+  "mapPoint": "Валенсия: вечерний обмен языками",
+  "duration": "45 минут",
+  "stepsCount": 7,
+  "readingNote": "Прочитайте весь диалог вслух, обе роли: intercambio — «ин-тер-кам-бьо», español — «эс-па-ньоль», quiero — «кье-ро».",
+  "nextStep": {
+    "title": "Дальше: основной курс A2 — «Carlos conoce a Lucía»",
+    "text": "Стартовый модуль закрыт: десять печатей на карте Испании — от аэропорта Валенсии до вечернего языкового обмена. Дальше начинается основной курс A2–B2+, и Карлос с Лусией ждут вас там: в первом же уроке «Carlos conoce a Lucía» они станут вашими собеседниками. Там же — present perfect, прошедшее время, порядок слов в сложном предложении и первый разговор о работе."
+  },
+  "characters": [
+    "carlos",
+    "lucia"
+  ],
+  "objectives": [
+    "Познакомиться без подсказок: me llamo…, soy de…, ¿cómo te llamas?",
+    "Спросить имя, страну и планы собеседника",
+    "Рассказать о своих планах: voy a… + инфинитив",
+    "Отреагировать на приглашение: ¡buena idea!, mucho gusto",
+    "Пройти итоговый тест части: лексика, грамматика, аудирование, чтение вслух"
+  ],
+  "grammar": {
+    "presentarse_en_el_intercambio": {
+      "title": "Знакомство: me llamo…, yo soy…, soy de…",
+      "description": "На обмене знакомство занимает три фразы и всегда одного порядка: имя → страна. Me llamo Olga (меня зовут Ольга), yo soy Carlos (я Карлос), soy de Francia (я из Франции). Вопросы зеркальные: ¿cómo te llamas? (как тебя зовут?), ¿de dónde eres? (откуда ты?). Ответ на знакомство — короткий: mucho gusto (очень приятно).",
+      "forms": {
+        "yo": {
+          "es": "me llamo Olga",
+          "ru": "меня зовут Ольга"
+        },
+        "tu": {
+          "es": "¿cómo te llamas?",
+          "ru": "как тебя зовут?"
+        },
+        "el_ella": {
+          "es": "yo soy Carlos",
+          "ru": "я Карлос"
+        },
+        "nosotros": {
+          "es": "somos de cuatro países",
+          "ru": "мы из четырёх стран"
+        }
+      },
+      "examples": [
+        {
+          "es": "¡Hola! Yo soy Carlos. Soy de Francia.",
+          "ru": "Привет! Я Карлос. Я из Франции."
+        },
+        {
+          "es": "Ya está aquí. Se llama Olga y es de Rusia.",
+          "ru": "Она уже здесь. Её зовут Ольга, и она из России."
+        }
+      ]
+    },
+    "repertorio_del_bloque": {
+      "title": "Чемодан части: восемь конструкций разом",
+      "description": "Нового материала в этом уроке нет. Сцена собрана только из того, что уже знакомо: ¿hay desayuno en el hotel? (есть ли завтрак в отеле), quisiera un kilo de queso (я бы хотел килограмм сыра), una chaqueta blanca (белая куртка), ¿dónde está la estación? (где находится вокзал), ¿a qué hora sale el tren? (во сколько отправляется поезд), son las diez y media (половина одиннадцатого), me gusta la comida española (мне нравится испанская еда), me duele la garganta (у меня болит горло). Услышали знакомую реплику — значит, часть закрыта.",
+      "list": [
+        {
+          "es": "¿hay desayuno en el hotel?",
+          "ru": "есть ли завтрак в отеле?"
+        },
+        {
+          "es": "quisiera un kilo de queso",
+          "ru": "я бы хотел(а) килограмм сыра"
+        },
+        {
+          "es": "una chaqueta blanca",
+          "ru": "белая куртка"
+        },
+        {
+          "es": "¿dónde está la estación?",
+          "ru": "где находится вокзал?"
+        },
+        {
+          "es": "¿a qué hora sale el tren?",
+          "ru": "во сколько отправляется поезд?"
+        },
+        {
+          "es": "son las diez y media",
+          "ru": "половина одиннадцатого"
+        },
+        {
+          "es": "me gusta la comida española",
+          "ru": "мне нравится испанская еда"
+        },
+        {
+          "es": "me duele la garganta",
+          "ru": "у меня болит горло"
+        },
+        {
+          "es": "la cuenta, por favor",
+          "ru": "счёт, пожалуйста"
+        }
+      ],
+      "examples": [
+        {
+          "es": "¿Hay desayuno en el hotel? — Sí, de siete a diez.",
+          "ru": "Есть ли завтрак в отеле? — Да, с семи до десяти."
+        },
+        {
+          "es": "Quisiera un kilo de queso. La cuenta, por favor.",
+          "ru": "Я бы хотел(а) килограмм сыра. Счёт, пожалуйста."
+        }
+      ]
+    },
+    "planes_y_respuestas": {
+      "title": "Планы и ответы на них: voy a…, ¡buena idea!",
+      "description": "Рассказать о планах помогает уже знакомая связка: voy a + инфинитив — voy a visitar la ciudad (я собираюсь осмотреть город), voy a comer paella (я собираюсь есть паэлью). Вопрос о планах — ¿qué vas a hacer el fin de semana? Ответ на приглашение — одна короткая реплика: ¡buena idea! (отличная идея!), mucho gusto (очень приятно). И визитная карточка вечера: ¡bienvenida al intercambio! (добро пожаловать на языковой обмен!).",
+      "list": [
+        {
+          "es": "¿qué vas a hacer el fin de semana?",
+          "ru": "что ты будешь делать в выходные?"
+        },
+        {
+          "es": "voy a visitar la ciudad",
+          "ru": "я собираюсь осмотреть город"
+        },
+        {
+          "es": "voy a hablar solo en español",
+          "ru": "я буду говорить только по-испански"
+        },
+        {
+          "es": "¡buena idea!",
+          "ru": "отличная идея!"
+        },
+        {
+          "es": "mucho gusto",
+          "ru": "очень приятно"
+        },
+        {
+          "es": "un intercambio de idiomas",
+          "ru": "языковой обмен"
+        },
+        {
+          "es": "¡bienvenida al intercambio!",
+          "ru": "добро пожаловать на языковой обмен!"
+        },
+        {
+          "es": "¿vamos juntos?",
+          "ru": "пойдём вместе?"
+        }
+      ],
+      "examples": [
+        {
+          "es": "Voy a comer paella con vosotros. ¡Buena idea!",
+          "ru": "Я собираюсь есть паэлью с вами. Отличная идея!"
+        },
+        {
+          "es": "¿Qué vas a hacer el fin de semana? — Voy a visitar la ciudad vieja.",
+          "ru": "Что ты будешь делать в выходные? — Я собираюсь осмотреть старый город."
+        }
+      ]
+    }
+  },
+  "vocabulary": {
+    "las_presentaciones": [
+      {
+        "es": "me llamo…",
+        "ru": "меня зовут…"
+      },
+      {
+        "es": "yo soy…",
+        "ru": "я…"
+      },
+      {
+        "es": "soy de…",
+        "ru": "я из…"
+      },
+      {
+        "es": "¿cómo te llamas?",
+        "ru": "как тебя зовут?"
+      },
+      {
+        "es": "¿de dónde eres?",
+        "ru": "откуда ты?"
+      },
+      {
+        "es": "mucho gusto",
+        "ru": "очень приятно"
+      }
+    ],
+    "las_misiones_del_bloque": [
+      {
+        "es": "¿hay…?",
+        "ru": "есть ли…?"
+      },
+      {
+        "es": "quisiera…",
+        "ru": "я бы хотел(а)…"
+      },
+      {
+        "es": "¿dónde está…?",
+        "ru": "где находится…?"
+      },
+      {
+        "es": "la cuenta, por favor",
+        "ru": "счёт, пожалуйста"
+      },
+      {
+        "es": "me duele…",
+        "ru": "у меня болит…"
+      }
+    ],
+    "los_planes_y_la_escena": [
+      {
+        "es": "¿qué vas a hacer…?",
+        "ru": "что ты будешь делать…?"
+      },
+      {
+        "es": "voy a…",
+        "ru": "я собираюсь…"
+      },
+      {
+        "es": "un intercambio de idiomas",
+        "ru": "языковой обмен"
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "Carlos",
+      "es": "¡Hola! Yo soy Carlos. Soy de Francia.",
+      "ru": "Привет! Я Карлос. Я из Франции."
+    },
+    {
+      "speaker": "Lucía",
+      "es": "Hola, Carlos. Y yo soy Lucía. Soy de Alemania.",
+      "ru": "Привет, Карлос. А я Лусия. Я из Германии."
+    },
+    {
+      "speaker": "Carlos",
+      "es": "Mucho gusto, Lucía. ¿Qué haces en Valencia?",
+      "ru": "Очень приятно, Лусия. Что ты делаешь в Валенсии?"
+    },
+    {
+      "speaker": "Lucía",
+      "es": "Estudio español. Voy a la escuela de español.",
+      "ru": "Учусь испанскому. Хожу в испанскую школу."
+    },
+    {
+      "speaker": "Carlos",
+      "es": "Yo estudio ingeniería. ¿Qué vas a hacer el fin de semana?",
+      "ru": "Я изучаю инженерное дело. Что ты будешь делать в выходные?"
+    },
+    {
+      "speaker": "Lucía",
+      "es": "Voy a visitar la ciudad y a comer paella con vosotros.",
+      "ru": "Я собираюсь осмотреть город и поесть паэлью с вами."
+    },
+    {
+      "speaker": "Carlos",
+      "es": "¡Buena idea! Yo también voy. ¿Está Olga?",
+      "ru": "Отличная идея! Я тоже пойду. Ольга здесь?"
+    },
+    {
+      "speaker": "Lucía",
+      "es": "Ya está aquí. Se llama Olga y es de Rusia.",
+      "ru": "Она уже здесь. Её зовут Ольга, и она из России."
+    },
+    {
+      "speaker": "Carlos",
+      "es": "Mejor. Hoy son las siete. El intercambio empieza ahora.",
+      "ru": "Отлично. Сейчас семь часов. Языковой обмен начинается сейчас."
+    },
+    {
+      "speaker": "Lucía",
+      "es": "Claro, Carlos, ella es Olga.",
+      "ru": "Конечно, Карлос, это Ольга."
+    },
+    {
+      "speaker": "Carlos",
+      "es": "Mucho gusto, Olga. ¡Bienvenida al intercambio!",
+      "ru": "Очень приятно, Ольга. Добро пожаловать на языковой обмен!"
+    },
+    {
+      "speaker": "Lucía",
+      "es": "Yo también. ¡Qué bueno es un intercambio de idiomas!",
+      "ru": "Я тоже. Как здорово, когда есть языковой обмен!"
+    },
+    {
+      "speaker": "Carlos",
+      "es": "Sí. Hoy hace sol y hace calor. ¿Vamos juntos al café?",
+      "ru": "Да. Сегодня солнечно и жарко. Пойдём вместе в кафе?"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между фразой части и переводом",
+      "pairs": [
+        {
+          "es": "me llamo…",
+          "ru": "меня зовут…"
+        },
+        {
+          "es": "soy de…",
+          "ru": "я из…"
+        },
+        {
+          "es": "¿cómo te llamas?",
+          "ru": "как тебя зовут?"
+        },
+        {
+          "es": "¿de dónde eres?",
+          "ru": "откуда ты?"
+        },
+        {
+          "es": "mucho gusto",
+          "ru": "очень приятно"
+        },
+        {
+          "es": "voy a…",
+          "ru": "я собираюсь…"
+        },
+        {
+          "es": "¿dónde está…?",
+          "ru": "где находится…?"
+        },
+        {
+          "es": "me duele…",
+          "ru": "у меня болит…"
+        },
+        {
+          "es": "la cuenta, por favor",
+          "ru": "счёт, пожалуйста"
+        },
+        {
+          "es": "un intercambio de idiomas",
+          "ru": "языковой обмен"
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-presentarse_en_el_intercambio",
+      "title": "Практика: знакомство",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "___ llamo Olga.",
+          "ru": "Меня зовут Ольга",
+          "answer": "Me",
+          "options": [
+            "Me",
+            "Mi",
+            "Yo"
+          ]
+        },
+        {
+          "text": "¿Cómo ___ llamas?",
+          "ru": "Как тебя зовут?",
+          "answer": "te",
+          "options": [
+            "te",
+            "se",
+            "me"
+          ]
+        },
+        {
+          "text": "Yo ___ Carlos.",
+          "ru": "Я Карлос",
+          "answer": "soy",
+          "options": [
+            "soy",
+            "estoy",
+            "tengo"
+          ]
+        },
+        {
+          "text": "Soy ___ Alemania.",
+          "ru": "Я из Германии",
+          "answer": "de",
+          "options": [
+            "de",
+            "en",
+            "a"
+          ]
+        },
+        {
+          "text": "¿___ dónde eres?",
+          "ru": "Откуда ты?",
+          "answer": "De",
+          "options": [
+            "De",
+            "Dónde",
+            "Qué"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-repertorio_del_bloque",
+      "title": "Практика: чемодан части",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "¿___ desayuno en el hotel?",
+          "ru": "Есть ли завтрак в отеле?",
+          "answer": "Hay",
+          "options": [
+            "Hay",
+            "Han",
+            "Ha"
+          ]
+        },
+        {
+          "text": "Quisiera ___ kilo de queso.",
+          "ru": "Я бы хотел(а) килограмм сыра",
+          "answer": "un",
+          "options": [
+            "un",
+            "una",
+            "unos"
+          ]
+        },
+        {
+          "text": "Un vestido ___.",
+          "ru": "Красное платье",
+          "answer": "rojo",
+          "options": [
+            "rojo",
+            "roja",
+            "rojos"
+          ]
+        },
+        {
+          "text": "¿Dónde ___ la estación?",
+          "ru": "Где находится вокзал?",
+          "answer": "está",
+          "options": [
+            "está",
+            "es",
+            "son"
+          ]
+        },
+        {
+          "text": "Me ___ la garganta.",
+          "ru": "У меня болит горло",
+          "answer": "duele",
+          "options": [
+            "duele",
+            "gusta",
+            "hay"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-planes_y_respuestas",
+      "title": "Практика: планы и ответы",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "¿Qué ___ a hacer el fin de semana?",
+          "ru": "Что ты будешь делать в выходные?",
+          "answer": "vas",
+          "options": [
+            "vas",
+            "voy",
+            "va"
+          ]
+        },
+        {
+          "text": "Voy ___ visitar la ciudad vieja.",
+          "ru": "Я собираюсь осмотреть старый город",
+          "answer": "a",
+          "options": [
+            "a",
+            "de",
+            "en"
+          ]
+        },
+        {
+          "text": "¡Buena ___ ! Voy a ir contigo.",
+          "ru": "Отличная идея! Я пойду с тобой",
+          "answer": "idea",
+          "options": [
+            "idea",
+            "vida",
+            "hora"
+          ]
+        },
+        {
+          "text": "___ las diez y media.",
+          "ru": "Половина одиннадцатого",
+          "answer": "Son",
+          "options": [
+            "Son",
+            "Es",
+            "Están"
+          ]
+        },
+        {
+          "text": "Hoy hace sol y ___ calor.",
+          "ru": "Сегодня солнечно и жарко",
+          "answer": "hace",
+          "options": [
+            "hace",
+            "hay",
+            "es"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Сводный Fill-Gap: все линии части",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Me ___ Olga. Soy de Rusia.",
+          "ru": "Меня зовут Ольга. Я из России",
+          "answer": "llamo",
+          "options": [
+            "llamo",
+            "llamas",
+            "llama"
+          ]
+        },
+        {
+          "text": "___ Carlos. ¿De dónde eres?",
+          "ru": "Я Карлос. Откуда ты?",
+          "answer": "Soy",
+          "options": [
+            "Soy",
+            "Estoy",
+            "Tengo"
+          ]
+        },
+        {
+          "text": "El tren sale ___ las siete y media.",
+          "ru": "Поезд отправляется в половине восьмого",
+          "answer": "a",
+          "options": [
+            "a",
+            "de",
+            "en"
+          ]
+        },
+        {
+          "text": "Quisiera ___ sopa, por favor.",
+          "ru": "Я бы хотел(а) суп, пожалуйста",
+          "answer": "la",
+          "options": [
+            "la",
+            "el",
+            "los"
+          ]
+        },
+        {
+          "text": "Un vestido ___ para la fiesta.",
+          "ru": "Белое платье для вечеринки",
+          "answer": "blanco",
+          "options": [
+            "blanco",
+            "blanca",
+            "blancos"
+          ]
+        },
+        {
+          "text": "___ gusta la comida española.",
+          "ru": "Мне нравится испанская еда",
+          "answer": "Me",
+          "options": [
+            "Me",
+            "Te",
+            "Le"
+          ]
+        },
+        {
+          "text": "¿Dónde ___ el hotel?",
+          "ru": "Где находится отель?",
+          "answer": "está",
+          "options": [
+            "está",
+            "es",
+            "hay"
+          ]
+        },
+        {
+          "text": "Me ___ la cabeza y la garganta.",
+          "ru": "У меня болит голова и горло",
+          "answer": "duele",
+          "options": [
+            "duele",
+            "gusta",
+            "vale"
+          ]
+        },
+        {
+          "text": "El intercambio ___ idiomas es el domingo.",
+          "ru": "Языковой обмен в воскресенье",
+          "answer": "de",
+          "options": [
+            "de",
+            "a",
+            "en"
+          ]
+        },
+        {
+          "text": "Voy ___ hablar solo en español.",
+          "ru": "Я буду говорить только по-испански",
+          "answer": "a",
+          "options": [
+            "a",
+            "de",
+            "con"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай и повторяй вслух обе роли целиком: intercambio, español, mañana, quiero, gente"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Ты — Карлос из Франции: представляешься, спрашиваешь, что делает собеседник в Валенсии, и зовёшь его на обмен"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Ты — Лусия из Германии: представляешься, рассказываешь о планах на выходные и предлагаешь вместе пойти в кафе"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Познакомься на обмене: имя, страна, вопрос и план на выходные",
+      "template": [
+        {
+          "label": "Меня зовут…",
+          "es": "Me ___ …"
+        },
+        {
+          "label": "Я из…",
+          "es": "Soy ___ …"
+        },
+        {
+          "label": "Как тебя зовут?",
+          "es": "¿Cómo ___ llamas?"
+        },
+        {
+          "label": "Очень приятно",
+          "es": "___ gusto."
+        },
+        {
+          "label": "Собираюсь осмотреть город",
+          "es": "Voy ___ visitar la ciudad."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Итоговый тест части",
+      "description": "Проверь, что ты усвоил за две части курса",
+      "questions": [
+        {
+          "question": "Se oye: «Me llamo Lucía y soy de Alemania». ¿Quién habla y de dónde?",
+          "ru": "Слышно: «Me llamo Lucía y soy de Alemania». Кто говорит и откуда?",
+          "options": [
+            "Ольга из России",
+            "Лусия из Германии",
+            "Карлос из Франции"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo se dice «Я из Франции»?",
+          "ru": "Как сказать «Я из Франции»?",
+          "options": [
+            "Soy de Francia",
+            "Vivo de Francia",
+            "Tengo Francia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se pregunta «Есть ли завтрак в отеле?»",
+          "ru": "Как спросить «Есть ли завтрак в отеле?»",
+          "options": [
+            "¿Qué tal desayuno?",
+            "¿Hay desayuno en el hotel?",
+            "¿Dónde está desayuno?"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Elige la frase correcta: «Я бы хотел(а) килограмм сыра».",
+          "ru": "Выбери верную фразу: «Я бы хотел(а) килограмм сыра».",
+          "options": [
+            "Quisiera un kilo de queso.",
+            "Quiso un kilo de queso.",
+            "Me gusta un kilo de queso."
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Elige la frase correcta: «Сейчас три часа».",
+          "ru": "Выбери верную фразу: «Сейчас три часа».",
+          "options": [
+            "Es las tres.",
+            "Son las tres.",
+            "Son la tres."
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Se oye: «El tren sale a las doce y media, andén cuatro». ¿Cuándo y dónde?",
+          "ru": "Слышно: «El tren sale a las doce y media, andén cuatro». Когда и где?",
+          "options": [
+            "12:30, платформа 4",
+            "12:15, платформа 4",
+            "2:30, платформа 14"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué va a hacer Lucía el fin de semana?",
+          "ru": "Что Лусия собирается делать в выходные?",
+          "options": [
+            "Va a estudiar en la escuela",
+            "Va a visitar la ciudad y comer paella",
+            "Va a trabajar en el hotel"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿De dónde es Carlos?",
+          "ru": "Откуда Карлос?",
+          "options": [
+            "De Francia",
+            "De Alemania",
+            "De Rusia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Elige el agreement correcto: «белая куртка».",
+          "ru": "Выбери верное согласование: «белая куртка».",
+          "options": [
+            "una chaqueta blanco",
+            "un chaqueta blanca",
+            "una chaqueta blanca"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "¿Cómo se lee la palabra quiero?",
+          "ru": "Как читается слово quiero?",
+          "options": [
+            "«кье-ро»",
+            "«квер-ро»",
+            "«куэ-ро»"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Carlos dice «¡Buena idea!». ¿Qué significa?",
+          "ru": "Карлос говорит «¡Buena idea!». Что это значит?",
+          "options": [
+            "Хорошая идея!",
+            "До свидания!",
+            "Как дела?"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Completa el plan: «Я собираюсь посетить музей».",
+          "ru": "Собери план: «Я собираюсь посетить музей».",
+          "options": [
+            "Voy a visitar el museo",
+            "Voy visitar el museo",
+            "Me duele el museo"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    "Я представляюсь без подсказок: me llamo…, soy de…",
+    "Я спрашиваю собеседника: ¿cómo te llamas?, ¿de dónde eres?",
+    "Я рассказываю о планах: voy a… + инфинитив",
+    "Я реагирую на приглашение: ¡buena idea!, mucho gusto",
+    "Я прошёл итоговый тест части: лексика, грамматика, аудирование, чтение вслух"
+  ],
+  "homework": [
+    "Мостик к A2: пройди демо-урок курса «Carlos conoce a Lucía» и отметь в дневнике все знакомые фразы",
+    "Прочитай вслух пять «опасных» слов части: intercambio, español, mañana, quiero, gente",
+    "Запиши в дневник 30 секунд речи: знакомство с незнакомцем без плиток — имя, страна, вопрос, план",
+    "Пройди итоговый тест части на 7 из 8 и отметь печать «Продолжение начального уровня» на карте Испании"
+  ]
+}

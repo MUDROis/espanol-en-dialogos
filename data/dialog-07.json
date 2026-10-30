@@ -1,0 +1,235 @@
+{
+  "id": 7,
+  "title": "Pablo y Andrés van a la fiesta",
+  "titleRu": "Пабло и Андрес идут на праздник",
+  "part": 1,
+  "level": "A2",
+  "theme": "Праздник, работа, настроение  La fiesta, el trabajo, las emociones",
+  "characters": ["pablo", "andres"],
+  "objectives": [
+    "Рассказать о планах на будущее (ir a + infinitivo)",
+    "Выразить эмоции и состояние: estar nervioso, harto, seguro",
+    "Употребить выражения с tener: tener poco dinero, no dar vacaciones",
+    "Использовать «en + время» для указания срока (en media hora)",
+    "Поговорить о работе, начальнике и деньгах"
+  ],
+  "grammar": {
+    "estar_emociones": {
+      "title": "ESTAR + эмоции и состояние",
+      "description": "Глагол ESTAR + прилагательное описывает эмоциональное и физическое состояние человека: nervioso (нервный), harto (сыт по горло), seguro (уверен).",
+      "forms": {
+        "yo": { "es": "estoy", "ru": "я нахожусь / я чувствую" },
+        "tu": { "es": "estás", "ru": "ты находишься / ты чувствуешь" },
+        "el_ella": { "es": "está", "ru": "он/она находится" },
+        "nosotros": { "es": "estamos", "ru": "мы находимся" },
+        "vosotros": { "es": "estáis", "ru": "вы находитесь" },
+        "ellos_ellas": { "es": "están", "ru": "они находятся" }
+      }
+    },
+    "tener_expresiones": {
+      "title": "Выражения с TENER",
+      "description": "Глагол TENER используется в устойчивых выражениях о количестве и наличии.",
+      "list": [
+        { "es": "tengo poco dinero", "ru": "у меня мало денег" },
+        { "es": "tienes mucho trabajo", "ru": "у тебя много работы" },
+        { "es": "tener un jefe horrible", "ru": "иметь ужасного начальника" },
+        { "es": "no dar vacaciones", "ru": "не давать отпуск" },
+        { "es": "tengo miedo", "ru": "мне страшно" }
+      ]
+    },
+    "cuantificadores": {
+      "title": "Количественные слова poco/mucho",
+      "description": "poco/a (мало) и mucho/a (много) согласуются с существительным по роду. ПЕРЕД существительным: mucho trabajo, poca suerte.",
+      "list": [
+        { "es": "poco dinero", "ru": "мало денег" },
+        { "es": "poca suerte", "ru": "мало удачи" },
+        { "es": "mucho trabajo", "ru": "много работы" },
+        { "es": "muchos amigos", "ru": "много друзей" },
+        { "es": "mucha gente", "ru": "много народу" }
+      ]
+    },
+    "en_tiempo": {
+      "title": "Время с предлогом EN (через / за)",
+      "description": "en + промежуток времени указывает, через сколько начнётся/произойдёт действие.",
+      "list": [
+        { "es": "en media hora", "ru": "через полчаса" },
+        { "es": "en dos horas", "ru": "через два часа" },
+        { "es": "en un año", "ru": "через год" },
+        { "es": "en cinco minutos", "ru": "через пять минут" }
+      ]
+    },
+    "ir_a_futuro": {
+      "title": "IR A + infinitivo (будущее)",
+      "description": "Конструкция ir a + infinitivo выражает планы и ближайшее будущее: voy a comprar (я куплю/собираюсь купить).",
+      "list": [
+        { "es": "voy a comprar un regalo", "ru": "я куплю подарок" },
+        { "es": "vamos a ir a la fiesta", "ru": "мы пойдём на праздник" },
+        { "es": "vas a pagar", "ru": "ты заплатишь" },
+        { "es": "va a cambiar", "ru": "изменится" }
+      ]
+    }
+  },
+  "vocabulary": {
+    "la_fiesta": [
+      { "es": "la media hora", "ru": "полчаса" },
+      { "es": "empezar", "ru": "начинаться" },
+      { "es": "las flores", "ru": "цветы" },
+      { "es": "el regalo", "ru": "подарок" },
+      { "es": "el coche", "ru": "машина" },
+      { "es": "la fiesta", "ru": "праздник" },
+      { "es": "comprar", "ru": "купить" },
+      { "es": "pagar", "ru": "платить" }
+    ],
+    "el_trabajo": [
+      { "es": "el jefe", "ru": "начальник" },
+      { "es": "el empleado", "ru": "работник" },
+      { "es": "las vacaciones", "ru": "отпуск" },
+      { "es": "el trabajo", "ru": "работа" }
+    ],
+    "las_emociones": [
+      { "es": "estar nervioso", "ru": "нервничать" },
+      { "es": "estar harto", "ru": "быть сытым по горло" },
+      { "es": "estar seguro", "ru": "быть уверенным" },
+      { "es": "la vida", "ru": "жизнь" },
+      { "es": "difícil", "ru": "трудный" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Pablo", "es": "Rápido, Andrés, ¡rápido! La fiesta de Carmen empieza en media hora.", "ru": "Быстрее, Андрес, быстрее! Праздник Кармен начнётся через полчаса." },
+    { "speaker": "Andrés", "es": "Tranquilo, hombre. ¿Qué pasa? ¿Por qué estás nervioso?", "ru": "Спокойно, дружище. Что случилось? Почему ты так нервничаешь?" },
+    { "speaker": "Pablo", "es": "Uf, no sé. Ay, ¿dónde están las flores?", "ru": "Уф, не знаю. Ай, где цветы?" },
+    { "speaker": "Andrés", "es": "En mi coche. ¿Compramos un regalo para Carmen?", "ru": "В моей машине. Купим подарок Кармен?" },
+    { "speaker": "Pablo", "es": "Sí, buena idea. Pero tengo poco dinero.", "ru": "Да, хорошая идея. Но у меня мало денег." },
+    { "speaker": "Andrés", "es": "No hay problema, pago yo. ¿Pasa algo en el trabajo?", "ru": "Нет проблем, я заплачу. Что-то не так на работе?" },
+    { "speaker": "Pablo", "es": "Sí. Mi nuevo jefe es horrible. No da vacaciones a sus empleados ya más de un año.", "ru": "Да. Мой новый шеф просто ужасный. Не даёт отпуск своим работникам уже больше года." },
+    { "speaker": "Pablo", "es": "Ya estoy harto de este trabajo y de mi jefe.", "ru": "Я уже сыт по горло и работой, и шефом." },
+    { "speaker": "Andrés", "es": "Estoy seguro de que pronto la situación cambia.", "ru": "Я уверен, что скоро ситуация изменится." },
+    { "speaker": "Pablo", "es": "Gracias.... La vida es difícil cuando tienes poco dinero y mucho trabajo.", "ru": "Спасибо... Жизнь сложна, когда у тебя мало денег и много работы." },
+    { "speaker": "Andrés", "es": "La vida es así....", "ru": "Это жизнь...." }
+  ],
+  "exercises": [
+    {
+      "type": "fill-gap-estar_emociones",
+      "title": "Estar + emociones",
+      "description": "Вставьте правильную форму глагола estar.",
+      "sentences": [
+        { "text": "¿Por qué ___ nervioso, Pablo?", "ru": "Почему ты нервничаешь, Пабло?", "answer": "estás", "options": ["estás", "está", "estoy"] },
+        { "text": "Yo ya ___ harto de este trabajo.", "ru": "Я уже сыт по горло этой работой.", "answer": "estoy", "options": ["estoy", "estás", "está"] },
+        { "text": "Él ___ seguro de que todo cambia.", "ru": "Он уверен, что всё изменится.", "answer": "está", "options": ["está", "están", "estoy"] },
+        { "text": "Nosotros ___ tranquilos.", "ru": "Мы спокойны.", "answer": "estamos", "options": ["estamos", "está", "estoy"] },
+        { "text": "Los empleados ___ hartos del jefe.", "ru": "Работники сыты по горло начальником.", "answer": "están", "options": ["están", "está", "estoy"] }
+      ]
+    },
+    {
+      "type": "fill-gap-tener_expresiones",
+      "title": "Expresiones con tener",
+      "description": "Выберите правильный вариант с глаголом tener.",
+      "sentences": [
+        { "text": "Tengo ___ dinero.", "ru": "У меня мало денег.", "answer": "poco", "options": ["poco", "mucho", "mucha"] },
+        { "text": "Mi jefe no da ___ a los empleados.", "ru": "Мой начальник не даёт отпуска работникам.", "answer": "vacaciones", "options": ["vacaciones", "dinero", "regalo"] },
+        { "text": "Tiene un jefe ___.", "ru": "У него ужасный начальник.", "answer": "horrible", "options": ["horrible", "tranquilo", "seguro"] },
+        { "text": "¿___ a mi fiesta?", "ru": "Придёшь на мой праздник?", "answer": "Vienes", "options": ["Vienes", "Tienes", "Estás"] },
+        { "text": "No hay problema, pago ___.", "ru": "Нет проблем, заплачу я.", "answer": "yo", "options": ["yo", "tú", "él"] }
+      ]
+    },
+    {
+      "type": "fill-gap-cuantificadores",
+      "title": "Poco o mucho",
+      "description": "Выберите правильное количественное слово.",
+      "sentences": [
+        { "text": "Tengo ___ dinero.", "ru": "У меня мало денег.", "answer": "poco", "options": ["poco", "muchos", "mucha"] },
+        { "text": "Tienes ___ trabajo.", "ru": "У тебя много работы.", "answer": "mucho", "options": ["mucho", "poca", "mucha"] },
+        { "text": "Mi jefe no da vacaciones hace ___ de un año.", "ru": "Мой начальник не даёт отпуск уже больше года.", "answer": "más", "options": ["más", "poco", "menos"] },
+        { "text": "La vida es difícil con ___ dinero.", "ru": "Жизнь трудна, когда денег мало.", "answer": "poco", "options": ["poco", "mucho", "mucha"] },
+        { "text": "Hay ___ gente en la fiesta.", "ru": "На празднике много народу.", "answer": "mucha", "options": ["mucha", "poco", "mucho"] }
+      ]
+    },
+    {
+      "type": "fill-gap-en_tiempo",
+      "title": "En + tiempo",
+      "description": "Заполните пропуски, используя «en + время».",
+      "sentences": [
+        { "text": "La fiesta empieza ___ media hora.", "ru": "Праздник начнётся через полчаса.", "answer": "en", "options": ["en", "de", "por"] },
+        { "text": "El autobús llega ___ cinco minutos.", "ru": "Автобус приедет через пять минут.", "answer": "en", "options": ["en", "con", "a"] },
+        { "text": "Vamos a terminar el trabajo ___ dos horas.", "ru": "Мы закончим работу через два часа.", "answer": "en", "options": ["en", "por", "de"] },
+        { "text": "Estoy listo ___ un momento.", "ru": "Я готов через минуту.", "answer": "en", "options": ["en", "para", "con"] },
+        { "text": "Nos vemos ___ un año.", "ru": "Увидимся через год.", "answer": "en", "options": ["en", "a", "de"] }
+      ]
+    },
+    {
+      "type": "fill-gap-ir_a_futuro",
+      "title": "Ir a + infinitivo",
+      "description": "Дополните предложения конструкцией ir a.",
+      "sentences": [
+        { "text": "Nosotros ___ ___ a la fiesta.", "ru": "Мы пойдём на праздник.", "answer": "vamos a ir", "options": ["vamos a ir", "van a ir", "voy a ir"] },
+        { "text": "Yo ___ ___ comprar un regalo.", "ru": "Я куплю подарок.", "answer": "voy a", "options": ["voy a", "va a", "vas a"] },
+        { "text": "Andrés ___ ___ pagar.", "ru": "Андрес заплатит.", "answer": "va a", "options": ["va a", "voy a", "van a"] },
+        { "text": "¿Tú ___ ___ venir conmigo?", "ru": "Ты пойдёшь со мной?", "answer": "vas a", "options": ["vas a", "voy a", "va a"] },
+        { "text": "La situación ___ ___ cambiar pronto.", "ru": "Ситуация скоро изменится.", "answer": "va a", "options": ["va a", "voy a", "vamos a"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Соедините всё: estar, tener, кванторы и время.",
+      "sentences": [
+        { "text": "¿Por qué ___ nervioso?", "ru": "Почему ты нервничаешь?", "answer": "estás", "options": ["estás", "está", "estoy"] },
+        { "text": "La fiesta empieza ___ media hora.", "ru": "Праздник начинается через полчаса.", "answer": "en", "options": ["en", "de", "por"] },
+        { "text": "Tengo ___ dinero.", "ru": "У меня мало денег.", "answer": "poco", "options": ["poco", "mucho", "mucha"] },
+        { "text": "Vamos ___ comprar las flores.", "ru": "Мы купим цветы.", "answer": "a", "options": ["a", "en", "de"] },
+        { "text": "Estoy ___ de este trabajo.", "ru": "Я сыт по горло этой работой.", "answer": "harto", "options": ["harto", "nervioso", "seguro"] },
+        { "text": "No ___ vacaciones a los empleados.", "ru": "Не даёт отпуск работникам.", "answer": "da", "options": ["da", "doy", "dar"] }
+      ]
+    },
+    {
+      "type": "shadowing"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Пабло",
+      "role": "Pablo",
+      "description": "Ты нервничаешь и спешишь на праздник. Отвечай Андресу."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Андресом",
+      "role": "Andrés",
+      "description": "Ты спокойный друг Пабло. Успокой его и предложи помощь."
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Поговори с другом о предстоящем событии и своих проблемах.",
+      "template": [
+        { "label": "Праздник начнётся через...", "es": "La fiesta empieza ___ ___ ..." },
+        { "label": "Почему ты нервничаешь?", "es": "¿Por qué ___ ___?" },
+        { "label": "У меня мало денег", "es": "Tengo ___ ___" },
+        { "label": "Я собираюсь купить", "es": "___ ___ comprar ..." },
+        { "label": "Я сыт по горло", "es": "Estoy ___ de ..." }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест по уроку 7",
+      "description": "Проверь, как ты понял урок про праздник и работу.",
+      "questions": [
+        { "question": "¿Cuándo empieza la fiesta de Carmen?", "ru": "Когда начинается праздник Кармен?", "options": ["En media hora", "En un año", "Mañana", "En cinco minutos"], "answer": 0 },
+        { "question": "¿Dónde están las flores?", "ru": "Где цветы?", "options": ["En el coche de Andrés", "En la casa de Pablo", "En la tienda", "En la fiesta"], "answer": 0 },
+        { "question": "¿Quién paga el regalo?", "ru": "Кто платит за подарок?", "options": ["Pablo", "Andrés", "Carmen", "El jefe"], "answer": 1 },
+        { "question": "¿Por qué está nervioso Pablo?", "ru": "Почему Пабло нервничает?", "options": ["Porque tiene poco tiempo", "Porque tiene problemas en el trabajo", "Porque no tiene coche", "Porque no le gusta Carmen"], "answer": 1 },
+        { "question": "¿Cómo es el nuevo jefe de Pablo?", "ru": "Какой новый начальник у Пабло?", "options": ["Es simpático", "Es horrible", "Es tranquilo", "Es generoso"], "answer": 1 },
+        { "question": "¿Qué no da el jefe a sus empleados?", "ru": "Что не даёт начальник своим работникам?", "options": ["Dinero", "Vacaciones", "Regalos", "Flores"], "answer": 1 },
+        { "question": "Pablo dice: «La vida es difícil cuando tienes ___ dinero»", "ru": "Пабло говорит: «Жизнь трудна, когда у тебя ___ денег»", "options": ["mucho", "poco", "mucha", "dos"], "answer": 1 },
+        { "question": "¿Qué dice Andrés sobre la situación?", "ru": "Что Андрес говорит о ситуации?", "options": ["Que es horrible", "Que pronto cambia", "Que es imposible", "Que no le importa"], "answer": 1 },
+        { "question": "¿Qué significa «está harto de su trabajo»?", "ru": "Что значит «está harto de su trabajo»?", "options": ["Он доволен работой", "Он сыт по горло работой", "Он ищет работу", "Он любит работу"], "answer": 1 },
+        { "question": "¿Qué compran para Carmen?", "ru": "Что покупают для Кармен?", "options": ["Un regalo y flores", "Solo un regalo", "Solo flores", "Un coche"], "answer": 0 }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить слова в приложении",
+    "Практика: расскажи о своих планах на выходные, используя ir a + infinitivo",
+    "Дневник: опиши свои эмоции и состояние, используя estar + прилагательное",
+    "Грамматика: составь 3 предложения с «en + время» и 3 с poco/mucho"
+  ]
+}

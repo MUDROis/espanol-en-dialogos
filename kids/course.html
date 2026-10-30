@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Все уроки — Испанский в диалогах · A0–A1 для детей</title>
+<meta name="description" content="Курс испанского языка A0–A1 для детей: 20 интерактивных уроков в двух блоках. Фонетика, слова, диалоги, игры, микрофон, диплом.">
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body data-theme="hola">
+
+<div class="page-hero">
+
+    <h1>Español en diálogos</h1>
+    <p>Испанский в диалогах · A0–A1 для детей</p>
+    <p>20 уроков · 2 блока · 100+ слов · 20 игр</p>
+    <div class="btn-row">
+      <a class="btn-big" id="continueBtn" href="lesson-01.html">Начать курс</a>
+      <a class="btn-big ghost" href="index.html">О курсе</a>
+    </div>
+</div>
+
+<div class="page">
+  <div class="course-progress">
+    <div class="cp-row">
+      <strong id="cpText">Пройдено: 0 из 20 уроков</strong>
+      <span id="cpNext" style="color:#666666">Начните с первого урока</span>
+    </div>
+    <div class="cp-bar"><div class="cp-fill" id="cpFill"></div></div>
+    <div class="link-row">
+      <button class="btn btn-small btn-secondary" id="resetBtn"> Сбросить прогресс</button>
+    </div>
+  </div>
+
+  <div class="block-banner">
+    <h2 class="section-title block-title">Блок 1 · Знакомство</h2>
+    <p class="section-sub">Уроки 1–10: звуки, слова, первые диалоги и проект</p>
+  </div>
+  <div class="lesson-grid" id="block1"></div>
+
+  <div class="block-banner">
+    <h2 class="section-title block-title">Блок 2 · Говорим сами</h2>
+    <p class="section-sub">Уроки 11–20: глаголы, диалоги, CLIL и выпускной влог</p>
+  </div>
+  <div class="lesson-grid" id="block2"></div>
+
+  <div class="tip-line">
+     <strong>Совет для родителей:</strong> прогресс каждого урока сохраняется в браузере автоматически — можно вернуться к уроку позже и продолжить с того же шага.
+  </div>
+
+  <div class="link-row">
+    <a class="btn btn-secondary" href="index.html">← На главную</a>
+    <a class="btn btn-primary" href="lesson-20.html"> К диплому</a>
+  </div>
+
+  <p class="page-foot">Español en diálogos · A0–A1 · уроки работают без интернета</p>
+</div>
+
+<script>
+/* ============================ СПИСОК УРОКОВ ============================ */
+var LESSONS = [
+  { n: 1, e: '👋', es: '¡Hola!', ru: 'Приветствия и гласные', game: 'Визитка-спикер' },
+  { n: 2, e: '📛', es: 'Me llamo', ru: 'Имя, буквы H y J', game: 'Собери имя' },
+  { n: 3, e: '🔢', es: 'Los números', ru: 'Числа от 1 до 20, буква C', game: 'Яблочный сад' },
+  { n: 4, e: '🎨', es: 'Los colores', ru: 'Цвета, GUE y GUI', game: 'Палитра' },
+  { n: 5, e: '👪', es: 'La familia', ru: 'Семья, IE y UE', game: 'Древо семьи' },
+  { n: 6, e: '🐾', es: 'Los animales', ru: 'Животные, Ñ', game: 'Голоса животных' },
+  { n: 7, e: '📅', es: 'La semana', ru: 'Дни недели, ударение', game: 'Календарь недели' },
+  { n: 8, e: '🍎', es: 'La comida', ru: 'Еда, двойное L', game: 'Shadowing' },
+  { n: 9, e: '🏠', es: 'La casa', ru: 'Дом, CH', game: 'Экскурсия' },
+  { n: 10, e: '📇', es: 'Mi tarjeta', ru: 'Проект: своя визитка', game: 'Конструктор карточки' },
+  { n: 11, e: '🙂', es: 'Soy', ru: 'Глагол SER', game: 'Аватар' },
+  { n: 12, e: '🎒', es: 'Tengo', ru: 'Глагол TENER', game: 'Что в рюкзаке' },
+  { n: 13, e: '❤️', es: 'Me gusta', ru: 'Глагол GUSTAR', game: 'Нравится / не нравится' },
+  { n: 14, e: '💪', es: 'El cuerpo', ru: 'Тело, Simón dice', game: 'Simón dice' },
+  { n: 15, e: '⛅', es: 'El tiempo', ru: 'Погода и одежда', game: 'Соберись на прогулку' },
+  { n: 16, e: '⏰', es: 'Mis acciones', ru: 'Действия и распорядок дня', game: 'Мой день' },
+  { n: 17, e: '🏫', es: 'La escuela', ru: 'Школа, звуки B y V', game: 'Найди в портфеле' },
+  { n: 18, e: '😊', es: 'Las emociones', ru: 'Эмоции, Z y S', game: 'El día de Leo' },
+  { n: 19, e: '🧮', es: 'La matemática', ru: 'Математика по-испански', game: 'La frutería' },
+  { n: 20, e: '🎬', es: 'Mi vlog', ru: 'Итоговый влог и диплом', game: 'Сними свой влог' }
+];
+
+function lessonState(n) {
+  try {
+    var raw = JSON.parse(localStorage.getItem('lesson' + n + '_progress') || 'null');
+    if (!raw) return { state: 'new' };
+    if (raw.done) return { state: 'done', step: raw.step };
+    if (raw.step && raw.step > 1) return { state: 'current', step: raw.step };
+    return { state: 'new' };
+  } catch (e) { return { state: 'new' }; }
+}
+
+function card(l) {
+  var st = lessonState(l.n);
+  var badge = { new: ' Начать', current: ' Урок ' + st.step + ' из 7', done: ' Пройден' }[st.state];
+  if (l.n === 1 && st.state === 'new') badge = ' Начать · бесплатно';
+  return '<a class="lesson-card ' + st.state + '" href="lesson-' + (l.n < 10 ? '0' : '') + l.n + '.html">' +
+    '<span class="lc-top"><span class="lc-num">' + l.n + '</span><span class="lc-emoji">' + l.e + '</span></span>' +
+    '<span class="lc-title">' + l.es + '</span>' +
+    '<span class="lc-ru">' + l.ru + '</span><br>' +
+    '<span class="lc-badge">' + badge + '</span></a>';
+}
+
+function render() {
+  document.getElementById('block1').innerHTML = LESSONS.slice(0, 10).map(card).join('');
+  document.getElementById('block2').innerHTML = LESSONS.slice(10).map(card).join('');
+
+  var done = LESSONS.filter(function (l) { return lessonState(l.n).state === 'done'; }).length;
+  var fill = document.getElementById('cpFill');
+  fill.style.width = (done / LESSONS.length * 100) + '%';
+  if (done === LESSONS.length) fill.classList.add('full');
+  document.getElementById('cpText').textContent = 'Пройдено: ' + done + ' из ' + LESSONS.length + ' уроков';
+
+  var next = null;
+  for (var i = 0; i < LESSONS.length; i++) {
+    if (lessonState(LESSONS[i].n).state !== 'done') { next = LESSONS[i]; break; }
+  }
+  var btn = document.getElementById('continueBtn');
+  var txt = document.getElementById('cpNext');
+  if (!next) {
+    btn.href = 'lesson-20.html';
+    btn.textContent = 'Открыть диплом';
+    txt.textContent = 'Все 20 уроков пройдены — молодцы!';
+  } else {
+    btn.href = 'lesson-' + (next.n < 10 ? '0' : '') + next.n + '.html';
+    btn.textContent = (done ? 'Продолжить: урок ' + next.n : 'Начать курс');
+    txt.textContent = 'Следующий урок: ' + next.n + ' · ' + next.es;
+  }
+}
+
+document.getElementById('resetBtn').addEventListener('click', function () {
+  if (!confirm('Сбросить прогресс всех 20 уроков?')) return;
+  LESSONS.forEach(function (l) { try { localStorage.removeItem('lesson' + l.n + '_progress'); } catch (e) {} });
+  render();
+});
+
+render();
+window.addEventListener('storage', render);
+</script>
+</body>
+</html>

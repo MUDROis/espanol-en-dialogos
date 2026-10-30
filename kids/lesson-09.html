@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La casa — Урок 9 · Español A0–A1</title>
+<meta name="description" content="Урок 9: комнаты и предметы дома по-испански, буква CH. Игра «Экскурсия по дому». Курс испанского A0–A1 для детей.">
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body data-theme="casa">
+
+<header class="lesson-head">
+  <a class="link-back" href="course.html">← Все уроки</a>
+  <span class="lh-title">Урок 9 · La casa</span>
+  <span class="lh-spacer"></span>
+  <a class="link-ghost" href="lesson-10.html">Урок 10 →</a>
+</header>
+
+<div class="voice-note" id="voiceNote"></div>
+<div class="save-indicator" id="saveIndicator"> Прогресс сохранён</div>
+
+<div class="container">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ШАГ 1 -->
+  <section class="step active" id="step1">
+    <h1> La casa</h1>
+    <p style="font-size:1.5em">¡Hola, amigo! Пойдём гулять по дому! </p>
+    <p>Сегодня ты научишься называть комнаты и предметы, а ещё потренируешь букву CH.</p>
+    <h3>В этом уроке</h3>
+    <p> Буква <strong>CH</strong> — звук «ч»<br>
+        Пять комнат и вещей<br>
+        Фразы «Esta es mi casa», «¿Dónde está…?»<br>
+        Игра «Экскурсия по дому»</p>
+    <div class="tip"> <strong>Совет:</strong> в конце игры ты проведёшь настоящую экскурсию по своему дому. Сначала выслушай все подписи, потом расскажи сам!</div>
+    <div class="nav-buttons center">
+      <button class="btn btn-primary" data-next>¡Vamos! Поехали! </button>
+    </div>
+  </section>
+
+  <!-- ШАГ 2 -->
+  <section class="step" id="step2">
+    <h2> Буква CH — звук «ч»</h2>
+    <p>В испанском <strong>CH</strong> читается совсем как русское «ч». Никакой хитрости — просто «ч»!</p>
+    <div class="phonetics">
+      <div class="phon-card" data-say="Chocolate, chico">
+        <div class="phon-letter">ch</div>
+        <div class="phon-emoji">🍫</div>
+        <div class="phon-word">Chocolate, chico</div>
+        <div class="phon-hint">Чоколате, чико — сразу и понятно</div>
+        <button class="mic-btn" data-mic="chocolate" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="La mochila">
+        <div class="phon-letter long">ch + a/o</div>
+        <div class="phon-emoji">🎒</div>
+        <div class="phon-word">Mochila</div>
+        <div class="phon-hint">Мочила — рюкзак. Звук «ч» тот же</div>
+        <button class="mic-btn" data-mic="mochila" data-step="2">🎤</button>
+      </div>
+    </div>
+    <div class="tip"> <strong>Не путай:</strong> <em>baño</em> (ванная) — здесь Ñ, звук «нь», «баньо». А <em>chocolate</em> — это «ч», «чоколате».</div>
+    <div class="feedback" id="feedback2"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 3 -->
+  <section class="step" id="step3">
+    <h2> Дом и его комнаты</h2>
+    <p>Послушай и повтори. Перед комнатами — <em>la</em>: <strong>la cocina</strong>, <strong>la sala</strong>.</p>
+    <div class="words" id="houseCards"></div>
+    <p style="margin-top:26px"><strong> Найди пары: слово и комната</strong></p>
+    <div class="memory-grid" id="memoryGrid"></div>
+    <div class="memory-counter">Найдено пар: <span id="memoryCounter">0</span>/5</div>
+    <div class="feedback" id="feedback3"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 4 -->
+  <section class="step" id="step4">
+    <h2> Экскурсия по дому</h2>
+    <p>Дети показывают друг другу свой дом. Послушай и повтори.</p>
+    <div class="dialogue">
+      <div class="dialogue-line" data-say="Esta es mi casa.">
+        <div class="avatar">🧑</div>
+        <div class="text">Esta es mi casa.<span class="ru">Это мой дом.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="esta es mi casa" data-step="4" data-threshold="0.4">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="¡Qué bonita!">
+        <div class="avatar">👧</div>
+        <div class="text">¡Qué bonita!<span class="ru">Какой красивый!</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="qué bonita" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="¿Dónde está la cocina?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿Dónde está la cocina?<span class="ru">Где кухня?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="dónde está la cocina" data-step="4" data-threshold="0.35">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="La cocina está allí.">
+        <div class="avatar">👧</div>
+        <div class="text">La cocina está allí.<span class="ru">Кухня вон там.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="la cocina está allí" data-step="4" data-threshold="0.35">🎤</button>
+      </div>
+    </div>
+    <div class="bubble-row">
+      <button class="btn btn-primary" data-repeat='["Esta es mi casa.","¡Qué bonita!","¿Dónde está la cocina?","La cocina está allí."]' data-gap="2600"> Слушать весь диалог</button>
+    </div>
+    <div class="tip"> <strong>Шпаргалка:</strong> <em>¿Dónde está [la cocina]?</em> (где…) — <em>Está [aquí / allí].</em> (здесь / там)</div>
+    <div class="feedback" id="feedback4"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 5 · Экскурсия по дому -->
+  <section class="step" id="step5">
+    <h2> Экскурсия по дому</h2>
+    <p>Подпиши каждую комнату её названием. Нажми на подпись, потом на комнату.</p>
+    <div class="game-box">
+      <div class="bank" id="assignBank"></div>
+      <div class="slots people" id="assignTargets"></div>
+      <div class="assign-progress" id="assignProgress"></div>
+    </div>
+    <div class="tip"> <strong>Задание:</strong> когда расставишь подписи, обойди свой дом и расскажи: <em>«Esta es mi cocina», «Esta es mi sala»</em>.</div>
+    <div class="feedback" id="feedback5"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 6 -->
+  <section class="step" id="step6">
+    <h2> Проверь себя!</h2>
+    <p>Три вопроса про дом и букву CH.</p>
+    <div id="quizContainer"></div>
+    <div class="assign-progress" id="quizScore"></div>
+    <div class="feedback" id="feedback6"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 7 -->
+  <section class="step" id="step7">
+    <div class="final">
+
+      <h1>¡Qué casa!</h1>
+      <p style="font-size:1.4em">Ты прошёл девятый урок!</p>
+      <div class="medal"> Медаль «¡Mi casa!»</div>
+      <p>Сегодня ты узнал:</p>
+      <p> CH читается как «ч»<br>
+        Cocina, sala, dormitorio, baño, jardín<br>
+        Фразы «Esta es mi casa» и «¿Dónde está…?»</p>
+
+      <h3> ¡Yo puedo! — Я могу!</h3>
+      <div class="can-do" id="canDo"></div>
+
+      <div class="homework">
+        <strong> Домашнее задание</strong><br>
+        Проведи экскурсию для близких: покажи комнату и говори <strong>«Esta es la …»</strong>.<br>
+        Запиши 3 новых слова с буквой CH: <em>chocolate, mochila, chico…</em>
+      </div>
+
+      <div class="nav-buttons center">
+        <button class="btn btn-secondary" data-restart> Пройти ещё раз</button>
+        <a class="btn btn-primary" href="lesson-10.html" style="text-decoration:none;display:inline-block">Урок 10 →</a>
+      </div>
+      <p style="margin-top:18px"><a class="link-ghost" href="course.html">← Ко всем урокам курса</a></p>
+    </div>
+  </section>
+</div>
+
+<script src="assets/lesson.js"></script>
+<script>
+/* ============================ ДАННЫЕ УРОКА 9 ============================ */
+var ROOMS = [
+  { es: 'la cocina', ru: 'кухня', e: '🍳', say: 'Esta es la cocina' },
+  { es: 'la sala', ru: 'гостиная', e: '🛋️', say: 'Esta es la sala' },
+  { es: 'el dormitorio', ru: 'спальня', e: '🛏️', say: 'Este es el dormitorio' },
+  { es: 'el baño', ru: 'ванная', e: '🚿', say: 'Este es el baño' },
+  { es: 'el jardín', ru: 'сад', e: '🌳', say: 'Este es el jardín' }
+];
+
+var MEMORY = ROOMS.map(function (r) { return { a: r.es, b: r.e, sa: r.es, sb: null }; });
+
+var QUIZ = [
+  { q: ' Как по-испански «кухня»?', opts: ['la cocina', 'la sala', 'el jardín', 'el baño'], correct: 'la cocina' },
+  { q: ' Что значит «¿Dónde está el baño?»', opts: ['Где ванная?', 'Это ванная', 'Ванная красивая', 'Я в ванной'], correct: 'Где ванная?' },
+  { q: ' Буква CH в слове «chocolate» читается как…', opts: ['«ч»', '«х»', '«к»', '«с»'], correct: '«ч»' }
+];
+
+var CAN_DO = [
+  'Я называю пять комнат',
+  'Я произношу CH как «ч»',
+  'Я говорю «Esta es mi casa»',
+  'Я спрашиваю «¿Dónde está…?»'
+];
+
+function renderRooms() {
+  var box = document.getElementById('houseCards');
+  box.innerHTML = '';
+  ROOMS.forEach(function (r) {
+    var c = EL.el('div', 'word-card');
+    c.setAttribute('data-say', r.es);
+    c.style.background = 'linear-gradient(140deg, var(--c3), var(--c1))';
+    c.innerHTML = '<span class="emoji">' + r.e + '</span><span class="es">' + r.es + '</span><span class="ru">' + r.ru + '</span>' +
+      '<button class="mic-btn" data-mic="' + r.es + '" data-step="3">🎤</button>';
+    box.appendChild(c);
+  });
+}
+
+function buildTour() {
+  EL.assign({
+    bank: 'assignBank',
+    targets: 'assignTargets',
+    stateKey: 'houseTour',
+    step: 5,
+    items: EL.shuffle(ROOMS).map(function (r) {
+      return { key: r.es, label: r.es, emoji: '', say: r.say };
+    }),
+    slots: EL.shuffle(ROOMS).map(function (r) {
+      return { key: r.es, emoji: r.e, label: '?' };
+    }),
+    badMsg: ' ¡Casi! Посмотри на картинку: это не та комната. Попробуй другую!',
+    winMsg: ' ¡Perfecto! Дом подписан — теперь проведи экскурсию!',
+    onWin: function () {
+      EL.say(5, ' Отлично! Обойди свой дом и говори: «Esta es la cocina», «Este es el jardín».', 'success');
+    }
+  });
+}
+
+EL.init({
+  id: 9,
+  rate: 0.7,
+  resumeMsg: ' Продолжить урок 9 с шага ',
+  onStep: function (n) {
+    if (n === 3) { renderRooms(); EL.memory(MEMORY, { step: 3 }); }
+    if (n === 5) buildTour();
+    if (n === 6) EL.quiz(QUIZ, { step: 6 });
+    if (n === 7) EL.canDo(CAN_DO);
+  },
+  onRestart: function () { renderRooms(); EL.memory(MEMORY, { step: 3 }); buildTour(); }
+});
+</script>
+
+<script src="assets/gate.js"></script>
+</body>
+</html>

@@ -1,0 +1,304 @@
+{
+  "id": 21,
+  "title": "Carmen y su vecina Laura eligen un regalo para Pablo",
+  "titleRu": "Кармен и её соседка Лаура выбирают подарок для Пабло",
+  "part": 3,
+  "level": "B1",
+  "theme": "Покупки, подарки, праздники  Las compras, los regalos, las celebraciones",
+  "characters": ["carmen_madre", "laura_vecina"],
+  "objectives": [
+    "Говорить о вкусах с глаголами gustar, interesar, aburrir (le gusta, no le interesan)",
+    "Покупать подарки: se lo/la/los voy a comprar (прямые и косвенные местоимения)",
+    "Описывать, что происходит сейчас: estar + герундий (están construyendo)",
+    "Выражать длительность: llevar + герундий, hace tiempo que, dentro de",
+    "Обсуждать праздники и подарки (cumpleaños, Reyes, Navidad)"
+  ],
+  "grammar": {
+    "gustar": {
+      "title": "Глаголы типа GUSTAR: gustar, interesar, aburrir",
+      "description": "Если глаголу gustar, interesar, aburrir нравится неопределённая форма — всегда GUSTA (ед. ч.), если существительное — согласуется в числе: le gusta leer, le gustan los cómics, le aburre practicar, no le interesan los instrumentos. Местоимение указывает, кому: me, te, le, nos, os, les.",
+      "forms": {
+        "yo": { "es": "me gusta / me gustan", "ru": "мне нравится / нравятся" },
+        "tu": { "es": "te gusta / te gustan", "ru": "тебе нравится / нравятся" },
+        "el_ella": { "es": "le gusta / le gustan", "ru": "ему/ей нравится / нравятся" },
+        "nosotros": { "es": "nos gusta / nos gustan", "ru": "нам нравится / нравятся" },
+        "vosotros": { "es": "os gusta / os gustan", "ru": "вам нравится / нравятся" },
+        "ellos_ellas": { "es": "les gusta / les gustan", "ru": "им нравится / нравятся" }
+      },
+      "examples": [
+        { "es": "Le gusta leer, ¿por qué no compras algunos libros?", "ru": "Ему нравится читать, почему бы тебе не купить ему несколько книг?" },
+        { "es": "No le interesan esos instrumentos, le aburre practicar durante mucho tiempo.", "ru": "Эти инструменты его не интересуют, ему надоедает долго заниматься." },
+        { "es": "A mis hijos les gusta explorar, así que les va a gustar ese lugar.", "ru": "Моим детям нравится исследовать, так что им понравится это место." }
+      ]
+    },
+    "estar_gerundio": {
+      "title": "Сейчас что-то происходит: ESTAR + герундий",
+      "description": "ESTAR + герундий указывает на действие в процессе: están construyendo un parque — «сейчас строят парк». Герундий: comprar → comprando, leer → leyendo, construir → construyendo.",
+      "forms": {
+        "yo": { "es": "estoy comprando", "ru": "я покупаю (сейчас)" },
+        "tu": { "es": "estás comprando", "ru": "ты покупаешь" },
+        "el_ella": { "es": "está comprando", "ru": "он/она покупает" },
+        "nosotros": { "es": "estamos comprando", "ru": "мы покупаем" },
+        "vosotros": { "es": "estáis comprando", "ru": "вы покупаете" },
+        "ellos_ellas": { "es": "están comprando", "ru": "они покупают" }
+      },
+      "examples": [
+        { "es": "Están construyendo un parque grande en la avenida del Sol.", "ru": "Сейчас строят большой парк на проспекте Солнца." },
+        { "es": "Ya llevamos una hora en el centro comercial y seguimos sin encontrar nada.", "ru": "Мы уже час в торговом центре и всё ещё ничего не находим." }
+      ]
+    },
+    "pronombres_objeto": {
+      "title": "Местоимения-дополнения: LE + LO → SE LO",
+      "description": "Когда есть и «кому» (le, les), и «что» (lo, la, los, las), местоимение le/les превращается в SE: se lo, se la, se los, se las. Пример из диалога: Se los voy a comprar a los dos — «Куплю их [вещи] обоим [им]»; no se la voy a comprar (la tienda de campaña) — «не куплю я ему её».",
+      "list": [
+        { "es": "se lo compro (a él / a ellos)", "ru": "я ему/им это покупаю" },
+        { "es": "se la compro", "ru": "я ему/им её покупаю" },
+        { "es": "se los voy a comprar a los dos", "ru": "куплю их обоим" },
+        { "es": "no se la voy a comprar", "ru": "я ему её не куплю" }
+      ],
+      "examples": [
+        { "es": "Se los voy a comprar a los dos para Reyes.", "ru": "Куплю их обоим на Рождество." },
+        { "es": "Claro que no se la voy a comprar. Pienso regalarle unos prismáticos.", "ru": "Конечно, я её ему не куплю. Думаю подарить ему бинокль." }
+      ]
+    },
+    "llevar_hace": {
+      "title": "Длительность: LLEVAR + герундий, HACE TIEMPO QUE, DENTRO DE",
+      "description": "LLEVAR + герундий — «уже какое-то время делаю»: llevamos una hora en el centro comercial. HACE tiempo que — «уже давно»: hace tiempo que ni la mira. DENTRO DE + промежуток — «через»: dentro de cuatro meses.",
+      "list": [
+        { "es": "lleva meses pidiéndomelos", "ru": "уже несколько месяцев просит их у меня" },
+        { "es": "hace tiempo que ni la mira", "ru": "уже давно на неё даже не смотрит" },
+        { "es": "llevamos una hora en el centro comercial", "ru": "мы уже час в торговом центре" },
+        { "es": "dentro de cuatro meses", "ru": "через четыре месяца" }
+      ],
+      "examples": [
+        { "es": "Mi sobrino lleva meses pidiéndomelos, pero ya tiene una bicicleta.", "ru": "Мой племянник уже несколько месяцев просит их у меня, но у него уже есть велосипед." },
+        { "es": "Su cumpleaños es dentro de cuatro meses.", "ru": "Её день рождения через четыре месяца." },
+        { "es": "Ya llevamos una hora en el centro comercial.", "ru": "Мы уже час в торговом центре." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "regalos": [
+      { "es": "el regalo", "ru": "подарок" },
+      { "es": "el cumpleaños", "ru": "день рождения" },
+      { "es": "la consola de videojuegos", "ru": "игровая приставка" },
+      { "es": "el balón de fútbol", "ru": "футбольный мяч" },
+      { "es": "los cómics", "ru": "комиксы" },
+      { "es": "la guitarra", "ru": "гитара" },
+      { "es": "los patines en línea", "ru": "роликовые коньки" },
+      { "es": "la bicicleta", "ru": "велосипед" },
+      { "es": "la tienda de campaña", "ru": "палатка" },
+      { "es": "los prismáticos", "ru": "бинокль" }
+    ],
+    "lugar_y_tiempo": [
+      { "es": "el centro comercial", "ru": "торговый центр" },
+      { "es": "el barrio", "ru": "район" },
+      { "es": "el parque", "ru": "парк" },
+      { "es": "la avenida del Sol", "ru": "проспект Солнца" },
+      { "es": "el campo", "ru": "загород, поле" },
+      { "es": "un par de semanas", "ru": "пара недель" },
+      { "es": "dentro de cuatro meses", "ru": "через четыре месяца" },
+      { "es": "la noticia", "ru": "новость" },
+      { "es": "algunos libros", "ru": "несколько книг" },
+      { "es": "algo diferente", "ru": "что-то другое" }
+    ],
+    "verbos": [
+      { "es": "elegir", "ru": "выбирать" },
+      { "es": "pedir", "ru": "просить" },
+      { "es": "regalar", "ru": "дарить" },
+      { "es": "preferir", "ru": "предпочитать" },
+      { "es": "aburrir", "ru": "надоедать, наскучить" },
+      { "es": "explorar", "ru": "исследовать" },
+      { "es": "acampar", "ru": "ходить в поход, ставить палатку" },
+      { "es": "buscar", "ru": "искать" },
+      { "es": "usar", "ru": "использовать" },
+      { "es": "hacer caso", "ru": "обращать внимание" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Carmen", "es": "Mañana es su cumpleaños y aún no sé qué regalo elegir.", "ru": "Завтра у него день рождения, а я ещё не знаю, какой подарок выбрать." },
+    { "speaker": "Laura", "es": "¿Qué quiere él? ¿No pide nada?", "ru": "Что он хочет? Он ничего не просит?" },
+    { "speaker": "Carmen", "es": "Sí, pide una consola de videojuegos, pero ya tiene una en casa. Su abuela dice que le va a comprar un balón de fútbol. Yo quiero buscar algo diferente.", "ru": "Просит игровую приставку, но у него уже есть одна дома. Его бабушка говорит, что купит ему футбольный мяч. Я хочу найти что-то другое." },
+    { "speaker": "Laura", "es": "Le gusta leer, ¿por qué no compras algunos libros?", "ru": "Ему нравится читать, почему бы тебе не купить несколько книг?" },
+    { "speaker": "Carmen", "es": "Es que él prefiere los cómics, y ya tiene muchos.", "ru": "Дело в том, что он предпочитает комиксы, и их у него уже много." },
+    { "speaker": "Laura", "es": "¿Le gusta la música? Mira, qué guitarra tan bonita es esta.", "ru": "Ему нравится музыка? Смотри, какая красивая гитара." },
+    { "speaker": "Carmen", "es": "Si no me equivoco, no le interesan esos instrumentos. Es un niño inquieto, le aburre practicar durante mucho tiempo.", "ru": "Если я не ошибаюсь, эти инструменты его не интересуют. Он непоседливый мальчик, ему надоедает заниматься одним делом долгое время." },
+    { "speaker": "Laura", "es": "Pues, vamos a buscar unos patines en línea. Mi sobrino lleva meses pidiéndomelos, pero ya tiene una bicicleta, y después de usarla un par de semanas, ya hace tiempo que ni la mira. Siempre sueña con algo y luego no le hace caso.", "ru": "Тогда давай поищем роликовые коньки. Мой племянник уже несколько месяцев просит их у меня, но у него уже есть велосипед, и, покатавшись пару недель, он уже давно на него не смотрит. Всегда мечтает о чём-то, а потом ему это совсем не интересно." },
+    { "speaker": "Carmen", "es": "Sí, me gusta la idea. Pero su hermana Lucía también va a querer unos, y por ahora no puedo permitirme comprar dos. Su cumpleaños es dentro de cuatro meses... Se los voy a comprar a los dos para Reyes.", "ru": "Да, мне нравится эта идея. Но его сестра Лусия тоже захочет такие, а сейчас я не могу позволить себе купить два. Её день рождения через четыре месяца... Куплю их обоим на Рождество." },
+    { "speaker": "Laura", "es": "Mi sobrino pide una tienda de campaña, quiere acampar, pero para eso hay que ir al campo. Claro que no se la voy a comprar. Pienso regalarle unos prismáticos para Navidad.", "ru": "Мой племянник просит палатку, хочет ходить в походы, но для этого нужно ехать за город. Конечно, я ему её не куплю. Думаю подарить ему бинокль на Рождество." },
+    { "speaker": "Carmen", "es": "¿Ya hay algún parque grande en nuestro barrio para usarlos?", "ru": "Уже есть какой-нибудь большой парк в нашем районе, чтобы их использовать?" },
+    { "speaker": "Laura", "es": "Están construyendo uno, en la avenida del Sol. No queda muy lejos de nuestra casa.", "ru": "Сейчас строят один, на проспекте Солнца. Совсем недалеко от нашего дома." },
+    { "speaker": "Carmen", "es": "Muy buena noticia. A mis hijos les gusta explorar, así que les va a gustar ese lugar...", "ru": "Отличная новость! Моим детям нравится исследовать, так что им понравится это место..." },
+    { "speaker": "Laura", "es": "Ya llevamos una hora en el centro comercial y seguimos sin encontrar nada.", "ru": "Мы уже час в торговом центре и всё ещё ничего не нашли." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el regalo", "ru": "подарок" },
+        { "es": "la consola de videojuegos", "ru": "игровая приставка" },
+        { "es": "el balón de fútbol", "ru": "футбольный мяч" },
+        { "es": "los patines en línea", "ru": "роликовые коньки" },
+        { "es": "la tienda de campaña", "ru": "палатка" },
+        { "es": "los prismáticos", "ru": "бинокль" },
+        { "es": "la bicicleta", "ru": "велосипед" },
+        { "es": "el cumpleaños", "ru": "день рождения" }
+      ]
+    },
+    {
+      "type": "fill-gap-gustar",
+      "title": "Практика: LE GUSTA / LE ABURRE",
+      "description": "Вставь правильную форму глагола",
+      "sentences": [
+        { "text": "Le ___ leer, tiene muchos libros.", "ru": "Ему нравится читать, у него много книг", "answer": "gusta", "options": ["gusta", "gustan", "gusto"] },
+        { "text": "No le ___ esos instrumentos.", "ru": "Эти инструменты его не интересуют", "answer": "interesan", "options": ["interesan", "interesa", "intereso"] },
+        { "text": "Le ___ practicar durante mucho tiempo.", "ru": "Ему надоедает долго заниматься", "answer": "aburre", "options": ["aburre", "aburren", "aburro"] },
+        { "text": "A mis hijos les ___ explorar.", "ru": "Моим детям нравится исследовать", "answer": "gusta", "options": ["gusta", "gustan", "gustáis"] },
+        { "text": "A Lucía le van a ___ los patines en línea.", "ru": "Лусии понравятся роликовые коньки", "answer": "gustar", "options": ["gustar", "gusta", "gustan"] }
+      ]
+    },
+    {
+      "type": "fill-gap-estar_gerundio",
+      "title": "Практика: ESTAR + герундий",
+      "description": "Вставь правильную форму глагола estar",
+      "sentences": [
+        { "text": "___ construyendo un parque en la avenida del Sol.", "ru": "Сейчас строят парк на проспекте Солнца", "answer": "Están", "options": ["Están", "Está", "Estamos"] },
+        { "text": "Vamos a la tienda, ___ buscando un regalo.", "ru": "Идём в магазин, мы ищем подарок", "answer": "estamos", "options": ["estamos", "están", "estás"] },
+        { "text": "Laura ___ hablando con la vendedora.", "ru": "Лаура разговаривает с продавщицей", "answer": "está", "options": ["está", "están", "estamos"] },
+        { "text": "Los chicos ___ pidiendo una consola.", "ru": "Ребята просят приставку", "answer": "están", "options": ["están", "está", "estáis"] },
+        { "text": "¿Qué ___ haciendo, Pablo?", "ru": "Что ты делаешь, Пабло?", "answer": "estás", "options": ["estás", "está", "estamos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-pronombres_objeto",
+      "title": "Практика: SE LO / SE LA / SE LOS",
+      "description": "Вставь пропущенное местоимение",
+      "sentences": [
+        { "text": "Se ___ voy a comprar a los dos para Reyes.", "ru": "Куплю их обоим на Рождество", "answer": "los", "options": ["los", "la", "lo"] },
+        { "text": "No se ___ voy a comprar, es cara (la tienda de campaña).", "ru": "Я ему её не куплю, она дорогая (палатка)", "answer": "la", "options": ["la", "lo", "los"] },
+        { "text": "Mi sobrino me ___ pide desde hace meses (los patines).", "ru": "Мой племянник просит их у меня уже несколько месяцев (коньки)", "answer": "los", "options": ["los", "la", "le"] },
+        { "text": "Ya hace tiempo que ni ___ mira (la bicicleta).", "ru": "Уже давно на неё даже не смотрит (велосипед)", "answer": "la", "options": ["la", "lo", "le"] },
+        { "text": "___ voy a regalar un libro a mi hijo.", "ru": "Я подарю своему сыну книгу", "answer": "Le", "options": ["Le", "Lo", "La"] }
+      ]
+    },
+    {
+      "type": "fill-gap-llevar_hace",
+      "title": "Практика: LLEVAR / HACE TIEMPO / DENTRO DE",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Mi sobrino ___ meses pidiéndomelos.", "ru": "Мой племянник уже несколько месяцев просит их у меня", "answer": "lleva", "options": ["lleva", "tiene", "dura"] },
+        { "text": "Ya ___ tiempo que ni la mira.", "ru": "Уже давно на неё не смотрит", "answer": "hace", "options": ["hace", "lleva", "dura"] },
+        { "text": "Ya ___ una hora en el centro comercial.", "ru": "Мы уже час в торговом центре", "answer": "llevamos", "options": ["llevamos", "lleva", "hacemos"] },
+        { "text": "Su cumpleaños es ___ de cuatro meses.", "ru": "Её день рождения через четыре месяца", "answer": "dentro", "options": ["dentro", "fuera", "hace"] },
+        { "text": "Después de usarla un ___ de semanas...", "ru": "После того как покатался пару недель...", "answer": "par", "options": ["par", "dos", "poco"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Su abuela ___ va a comprar un balón de fútbol.", "ru": "Его бабушка купит ему футбольный мяч", "answer": "le", "options": ["le", "les", "la"] },
+        { "text": "No le ___ esos instrumentos.", "ru": "Эти инструменты его не интересуют", "answer": "interesan", "options": ["interesan", "interesa", "gustan"] },
+        { "text": "___ los voy a comprar a los dos para Reyes.", "ru": "Куплю их обоим на Рождество", "answer": "Se", "options": ["Se", "Me", "Te"] },
+        { "text": "___ construyendo un parque en la avenida del Sol.", "ru": "Сейчас строят парк на проспекте Солнца", "answer": "Están", "options": ["Están", "Está", "Estamos"] },
+        { "text": "Ya ___ tiempo que no le hace caso.", "ru": "Уже давно он ему не уделяет внимания", "answer": "hace", "options": ["hace", "dura", "lleva"] },
+        { "text": "Le gusta leer, ¿por ___ no compras algunos libros?", "ru": "Ему нравится читать, почему бы тебе не купить несколько книг?", "answer": "qué", "options": ["qué", "que", "quién"] },
+        { "text": "Ya llevamos una hora en el ___ comercial.", "ru": "Мы уже час в торговом центре", "answer": "centro", "options": ["centro", "parque", "campo"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Кармен",
+      "role": "Carmen",
+      "description": "Выбирай подарок для Пабло и обсуждай его с соседкой"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лаурой",
+      "role": "Laura",
+      "description": "Теперь ты Лаура — предлагай идеи подарков"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Обсуди с другом, что подарить на день рождения",
+      "template": [
+        { "label": "Завтра его день рождения", "es": "Mañana es su ___" },
+        { "label": "Ему нравится читать", "es": "Le ___ leer" },
+        { "label": "Его не интересуют гитары", "es": "No le ___ las guitarras" },
+        { "label": "Куплю их обоим", "es": "Se ___ voy a comprar a los dos" },
+        { "label": "Уже несколько месяцев просит", "es": "Lleva ___ pidiendo una consola" },
+        { "label": "Мы уже час в торговом центре", "es": "Llevamos una ___ en el centro comercial" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Qué pide Pablo para su cumpleaños?",
+          "ru": "Что просит Пабло на день рождения?",
+          "options": ["Una consola de videojuegos", "Un balón de fútbol", "Unos libros", "Unos patines en línea"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué le va a comprar su abuela?",
+          "ru": "Что купит ему его бабушка?",
+          "options": ["Una consola", "Unos cómics", "Un balón de fútbol", "Una guitarra"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué prefiere Pablo?",
+          "ru": "Что предпочитает Пабло?",
+          "options": ["Los libros", "Los cómics", "La música", "Los videojuegos"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué instrumento señala Laura en la tienda?",
+          "ru": "Какой инструмент показывает Лаура в магазине?",
+          "options": ["Los patines en línea", "Una guitarra", "Un balón", "Una tienda de campaña"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué pide el sobrino de Laura?",
+          "ru": "Что просит племянник Лауры?",
+          "options": ["Una tienda de campaña", "Una bicicleta", "Unos prismáticos", "Una consola"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué va a regalar Laura a su sobrino para Navidad?",
+          "ru": "Что подарит Лаура племяннику на Рождество?",
+          "options": ["Una tienda de campaña", "Una cámara de fotos", "Unos días de viaje", "Unos prismáticos"],
+          "answer": 3
+        },
+        {
+          "question": "¿Para cuándo quiere Carmen comprar los patines a los dos hijos?",
+          "ru": "К какому празднику Кармен хочет купить коньки обоим детям?",
+          "options": ["Para Reyes", "Para su cumpleaños", "Para el verano", "Para Navidad"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué están construyendo en la avenida del Sol?",
+          "ru": "Что сейчас строят на проспекте Солнца?",
+          "options": ["Un centro comercial", "Un parque", "Una escuela", "Una iglesia"],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить новые слова (подарки, магазин, праздники) в приложении",
+    "Практика: Расскажи партнёру (italki/Tandem), что ты хочешь подарить другу: le gusta..., se lo/la voy a comprar..., está + герундий",
+    "Дневник: Выбери подарок для друга или родственника: что он любит, что ты купишь и к какому празднику",
+    "Грамматика: Напиши 3 предложения с gustar/interesar/aburrir, 3 с se lo / se la / se los и 3 с estar + герундий"
+  ]
+}

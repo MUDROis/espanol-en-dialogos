@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El tiempo y la ropa — Урок 15 · Español A0–A1</title>
+<meta name="description" content="Урок 15: погода и одежда по-испански, звук RR. Игра «Одень персонажа». Курс испанского A0–A1 для детей, блок 2.">
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body data-theme="tiempo">
+
+<header class="lesson-head">
+  <a class="link-back" href="course.html">← Все уроки</a>
+  <span class="lh-title">Урок 15 · El tiempo y la ropa</span>
+  <span class="lh-spacer"></span>
+  <a class="link-ghost" href="lesson-16.html">Урок 16 →</a>
+</header>
+
+<div class="voice-note" id="voiceNote"></div>
+<div class="save-indicator" id="saveIndicator"> Прогресс сохранён</div>
+
+<div class="container">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ШАГ 1 -->
+  <section class="step active" id="step1">
+    <h1> El tiempo y la ropa</h1>
+    <p style="font-size:1.5em">¡Hola, amigo! Какая сегодня погода? </p>
+    <p>Сегодня мы научимся спрашивать о погоде и выбирать одежду по погоде.</p>
+    <h3>В этом уроке</h3>
+    <p> Звук <strong>RR</strong> — «рр»<br>
+        Пять видов погоды<br>
+        Пять предметов одежды<br>
+        Фраза «Hace frío», «¿Qué tiempo hace?»<br>
+        Игра «Одень персонажа»</p>
+    <div class="tip"> <strong>Совет:</strong> в Испании спрашивают о погоде очень часто: <em>«¿Qué tiempo hace?»</em> — и почти всегда отвечают <em>«Hace sol»</em> или <em>«Hace frío»</em>.</div>
+    <div class="nav-buttons center">
+      <button class="btn btn-primary" data-next>¡Vamos! Поехали! </button>
+    </div>
+  </section>
+
+  <!-- ШАГ 2 -->
+  <section class="step" id="step2">
+    <h2> Звук RR — крепкое «рр»</h2>
+    <p>Соседние <strong>R</strong> читаются как одно двойное «рр» — очень звонко и слегка рычаще.</p>
+    <div class="phonetics">
+      <div class="phon-card" data-say="El perro, la rueda">
+        <div class="phon-letter">rr</div>
+        <div class="phon-emoji">🐕</div>
+        <div class="phon-word">El perro, la rueda</div>
+        <div class="phon-hint">«Перро» и «руэда». Двойное <strong>рр</strong> — язык дрожит</div>
+        <button class="mic-btn" data-mic="el perro" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="El carro, la guitarra">
+        <div class="phon-letter">rr</div>
+        <div class="phon-emoji">🎸</div>
+        <div class="phon-word">El carro, la guitarra</div>
+        <div class="phon-hint">«Карро» и «гитарра» — тоже <strong>рр</strong>!</div>
+        <button class="mic-btn" data-mic="el carro" data-step="2">🎤</button>
+      </div>
+    </div>
+    <div class="tip"> <strong>Сравни:</strong> <em>pero</em> (но) — мягкое «р», <em>perro</em> (собака) — «рр». Одно «r» — другое «rr».</div>
+    <div class="feedback" id="feedback2"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 3 -->
+  <section class="step" id="step3">
+    <h2> Погода и одежда</h2>
+    <p>Послушай и повтори. В Испании про погоду говорят через глагол <strong>hacer</strong>.</p>
+    <div class="words" id="weatherCards"></div>
+    <p style="margin-top:22px"><strong> Найди пары: одежда и картинка</strong></p>
+    <div class="memory-grid" id="memoryGrid"></div>
+    <div class="memory-counter">Найдено пар: <span id="memoryCounter">0</span>/5</div>
+    <div class="feedback" id="feedback3"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 4 -->
+  <section class="step" id="step4">
+    <h2> Какая сегодня погода?</h2>
+    <p>Утро в школьном дворе. Послушай и повтори.</p>
+    <div class="dialogue">
+      <div class="dialogue-line" data-say="¿Qué tiempo hace?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿Qué tiempo hace?<span class="ru">Какая погода?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="qué tiempo hace" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Hace frío.">
+        <div class="avatar">👧</div>
+        <div class="text">Hace frío.<span class="ru">Холодно.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="hace frío" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="Voy a ponerme el abrigo.">
+        <div class="avatar">🧑</div>
+        <div class="text">Voy a ponerme el abrigo.<span class="ru">Я надену пальто.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="voy a ponerme el abrigo" data-step="4" data-threshold="0.3">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="¡Yo llevo la bufanda!">
+        <div class="avatar">👧</div>
+        <div class="text">¡Yo llevo la bufanda!<span class="ru">А я надену шарф!</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="yo llevo la bufanda" data-step="4" data-threshold="0.35">🎤</button>
+      </div>
+    </div>
+    <div class="bubble-row">
+      <button class="btn btn-primary" data-repeat='["¿Qué tiempo hace?","Hace frío.","Voy a ponerme el abrigo.","¡Yo llevo la bufanda!"]' data-gap="2600"> Слушать весь диалог</button>
+    </div>
+    <div class="tip"> <strong>Шпаргалка:</strong> <em>Hace calor.</em> (жарко) — <em>Hace frío.</em> (холодно) — <em>Llueve.</em> (дождь) — <em>Está nublado.</em> (облачно)</div>
+    <div class="feedback" id="feedback4"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 5 · Одень персонажа -->
+  <section class="step" id="step5">
+    <h2> Одень персонажа</h2>
+    <p>Какая погода? Выбери одежду, которая подходит. 6 карточек!</p>
+    <div class="game-box">
+      <div class="bubble" id="dressWeather">Нажми «¡Jugar!»</div>
+      <div class="bubble-row">
+        <button class="big-btn" id="dressStart"> ¡Jugar!</button>
+      </div>
+      <div class="animal-grid" id="dressOptions"></div>
+      <div class="assign-progress" id="dressProgress">Раундов: 0 из 6</div>
+    </div>
+    <div class="tip"> <strong>Задание:</strong> посмотри в окно и скажи: <em>«Hace sol, llevo la camiseta»</em> или <em>«Hace frío, llevo el abrigo»</em>.</div>
+    <div class="feedback" id="feedback5"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 6 -->
+  <section class="step" id="step6">
+    <h2> Проверь себя!</h2>
+    <p>Три вопроса про погоду и одежду.</p>
+    <div id="quizContainer"></div>
+    <div class="assign-progress" id="quizScore"></div>
+    <div class="feedback" id="feedback6"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 7 -->
+  <section class="step" id="step7">
+    <div class="final">
+
+      <h1>¡Qué tiempo!</h1>
+      <p style="font-size:1.4em">Ты прошёл пятнадцатый урок!</p>
+      <div class="medal"> Медаль «¡Hace frío!»</div>
+      <p>Сегодня ты узнал:</p>
+      <p> RR = «рр» (carro, perro)<br>
+        Hace calor / Hace frío / Llueve / Está nublado / Nieva<br>
+        Camiseta, pantalones, zapatos, sombrero, abrigo<br>
+        Вопрос «¿Qué tiempo hace?»</p>
+
+      <h3> ¡Yo puedo! — Я могу!</h3>
+      <div class="can-do" id="canDo"></div>
+
+      <div class="homework">
+        <strong> Домашнее задание</strong><br>
+        Каждое утро смотри в окно и говори: <strong>«¿Qué tiempo hace?»</strong> — <em>«Hoy hace frío»</em>.<br>
+        Выбери одежду по погоде и объясни: <em>«Llevo el abrigo, porque hace frío»</em>
+      </div>
+
+      <div class="nav-buttons center">
+        <button class="btn btn-secondary" data-restart> Пройти ещё раз</button>
+        <a class="btn btn-primary" href="lesson-16.html" style="text-decoration:none;display:inline-block">Урок 16 →</a>
+      </div>
+      <p style="margin-top:18px"><a class="link-ghost" href="course.html">← Ко всем урокам курса</a></p>
+    </div>
+  </section>
+</div>
+
+<script src="assets/lesson.js"></script>
+<script>
+/* ============================ ДАННЫЕ УРОКА 15 ============================ */
+var WEATHER = [
+  { es: 'hace calor', ru: 'жарко', e: '🔥', cold: false },
+  { es: 'hace frío', ru: 'холодно', e: '🥶', cold: true },
+  { es: 'llueve', ru: 'дождь', e: '🌧️', cold: true },
+  { es: 'está nublado', ru: 'облачно', e: '☁️', cold: false },
+  { es: 'nieva', ru: 'снег', e: '❄️', cold: true }
+];
+
+var CLOTHES = [
+  { es: 'la camiseta', ru: 'футболка', e: '👕', cold: false },
+  { es: 'los pantalones', ru: 'брюки', e: '👖', cold: false },
+  { es: 'los zapatos', ru: 'ботинки', e: '🥾', cold: true },
+  { es: 'el sombrero', ru: 'шляпа', e: '👒', cold: false },
+  { es: 'el abrigo', ru: 'пальто', e: '🧥', cold: true }
+];
+
+var MEMORY = CLOTHES.map(function (c) { return { a: c.es, b: c.e, sa: c.es, sb: null }; });
+
+var QUIZ = [
+  { q: ' Что значит «Hace frío»?', opts: ['Холодно', 'Жарко', 'Дождь', 'Снег'], correct: 'Холодно' },
+  { q: ' Что нужно надеть, когда «hace frío»?', opts: ['El abrigo', 'La camiseta', 'Los zapatos', 'El sombrero'], correct: 'El abrigo' },
+  { q: ' Как читается RR в слове «perro»?', opts: ['Как «рр»', 'Как «р»', 'Как «л»', 'Не читается'], correct: 'Как «рр»' }
+];
+
+var CAN_DO = [
+  'Я называю пять видов погоды',
+  'Я произношу RR как «рр»',
+  'Я спрашиваю «¿Qué tiempo hace?»',
+  'Я выбираю одежду по погоде'
+];
+
+function renderWeather() {
+  var box = document.getElementById('weatherCards');
+  box.innerHTML = '';
+  WEATHER.forEach(function (w) {
+    var c = EL.el('div', 'word-card');
+    c.setAttribute('data-say', w.es);
+    c.style.background = 'linear-gradient(140deg, var(--c3), var(--c1))';
+    c.innerHTML = '<span class="emoji">' + w.e + '</span><span class="es">' + w.es + '</span><span class="ru">' + w.ru + '</span>' +
+      '<button class="mic-btn" data-mic="' + w.es + '" data-step="3">🎤</button>';
+    box.appendChild(c);
+  });
+}
+
+/* --------------------- ШАГ 5: одеваем персонажа --------------------- */
+var dressRound = 0, dressLocked = false, DRESS_TOTAL = 6, dressWeather = null;
+
+function pickWeather() { return WEATHER[Math.floor(Math.random() * WEATHER.length)]; }
+
+function renderDressRound() {
+  var opts = document.getElementById('dressOptions');
+  var bubble = document.getElementById('dressWeather');
+  var prog = document.getElementById('dressProgress');
+  prog.textContent = 'Раундов: ' + dressRound + ' из ' + DRESS_TOTAL;
+
+  if (dressRound >= DRESS_TOTAL) {
+    bubble.textContent = ' ¡Perfecto! Ты одол персонажа по погоде!';
+    opts.innerHTML = '';
+    prog.classList.add('complete');
+    return;
+  }
+
+  dressWeather = pickWeather();
+  bubble.textContent = 'Сегодня: ' + dressWeather.e + ' ' + dressWeather.es + ' (' + dressWeather.ru + ')';
+  EL.speak('Hace ' + (dressWeather.cold ? 'frío' : 'calor') + '. ¿Qué ropa te pones?');
+
+  opts.innerHTML = '';
+  var right = CLOTHES.filter(function (c) { return c.cold === dressWeather.cold; });
+  var wrong = CLOTHES.filter(function (c) { return c.cold !== dressWeather.cold; });
+  var answer = right[Math.floor(Math.random() * right.length)];
+  var pool = EL.shuffle([answer].concat(EL.shuffle(wrong).slice(0, 2)));
+
+  EL.shuffle(pool).forEach(function (c) {
+    var b = EL.el('button', 'animal-card');
+    b.dataset.key = c.es;
+    b.innerHTML = '<span style="font-size:2.2em">' + c.e + '</span><span class="es">' + c.es + '</span><span class="ru">' + c.ru + '</span>';
+    b.addEventListener('click', function () {
+      if (dressLocked) return;
+      dressLocked = true;
+      if (c.es === answer.es) {
+        b.classList.add('right');
+        b.style.borderColor = '#2C5F8A';
+        EL.speak('Hoy ' + dressWeather.es + '. Llevo ' + c.es + '.');
+        EL.say(5, ' ¡Muy bien! ' + dressWeather.es + ' — значит ' + c.es + '.', 'success');
+        dressRound++;
+        EL.set('dressRound', dressRound);
+      } else {
+        b.classList.add('wrong');
+        EL.say(5, ' ¡Casi! При «' + dressWeather.es + '» это не подходит. Подумай ещё!', 'error');
+      }
+      setTimeout(function () { dressLocked = false; renderDressRound(); }, 1400);
+    });
+    opts.appendChild(b);
+  });
+}
+
+document.getElementById('dressStart').addEventListener('click', function () {
+  dressRound = EL.get('dressRound', 0);
+  renderDressRound();
+  EL.say(5, ' ¡Jugar! Смотри на погоду и выбирай одежду.', 'info');
+});
+
+EL.init({
+  id: 15,
+  rate: 0.72,
+  resumeMsg: ' Продолжить урок 15 с шага ',
+  onStep: function (n) {
+    if (n === 3) { renderWeather(); EL.memory(MEMORY, { step: 3 }); }
+    if (n === 5) { dressRound = EL.get('dressRound', 0); renderDressRound(); }
+    if (n === 6) EL.quiz(QUIZ, { step: 6 });
+    if (n === 7) EL.canDo(CAN_DO);
+  },
+  onRestart: function () { renderWeather(); EL.memory(MEMORY, { step: 3 }); dressRound = 0; renderDressRound(); }
+});
+</script>
+
+<script src="assets/gate.js"></script>
+</body>
+</html>

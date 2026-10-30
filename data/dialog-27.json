@@ -1,0 +1,307 @@
+{
+  "id": 27,
+  "title": "El hotel en San Petersburgo",
+  "titleRu": "Отель в Санкт-Петербурге",
+  "part": 3,
+  "level": "B1",
+  "theme": "Отель, заселение, завтрак  El hotel, el alojamiento, el desayuno",
+  "characters": ["carlos", "luis", "recepcionista"],
+  "objectives": [
+    "Использовать безличную конструкцию se + verbo: el desayuno se sirve, se paga al final",
+    "Говорить о времени и расписании: desde... hasta..., veinticuatro horas",
+    "Задавать вопросы о правилах отеля с poder / deber + infinitivo: ¿lo debemos hacer ahora?, ¿podemos pagar al final?",
+    "Использовать относительные местоимения: el hotel donde nos vamos a hospedar",
+    "Понимать слова по теме «отель, номер, завтрак»: la habitación, la llave, el desayuno, la planta baja"
+  ],
+  "grammar": {
+    "se_pasiva": {
+      "title": "SE + verbo: el desayuno se sirve, se paga",
+      "description": "Безличная конструкция se + verbo в 3-м лице — «предмет делается, существует действие»: El desayuno se sirve desde las ocho (завтрак подаётся с восьми), Se paga al final (оплата в конце). С plural: se llenan los impresos (заполняются бланки). Переводится как «подаётся», «оплачивается».",
+      "list": [
+        { "es": "el desayuno se sirve desde las ocho", "ru": "завтрак подаётся с восьми" },
+        { "es": "se paga al final de la estancia", "ru": "оплата в конце пребывания" },
+        { "es": "los impresos se llenan en recepción", "ru": "бланки заполняются на ресепшене" },
+        { "es": "la habitación se encuentra en el quinto piso", "ru": "номер находится на пятом этаже" },
+        { "es": "¿se puede pagar con tarjeta?", "ru": "можно оплатить карточкой?" }
+      ],
+      "examples": [
+        { "es": "El desayuno se sirve desde las ocho hasta las diez y media.", "ru": "Завтрак подаётся с восьми до половины одиннадцатого." },
+        { "es": "Pueden pagar antes de irse, no hay problema.", "ru": "Вы можете оплатить перед отъездом, нет проблем." }
+      ]
+    },
+    "desde_hasta": {
+      "title": "DESDE... HASTA...: время работы и расписание",
+      "description": "DESDE... HASTA... — «с... до...»: desde las ocho hasta las diez y media (с восьми до половины одиннадцатого). Вопрос о времени: ¿Hasta qué hora...? (до какого часа?). Estamos abiertos veinticuatro horas (мы работаем круглосуточно).",
+      "list": [
+        { "es": "desde las ocho hasta las diez y media", "ru": "с восьми до половины одиннадцатого" },
+        { "es": "estamos abiertos veinticuatro horas", "ru": "мы открыты круглосуточно" },
+        { "es": "¿hasta qué hora podemos volver?", "ru": "до какого часа мы можем вернуться?" },
+        { "es": "desde el lunes hasta el viernes", "ru": "с понедельника по пятницу" },
+        { "es": "abierto desde las seis de la mañana", "ru": "открыто с шести утра" }
+      ],
+      "examples": [
+        { "es": "El desayuno se sirve desde las ocho hasta las diez y media.", "ru": "Завтрак подаётся с восьми до половины одиннадцатого." },
+        { "es": "¿Hasta qué hora podemos volver al hotel?", "ru": "До какого часа мы можем вернуться в отель?" }
+      ]
+    },
+    "poder_deber": {
+      "title": "PODER, DEBER + infinitivo: просьбы и правила отеля",
+      "description": "PODER — «мочь»: ¿Puedo pagar con tarjeta? (могу оплатить картой?), podemos pagar al final (мы можем заплатить в конце). DEBER — «должен»: ¿Lo debemos hacer ahora? (мы должны сделать это сейчас?). Оба глагола + infinitivo.",
+      "forms": {
+        "yo": { "es": "¿puedo llevar la guía?", "ru": "могу я взять путеводитель?" },
+        "tu": { "es": "puedes volver tarde", "ru": "ты можешь вернуться поздно" },
+        "el_ella": { "es": "puede pagar antes de irse", "ru": "он может оплатить перед отъездом" },
+        "nosotros": { "es": "podemos pagar al final de nuestra estancia", "ru": "мы можем оплатить в конце нашего пребывания" },
+        "vosotros": { "es": "podéis llenar los impresos", "ru": "вы можете заполнить бланки" },
+        "ellos_ellas": { "es": "deben entregar los pasaportes", "ru": "они должны сдать паспорта" }
+      },
+      "examples": [
+        { "es": "¿Lo debemos hacer ahora o podemos pagar al final de nuestra estancia?", "ru": "Мы должны сделать это сейчас или можем заплатить в конце нашего пребывания?" },
+        { "es": "Pueden pagar antes de irse, no hay problema.", "ru": "Вы можете оплатить перед отъездом, нет проблем." }
+      ]
+    },
+    "relativos": {
+      "title": "Относительные местоимения QUE, DONDE",
+      "description": "QUE — «который/которая»: la recepcionista que nos atiende (администратор, которая нас обслуживает). DONDE — «где»: el hotel donde nos vamos a hospedar (отель, где мы остановимся). Относительные местоимения связывают части предложения.",
+      "list": [
+        { "es": "el hotel donde nos vamos a hospedar", "ru": "отель, где мы остановимся" },
+        { "es": "la recepcionista que nos atiende", "ru": "администратор, которая нас обслуживает" },
+        { "es": "la habitación que tiene cuarto de baño privado", "ru": "номер, в котором есть отдельная ванная" },
+        { "es": "las máquinas que venden dulces", "ru": "автоматы, которые продают сладости" },
+        { "es": "el mapa que me lleva hoy", "ru": "карта, которую я беру сегодня" }
+      ],
+      "examples": [
+        { "es": "Este es el hotel donde nos vamos a hospedar.", "ru": "Итак, это отель, где мы остановимся." },
+        { "es": "La guía que me llevo es gratis.", "ru": "Путеводитель, который я беру, бесплатный." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "el_hotel": [
+      { "es": "el hotel", "ru": "отель" },
+      { "es": "la habitación", "ru": "номер (комната)" },
+      { "es": "la recepcionista", "ru": "администратор (на ресепшене)" },
+      { "es": "la planta baja", "ru": "первый этаж" },
+      { "es": "el quinto piso", "ru": "пятый этаж" },
+      { "es": "la llave tarjeta", "ru": "ключ-карточка" }
+    ],
+    "la_habitacion": [
+      { "es": "el cuarto de baño", "ru": "ванная комната" },
+      { "es": "el aire acondicionado", "ru": "кондиционер" },
+      { "es": "la caja fuerte", "ru": "сейф" },
+      { "es": "la tetera", "ru": "чайник" },
+      { "es": "la nevera", "ru": "холодильник" },
+      { "es": "el impreso", "ru": "бланк, анкета" },
+      { "es": "la estancia", "ru": "пребывание" }
+    ],
+    "el_desayuno": [
+      { "es": "el desayuno", "ru": "завтрак" },
+      { "es": "los huevos", "ru": "яйца" },
+      { "es": "las tostadas", "ru": "тосты" },
+      { "es": "la mantequilla", "ru": "сливочное масло" },
+      { "es": "la mermelada", "ru": "джем" },
+      { "es": "el queso", "ru": "сыр" },
+      { "es": "los productos lácteos", "ru": "молочные продукты" },
+      { "es": "el zumo", "ru": "сок" },
+      { "es": "las máquinas expendedoras", "ru": "торговые автоматы" },
+      { "es": "los dulces", "ru": "сладости" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Carlos", "es": "Bueno, este es el hotel donde nos vamos a hospedar.", "ru": "Итак, вот отель, где мы остановимся." },
+    { "speaker": "Luis", "es": "Uf, ¡qué cansancio! Mi mochila pesa un montón.", "ru": "Уф, как я устал! Мой рюкзак такой тяжёлый!" },
+    { "speaker": "La recepcionista", "es": "Buenas tardes. ¿Tienen reservada la habitación?", "ru": "Добрый день. У вас забронирована комната?" },
+    { "speaker": "Carlos", "es": "Sí, a nombre de Carlos Méndez.", "ru": "Да, на имя Карлоса Мендеса." },
+    { "speaker": "La recepcionista", "es": "Está bien. Necesito sus pasaportes... Les pido llenar estos impresos mientras arreglo todo. ¿Van a pagar con tarjeta o en efectivo?", "ru": "Хорошо. Мне нужны ваши паспорта... Прошу вас заполнить эти бланки, пока я всё приготовлю. Будете платить карточкой или наличными?" },
+    { "speaker": "Carlos", "es": "Con tarjeta. ¿Lo debemos hacer ahora o podemos pagar al final de nuestra estancia?", "ru": "Карточкой. Мы должны сделать это сейчас или можем заплатить в конце нашего пребывания?" },
+    { "speaker": "La recepcionista", "es": "Pueden pagar antes de irse, no hay problema.", "ru": "Вы можете оплатить перед отъездом, нет проблем." },
+    { "speaker": "Luis", "es": "El desayuno está incluido en el precio, ¿verdad?", "ru": "Завтрак включён в цену, правда?" },
+    { "speaker": "La recepcionista", "es": "Sí, el desayuno se sirve desde las ocho hasta las diez y media. Incluye huevos, tostadas, pan con mantequilla o mermelada, queso, productos lácteos, cereales, café, té, zumo.", "ru": "Да, завтрак подаётся с восьми до половины одиннадцатого. Включает в себя яйца, тосты, хлеб с маслом или джемом, сыр, молочные продукты, каши, кофе, чай, сок." },
+    { "speaker": "Luis", "es": "¿No tienen zona de autoservicio?", "ru": "У вас нет зоны самообслуживания?" },
+    { "speaker": "La recepcionista", "es": "Por desgracia, no. En la planta baja van a encontrar máquinas expendedoras con bebidas y dulces.", "ru": "К сожалению, нет. На первом этаже вы найдёте автоматы с напитками и сладостями." },
+    { "speaker": "Carlos", "es": "¿Hasta qué hora podemos volver al hotel?", "ru": "До какого часа мы можем вернуться в отель?" },
+    { "speaker": "La recepcionista", "es": "Estamos abiertos veinticuatro horas. Pues, ahora les cuento todo. Su habitación está en el quinto piso, número 512. Aquí tienen la llave tarjeta. La habitación tiene cuarto de baño privado, aire acondicionado, caja fuerte, una tetera y una nevera pequeña.", "ru": "Мы открыты круглосуточно. Итак, сейчас я вам всё расскажу. Ваша комната находится на пятом этаже, номер 512. Вот ваш ключ-карточка. В комнате есть ванная комната, кондиционер, сейф, чайник и маленький холодильник." },
+    { "speaker": "Luis", "es": "¿Puedo llevarme este mapa de la ciudad y la guía?", "ru": "Могу взять эту карту города и путеводитель?" },
+    { "speaker": "La recepcionista", "es": "Sí, por supuesto.", "ru": "Да, конечно." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el hotel", "ru": "отель" },
+        { "es": "la habitación", "ru": "номер (комната)" },
+        { "es": "la recepcionista", "ru": "администратор (на ресепшене)" },
+        { "es": "la planta baja", "ru": "первый этаж" },
+        { "es": "el quinto piso", "ru": "пятый этаж" },
+        { "es": "la llave tarjeta", "ru": "ключ-карточка" },
+        { "es": "el cuarto de baño", "ru": "ванная комната" },
+        { "es": "el aire acondicionado", "ru": "кондиционер" },
+        { "es": "la caja fuerte", "ru": "сейф" },
+        { "es": "la tetera", "ru": "чайник" }
+      ]
+    },
+    {
+      "type": "fill-gap-se_pasiva",
+      "title": "Практика: SE + verbo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "El desayuno se ___ desde las ocho hasta las diez y media.", "ru": "Завтрак подаётся с восьми до половины одиннадцатого", "answer": "sirve", "options": ["sirve", "sirven", "servir"] },
+        { "text": "¿Se ___ con tarjeta o en efectivo?", "ru": "Оплата карточкой или наличными?", "answer": "paga", "options": ["paga", "pagan", "pagar"] },
+        { "text": "La habitación 512 se ___ en el quinto piso.", "ru": "Номер 512 находится на пятом этаже", "answer": "encuentra", "options": ["encuentra", "encuentran", "encontrar"] },
+        { "text": "Los impresos se ___ en recepción.", "ru": "Бланки заполняются на ресепшене", "answer": "llenan", "options": ["llenan", "llena", "llenar"] },
+        { "text": "Aquí se ___ la llave tarjeta de su habitación.", "ru": "Здесь выдаётся ключ-карточка от вашего номера", "answer": "entrega", "options": ["entrega", "entregan", "entregar"] }
+      ]
+    },
+    {
+      "type": "fill-gap-desde_hasta",
+      "title": "Практика: DESDE... HASTA...",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "El desayuno se sirve desde las ocho ___ las diez y media.", "ru": "Завтрак подаётся с восьми до половины одиннадцатого", "answer": "hasta", "options": ["hasta", "desde", "por"] },
+        { "text": "Estamos abiertos ___ horas.", "ru": "Мы открыты круглосуточно", "answer": "veinticuatro", "options": ["veinticuatro", "doce", "ocho"] },
+        { "text": "¿___ qué hora podemos volver al hotel?", "ru": "До какого часа мы можем вернуться в отель?", "answer": "Hasta", "options": ["Hasta", "Desde", "A"] },
+        { "text": "La recepción está abierta desde las ___ hasta las ocho.", "ru": "Ресепшен открыт с шести до восьми", "answer": "seis", "options": ["seis", "diez", "dos"] },
+        { "text": "No hay ___; pueden pagar al final.", "ru": "Нет проблем; можете оплатить в конце", "answer": "problema", "options": ["problema", "prisa", "suerte"] }
+      ]
+    },
+    {
+      "type": "fill-gap-poder_deber",
+      "title": "Практика: PODER, DEBER + infinitivo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Lo ___ hacer ahora o podemos pagar al final?", "ru": "Мы должны сделать это сейчас или можем заплатить в конце?", "answer": "debemos", "options": ["debemos", "debo", "deben"] },
+        { "text": "Los huéspedes ___ llenar los impresos.", "ru": "Гости должны заполнить бланки", "answer": "deben", "options": ["deben", "debemos", "debe"] },
+        { "text": "¿___ pagar en efectivo o con tarjeta?", "ru": "Можно оплатить наличными или карточкой?", "answer": "se puede", "options": ["se puede", "se pueden", "puede"] },
+        { "text": "Podemos ___ al final de nuestra estancia.", "ru": "Мы можем заплатить в конце нашего пребывания", "answer": "pagar", "options": ["pagar", "pago", "pagamos"] },
+        { "text": "¿___ volver al hotel a cualquier hora?", "ru": "Мы можем вернуться в отель в любое время?", "answer": "Podemos", "options": ["Podemos", "Pueden", "Puedo"] }
+      ]
+    },
+    {
+      "type": "fill-gap-relativos",
+      "title": "Практика: относительные QUE, DONDE",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Este es el hotel ___ nos vamos a hospedar.", "ru": "Это отель, где мы остановимся", "answer": "donde", "options": ["donde", "que", "quien"] },
+        { "text": "La recepcionista, ___ nos atiende, es muy amable.", "ru": "Администратор, которая нас обслуживает, очень любезная", "answer": "que", "options": ["que", "donde", "quien"] },
+        { "text": "La guía ___ me llevo es gratis.", "ru": "Путеводитель, который я беру, бесплатный", "answer": "que", "options": ["que", "donde", "quien"] },
+        { "text": "La nevera ___ hay en la habitación es pequeña.", "ru": "Холодильник, который есть в номере, маленький", "answer": "que", "options": ["que", "donde", "cual"] },
+        { "text": "La planta baja, ___ están las máquinas, tiene dulces.", "ru": "На первом этаже, где стоят автоматы, есть сладости", "answer": "donde", "options": ["donde", "que", "quien"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "El desayuno se ___ desde las ocho hasta las diez y media.", "ru": "Завтрак подаётся с восьми до половины одиннадцатого", "answer": "sirve", "options": ["sirve", "sirven", "servir"] },
+        { "text": "¿___ lo hacer ahora o podemos pagar al final?", "ru": "Мы должны сделать это сейчас или можем заплатить в конце?", "answer": "debemos", "options": ["debemos", "debo", "deben"] },
+        { "text": "Este es el hotel ___ nos vamos a hospedar.", "ru": "Это отель, где мы остановимся", "answer": "donde", "options": ["donde", "que", "quien"] },
+        { "text": "Estamos abiertos ___ horas.", "ru": "Мы открыты круглосуточно", "answer": "veinticuatro", "options": ["veinticuatro", "doce", "ocho"] },
+        { "text": "¿___ van a pagar: con tarjeta o en efectivo?", "ru": "Чем будете платить: карточкой или наличными?", "answer": "Cómo", "options": ["Cómo", "Qué", "Cuándo"] },
+        { "text": "Su habitación está en el ___ piso, número 512.", "ru": "Ваш номер находится на пятом этаже, номер 512", "answer": "quinto", "options": ["quinto", "sexto", "segundo"] },
+        { "text": "La habitación tiene cuarto de baño privado y aire ___.", "ru": "В номере есть ванная комната и кондиционер", "answer": "acondicionado", "options": ["acondicionado", "libre", "fuerte"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Ты — гость отеля, заселяешься и узнаёшь, как здесь всё устроено"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь администратором отеля",
+      "role": "La recepcionista",
+      "description": "Ты — администратор отеля, регистрируешь гостей и рассказываешь им про отель"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Разыграй заселение в отель",
+      "template": [
+        { "label": "Это отель, где мы остановимся", "es": "Este es el hotel ___ nos vamos a hospedar" },
+        { "label": "У вас забронирована комната?", "es": "¿Tienen ___ la habitación?" },
+        { "label": "Завтрак подаётся с восьми до половины одиннадцатого", "es": "El desayuno se ___ desde las ocho hasta las diez y media" },
+        { "label": "Будете платить карточкой или наличными?", "es": "¿Van a ___ con tarjeta o en efectivo?" },
+        { "label": "Можно оплатить перед отъездом", "es": "Pueden ___ antes de irse" },
+        { "label": "Мой рюкзак такой тяжёлый!", "es": "Mi mochila ___ un montón" },
+        { "label": "На первом этаже вы найдёте автоматы", "es": "En la ___ baja van a encontrar máquinas" },
+        { "label": "Комната находится на пятом этаже", "es": "La habitación está en el ___ piso" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿A nombre de quién está reservada la habitación?",
+          "ru": "На чьё имя забронирован номер?",
+          "options": ["De Carlos Méndez", "De Luis", "De la recepcionista", "No está reservada"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué pide la recepcionista al principio?",
+          "ru": "Что администратор просит в начале?",
+          "options": ["La llave tarjeta", "El desayuno", "Un impreso", "Sus pasaportes"],
+          "answer": 3
+        },
+        {
+          "question": "¿Cómo van a pagar Carlos y Luis?",
+          "ru": "Как Карлос и Луис будут платить?",
+          "options": ["En efectivo", "Con tarjeta", "Con un cheque", "No van a pagar"],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuándo pueden pagar la habitación?",
+          "ru": "Когда можно оплатить номер?",
+          "options": ["Antes de irse", "Al principio de la estancia", "Cada mañana", "No pueden pagar"],
+          "answer": 0
+        },
+        {
+          "question": "¿Desde qué hora se sirve el desayuno?",
+          "ru": "С какого часа подаётся завтрак?",
+          "options": ["Desde las seis", "Desde las ocho hasta las diez y media", "Durante todo el día", "A partir de las doce"],
+          "answer": 1
+        },
+        {
+          "question": "¿Dónde están las máquinas expendedoras?",
+          "ru": "Где находятся торговые автоматы?",
+          "options": ["En la quinta planta", "En la planta baja", "En la calle", "En la habitación"],
+          "answer": 1
+        },
+        {
+          "question": "¿Hasta qué hora está abierto el hotel?",
+          "ru": "До какого часа отель открыт?",
+          "options": ["Veinticuatro horas", "Hasta la medianoche", "Hasta las diez", "Solo por la mañana"],
+          "answer": 0
+        },
+        {
+          "question": "¿En qué piso está la habitación 512?",
+          "ru": "На каком этаже находится номер 512?",
+          "options": ["En el segundo piso", "En la planta baja", "En el quinto piso", "En el sexto piso"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué tiene la habitación del hotel?",
+          "ru": "Что есть в номере отеля?",
+          "options": ["Solo una cama y un armario", "Una cocina completa", "Un garaje", "Cuarto de baño privado, aire acondicionado y nevera"],
+          "answer": 3
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 минут: повтори слова по теме «отель, заселение, завтрак»",
+    "Практика: расскажи, как ты заселяешься в отель. Используй: la habitación está reservada..., ¿puedo pagar al final?, el desayuno se sirve..., desde... hasta...",
+    "Дневник: опиши отель, в котором ты останавливался(лась) в поездке. Что было в номере? Что входило в завтрак?",
+    "Грамматика: составь 3 предложения с se sirve / se paga, 3 с desde... hasta... и 3 с ¿puedo...? / ¿podemos...?"
+  ]
+}

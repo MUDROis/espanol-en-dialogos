@@ -1,0 +1,704 @@
+{
+  "id": 60,
+  "title": "En la cafetería",
+  "titleRu": "В кафе: первый заказ",
+  "module": "a0-a1",
+  "block": 1,
+  "part": 1,
+  "blockTitle": "Часть 1 · Начальный уровень",
+  "level": "A0",
+  "theme": "Кафе и первый заказ  La cafetería y el primer pedido",
+  "mission": "Самостоятельно заказать завтрак в кафе и попросить счёт — ежедневная «миссия выживания».",
+  "mapPoint": "Кафе на площади: первый завтрак",
+  "duration": "45 минут",
+  "stepsCount": 7,
+  "readingNote": "Прочитайте заказ вслух: c = [к] в café, qu = [к] в quiero и лёгкое r в конце слова por.",
+  "characters": [
+    "olga",
+    "camarero_cafe"
+  ],
+  "objectives": [
+    "Заказать напиток и еду по формуле quiero …, por favor",
+    "Понять вопрос официанта ¿algo más? и ответить: no, nada más, gracias",
+    "Попросить счёт и понять сумму на слух: ¿cuánto es? — son dos euros con ochenta",
+    "Сказать «вот, пожалуйста», отдавая деньги: aquí tiene",
+    "Читать c = [к] и [с], сочетание qu = [к] и различать r / rr"
+  ],
+  "readingMini": {
+    "title": "C, qu y r: как читать меню",
+    "description": "Буква c двуликая: перед a, o, u она читается как [к] (café, cuenta), а перед e, i — как межзубный [с]. Сочетание qu всегда твёрдое [к], а буква u не читается: quiero звучит «кье́ро», а не «кьиэ́ро». Буква r между гласными лёгкая (pero — «но»), а rr раскатистая (perro — «пёс»).",
+    "words": [
+      {
+        "es": "café",
+        "how": "«ка-фэ́» — c перед a = [к]"
+      },
+      {
+        "es": "cuenta",
+        "how": "«куэн-та» — cu = [к]"
+      },
+      {
+        "es": "quiero",
+        "how": "«кье-ро» — qu = [к], u не читается"
+      },
+      {
+        "es": "tostada",
+        "how": "«тос-та-да» — r лёгкая"
+      },
+      {
+        "es": "por",
+        "how": "«пор» — r в конце слова лёгкая"
+      },
+      {
+        "es": "pero",
+        "how": "«пе-ро» — r между гласными лёгкая"
+      },
+      {
+        "es": "perro",
+        "how": "«пэ-рро» — rr раскатистая"
+      }
+    ]
+  },
+  "grammar": {
+    "quiero_orden": {
+      "title": "Quiero + un / una + слово — формула заказа",
+      "description": "Сказать «хочу кофе с молоком, пожалуйста» можно по схеме-конструктору: [quiero] + [un café con leche] + [por favor]. После quiero нужен артикль un / una — так же, как в уроке 5: quiero un café, quiero una tostada. Две позиции соединяются союзом y: quiero un café con leche y una tostada.",
+      "forms": {
+        "yo": {
+          "es": "quiero un café con leche",
+          "ru": "я хочу кофе с молоком"
+        },
+        "tu": {
+          "es": "quieres un té",
+          "ru": "ты хочешь чай"
+        },
+        "el_ella": {
+          "es": "quiere un zumo",
+          "ru": "он хочет сок"
+        },
+        "nosotros": {
+          "es": "queremos una tostada",
+          "ru": "мы хотим тост"
+        }
+      },
+      "examples": [
+        {
+          "es": "Un café con leche y una tostada, por favor.",
+          "ru": "Кофе с молоком и тост, пожалуйста."
+        },
+        {
+          "es": "Quiero un bocadillo, por favor.",
+          "ru": "Я хочу бутерброд, пожалуйста."
+        }
+      ]
+    },
+    "cortesia_y_aqui_tiene": {
+      "title": "Por favor, gracias, ¿algo más? — вежливый заказ",
+      "description": "Вежливый заказ держится на трёх коротких словах: por favor (пожалуйста) — в конце фразы, gracias (спасибо) — в ответ на любую услугу. Официант почти всегда спрашивает ¿Algo más? (что-нибудь ещё?), а вежливый отказ — no, nada más, gracias. Деньги передают словами aquí tiene («вот, пожалуйста»).",
+      "list": [
+        {
+          "es": "por favor",
+          "ru": "пожалуйста"
+        },
+        {
+          "es": "gracias",
+          "ru": "спасибо"
+        },
+        {
+          "es": "¿algo más?",
+          "ru": "что-нибудь ещё?"
+        },
+        {
+          "es": "no, nada más",
+          "ru": "нет, больше ничего"
+        },
+        {
+          "es": "aquí tiene",
+          "ru": "вот, пожалуйста (передавая деньги)"
+        },
+        {
+          "es": "la cuenta, por favor",
+          "ru": "счёт, пожалуйста"
+        }
+      ],
+      "examples": [
+        {
+          "es": "— ¿Algo más? — No, nada más, gracias.",
+          "ru": "— Что-нибудь ещё? — Нет, больше ничего, спасибо."
+        },
+        {
+          "es": "Aquí tiene. ¡Gracias!",
+          "ru": "Вот, пожалуйста. Спасибо!"
+        }
+      ]
+    },
+    "cuanto_es": {
+      "title": "¿Cuánto es? — счёт и сумма",
+      "description": "Вопрос о счёте — ¿Cuánto es? (сколько всего?). Ответ зависит от числа позиций: одна позиция — es (un euro), несколько — son (son dos euros). Никаких правил: просто следи за количеством. Сумму полезно повторить за официантом: dos euros con ochenta — два евро восемьдесят.",
+      "list": [
+        {
+          "es": "¿Cuánto es?",
+          "ru": "сколько всего?"
+        },
+        {
+          "es": "Es un euro.",
+          "ru": "это одно евро."
+        },
+        {
+          "es": "Son dos euros.",
+          "ru": "это два евро."
+        },
+        {
+          "es": "Son dos euros con ochenta.",
+          "ru": "два евро восемьдесят."
+        },
+        {
+          "es": "Dos euros con ochenta, gracias.",
+          "ru": "Два евро восемьдесят, спасибо."
+        }
+      ],
+      "examples": [
+        {
+          "es": "¿Cuánto es? — Son dos euros con ochenta.",
+          "ru": "Сколько всего? — Два евро восемьдесят."
+        },
+        {
+          "es": "El café: un euro. La tostada: un euro con ochenta.",
+          "ru": "Кофе — евро. Тост — евро восемьдесят."
+        }
+      ]
+    }
+  },
+  "vocabulary": {
+    "el_desayuno": [
+      {
+        "es": "el café",
+        "ru": "кофе"
+      },
+      {
+        "es": "el café con leche",
+        "ru": "кофе с молоком"
+      },
+      {
+        "es": "el té",
+        "ru": "чай"
+      },
+      {
+        "es": "el agua",
+        "ru": "вода"
+      },
+      {
+        "es": "el zumo",
+        "ru": "сок"
+      },
+      {
+        "es": "el pan",
+        "ru": "хлеб"
+      },
+      {
+        "es": "el bocadillo",
+        "ru": "бутерброд"
+      },
+      {
+        "es": "la tostada",
+        "ru": "тост"
+      }
+    ],
+    "en_la_barra": [
+      {
+        "es": "por favor",
+        "ru": "пожалуйста"
+      },
+      {
+        "es": "la cuenta",
+        "ru": "счёт"
+      },
+      {
+        "es": "¿cuánto es?",
+        "ru": "сколько всего?"
+      },
+      {
+        "es": "quiero",
+        "ru": "я хочу"
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "Olga",
+      "es": "Buenos días. ¿Cuánto es un café con leche?",
+      "ru": "Доброе утро. Сколько стоит кофе с молоком?"
+    },
+    {
+      "speaker": "El camarero",
+      "es": "Un euro, señora.",
+      "ru": "Одно евро, сеньора."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Quiero un café con leche, por favor.",
+      "ru": "Я хочу кофе с молоком, пожалуйста."
+    },
+    {
+      "speaker": "El camarero",
+      "es": "¿Algo más?",
+      "ru": "Что-нибудь ещё?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Una tostada, por favor.",
+      "ru": "Тост, пожалуйста."
+    },
+    {
+      "speaker": "El camarero",
+      "es": "¿Algo más?",
+      "ru": "Что-нибудь ещё?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "No, nada más, gracias.",
+      "ru": "Нет, больше ничего, спасибо."
+    },
+    {
+      "speaker": "El camarero",
+      "es": "Vale. Aquí tiene.",
+      "ru": "Хорошо. Вот, пожалуйста."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Gracias. La cuenta, por favor.",
+      "ru": "Спасибо. Счёт, пожалуйста."
+    },
+    {
+      "speaker": "El camarero",
+      "es": "Son dos euros con ochenta.",
+      "ru": "Два евро восемьдесят."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Aquí tiene.",
+      "ru": "Вот, пожалуйста."
+    },
+    {
+      "speaker": "El camarero",
+      "es": "Gracias. Que tenga un buen día, señora.",
+      "ru": "Спасибо. Хорошего дня, сеньора."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Gracias. Hasta luego.",
+      "ru": "Спасибо. До скорого."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары: меню и перевод",
+      "description": "Найди соответствие между позицией меню и переводом. Слова учим сразу с артиклем",
+      "pairs": [
+        {
+          "es": "el café",
+          "ru": "кофе"
+        },
+        {
+          "es": "el café con leche",
+          "ru": "кофе с молоком"
+        },
+        {
+          "es": "el té",
+          "ru": "чай"
+        },
+        {
+          "es": "el agua",
+          "ru": "вода"
+        },
+        {
+          "es": "el zumo",
+          "ru": "сок"
+        },
+        {
+          "es": "el pan",
+          "ru": "хлеб"
+        },
+        {
+          "es": "el bocadillo",
+          "ru": "бутерброд"
+        },
+        {
+          "es": "la tostada",
+          "ru": "тост"
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-quiero_orden",
+      "title": "Практика: формула заказа quiero",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Un café con leche, ___ favor.",
+          "ru": "Кофе с молоком, пожалуйста",
+          "answer": "por",
+          "options": [
+            "por",
+            "para",
+            "con"
+          ]
+        },
+        {
+          "text": "___ un té, por favor.",
+          "ru": "Я хочу чай, пожалуйста",
+          "answer": "Quiero",
+          "options": [
+            "Quiero",
+            "Tienes",
+            "Tengo"
+          ]
+        },
+        {
+          "text": "Una tostada ___ un zumo.",
+          "ru": "Тост и сок",
+          "answer": "y",
+          "options": [
+            "y",
+            "o",
+            "e"
+          ]
+        },
+        {
+          "text": "Nosotros ___ una tostada.",
+          "ru": "Мы хотим тост",
+          "answer": "queremos",
+          "options": [
+            "queremos",
+            "quieren",
+            "quiero"
+          ]
+        },
+        {
+          "text": "Quiero un café ___ leche.",
+          "ru": "Я хочу кофе с молоком",
+          "answer": "con",
+          "options": [
+            "con",
+            "sin",
+            "de"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-cortesia_y_aqui_tiene",
+      "title": "Практика: вежливый заказ",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "— ¿Algo más? — No, ___ más, gracias.",
+          "ru": "— Что-нибудь ещё? — Нет, больше ничего, спасибо",
+          "answer": "nada",
+          "options": [
+            "nada",
+            "algo",
+            "otro"
+          ]
+        },
+        {
+          "text": "Aquí ___ .",
+          "ru": "Вот, пожалуйста (передаёт деньги)",
+          "answer": "tiene",
+          "options": [
+            "tiene",
+            "tengo",
+            "tienes"
+          ]
+        },
+        {
+          "text": "Quiero un café, ___ favor.",
+          "ru": "Я хочу кофе, пожалуйста",
+          "answer": "por favor",
+          "options": [
+            "por favor",
+            "por que",
+            "favor"
+          ]
+        },
+        {
+          "text": "— ¿Algo más? — Sí, ___ tostada.",
+          "ru": "— Что-нибудь ещё? — Да, тост",
+          "answer": "una",
+          "options": [
+            "una",
+            "un",
+            "unos"
+          ]
+        },
+        {
+          "text": "— Aquí tiene. — ___ .",
+          "ru": "— Вот, пожалуйста. — Спасибо",
+          "answer": "Gracias",
+          "options": [
+            "Gracias",
+            "Perdón",
+            "¿Cuánto es?"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-cuanto_es",
+      "title": "Практика: счёт и сумма",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "¿Cuánto ___ ?",
+          "ru": "Сколько всего?",
+          "answer": "es",
+          "options": [
+            "es",
+            "está",
+            "son"
+          ]
+        },
+        {
+          "text": "___ dos euros con ochenta.",
+          "ru": "Два евро восемьдесят",
+          "answer": "Son",
+          "options": [
+            "Son",
+            "Es",
+            "Está"
+          ]
+        },
+        {
+          "text": "Es ___ euro.",
+          "ru": "Это одно евро",
+          "answer": "un",
+          "options": [
+            "un",
+            "una",
+            "uno"
+          ]
+        },
+        {
+          "text": "— ¿Cuánto es? — ___ tres euros.",
+          "ru": "— Сколько всего? — Три евро",
+          "answer": "Son",
+          "options": [
+            "Son",
+            "Es",
+            "Hay"
+          ]
+        },
+        {
+          "text": "Dos euros ___ ochenta.",
+          "ru": "Два евро восемьдесят",
+          "answer": "con",
+          "options": [
+            "con",
+            "y",
+            "de"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика урока",
+      "description": "Вставь пропущенное слово: заказ, лексика и счёт",
+      "sentences": [
+        {
+          "text": "El ___ con leche, por favor.",
+          "ru": "Кофе с молоком, пожалуйста",
+          "answer": "café",
+          "options": [
+            "café",
+            "té",
+            "pan"
+          ]
+        },
+        {
+          "text": "Quiero ___ tostada.",
+          "ru": "Я хочу тост",
+          "answer": "una",
+          "options": [
+            "una",
+            "un",
+            "uno"
+          ]
+        },
+        {
+          "text": "La ___ , por favor.",
+          "ru": "Счёт, пожалуйста",
+          "answer": "cuenta",
+          "options": [
+            "cuenta",
+            "comida",
+            "carta"
+          ]
+        },
+        {
+          "text": "¿___ es la cuenta?",
+          "ru": "Сколько всего счёт?",
+          "answer": "Cuánto",
+          "options": [
+            "Cuánto",
+            "Qué",
+            "Cómo"
+          ]
+        },
+        {
+          "text": "Aquí ___ , gracias.",
+          "ru": "Вот, пожалуйста, спасибо",
+          "answer": "tiene",
+          "options": [
+            "tiene",
+            "tengo",
+            "tienes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай реплики заказа и повторяй вслух. Следи за c = [к] в café, за qu = [к] в quiero и за лёгким r в por."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Ольгой",
+      "role": "Olga",
+      "description": "Ты — Ольга в кафе на площади. Закажи завтрак из двух позиций, ответь на ¿Algo más?, попроси счёт и отдай деньги: aquí tiene."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь официантом",
+      "role": "El camarero",
+      "description": "Ты — официант кафе. Прими заказ из двух позиций, дважды спроси ¿Algo más?, назови сумму и поблагодари: gracias."
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Собери свой завтрак в кафе: приветствие, заказ, отказ от добавки, счёт и оплата",
+      "template": [
+        {
+          "label": "Доброе утро",
+          "es": "Buenos días."
+        },
+        {
+          "label": "Кофе с молоком, пожалуйста",
+          "es": "Un café con leche, ___ favor."
+        },
+        {
+          "label": "Что-нибудь ещё?",
+          "es": "¿Algo ___ ?"
+        },
+        {
+          "label": "Нет, больше ничего, спасибо",
+          "es": "No, ___ más, gracias."
+        },
+        {
+          "label": "Счёт, пожалуйста",
+          "es": "La cuenta, ___ favor."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Cómo se dice «пожалуйста»?",
+          "ru": "Как сказать «пожалуйста»?",
+          "options": [
+            "por favor",
+            "gracias",
+            "aquí tiene"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "El camarero pregunta: ¿Algo más? ¿Qué dices si no quieres nada más?",
+          "ru": "Официант спрашивает: «Что-нибудь ещё?» Что ты скажешь, если больше ничего не нужно?",
+          "options": [
+            "Sí, un café",
+            "No, nada más, gracias",
+            "La cuenta"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuánto cuesta el café con leche?",
+          "ru": "Сколько стоит кофе с молоком?",
+          "options": [
+            "un euro",
+            "quince euros",
+            "cincuenta euros"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Аудио: «Son dos euros con ochenta». Сколько это?",
+          "ru": "Аудио: «Два евро восемьдесят». Сколько это?",
+          "options": [
+            "8 евро 20",
+            "2 евро 18",
+            "2 евро 80"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "¿Cómo se lee la qu en la palabra quiero?",
+          "ru": "Как читается qu в слове quiero?",
+          "options": [
+            "[ку]",
+            "[к]",
+            "[кв]"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "В счёте две позиции — какой глагол в ответе официанта?",
+          "ru": "В счёте две позиции — какой глагол в ответе официанта?",
+          "options": [
+            "es",
+            "son",
+            "está"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué dices cuando das el dinero?",
+          "ru": "Что ты говоришь, когда отдаёшь деньги?",
+          "options": [
+            "Aquí tiene",
+            "¿Cuánto es?",
+            "¿Algo más?"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Elige el pedido educado:",
+          "ru": "Выбери вежливый заказ:",
+          "options": [
+            "Un café con leche ahora",
+            "Un café con leche, por favor",
+            "¿Un café con leche?"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    "Я делаю заказ из двух позиций: quiero …, por favor",
+    "Я понимаю вопрос ¿Algo más? и вежливо отказываю: no, nada más",
+    "Я прошу счёт и понимаю сумму на слух",
+    "Я отдаю деньги словами aquí tiene и благодарю",
+    "Я читаю меню: c = [к] и [с], qu = [к], r лёгкое"
+  ],
+  "homework": [
+    "Завтра утром «закажи» вслух свой настоящий завтрак по формуле quiero …, por favor",
+    "Прочитай меню кафе вслух по правилам чтения: café, cuenta, quiero, tostada, por",
+    "Запиши 30-секундное аудио: приветствие, заказ, счёт, оплата"
+  ]
+}

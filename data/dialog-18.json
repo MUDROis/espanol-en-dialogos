@@ -1,0 +1,319 @@
+{
+  "id": 18,
+  "title": "Pablo y Laura están en un mercado artesanal",
+  "titleRu": "Пабло и Лаура на рынке ремёсел",
+  "part": 2,
+  "level": "A2",
+  "theme": "Рынок, покупки, цены  El mercado, las compras, los precios",
+  "characters": ["laura", "pablo", "vendedor"],
+  "objectives": [
+    "Спрашивать и называть цену (costar, valer, cuesta, valen)",
+    "Покупать и продавать на рынке (me llevo, aquí tiene el dinero, dos por 12)",
+    "Говорить, из чего сделана вещь (estar + participio: está hecho a mano)",
+    "Сравнивать товары (igual de ... que, más ... que)",
+    "Давать советы (debes andar con cuidado, tener en cuenta)"
+  ],
+  "grammar": {
+    "costar_valer": {
+      "title": "Глаголы цены: COSTAR / VALER",
+      "description": "COSTAR (o → ue) — «стоить»: «¿Cuánto cuesta este broche?» — «Сколько стоит эта брошь?». VALER — «цениться, стоить»: «Estos valen 8 euros, y esos, 12» — «Эти стоят 8 евро, а те — 12».",
+      "forms": {
+        "yo": { "es": "cuesto", "ru": "я стою" },
+        "tu": { "es": "cuestas", "ru": "ты стоишь" },
+        "el_ella": { "es": "cuesta", "ru": "это стоит" },
+        "nosotros": { "es": "costamos", "ru": "мы стоим" },
+        "vosotros": { "es": "costáis", "ru": "вы стоите" },
+        "ellos_ellas": { "es": "cuestan", "ru": "они стоят" }
+      },
+      "examples": [
+        { "es": "¿Cuánto cuestan estos collares?", "ru": "Сколько стоят эти ожерелья?" },
+        { "es": "Este broche cuesta 6 euros.", "ru": "Эта брошь стоит 6 евро." },
+        { "es": "Estos imanes valen 5 euros.", "ru": "Эти магниты стоят 5 евро." }
+      ]
+    },
+    "precio_compra": {
+      "title": "Фразы покупки: ME LLEVO..., DOS POR 12, AQUÍ TIENE EL DINERO",
+      "description": "Покупатель: «me llevo este» — «я беру этот», продавец: «todo por 5 euros» — «всё по 5 евро», «dos por 12» — «две за 12», «aquí tiene el dinero» — «держите деньги».",
+      "list": [
+        { "es": "¿Cuánto cuesta / cuestan...?", "ru": "Сколько стоит / стоят ...?" },
+        { "es": "me llevo este broche", "ru": "я беру эту брошь" },
+        { "es": "todo por 5 euros", "ru": "всё по 5 евро" },
+        { "es": "dos por 12 euros", "ru": "две за 12 евро" },
+        { "es": "aquí tiene el dinero", "ru": "держите деньги" }
+      ],
+      "examples": [
+        { "es": "Bueno, me llevo este broche azul.", "ru": "Хорошо, я беру эту синюю брошь." },
+        { "es": "Todo por 5 euros, muy barato.", "ru": "Всё по 5 евро, очень дёшево." }
+      ]
+    },
+    "hecho_mano": {
+      "title": "Сделан вручную: ESTAR + participio",
+      "description": "ESTAR + причастие описывает результат/состояние: «están hechos a mano» — «сделаны вручную», «está hecha de cerámica» — «сделана из керамики». Причастие согласуется с существительным: hecho (м.р. ед.), hecha (ж.р. ед.), hechos (м.р. мн.), hechas (ж.р. мн.).",
+      "list": [
+        { "es": "está hecho a mano", "ru": "сделан вручную (м.р.)" },
+        { "es": "está hecha a mano", "ru": "сделана вручную (ж.р.)" },
+        { "es": "están hechos a mano", "ru": "сделаны вручную (мн.)" },
+        { "es": "está hecha de cerámica", "ru": "сделана из керамики" }
+      ],
+      "examples": [
+        { "es": "Mira estos collares, están hechos a mano.", "ru": "Посмотри на эти ожерелья, они сделаны вручную." },
+        { "es": "Esta pulsera está hecha a mano.", "ru": "Этот браслет сделан вручную." }
+      ]
+    },
+    "igual_de_que": {
+      "title": "Сравнение: IGUAL DE ... QUE, MÁS ... QUE",
+      "description": "IGUAL DE + прилагательное + QUE — «такой же ... , как»: «Es igual de bonito, pero un poco más caro» — «Она такая же красивая, но немного дороже». MÁS + прилагательное + QUE — «более ... , чем»: «Son más ligeros que los collares».",
+      "list": [
+        { "es": "igual de bonito que", "ru": "такой же красивый, как" },
+        { "es": "un poco más caro", "ru": "немного дороже" },
+        { "es": "más ligeros que", "ru": "более лёгкие, чем" },
+        { "es": "muy original", "ru": "очень оригинальный" }
+      ],
+      "examples": [
+        { "es": "Es igual de bonito, pero un poco más caro.", "ru": "Она такая же красивая, но немного дороже." },
+        { "es": "Los imanes son más ligeros que los collares.", "ru": "Магниты легче, чем ожерелья." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "mercado": [
+      { "es": "el mercado", "ru": "рынок" },
+      { "es": "el mercado artesanal", "ru": "рынок ремёсел" },
+      { "es": "el mercado navideño", "ru": "рождественский рынок" },
+      { "es": "el puesto", "ru": "киоск, прилавок" },
+      { "es": "los días de mercado", "ru": "рыночные дни" },
+      { "es": "la gente", "ru": "народ, люди" },
+      { "es": "el ambiente", "ru": "атмосфера, оживление" },
+      { "es": "el carterista", "ru": "карманник" },
+      { "es": "vender", "ru": "продавать" },
+      { "es": "echar un vistazo", "ru": "взглянуть, посмотреть" }
+    ],
+    "objetos": [
+      { "es": "la lámpara de cerámica", "ru": "керамическая лампа" },
+      { "es": "los adornos", "ru": "украшения" },
+      { "es": "los collares", "ru": "ожерелья" },
+      { "es": "los imanes", "ru": "магниты" },
+      { "es": "los llaveros", "ru": "брелоки" },
+      { "es": "las diademas", "ru": "ободки, диадемы" },
+      { "es": "el broche", "ru": "брошь" },
+      { "es": "la pulsera", "ru": "браслет" },
+      { "es": "los objetos de cerámica", "ru": "керамические изделия" },
+      { "es": "la colección", "ru": "коллекция" }
+    ],
+    "precio": [
+      { "es": "costar", "ru": "стоить" },
+      { "es": "valer", "ru": "стоить, цениться" },
+      { "es": "el euro", "ru": "евро" },
+      { "es": "caro/a", "ru": "дорогой" },
+      { "es": "ligero/a", "ru": "лёгкий" },
+      { "es": "me llevo", "ru": "я беру" },
+      { "es": "¿cuánto cuesta?", "ru": "сколько стоит?" },
+      { "es": "¿cuánto vale?", "ru": "сколько стоит (ценится)?" },
+      { "es": "dos por 12", "ru": "две за 12" },
+      { "es": "aquí tiene el dinero", "ru": "держите деньги" }
+    ],
+    "caracteristicas": [
+      { "es": "bonito/a", "ru": "красивый" },
+      { "es": "precioso/a", "ru": "прекрасный" },
+      { "es": "original", "ru": "оригинальный" },
+      { "es": "hermoso/a", "ru": "красивый, прекрасный" },
+      { "es": "plateado/a", "ru": "серебристый" },
+      { "es": "negro/a", "ru": "чёрный" },
+      { "es": "rojo/a", "ru": "красный" },
+      { "es": "azul", "ru": "синий" },
+      { "es": "animado/a", "ru": "оживлённый" },
+      { "es": "hecho a mano", "ru": "сделанный вручную" },
+      { "es": "igual de bonito que", "ru": "такой же красивый, как" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Laura", "es": "¡Cuánta gente! No se puede ni caminar.", "ru": "Сколько народу! Просто не пройти." },
+    { "speaker": "Pablo", "es": "Sí, los mercados son así. Mira, allí venden unas lámparas de cerámica, voy a echar un vistazo.", "ru": "Да, рынки такие. Смотри, там продают керамические лампы, я посмотрю." },
+    { "speaker": "Laura", "es": "Vale, y yo, mientras, voy a mirar esos adornos bonitos que venden en ese puesto, ¿ves? El rojo.", "ru": "Ладно, а я пока посмотрю те красивые украшения, которые продают в том киоске, видишь? Красный." },
+    { "speaker": "Pablo", "es": "Bueno, te busco en quince minutos.", "ru": "Хорошо, я найду тебя через пятнадцать минут." },
+    { "speaker": "El vendedor", "es": "Buenas tardes, guapa. Mira estos collares, están hechos a mano.", "ru": "Добрый день, красавица. Посмотри на эти ожерелья, они сделаны вручную." },
+    { "speaker": "Laura", "es": "Son preciosos. ¿Cuánto cuestan?", "ru": "Они прекрасны. Сколько они стоят?" },
+    { "speaker": "El vendedor", "es": "Estos valen 8 euros, y esos, 12. Son muy ligeros. Mira también estos imanes, llaveros, diademas... Todo por 5 euros.", "ru": "Эти стоят 8 евро, а те — 12. Они очень лёгкие. Посмотри также на эти магниты, брелоки, ободки... Всё по 5 евро." },
+    { "speaker": "Laura", "es": "¿Cuánto cuesta este broche?", "ru": "Сколько стоит эта брошь?" },
+    { "speaker": "El vendedor", "es": "6 euros. Mira este otro. Es igual de bonito, pero un poco más caro. Si compras uno, cuesta 7 euros, dos por 12.", "ru": "6 евро. Посмотри на эту другую. Она такая же красивая, но немного дороже. Если покупаешь одну — 7 евро, две за 12." },
+    { "speaker": "Laura", "es": "Bueno, me llevo este broche azul y ese, de color plateado. También quiero esta pulsera negra. Aquí tiene el dinero.", "ru": "Хорошо, я беру эту синюю брошь и ту, серебристую. Ещё хочу этот чёрный браслет. Держите деньги." },
+    { "speaker": "El vendedor", "es": "Gracias, hermosa. ¿De dónde eres?", "ru": "Спасибо, красавица. Ты откуда?" },
+    { "speaker": "Laura", "es": "Soy de Suecia, de Estocolmo. También tenemos mercados muy grandes, y yo siempre voy al mercado navideño.", "ru": "Я из Швеции, из Стокгольма. У нас тоже бывают большие рынки, и я всегда хожу на рождественский рынок." },
+    { "speaker": "El vendedor", "es": "Sí, los días de mercado son muy animados. Mucha gente, mucho ambiente. Pero debes tener en cuenta que aquí también hay carteristas. Debes andar con cuidado.", "ru": "Да, рыночные дни очень весёлые. Много народу, много оживления. Но ты должна иметь в виду, что здесь есть и карманники. Нужно быть осторожной." },
+    { "speaker": "Laura", "es": "Claro, lo sé. Gracias.", "ru": "Конечно, я знаю. Спасибо." },
+    { "speaker": "Pablo", "es": "Mira esta lámpara, ¿es bonita?", "ru": "Посмотри на эту лампу, красивая?" },
+    { "speaker": "Laura", "es": "Sí, muy original. ¿Cuánto vale?", "ru": "Да, очень оригинальная. Сколько стоит?" },
+    { "speaker": "Pablo", "es": "Solo nueve euros. Va para mi colección de objetos de cerámica. Bueno, ¿necesitas algo más en este puesto?", "ru": "Всего девять евро. Пойдёт в мою коллекцию керамических вещей. Ну что, тебе ещё что-то нужно в этом киоске?" },
+    { "speaker": "Laura", "es": "No, nada. Vamos a ver otras cosas.", "ru": "Нет, ничего. Пойдём посмотрим другие вещи." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el mercado artesanal", "ru": "рынок ремёсел" },
+        { "es": "el puesto", "ru": "киоск, прилавок" },
+        { "es": "la lámpara de cerámica", "ru": "керамическая лампа" },
+        { "es": "el broche", "ru": "брошь" },
+        { "es": "la pulsera", "ru": "браслет" },
+        { "es": "los collares", "ru": "ожерелья" },
+        { "es": "el carterista", "ru": "карманник" },
+        { "es": "la colección", "ru": "коллекция" }
+      ]
+    },
+    {
+      "type": "fill-gap-costar_valer",
+      "title": "Практика: COSTAR / VALER",
+      "description": "Вставь правильную форму глагола",
+      "sentences": [
+        { "text": "¿Cuánto ___ estas pulseras?", "ru": "Сколько стоят эти браслеты?", "answer": "cuestan", "options": ["cuestan", "cuesta", "costar"] },
+        { "text": "Esta lámpara ___ nueve euros.", "ru": "Эта лампа стоит девять евро", "answer": "vale", "options": ["vale", "valen", "valer"] },
+        { "text": "¿Cuánto ___ este broche?", "ru": "Сколько стоит эта брошь?", "answer": "cuesta", "options": ["cuesta", "cuestan", "costas"] },
+        { "text": "Esos collares ___ doce euros.", "ru": "Те ожерелья стоят двенадцать евро", "answer": "valen", "options": ["valen", "vale", "cuestan"] },
+        { "text": "Estos imanes no ___ mucho.", "ru": "Эти магниты стоят недорого", "answer": "cuestan", "options": ["cuestan", "cuesta", "cuestas"] }
+      ]
+    },
+    {
+      "type": "fill-gap-precio_compra",
+      "title": "Практика: фразы покупки",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Bueno, me ___ este broche azul.", "ru": "Хорошо, я беру эту синюю брошь", "answer": "llevo", "options": ["llevo", "llevas", "lleva"] },
+        { "text": "Aquí tiene el ___ .", "ru": "Держите деньги", "answer": "dinero", "options": ["dinero", "tiempo", "billete"] },
+        { "text": "Todo cuesta 5 ___ .", "ru": "Всё по 5 евро", "answer": "euros", "options": ["euros", "dólares", "céntimos"] },
+        { "text": "¿Vas a ___ algo más en este puesto?", "ru": "Ты собираешься ещё что-то купить в этом киоске?", "answer": "comprar", "options": ["comprar", "compras", "compra"] },
+        { "text": "Te busco en quince ___ .", "ru": "Я найду тебя через пятнадцать минут", "answer": "minutos", "options": ["minutos", "horas", "momentos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-hecho_mano",
+      "title": "Практика: ESTAR + participio (hecho a mano)",
+      "description": "Вставь правильную форму причастия",
+      "sentences": [
+        { "text": "Estos collares están ___ a mano.", "ru": "Эти ожерелья сделаны вручную", "answer": "hechos", "options": ["hechos", "hecho", "hecha"] },
+        { "text": "Esta lámpara está ___ de cerámica.", "ru": "Эта лампа сделана из керамики", "answer": "hecha", "options": ["hecha", "hecho", "hechos"] },
+        { "text": "El broche está ___ a mano, ¿verdad?", "ru": "Эта брошь сделана вручную, правда?", "answer": "hecho", "options": ["hecho", "hecha", "hechos"] },
+        { "text": "Los imanes están ___ en Suecia.", "ru": "Магниты сделаны в Швеции", "answer": "hechos", "options": ["hechos", "hecho", "haciendo"] },
+        { "text": "La pulsera negra está ___ muy bien.", "ru": "Чёрный браслет сделан очень хорошо", "answer": "hecha", "options": ["hecha", "hecho", "hacer"] }
+      ]
+    },
+    {
+      "type": "fill-gap-igual_de_que",
+      "title": "Практика: IGUAL DE ... QUE",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Este broche es igual de ___ que el otro.", "ru": "Эта брошь такая же красивая, как та другая", "answer": "bonito", "options": ["bonito", "bonita", "bonitos"] },
+        { "text": "Es igual de bonito, pero un poco más ___ .", "ru": "Она такая же красивая, но немного дороже", "answer": "caro", "options": ["caro", "caros", "cara"] },
+        { "text": "La pulsera azul es igual de cara ___ la negra.", "ru": "Синий браслет такой же дорогой, как чёрный", "answer": "que", "options": ["que", "como", "de"] },
+        { "text": "Los imanes son más ___ que los collares.", "ru": "Магниты легче, чем ожерелья", "answer": "ligeros", "options": ["ligeros", "ligera", "ligero"] },
+        { "text": "Esta diadema es igual de bonita que ___ .", "ru": "Этот ободок такой же красивый, как тот", "answer": "esa", "options": ["esa", "este", "esos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Cuánto ___ este broche?", "ru": "Сколько стоит эта брошь?", "answer": "cuesta", "options": ["cuesta", "cuestan", "vale"] },
+        { "text": "Estos collares están ___ a mano.", "ru": "Эти ожерелья сделаны вручную", "answer": "hechos", "options": ["hechos", "hecho", "hace"] },
+        { "text": "Me ___ este broche azul.", "ru": "Я беру эту синюю брошь", "answer": "llevo", "options": ["llevo", "lleva", "llevan"] },
+        { "text": "Es igual de ___ , pero un poco más caro.", "ru": "Она такая же красивая, но немного дороже", "answer": "bonito", "options": ["bonito", "caro", "difícil"] },
+        { "text": "Los días de mercado son muy ___ .", "ru": "Рыночные дни очень оживлённые", "answer": "animados", "options": ["animados", "ligeros", "caros"] },
+        { "text": "Debes andar con ___ .", "ru": "Нужно быть осторожным", "answer": "cuidado", "options": ["cuidado", "tiempo", "suerte"] },
+        { "text": "Aquí tiene el ___ .", "ru": "Держите деньги", "answer": "dinero", "options": ["dinero", "tiempo", "billete"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лаурой",
+      "role": "Laura",
+      "description": "Покупай на рынке, отвечай продавцу и Пабло своим голосом"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Пабло",
+      "role": "Pablo",
+      "description": "Теперь ты Пабло — гуляй по рынку и общайся с Лаурой"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Купи вещи на рынке: спроси цену, выбери товар, договорись и заплати",
+      "template": [
+        { "label": "Сколько это стоит?", "es": "¿Cuánto ___ ?" },
+        { "label": "Я беру", "es": "Me ___ este ___" },
+        { "label": "Сделано вручную", "es": "Está hecho a ___" },
+        { "label": "Такой же красивый, как", "es": "Es igual de ___ que ___" },
+        { "label": "Нужно быть осторожным", "es": "Debes andar con ___" },
+        { "label": "Держите деньги", "es": "Aquí tiene el ___" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Dónde están Pablo y Laura?",
+          "ru": "Где находятся Пабло и Лаура?",
+          "options": ["En un mercado artesanal", "En una tienda grande", "En la escuela", "En el lago"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué quiere mirar Pablo primero?",
+          "ru": "Что сначала хочет посмотреть Пабло?",
+          "options": ["Unas lámparas de cerámica", "Los adornos rojos", "Los collares", "La pulsera negra"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuánto valen los collares hechos a mano?",
+          "ru": "Сколько стоят ожерелья ручной работы?",
+          "options": ["8 y 12 euros", "5 y 6 euros", "6 y 7 euros", "9 euros"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuánto cuesta el broche que le gusta a Laura?",
+          "ru": "Сколько стоит брошь, которая нравится Лауре?",
+          "options": ["6 euros", "7 euros", "12 euros", "8 euros"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué se lleva Laura?",
+          "ru": "Что берёт Лаура?",
+          "options": ["Un broche azul, uno plateado y una pulsera negra", "Dos collares", "Una lámpara de cerámica", "Imanes y llaveros"],
+          "answer": 0
+        },
+        {
+          "question": "¿De dónde es Laura?",
+          "ru": "Откуда Лаура?",
+          "options": ["De Suecia, de Estocolmo", "De Grecia", "De Argentina", "De Italia"],
+          "answer": 0
+        },
+        {
+          "question": "¿A qué mercado va siempre Laura?",
+          "ru": "На какой рынок Лаура всегда ходит?",
+          "options": ["Al mercado navideño", "Al mercado artesanal", "Al mercado de flores", "Al mercado central"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué deben tener en cuenta los turistas en el mercado?",
+          "ru": "Что туристам нужно иметь в виду на рынке?",
+          "options": ["Que hay carteristas", "Que cierra a las dos", "Que hay que pagar en dólares", "Que no hay café"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить новые слова (рынок, предметы, цены) в приложении",
+    "Практика: Разговор с партнёром (italki/Tandem) — купи и продай вещи на рынке: ¿cuánto cuesta?, me llevo ..., está hecho a mano, es igual de bonito que ...",
+    "Дневник: Опиши свой любимый рынок: что там продают, какие цены, что ты обычно берёшь",
+    "Грамматика: Составь 3 вопроса о цене (costar/valer) и 3 сравнения (igual de ... que / más ... que)"
+  ]
+}

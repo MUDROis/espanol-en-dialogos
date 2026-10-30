@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La escuela — Урок 17 · Español A0–A1</title>
+<meta name="description" content="Урок 17: школа и школьные вещи по-испански, звук B y V. Игра «Найди предмет». Курс испанского A0–A1 для детей, блок 2.">
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body data-theme="escuela">
+
+<header class="lesson-head">
+  <a class="link-back" href="course.html">← Все уроки</a>
+  <span class="lh-title">Урок 17 · La escuela</span>
+  <span class="lh-spacer"></span>
+  <a class="link-ghost" href="lesson-18.html">Урок 18 →</a>
+</header>
+
+<div class="voice-note" id="voiceNote"></div>
+<div class="save-indicator" id="saveIndicator"> Прогресс сохранён</div>
+
+<div class="container">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ШАГ 1 -->
+  <section class="step active" id="step1">
+    <h1> La escuela</h1>
+    <p style="font-size:1.5em">¡Hola, amigo! Что у тебя в портфеле? </p>
+    <p>Сегодня мы в школе: научимся называть вещи, которые нужны на уроке.</p>
+    <h3>В этом уроке</h3>
+    <p> Звуки <strong>B</strong> и <strong>V</strong><br>
+        Пять школьных слов<br>
+        Фразы «En la escuela…», «¿Dónde está…?»<br>
+        Игра «Найди в портфеле»</p>
+    <div class="tip"> <strong>Совет:</strong> в испанском <strong>B</strong> и <strong>V</strong> звучат почти одинаково — «б» и «б». Это нормально, ухо привыкает за пару уроков!</div>
+    <div class="nav-buttons center">
+      <button class="btn btn-primary" data-next>¡Vamos! Поехали! </button>
+    </div>
+  </section>
+
+  <!-- ШАГ 2 -->
+  <section class="step" id="step2">
+    <h2> B и V — два брата-близнеца</h2>
+    <p>Испанцы произносят <strong>v</strong> так же, как <strong>b</strong>. Сравни два слова-близнеца!</p>
+    <div class="phonetics">
+      <div class="phon-card" data-say="El libro">
+        <div class="phon-letter">b</div>
+        <div class="phon-emoji">📕</div>
+        <div class="phon-word">El libro</div>
+        <div class="phon-hint">«Либро» — книга. Звук «б»</div>
+        <button class="mic-btn" data-mic="el libro" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="El verde">
+        <div class="phon-letter">v</div>
+        <div class="phon-emoji">🟢</div>
+        <div class="phon-word">El verde</div>
+        <div class="phon-hint">«Бэрде» — зелёный. Тоже звук «б»!</div>
+        <button class="mic-btn" data-mic="el verde" data-step="2">🎤</button>
+      </div>
+    </div>
+    <div class="tip"> <strong>Сравни:</strong> <em>el vaso</em> («басо» — стакан) и <em>el barrio</em> («баррио» — район). Звучат одинаково — но смысл разный!</div>
+    <div class="feedback" id="feedback2"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 3 -->
+  <section class="step" id="step3">
+    <h2> Школьные вещи</h2>
+    <p>Послушай и повтори. Запомни: перед словом нужен артикль — <em>el</em> или <em>la</em>.</p>
+    <div class="words" id="schoolCards"></div>
+    <p style="margin-top:26px"><strong> Найди пары: вещь и картинка</strong></p>
+    <div class="memory-grid" id="memoryGrid"></div>
+    <div class="memory-counter">Найдено пар: <span id="memoryCounter">0</span>/5</div>
+    <div class="feedback" id="feedback3"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 4 -->
+  <section class="step" id="step4">
+    <h2> Урок начинается!</h2>
+    <p>Учитель и ученик. Послушай и повтори.</p>
+    <div class="dialogue">
+      <div class="dialogue-line" data-say="Buenos días. ¿Qué tal?">
+        <div class="avatar">👩‍🏫</div>
+        <div class="text">Buenos días. ¿Qué tal?<span class="ru">Доброе утро. Как дела?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="buenos días qué tal" data-step="4" data-threshold="0.35">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="¡Muy bien, gracias!">
+        <div class="avatar">🧒</div>
+        <div class="text">¡Muy bien, gracias!<span class="ru">Отлично, спасибо!</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="muy bien gracias" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="Abre el libro, por favor.">
+        <div class="avatar">👩‍🏫</div>
+        <div class="text">Abre el libro, por favor.<span class="ru">Открой книгу, пожалуйста.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="abre el libro por favor" data-step="4" data-threshold="0.3">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="¿Dónde está tu lápiz?">
+        <div class="avatar">👩‍🏫</div>
+        <div class="text">¿Dónde está tu lápiz?<span class="ru">Где твой карандаш?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="dónde está tu lápiz" data-step="4" data-threshold="0.35">🎤</button>
+      </div>
+    </div>
+    <div class="bubble-row">
+      <button class="btn btn-primary" data-repeat='["Buenos días. ¿Qué tal?","¡Muy bien, gracias!","Abre el libro, por favor.","¿Dónde está tu lápiz?"]' data-gap="2600"> Слушать весь диалог</button>
+    </div>
+    <div class="tip"> <strong>Шпаргалка:</strong> <em>el libro</em>, <em>el bolígrafo</em>, <em>la mochila</em> — <em>Abre …, por favor.</em> (открой…)</div>
+    <div class="feedback" id="feedback4"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 5 · Найди в портфеле -->
+  <section class="step" id="step5">
+    <h2> Найди в портфеле</h2>
+    <p>Учитель называет вещь — найди её в портфеле и нажми. 6 предметов!</p>
+    <div class="game-box">
+      <div class="bubble" id="findTask">Нажми «¡Jugar!»</div>
+      <div class="bubble-row">
+        <button class="big-btn" id="findStart"> ¡Jugar!</button>
+      </div>
+      <div class="animal-grid" id="bagGrid"></div>
+      <div class="assign-progress" id="findProgress">Найдено: 0 из 6</div>
+    </div>
+    <div class="tip"> <strong>Задание:</strong> принеси в портфеле настоящий карандаш и скажи: <em>«Tengo un bolígrafo»</em>.</div>
+    <div class="feedback" id="feedback5"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 6 -->
+  <section class="step" id="step6">
+    <h2> Проверь себя!</h2>
+    <p>Три вопроса про школу и буквы B/V.</p>
+    <div id="quizContainer"></div>
+    <div class="assign-progress" id="quizScore"></div>
+    <div class="feedback" id="feedback6"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 7 -->
+  <section class="step" id="step7">
+    <div class="final">
+
+      <h1>¡Muy bien!</h1>
+      <p style="font-size:1.4em">Ты прошёл семнадцатый урок!</p>
+      <div class="medal"> Медаль «¡En la escuela!»</div>
+      <p>Сегодня ты узнал:</p>
+      <p> B и V звучат одинаково — «б»<br>
+        El libro, el bolígrafo, la mochila, la pizarra, el cuaderno<br>
+        Фразы «Abre…, por favor», «¿Dónde está…?»</p>
+
+      <h3> ¡Yo puedo! — Я могу!</h3>
+      <div class="can-do" id="canDo"></div>
+
+      <div class="homework">
+        <strong> Домашнее задание</strong><br>
+        Собери портфель к школе и назови всё по-испански:<br>
+        <strong>«Tengo un libro, un bolígrafo y una mochila»</strong>
+      </div>
+
+      <div class="nav-buttons center">
+        <button class="btn btn-secondary" data-restart> Пройти ещё раз</button>
+        <a class="btn btn-primary" href="lesson-18.html" style="text-decoration:none;display:inline-block">Урок 18 →</a>
+      </div>
+      <p style="margin-top:18px"><a class="link-ghost" href="course.html">← Ко всем урокам курса</a></p>
+    </div>
+  </section>
+</div>
+
+<script src="assets/lesson.js"></script>
+<script>
+/* ============================ ДАННЫЕ УРОКА 17 ============================ */
+var SCHOOL = [
+  { es: 'el libro', ru: 'книга', e: '📕' },
+  { es: 'el bolígrafo', ru: 'ручка', e: '🖊️' },
+  { es: 'la mochila', ru: 'рюкзак', e: '🎒' },
+  { es: 'la pizarra', ru: 'доска', e: '🧑‍🏫' },
+  { es: 'el cuaderno', ru: 'тетрадь', e: '📓' }
+];
+
+var MEMORY = SCHOOL.map(function (s) { return { a: s.es, b: s.e, sa: s.es, sb: null }; });
+
+var BAG = [
+  { es: 'el libro', e: '📕' },
+  { es: 'el bolígrafo', e: '🖊️' },
+  { es: 'la mochila', e: '🎒' },
+  { es: 'el cuaderno', e: '📓' },
+  { es: 'la goma', e: '🧽' },
+  { es: 'las tijeras', e: '✂️' }
+];
+
+var QUIZ = [
+  { q: ' Как по-испански «книга»?', opts: ['el libro', 'la pizarra', 'el cuaderno', 'la goma'], correct: 'el libro' },
+  { q: ' Как звучит V в слове «verde»?', opts: ['Как «б»', 'Как «в»', 'Как «ф»', 'Как «з»'], correct: 'Как «б»' },
+  { q: ' Что значит «Abre el libro, por favor»?', opts: ['Открой книгу, пожалуйста', 'Закрой книгу, спасибо', 'Где книга?', 'Дай книгу'], correct: 'Открой книгу, пожалуйста' }
+];
+
+var CAN_DO = [
+  'Я называю пять школьных вещей',
+  'Я произношу B и V одинаково',
+  'Я говорю «Abre…, por favor»',
+  'Я спрашиваю «¿Dónde está…?»'
+];
+
+function renderSchool() {
+  var box = document.getElementById('schoolCards');
+  box.innerHTML = '';
+  SCHOOL.forEach(function (s) {
+    var c = EL.el('div', 'word-card');
+    c.setAttribute('data-say', s.es);
+    c.style.background = 'linear-gradient(140deg, var(--c3), var(--c1))';
+    c.innerHTML = '<span class="emoji">' + s.e + '</span><span class="es">' + s.es + '</span><span class="ru">' + s.ru + '</span>' +
+      '<button class="mic-btn" data-mic="' + s.es + '" data-step="3">🎤</button>';
+    box.appendChild(c);
+  });
+}
+
+/* --------------------- ШАГ 5: найди в портфеле --------------------- */
+var findRound = 0, findLocked = false, FIND_TOTAL = 6, findTarget = null;
+
+function renderFindRound() {
+  var grid = document.getElementById('bagGrid');
+  var task = document.getElementById('findTask');
+  var prog = document.getElementById('findProgress');
+  prog.textContent = 'Найдено: ' + findRound + ' из ' + FIND_TOTAL;
+
+  if (findRound >= FIND_TOTAL) {
+    task.textContent = ' ¡Perfecto! Ты нашёл все предметы!';
+    grid.innerHTML = '';
+    prog.classList.add('complete');
+    return;
+  }
+
+  findTarget = BAG[Math.floor(Math.random() * BAG.length)];
+  task.textContent = ' Найди: ' + findTarget.e + ' ' + findTarget.es;
+  EL.speak('Encuentra ' + findTarget.es);
+
+  grid.innerHTML = '';
+  EL.shuffle(BAG).forEach(function (it) {
+    var b = EL.el('button', 'animal-card');
+    b.dataset.key = it.es;
+    b.innerHTML = '<span style="font-size:2.2em">' + it.e + '</span><span class="es">' + it.es + '</span>';
+    b.addEventListener('click', function () {
+      if (findLocked) return;
+      findLocked = true;
+      if (it.es === findTarget.es) {
+        b.classList.add('right');
+        b.style.borderColor = '#2C5F8A';
+        b.style.opacity = '.45';
+        EL.speak(it.es);
+        EL.say(5, ' ¡Muy bien! Это ' + it.es + '.', 'success');
+        findRound++;
+        EL.set('findRound', findRound);
+      } else {
+        b.classList.add('wrong');
+        EL.say(5, ' ¡Casi! Это не то. Послушай ещё раз, что нужно найти.', 'error');
+      }
+      setTimeout(function () { findLocked = false; renderFindRound(); }, 1300);
+    });
+    grid.appendChild(b);
+  });
+}
+
+document.getElementById('findStart').addEventListener('click', function () {
+  findRound = EL.get('findRound', 0);
+  renderFindRound();
+  EL.say(5, ' ¡Jugar! Слушай слово и находи нужную вещь.', 'info');
+});
+
+EL.init({
+  id: 17,
+  rate: 0.72,
+  resumeMsg: ' Продолжить урок 17 с шага ',
+  onStep: function (n) {
+    if (n === 3) { renderSchool(); EL.memory(MEMORY, { step: 3 }); }
+    if (n === 5) { findRound = EL.get('findRound', 0); renderFindRound(); }
+    if (n === 6) EL.quiz(QUIZ, { step: 6 });
+    if (n === 7) EL.canDo(CAN_DO);
+  },
+  onRestart: function () { renderSchool(); EL.memory(MEMORY, { step: 3 }); findRound = 0; renderFindRound(); }
+});
+</script>
+
+<script src="assets/gate.js"></script>
+</body>
+</html>

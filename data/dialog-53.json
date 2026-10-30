@@ -1,0 +1,303 @@
+{
+  "id": 53,
+  "title": "Elena y sus hijos van a un campamento para niños",
+  "titleRu": "Елена и её дети едут в лагерь для детей",
+  "part": 6,
+  "level": "B2+",
+  "theme": "Летний лагерь, занятия и предметы для поездки  El campamento de verano, las actividades y las cosas necesarias para el viaje",
+  "characters": ["elena_madre", "pablo", "lucia"],
+  "objectives": [
+    "Обсуждать детский лагерь: el campamento, la montaña, el pueblo, el autobús, el verano",
+    "Говорить об обязанностях: ¿qué tenemos que llevar?, tenéis que llevar ropa cómoda, solo lo necesario",
+    "Давать распоряжения отрицательным императивом: no os llevéis demasiadas cosas, no llevéis muchos libros",
+    "Описывать ближайшие планы: vais a estar dos semanas, vais a hacer muchas actividades, vamos a preparar las maletas",
+    "Выражать радость и желание: ¡qué ganas tengo de ir!, me encanta, ¡qué bien!, ¡genial!",
+    "Перечислять необходимые вещи: ropa cómoda, calzado deportivo, una mochila, una gorra, protector solar, una botella de agua"
+  ],
+  "grammar": {
+    "tener_que_campamento": {
+      "title": "Tener que + infinitivo: obligación",
+      "description": "tener que + infinitivo = «нужно, приходится»: ¿qué tenemos que llevar? (что нам нужно взять?), tenéis que llevar ropa cómoda y calzado deportivo (вам нужно взять удобную одежду и спортивную обувь), solo tenéis que llevar lo necesario (вам нужно взять только необходимое).",
+      "forms": {
+        "yo": { "es": "tengo que hacer las maletas", "ru": "мне нужно собрать чемоданы" },
+        "tu": { "es": "tienes que llevar una gorra", "ru": "тебе нужно взять кепку" },
+        "el_ella": { "es": "tiene que llevar protector solar", "ru": "ему/ей нужно взять солнцезащитный крем" },
+        "nosotros": { "es": "tenemos que llevar lo necesario", "ru": "нам нужно взять только необходимое" },
+        "vosotros": { "es": "tenéis que llevar ropa cómoda", "ru": "вам нужно взять удобную одежду" },
+        "ellos_ellas": { "es": "tienen que llevar sus mochilas", "ru": "им нужно взять свои рюкзаки" }
+      },
+      "examples": [
+        { "es": "¿Qué tenemos que llevar? — Ropa cómoda, calzado deportivo, una mochila, una gorra, protector solar y una botella de agua.", "ru": "Что нам нужно взять? — Удобную одежду, спортивную обувь, рюкзак, кепку, солнцезащитный крем и бутылку для воды." },
+        { "es": "Sí, pero no os llevéis demasiadas cosas. Solo lo necesario.", "ru": "Да, но не берите слишком много вещей. Только необходимое." }
+      ]
+    },
+    "imperativo_negativo": {
+      "title": "Imperativo negativo: no + subjuntivo",
+      "description": "Отрицательная команда строится как no + presente de subjuntivo: no os llevéis demasiadas cosas (не берите слишком много вещей), no llevéis muchos libros (не берите много книг), no olvidéis la gorra (не забудьте кепку), no os preocupéis (не волнуйтесь).",
+      "list": [
+        { "es": "no os llevéis demasiadas cosas", "ru": "не берите слишком много вещей" },
+        { "es": "no llevéis muchos libros", "ru": "не берите много книг" },
+        { "es": "no olvidéis la gorra", "ru": "не забудьте кепку" },
+        { "es": "no os preocupéis, los monitores son amables", "ru": "не волнуйтесь, вожатые приветливые" },
+        { "es": "no corráis por el pasillo del autobús", "ru": "не бегайте по проходу автобуса" }
+      ],
+      "examples": [
+        { "es": "Sí, pero no os llevéis demasiadas cosas. Solo lo necesario.", "ru": "Да, но не берите слишком много вещей. Только необходимое." },
+        { "es": "No llevéis muchos libros, allí vais a estar muy ocupados.", "ru": "Не берите много книг, там вы будете очень заняты." }
+      ]
+    },
+    "planes_ganas": {
+      "title": "Planes e ilusión: ir a + infinitivo, ¡Qué ganas tengo de...!",
+      "description": "ir a + infinitivo описывает ближайшие планы: vais a estar dos semanas (вы будете две недели), vais a hacer muchas actividades (вы будете заниматься многими видами деятельности), vamos a preparar las maletas (давайте собирать чемоданы). Эмоционально — ¡qué ganas tengo de ir! (как мне хочется поехать!), me encanta (мне очень нравится).",
+      "list": [
+        { "es": "vais a estar dos semanas", "ru": "вы будете две недели" },
+        { "es": "vais a hacer muchas actividades", "ru": "вы будете заниматься многими видами деятельности" },
+        { "es": "vamos a preparar las maletas", "ru": "давайте собирать чемоданы" },
+        { "es": "¡qué ganas tengo de ir!", "ru": "как мне хочется поехать!" },
+        { "es": "vais a aprender mucho y a hacer nuevos amigos", "ru": "вы многому научитесь и найдёте новых друзей" }
+      ],
+      "examples": [
+        { "es": "Vais a estar dos semanas. Es un campamento de verano.", "ru": "Вы будете две недели. Это летний лагерь." },
+        { "es": "¡Qué ganas tengo de ir!", "ru": "Как мне хочется поехать!" }
+      ]
+    }
+  },
+  "vocabulary": {
+    "el_campamento": [
+      { "es": "el campamento", "ru": "лагерь" },
+      { "es": "la montaña", "ru": "гора" },
+      { "es": "el pueblo", "ru": "посёлок" },
+      { "es": "el verano", "ru": "лето" },
+      { "es": "el autobús", "ru": "автобус" },
+      { "es": "los monitores", "ru": "вожатые" },
+      { "es": "la maleta", "ru": "чемодан" }
+    ],
+    "las_actividades": [
+      { "es": "el senderismo", "ru": "походы" },
+      { "es": "la natación", "ru": "плавание" },
+      { "es": "los talleres de manualidades", "ru": "мастер-классы по рукоделию" },
+      { "es": "los juegos", "ru": "игры" },
+      { "es": "hacer nuevos amigos", "ru": "находить новых друзей" },
+      { "es": "aprender", "ru": "учиться" },
+      { "es": "estar ocupados", "ru": "быть занятыми" }
+    ],
+    "las_cosas_necesarias": [
+      { "es": "la ropa cómoda", "ru": "удобная одежда" },
+      { "es": "el calzado deportivo", "ru": "спортивная обувь" },
+      { "es": "la mochila", "ru": "рюкзак" },
+      { "es": "la gorra", "ru": "кепка" },
+      { "es": "el protector solar", "ru": "солнцезащитный крем" },
+      { "es": "la botella de agua", "ru": "бутылка для воды" },
+      { "es": "lo necesario", "ru": "необходимое" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Elena", "es": "Chicos, el campamento ya está confirmado. Es en la montaña, en un pueblo que se llama Prades.", "ru": "Дети, лагерь уже подтверждён. Он в горах, в посёлке под названием Прадес." },
+    { "speaker": "Pablo", "es": "¡Qué bien! ¿Y cuándo nos vamos?", "ru": "Как здорово! А когда мы едем?" },
+    { "speaker": "Elena", "es": "El autobús sale el lunes a las ocho de la mañana.", "ru": "Автобус отправляется в понедельник в восемь утра." },
+    { "speaker": "Lucía", "es": "¿Y cuántos días vamos a estar?", "ru": "А сколько дней мы там пробудем?" },
+    { "speaker": "Elena", "es": "Vais a estar dos semanas. Es un campamento de verano.", "ru": "Вы будете там две недели. Это летний лагерь." },
+    { "speaker": "Pablo", "es": "¡Genial! ¿Y qué vamos a hacer allí?", "ru": "Отлично! А что мы там будем делать?" },
+    { "speaker": "Elena", "es": "Vais a hacer muchas actividades: senderismo, natación, talleres de manualidades y juegos.", "ru": "Вы будете заниматься разными делами: ходить в походы, плавать, заниматься на мастер-классах по рукоделию и играть в игры." },
+    { "speaker": "Lucía", "es": "¡Me encanta! ¿Y podemos llevar nuestras cosas?", "ru": "Мне очень нравится! А можно взять свои вещи?" },
+    { "speaker": "Elena", "es": "Sí, pero no os llevéis demasiadas cosas. Solo lo necesario.", "ru": "Да, но не берите слишком много вещей. Только необходимое." },
+    { "speaker": "Pablo", "es": "¿Y qué tenemos que llevar?", "ru": "А что нам нужно взять?" },
+    { "speaker": "Elena", "es": "Ropa cómoda, calzado deportivo, una mochila, una gorra, protector solar y una botella de agua.", "ru": "Удобную одежду, спортивную обувь, рюкзак, кепку, солнцезащитный крем и бутылку для воды." },
+    { "speaker": "Lucía", "es": "¿Y podemos llevar nuestros libros?", "ru": "А можно взять наши книги?" },
+    { "speaker": "Elena", "es": "Sí, pero no muchos. Allí vais a estar muy ocupados.", "ru": "Да, но немного. Там вы будете очень заняты." },
+    { "speaker": "Pablo", "es": "¿Y los monitores son simpáticos?", "ru": "А вожатые добрые?" },
+    { "speaker": "Elena", "es": "Sí, son jóvenes y muy amables. Ya los conocéis del año pasado.", "ru": "Да, они молодые и очень приветливые. Вы их знаете с прошлого года." },
+    { "speaker": "Lucía", "es": "¡Qué ganas tengo de ir!", "ru": "Как мне хочется поехать!" },
+    { "speaker": "Elena", "es": "Yo también estoy contenta. Vais a aprender mucho y a hacer nuevos amigos.", "ru": "Я тоже рада. Вы многому научитесь и найдёте новых друзей." },
+    { "speaker": "Pablo", "es": "Sí, seguro. Gracias, mamá.", "ru": "Да, наверняка. Спасибо, мама." },
+    { "speaker": "Elena", "es": "De nada, hijos. Ahora vamos a preparar las maletas.", "ru": "Не за что, дети. А теперь давайте собирать чемоданы." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el campamento", "ru": "лагерь" },
+        { "es": "la montaña", "ru": "гора" },
+        { "es": "el senderismo", "ru": "походы" },
+        { "es": "la natación", "ru": "плавание" },
+        { "es": "los talleres de manualidades", "ru": "мастер-классы по рукоделию" },
+        { "es": "los monitores", "ru": "вожатые" },
+        { "es": "el calzado deportivo", "ru": "спортивная обувь" },
+        { "es": "la gorra", "ru": "кепка" },
+        { "es": "el protector solar", "ru": "солнцезащитный крем" },
+        { "es": "la maleta", "ru": "чемодан" }
+      ]
+    },
+    {
+      "type": "fill-gap-tener_que_campamento",
+      "title": "Практика: Tener que + infinitivo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Qué ___ que llevar?", "ru": "Что нам нужно взять?", "answer": "tenemos", "options": ["tenemos", "tienes", "tiene"] },
+        { "text": "___ que llevar ropa cómoda y calzado deportivo.", "ru": "Вам нужно взять удобную одежду и спортивную обувь", "answer": "Tenéis", "options": ["Tenéis", "Tenemos", "Tienes"] },
+        { "text": "Solo tenéis que llevar lo ___.", "ru": "Вам нужно взять только необходимое", "answer": "necesario", "options": ["necesario", "importante", "pequeño"] },
+        { "text": "¿Qué tenemos que ___?", "ru": "Что нам нужно взять?", "answer": "llevar", "options": ["llevar", "llevamos", "llevado"] },
+        { "text": "Tenéis que llevar una ___ de agua.", "ru": "Вам нужно взять бутылку для воды", "answer": "botella", "options": ["botella", "gorra", "caja"] }
+      ]
+    },
+    {
+      "type": "fill-gap-imperativo_negativo",
+      "title": "Практика: Imperativo negativo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "No os ___ demasiadas cosas.", "ru": "Не берите слишком много вещей", "answer": "llevéis", "options": ["llevéis", "lleváis", "llevamos"] },
+        { "text": "No ___ muchos libros.", "ru": "Не берите много книг", "answer": "llevéis", "options": ["llevéis", "lleváis", "llevar"] },
+        { "text": "No os ___ de la gorra.", "ru": "Не забывайте кепку", "answer": "olvidéis", "options": ["olvidéis", "olvidáis", "olvidemos"] },
+        { "text": "No os ___ : los monitores son amables.", "ru": "Не волнуйтесь, вожатые приветливые", "answer": "preocupéis", "options": ["preocupéis", "preocupáis", "preocupados"] },
+        { "text": "No ___ por el pasillo del autobús.", "ru": "Не бегайте по проходу автобуса", "answer": "corráis", "options": ["corráis", "corrís", "corran"] }
+      ]
+    },
+    {
+      "type": "fill-gap-planes_ganas",
+      "title": "Практика: Ir a + infinitivo, ¡Qué ganas tengo de...!",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Vais a estar dos ___.", "ru": "Вы будете две недели", "answer": "semanas", "options": ["semanas", "días", "meses"] },
+        { "text": "Vais a hacer muchas ___.", "ru": "Вы будете заниматься многими видами деятельности", "answer": "actividades", "options": ["actividades", "personas", "mochilas"] },
+        { "text": "¡Qué ___ tengo de ir!", "ru": "Как мне хочется поехать!", "answer": "ganas", "options": ["ganas", "pena", "sed"] },
+        { "text": "Vamos a preparar las ___.", "ru": "Давайте собирать чемоданы", "answer": "maletas", "options": ["maletas", "botellas", "gorras"] },
+        { "text": "Vais a ___ mucho y a hacer nuevos amigos.", "ru": "Вы многому научитесь", "answer": "aprender", "options": ["aprender", "aprendáis", "aprendo"] },
+        { "text": "El autobús ___ el lunes a las ocho de la mañana.", "ru": "Автобус отправляется в понедельник", "answer": "sale", "options": ["sale", "salida", "salgo"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "El campamento es en la ___, en un pueblo que se llama Prades.", "ru": "Лагерь в горах, в посёлке Прадес", "answer": "montaña", "options": ["montaña", "playa", "ciudad"] },
+        { "text": "El autobús sale el ___ a las ocho de la mañana.", "ru": "Автобус отправляется в понедельник", "answer": "lunes", "options": ["lunes", "domingo", "sábado"] },
+        { "text": "¿Y cuántos ___ vamos a estar?", "ru": "Сколько дней мы там пробудем?", "answer": "días", "options": ["días", "años", "meses"] },
+        { "text": "Vais a hacer muchas ___: senderismo, natación y juegos.", "ru": "Вы будете заниматься многими делами", "answer": "actividades", "options": ["actividades", "preguntas", "comidas"] },
+        { "text": "¿Podemos llevar nuestras ___?", "ru": "Можно взять свои вещи?", "answer": "cosas", "options": ["cosas", "notas", "fotos"] },
+        { "text": "Solo lo ___.", "ru": "Только необходимое", "answer": "necesario", "options": ["necesario", "divertido", "nuevo"] },
+        { "text": "Ropa cómoda, ___ deportivo, una mochila.", "ru": "Удобная одежда, спортивная обувь, рюкзак", "answer": "calzado", "options": ["calzado", "asiento", "camino"] },
+        { "text": "Una botella de ___.", "ru": "Бутылка для воды", "answer": "agua", "options": ["agua", "café", "zumo"] },
+        { "text": "¡Qué ___ tengo de ir!", "ru": "Как мне хочется поехать!", "answer": "ganas", "options": ["ganas", "calor", "suerte"] },
+        { "text": "Vais a aprender mucho y a hacer nuevos ___.", "ru": "Вы найдёте новых друзей", "answer": "amigos", "options": ["amigos", "gestos", "planes"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Еленой",
+      "role": "Elena",
+      "description": "Ты — Елена, рассказываешь детям о лагере и о том, что брать с собой"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Пабло",
+      "role": "Pablo",
+      "description": "Ты — Пабло, задаёшь вопросы о лагере и радуешься поездке"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Ты — Лусия, уточняешь детали и мечтаешь о поездке"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи ребёнку о летнем лагере и сборах",
+      "template": [
+        { "label": "Лагерь уже подтверждён", "es": "El campamento ya está ___." },
+        { "label": "Он в горах, в посёлке", "es": "Es en la ___, en un pueblo." },
+        { "label": "Автобус отправляется в понедельник", "es": "El autobús ___ el lunes." },
+        { "label": "Вы будете две недели", "es": "Vais a estar dos ___." },
+        { "label": "Много занятий", "es": "Vais a hacer muchas ___." },
+        { "label": "Не берите слишком много", "es": "No os ___ demasiadas cosas." },
+        { "label": "Только необходимое", "es": "Solo lo ___." },
+        { "label": "Спортивная обувь", "es": "Ropa cómoda, ___ deportivo." },
+        { "label": "Солнцезащитный крем", "es": "Protector ___." },
+        { "label": "Вы будете заняты", "es": "Vais a estar muy ___." },
+        { "label": "Как хочется поехать!", "es": "¡Qué ___ tengo de ir!" },
+        { "label": "Новых друзей", "es": "Vais a hacer nuevos ___." }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Dónde está el campamento?",
+          "ru": "Где находится лагерь?",
+          "options": ["En la montaña, en un pueblo que se llama Prades", "En la playa", "En la ciudad", "Cerca del mar"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuándo sale el autobús?",
+          "ru": "Когда отправляется автобус?",
+          "options": ["El lunes a las ocho de la mañana", "El lunes a las seis", "El martes", "El domingo"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuánto tiempo van a estar en el campamento?",
+          "ru": "Сколько времени дети пробудут в лагере?",
+          "options": ["Dos semanas", "Un mes", "Dos días", "Un año"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué actividades van a hacer?",
+          "ru": "Чем они будут заниматься?",
+          "options": ["Senderismo, natación, talleres de manualidades y juegos", "Solo deportes", "Cocina y baile", "Nada"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué deben llevar los niños?",
+          "ru": "Что нужно взять детям?",
+          "options": ["Ropa cómoda, calzado deportivo, mochila, gorra, protector solar y botella de agua", "Televisión", "Videojuegos", "Comida para todo el verano"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué les dice Elena sobre las cosas?",
+          "ru": "Что Елена говорит о вещах?",
+          "options": ["Que se lleven todo", "Que no se lleven demasiadas, solo lo necesario", "Que no lleven nada", "Que compren cosas nuevas"],
+          "answer": 1
+        },
+        {
+          "question": "¿Pueden llevar muchos libros?",
+          "ru": "Можно ли взять много книг?",
+          "options": ["Sí, los que quieran", "Sí, una maleta llena", "No, no muchos, porque van a estar muy ocupados", "No, porque no saben leer"],
+          "answer": 2
+        },
+        {
+          "question": "¿Cómo son los monitores?",
+          "ru": "Какие вожатые?",
+          "options": ["Mayores y serios", "Jóvenes y muy amables", "Nuevos", "No hay monitores"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué siente Lucía por ir al campamento?",
+          "ru": "Что чувствует Лусия по поводу поездки?",
+          "options": ["Tiene muchas ganas de ir", "No quiere ir", "Le da miedo", "Está triste"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué van a preparar ahora?",
+          "ru": "Что они сейчас собираются делать?",
+          "options": ["Las maletas", "La cena", "Los deberes", "Los regalos"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повтори слова по теме «лагерь, занятия, вещи для поездки»",
+    "Практика: расскажи о детском лагере. Используй: el campamento..., tenemos que llevar..., no os llevéis..., vais a..., ¡qué ganas tengo de...!",
+    "Дневник: опиши свой идеальный летний лагерь (место, занятия, вещи, которые возьмёшь)",
+    "Грамматика: составь 4 отрицательные команды (no + subjuntivo) и 4 вопроса с tener que (¿qué tenemos que llevar? и т.д.)"
+  ]
+}

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mis acciones — Урок 16 · Español A0–A1</title>
+<meta name="description" content="Урок 16: повседневные действия по-испански, X и J. Игра «Мой день» (собери распорядок). Курс испанского A0–A1 для детей, блок 2.">
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body data-theme="acciones">
+
+<header class="lesson-head">
+  <a class="link-back" href="course.html">← Все уроки</a>
+  <span class="lh-title">Урок 16 · Mis acciones</span>
+  <span class="lh-spacer"></span>
+  <a class="link-ghost" href="lesson-17.html">Урок 17 →</a>
+</header>
+
+<div class="voice-note" id="voiceNote"></div>
+<div class="save-indicator" id="saveIndicator"> Прогресс сохранён</div>
+
+<div class="container">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ШАГ 1 -->
+  <section class="step active" id="step1">
+    <h1> Mis acciones</h1>
+    <p style="font-size:1.5em">¡Hola, amigo! Что ты делаешь каждый день? </p>
+    <p>Сегодня мы научимся рассказывать о своих действиях и соберём свой распорядок дня.</p>
+    <h3>В этом уроке</h3>
+    <p> Буквы <strong>X</strong> и <strong>J</strong><br>
+        Семь действий: hablar, comer, beber, dormir, estudiar…<br>
+        Фразы «Yo …», «Siempre…», «Nunca…»<br>
+        Игра «Мой день»</p>
+    <div class="tip"> <strong>Совет:</strong> испанские глаголы в первом лице <strong>меняют окончание</strong>: <em>hablar → yo hablo</em> (окончание -ar → -o), <em>comer → yo como</em> (-er → -o). Не пугайся — это самая обычная вещь в испанском.</div>
+    <div class="nav-buttons center">
+      <button class="btn btn-primary" data-next>¡Vamos! Поехали! </button>
+    </div>
+  </section>
+
+  <!-- ШАГ 2 -->
+  <section class="step" id="step2">
+    <h2> X и J — звуки «кс» и «х»</h2>
+    <p>В испанском есть два звука, которых в русском почти нет. Они встречаются в словах о школе и еде.</p>
+    <div class="phonetics">
+      <div class="phon-card" data-say="El taxi, el examen">
+        <div class="phon-letter">x</div>
+        <div class="phon-emoji">🚕</div>
+        <div class="phon-word">El taxi, el examen</div>
+        <div class="phon-hint">X читается как «кс»: «такси», «эксамен»</div>
+        <button class="mic-btn" data-mic="el taxi" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="El reloj, el jueves">
+        <div class="phon-letter">j</div>
+        <div class="phon-emoji">⏰</div>
+        <div class="phon-word">El reloj, el jueves</div>
+        <div class="phon-hint">J читается как «х»: «релох», «хуэрвес»</div>
+        <button class="mic-btn" data-mic="el reloj" data-step="2">🎤</button>
+      </div>
+    </div>
+    <div class="tip"> <strong>Запомни:</strong> <em>el taxi</em> — «такси» (X = «кс»), <em>el jueves</em> — «хуэрвес» (J = «х»). А в Испании говорят <em>«México»</em> — «Ме́хико»: там X звучит как «х»!</div>
+    <div class="feedback" id="feedback2"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 3 -->
+  <section class="step" id="step3">
+    <h2> Что ты делаешь?</h2>
+    <p>Послушай и повтори. После «yo» глагол немного меняется — это нормально!</p>
+    <div class="words" id="actionCards"></div>
+    <p style="margin-top:26px"><strong> Найди пары: действие и картинка</strong></p>
+    <div class="memory-grid" id="memoryGrid"></div>
+    <div class="memory-counter">Найдено пар: <span id="memoryCounter">0</span>/6</div>
+    <div class="feedback" id="feedback3"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 4 -->
+  <section class="step" id="step4">
+    <h2> Что ты делаешь?</h2>
+    <p>Дети рассказывают о своём дне. Послушай и повтори.</p>
+    <div class="dialogue">
+      <div class="dialogue-line" data-say="¿Qué haces?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿Qué haces?<span class="ru">Что ты делаешь?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="qué haces" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Yo hablo español.">
+        <div class="avatar">👧</div>
+        <div class="text">Yo hablo español.<span class="ru">Я говорю по-испански.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="yo hablo español" data-step="4" data-threshold="0.35">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="¿Siempre estudias por la tarde?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿Siempre estudias?<span class="ru">Ты всегда учишься?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="siempre estudias" data-step="4" data-threshold="0.35">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Sí, siempre como a las ocho.">
+        <div class="avatar">👧</div>
+        <div class="text">Sí, y como a las ocho.<span class="ru">Да, и ем в восемь.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="sí y como a las ocho" data-step="4" data-threshold="0.3">🎤</button>
+      </div>
+    </div>
+    <div class="bubble-row">
+      <button class="btn btn-primary" data-repeat='["¿Qué haces?","Yo hablo español.","¿Siempre estudias?","Sí, y como a las ocho."]' data-gap="2500"> Слушать весь диалог</button>
+    </div>
+    <div class="tip"> <strong>Шпаргалка:</strong> <em>Yo hablo / como / bebo / duermo / estudio.</em> — <em>¿Qué haces?</em> (что делаешь?) — <em>Siempre…</em> (всегда), <em>Nunca…</em> (никогда)</div>
+    <div class="feedback" id="feedback4"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 5 · Мой день -->
+  <section class="step" id="step5">
+    <h2> Собери свой день</h2>
+    <p>Расставь действия по порядку школьного дня. Нажми на действие, потом на его место.</p>
+    <div class="game-box">
+      <div class="bank" id="assignBank"></div>
+      <div class="slots people" id="assignTargets"></div>
+      <div class="assign-progress" id="assignProgress"></div>
+    </div>
+    <div class="tip"> <strong>Задание:</strong> расскажи о реальном дне по-испански: <em>«Me levanto, desayuno, voy a la escuela, …»</em></div>
+    <div class="feedback" id="feedback5"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 6 -->
+  <section class="step" id="step6">
+    <h2> Проверь себя!</h2>
+    <p>Три вопроса про действия и буквы X/J.</p>
+    <div id="quizContainer"></div>
+    <div class="assign-progress" id="quizScore"></div>
+    <div class="feedback" id="feedback6"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 7 -->
+  <section class="step" id="step7">
+    <div class="final">
+
+      <h1>¡Muy bien!</h1>
+      <p style="font-size:1.4em">Ты прошёл шестнадцатый урок!</p>
+      <div class="medal"> Медаль «¡Mi día!»</div>
+      <p>Сегодня ты узнал:</p>
+      <p> X = «кс», J = «х»<br>
+        Hablar, comer, beber, dormir, estudiar, jugar, trabajar<br>
+        Формы после «yo»: hablo, como, bebo, duermo, estudio<br>
+        Фразы «Siempre…» и «Nunca…»</p>
+
+      <h3> ¡Yo puedo! — Я могу!</h3>
+      <div class="can-do" id="canDo"></div>
+
+      <div class="homework">
+        <strong> Домашнее задание</strong><br>
+        Заведи дневник на неделю: каждый вечер пиши по-испански 3 действия дня.<br>
+        Например: <em>«Hoy hablo español, como una manzana y duermo ocho horas.»</em>
+      </div>
+
+      <div class="nav-buttons center">
+        <button class="btn btn-secondary" data-restart> Пройти ещё раз</button>
+        <a class="btn btn-primary" href="lesson-17.html" style="text-decoration:none;display:inline-block">Урок 17 →</a>
+      </div>
+      <p style="margin-top:18px"><a class="link-ghost" href="course.html">← Ко всем урокам курса</a></p>
+    </div>
+  </section>
+</div>
+
+<script src="assets/lesson.js"></script>
+<script>
+/* ============================ ДАННЫЕ УРОКА 16 ============================ */
+var ACTIONS = [
+  { es: 'hablar', ru: 'говорить', e: '💬' },
+  { es: 'comer', ru: 'есть', e: '🍽️' },
+  { es: 'beber', ru: 'пить', e: '🥤' },
+  { es: 'dormir', ru: 'спать', e: '😴' },
+  { es: 'estudiar', ru: 'учиться', e: '📚' },
+  { es: 'jugar', ru: 'играть', e: '⚽' }
+];
+
+var MEMORY = ACTIONS.map(function (a) { return { a: a.es, b: a.e, sa: a.es, sb: null }; });
+
+var DAY = [
+  { key: 'despertar', e: '⏰', label: 'me despierto', say: 'Me despierto' },
+  { key: 'desayuno', e: '🥐', label: 'desayuno', say: 'Desayuno' },
+  { key: 'escuela', e: '🏫', label: 'voy a la escuela', say: 'Voy a la escuela' },
+  { key: 'juego', e: '⚽', label: 'juego', say: 'Juego' },
+  { key: 'estudio', e: '📚', label: 'estudio', say: 'Estudio' },
+  { key: 'ceno', e: '🌙', label: 'ceno', say: 'Ceno' }
+];
+
+var QUIZ = [
+  { q: ' Как сказать «Я говорю»?', opts: ['Yo hablo', 'Yo hablar', 'Yo hablas', 'Hablo yo es'], correct: 'Yo hablo' },
+  { q: ' Что значит «¿Qué haces?»', opts: ['Что ты делаешь?', 'Кто ты?', 'Что это?', 'Где ты?'], correct: 'Что ты делаешь?' },
+  { q: ' Как читается J в слове «el jueves»?', opts: ['Как «х»', 'Как «ж»', 'Как «й»', 'Как «с»'], correct: 'Как «х»' }
+];
+
+var CAN_DO = [
+  'Я называю шесть действий',
+  'Я говорю «Yo hablo, como, bebo…»',
+  'Я спрашиваю «¿Qué haces?»',
+  'Я рассказываю о своём дне'
+];
+
+function renderActions() {
+  var box = document.getElementById('actionCards');
+  box.innerHTML = '';
+  ACTIONS.forEach(function (a) {
+    var c = EL.el('div', 'word-card');
+    c.setAttribute('data-say', a.es);
+    c.style.background = 'linear-gradient(140deg, var(--c3), var(--c1))';
+    c.innerHTML = '<span class="emoji">' + a.e + '</span><span class="es">' + a.es + '</span><span class="ru">' + a.ru + '</span>' +
+      '<button class="mic-btn" data-mic="' + a.es + '" data-step="3">🎤</button>';
+    box.appendChild(c);
+  });
+}
+
+function buildDay() {
+  EL.assign({
+    bank: 'assignBank',
+    targets: 'assignTargets',
+    stateKey: 'myDay',
+    step: 5,
+    items: EL.shuffle(DAY).map(function (d) {
+      return { key: d.key, label: d.label, emoji: '', say: d.say };
+    }),
+    slots: DAY.map(function (d, i) {
+      return { key: String(i), emoji: d.e, label: (i + 1) + '.' };
+    }),
+    validate: function (itemKey, slotKey) { return DAY[+slotKey] && DAY[+slotKey].key === itemKey; },
+    badMsg: ' ¡Casi! Подумай: что идёт раньше по порядку дня?',
+    winMsg: ' ¡Perfecto! Твой день собран!',
+    onWin: function () {
+      EL.say(5, ' Отлично! Расскажи вслух: «Me despierto, desayuno, voy a la escuela…»', 'success');
+    }
+  });
+}
+
+EL.init({
+  id: 16,
+  rate: 0.72,
+  resumeMsg: ' Продолжить урок 16 с шага ',
+  onStep: function (n) {
+    if (n === 3) { renderActions(); EL.memory(MEMORY, { step: 3 }); }
+    if (n === 5) buildDay();
+    if (n === 6) EL.quiz(QUIZ, { step: 6 });
+    if (n === 7) EL.canDo(CAN_DO);
+  },
+  onRestart: function () { renderActions(); EL.memory(MEMORY, { step: 3 }); buildDay(); }
+});
+</script>
+
+<script src="assets/gate.js"></script>
+</body>
+</html>

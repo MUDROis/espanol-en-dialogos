@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi familia — Урок 5 · Español A0–A1</title>
+<meta name="description" content="Урок 5: члены семьи по-испански и дифтонги ie, ue. Игра «Семейное древо». Курс испанского A0–A1 для детей.">
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body data-theme="familia">
+
+<header class="lesson-head">
+  <a class="link-back" href="course.html">← Все уроки</a>
+  <span class="lh-title">Урок 5 · Mi familia</span>
+  <span class="lh-spacer"></span>
+  <a class="link-ghost" href="lesson-06.html">Урок 6 →</a>
+</header>
+
+<div class="voice-note" id="voiceNote"></div>
+<div class="save-indicator" id="saveIndicator"> Прогресс сохранён</div>
+
+<div class="container">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ШАГ 1 -->
+  <section class="step active" id="step1">
+    <h1> Mi familia</h1>
+    <p style="font-size:1.5em">¡Hola, amigo! Знакомься со своей семьёй! </p>
+    <p>Сегодня ты научишься называть маму, папу, брата, сестру и дедушку — и правильно читать их имена.</p>
+    <h3>В этом уроке</h3>
+    <p> Дифтонги <strong>ie</strong> и <strong>ue</strong><br>
+        Пять членов семьи<br>
+        Фразы «Este es mi…»<br>
+        Игра «Семейное древо»</p>
+    <div class="tip"> <strong>Совет:</strong> нажми на подпись — услышишь слово. Потом повтори его в микрофон.</div>
+    <div class="nav-buttons center">
+      <button class="btn btn-primary" data-next>¡Vamos! Поехали! </button>
+    </div>
+  </section>
+
+  <!-- ШАГ 2 -->
+  <section class="step" id="step2">
+    <h2> Двойные звуки ie и ue</h2>
+    <p>В словах <strong>ie</strong> и <strong>ue</strong> две буквы читаются <em>вместе</em>, как один звук. Ничего сложного — просто выдохни ровно!</p>
+    <div class="phonetics">
+      <div class="phon-card" data-say="Piel, cielo">
+        <div class="phon-letter">ie</div>
+        <div class="phon-emoji">🧊</div>
+        <div class="phon-word">Piel, cielo</div>
+        <div class="phon-hint">Читается вместе: <strong>йэ</strong> — пиэль, сьело</div>
+        <button class="mic-btn" data-mic="piel" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="Puerta, bueno">
+        <div class="phon-letter">ue</div>
+        <div class="phon-emoji">🚪</div>
+        <div class="phon-word">Puerta, bueno</div>
+        <div class="phon-hint">Читается вместе: <strong>уэ</strong> —пуэрта, буэно</div>
+        <button class="mic-btn" data-mic="puerta" data-step="2">🎤</button>
+      </div>
+    </div>
+    <div class="tip"> <strong>Запомни:</strong> в слове <em>Madre</em> ты не слышишь «d» — только «ма-дре». В <em>abuelo</em> буква b читается мягко.</div>
+    <div class="feedback" id="feedback2"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 3 -->
+  <section class="step" id="step3">
+    <h2> Члены семьи</h2>
+    <p>Послушай и повтори. Обрати внимание: <em>hermano</em> — брат, а <em>hermana</em> — сестра.</p>
+    <div class="words" id="familyCards"></div>
+    <p style="margin-top:26px"><strong> Найди пары: слово и картинка</strong></p>
+    <div class="memory-grid" id="memoryGrid"></div>
+    <div class="memory-counter">Найдено пар: <span id="memoryCounter">0</span>/5</div>
+    <div class="feedback" id="feedback3"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 4 -->
+  <section class="step" id="step4">
+    <h2> Чей это папа?</h2>
+    <p>Дети рассматривают семейную фотографию. Послушай реплики и повтори.</p>
+    <div class="dialogue">
+      <div class="dialogue-line" data-say="¿Quién es?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿Quién es?<span class="ru">Кто это?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="quién es" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Esta es mi madre.">
+        <div class="avatar">👧</div>
+        <div class="text">Esta es mi madre.<span class="ru">Это моя мама.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="esta es mi madre" data-step="4" data-threshold="0.4">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="¿Y él?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿Y él?<span class="ru">А он?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="y él" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Ese es mi hermano.">
+        <div class="avatar">👧</div>
+        <div class="text">Ese es mi hermano.<span class="ru">Это мой брат.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="ese es mi hermano" data-step="4" data-threshold="0.4">🎤</button>
+      </div>
+    </div>
+    <div class="bubble-row">
+      <button class="btn btn-primary" data-repeat='["¿Quién es?","Esta es mi madre.","¿Y él?","Ese es mi hermano."]' data-gap="2400"> Слушать весь диалог</button>
+    </div>
+    <div class="tip"> <strong>Шпаргалка:</strong> <em>Este es mi [папа, брат].</em> (муж. род) — <em>Esta es mi [мама, сестра].</em> (жен. род)</div>
+    <div class="feedback" id="feedback4"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 5 · Семейное древо -->
+  <section class="step" id="step5">
+    <h2> Семейное древо</h2>
+    <p>Перетащи подпись к тому, кто на неё похож. Можно и так: нажми на подпись, потом на нужного человека.</p>
+    <div class="game-box">
+      <div class="bank" id="assignBank"></div>
+      <div class="slots people" id="assignTargets"></div>
+      <div class="assign-progress" id="assignProgress"></div>
+    </div>
+    <div class="feedback" id="feedback5"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 6 -->
+  <section class="step" id="step6">
+    <h2> Проверь себя!</h2>
+    <p>Три вопроса про семью и звуки.</p>
+    <div id="quizContainer"></div>
+    <div class="assign-progress" id="quizScore"></div>
+    <div class="feedback" id="feedback6"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 7 -->
+  <section class="step" id="step7">
+    <div class="final">
+
+      <h1>¡Qué familia!</h1>
+      <p style="font-size:1.4em">Ты прошёл пятый урок!</p>
+      <div class="medal"> Медаль «¡Mi familia!»</div>
+      <p>Сегодня ты узнал:</p>
+      <p> <strong>ie</strong> = «йэ», <strong>ue</strong> = «уэ»<br>
+          Madre, padre, hermano, hermana, abuelo<br>
+          Фразы «Este es mi…» и «Esta es mi…»</p>
+
+      <h3> ¡Yo puedo! — Я могу!</h3>
+      <div class="can-do" id="canDo"></div>
+
+      <div class="homework">
+        <strong> Домашнее задание</strong><br>
+        Нарисуй свою семью и подпиши каждого по-испански:<br>
+        <strong>madre, padre, hermano, hermana, abuelo…</strong><br>
+        Потом покажи рисунок и расскажи: <em>«Esta es mi madre»</em>
+      </div>
+
+      <div class="nav-buttons center">
+        <button class="btn btn-secondary" data-restart> Пройти ещё раз</button>
+        <a class="btn btn-primary" href="lesson-06.html" style="text-decoration:none;display:inline-block">Урок 6 →</a>
+      </div>
+      <p style="margin-top:18px"><a class="link-ghost" href="course.html">← Ко всем урокам курса</a></p>
+    </div>
+  </section>
+</div>
+
+<script src="assets/lesson.js"></script>
+<script>
+/* ============================ ДАННЫЕ УРОКА 5 ============================ */
+var FAMILY = [
+  { es: 'madre', ru: 'мама', e: '👩', say: 'Esta es mi madre' },
+  { es: 'padre', ru: 'папа', e: '👨', say: 'Este es mi padre' },
+  { es: 'hermano', ru: 'брат', e: '👦', say: 'Este es mi hermano' },
+  { es: 'hermana', ru: 'сестра', e: '👧', say: 'Esta es mi hermana' },
+  { es: 'abuelo', ru: 'дедушка', e: '👴', say: 'Este es mi abuelo' }
+];
+
+var MEMORY = FAMILY.map(function (f) { return { a: f.es, b: f.e, sa: f.es, sb: null }; });
+
+var QUIZ = [
+  { q: ' Как по-испански «мама»?', opts: ['madre', 'padre', 'hermano', 'abuelo'], correct: 'madre' },
+  { q: ' Как будет «сестра»?', opts: ['hermano', 'hermana', 'abuela', 'madres'], correct: 'hermana' },
+  { q: ' Сочетание <strong>ue</strong> читается как…', opts: ['уэ', 'йэ', 'оэ', 'уо'], correct: 'уэ' }
+];
+
+var CAN_DO = [
+  'Я называю 5 членов семьи',
+  'Я читаю слова с ie и ue',
+  'Я говорю «Esta es mi madre»',
+  'Я спрашиваю «¿Quién es?»'
+];
+
+function renderFamily() {
+  var box = document.getElementById('familyCards');
+  box.innerHTML = '';
+  FAMILY.forEach(function (f) {
+    var c = EL.el('div', 'word-card');
+    c.setAttribute('data-say', f.es);
+    c.style.background = 'linear-gradient(140deg, var(--c3), var(--c1))';
+    c.innerHTML = '<span class="emoji">' + f.e + '</span><span class="es">' + f.es + '</span><span class="ru">' + f.ru + '</span>' +
+      '<button class="mic-btn" data-mic="' + f.es + '" data-step="3">🎤</button>';
+    box.appendChild(c);
+  });
+}
+
+function buildTree() {
+  EL.assign({
+    bank: 'assignBank',
+    targets: 'assignTargets',
+    stateKey: 'familyTree',
+    step: 5,
+    items: EL.shuffle(FAMILY).map(function (f) {
+      return { key: f.es, label: f.es, emoji: '', say: f.say };
+    }),
+    slots: EL.shuffle(FAMILY).map(function (f) {
+      return { key: f.es, emoji: f.e, label: '?' };
+    }),
+    badMsg: ' ¡Casi! Посмотри внимательно на картинку и попробуй другое место!',
+    winMsg: ' ¡Perfecto! Вся семья на месте!',
+    onWin: function () { EL.say(5, ' Ты собрал семейное древо! Теперь расскажи о своей семье.', 'success'); }
+  });
+}
+
+EL.init({
+  id: 5,
+  rate: 0.72,
+  resumeMsg: ' Продолжить урок 5 с шага ',
+  onStep: function (n) {
+    if (n === 3) { renderFamily(); EL.memory(MEMORY, { step: 3 }); }
+    if (n === 5) buildTree();
+    if (n === 6) EL.quiz(QUIZ, { step: 6 });
+    if (n === 7) EL.canDo(CAN_DO);
+  },
+  onRestart: function () { renderFamily(); EL.memory(MEMORY, { step: 3 }); buildTree(); }
+});
+</script>
+
+<script src="assets/gate.js"></script>
+</body>
+</html>

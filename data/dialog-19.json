@@ -1,0 +1,312 @@
+{
+  "id": 19,
+  "title": "Carmen y Sofía están en el albergue en Córdoba",
+  "titleRu": "Кармен и София находятся в альберге в Кордове",
+  "part": 2,
+  "level": "A2",
+  "theme": "Еда, путешествие, планы  La comida, el viaje, los planes",
+  "characters": ["carmen_viaje", "sofia"],
+  "objectives": [
+    "Обсуждать, что приготовить (¿Qué vamos a comer?, ¿qué te parece?)",
+    "Предлагать идеи (¿por qué no + presente?)",
+    "Говорить об остатках продуктов (nos queda, no queda)",
+    "Называть примерное время (sobre las diez, a las ocho de la mañana)",
+    "Планировать поездку (creo que vamos a ..., pensamos regresar)"
+  ],
+  "grammar": {
+    "quedar": {
+      "title": "Глагол QUEDAR: «осталось, есть ещё»",
+      "description": "QUEDAR в значении «оставаться в наличии»: ¿Nos queda el té? — «У нас ещё остался чай?», Si no nos queda lechuga, compramos más — «Если у нас не останется салата, купим ещё». Местоимение указывает, у кого: me queda (у меня осталось), te queda, nos queda, les queda.",
+      "forms": {
+        "yo": { "es": "me queda / me quedan", "ru": "у меня остаётся (ед./мн.)" },
+        "tu": { "es": "te queda / te quedan", "ru": "у тебя остаётся" },
+        "el_ella": { "es": "le queda / le quedan", "ru": "у него/неё остаётся" },
+        "nosotros": { "es": "nos queda / nos quedan", "ru": "у нас остаётся" },
+        "vosotros": { "es": "os queda / os quedan", "ru": "у вас остаётся" },
+        "ellos_ellas": { "es": "les queda / les quedan", "ru": "у них остаётся" }
+      },
+      "examples": [
+        { "es": "¿Nos queda el té? Sí, pero poco.", "ru": "У нас ещё остался чай? Да, но мало." },
+        { "es": "Ah, no tenemos leche.", "ru": "А, у нас нет молока." },
+        { "es": "Si no nos queda lechuga, compramos más.", "ru": "Если у нас не останется салата, купим ещё." }
+      ]
+    },
+    "por_que_no": {
+      "title": "Предложения: ¿POR QUÉ NO + presente?",
+      "description": "¿POR QUÉ NO + глагол в presente? — «почему бы нам не ...?» — дружеское предложение: ¿Por qué no preparamos tortilla de patatas con ensalada? — «Почему бы нам не приготовить омлет с картошкой и салат?»",
+      "list": [
+        { "es": "¿por qué no preparamos...?", "ru": "почему бы нам не приготовить ...?" },
+        { "es": "¿por qué no vamos a la cocina?", "ru": "почему бы нам не пойти на кухню?" },
+        { "es": "¿por qué no compramos pan?", "ru": "почему бы нам не купить хлеб?" },
+        { "es": "¿qué te parece?", "ru": "как тебе?" }
+      ],
+      "examples": [
+        { "es": "¿Por qué no preparamos tortilla de patatas con ensalada? Es más rápido.", "ru": "Почему бы нам не приготовить омлет с картошкой и салат? Это быстрее." },
+        { "es": "Quiero preparar pasta con verduras, ¿qué te parece?", "ru": "Хочу приготовить пасту с овощами, как тебе?" }
+      ]
+    },
+    "sobre_hora": {
+      "title": "Примерное время: SOBRE LAS + час, DE LA MAÑANA / TARDE / NOCHE",
+      "description": "SOBRE + время — «около, примерно»: sobre las diez (около десяти). Чтобы уточнить часть суток: a las ocho de la mañana (в восемь утра), por la noche (вечером), a la una y media (в половине второго).",
+      "list": [
+        { "es": "sobre las diez", "ru": "около десяти" },
+        { "es": "a las ocho de la mañana", "ru": "в восемь утра" },
+        { "es": "por la noche", "ru": "вечером" },
+        { "es": "a la una y media", "ru": "в половине второго" }
+      ],
+      "examples": [
+        { "es": "¿A qué hora pensamos regresar al albergue?", "ru": "Во сколько мы думаем вернуться в альберг?" },
+        { "es": "Creo que sobre las diez.", "ru": "Думаю, около десяти." }
+      ]
+    },
+    "sin_con": {
+      "title": "Еда: СON / SIN / DE (с чем, без чего)",
+      "description": "Предлоги за столом: pasta con verduras (паста с овощами), pollo con patatas asadas (курица с запечённым картофелем), el té sin leche (чай без молока), bocadillos de jamón y tomate (бутерброды с ветчиной и помидорами).",
+      "list": [
+        { "es": "pasta con verduras", "ru": "паста с овощами" },
+        { "es": "pollo con patatas asadas", "ru": "курица с запечённым картофелем" },
+        { "es": "el té sin leche", "ru": "чай без молока" },
+        { "es": "bocadillos de jamón y tomate", "ru": "бутерброды с ветчиной и помидорами" }
+      ],
+      "examples": [
+        { "es": "No, tomo el té sin leche.", "ru": "Нет, я пью чай без молока." },
+        { "es": "Pon la pasta con verduras, por favor.", "ru": "Положи пасту с овощами, пожалуйста." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "comidas": [
+      { "es": "la pasta", "ru": "паста, макароны" },
+      { "es": "las verduras", "ru": "овощи" },
+      { "es": "el pollo", "ru": "курица" },
+      { "es": "las patatas asadas", "ru": "запечённый картофель" },
+      { "es": "la merluza", "ru": "хек" },
+      { "es": "el salmón", "ru": "лосось" },
+      { "es": "la carne de cerdo", "ru": "свинина" },
+      { "es": "la tortilla de patatas", "ru": "омлет с картошкой" },
+      { "es": "la ensalada", "ru": "салат (блюдо)" },
+      { "es": "la lechuga", "ru": "салат (листья)" }
+    ],
+    "productos": [
+      { "es": "el pan", "ru": "хлеб" },
+      { "es": "el jamón", "ru": "ветчина" },
+      { "es": "el tomate", "ru": "помидор" },
+      { "es": "los bocadillos", "ru": "бутерброды" },
+      { "es": "el té", "ru": "чай" },
+      { "es": "la leche", "ru": "молоко" },
+      { "es": "sin leche", "ru": "без молока" },
+      { "es": "comprar agua", "ru": "купить воды" }
+    ],
+    "viaje_albergue": [
+      { "es": "el albergue", "ru": "хостел, альберг" },
+      { "es": "el tren", "ru": "поезд" },
+      { "es": "la cocina", "ru": "кухня" },
+      { "es": "preparar la comida", "ru": "готовить еду" },
+      { "es": "volver", "ru": "возвращаться" },
+      { "es": "regresar", "ru": "возвращаться, вернуться" },
+      { "es": "salir", "ru": "выходить, уезжать" },
+      { "es": "pasear", "ru": "гулять" },
+      { "es": "todo el día", "ru": "весь день" },
+      { "es": "ver lo máximo posible", "ru": "увидеть как можно больше" }
+    ],
+    "tiempo_hora": [
+      { "es": "más tarde", "ru": "позже" },
+      { "es": "por la noche", "ru": "вечером" },
+      { "es": "sobre las diez", "ru": "около десяти" },
+      { "es": "a las ocho de la mañana", "ru": "в восемь утра" },
+      { "es": "a la una y media", "ru": "в половине второго" },
+      { "es": "veinte minutos", "ru": "двадцать минут" },
+      { "es": "bastante", "ru": "довольно много" },
+      { "es": "un poco", "ru": "немного" },
+      { "es": "hace buen tiempo", "ru": "хорошая погода" },
+      { "es": "el cielo está despejado", "ru": "небо чистое, ясное" },
+      { "es": "no hay nubes", "ru": "нет облаков" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Carmen", "es": "¿Qué vamos a comer?", "ru": "Что будем есть?" },
+    { "speaker": "Sofía", "es": "Quiero preparar pasta con verduras, ¿qué te parece?", "ru": "Хочу приготовить пасту с овощами, как тебе?" },
+    { "speaker": "Carmen", "es": "Está bien. Más tarde voy a comprar agua. Por la noche quiero preparar un pollo con patatas asadas. O, si quieres, merluza o salmón. No como carne de cerdo.", "ru": "Хорошо. Попозже я схожу купить воды. Вечером хочу приготовить курицу с запечённым картофелем. Или, если хочешь, хек или лосось. Свинину я не ем." },
+    { "speaker": "Sofía", "es": "Eso va a tardar bastante. ¿Por qué no preparamos tortilla de patatas con ensalada? Es más rápido.", "ru": "Это займёт довольно много времени. Почему бы нам не приготовить омлет с картошкой и салат? Это быстрее." },
+    { "speaker": "Carmen", "es": "Sí, tienes razón. Creo que vamos a volver al albergue tarde, muy cansadas. Preparamos algo sencillo.", "ru": "Да, ты права. Думаю, мы вернёмся в альберг поздно и очень уставшие. Приготовим что-нибудь простое." },
+    { "speaker": "Sofía", "es": "Para pasado mañana tenemos que comprar pan, jamón y tomate para hacer bocadillos. ¿Nos queda el té?", "ru": "На послезавтра нам надо купить хлеб, ветчину и помидоры, чтобы сделать бутерброды. У нас ещё остался чай?" },
+    { "speaker": "Carmen", "es": "Sí, pero poco. Ah, no tenemos leche. ¿La necesitas?", "ru": "Да, но мало. А, у нас нет молока, оно тебе нужно?" },
+    { "speaker": "Sofía", "es": "No, tomo el té sin leche. Ah, y si no nos queda lechuga, compramos más.", "ru": "Нет, я пью чай без молока. А, если у нас не останется салата, купим ещё." },
+    { "speaker": "Carmen", "es": "De acuerdo. ¿A qué hora pensamos regresar al albergue?", "ru": "Хорошо. Во сколько мы думаем вернуться в альберг?" },
+    { "speaker": "Sofía", "es": "Creo que sobre las diez. Hoy hace muy buen tiempo, no hay nubes, el cielo está despejado... Por eso, creo, vamos a pasear todo el día para poder ver lo máximo posible.", "ru": "Думаю, около десяти. Сегодня очень хорошая погода, нет облаков, небо чистое... Поэтому, думаю, мы будем гулять весь день, чтобы успеть посмотреть как можно больше." },
+    { "speaker": "Carmen", "es": "Sí, y pasado mañana nuestro tren sale a las ocho de la mañana, no tenemos mucho tiempo.", "ru": "Да, послезавтра наш поезд выезжает в восемь утра, у нас не очень много времени." },
+    { "speaker": "Sofía", "es": "Bueno, ya es hora de preparar la comida y salir, es la una y media ya.", "ru": "Ну, пора готовить еду и выходить, уже половина второго." },
+    { "speaker": "Carmen", "es": "Necesito veinte minutos más.", "ru": "Мне нужно ещё двадцать минут." },
+    { "speaker": "Sofía", "es": "Bueno, yo ya voy a la cocina. Nos vemos allí.", "ru": "Ну, я пошла на кухню. Увидимся там." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el albergue", "ru": "хостел, альберг" },
+        { "es": "la tortilla de patatas", "ru": "омлет с картошкой" },
+        { "es": "las patatas asadas", "ru": "запечённый картофель" },
+        { "es": "la merluza", "ru": "хек" },
+        { "es": "el salmón", "ru": "лосось" },
+        { "es": "los bocadillos", "ru": "бутерброды" },
+        { "es": "el jamón", "ru": "ветчина" },
+        { "es": "la lechuga", "ru": "салат (листья)" }
+      ]
+    },
+    {
+      "type": "fill-gap-quedar",
+      "title": "Практика: QUEDAR (осталось)",
+      "description": "Вставь правильную форму глагола quedar",
+      "sentences": [
+        { "text": "¿Nos ___ el té?", "ru": "У нас ещё остался чай?", "answer": "queda", "options": ["queda", "quedan", "quedo"] },
+        { "text": "Sí, pero nos queda muy ___ .", "ru": "Да, но у нас осталось очень мало", "answer": "poco", "options": ["poco", "mucho", "algo"] },
+        { "text": "Si no nos queda ___ , compramos más.", "ru": "Если у нас не останется салата, купим ещё", "answer": "lechuga", "options": ["lechuga", "pan", "jamón"] },
+        { "text": "¿Os ___ leche en casa?", "ru": "У вас дома осталось молоко?", "answer": "queda", "options": ["queda", "quedan", "quedáis"] },
+        { "text": "Me ___ dos euros para el tren.", "ru": "У меня осталось два евро на поезд", "answer": "quedan", "options": ["quedan", "queda", "quedo"] }
+      ]
+    },
+    {
+      "type": "fill-gap-por_que_no",
+      "title": "Практика: ¿POR QUÉ NO + presente?",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Por ___ no preparamos tortilla de patatas?", "ru": "Почему бы нам не приготовить омлет с картошкой?", "answer": "qué", "options": ["qué", "que", "quién"] },
+        { "text": "¿Por qué no ___ una ensalada?", "ru": "Почему бы нам не приготовить салат?", "answer": "preparamos", "options": ["preparamos", "preparas", "prepara"] },
+        { "text": "¿Qué te ___ la pasta con verduras?", "ru": "Как тебе паста с овощами?", "answer": "parece", "options": ["parece", "pienses", "gusta"] },
+        { "text": "¿Por qué no ___ a la cocina?", "ru": "Почему бы нам не пойти на кухню?", "answer": "vamos", "options": ["vamos", "vas", "va"] },
+        { "text": "¿Por qué no ___ agua en la tienda?", "ru": "Почему бы нам не купить воды в магазине?", "answer": "compramos", "options": ["compramos", "compras", "compra"] }
+      ]
+    },
+    {
+      "type": "fill-gap-sobre_hora",
+      "title": "Практика: примерное время",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Volvemos al albergue ___ las diez.", "ru": "Мы вернёмся в альберг около десяти", "answer": "sobre", "options": ["sobre", "son", "en"] },
+        { "text": "El tren sale a las ocho de la ___ .", "ru": "Поезд выезжает в восемь утра", "answer": "mañana", "options": ["mañana", "tarde", "noche"] },
+        { "text": "Ya es la ___ y media.", "ru": "Уже половина второго", "answer": "una", "options": ["una", "dos", "tres"] },
+        { "text": "Necesito veinte ___ más.", "ru": "Мне нужно ещё двадцать минут", "answer": "minutos", "options": ["minutos", "horas", "días"] },
+        { "text": "El tren sale temprano, no tenemos mucho ___ .", "ru": "Поезд выезжает рано, у нас немного времени", "answer": "tiempo", "options": ["tiempo", "minutos", "prisa"] }
+      ]
+    },
+    {
+      "type": "fill-gap-sin_con",
+      "title": "Практика: CON / SIN / DE",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Tomo el té ___ leche.", "ru": "Я пью чай без молока", "answer": "sin", "options": ["sin", "con", "de"] },
+        { "text": "Pasta ___ verduras, ¿qué te parece?", "ru": "Паста с овощами, как тебе?", "answer": "con", "options": ["con", "sin", "de"] },
+        { "text": "Vamos a hacer bocadillos ___ jamón y tomate.", "ru": "Сделаем бутерброды с ветчиной и помидорами", "answer": "de", "options": ["de", "con", "sin"] },
+        { "text": "No como carne de ___ .", "ru": "Я не ем свинину", "answer": "cerdo", "options": ["cerdo", "pollo", "salmón"] },
+        { "text": "Por la noche quiero preparar pollo con patatas ___ .", "ru": "Вечером хочу приготовить курицу с запечённым картофелем", "answer": "asadas", "options": ["asadas", "cocidas", "fritas"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Nos ___ el té?", "ru": "У нас ещё остался чай?", "answer": "queda", "options": ["queda", "quedan", "quiere"] },
+        { "text": "¿Por qué no ___ tortilla de patatas?", "ru": "Почему бы нам не приготовить омлет с картошкой?", "answer": "preparamos", "options": ["preparamos", "compramos", "vamos"] },
+        { "text": "Tomo el té sin ___ .", "ru": "Я пью чай без молока", "answer": "leche", "options": ["leche", "pan", "té"] },
+        { "text": "El tren sale a las ocho de la ___ .", "ru": "Поезд выезжает в восемь утра", "answer": "mañana", "options": ["mañana", "tarde", "noche"] },
+        { "text": "Creo que vamos a volver ___ .", "ru": "Думаю, мы вернёмся поздно", "answer": "tarde", "options": ["tarde", "temprano", "ahora"] },
+        { "text": "Tenemos ___ comprar pan y jamón.", "ru": "Нам надо купить хлеб и ветчину", "answer": "que", "options": ["que", "para", "de"] },
+        { "text": "Hoy hace muy buen ___ .", "ru": "Сегодня очень хорошая погода", "answer": "tiempo", "options": ["tiempo", "día", "sol"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Кармен",
+      "role": "Carmen",
+      "description": "Обсуждай меню и план поездки с Софией"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Софией",
+      "role": "Sofía",
+      "description": "Теперь ты София — предлагай, что приготовить и купить"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Обсуди с другом меню на день и план прогулки",
+      "template": [
+        { "label": "Что будем есть?", "es": "¿Qué vamos a ___?" },
+        { "label": "Почему бы нам не", "es": "¿Por qué no ___?" },
+        { "label": "У нас осталось", "es": "¿Nos ___ el ___?" },
+        { "label": "Думаю, мы вернёмся", "es": "Creo que vamos a ___" },
+        { "label": "Около десяти", "es": "Sobre ___ volvemos" },
+        { "label": "Во сколько", "es": "¿A qué hora ___?" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Qué quiere preparar Sofía para comer?",
+          "ru": "Что хочет приготовить София на обед?",
+          "options": ["Pasta con verduras", "Pollo con patatas", "Tortilla de patatas", "Salmón"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué no come Carmen?",
+          "ru": "Что не ест Кармен?",
+          "options": ["La carne de cerdo", "El pescado", "El pan", "La tortilla"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué propone Sofía cocinar en vez del pollo?",
+          "ru": "Что предлагает София приготовить вместо курицы?",
+          "options": ["Tortilla de patatas con ensalada", "Pasta con verduras", "Merluza", "Bocadillos"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué tienen que comprar para pasado mañana?",
+          "ru": "Что им нужно купить на послезавтра?",
+          "options": ["Pan, jamón y tomate", "Leche y té", "Pollo y salmón", "Verduras"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo toma Sofía el té?",
+          "ru": "Как София пьёт чай?",
+          "options": ["Sin leche", "Con leche", "Con limón", "Con miel"],
+          "answer": 0
+        },
+        {
+          "question": "¿A qué hora piensan volver al albergue?",
+          "ru": "Во сколько они думают вернуться в альберг?",
+          "options": ["Sobre las diez", "A las ocho de la mañana", "A la una y media", "A las doce"],
+          "answer": 0
+        },
+        {
+          "question": "¿A qué hora sale su tren pasado mañana?",
+          "ru": "Во сколько их поезд послезавтра?",
+          "options": ["A las ocho de la mañana", "A las diez", "A la una y media", "A las cinco"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué tiempo hace hoy?",
+          "ru": "Какая сегодня погода?",
+          "options": ["Muy buen tiempo, no hay nubes, cielo despejado", "Llueve todo el día", "Mucho viento", "Nieva en la montaña"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить новые слова (еда, покупки, время) в приложении",
+    "Практика: Расскажи партнёру (italki/Tandem) о ваших планах на день: vamos a ..., ¿por qué no ...?, creo que volvemos sobre las ...",
+    "Дневник: Составь меню на день и план поездки: что едите, во сколько выходите и возвращаетесь",
+    "Грамматика: Напиши 3 предложения с QUEDAR (осталось) и 3 предложения с ¿por qué no + presente?"
+  ]
+}

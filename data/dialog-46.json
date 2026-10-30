@@ -1,0 +1,306 @@
+{
+  "id": 46,
+  "title": "Lucía cuenta su viaje a su papá",
+  "titleRu": "Лусия рассказывает о своём путешествии папе",
+  "part": 5,
+  "level": "B2",
+  "theme": "Путешествие по Португалии, впечатления, города  El viaje por Portugal, las impresiones, las ciudades",
+  "characters": ["lucia", "papa_lucia"],
+  "objectives": [
+    "Рассказывать о поездке: nos acomodamos en el hotel, alquilamos el coche, recorrimos muchos lugares",
+    "Использовать Estar + gerundio для длительного действия в прошлом: nos estaban diciendo, estuvimos recorriendo",
+    "Употреблять возвратные глаголы: nos perdimos, se acostumbró, se esforzaba, darse el lujo",
+    "Говорить о планах и прогнозах: va a viajar, volveré, lo disfrutará",
+    "Выражать впечатления: me encantó Oporto, nunca había visto nada parecido",
+    "Сравнивать жизнь и цены: ganan poco al mes, la mayoría sigue viviendo de este modo"
+  ],
+  "grammar": {
+    "estar_gerundio": {
+      "title": "ESTAR + gerundio: длительное действие в прошлом",
+      "description": "Estar + gerundio описывает действие в процессе. В рассказах о прошлом imperfecto + gerundio даёт фон: a veces no entendíamos qué nos estaban diciendo (мы не понимали, что нам говорили). Indefinido + gerundio подчёркивает длительность: estuvimos recorriendo muchos lugares (мы объехали много мест), Carlos, conduciendo (Карлос, будучи за рулём).",
+      "forms": {
+        "yo": { "es": "estuve recorriendo", "ru": "я объезжал(а)" },
+        "tu": { "es": "estuviste conduciendo", "ru": "ты (сам) вёл машину" },
+        "el_ella": { "es": "estaba diciendo", "ru": "он/она говорил(а)" },
+        "nosotros": { "es": "estuvimos recorriendo", "ru": "мы объезжали" },
+        "vosotros": { "es": "estabais buscando", "ru": "вы искали" },
+        "ellos_ellas": { "es": "estaban hablando", "ru": "они разговаривали" }
+      },
+      "examples": [
+        { "es": "No entendíamos qué nos estaban diciendo los portugueses.", "ru": "Мы не понимали, что нам говорили португальцы." },
+        { "es": "Estuvimos recorriendo muchos lugares y Carlos, conduciendo todo el tiempo.", "ru": "Мы объехали много мест, и Карлос всё время был за рулём." }
+      ]
+    },
+    "verbos_reflexivos": {
+      "title": "Возвратные глаголы: perderse, acostumbrarse, esforzarse...",
+      "description": "Возвратные глаголы показывают, что действие направлено на самого себя: nos perdimos un par de veces (мы пару раз заблудились), nos acomodamos en el hotel (мы расположились в отеле), también se esforzaba para entenderlos (он тоже старался их понять), después se acostumbró (потом он привык), no se pueden dar el lujo de (они не могут себе позволить).",
+      "list": [
+        { "es": "nos perdimos un par de veces", "ru": "мы пару раз заблудились" },
+        { "es": "nos acomodamos en el hotel", "ru": "мы расположились в отеле" },
+        { "es": "se esforzaba para entenderlos", "ru": "он прилагал усилия, чтобы их понять" },
+        { "es": "después se acostumbró", "ru": "потом он привык" },
+        { "es": "no se pueden dar el lujo de visitarlos", "ru": "они не могут позволить себе посещать их" },
+        { "es": "Carlos se cansaba conduciendo", "ru": "Карлос уставал за рулём" }
+      ],
+      "examples": [
+        { "es": "Nos perdimos un par de veces en la ciudad, pero, por suerte, no tuvimos problemas en la carretera.", "ru": "Мы пару раз заблудились в городе, но, к счастью, у нас не было проблем на дороге." },
+        { "es": "Al principio no entendíamos el acento, pero después nos acostumbramos.", "ru": "Сначала мы не понимали акцент, но потом привыкли." }
+      ]
+    },
+    "futuro_planes": {
+      "title": "Будущее время для планов и прогнозов",
+      "description": "Для планов и предсказаний используют futuro simple (viajaré, volverá, disfrutará) или ir a + infinitivo (va a viajar — собирается поехать). Papá: ¿Piensas volver a Portugal? Lucía: No pienso volver por ahora. Tu tío va a viajar el próximo mes a Perú, Bolivia y Chile. ¡Estoy segura de que lo disfrutará!",
+      "forms": {
+        "yo": { "es": "volveré", "ru": "я вернусь" },
+        "tu": { "es": "volverás", "ru": "ты вернёшься" },
+        "el_ella": { "es": "lo disfrutará", "ru": "он/она получит удовольствие" },
+        "nosotros": { "es": "viajaremos", "ru": "мы поедем" },
+        "vosotros": { "es": "iréis", "ru": "вы поедете" },
+        "ellos_ellas": { "es": "nos contarán", "ru": "они нам расскажут" }
+      },
+      "examples": [
+        { "es": "Por ahora no pienso volver a Portugal. Me gustaría visitar otros países.", "ru": "Пока я не собираюсь возвращаться в Португалию. Я хотела бы посетить другие страны." },
+        { "es": "Tu tío va a viajar el próximo mes a Perú, Bolivia y Chile.", "ru": "Твой дядя собирается поехать в следующем месяце в Перу, Боливию и Чили." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "el_viaje": [
+      { "es": "el viaje", "ru": "поездка, путешествие" },
+      { "es": "el camino", "ru": "дорога, путь" },
+      { "es": "la carretera", "ru": "шоссе, трасса" },
+      { "es": "el tráfico", "ru": "дорожное движение, пробки" },
+      { "es": "alquilar el coche", "ru": "арендовать машину" },
+      { "es": "recorrer", "ru": "объезжать, объехать" },
+      { "es": "perderse", "ru": "заблудиться" },
+      { "es": "los turistas", "ru": "туристы" }
+    ],
+    "los_lugares": [
+      { "es": "la playa", "ru": "пляж" },
+      { "es": "el hotel", "ru": "отель" },
+      { "es": "las cataratas", "ru": "водопады" },
+      { "es": "la isla", "ru": "остров" },
+      { "es": "el supermercado", "ru": "супермаркет" },
+      { "es": "los lugares públicos", "ru": "общественные места" },
+      { "es": "los cafés", "ru": "кафе" },
+      { "es": "los delfines", "ru": "дельфины" }
+    ],
+    "la_economia": [
+      { "es": "la comida", "ru": "еда" },
+      { "es": "la tarjeta", "ru": "карточка (талон)" },
+      { "es": "ganar", "ru": "зарабатывать" },
+      { "es": "los precios", "ru": "цены" },
+      { "es": "el plan concreto", "ru": "чёткий план" },
+      { "es": "darse el lujo de", "ru": "позволять себе роскошь" },
+      { "es": "la mayoría", "ru": "большинство" },
+      { "es": "entregar", "ru": "выдавать, вручать" }
+    ],
+    "los_verbos": [
+      { "es": "acomodarse", "ru": "размещаться, устраиваться" },
+      { "es": "esforzarse", "ru": "прилагать усилия, стараться" },
+      { "es": "acostumbrarse", "ru": "привыкать" },
+      { "es": "descansar", "ru": "отдыхать" },
+      { "es": "planear", "ru": "планировать" },
+      { "es": "disfrutar", "ru": "наслаждаться" },
+      { "es": "nadar", "ru": "плавать" },
+      { "es": "cansarse", "ru": "уставать" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Papá", "es": "Pues, ¿qué tal lo pasaste?", "ru": "Итак, как вы провели время?" },
+    { "speaker": "Lucía", "es": "¡Me gustó tanto el viaje! Llegamos a Lisboa por la tarde, nos acomodamos en el hotel y enseguida fuimos a una playa preciosa. Descansamos tres días, alquilamos el coche y fuimos a Oporto.", "ru": "Мне так понравилась поездка! Мы приехали в Лиссабон после обеда, разместились в отеле и сразу же пошли на красивый пляж. Отдохнули три дня, арендовали машину и поехали в Порту." },
+    { "speaker": "Papá", "es": "¿No tuvisteis problemas en la carretera? He oído que el tráfico no es muy bueno allí...", "ru": "У вас не было проблем на дороге? Я слышал, что дорожное движение там не очень хорошее..." },
+    { "speaker": "Lucía", "es": "No, por suerte, ninguno. Pero nos perdimos un par de veces en la ciudad.", "ru": "Нет, к счастью, никаких. Но мы пару раз заблудились в городе." },
+    { "speaker": "Papá", "es": "¿Por qué no preguntasteis el camino? En Portugal hablan portugués...", "ru": "Почему вы не спросили дорогу? В Португалии говорят по-португальски..." },
+    { "speaker": "Lucía", "es": "Sí, lo hicimos. Sabes, a veces no entendíamos qué nos estaban diciendo: tienen un acento muy especial...", "ru": "Да, мы так и сделали. Понимаешь, иногда мы не понимали, что нам говорили: у них очень особенный акцент..." },
+    { "speaker": "Papá", "es": "Sí, lo sé. Tu abuelo, cuando estaba en Portugal en su juventud estudiando medicina, también se esforzaba para entenderlos. Pero después se acostumbró. Dime, ¿comisteis bien?", "ru": "Да, знаю. Твой дедушка, когда жил в Португалии в молодости, изучая медицину, тоже с трудом их понимал. Но потом он привык. Скажи, вы хорошо ели?" },
+    { "speaker": "Lucía", "es": "Sí, hay muchos cafés para los turistas. Los portugueses apenas van a los cafés porque no se pueden dar el lujo de visitarlos: ganan muy poco al mes... En los supermercados no pudimos encontrar mucha comida y tuvimos que comer solo en lugares públicos.", "ru": "Да, там много кафе для туристов. Португальцы почти не ходят в кафе, потому что не могут позволить себе их посещать: они зарабатывают очень мало в месяц... В супермаркетах мы не смогли найти много еды, и нам пришлось есть только в общественных местах." },
+    { "speaker": "Papá", "es": "Tu abuelo decía que les entregaban la comida mensual según las tarjetas que tenían. ¿Sigue así?", "ru": "Твой дедушка рассказывал, что им выдавали еду раз в месяц по карточкам. До сих пор так?" },
+    { "speaker": "Lucía", "es": "Sí, la mayoría sigue viviendo de este modo.", "ru": "Да, большинство по-прежнему живёт именно так." },
+    { "speaker": "Papá", "es": "¿Qué ciudad te gustó más?", "ru": "Какой город тебе понравился больше всего?" },
+    { "speaker": "Lucía", "es": "Me encantó Oporto porque todas las casas están pintadas de diferentes colores. Nunca había visto nada parecido. Además, visitamos las cataratas e hicimos muchas fotos.", "ru": "Мне очень понравился Порту, потому что все дома раскрашены в разные цвета. Никогда не видела ничего подобного. К тому же мы съездили на водопады и сделали много фотографий." },
+    { "speaker": "Papá", "es": "Me decías que ibais a una isla para nadar con delfines... ¿Habéis ido?", "ru": "Ты говорила мне, что вы собирались на остров поплавать с дельфинами... Вы съездили?" },
+    { "speaker": "Lucía", "es": "No, no tuvimos tiempo. Estuvimos recorriendo muchos lugares, y Carlos, conduciendo. Claro que se cansaba y por eso necesitábamos más tiempo para descansar. Total, pensé que si íbamos a Portugal otra vez, mejor tomar buses para viajar.", "ru": "Нет, у нас не было времени. Мы объехали много мест, и Карлос всё время за рулём. Конечно же, он уставал, и поэтому нам нужно было больше времени на отдых. В общем, я подумала, что если мы поедем в Португалию ещё раз, лучше путешествовать на автобусах." },
+    { "speaker": "Papá", "es": "¿Piensas volver a Portugal? ¿Es que no habéis visto todo?", "ru": "Ты собираешься вернуться в Португалию? Разве вы не всё посмотрели?" },
+    { "speaker": "Lucía", "es": "No todo, claro. Por ahora, no pienso volver a Portugal. Me gustaría visitar otros países. Carlos me dijo que Perú es muy impresionante.", "ru": "Не всё, конечно. Пока что я не собираюсь возвращаться в Португалию. Я хотела бы посетить другие страны. Карлос сказал мне, что Перу очень впечатляет." },
+    { "speaker": "Papá", "es": "Eso es verdad. Tu tío, Antonio, va a viajar el próximo mes a Perú, Bolivia y Chile. Me contó que había planeado el viaje hacía tres meses y que ya tenía un plan concreto. Recogió toda la información necesaria: el transporte, los hoteles y precios. A ver qué nos cuenta después de volver del viaje.", "ru": "Это правда. Твой дядя Антонио собирается в следующем месяце поехать в Перу, Боливию и Чили. Он рассказал мне, что запланировал поездку три месяца назад и что у него уже есть чёткий план. Он собрал всю необходимую информацию: транспорт, отели и цены. Посмотрим, что он нам расскажет, вернувшись из поездки." },
+    { "speaker": "Lucía", "es": "¡Estoy segura de que lo disfrutará! Yo también quiero viajar tanto como mi tío.", "ru": "Я уверена, что ему понравится! Я тоже хочу путешествовать так же много, как мой дядя." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el viaje", "ru": "поездка" },
+        { "es": "la carretera", "ru": "шоссе" },
+        { "es": "el tráfico", "ru": "дорожное движение" },
+        { "es": "alquilar el coche", "ru": "арендовать машину" },
+        { "es": "perderse", "ru": "заблудиться" },
+        { "es": "las cataratas", "ru": "водопады" },
+        { "es": "los delfines", "ru": "дельфины" },
+        { "es": "el supermercado", "ru": "супермаркет" },
+        { "es": "darse el lujo de", "ru": "позволять себе" },
+        { "es": "entregar", "ru": "выдавать" }
+      ]
+    },
+    {
+      "type": "fill-gap-estar_gerundio",
+      "title": "Практика: ESTAR + gerundio",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "No entendíamos qué nos ___ diciendo.", "ru": "Мы не понимали, что нам говорили", "answer": "estaban", "options": ["estaban", "están", "estarán"] },
+        { "text": "___ recorriendo muchos lugares.", "ru": "Мы объехали много мест", "answer": "Estuvimos", "options": ["Estuvimos", "Estamos", "Estaremos"] },
+        { "text": "Y Carlos, ___ todo el tiempo.", "ru": "А Карлос всё время вёл машину", "answer": "conduciendo", "options": ["conduciendo", "conducir", "conduce"] },
+        { "text": "Los portugueses ___ hablando animadamente.", "ru": "Португальцы оживлённо разговаривали", "answer": "estaban", "options": ["estaban", "están", "estuvieron"] },
+        { "text": "Yo ___ buscando el hotel cuando nos perdimos.", "ru": "Я искал отель, когда мы заблудились", "answer": "estaba", "options": ["estaba", "estoy", "estaré"] }
+      ]
+    },
+    {
+      "type": "fill-gap-verbos_reflexivos",
+      "title": "Практика: Возвратные глаголы",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Nos ___ un par de veces en la ciudad.", "ru": "Мы пару раз заблудились в городе", "answer": "perdimos", "options": ["perdimos", "perdíamos", "perdemos"] },
+        { "text": "Nos ___ en el hotel y fuimos al mar.", "ru": "Мы разместились в отеле и пошли на море", "answer": "acomodamos", "options": ["acomodamos", "acomodábamos", "acomodemos"] },
+        { "text": "Mi abuelo se ___ para entender el acento.", "ru": "Мой дедушка старался понять акцент", "answer": "esforzaba", "options": ["esforzaba", "esfuerza", "esforzaré"] },
+        { "text": "Después se ___ al acento portugués.", "ru": "Потом он привык к португальскому акценту", "answer": "acostumbró", "options": ["acostumbró", "acostumbra", "acostumbrará"] },
+        { "text": "No se pueden ___ el lujo de visitar los cafés.", "ru": "Они не могут позволить себе посещать кафе", "answer": "dar", "options": ["dar", "darse", "dan"] }
+      ]
+    },
+    {
+      "type": "fill-gap-futuro_planes",
+      "title": "Практика: Будущее время",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Por ahora no pienso ___ a Portugal.", "ru": "Пока я не собираюсь возвращаться в Португалию", "answer": "volver", "options": ["volver", "volveré", "vuelvo"] },
+        { "text": "Tu tío ___ a viajar el próximo mes.", "ru": "Твой дядя собирается поехать в следующем месяце", "answer": "va", "options": ["va", "irá", "fue"] },
+        { "text": "¡Estoy segura de que lo ___!", "ru": "Я уверена, что ему понравится!", "answer": "disfrutará", "options": ["disfrutará", "disfruta", "disfrutó"] },
+        { "text": "___ por muchos países el año que viene.", "ru": "Я объеду много стран в следующем году", "answer": "Viajaré", "options": ["Viajaré", "Viajo", "Viajé"] },
+        { "text": "¿Qué nos ___ después de volver del viaje?", "ru": "Что он нам расскажет, вернувшись из поездки?", "answer": "contará", "options": ["contará", "cuenta", "contó"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Nos ___ en el hotel y enseguida fuimos a la playa.", "ru": "Мы разместились в отеле и сразу пошли на пляж", "answer": "acomodamos", "options": ["acomodamos", "perdimos", "cansamos"] },
+        { "text": "Alquilamos el coche y fuimos a ___.", "ru": "Мы арендовали машину и поехали в Порту", "answer": "Oporto", "options": ["Oporto", "Madrid", "Roma"] },
+        { "text": "Nos ___ un par de veces en la ciudad.", "ru": "Мы пару раз заблудились в городе", "answer": "perdimos", "options": ["perdimos", "acomodamos", "disfrutamos"] },
+        { "text": "No entendíamos qué nos ___ diciendo.", "ru": "Мы не понимали, что нам говорили", "answer": "estaban", "options": ["estaban", "están", "estuvieron"] },
+        { "text": "Los portugueses no se pueden dar el ___ de visitar los cafés.", "ru": "Португальцы не могут позволить себе посещать кафе", "answer": "lujo", "options": ["lujo", "sitio", "tiempo"] },
+        { "text": "Les ___ la comida mensual según las tarjetas.", "ru": "Им выдавали еду раз в месяц по карточкам", "answer": "entregaban", "options": ["entregaban", "entregan", "entregarán"] },
+        { "text": "Me encantó Oporto porque ___ nunca había visto nada parecido.", "ru": "Мне очень понравился Порту, ничего подобного я никогда не видела", "answer": "Nunca", "options": ["Nunca", "Siempre", "También"] },
+        { "text": "Por ahora no pienso ___ a Portugal.", "ru": "Пока я не собираюсь возвращаться в Португалию", "answer": "volver", "options": ["volver", "ir", "salir"] },
+        { "text": "Él había ___ el viaje hacía tres meses.", "ru": "Он запланировал поездку три месяца назад", "answer": "planeado", "options": ["planeado", "planeando", "plan"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Ты — Лусия, рассказываешь папе о поездке в Португалию"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь папой",
+      "role": "Papá",
+      "description": "Ты — папа Лусии, расспрашиваешь её о путешествии"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи о своей поездке: маршрут, впечатления, планы",
+      "template": [
+        { "label": "Как вы провели время?", "es": "¿Qué tal lo ___?" },
+        { "label": "Мы разместились в отеле", "es": "Nos ___ en el hotel." },
+        { "label": "Мы арендовали машину", "es": "Alquilamos el ___." },
+        { "label": "Мы пару раз заблудились", "es": "Nos ___ un par de veces." },
+        { "label": "Что нам говорили", "es": "Qué nos ___ diciendo." },
+        { "label": "Они не могут себе позволить", "es": "No se pueden dar el ___ de." },
+        { "label": "Мы объехали много мест", "es": "___ recorriendo muchos lugares." },
+        { "label": "Запланировал поездку", "es": "Había ___ el viaje." },
+        { "label": "Он собирается поехать", "es": "___ a viajar el próximo mes." }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Con quién habla Lucía sobre su viaje?",
+          "ru": "С кем Лусия говорит о своей поездке?",
+          "options": ["Con su papá", "Con su hermana", "Con su tío", "Con su novio"],
+          "answer": 0
+        },
+        {
+          "question": "¿Dónde llegaron Lucía y Carlos al principio?",
+          "ru": "Куда сначала приехали Лусия и Карлос?",
+          "options": ["A Lisboa", "A Oporto", "A Madrid", "A una isla"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué hicieron después de descansar tres días?",
+          "ru": "Что они сделали после трёх дней отдыха?",
+          "options": ["Alquilaron un coche y fueron a Oporto", "Volvieron a casa", "Se quedaron en el hotel", "Nadaron con delfines"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué les pasó un par de veces en la ciudad?",
+          "ru": "Что с ними пару раз случалось в городе?",
+          "options": ["Se perdieron", "Se les rompió el coche", "Perdieron el hotel", "Se quedaron sin dinero"],
+          "answer": 0
+        },
+        {
+          "question": "¿Quién se esforzaba para entender a los portugueses?",
+          "ru": "Кто прилагал усилия, чтобы понять португальцев?",
+          "options": ["El abuelo de Lucía en su juventud", "El padre de Lucía", "El tío Antonio", "Carlos"],
+          "answer": 0
+        },
+        {
+          "question": "¿Por qué los portugueses apenas van a los cafés?",
+          "ru": "Почему португальцы почти не ходят в кафе?",
+          "options": ["No se pueden dar el lujo de visitarlos", "No les gusta el café", "No tienen tiempo", "Prefieren quedarse en casa"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué ciudad le gustó más a Lucía?",
+          "ru": "Какой город понравился Лусии больше всего?",
+          "options": ["Oporto", "Lisboa", "Madrid", "Sevilla"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué le gustó de Oporto?",
+          "ru": "Что понравилось Лусии в Порту?",
+          "options": ["Las casas pintadas de diferentes colores", "Las playas", "Los cafés", "El tráfico"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué vieron además en el viaje?",
+          "ru": "Что ещё они увидели в поездке?",
+          "options": ["Las cataratas", "Los delfines", "Las montañas", "Un volcán"],
+          "answer": 0
+        },
+        {
+          "question": "¿Adónde va a viajar el tío Antonio?",
+          "ru": "Куда собирается поехать дядя Антонио?",
+          "options": ["A Perú, Bolivia y Chile", "A Italia", "A Grecia", "A México"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повтори слова по теме «путешествие, поездка, города»",
+    "Практика: расскажи о своей поездке. Используй: nos acomodamos, alquilamos, nos perdimos, estuvimos + gerundio, me encantó...",
+    "Дневник: опиши город, который ты посетил(а), и свои впечатления",
+    "Грамматика: составь 4 предложения с estar + gerundio (estaba/estuve + gerundio) и 4 с возвратными глаголами (se acostumbró, nos perdimos)"
+  ]
+}

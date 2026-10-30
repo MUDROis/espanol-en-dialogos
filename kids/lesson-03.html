@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>¡Uno, dos, tres! — Урок 3 · Español A0–A1</title>
+<meta name="description" content="Урок 3: буква C (твёрдый и мягкий звук), числа от 1 до 10, вопрос «¿Cuántos años tienes?». Курс испанского A0–A1 для детей.">
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body data-theme="numeros">
+
+<header class="lesson-head">
+  <a class="link-back" href="course.html">← Все уроки</a>
+  <span class="lh-title">Урок 3 · ¡Uno, dos, tres!</span>
+  <span class="lh-spacer"></span>
+  <a class="link-ghost" href="lesson-04.html">Урок 4 →</a>
+</header>
+
+<div class="voice-note" id="voiceNote"></div>
+<div class="save-indicator" id="saveIndicator"> Прогресс сохранён</div>
+
+<div class="container">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ШАГ 1 -->
+  <section class="step active" id="step1">
+    <h1>¡Uno, dos, tres! </h1>
+    <p style="font-size:1.5em">¡Hola, amigo! Готов считать по-испански? </p>
+    <p>Сегодня ты научишься считать до десяти и узнаешь главный вопрос, который можно задать любому.</p>
+    <h3>В этом уроке</h3>
+    <p> Хитрая буква <strong>C</strong> и её два звука<br>
+        Цифры от 1 до 10<br>
+        Игра «Яблоневый сад»<br>
+        Секретный вопрос о возрасте</p>
+    <div class="tip"> <strong>Совет:</strong> разреши доступ к микрофону, чтобы тренировать произношение цифр!</div>
+    <div class="nav-buttons center">
+      <button class="btn btn-primary" data-next>¡Vamos! Поехали! </button>
+    </div>
+  </section>
+
+  <!-- ШАГ 2 -->
+  <section class="step" id="step2">
+    <h2> Буква C — актриса с двумя ролями</h2>
+    <p>Буква C звучит по-разному: перед одними буквами — твёрдо как <strong>К</strong>, перед другими — мягко как <strong>С</strong>.</p>
+    <div class="phonetics">
+      <div class="phon-card" data-say="Casa, Coco.">
+        <div class="phon-letter long">C + A, O, U</div>
+        <div class="phon-emoji">🎬</div>
+        <div class="phon-word">Casa, Coco</div>
+        <div class="phon-hint">Твёрдый звук <strong>К</strong>, как русская К. Запомни: CA, CO, CU = КА, КО, КУ</div>
+        <button class="mic-btn" data-mic="casa" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="Cena, Cine.">
+        <div class="phon-letter long">C + E, I</div>
+        <div class="phon-emoji">🎭</div>
+        <div class="phon-word">Cena, Cine</div>
+        <div class="phon-hint">Мягкий звук <strong>С</strong>, как русская С. Запомни: CE, CI = СЕ, СИ</div>
+        <button class="mic-btn" data-mic="cine" data-step="2">🎤</button>
+      </div>
+    </div>
+    <div class="feedback" id="feedback2"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 3 -->
+  <section class="step" id="step3">
+    <h2> Цифры от 1 до 10</h2>
+    <p>Нажми на карточку, послушай и повтори. Потом нажми на микрофон и проверь себя.</p>
+    <div class="numbers" id="numbersGrid"></div>
+    <p style="margin-top:26px"><strong> Найди пары: цифра и слово</strong></p>
+    <div class="memory-grid" id="memoryGrid"></div>
+    <div class="memory-counter">Найдено пар: <span id="memoryCounter">0</span>/5</div>
+    <div class="feedback" id="feedback3"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 4 -->
+  <section class="step" id="step4">
+    <h2> Секретный вопрос о возрасте</h2>
+    <p>Лео и Ана делятся секретами — сколько им лет. Послушай и повтори.</p>
+    <div class="dialogue">
+      <div class="dialogue-line" data-say="¿Cuántos años tienes?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿Cuántos años tienes?<span class="ru">Сколько тебе лет?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="cuántos años tienes" data-step="4" data-threshold="0.45">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Tengo siete años. ¿Y tú?">
+        <div class="avatar">👧</div>
+        <div class="text">Tengo siete años. ¿Y tú?<span class="ru">Мне семь лет. А тебе?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="tengo siete años" data-step="4" data-threshold="0.4">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="Tengo ocho años.">
+        <div class="avatar">🧑</div>
+        <div class="text">Tengo ocho años.<span class="ru">Мне восемь лет.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="tengo ocho años" data-step="4" data-threshold="0.4">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="¡Adiós!">
+        <div class="avatar">👧</div>
+        <div class="text">¡Adiós!<span class="ru">Пока!</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="adiós" data-step="4">🎤</button>
+      </div>
+    </div>
+    <div class="bubble-row">
+      <button class="btn btn-primary" data-repeat='["¿Cuántos años tienes?","Tengo siete años. ¿Y tú?","Tengo ocho años.","¡Adiós!"]' data-gap="2600"> Слушать весь диалог</button>
+    </div>
+    <div class="feedback" id="feedback4"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 5 · Яблоневый сад + возраст -->
+  <section class="step" id="step5">
+    <h2> Яблоневый сад</h2>
+    <p>Посчитай яблоки на дереве и выбери правильную цифру. Собери 5 звёздочек </p>
+    <div class="game-box">
+      <span class="stage-big">🌳</span>
+      <div class="apple-progress" id="appleProgress" style="display:flex;justify-content:center;gap:8px;margin:14px 0"></div>
+      <div id="appleDisplay" style="font-size:2.2em;min-height:60px;margin:16px 0;padding:18px;background:#fff;border-radius:20px;letter-spacing:8px;line-height:1.5;text-align:center"></div>
+      <div class="opt-row" id="appleOptions"></div>
+    </div>
+    <div class="feedback" id="feedback5a"></div>
+
+    <div class="game-box">
+      <h3 style="margin-top:0"> А сколько лет тебе?</h3>
+      <span class="stage-big">🎂</span>
+      <p>Напиши цифру от 1 до 10 и зажги свечи на торте!</p>
+      <div id="candlesDisplay" style="font-size:1.9em;min-height:44px;letter-spacing:5px;text-align:center"></div>
+      <div class="bubble-row">
+        <input type="number" id="ageInput" min="1" max="10" placeholder="1–10"
+               style="padding:14px 18px;border:3px solid var(--c3);border-radius:15px;font-size:1.2em;width:130px;text-align:center;outline:none;font-family:inherit">
+        <button class="btn btn-primary" id="lightCandles"> Зажечь свечи</button>
+        <button class="btn btn-secondary" id="speakAge"> Сказать вслух</button>
+      </div>
+    </div>
+    <div class="feedback" id="feedback5b"></div>
+
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 6 -->
+  <section class="step" id="step6">
+    <h2> Проверь себя!</h2>
+    <p>Отвечай на вопросы или просто листай дальше </p>
+    <div id="quizContainer"></div>
+    <div class="assign-progress" id="quizScore"></div>
+    <div class="feedback" id="feedback6"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 7 -->
+  <section class="step" id="step7">
+    <div class="final">
+
+      <h1>¡Fantástico!</h1>
+      <p style="font-size:1.4em">Ты прошёл третий урок!</p>
+      <div class="medal"> Медаль «¡Contador!»</div>
+      <p>Сегодня ты узнал:</p>
+      <p> Буква <strong>C</strong> звучит как К перед A, O, U<br>
+          И как С перед E, I<br>
+          Цифры от uno до diez<br>
+          Как спросить: «¿Cuántos años tienes?»</p>
+
+      <h3> ¡Yo puedo! — Я могу!</h3>
+      <div class="can-do" id="canDo"></div>
+
+      <div class="homework">
+        <strong> Домашнее задание</strong><br>
+        Возьми 5 предметов и считай: <strong>«Uno, dos, tres, cuatro, cinco»</strong><br>
+        А потом спроси у мамы: <strong>«¿Cuántos años tienes?»</strong>
+      </div>
+
+      <div class="nav-buttons center">
+        <button class="btn btn-secondary" data-restart> Пройти ещё раз</button>
+        <a class="btn btn-primary" href="lesson-04.html" style="text-decoration:none;display:inline-block">Урок 4 →</a>
+      </div>
+      <p style="margin-top:18px"><a class="link-ghost" href="course.html">← Ко всем урокам курса</a></p>
+    </div>
+  </section>
+</div>
+
+<script src="assets/lesson.js"></script>
+<script>
+/* ============================ ДАННЫЕ УРОКА 3 ============================ */
+var NUMBERS = [
+  { n: 1, es: 'uno' }, { n: 2, es: 'dos' }, { n: 3, es: 'tres' }, { n: 4, es: 'cuatro' },
+  { n: 5, es: 'cinco' }, { n: 6, es: 'seis' }, { n: 7, es: 'siete' }, { n: 8, es: 'ocho' },
+  { n: 9, es: 'nueve' }, { n: 10, es: 'diez' }
+];
+
+var QUIZ = [
+  { q: ' Как будет «пять» по-испански?', opts: ['cuatro', 'cinco', 'seis', 'siete'], correct: 'cinco' },
+  { q: ' Сколько это «ocho»?', opts: ['6', '7', '8', '9'], correct: '8' },
+  { q: ' Как спросить «Сколько тебе лет?»', opts: ['¿Cómo te llamas?', '¿Cuántos años tienes?', '¿Y tú?', '¿Qué es esto?'], correct: '¿Cuántos años tienes?' }
+];
+
+var CAN_DO = [
+  'Я различаю звуки C и K',
+  'Я считаю от uno до diez',
+  'Я спрашиваю «¿Cuántos años tienes?»',
+  'Я отвечаю «Tengo … años»'
+];
+
+function renderNumbers() {
+  var grid = document.getElementById('numbersGrid');
+  grid.innerHTML = '';
+  NUMBERS.forEach(function (x) {
+    var card = EL.el('div', 'num-card');
+    card.setAttribute('data-say', x.es);
+    card.innerHTML = '<div class="num">' + x.n + '</div><div class="es">' + x.es + '</div>' +
+      '<button class="mic-btn" data-mic="' + x.es + '" data-step="3" style="bottom:-12px;right:-8px;width:36px;height:36px;font-size:.9em">🎤</button>';
+    grid.appendChild(card);
+  });
+}
+
+function renderMemory() {
+  var pick = EL.shuffle(NUMBERS).slice(0, 5);
+  var pairs = pick.map(function (x) { return { a: String(x.n), b: x.es, sa: x.es, sb: x.es }; });
+  EL.memory(pairs, { step: 3, cols: 5 });
+}
+
+/* ------------------------------ Яблоневый сад ----------------------------- */
+function renderStars() {
+  var box = document.getElementById('appleProgress');
+  var score = EL.get('appleScore', 0);
+  box.innerHTML = '';
+  for (var i = 0; i < 5; i++) {
+    var s = EL.el('span', null, '');
+    s.style.cssText = 'font-size:1.5em;opacity:' + (i < score ? '1' : '.25') + ';transition:.3s';
+    box.appendChild(s);
+  }
+}
+
+function renderRound() {
+  var disp = document.getElementById('appleDisplay');
+  var box = document.getElementById('appleOptions');
+  var count = (EL.get('appleRound', 0) % 5 === 4) ? 10 : Math.floor(Math.random() * 9) + 1;
+  disp.textContent = '🍎'.repeat(count);
+  EL.speak(NUMBERS[count - 1].es);
+
+  var opts = [count];
+  while (opts.length < 4) {
+    var r = Math.floor(Math.random() * 10) + 1;
+    if (opts.indexOf(r) === -1) opts.push(r);
+  }
+  box.innerHTML = '';
+  EL.shuffle(opts).forEach(function (o) {
+    var b = EL.el('button', 'opt', o);
+    b.addEventListener('click', function () {
+      if (o === count) {
+        b.classList.add('right');
+        EL.speak(NUMBERS[o - 1].es);
+        EL.say('5a', ' Правильно! ' + NUMBERS[o - 1].es + '!', 'success');
+        EL.set('appleRound', EL.get('appleRound', 0) + 1);
+        EL.set('appleScore', Math.min(5, EL.get('appleScore', 0) + 1));
+        renderStars();
+        setTimeout(renderRound, 1200);
+      } else {
+        b.classList.add('wrong');
+        EL.say('5a', ' ¡Casi! Посчитай яблочки ещё раз atentamente.', 'error');
+        setTimeout(function () { b.classList.remove('wrong'); }, 700);
+      }
+    });
+    box.appendChild(b);
+  });
+}
+
+/* --------------------------------- Возраст -------------------------------- */
+function restoreAge() {
+  var age = EL.get('userAge', null);
+  if (age) {
+    document.getElementById('ageInput').value = age;
+    document.getElementById('candlesDisplay').textContent = '🕯️'.repeat(age);
+  }
+}
+
+function readAge() {
+  var v = parseInt(document.getElementById('ageInput').value, 10);
+  if (!v || v < 1 || v > 10) {
+    EL.say('5b', ' Напиши цифру от 1 до 10!', 'error');
+    return null;
+  }
+  return v;
+}
+
+document.getElementById('lightCandles').addEventListener('click', function () {
+  var age = readAge();
+  if (!age) return;
+  EL.set('userAge', age);
+  document.getElementById('candlesDisplay').textContent = '🕯️'.repeat(age);
+  EL.speak('Tengo ' + NUMBERS[age - 1].es + ' años.');
+  EL.say('5b', ' ¡Feliz cumpleaños! Тебе ' + NUMBERS[age - 1].es + ' лет!', 'success');
+});
+
+document.getElementById('speakAge').addEventListener('click', function () {
+  var age = readAge();
+  if (!age) return;
+  EL.speak('Tengo ' + NUMBERS[age - 1].es + ' años.');
+  EL.say('5b', ' Слушай и повтори за мной: «Tengo ' + NUMBERS[age - 1].es + ' años»', 'info');
+});
+
+EL.init({
+  id: 3,
+  rate: 0.72,
+  resumeMsg: ' Продолжить урок 3 с шага ',
+  onStep: function (n) {
+    if (n === 3) { renderNumbers(); renderMemory(); }
+    if (n === 5) { renderStars(); renderRound(); restoreAge(); }
+    if (n === 6) EL.quiz(QUIZ, { step: 6 });
+    if (n === 7) EL.canDo(CAN_DO);
+  },
+  onRestart: function () {
+    renderNumbers();
+    renderMemory();
+    renderStars();
+    renderRound();
+  }
+});
+</script>
+
+<script src="assets/gate.js"></script>
+</body>
+</html>

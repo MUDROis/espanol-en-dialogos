@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animales — Урок 6 · Español A0–A1</title>
+<meta name="description" content="Урок 6: животные по-испански и буква Ñ (нь). Мини-квиз «Чей это голос?». Курс испанского A0–A1 для детей.">
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body data-theme="animales">
+
+<header class="lesson-head">
+  <a class="link-back" href="course.html">← Все уроки</a>
+  <span class="lh-title">Урок 6 · Animales</span>
+  <span class="lh-spacer"></span>
+  <a class="link-ghost" href="lesson-07.html">Урок 7 →</a>
+</header>
+
+<div class="voice-note" id="voiceNote"></div>
+<div class="save-indicator" id="saveIndicator"> Прогресс сохранён</div>
+
+<div class="container">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ШАГ 1 -->
+  <section class="step active" id="step1">
+    <h1> Animales</h1>
+    <p style="font-size:1.5em">¡Hola, amigo! Знакомься с животными! </p>
+    <p>Сегодня ты научишься называть животных и потренируешь букву Ñ — самую испанскую букву в мире.</p>
+    <h3>В этом уроке</h3>
+    <p> Буква <strong>Ñ</strong> — звук «нь»<br>
+        Пять животных<br>
+        Фразы «Es un… / Es una…»<br>
+        Мини-квиз «Чей это голос?»</p>
+    <div class="tip"> <strong>Совет:</strong> в квизе сначала нажми и только потом выбирай картинку. Так тренируется испанское ухо!</div>
+    <div class="nav-buttons center">
+      <button class="btn btn-primary" data-next>¡Vamos! Поехали! </button>
+    </div>
+  </section>
+
+  <!-- ШАГ 2 -->
+  <section class="step" id="step2">
+    <h2> Буква Ñ — испанская вишенка</h2>
+    <p>Буква <strong>Ñ</strong> читается как мягкая русская «НЬ». В русском языке такой звук есть только в имени <em>Анна</em> — вот поэтому в Испании её и называют <em>«ñ»</em>.</p>
+    <div class="phonetics">
+      <div class="phon-card" data-say="Niño">
+        <div class="phon-letter">Ñ</div>
+        <div class="phon-emoji">👦</div>
+        <div class="phon-word">Niño</div>
+        <div class="phon-hint">Ниньо — мальчик. Звук мягкий «нь»</div>
+        <button class="mic-btn" data-mic="niño" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="Montaña">
+        <div class="phon-letter long">Ñ + o/a</div>
+        <div class="phon-emoji">⛰️</div>
+        <div class="phon-word">Montaña</div>
+        <div class="phon-hint">Монтанья — гора. Всегда читается как «нь»!</div>
+        <button class="mic-btn" data-mic="montaña" data-step="2">🎤</button>
+      </div>
+    </div>
+    <div class="tip"> <strong>Проверь себя:</strong> в слове <em>España</em> (Испания) тоже есть Ñ — <em>Эспанья</em>. Потренируй произношение этого слова!</div>
+    <div class="feedback" id="feedback2"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 3 -->
+  <section class="step" id="step3">
+    <h2> Пять животных</h2>
+    <p>Послушай и повтори. Внимание: в Испании почти все слова — <em>мужского</em> рода: <strong>un</strong> perro, а <strong>una</strong> ave.</p>
+    <div class="words" id="animalCards"></div>
+    <p style="margin-top:26px"><strong> Найди пары: слово и животное</strong></p>
+    <div class="memory-grid" id="memoryGrid"></div>
+    <div class="memory-counter">Найдено пар: <span id="memoryCounter">0</span>/5</div>
+    <div class="feedback" id="feedback3"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 4 -->
+  <section class="step" id="step4">
+    <h2> Что это?</h2>
+    <p>Дети в зоопарке. Послушай реплики и повтори вслух.</p>
+    <div class="dialogue">
+      <div class="dialogue-line" data-say="¿Qué es?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿Qué es?<span class="ru">Что это?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="qué es" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Es un gato.">
+        <div class="avatar">👧</div>
+        <div class="text">Es un gato.<span class="ru">Это кот.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="es un gato" data-step="4" data-threshold="0.5">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="Es un perro. ¡Miau!">
+        <div class="avatar">🧑</div>
+        <div class="text">Es un perro.<span class="ru">Это собака.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="es un perro" data-step="4" data-threshold="0.5">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="¡Qué bonito!">
+        <div class="avatar">👧</div>
+        <div class="text">¡Qué bonito!<span class="ru">Какой красивый!</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="qué bonito" data-step="4">🎤</button>
+      </div>
+    </div>
+    <div class="bubble-row">
+      <button class="btn btn-primary" data-repeat='["¿Qué es?","Es un gato.","Es un perro.","¡Qué bonito!"]' data-gap="2400"> Слушать весь диалог</button>
+    </div>
+    <div class="tip"> <strong>Шпаргалка:</strong> <em>Es un [perro, gato, pez, caballo]</em> — муж. род; <em>Es una [ave]</em> — жен. род</div>
+    <div class="feedback" id="feedback4"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 5 · Чей это голос? -->
+  <section class="step" id="step5">
+    <h2> Чей это голос?</h2>
+    <p>Нажми , услышишь слово — и выбери нужную картинку. Пять голосов!</p>
+    <div class="game-box">
+      <div class="bubble" id="voiceQuestion">Нажми на кнопку, чтобы услышать слово</div>
+      <div class="bubble-row">
+        <button class="big-btn" id="playVoice"> Кто это говорит?</button>
+      </div>
+      <div class="animal-grid" id="animalOptions"></div>
+      <div class="assign-progress" id="voiceProgress"></div>
+    </div>
+    <div class="feedback" id="feedback5"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 6 -->
+  <section class="step" id="step6">
+    <h2> Проверь себя!</h2>
+    <p>Три вопроса про животных и букву Ñ.</p>
+    <div id="quizContainer"></div>
+    <div class="assign-progress" id="quizScore"></div>
+    <div class="feedback" id="feedback6"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 7 -->
+  <section class="step" id="step7">
+    <div class="final">
+
+      <h1>¡Muy bien!</h1>
+      <p style="font-size:1.4em">Ты прошёл шестой урок!</p>
+      <div class="medal"> Медаль «¡Los animales!»</div>
+      <p>Сегодня ты узнал:</p>
+      <p> Ñ читается как «нь»<br>
+          Perro, gato, ave, pez, caballo<br>
+          Фразы «Es un…» и «Es una…»</p>
+
+      <h3> ¡Yo puedo! — Я могу!</h3>
+      <div class="can-do" id="canDo"></div>
+
+      <div class="homework">
+        <strong> Домашнее задание</strong><br>
+        Сходи в зоопарк (или посмотри любимый мультик) и назови 3 животных:<br>
+        <strong>«Es un perro», «Es un gato», «Es un pájaro»</strong><br>
+        А имя испанца запиши так: <em>España</em> — Эспанья
+      </div>
+
+      <div class="nav-buttons center">
+        <button class="btn btn-secondary" data-restart> Пройти ещё раз</button>
+        <a class="btn btn-primary" href="lesson-07.html" style="text-decoration:none;display:inline-block">Урок 7 →</a>
+      </div>
+      <p style="margin-top:18px"><a class="link-ghost" href="course.html">← Ко всем урокам курса</a></p>
+    </div>
+  </section>
+</div>
+
+<script src="assets/lesson.js"></script>
+<script>
+/* ============================ ДАННЫЕ УРОКА 6 ============================ */
+var ANIMALS = [
+  { es: 'perro', ru: 'собака', e: '🐶', g: 'un', voice: '¡Guau!' },
+  { es: 'gato', ru: 'кот', e: '🐱', g: 'un', voice: '¡Miau!' },
+  { es: 'ave', ru: 'птица', e: '🐦', g: 'una', voice: '¡Pío!' },
+  { es: 'pez', ru: 'рыба', e: '🐟', g: 'un', voice: '¡Splash!' },
+  { es: 'caballo', ru: 'лошадь', e: '🐴', g: 'un', voice: '¡Iiiih!' }
+];
+
+var MEMORY = ANIMALS.map(function (a) { return { a: a.es, b: a.e, sa: a.es, sb: null }; });
+
+var QUIZ = [
+  { q: ' Как по-испански «собака»?', opts: ['gato', 'perro', 'pez', 'ave'], correct: 'perro' },
+  { q: ' Почему мы говорим «Es <em>una</em> ave», а не «un ave»?', opts: ['ave — жен. род', 'ave — муж. род', 'Это неправильно', 'Потому что птица маленькая'], correct: 'ave — жен. род' },
+  { q: ' Как читается буква Ñ в слове «niño»?', opts: ['Как «н»', 'Как «нь»', 'Как «й»', 'Не читается'], correct: 'Как «нь»' }
+];
+
+var CAN_DO = [
+  'Я называю 5 животных',
+  'Я произношу Ñ как «нь»',
+  'Я говорю «Es un perro»',
+  'Я спрашиваю «¿Qué es?»'
+];
+
+function renderAnimals() {
+  var box = document.getElementById('animalCards');
+  box.innerHTML = '';
+  ANIMALS.forEach(function (a) {
+    var c = EL.el('div', 'word-card');
+    c.setAttribute('data-say', a.es);
+    c.style.background = 'linear-gradient(140deg, var(--c2), var(--c1))';
+    c.innerHTML = '<span class="emoji">' + a.e + '</span><span class="es">' + a.es + '</span><span class="ru">' + a.ru + '</span>' +
+      '<button class="mic-btn" data-mic="' + a.es + '" data-step="3">🎤</button>';
+    box.appendChild(c);
+  });
+}
+
+function currentVoice() { return ANIMALS[EL.get('voiceIndex', 0) % ANIMALS.length]; }
+
+function renderVoiceRound() {
+  var a = currentVoice();
+  var opts = document.getElementById('animalOptions');
+  var done = EL.get('voiceScore', 0);
+  var prog = document.getElementById('voiceProgress');
+  prog.textContent = 'Угадано голосов: ' + done + ' из ' + ANIMALS.length;
+  prog.classList.toggle('complete', done >= ANIMALS.length);
+
+  document.getElementById('voiceQuestion').textContent =
+    done >= ANIMALS.length ? ' ¡Perfecto! Ты узнал все голоса!' : 'Нажми , услышишь слово — и выбери картинку';
+  if (done >= ANIMALS.length) { opts.innerHTML = ''; return; }
+
+  opts.innerHTML = '';
+  var pool = EL.shuffle(ANIMALS).slice(0, 4);
+  if (pool.indexOf(a) === -1) pool[0] = a;
+  EL.shuffle(pool).forEach(function (x) {
+    var b = EL.el('button', 'animal-card');
+    b.innerHTML = '<span style="font-size:2.4em">' + x.e + '</span><span class="es">' + x.es + '</span><span class="ru">' + x.ru + '</span>';
+    b.addEventListener('click', function () {
+      if (x.es === a.es) {
+        b.classList.add('right');
+        b.style.borderColor = '#2C5F8A';
+        EL.speak(a.es);
+        EL.say(5, ' ¡Muy bien! Это ' + a.es + ' — ' + a.voice, 'success');
+        EL.set('voiceIndex', EL.get('voiceIndex', 0) + 1);
+        EL.set('voiceScore', EL.get('voiceScore', 0) + 1);
+        setTimeout(renderVoiceRound, 1500);
+      } else {
+        b.classList.add('wrong');
+        EL.say(5, ' ¡Casi! Послушай слово ещё раз: ' + a.es, 'error');
+        setTimeout(function () { b.classList.remove('wrong'); }, 700);
+      }
+    });
+    opts.appendChild(b);
+  });
+}
+
+document.getElementById('playVoice').addEventListener('click', function () {
+  var a = currentVoice();
+  if (EL.get('voiceScore', 0) >= ANIMALS.length) return;
+  EL.speak(a.es);
+  EL.say(5, ' Слушай… это ' + a.es + '. Теперь выбери картинку!', 'info');
+});
+
+EL.init({
+  id: 6,
+  rate: 0.72,
+  resumeMsg: ' Продолжить урок 6 с шага ',
+  onStep: function (n) {
+    if (n === 3) { renderAnimals(); EL.memory(MEMORY, { step: 3 }); }
+    if (n === 5) renderVoiceRound();
+    if (n === 6) EL.quiz(QUIZ, { step: 6 });
+    if (n === 7) EL.canDo(CAN_DO);
+  },
+  onRestart: function () { renderAnimals(); EL.memory(MEMORY, { step: 3 }); renderVoiceRound(); }
+});
+</script>
+
+<script src="assets/gate.js"></script>
+</body>
+</html>

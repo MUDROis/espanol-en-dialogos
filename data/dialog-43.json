@@ -1,0 +1,329 @@
+{
+  "id": 43,
+  "title": "Carlos y Lucía van en tren",
+  "titleRu": "Карлос и Лусия едут в поезде",
+  "part": 5,
+  "level": "B2",
+  "theme": "Поезд, вокзал, путешествие  El tren, la estación, el viaje",
+  "characters": ["carlos", "lucia"],
+  "objectives": [
+    "Говорить о поездке на поезде: el andén, la vía, el vagón de cola, la ventanilla",
+    "Выражать предпочтения: prefiero viajar en coche, preferiría pasar más tiempo en la cubierta",
+    "Рассказывать о случаях в пути: se me desinfló la rueda, se durmió conduciendo",
+    "Описывать воспоминания: dormía en la litera superior, me sentía mejor en la cubierta",
+    "Использовать gerundio образа действия: me ayudó arrastrando mi coche",
+    "Сравнивать виды транспорта: nada de demoras, gastas mucha gasolina, me gusta viajar en tren"
+  ],
+  "grammar": {
+    "condicional_preferiria": {
+      "title": "Condicional de PREFERIR: предпочтения",
+      "description": "Условное наклонение preferiría (я бы предпочёл/предпочла) выражает пожелание, вежливую просьбу или гипотетическое предпочтение: preferiría pasar más tiempo en la cubierta (я бы предпочла проводить больше времени на палубе).",
+      "forms": {
+        "yo": { "es": "preferiría viajar", "ru": "я бы предпочёл(ла) путешествовать" },
+        "tu": { "es": "preferirías dormir", "ru": "ты бы предпочёл(ла) спать" },
+        "el_ella": { "es": "preferiría volar", "ru": "он/она бы предпочёл(ла) лететь" },
+        "nosotros": { "es": "preferiríamos ir en tren", "ru": "мы бы предпочли поехать на поезде" },
+        "vosotros": { "es": "preferiríais bajar", "ru": "вы бы предпочли выйти" },
+        "ellos_ellas": { "es": "preferirían quedarse", "ru": "они бы предпочли остаться" }
+      },
+      "examples": [
+        { "es": "Preferiría pasar más tiempo en la cubierta.", "ru": "Я бы предпочла проводить больше времени на палубе." },
+        { "es": "Preferiría viajar en coche que en barco.", "ru": "Я бы предпочла ехать на машине, чем на корабле." }
+      ]
+    },
+    "se_involuntario": {
+      "title": "SE несчастного случая: se me …",
+      "description": "Конструкция se + me/te/le + глагол описывает события, которые произошли помимо нашей воли: se me desinfló la rueda (у меня спустило колесо), el chófer se durmió conduciendo (шофёр заснул за рулём), apenas se cayó por la noche (едва не упал ночью).",
+      "list": [
+        { "es": "se me desinfló la rueda", "ru": "у меня спустило колесо" },
+        { "es": "el chófer se durmió conduciendo", "ru": "шофёр заснул за рулём" },
+        { "es": "apenas se cayó por la noche", "ru": "едва не упал ночью" },
+        { "es": "se me perdió el billete", "ru": "у меня потерялся билет" },
+        { "es": "se nos rompió el coche", "ru": "у нас сломалась машина" },
+        { "es": "se le olvidó la maleta", "ru": "он забыл чемодан" }
+      ],
+      "examples": [
+        { "es": "Una vez se me desinfló la rueda en medio camino, no tenía otra.", "ru": "Однажды у меня спустило колесо на полдороги, и не было запаски." },
+        { "es": "He escuchado en la tele que un chófer se durmió conduciendo... Sobrevivió milagrosamente.", "ru": "Я слышала по телевизору, что один шофёр заснул за рулём... Только чудом смог выжить." }
+      ]
+    },
+    "imperfecto_recuerdos": {
+      "title": "Imperfecto для воспоминаний",
+      "description": "Imperfecto описывает привычки, состояния и фон прошлого в воспоминаниях: dormía en la litera superior (спала на верхней полке), me sentía mejor (чувствовала себя лучше), me alegraba cuando nos acercábamos a los amarradores (радовалась, когда мы подходили к причалам).",
+      "list": [
+        { "es": "en el camarote dormía en la litera superior", "ru": "в каюте я спала на верхней полке" },
+        { "es": "dormía en la litera superior y apenas se cayó", "ru": "спал на верхней полке и чуть не упал" },
+        { "es": "me sentía mejor en la cubierta", "ru": "на палубе я чувствовала себя лучше" },
+        { "es": "me alegraba mucho cuando nos acercábamos a los amarradores", "ru": "я очень радовалась, когда мы подходили к причалам" },
+        { "es": "pasaba un hombre y me ayudó", "ru": "мимо проезжал мужчина и помог мне" }
+      ],
+      "examples": [
+        { "es": "En el camarote dormía en la litera superior...", "ru": "В каюте я спала на верхней полке..." },
+        { "es": "Me alegraba mucho cuando nos acercábamos a los amarradores.", "ru": "Я очень радовалась, когда мы подходили к причалам." }
+      ]
+    },
+    "gerundio_modo": {
+      "title": "Gerundio образа действия",
+      "description": "Gerundio (-ando/-iendo) описывает, КАК происходит действие: me ayudó arrastrando mi coche hacia el taller (помог, дотащив мою машину до мастерской), se durmió conduciendo (заснул за рулём), te cansas conduciendo (устаёшь, когда ведёшь машину).",
+      "list": [
+        { "es": "me ayudó arrastrando mi coche hacia el taller", "ru": "он помог, дотащив мою машину до мастерской" },
+        { "es": "se durmió conduciendo", "ru": "он заснул за рулём" },
+        { "es": "te cansas conduciendo muchas horas", "ru": "ты устаёшь, ведя машину много часов" },
+        { "es": "llegamos corriendo a la estación", "ru": "мы прибежали на вокзал" },
+        { "es": "mirar los alrededores caminando", "ru": "осматривать окрестности, гуляя" }
+      ],
+      "examples": [
+        { "es": "Por suerte, pasaba un hombre que me ayudó arrastrando mi coche hacia el taller más próximo.", "ru": "К счастью, мимо проезжал мужчина, который помог, дотащив мою машину до ближайшей мастерской." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "el_tren_y_la_estacion": [
+      { "es": "el tren", "ru": "поезд" },
+      { "es": "el andén", "ru": "платформа" },
+      { "es": "la vía", "ru": "путь" },
+      { "es": "el vagón", "ru": "вагон" },
+      { "es": "el compartimento", "ru": "купе" },
+      { "es": "la litera superior", "ru": "верхняя полка" },
+      { "es": "la ventanilla", "ru": "окошко (в поезде)" },
+      { "es": "el asiento", "ru": "место, сиденье" },
+      { "es": "el transbordo", "ru": "пересадка" },
+      { "es": "el retraso", "ru": "опоздание, задержка" },
+      { "es": "la demora", "ru": "задержка" },
+      { "es": "la pantalla de información", "ru": "информационное табло" }
+    ],
+    "el_viaje_marino": [
+      { "es": "el barco", "ru": "корабль" },
+      { "es": "el crucero", "ru": "круиз" },
+      { "es": "el camarote", "ru": "каюта" },
+      { "es": "la cubierta", "ru": "палуба" },
+      { "es": "los amarradores", "ru": "причалы" },
+      { "es": "la isla", "ru": "остров" }
+    ],
+    "el_viaje_en_coche": [
+      { "es": "el coche", "ru": "машина" },
+      { "es": "la rueda", "ru": "колесо" },
+      { "es": "la gasolina", "ru": "бензин" },
+      { "es": "el motor", "ru": "мотор" },
+      { "es": "el taller", "ru": "мастерская" },
+      { "es": "el chófer", "ru": "шофёр" }
+    ],
+    "los_verbos": [
+      { "es": "perder", "ru": "терять; опаздывать (perder el tren)" },
+      { "es": "acomodarse", "ru": "устраиваться" },
+      { "es": "marearse", "ru": "испытывать морскую болезнь" },
+      { "es": "desinflarse", "ru": "спуститься (о колесе)" },
+      { "es": "arrastrar", "ru": "тащить" },
+      { "es": "sobrevivir", "ru": "выжить" },
+      { "es": "acercarse", "ru": "приближаться" },
+      { "es": "alegrarse", "ru": "радоваться" },
+      { "es": "dormirse", "ru": "засыпать" },
+      { "es": "conducir", "ru": "вести машину" },
+      { "es": "gastar", "ru": "тратить" },
+      { "es": "parar", "ru": "останавливаться" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Lucía", "es": "¿No estamos llegando tarde? No quiero perder el tren...", "ru": "Мы не опаздываем? Не хочу опоздать на поезд..." },
+    { "speaker": "Carlos", "es": "No, estamos a tiempo. ¿Qué indican en la pantalla de información? Ya, nuestro tren está en el andén 3, vía 8.", "ru": "Нет, мы как раз вовремя. Что пишут на информационном табло? А, наш поезд на 3-й платформе, путь 8." },
+    { "speaker": "Lucía", "es": "¿Tenemos los asientos en el vagón de cabeza o de cola?", "ru": "У нас места в головной части поезда или в хвостовой?" },
+    { "speaker": "Carlos", "es": "De cola... Ya, ahora podemos acomodarnos.", "ru": "В хвостовой... Так, теперь можем устраиваться." },
+    { "speaker": "Lucía", "es": "Hace tanto calor. ¿Abres la ventanilla?", "ru": "Так жарко. Откроешь окошко?" },
+    { "speaker": "Carlos", "es": "Ahora... Sabes, un amigo me dijo que una vez viajó por Italia e iba en un compartimento, durmió en la litera superior y apenas se cayó por la noche.", "ru": "Сейчас... Знаешь, один мой друг мне рассказывал, что однажды путешествовал по Италии и ехал в поезде в купе, заснул на верхней полке и чуть не упал ночью." },
+    { "speaker": "Lucía", "es": "A mí pasó lo mismo cuando hacíamos con mi madre un crucero en barco por las islas de Grecia. En el camarote dormía en la litera superior...", "ru": "Со мной тоже такое случилось, когда мы с мамой совершали круиз на корабле по островам Греции. В каюте я спала на верхней полке..." },
+    { "speaker": "Carlos", "es": "No me gustan los viajes marinos, me mareo...", "ru": "Мне не нравятся морские путешествия, меня укачивает..." },
+    { "speaker": "Lucía", "es": "Yo también. Preferiría pasar más tiempo en la cubierta donde me sentía mejor y me alegraba mucho cuando nos acercábamos a los amarradores...", "ru": "Меня тоже. Я бы предпочла проводить больше времени на палубе, где чувствовала себя лучше, и очень радовалась, когда мы подходили к причалу..." },
+    { "speaker": "Carlos", "es": "Prefiero viajar en coche. Nada de demoras, transbordos, retrasos... Siempre puedes parar, bajarte del coche, ver los alrededores...", "ru": "Я предпочитаю путешествовать на машине. Никаких задержек, пересадок, опозданий... Всегда можешь остановиться, выйти из машины, посмотреть окрестности..." },
+    { "speaker": "Lucía", "es": "Pero si gastas mucha gasolina y te cansas conduciendo. Me gusta viajar en tren o en bus-cama.", "ru": "Но ты тратишь много бензина и устаёшь, будучи за рулём. Мне нравится ездить на поезде или на автобусе с откидными креслами." },
+    { "speaker": "Carlos", "es": "Sí, viajar en coche tiene sus incomodidades. Una vez se me desinfló la rueda en medio camino, no tenía otra... Además, pasó algo con el motor. Por suerte, pasaba un hombre que me ayudó arrastrando mi coche hacia el taller más próximo.", "ru": "Да, путешествие на машине имеет свои неудобства. Однажды у меня спустило колесо на полдороги, и не было запаски... К тому же что-то не так было с мотором. К счастью, мимо проезжал один мужчина, который помог, дотащив мою машину до ближайшей мастерской." },
+    { "speaker": "Lucía", "es": "Además, puede pasar un accidente... Hay que tener mucho cuidado. He escuchado en la tele que un chófer se durmió conduciendo... Sobrevivió milagrosamente.", "ru": "А ещё может произойти авария... Нужно быть очень осторожным. Я слышала по телевизору, что один шофёр заснул за рулём... Только чудом смог выжить." },
+    { "speaker": "Carlos", "es": "Bueno, en la vida puede pasar de todo.", "ru": "Да, в жизни всё может случиться." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el tren", "ru": "поезд" },
+        { "es": "el andén", "ru": "платформа" },
+        { "es": "la vía", "ru": "путь" },
+        { "es": "el vagón", "ru": "вагон" },
+        { "es": "el compartimento", "ru": "купе" },
+        { "es": "la litera superior", "ru": "верхняя полка" },
+        { "es": "la ventanilla", "ru": "окошко (в поезде)" },
+        { "es": "el asiento", "ru": "место, сиденье" },
+        { "es": "el transbordo", "ru": "пересадка" },
+        { "es": "el retraso", "ru": "опоздание, задержка" }
+      ]
+    },
+    {
+      "type": "fill-gap-condicional_preferiria",
+      "title": "Практика: Condicional de PREFERIR",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "___ pasar más tiempo en la cubierta.", "ru": "Я бы предпочла проводить больше времени на палубе", "answer": "Preferiría", "options": ["Preferiría", "Prefería", "Preferiré"] },
+        { "text": "¿___ viajar en tren o en coche?", "ru": "Ты бы предпочёл ехать на поезде или на машине?", "answer": "Preferirías", "options": ["Preferirías", "Prefieres", "Preferiste"] },
+        { "text": "Mi amigo ___ viajar en barco.", "ru": "Мой друг предпочёл бы путешествовать на корабле", "answer": "preferiría", "options": ["preferiría", "prefiere", "prefirió"] },
+        { "text": "Nosotros ___ ir en bus-cama.", "ru": "Мы предпочли бы поехать на автобусе с откидными креслами", "answer": "preferiríamos", "options": ["preferiríamos", "preferimos", "preferíamos"] },
+        { "text": "Ellos ___ quedarse en la cubierta.", "ru": "Они предпочли бы остаться на палубе", "answer": "preferirían", "options": ["preferirían", "prefieren", "preferían"] }
+      ]
+    },
+    {
+      "type": "fill-gap-se_involuntario",
+      "title": "Практика: SE несчастного случая",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Se me ___ la rueda en medio camino.", "ru": "У меня спустило колесо на полдороги", "answer": "desinfló", "options": ["desinfló", "desinflaba", "desinfla"] },
+        { "text": "El chófer se ___ conduciendo.", "ru": "Шофёр заснул за рулём", "answer": "durmió", "options": ["durmió", "dormía", "duerme"] },
+        { "text": "Apenas se ___ por la noche.", "ru": "Он едва не упал ночью", "answer": "cayó", "options": ["cayó", "caía", "cae"] },
+        { "text": "Se me ___ el billete en la estación.", "ru": "У меня потерялся билет на вокзале", "answer": "perdió", "options": ["perdió", "perdía", "pierde"] },
+        { "text": "Se nos ___ el coche en la carretera.", "ru": "У нас сломалась машина на дороге", "answer": "rompió", "options": ["rompió", "rompía", "rompe"] }
+      ]
+    },
+    {
+      "type": "fill-gap-imperfecto_recuerdos",
+      "title": "Практика: Imperfecto для воспоминаний",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "En el camarote ___ en la litera superior.", "ru": "В каюте я спала на верхней полке", "answer": "dormía", "options": ["dormía", "dormí", "duermo"] },
+        { "text": "Me ___ mejor en la cubierta.", "ru": "На палубе я чувствовала себя лучше", "answer": "sentía", "options": ["sentía", "sentí", "siento"] },
+        { "text": "Me ___ mucho cuando nos acercábamos a los amarradores.", "ru": "Я очень радовалась, когда мы подходили к причалам", "answer": "alegraba", "options": ["alegraba", "alegré", "alegro"] },
+        { "text": "Cuando ___ un crucero, dormía en el camarote.", "ru": "Когда мы совершали круиз, я спала в каюте", "answer": "hacíamos", "options": ["hacíamos", "hicimos", "hacemos"] },
+        { "text": "Cuando ___ por Italia, siempre usaba el tren.", "ru": "Когда я путешествовал по Италии, я всегда пользовался поездом", "answer": "viajaba", "options": ["viajaba", "viajé", "viajo"] }
+      ]
+    },
+    {
+      "type": "fill-gap-gerundio_modo",
+      "title": "Практика: Gerundio образа действия",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Me ayudó ___ mi coche hacia el taller.", "ru": "Он помог, дотащив мою машину до мастерской", "answer": "arrastrando", "options": ["arrastrando", "arrastrar", "arrastro"] },
+        { "text": "Se durmió ___ y casi tuvo un accidente.", "ru": "Он заснул за рулём и чуть не попал в аварию", "answer": "conduciendo", "options": ["conduciendo", "conducir", "conduce"] },
+        { "text": "Llegamos ___ a la estación y cogimos el tren.", "ru": "Мы прибежали на вокзал и успели на поезд", "answer": "corriendo", "options": ["corriendo", "correr", "corremos"] },
+        { "text": "Busca información ___ en su móvil.", "ru": "Он ищет информацию, смотря в телефон", "answer": "mirando", "options": ["mirando", "mirar", "mira"] },
+        { "text": "___ los alrededores desde el coche, disfrutamos del viaje.", "ru": "Смотря на окрестности из машины, мы наслаждались дорогой", "answer": "Viendo", "options": ["Viendo", "Ver", "Vemos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿No estamos ___ tarde?", "ru": "Мы не опаздываем?", "answer": "llegando", "options": ["llegando", "llegar", "llegamos"] },
+        { "text": "Nuestro tren está en el ___ 3, vía 8.", "ru": "Наш поезд на 3-й платформе, путь 8", "answer": "andén", "options": ["andén", "vagón", "asiento"] },
+        { "text": "Prefiero viajar en coche, ___ de demoras y transbordos.", "ru": "Я предпочитаю ехать на машине — никаких задержек и пересадок", "answer": "nada", "options": ["nada", "mucho", "algo"] },
+        { "text": "Una vez se me ___ la rueda en medio camino.", "ru": "Однажды у меня спустило колесо на полдороги", "answer": "desinfló", "options": ["desinfló", "desinflaba", "desinfla"] },
+        { "text": "En el camarote ___ en la litera superior.", "ru": "В каюте я спала на верхней полке", "answer": "dormía", "options": ["dormía", "dormí", "duermo"] },
+        { "text": "Preferiría ___ más tiempo en la cubierta.", "ru": "Я бы предпочла проводить больше времени на палубе", "answer": "pasar", "options": ["pasar", "paso", "pasé"] },
+        { "text": "Me ayudó ___ mi coche hacia el taller más próximo.", "ru": "Он помог, дотащив мою машину до ближайшей мастерской", "answer": "arrastrando", "options": ["arrastrando", "arrastrar", "arrastro"] },
+        { "text": "Te cansas ___ muchas horas.", "ru": "Ты устаёшь, ведя машину много часов", "answer": "conduciendo", "options": ["conduciendo", "conducir", "conduce"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Ты — Карлос, помогаешь Лусии найти поезд и рассказываешь о поездках"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Ты — Лусия, торопишься на поезд и сравниваешь виды транспорта"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Поговори о поездке: найди поезд, займи место и сравни способы передвижения",
+      "template": [
+        { "label": "Мы не опаздываем?", "es": "¿No estamos ___ tarde?" },
+        { "label": "Мы как раз вовремя", "es": "Estamos a ___." },
+        { "label": "Наш поезд на 3-й платформе, путь 8", "es": "Nuestro tren está en el ___ 3, vía 8." },
+        { "label": "Откроешь окошко?", "es": "¿___ la ventanilla?" },
+        { "label": "Я бы предпочла проводить больше времени на палубе", "es": "Preferiría ___ más tiempo en la cubierta." },
+        { "label": "У меня спустило колесо", "es": "Se me ___ la rueda." },
+        { "label": "Он заснул за рулём", "es": "Se ___ conduciendo." },
+        { "label": "В жизни всё может случиться", "es": "En la vida puede ___ de todo." }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Dónde está el tren de Carlos y Lucía?",
+          "ru": "Где находится поезд Карлоса и Лусии?",
+          "options": ["En el andén 3, vía 8", "En el andén 8, vía 3", "En la estación de autobuses", "Todavía no ha llegado"],
+          "answer": 0
+        },
+        {
+          "question": "¿En qué vagón tienen los asientos?",
+          "ru": "В каком вагоне у них места?",
+          "options": ["En el vagón de cabeza", "En el vagón de cola", "En el vagón restaurante", "En la litera superior"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué le pidió Lucía a Carlos?",
+          "ru": "Что попросила Лусия у Карлоса?",
+          "options": ["Que abra la ventanilla", "Que compre los billetes", "Que llame al conductor", "Que cambie de asiento"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué le pasó al amigo de Carlos en Italia?",
+          "ru": "Что случилось с другом Карлоса в Италии?",
+          "options": ["Perdió el tren", "Iba en un compartimento y casi se cayó de la litera superior", "Se le rompió el coche", "No encontró el andén"],
+          "answer": 1
+        },
+        {
+          "question": "¿Con quién viajó Lucía en el crucero?",
+          "ru": "С кем Лусия ездила в круиз?",
+          "options": ["Con su madre", "Con su abuela", "Con su hermano", "Sola"],
+          "answer": 0
+        },
+        {
+          "question": "¿Dónde prefería estar Lucía en el crucero?",
+          "ru": "Где Лусия предпочитала находиться в круизе?",
+          "options": ["En la cubierta", "En el camarote", "En el restaurante", "En la tienda"],
+          "answer": 0
+        },
+        {
+          "question": "¿Por qué a Carlos no le gustan los viajes marinos?",
+          "ru": "Почему Карлосу не нравятся морские путешествия?",
+          "options": ["Porque se marea", "Porque no sabe nadar", "Porque son caros", "Porque le gusta el tren"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué prefiere Lucía para viajar?",
+          "ru": "На чём Лусия предпочитает путешествовать?",
+          "options": ["En coche", "En tren o en bus-cama", "En barco", "En avión"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué le pasó a Carlos una vez en coche?",
+          "ru": "Что однажды случилось с Карлосом в машине?",
+          "options": ["Se le desinfló la rueda en medio camino", "Se quedó sin gasolina", "Perdió las llaves", "Se durmió conduciendo"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué pasó con el chófer de la tele?",
+          "ru": "Что случилось с шофёром из телевизора?",
+          "options": ["Se durmió conduciendo y sobrevivió milagrosamente", "Tuvo un accidente grave", "Perdió el tren", "Se le desinfló la rueda"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повтори слова по теме «поезд, поездка, транспорт»",
+    "Практика: сравни поезд, машину и поездку на корабле. Используй: prefiero... porque...; me gusta...; se me desinfló / se me perdió...",
+    "Дневник: опиши свою поездку на поезде или в машине",
+    "Грамматика: составь 4 предложения с condicional (preferiría) и 4 с SE несчастного случая (se me perdió...)"
+  ]
+}

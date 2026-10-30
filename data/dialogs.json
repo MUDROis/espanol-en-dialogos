@@ -1,0 +1,746 @@
+[
+  {
+    "id": 55,
+    "title": "",
+    "titleRu": "",
+    "module": "a0-a1",
+    "moduleTitle": "Стартовый модуль A0–A1",
+    "part": 1,
+    "block": 1,
+    "partTitle": "Начальный уровень",
+    "level": "A0",
+    "theme": "Приветствия и прощания в течение дня  Saludos y despedidas según la hora del día"
+  },
+  {
+    "id": 56,
+    "title": "",
+    "titleRu": "",
+    "module": "a0-a1",
+    "moduleTitle": "Стартовый модуль A0–A1",
+    "part": 1,
+    "block": 1,
+    "partTitle": "Начальный уровень",
+    "level": "A0",
+    "theme": "Знакомство: имя и вежливость  Presentarse: el nombre y la cortesía"
+  },
+  {
+    "id": 57,
+    "title": "",
+    "titleRu": "",
+    "module": "a0-a1",
+    "moduleTitle": "Стартовый модуль A0–A1",
+    "part": 1,
+    "block": 1,
+    "partTitle": "Начальный уровень",
+    "level": "A0",
+    "theme": "Алфавит и диктовка имени  El alfabeto español y el dictado por letras"
+  },
+  {
+    "id": 58,
+    "title": "",
+    "titleRu": "",
+    "module": "a0-a1",
+    "moduleTitle": "Стартовый модуль A0–A1",
+    "part": 1,
+    "block": 1,
+    "partTitle": "Начальный уровень",
+    "level": "A0",
+    "theme": "Числа 0–10, телефон и возраст  Los números del 0 al 10, el teléfono y la edad"
+  },
+  {
+    "id": 59,
+    "title": "",
+    "titleRu": "",
+    "module": "a0-a1",
+    "moduleTitle": "Стартовый модуль A0–A1",
+    "part": 1,
+    "block": 1,
+    "partTitle": "Начальный уровень",
+    "level": "A0",
+    "theme": "Предметы быта и артикли  Los objetos de casa y los artículos el / la / un / una"
+  },
+  {
+    "id": 60,
+    "title": "",
+    "titleRu": "",
+    "module": "a0-a1",
+    "moduleTitle": "Стартовый модуль A0–A1",
+    "part": 1,
+    "block": 1,
+    "partTitle": "Начальный уровень",
+    "level": "A0",
+    "theme": "Кафе и первый заказ  La cafetería y el primer pedido"
+  },
+  {
+    "id": 61,
+    "title": "",
+    "titleRu": "",
+    "module": "a0-a1",
+    "moduleTitle": "Стартовый модуль A0–A1",
+    "part": 1,
+    "block": 1,
+    "partTitle": "Начальный уровень",
+    "level": "A0",
+    "theme": "Числа, цены и покупки  Los números, los precios y las compras"
+  },
+  {
+    "id": 62,
+    "title": "",
+    "titleRu": "",
+    "module": "a0-a1",
+    "moduleTitle": "Стартовый модуль A0–A1",
+    "part": 1,
+    "block": 1,
+    "partTitle": "Начальный уровень",
+    "level": "A0",
+    "theme": "Страна, город и национальность  El país, la ciudad y la nacionalidad"
+  },
+  {
+    "id": 63,
+    "title": "",
+    "titleRu": "",
+    "module": "a0-a1",
+    "moduleTitle": "Стартовый модуль A0–A1",
+    "part": 1,
+    "block": 1,
+    "partTitle": "Начальный уровень",
+    "level": "A0",
+    "theme": "Семья и близкие люди  La familia y las personas cercanas"
+  },
+  {
+    "id": 64,
+    "title": "",
+    "titleRu": "",
+    "module": "a0-a1",
+    "moduleTitle": "Стартовый модуль A0–A1",
+    "part": 1,
+    "block": 1,
+    "partTitle": "Начальный уровень",
+    "level": "A0",
+    "theme": "Итоги части: знакомство  Repaso de la parte: la presentación personal"
+  },
+  {
+    "id": 65,
+    "title": "",
+    "titleRu": "",
+    "module": "a0-a1",
+    "moduleTitle": "Стартовый модуль A0–A1",
+    "part": 2,
+    "block": 2,
+    "partTitle": "Продолжение начального уровня",
+    "level": "A1",
+    "theme": "Отель: заселение и ключ  El hotel: la llegada y la llave"
+  },
+  {
+    "id": 66,
+    "title": "",
+    "titleRu": "",
+    "module": "a0-a1",
+    "moduleTitle": "Стартовый модуль A0–A1",
+    "part": 2,
+    "block": 2,
+    "partTitle": "Продолжение начального уровня",
+    "level": "A1",
+    "theme": "Рынок: покупки и цены  El mercado: las compras y los precios"
+  },
+  {
+    "id": 67,
+    "title": "",
+    "titleRu": "",
+    "module": "a0-a1",
+    "moduleTitle": "Стартовый модуль A0–A1",
+    "part": 2,
+    "block": 2,
+    "partTitle": "Продолжение начального уровня",
+    "level": "A1",
+    "theme": "Одежда и цвета: покупка  La ropa y los colores: en la tienda"
+  },
+  {
+    "id": 68,
+    "title": "",
+    "titleRu": "",
+    "module": "a0-a1",
+    "moduleTitle": "Стартовый модуль A0–A1",
+    "part": 2,
+    "block": 2,
+    "partTitle": "Продолжение начального уровня",
+    "level": "A1",
+    "theme": "Город: как пройти  La ciudad: cómo llegar"
+  },
+  {
+    "id": 69,
+    "title": "",
+    "titleRu": "",
+    "module": "a0-a1",
+    "moduleTitle": "Стартовый модуль A0–A1",
+    "part": 2,
+    "block": 2,
+    "partTitle": "Продолжение начального уровня",
+    "level": "A1",
+    "theme": "Транспорт: билет и платформа  El transporte: el billete y el andén"
+  },
+  {
+    "id": 70,
+    "title": "",
+    "titleRu": "",
+    "module": "a0-a1",
+    "moduleTitle": "Стартовый модуль A0–A1",
+    "part": 2,
+    "block": 2,
+    "partTitle": "Продолжение начального уровня",
+    "level": "A1",
+    "theme": "Время и дни недели  La hora y los días de la semana"
+  },
+  {
+    "id": 71,
+    "title": "",
+    "titleRu": "",
+    "module": "a0-a1",
+    "moduleTitle": "Стартовый модуль A0–A1",
+    "part": 2,
+    "block": 2,
+    "partTitle": "Продолжение начального уровня",
+    "level": "A1",
+    "theme": "Ресторан: меню и заказ  El restaurante: la carta y el pedido"
+  },
+  {
+    "id": 72,
+    "title": "",
+    "titleRu": "",
+    "module": "a0-a1",
+    "moduleTitle": "Стартовый модуль A0–A1",
+    "part": 2,
+    "block": 2,
+    "partTitle": "Продолжение начального уровня",
+    "level": "A1",
+    "theme": "Погода и планы  El tiempo y los planes"
+  },
+  {
+    "id": 73,
+    "title": "",
+    "titleRu": "",
+    "module": "a0-a1",
+    "moduleTitle": "Стартовый модуль A0–A1",
+    "part": 2,
+    "block": 2,
+    "partTitle": "Продолжение начального уровня",
+    "level": "A1",
+    "theme": "Аптека: симптомы и лекарство  En la farmacia: los síntomas y la medicina"
+  },
+  {
+    "id": 74,
+    "title": "",
+    "titleRu": "",
+    "module": "a0-a1",
+    "moduleTitle": "Стартовый модуль A0–A1",
+    "part": 2,
+    "block": 2,
+    "partTitle": "Продолжение начального уровня",
+    "level": "A1",
+    "theme": "Языковой обмен: итог части  ¡El intercambio de idiomas!"
+  },
+  {
+    "id": 1,
+    "title": "",
+    "titleRu": "",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "Знакомство  Presentaciones"
+  },
+  {
+    "id": 2,
+    "title": "Pablo y Sofía están en la escuela",
+    "titleRu": "Пабло и София находятся в школе",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "Школа, семья, повседневная жизнь  La escuela, la familia, la vida diaria"
+  },
+  {
+    "id": 3,
+    "title": "",
+    "titleRu": "",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "Общение, семья, праздники  La vida social, la familia, las celebraciones"
+  },
+  {
+    "id": 4,
+    "title": "",
+    "titleRu": "",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "Город, ориентирование, достопримечательности  La ciudad, orientación, lugares de interés"
+  },
+  {
+    "id": 5,
+    "title": "",
+    "titleRu": "",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "Здоровье, семья, описание внешности  Salud, familia, descripción física"
+  },
+  {
+    "id": 6,
+    "title": "",
+    "titleRu": "",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "Праздник, описание внешности, люди  La fiesta, la descripción física, las personas"
+  },
+  {
+    "id": 7,
+    "title": "",
+    "titleRu": "",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "Праздник, работа, настроение  La fiesta, el trabajo, las emociones"
+  },
+  {
+    "id": 8,
+    "title": "",
+    "titleRu": "",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "Еда, кухня, завтрак  La comida, la cocina, el desayuno"
+  },
+  {
+    "id": 9,
+    "title": "",
+    "titleRu": "",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "Квартира, дом, мебель  El piso, la casa, los muebles"
+  },
+  {
+    "id": 10,
+    "title": "",
+    "titleRu": "",
+    "part": 1,
+    "partTitle": "Базовый уровень (A2)",
+    "level": "A2",
+    "theme": "Квартира, комнаты, мебель  El piso, las habitaciones, los muebles"
+  },
+  {
+    "id": 11,
+    "title": "",
+    "titleRu": "",
+    "part": 2,
+    "partTitle": "Продолжение базового уровня (A2)",
+    "level": "A2",
+    "theme": "Погода, планы, свободное время  El tiempo, los planes, el tiempo libre"
+  },
+  {
+    "id": 12,
+    "title": "",
+    "titleRu": "",
+    "part": 2,
+    "partTitle": "Продолжение базового уровня (A2)",
+    "level": "A2",
+    "theme": "Продукты, покупки, семейный ужин  La comida, las compras, la cena familiar"
+  },
+  {
+    "id": 13,
+    "title": "",
+    "titleRu": "",
+    "part": 2,
+    "partTitle": "Продолжение базового уровня (A2)",
+    "level": "A2",
+    "theme": "Семья, обязанности, досуг и игры  La familia, las obligaciones, el ocio y los juegos"
+  },
+  {
+    "id": 14,
+    "title": "",
+    "titleRu": "",
+    "part": 2,
+    "partTitle": "Продолжение базового уровня (A2)",
+    "level": "A2",
+    "theme": "Работа, новости, семья  El trabajo, las novedades, la familia"
+  },
+  {
+    "id": 15,
+    "title": "",
+    "titleRu": "",
+    "part": 2,
+    "partTitle": "Продолжение базового уровня (A2)",
+    "level": "A2",
+    "theme": "Погода, планы, покупки  El tiempo, los planes, las compras"
+  },
+  {
+    "id": 16,
+    "title": "",
+    "titleRu": "",
+    "part": 2,
+    "partTitle": "Продолжение базового уровня (A2)",
+    "level": "A2",
+    "theme": "Путешествие, транспорт, время  El viaje, el transporte, la hora"
+  },
+  {
+    "id": 17,
+    "title": "",
+    "titleRu": "",
+    "part": 2,
+    "partTitle": "Продолжение базового уровня (A2)",
+    "level": "A2",
+    "theme": "Школа, расписание, рабочий день  La escuela, el horario, la jornada laboral"
+  },
+  {
+    "id": 18,
+    "title": "",
+    "titleRu": "",
+    "part": 2,
+    "partTitle": "Продолжение базового уровня (A2)",
+    "level": "A2",
+    "theme": "Рынок, покупки, цены  El mercado, las compras, los precios"
+  },
+  {
+    "id": 19,
+    "title": "",
+    "titleRu": "",
+    "part": 2,
+    "partTitle": "Продолжение базового уровня (A2)",
+    "level": "A2",
+    "theme": "Еда, путешествие, планы  La comida, el viaje, los planes"
+  },
+  {
+    "id": 20,
+    "title": "",
+    "titleRu": "",
+    "part": 2,
+    "partTitle": "Продолжение базового уровня (A2)",
+    "level": "A2",
+    "theme": "Поездка, достопримечательности, погода  El viaje, los lugares de interés, el tiempo"
+  },
+  {
+    "id": 21,
+    "title": "",
+    "titleRu": "",
+    "part": 3,
+    "partTitle": "Средний уровень (B1)",
+    "level": "B1",
+    "theme": "Покупки, подарки, праздники  Las compras, los regalos, las celebraciones"
+  },
+  {
+    "id": 22,
+    "title": "",
+    "titleRu": "",
+    "part": 3,
+    "partTitle": "Средний уровень (B1)",
+    "level": "B1",
+    "theme": "Дом, соседи, ночной шум  La casa, los vecinos, el ruido nocturno"
+  },
+  {
+    "id": 23,
+    "title": "",
+    "titleRu": "",
+    "part": 3,
+    "partTitle": "Средний уровень (B1)",
+    "level": "B1",
+    "theme": "Одежда, внешний вид, встреча  La ropa, la apariencia, la cita"
+  },
+  {
+    "id": 24,
+    "title": "",
+    "titleRu": "",
+    "part": 3,
+    "partTitle": "Средний уровень (B1)",
+    "level": "B1",
+    "theme": "Праздник, подготовка, дом  La fiesta, los preparativos, la casa"
+  },
+  {
+    "id": 25,
+    "title": "",
+    "titleRu": "",
+    "part": 3,
+    "partTitle": "Средний уровень (B1)",
+    "level": "B1",
+    "theme": "Дорога, пробка, автомобиль  La carretera, el atasco, el coche"
+  },
+  {
+    "id": 26,
+    "title": "",
+    "titleRu": "",
+    "part": 3,
+    "partTitle": "Средний уровень (B1)",
+    "level": "B1",
+    "theme": "Покупка одежды, магазин, стиль  La compra de ropa, la tienda, el estilo"
+  },
+  {
+    "id": 27,
+    "title": "",
+    "titleRu": "",
+    "part": 3,
+    "partTitle": "Средний уровень (B1)",
+    "level": "B1",
+    "theme": "Отель, заселение, завтрак  El hotel, el alojamiento, el desayuno"
+  },
+  {
+    "id": 28,
+    "title": "",
+    "titleRu": "",
+    "part": 3,
+    "partTitle": "Средний уровень (B1)",
+    "level": "B1",
+    "theme": "Кино, фильмы, жанры  El cine, las películas, los géneros"
+  },
+  {
+    "id": 29,
+    "title": "",
+    "titleRu": "",
+    "part": 3,
+    "partTitle": "Средний уровень (B1)",
+    "level": "B1",
+    "theme": "Ресторан, заказ блюд, еда  El restaurante, el pedido, la comida"
+  },
+  {
+    "id": 30,
+    "title": "",
+    "titleRu": "",
+    "part": 3,
+    "partTitle": "Средний уровень (B1)",
+    "level": "B1",
+    "theme": "Прогулка, транспорт, достопримечательности  El paseo, el transporte, los lugares de interés"
+  },
+  {
+    "id": 31,
+    "title": "",
+    "titleRu": "",
+    "part": 4,
+    "partTitle": "Продолжение среднего уровня (B1)",
+    "level": "B1",
+    "theme": "Путешествия, страны, планы  Los viajes, los países, los planes"
+  },
+  {
+    "id": 32,
+    "title": "",
+    "titleRu": "",
+    "part": 4,
+    "partTitle": "Продолжение среднего уровня (B1)",
+    "level": "B1",
+    "theme": "Знакомства, свидания, впечатления  Los encuentros, las citas, las impresiones"
+  },
+  {
+    "id": 33,
+    "title": "",
+    "titleRu": "",
+    "part": 4,
+    "partTitle": "Продолжение среднего уровня (B1)",
+    "level": "B1",
+    "theme": "Семья, работа, путешествия  La familia, el trabajo, los viajes"
+  },
+  {
+    "id": 34,
+    "title": "",
+    "titleRu": "",
+    "part": 4,
+    "partTitle": "Продолжение среднего уровня (B1)",
+    "level": "B1",
+    "theme": "Покупка одежды, магазин, скидки  La compra de ropa, la tienda, las rebajas"
+  },
+  {
+    "id": 35,
+    "title": "",
+    "titleRu": "",
+    "part": 4,
+    "partTitle": "Продолжение среднего уровня (B1)",
+    "level": "B1",
+    "theme": "Ресторан, ожидание, опоздания  El restaurante, la espera, los retrasos"
+  },
+  {
+    "id": 36,
+    "title": "",
+    "titleRu": "",
+    "part": 4,
+    "partTitle": "Продолжение среднего уровня (B1)",
+    "level": "B1",
+    "theme": "Путешествие в Марокко, интернет, информация  El viaje a Marruecos, el internet, la información"
+  },
+  {
+    "id": 37,
+    "title": "",
+    "titleRu": "",
+    "part": 4,
+    "partTitle": "Продолжение среднего уровня (B1)",
+    "level": "B1",
+    "theme": "Путешествие, впечатления, Марракеш  El viaje, las impresiones, Marrakech"
+  },
+  {
+    "id": 38,
+    "title": "",
+    "titleRu": "",
+    "part": 4,
+    "partTitle": "Продолжение среднего уровня (B1)",
+    "level": "B1",
+    "theme": "Урок рисования, школа, животные  La clase de dibujo, la escuela, los animales"
+  },
+  {
+    "id": 39,
+    "title": "",
+    "titleRu": "",
+    "part": 5,
+    "partTitle": "Продвинутый уровень (B2)",
+    "level": "B2",
+    "theme": "Полиция, кража, заявление  La policía, el robo, la declaración"
+  },
+  {
+    "id": 40,
+    "title": "",
+    "titleRu": "",
+    "part": 5,
+    "partTitle": "Продвинутый уровень (B2)",
+    "level": "B2",
+    "theme": "Кражи, карманные воры, рассказы о прошлом  Los robos, los carteristas, las historias del pasado"
+  },
+  {
+    "id": 41,
+    "title": "",
+    "titleRu": "",
+    "part": 5,
+    "partTitle": "Продвинутый уровень (B2)",
+    "level": "B2",
+    "theme": "Аэропорт, рейс, возвращение домой  El aeropuerto, el vuelo, el regreso a casa"
+  },
+  {
+    "id": 42,
+    "title": "",
+    "titleRu": "",
+    "part": 5,
+    "partTitle": "Продвинутый уровень (B2)",
+    "level": "B2",
+    "theme": "Здоровье, врач, приём, лекарства  La salud, el médico, la consulta, los medicamentos"
+  },
+  {
+    "id": 43,
+    "title": "",
+    "titleRu": "",
+    "part": 5,
+    "partTitle": "Продвинутый уровень (B2)",
+    "level": "B2",
+    "theme": "Поезд, вокзал, путешествие  El tren, la estación, el viaje"
+  },
+  {
+    "id": 44,
+    "title": "",
+    "titleRu": "",
+    "part": 5,
+    "partTitle": "Продвинутый уровень (B2)",
+    "level": "B2",
+    "theme": "Самолёт, аэропорт, неудачи в пути  El avión, el aeropuerto, la mala suerte en el viaje"
+  },
+  {
+    "id": 45,
+    "title": "",
+    "titleRu": "",
+    "part": 5,
+    "partTitle": "Продвинутый уровень (B2)",
+    "level": "B2",
+    "theme": "Болезни, травмы, лечение  Las enfermedades, las lesiones, el tratamiento"
+  },
+  {
+    "id": 46,
+    "title": "",
+    "titleRu": "",
+    "part": 5,
+    "partTitle": "Продвинутый уровень (B2)",
+    "level": "B2",
+    "theme": "Путешествие по Португалии, впечатления, города  El viaje por Portugal, las impresiones, las ciudades"
+  },
+  {
+    "id": 47,
+    "title": "",
+    "titleRu": "",
+    "part": 6,
+    "partTitle": "Высокий уровень (B2+)",
+    "level": "B2+",
+    "theme": "Кино, фильмы, жанры  El cine, las películas, los géneros"
+  },
+  {
+    "id": 48,
+    "title": "",
+    "titleRu": "",
+    "part": 6,
+    "partTitle": "Высокий уровень (B2+)",
+    "level": "B2+",
+    "theme": "Отношения, знакомство, характер  Las relaciones, el encuentro, el carácter"
+  },
+  {
+    "id": 49,
+    "title": "",
+    "titleRu": "",
+    "part": 6,
+    "partTitle": "Высокий уровень (B2+)",
+    "level": "B2+",
+    "theme": "Жизнь за границей, учёба за рубежом, адаптация  La vida en el extranjero, estudiar fuera, la adaptación"
+  },
+  {
+    "id": 50,
+    "title": "",
+    "titleRu": "",
+    "part": 6,
+    "partTitle": "Высокий уровень (B2+)",
+    "level": "B2+",
+    "theme": "Театр, спектакль, впечатления  El teatro, el espectáculo, las impresiones"
+  },
+  {
+    "id": 51,
+    "title": "",
+    "titleRu": "",
+    "part": 6,
+    "partTitle": "Высокий уровень (B2+)",
+    "level": "B2+",
+    "theme": "Соседи, шум, жалобы и советы  Los vecinos, el ruido, las quejas y los consejos"
+  },
+  {
+    "id": 52,
+    "title": "",
+    "titleRu": "",
+    "part": 6,
+    "partTitle": "Высокий уровень (B2+)",
+    "level": "B2+",
+    "theme": "Подготовка к экзамену, учёба и планы  Preparación para el examen, el estudio y los planes"
+  },
+  {
+    "id": 53,
+    "title": "",
+    "titleRu": "",
+    "part": 6,
+    "partTitle": "Высокий уровень (B2+)",
+    "level": "B2+",
+    "theme": "Летний лагерь, занятия и предметы для поездки  El campamento de verano, las actividades y las cosas necesarias para el viaje"
+  },
+  {
+    "id": 54,
+    "title": "",
+    "titleRu": "",
+    "part": 6,
+    "partTitle": "Высокий уровень (B2+)",
+    "level": "B2+",
+    "theme": "Спорт, увлечения и времяпрепровождение  El deporte, las aficiones y los planes"
+  },
+  {
+    "id": 75,
+    "title": "",
+    "titleRu": "",
+    "part": 6,
+    "partTitle": "Высокий уровень (B2+)",
+    "level": "B2+",
+    "theme": "Пляж, отдых, мороженое  La playa, el descanso, el helado"
+  },
+  {
+    "id": 76,
+    "title": "",
+    "titleRu": "",
+    "part": 6,
+    "partTitle": "Высокий уровень (B2+)",
+    "level": "B2+",
+    "theme": "Новый год, семейный ужин, традиции  La Nochevieja, la cena familiar, las tradiciones"
+  }
+]

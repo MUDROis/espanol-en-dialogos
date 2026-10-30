@@ -1,0 +1,744 @@
+{
+  "id": 70,
+  "title": "La hora y los días",
+  "titleRu": "Который час и дни недели",
+  "module": "a0-a1",
+  "block": 2,
+  "part": 2,
+  "blockTitle": "Часть 2 · Продолжение начального уровня",
+  "level": "A1",
+  "theme": "Время и дни недели  La hora y los días de la semana",
+  "mission": "Сказать, во сколько вы встаёте и что делаете, и договориться о встрече на конкретный день и час.",
+  "mapPoint": "Пуэрта-дель-Соль: сверяем часы",
+  "duration": "45 минут",
+  "stepsCount": 7,
+  "readingNote": "Прочитайте вслух: h не читается нигде (hoy, ahora, hotel, hola), а miércoles — по слогам: «мьер-ко-лес».",
+  "characters": [
+    "olga",
+    "mateo"
+  ],
+  "objectives": [
+    "Спросить и сказать время: ¿qué hora es? — son las dos",
+    "Назвать все семь дней недели и слова hoy / mañana",
+    "Рассказать три пункта распорядка: me levanto a las siete",
+    "Договориться о встрече на день и час: el jueves a las cinco",
+    "Читать немалую h и слоги miér-co-les, sá-ba-do"
+  ],
+  "grammar": {
+    "ser_hora_es_son": {
+      "title": "Для времени нужен глагол ser: es — son",
+      "description": "Время в испанском отвечает глагол ser. Одна отметка — es: es la una (час), es la una y media (половина второго). Две и больше — son: son las dos, son las diez, son las cinco y media. Час почти всегда стоит во множественном числе: son las…, и только la una — женского рода, поэтому es. Добавки de la mañana / de la tarde / de la noche — это «контейнеры» времени: son las diez de la mañana (десять утра).",
+      "forms": {
+        "yo": {
+          "es": "es la una",
+          "ru": "час"
+        },
+        "tu": {
+          "es": "¿qué hora es?",
+          "ru": "который час?"
+        },
+        "el_ella": {
+          "es": "son las diez y media",
+          "ru": "половина одиннадцатого"
+        },
+        "nosotros": {
+          "es": "son las ocho de la mañana",
+          "ru": "восемь утра"
+        }
+      },
+      "examples": [
+        {
+          "es": "¿Qué hora es? — Son las diez de la mañana.",
+          "ru": "Который час? — Сейчас десять утра."
+        },
+        {
+          "es": "Es la una y media. Vamos a las cinco.",
+          "ru": "Половина второго. Встречаемся в пять."
+        }
+      ]
+    },
+    "las_horas_del_dia": {
+      "title": "Часы дня: a las… и de la mañana / tarde / noche",
+      "description": "Когда назначают встречу, работают или встают, добавляют a + час: a las siete, a las cinco y media. Распорядок дня строится так же: me levanto a las siete (я встаю в семь), trabajo a las nueve, como a las dos. Слова-контейнеры de la mañana / de la tarde / de la noche уточняют, когда именно: por la mañana (утром), por la tarde (днём), por la noche (вечером).",
+      "list": [
+        {
+          "es": "a las siete",
+          "ru": "в семь"
+        },
+        {
+          "es": "a las cinco y media",
+          "ru": "в половине шестого"
+        },
+        {
+          "es": "me levanto a las siete",
+          "ru": "я встаю в семь"
+        },
+        {
+          "es": "como a las dos",
+          "ru": "я обедаю в два"
+        },
+        {
+          "es": "de la mañana / de la tarde / de la noche",
+          "ru": "утра / дня / вечера"
+        },
+        {
+          "es": "por la mañana",
+          "ru": "утром"
+        },
+        {
+          "es": "por la noche",
+          "ru": "вечером"
+        },
+        {
+          "es": "¿a qué hora sales?",
+          "ru": "во сколько ты выходишь?"
+        }
+      ],
+      "examples": [
+        {
+          "es": "Me levanto a las siete y trabajo a las nueve.",
+          "ru": "Я встаю в семь и работаю в девять."
+        },
+        {
+          "es": "El museo abre a las diez de la mañana.",
+          "ru": "Музей открывается в десять утра."
+        }
+      ]
+    },
+    "los_dias_de_la_semana": {
+      "title": "Дни недели: lunes → domingo",
+      "description": "Семь дней одной лентой, от понедельника к воскресенью. Пишутся со строчной буквы: lunes, martes, miércoles, jueves, viernes, sábado, domingo. Перед днём нужен артикль: el lunes, el miércoles; в испанском это всегда «в понедельник». Приглашение договориться: el jueves a las cinco (в четверг в пять), прощание до встречи — ¡hasta el viernes! (до пятницы!).",
+      "list": [
+        {
+          "es": "lunes",
+          "ru": "понедельник"
+        },
+        {
+          "es": "martes",
+          "ru": "вторник"
+        },
+        {
+          "es": "miércoles",
+          "ru": "среда"
+        },
+        {
+          "es": "jueves",
+          "ru": "четверг"
+        },
+        {
+          "es": "viernes",
+          "ru": "пятница"
+        },
+        {
+          "es": "sábado",
+          "ru": "суббота"
+        },
+        {
+          "es": "domingo",
+          "ru": "воскресенье"
+        },
+        {
+          "es": "el lunes trabajo a las nueve",
+          "ru": "в понедельник я работаю в девять"
+        },
+        {
+          "es": "¡hasta el viernes!",
+          "ru": "до пятницы!"
+        }
+      ],
+      "examples": [
+        {
+          "es": "El miércoles voy al museo. El jueves a las cinco, con Mateo.",
+          "ru": "В среду я иду в музей. В четверг в пять, с Матео."
+        },
+        {
+          "es": "Hoy es lunes. Mañana es martes.",
+          "ru": "Сегодня понедельник. Завтра вторник."
+        }
+      ]
+    }
+  },
+  "vocabulary": {
+    "los_dias_de_la_semana": [
+      {
+        "es": "lunes",
+        "ru": "понедельник"
+      },
+      {
+        "es": "martes",
+        "ru": "вторник"
+      },
+      {
+        "es": "miércoles",
+        "ru": "среда"
+      },
+      {
+        "es": "jueves",
+        "ru": "четверг"
+      },
+      {
+        "es": "viernes",
+        "ru": "пятница"
+      },
+      {
+        "es": "sábado",
+        "ru": "суббота"
+      },
+      {
+        "es": "domingo",
+        "ru": "воскресенье"
+      }
+    ],
+    "hoy_y_manana": [
+      {
+        "es": "hoy",
+        "ru": "сегодня"
+      },
+      {
+        "es": "mañana",
+        "ru": "завтра"
+      },
+      {
+        "es": "por la mañana",
+        "ru": "утром"
+      },
+      {
+        "es": "por la tarde",
+        "ru": "днём"
+      }
+    ],
+    "la_hora": [
+      {
+        "es": "¿qué hora es?",
+        "ru": "который час?"
+      },
+      {
+        "es": "me levanto",
+        "ru": "я встаю"
+      },
+      {
+        "es": "a las siete",
+        "ru": "в семь"
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "Olga",
+      "es": "Buenos días, Mateo. ¿Qué hora es?",
+      "ru": "Доброе утро, Матео. Который час?"
+    },
+    {
+      "speaker": "Mateo",
+      "es": "Son las diez de la mañana. Hoy es lunes.",
+      "ru": "Сейчас десять утра. Сегодня понедельник."
+    },
+    {
+      "speaker": "Olga",
+      "es": "¿Vas a ver a Carmen hoy?",
+      "ru": "Ты увидишь Кармен сегодня?"
+    },
+    {
+      "speaker": "Mateo",
+      "es": "Sí, la llamo por la tarde. ¿Por qué?",
+      "ru": "Да, позвоню ей после обеда. Почему?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Quiero preguntarle a qué hora nos vemos el jueves.",
+      "ru": "Я хочу спросить её, во сколько мы встретимся в четверг."
+    },
+    {
+      "speaker": "Mateo",
+      "es": "Perfecto. Dile: el jueves a las cinco, en la Plaza del Sol.",
+      "ru": "Отлично. Скажи ей: в четверг в пять, на Пласа-дель-Соль."
+    },
+    {
+      "speaker": "Olga",
+      "es": "El jueves a las cinco. Anoto: jueves, cinco, Plaza del Sol.",
+      "ru": "В четверг в пять. Записываю: четверг, пять, Пласа-дель-Соль."
+    },
+    {
+      "speaker": "Mateo",
+      "es": "Muy bien. ¿Y tú, a qué hora te levantas?",
+      "ru": "Очень хорошо. А ты во сколько встаёшь?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Me levanto a las siete y como a las dos.",
+      "ru": "Я встаю в семь и обедаю в два."
+    },
+    {
+      "speaker": "Mateo",
+      "es": "Yo me levanto a las seis. Los domingos descanso todo el día.",
+      "ru": "Я встаю в шесть. По воскресеньям отдыхаю весь день."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Entonces, ¿nos vemos el jueves a las cinco? ¿Te parece bien?",
+      "ru": "Тогда встретимся в четверг в пять? Тебе подходит?"
+    },
+    {
+      "speaker": "Mateo",
+      "es": "Perfecto, Olga. ¡Hasta el jueves!",
+      "ru": "Отлично, Ольга. До четверга!"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между днём недели и переводом",
+      "pairs": [
+        {
+          "es": "lunes",
+          "ru": "понедельник"
+        },
+        {
+          "es": "martes",
+          "ru": "вторник"
+        },
+        {
+          "es": "miércoles",
+          "ru": "среда"
+        },
+        {
+          "es": "jueves",
+          "ru": "четверг"
+        },
+        {
+          "es": "sábado",
+          "ru": "суббота"
+        },
+        {
+          "es": "domingo",
+          "ru": "воскресенье"
+        },
+        {
+          "es": "hoy",
+          "ru": "сегодня"
+        },
+        {
+          "es": "mañana",
+          "ru": "завтра"
+        },
+        {
+          "es": "¿qué hora es?",
+          "ru": "который час?"
+        },
+        {
+          "es": "me levanto",
+          "ru": "я встаю"
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-ser_hora_es_son",
+      "title": "Практика: ser для времени — es или son",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "___ la una y media.",
+          "ru": "Половина второго",
+          "answer": "Es",
+          "options": [
+            "Es",
+            "Son",
+            "E"
+          ]
+        },
+        {
+          "text": "___ las diez de la mañana.",
+          "ru": "Сейчас десять утра",
+          "answer": "Son",
+          "options": [
+            "Son",
+            "Es",
+            "Están"
+          ]
+        },
+        {
+          "text": "¿___ hora es?",
+          "ru": "Который час?",
+          "answer": "Qué",
+          "options": [
+            "Qué",
+            "Que",
+            "Quo"
+          ]
+        },
+        {
+          "text": "Me ___ a las siete.",
+          "ru": "Я встаю в семь",
+          "answer": "levanto",
+          "options": [
+            "levanto",
+            "levanta",
+            "levantó"
+          ]
+        },
+        {
+          "text": "___ las cinco y media.",
+          "ru": "Половина шестого",
+          "answer": "Son",
+          "options": [
+            "Son",
+            "Es",
+            "Soy"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-las_horas_del_dia",
+      "title": "Практика: a las… и de la mañana / tarde / noche",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Son las diez ___ la mañana.",
+          "ru": "Сейчас десять утра",
+          "answer": "de",
+          "options": [
+            "de",
+            "a",
+            "en"
+          ]
+        },
+        {
+          "text": "Es la una ___ media.",
+          "ru": "Половина второго",
+          "answer": "y",
+          "options": [
+            "y",
+            "e",
+            "a"
+          ]
+        },
+        {
+          "text": "Me levanto ___ las siete.",
+          "ru": "Я встаю в семь",
+          "answer": "a",
+          "options": [
+            "a",
+            "de",
+            "en"
+          ]
+        },
+        {
+          "text": "Trabajamos por ___ tarde.",
+          "ru": "Мы работаем днём",
+          "answer": "la",
+          "options": [
+            "la",
+            "el",
+            "los"
+          ]
+        },
+        {
+          "text": "¿A ___ hora sales?",
+          "ru": "Во сколько ты выходишь?",
+          "answer": "qué",
+          "options": [
+            "qué",
+            "que",
+            "queda"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-los_dias_de_la_semana",
+      "title": "Практика: дни недели",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "El ___ voy al museo.",
+          "ru": "В среду я иду в музей",
+          "answer": "miércoles",
+          "options": [
+            "miércoles",
+            "martes",
+            "jueves"
+          ]
+        },
+        {
+          "text": "El ___ voy al mercado.",
+          "ru": "В субботу я иду на рынок",
+          "answer": "sábado",
+          "options": [
+            "sábado",
+            "domingo",
+            "viernes"
+          ]
+        },
+        {
+          "text": "¡Hasta el ___!",
+          "ru": "До пятницы!",
+          "answer": "viernes",
+          "options": [
+            "viernes",
+            "lunes",
+            "jueves"
+          ]
+        },
+        {
+          "text": "___ es martes, no lunes.",
+          "ru": "Сегодня вторник, а не понедельник",
+          "answer": "Hoy",
+          "options": [
+            "Hoy",
+            "Ayer",
+            "Mañana"
+          ]
+        },
+        {
+          "text": "Mañana ___ el jueves.",
+          "ru": "Завтра четверг",
+          "answer": "es",
+          "options": [
+            "es",
+            "está",
+            "son"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "¿Qué ___ es?",
+          "ru": "Который час?",
+          "answer": "hora",
+          "options": [
+            "hora",
+            "hoy",
+            "hola"
+          ]
+        },
+        {
+          "text": "Son las ___ de la tarde.",
+          "ru": "Сейчас пять вечера",
+          "answer": "cinco",
+          "options": [
+            "cinco",
+            "nueve",
+            "siete"
+          ]
+        },
+        {
+          "text": "Me ___ a las ocho.",
+          "ru": "Я встаю в восемь",
+          "answer": "levanto",
+          "options": [
+            "levanto",
+            "levantas",
+            "levantó"
+          ]
+        },
+        {
+          "text": "El sábado ___ al mercado.",
+          "ru": "В субботу я иду на рынок",
+          "answer": "voy",
+          "options": [
+            "voy",
+            "vas",
+            "va"
+          ]
+        },
+        {
+          "text": "El domingo ___ un intercambio de idiomas.",
+          "ru": "В воскресенье будет языковой обмен",
+          "answer": "hay",
+          "options": [
+            "hay",
+            "ha",
+            "han"
+          ]
+        },
+        {
+          "text": "Trabajamos ___ la mañana.",
+          "ru": "Мы работаем утром",
+          "answer": "por",
+          "options": [
+            "por",
+            "para",
+            "de"
+          ]
+        },
+        {
+          "text": "Hoy ___ lunes.",
+          "ru": "Сегодня понедельник",
+          "answer": "es",
+          "options": [
+            "es",
+            "está",
+            "hay"
+          ]
+        },
+        {
+          "text": "Nos vemos el jueves ___ las seis.",
+          "ru": "Встречаемся в четверг в шесть",
+          "answer": "a",
+          "options": [
+            "a",
+            "de",
+            "en"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух: ¿qué hora es? — son las diez de la mañana"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Ольгой",
+      "role": "Olga",
+      "description": "Ты — Ольга: спрашиваешь время, рассказываешь свой распорядок и договариваешься о встрече в четверг"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Матео",
+      "role": "Mateo",
+      "description": "Ты — Матео: называешь время и день, спрашиваешь про распорядок и подтверждаешь встречу"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Договорись о встрече: назови день, час и место",
+      "template": [
+        {
+          "label": "Который час?",
+          "es": "¿Qué ___ es?"
+        },
+        {
+          "label": "Сейчас десять утра",
+          "es": "Son las diez ___ la mañana."
+        },
+        {
+          "label": "Я встаю в семь",
+          "es": "Me ___ a las siete."
+        },
+        {
+          "label": "В среду я иду в музей",
+          "es": "El ___ voy al museo."
+        },
+        {
+          "label": "Встречаемся в четверг в пять",
+          "es": "El jueves ___ las cinco, ¿no?"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Qué hora es cuando Olga pregunta por la mañana?",
+          "ru": "Который час, когда Ольга спрашивает утром?",
+          "options": [
+            "Las diez de la mañana",
+            "La una y media",
+            "Las cinco de la tarde",
+            "Las seis de la noche"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué día es hoy en el diálogo?",
+          "ru": "Какой сегодня день в диалоге?",
+          "options": [
+            "El lunes",
+            "El miércoles",
+            "El jueves",
+            "El sábado"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿A qué hora se levanta Olga?",
+          "ru": "Во сколько встаёт Ольга?",
+          "options": [
+            "A las seis",
+            "A las siete",
+            "A las diez",
+            "A las dos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuándo ve Olga a Carmen?",
+          "ru": "Когда Ольга видит Кармен?",
+          "options": [
+            "El lunes por la mañana",
+            "El jueves a las cinco",
+            "El sábado por la tarde",
+            "El domingo a las seis"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Dónde queda la cita con Carmen?",
+          "ru": "Где встречаются с Кармен?",
+          "options": [
+            "En la Plaza del Sol",
+            "En el museo",
+            "En el mercado",
+            "En la estación"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Elige la frase correcta: «Сейчас два часа».",
+          "ru": "Выбери верную фразу: «Сейчас два часа».",
+          "options": [
+            "Es las dos.",
+            "Son las dos.",
+            "Son la dos.",
+            "Es la dos."
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo se lee miércoles?",
+          "ru": "Как читается miércoles?",
+          "options": [
+            "«ми-эр-ко-лес»",
+            "«мьер-ко-лес»",
+            "«миэр-кле-с»"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Completa: «El sábado ___ al mercado».",
+          "ru": "Дополни: «El sábado ___ al mercado».",
+          "options": [
+            "voy",
+            "vas",
+            "va"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    "Я спрашиваю и отвечаю о времени: ¿qué hora es? — son las diez",
+    "Я называю все семь дней недели: lunes → domingo",
+    "Я рассказываю распорядок: me levanto a las siete, como a las dos",
+    "Я договариваюсь о встрече: el jueves a las cinco",
+    "Я читаю немалую h: hoy, ahora, hotel, hola"
+  ],
+  "homework": [
+    "Распиши своё расписание на 5 дней: по одному предложению с днём недели и временем (El lunes trabajo a las nueve)",
+    "Прочитай вслух расписание и запиши голосовое в дневник прогресса",
+    "Прочитай вслух слова с немаой h и длинные дни: hoy, ahora, hotel, hola, miércoles, sábado",
+    "Выучи наизусть все семь дней недели — завтра они понадобятся для планов"
+  ]
+}

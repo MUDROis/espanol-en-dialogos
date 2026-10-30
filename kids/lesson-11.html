@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soy… — Урок 11 · Español A0–A1</title>
+<meta name="description" content="Урок 11: глагол SER (soy, eres, es) — кто ты? Собери свой аватар. Курс испанского A0–A1 для детей, блок 2.">
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body data-theme="ser">
+
+<header class="lesson-head">
+  <a class="link-back" href="course.html">← Все уроки</a>
+  <span class="lh-title">Урок 11 · SER — soy, eres, es</span>
+  <span class="lh-spacer"></span>
+  <a class="link-ghost" href="lesson-12.html">Урок 12 →</a>
+</header>
+
+<div class="voice-note" id="voiceNote"></div>
+<div class="save-indicator" id="saveIndicator"> Прогресс сохранён</div>
+
+<div class="container">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ШАГ 1 -->
+  <section class="step active" id="step1">
+    <h1> Soy…</h1>
+    <p style="font-size:1.5em">¡Hola, amigo! Кто ты? </p>
+    <p>Второй блок — время рассказать, <strong>кто ты</strong>. Сегодня мы познакомимся с самым важным испанским словом: <strong>ser</strong> — «быть, являться».</p>
+    <h3>В этом уроке</h3>
+    <p> Глагол <strong>ser</strong>: soy, eres, es<br>
+        Фразы «Soy niño», «Eres alto»<br>
+        Что ты: soy ≠ estoy<br>
+        Игра «Собери свой аватар»</p>
+    <div class="tip"> <strong>Совет:</strong> <em>ser</em> отвечает на вопрос <strong>«Кто/что ты?»</strong> — про постоянное. Поэтому мы говорим «Soy ruso» — я русский, и это не меняется.</div>
+    <div class="nav-buttons center">
+      <button class="btn btn-primary" data-next>¡Vamos! Поехали! </button>
+    </div>
+  </section>
+
+  <!-- ШАГ 2 -->
+  <section class="step" id="step2">
+    <h2> Ser — волшебное слово</h2>
+    <p>У <em>ser</em> всего три формы, и они звучат почти одинаково — их легко спутать, зато легко и сказать!</p>
+    <div class="phonetics">
+      <div class="phon-card" data-say="Soy ruso.">
+        <div class="phon-letter">soy</div>
+        <div class="phon-emoji">🙋</div>
+        <div class="phon-word">Soy ruso</div>
+        <div class="phon-hint">Я — русский. <strong>я</strong></div>
+        <button class="mic-btn" data-mic="soy ruso" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="Eres alto.">
+        <div class="phon-letter">eres</div>
+        <div class="phon-emoji">🧍</div>
+        <div class="phon-word">Eres alto</div>
+        <div class="phon-hint">Ты — высокий. <strong>ты</strong></div>
+        <button class="mic-btn" data-mic="eres alto" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="Ella es profesora.">
+        <div class="phon-letter">es</div>
+        <div class="phon-emoji">👩‍🏫</div>
+        <div class="phon-word">Ella es profesora</div>
+        <div class="phon-hint">Она — учительница. <strong>она / он / это</strong></div>
+        <button class="mic-btn" data-mic="ella es profesora" data-step="2">🎤</button>
+      </div>
+    </div>
+    <div class="feedback" id="feedback2"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 3 -->
+  <section class="step" id="step3">
+    <h2> Кто ты? Три ответа</h2>
+    <p>Послушай и повтори. Настоящее время — простое: только одно окончание на всех!</p>
+    <div class="words" id="serCards"></div>
+    <p style="margin-top:26px"><strong> Найди пары: форма глагола и значение</strong></p>
+    <div class="memory-grid" id="memoryGrid"></div>
+    <div class="memory-counter">Найдено пар: <span id="memoryCounter">0</span>/4</div>
+    <div class="feedback" id="feedback3"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 4 -->
+  <section class="step" id="step4">
+    <h2> Кто ты?</h2>
+    <p>Дети знакомятся в группе. Послушай и повтори — это твой главный рассказ о себе!</p>
+    <div class="dialogue">
+      <div class="dialogue-line" data-say="¿Quién eres?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿Quién eres?<span class="ru">Кто ты?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="quién eres" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Soy Pablo. Soy niño.">
+        <div class="avatar">👦</div>
+        <div class="text">Soy Pablo. Soy niño.<span class="ru">Я Пабло. Я мальчик.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="soy Pablo" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="¿De dónde eres?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿De dónde eres?<span class="ru">Откуда ты?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="de dónde eres" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Soy de Rusia.">
+        <div class="avatar">👦</div>
+        <div class="text">Soy de Rusia.<span class="ru">Я из России.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="soy de Rusia" data-step="4" data-threshold="0.45">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="Soy alto.">
+        <div class="avatar">🧑</div>
+        <div class="text">Soy alto.<span class="ru">Я высокий.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="soy alto" data-step="4">🎤</button>
+      </div>
+    </div>
+    <div class="bubble-row">
+      <button class="btn btn-primary" data-repeat='["¿Quién eres?","Soy Pablo. Soy niño.","¿De dónde eres?","Soy de Rusia.","Soy alto."]' data-gap="2500"> Слушать весь диалог</button>
+    </div>
+    <div class="tip"> <strong>Шпаргалка:</strong> <em>Soy + профессия/страна/имя.</em> Иногда <em>soy</em> можно пропустить: <em>Soy ruso → Ruso.</em></div>
+    <div class="feedback" id="feedback4"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 5 · Аватар -->
+  <section class="step" id="step5">
+    <h2> Собери свой аватар</h2>
+    <p>Подпиши героя: кто он? Выбери подпись и нажми на героя.</p>
+    <div class="game-box">
+      <div class="bank" id="assignBank"></div>
+      <div class="slots people" id="assignTargets"></div>
+      <div class="assign-progress" id="assignProgress"></div>
+    </div>
+    <div class="tip"> <strong>Задание:</strong> придумай свой аватар и расскажи о нём: <em>«Soy ___, tengo ___ años»</em>.</div>
+    <div class="feedback" id="feedback5"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 6 -->
+  <section class="step" id="step6">
+    <h2> Проверь себя!</h2>
+    <p>Три вопроса про глагол <em>ser</em>.</p>
+    <div id="quizContainer"></div>
+    <div class="assign-progress" id="quizScore"></div>
+    <div class="feedback" id="feedback6"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 7 -->
+  <section class="step" id="step7">
+    <div class="final">
+
+      <h1>¡Soy yo!</h1>
+      <p style="font-size:1.4em">Ты прошёл одиннадцатый урок!</p>
+      <div class="medal"> Медаль «¡Yo soy!»</div>
+      <p>Сегодня ты узнал:</p>
+      <p> <strong>ser</strong> = «быть»: soy, eres, es<br>
+        Фразы «Soy niño», «¿De dónde eres?»<br>
+        «Кто ты?» — это про постоянное, поэтому <em>ser</em></p>
+
+      <h3> ¡Yo puedo! — Я могу!</h3>
+      <div class="can-do" id="canDo"></div>
+
+      <div class="homework">
+        <strong> Домашнее задание</strong><br>
+        Представься по-испански в 5 предложениях:<br>
+        <strong>Me llamo … Soy niño/niña. Tengo … años. Soy de … Mi color favorito es …</strong>
+      </div>
+
+      <div class="nav-buttons center">
+        <button class="btn btn-secondary" data-restart> Пройти ещё раз</button>
+        <a class="btn btn-primary" href="lesson-12.html" style="text-decoration:none;display:inline-block">Урок 12 →</a>
+      </div>
+      <p style="margin-top:18px"><a class="link-ghost" href="course.html">← Ко всем урокам курса</a></p>
+    </div>
+  </section>
+</div>
+
+<script src="assets/lesson.js"></script>
+<script>
+/* ============================ ДАННЫЕ УРОКА 11 ============================ */
+var SER = [
+  { es: 'soy', ru: 'я —', e: '🙋', say: 'Soy Pablo' },
+  { es: 'eres', ru: 'ты —', e: '🧍', say: 'Eres alto' },
+  { es: 'es', ru: 'она/он —', e: '👩‍🏫', say: 'Ella es profesora' },
+  { es: 'somos', ru: 'мы —', e: '👫', say: 'Somos amigos' }
+];
+
+var MEMORY = SER.map(function (s) { return { a: s.es, b: s.e, sa: s.es, sb: null }; });
+
+var HEROES = [
+  { key: 'niño', e: '👦', label: 'soy niño', say: 'Soy niño' },
+  { key: 'niña', e: '👧', label: 'soy niña', say: 'Soy niña' },
+  { key: 'médico', e: '👨‍⚕️', label: 'soy médico', say: 'Soy médico' },
+  { key: 'profesora', e: '👩‍🏫', label: 'soy profesora', say: 'Soy profesora' },
+  { key: 'ruso', e: '🇷🇺', label: 'soy de Rusia', say: 'Soy de Rusia' }
+];
+
+var QUIZ = [
+  { q: ' Как сказать «Я — мальчик»?', opts: ['Soy niño', 'Eres niño', 'Es niño', 'Tengo niño'], correct: 'Soy niño' },
+  { q: ' Что значит «¿De dónde eres?»', opts: ['Откуда ты?', 'Сколько тебе лет?', 'Кто ты?', 'Что это?'], correct: 'Откуда ты?' },
+  { q: ' Когда мы говорим «soy», мы отвечаем на вопрос…', opts: ['Кто ты? (про постоянное)', 'Где ты? (про место)', 'Сколько тебе лет?', 'Что у тебя есть?'], correct: 'Кто ты? (про постоянное)' }
+];
+
+var CAN_DO = [
+  'Я говорю «Soy niño/niña»',
+  'Я говорю «Eres alto»',
+  'Я спрашиваю «¿Quién eres?»',
+  'Я спрашиваю «¿De dónde eres?»'
+];
+
+function renderSer() {
+  var box = document.getElementById('serCards');
+  box.innerHTML = '';
+  SER.forEach(function (s) {
+    var c = EL.el('div', 'word-card');
+    c.setAttribute('data-say', s.es);
+    c.style.background = 'linear-gradient(140deg, var(--c3), var(--c1))';
+    c.innerHTML = '<span class="emoji">' + s.e + '</span><span class="es">' + s.es + '</span><span class="ru">' + s.ru + '</span>' +
+      '<button class="mic-btn" data-mic="' + s.es + '" data-step="3">🎤</button>';
+    box.appendChild(c);
+  });
+}
+
+function buildAvatar() {
+  EL.assign({
+    bank: 'assignBank',
+    targets: 'assignTargets',
+    stateKey: 'avatarBuild',
+    step: 5,
+    items: EL.shuffle(HEROES).map(function (h) {
+      return { key: h.key, label: h.label, emoji: '', say: h.say };
+    }),
+    slots: EL.shuffle(HEROES).map(function (h) {
+      return { key: h.key, emoji: h.e, label: 'кто это?' };
+    }),
+    badMsg: ' ¡Casi! Посмотри на героя внимательно — эта подпись ему не подходит!',
+    winMsg: ' ¡Perfecto! Аватар готов! Теперь расскажи о нём: «Soy …»',
+    onWin: function () {
+      EL.say(5, ' Отлично! Аватар собран. Теперь придумай своего и расскажи: «Soy ___».', 'success');
+    }
+  });
+}
+
+EL.init({
+  id: 11,
+  rate: 0.7,
+  resumeMsg: ' Продолжить урок 11 с шага ',
+  onStep: function (n) {
+    if (n === 3) { renderSer(); EL.memory(MEMORY, { step: 3 }); }
+    if (n === 5) buildAvatar();
+    if (n === 6) EL.quiz(QUIZ, { step: 6 });
+    if (n === 7) EL.canDo(CAN_DO);
+  },
+  onRestart: function () { renderSer(); EL.memory(MEMORY, { step: 3 }); buildAvatar(); }
+});
+</script>
+
+<script src="assets/gate.js"></script>
+</body>
+</html>

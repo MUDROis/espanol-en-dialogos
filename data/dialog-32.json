@@ -1,0 +1,266 @@
+{
+  "id": 32,
+  "title": "Sofía y Laura hablan de los chicos",
+  "titleRu": "София и Лаура говорят о парнях",
+  "part": 4,
+  "level": "B1",
+  "theme": "Знакомства, свидания, впечатления  Los encuentros, las citas, las impresiones",
+  "characters": ["sofia", "laura"],
+  "objectives": [
+    "Рассказывать о недавних событиях: has vuelto a ver, me ha invitado, hemos ido, he conocido, se ha ido",
+    "Выражать мнение и впечатления: me ha parecido, me dio un poco de vergüenza, me aburro con él",
+    "Говорить об отсутствии помех: sin que nos moleste nadie (Presente de Subjuntivo)",
+    "Планировать будущее: hablaré contigo, te daré la respuesta, prepararé, disfrutaremos",
+    "Передавать чужие слова и предложения: ha propuesto salir, le he dicho que hablaré"
+  ],
+  "grammar": {
+    "volver_a_inf": {
+      "title": "VOLVER A + infinitivo: делать снова",
+      "description": "VOLVER A + infinitivo — «снова, опять что-то сделать»: ¿Has vuelto a ver a Daniel? (Ты снова видела Даниэля?). Ключевые формы: vuelvo a pensar (я снова думаю), vuelves a ver (ты снова видишь).",
+      "forms": {
+        "yo": { "es": "vuelvo a leer el libro", "ru": "я снова читаю книгу" },
+        "tu": { "es": "vuelves a ver a Daniel", "ru": "ты снова видишь Даниэля" },
+        "el_ella": { "es": "vuelve a llamar", "ru": "он/она снова звонит" },
+        "nosotros": { "es": "volvemos a salir", "ru": "мы снова выходим" },
+        "vosotros": { "es": "volvéis a escuchar", "ru": "вы снова слушаете" },
+        "ellos_ellas": { "es": "vuelven a viajar", "ru": "они снова путешествуют" }
+      },
+      "examples": [
+        { "es": "¿Has vuelto a ver a Daniel?", "ru": "Ты уже снова встретилась с Даниэлем?" },
+        { "es": "Daniel me ha dicho que otro día veremos algo parecido.", "ru": "Даниэль мне сказал, что в другой раз посмотрим что-нибудь похожее." }
+      ]
+    },
+    "parecer_aburrirse": {
+      "title": "Впечатления: PARECER, ABURRIRSE, DAR VERGÜENZA",
+      "description": "ME PARECER + прилагательное — «показаться, показалось»: me ha parecido un chico interesante y educado (он показался мне интересным и воспитанным парнем). DAR VERGÜENZA — «быть стыдно»: me dio un poco de vergüenza (мне было немного стыдно). ABURRIRSE CON — «скучать с»: me aburro con él (мне с ним скучно). CANSARSE DE — «устать от»: me he cansado un poco de Daniel.",
+      "list": [
+        { "es": "me ha parecido un chico interesante", "ru": "он показался мне интересным парнем" },
+        { "es": "me dio un poco de vergüenza", "ru": "мне было немного стыдно" },
+        { "es": "me aburro con él", "ru": "мне с ним скучно" },
+        { "es": "me he cansado un poco de Daniel", "ru": "я немного устала от Даниэля" },
+        { "es": "lo hemos pasado muy bien", "ru": "мы отлично провели время" }
+      ],
+      "examples": [
+        { "es": "Él me ha parecido un chico interesante y educado.", "ru": "Мне он показался интересным и воспитанным парнем." },
+        { "es": "Me ha gustado mucho aunque me dio un poco de vergüenza a veces.", "ru": "Мне очень понравилось, хотя иногда мне было немного стыдно." }
+      ]
+    },
+    "sin_que_subjuntivo": {
+      "title": "SIN QUE + Presente de Subjuntivo",
+      "description": "SIN QUE + глагол в Presente de Subjuntivo — «так, чтобы никто не...»: podemos charlar tranquilamente sin que nos moleste nadie (мы можем спокойно поболтать, так что никто не будет мешать). Это способ сказать, что действие происходит при отсутствии помехи.",
+      "list": [
+        { "es": "sin que nos moleste nadie", "ru": "так что никто не будет мешать" },
+        { "es": "sin que lo note", "ru": "так что он этого не заметит" },
+        { "es": "sin que te dé vergüenza", "ru": "без того чтобы тебе было стыдно" },
+        { "es": "sin que nadie lo vea", "ru": "так что никто этого не увидит" },
+        { "es": "sin que me digas nada", "ru": "не сказав мне ничего" }
+      ],
+      "examples": [
+        { "es": "Así que podemos charlar tranquilamente sin que nos moleste nadie.", "ru": "Так что мы можем спокойно поболтать, никто не будет мешать." },
+        { "es": "Ya he empezado a pensar en mis cosas sin prestarle mucha atención.", "ru": "Я уже начала думать о своём, не обращая на него особого внимания." }
+      ]
+    },
+    "futuro_simple": {
+      "title": "Futuro Simple: планы на вечер",
+      "description": "Будущее время для планов и обещаний: hablaré contigo (я поговорю с тобой), te daré la respuesta (я дам тебе ответ), Con mucho gusto iré (с большим удовольствием приду), yo prepararé mi ensalada favorita (я приготовлю свой любимый салат), disfrutaremos la noche (насладимся вечером).",
+      "list": [
+        { "es": "hablaré contigo", "ru": "я поговорю с тобой" },
+        { "es": "te daré la respuesta", "ru": "я дам тебе ответ" },
+        { "es": "con mucho gusto iré", "ru": "с большим удовольствием приду" },
+        { "es": "prepararé mi ensalada favorita", "ru": "я приготовлю свой любимый салат" },
+        { "es": "disfrutaremos la noche", "ru": "насладимся вечером" }
+      ],
+      "examples": [
+        { "es": "Le he dicho que hablaré contigo y después te daré la respuesta.", "ru": "Я ему сказала, что поговорю с тобой и потом дам тебе ответ." },
+        { "es": "Compraremos ahora algo de comida, yo prepararé mi ensalada favorita.", "ru": "Купим сейчас что-нибудь из еды, я приготовлю свой любимый салат." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "impresiones": [
+      { "es": "interesante", "ru": "интересный" },
+      { "es": "educado/a", "ru": "воспитанный" },
+      { "es": "romántico/a", "ru": "романтичный" },
+      { "es": "parecido/a", "ru": "похожий" },
+      { "es": "la vergüenza", "ru": "стыд" },
+      { "es": "la palabra", "ru": "слово" },
+      { "es": "la respuesta", "ru": "ответ" },
+      { "es": "el espectáculo", "ru": "спектакль" },
+      { "es": "el centro comercial", "ru": "торговый центр" },
+      { "es": "la compañera de piso", "ru": "соседка по квартире" }
+    ],
+    "citas_y_salidas": [
+      { "es": "dar un paseo", "ru": "прогуляться" },
+      { "es": "el parque", "ru": "парк" },
+      { "es": "el concierto", "ru": "концерт" },
+      { "es": "el rock en vivo", "ru": "рок вживую" },
+      { "es": "el teatro", "ru": "театр" },
+      { "es": "el restaurante", "ru": "ресторан" },
+      { "es": "la caja de bombones", "ru": "коробка конфет" },
+      { "es": "el fin de semana", "ru": "выходные" },
+      { "es": "el viaje", "ru": "путешествие" },
+      { "es": "el deporte", "ru": "спорт" }
+    ],
+    "verbos": [
+      { "es": "volver a + inf", "ru": "снова что-то сделать" },
+      { "es": "invitar", "ru": "приглашать" },
+      { "es": "escuchar", "ru": "слушать" },
+      { "es": "entender", "ru": "понимать" },
+      { "es": "intercalar", "ru": "вставить (слово)" },
+      { "es": "prestar atención", "ru": "обращать внимание" },
+      { "es": "proponer", "ru": "предлагать" },
+      { "es": "regalar", "ru": "дарить" },
+      { "es": "conocer", "ru": "познакомиться" },
+      { "es": "charlar", "ru": "болтать" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Laura", "es": "Pues, ¿has vuelto a ver a Daniel?", "ru": "Ну, ты уже снова встретилась с Даниэлем?" },
+    { "speaker": "Sofía", "es": "Sí, me ha invitado a dar un paseo por el parque, después hemos ido a un concierto.", "ru": "Да, он пригласил меня прогуляться по парку, потом мы ходили на концерт." },
+    { "speaker": "Laura", "es": "¿Qué música habéis escuchado?", "ru": "Какую музыку вы слушали?" },
+    { "speaker": "Sofía", "es": "«Concierto de rock en vivo», me ha gustado mucho aunque me dio un poco de vergüenza a veces. Daniel me ha dicho que otro día veremos algo parecido. Pero... me aburro con él.", "ru": "«Концерт рок-музыки вживую», мне очень понравилось, хотя иногда мне было немного стыдно. Даниэль мне сказал, что в другой раз посмотрим что-нибудь похожее. Но... мне скучно с ним." },
+    { "speaker": "Laura", "es": "¿En serio? Él me ha parecido un chico interesante y educado.", "ru": "Серьёзно? Мне он показался интересным и воспитанным парнем." },
+    { "speaker": "Sofía", "es": "Puede ser, pero habla demasiado. Algunas cosas no he entendido porque mi inglés no es perfecto. Pero Daniel no lo ha notado. Me ha hablado de los libros que ha leído; de qué películas ha visto; de sus deportes favoritos; de los viajes que ha hecho; de las ideas que se le han ocurrido últimamente, etc.", "ru": "Может быть, но он слишком много говорит. Что-то я не поняла, потому что мой английский далеко не идеальный. Но Даниэль этого не заметил. Он говорил о книгах, которые прочитал; о том, какие фильмы он смотрел; о своих любимых видах спорта; о путешествиях, которые он совершил; об идеях, которые у него возникли в последнее время, и так далее." },
+    { "speaker": "Laura", "es": "¿Y no te ha dejado intercalar ni una palabra?", "ru": "И он не дал тебе и слова вставить?" },
+    { "speaker": "Sofía", "es": "Eso. Ya he empezado a pensar en mis cosas sin prestarle mucha atención.", "ru": "Именно. Я уже начала думать о своём, не обращая на него особого внимания." },
+    { "speaker": "Laura", "es": "Te comprendo, ¡qué lástima! Es que Pablo ha propuesto salir todos juntos este fin de semana. Le he dicho que hablaré contigo y después te daré la respuesta.", "ru": "Я тебя понимаю. Как жаль! Дело в том, что Пабло предложил сходить куда-нибудь вместе в эти выходные. Я ему сказала, что поговорю с тобой и потом дам тебе ответ." },
+    { "speaker": "Sofía", "es": "Pues, creo que no me juntaré a vosotros. Por lo menos, no ahora. Me he cansado un poco de Daniel.", "ru": "Ну, думаю, что я к вам не присоединюсь. По крайней мере, не сейчас. Я немного устала от Даниэля." },
+    { "speaker": "Laura", "es": "Ya lo veo. Pablo es diferente. Esta semana hemos ido al teatro, y lo hemos pasado muy bien. Me ha regalado una caja de bombones, y después del espectáculo, me ha invitado a un restaurante.", "ru": "Понимаю. Пабло другой. На этой неделе мы ходили в театр, отлично провели время. Он подарил мне коробку конфет, и после спектакля пригласил меня в ресторан." },
+    { "speaker": "Sofía", "es": "¡Qué romántico! Sabes, esta mañana he conocido a un chico en el centro comercial...", "ru": "Как романтично! Знаешь, этим утром я познакомилась с одним парнем в торговом центре..." },
+    { "speaker": "Laura", "es": "Oye, ¿quieres venir a mi casa esta noche? Mi compañera de piso se ha ido de viaje, así que podemos charlar tranquilamente sin que nos moleste nadie. Me cuentas todo.", "ru": "Слушай, приходи ко мне сегодня вечером? Моя соседка по квартире уехала в путешествие, так что мы можем спокойно поболтать, никто не будет мешать. Всё мне расскажешь." },
+    { "speaker": "Sofía", "es": "Con mucho gusto iré.", "ru": "С большим удовольствием приду." },
+    { "speaker": "Laura", "es": "Perfecto. Compraremos ahora algo de comida, yo prepararé mi ensalada favorita y disfrutaremos la noche.", "ru": "Отлично. Купим сейчас что-нибудь из еды, я приготовлю свой любимый салат, и насладимся вечером." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "interesante", "ru": "интересный" },
+        { "es": "educado/a", "ru": "воспитанный" },
+        { "es": "romántico/a", "ru": "романтичный" },
+        { "es": "parecido/a", "ru": "похожий" },
+        { "es": "la vergüenza", "ru": "стыд" },
+        { "es": "la palabra", "ru": "слово" },
+        { "es": "la respuesta", "ru": "ответ" },
+        { "es": "el espectáculo", "ru": "спектакль" },
+        { "es": "el centro comercial", "ru": "торговый центр" },
+        { "es": "la compañera de piso", "ru": "соседка по квартире" }
+      ]
+    },
+    {
+      "type": "fill-gap-volver_a_inf",
+      "title": "Практика: VOLVER A + infinitivo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Has ___ a ver a Daniel?", "ru": "Ты снова видела Даниэля?", "answer": "vuelto", "options": ["vuelto", "vuelta", "volver"] },
+        { "text": "Laura ___ a preguntar por sus planes.", "ru": "Лаура снова спрашивает о его планах", "answer": "vuelve", "options": ["vuelve", "vuelvo", "volvimos"] },
+        { "text": "Ellos ___ a invitar a sus amigos al concierto.", "ru": "Они снова приглашают друзей на концерт", "answer": "vuelven", "options": ["vuelven", "vuelve", "volvemos"] },
+        { "text": "Quiero ___ a leer ese libro.", "ru": "Я хочу снова прочитать эту книгу", "answer": "volver", "options": ["volver", "vuelvo", "vuelve"] },
+        { "text": "Nosotros ___ a empezar a estudiar juntos.", "ru": "Мы снова начинаем заниматься вместе", "answer": "volvemos", "options": ["volvemos", "volvéis", "vuelven"] }
+      ]
+    },
+    {
+      "type": "fill-gap-parecer_aburrirse",
+      "title": "Практика: впечатления",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Me ha ___ un chico interesante y educado.", "ru": "Он показался мне интересным и воспитанным парнем", "answer": "parecido", "options": ["parecido", "parecer", "parece"] },
+        { "text": "Me dio un poco de ___ en el concierto.", "ru": "Мне было немного стыдно на концерте", "answer": "vergüenza", "options": ["vergüenza", "miedo", "prisa"] },
+        { "text": "Me ___ con él, habla demasiado.", "ru": "Мне с ним скучно, он слишком много говорит", "answer": "aburro", "options": ["aburro", "aburres", "aburre"] },
+        { "text": "Me he ___ un poco de Daniel.", "ru": "Я немного устала от Даниэля", "answer": "cansado", "options": ["cansado", "cansada", "cansarme"] },
+        { "text": "Lo hemos ___ muy bien en el teatro.", "ru": "Мы отлично провели время в театре", "answer": "pasado", "options": ["pasado", "pasando", "pasar"] }
+      ]
+    },
+    {
+      "type": "fill-gap-sin_que_subjuntivo",
+      "title": "Практика: SIN QUE + Subjuntivo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Podemos charlar sin que nos ___ nadie.", "ru": "Мы можем поболтать, никто не будет мешать", "answer": "moleste", "options": ["moleste", "molestar", "molestamos"] },
+        { "text": "Hablaré sin que Daniel lo ___, no quiero que me escuche.", "ru": "Я поговорю так, что Даниэль этого не заметит", "answer": "note", "options": ["note", "nota", "notar"] },
+        { "text": "Voy a salir sin que me ___ nadie.", "ru": "Я выйду так, чтобы никто меня не увидел", "answer": "vea", "options": ["vea", "ve", "ver"] },
+        { "text": "Te espero sin que ___ prisa, tómate tu tiempo.", "ru": "Я жду тебя без спешки, не торопись", "answer": "tengas", "options": ["tengas", "tienes", "tener"] },
+        { "text": "Sin que te ___ vergüenza, habla conmigo.", "ru": "Не стесняйся, поговори со мной", "answer": "dé", "options": ["dé", "da", "dar"] }
+      ]
+    },
+    {
+      "type": "fill-gap-futuro_simple",
+      "title": "Практика: Futuro Simple",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Le he dicho que ___ contigo.", "ru": "Я ему сказала, что поговорю с тобой", "answer": "hablaré", "options": ["hablaré", "hablo", "hablaba"] },
+        { "text": "Después te ___ la respuesta.", "ru": "Потом я дам тебе ответ", "answer": "daré", "options": ["daré", "doy", "daba"] },
+        { "text": "Con mucho gusto ___.", "ru": "С большим удовольствием приду", "answer": "iré", "options": ["iré", "voy", "iba"] },
+        { "text": "Yo ___ mi ensalada favorita.", "ru": "Я приготовлю свой любимый салат", "answer": "prepararé", "options": ["prepararé", "preparo", "preparaba"] },
+        { "text": "___ la noche juntas.", "ru": "Мы насладимся вечером вместе", "answer": "Disfrutaremos", "options": ["Disfrutaremos", "Disfrutamos", "Disfrutábamos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Has ___ a ver a Daniel?", "ru": "Ты снова видела Даниэля?", "answer": "vuelto", "options": ["vuelto", "vuelta", "volver"] },
+        { "text": "Me ha ___ un chico interesante.", "ru": "Он показался мне интересным парнем", "answer": "parecido", "options": ["parecido", "parecer", "parece"] },
+        { "text": "Podemos charlar sin que nos ___ nadie.", "ru": "Мы можем поболтать, никто не будет мешать", "answer": "moleste", "options": ["moleste", "molestar", "molestamos"] },
+        { "text": "Le he dicho que ___ contigo.", "ru": "Я ему сказала, что поговорю с тобой", "answer": "hablaré", "options": ["hablaré", "hablo", "hablar"] },
+        { "text": "Me dio un poco de ___.", "ru": "Мне было немного стыдно", "answer": "vergüenza", "options": ["vergüenza", "miedo", "prisa"] },
+        { "text": "Esta semana hemos ido al teatro y lo hemos ___ muy bien.", "ru": "На этой неделе мы ходили в театр и отлично провели время", "answer": "pasado", "options": ["pasado", "pasando", "pasar"] },
+        { "text": "Me he ___ un poco de Daniel.", "ru": "Я немного устала от Даниэля", "answer": "cansado", "options": ["cansado", "cansada", "cansar"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лаурой",
+      "role": "Laura",
+      "description": "Ты — Лаура, подруга Софии: расспрашиваешь о Даниэле и рассказываешь про Пабло"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Софией",
+      "role": "Sofía",
+      "description": "Ты — София: делишься впечатлениями о Даниэле и о новом знакомом"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи подруге о недавнем свидании",
+      "template": [
+        { "label": "Ты снова видела Даниэля?", "es": "¿Has ___ a ver a Daniel?" },
+        { "label": "Он пригласил меня прогуляться", "es": "Me ha ___ a dar un paseo" },
+        { "label": "Он показался мне интересным", "es": "Me ha ___ un chico interesante" },
+        { "label": "Мне с ним скучно", "es": "Me ___ con él" },
+        { "label": "Я поговорю с тобой", "es": "___ contigo" },
+        { "label": "Я приготовлю свой салат", "es": "___ mi ensalada favorita" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        { "question": "¿Qué ha hecho Daniel con Sofía?", "ru": "Что Даниэль и София делали вместе?", "options": ["La ha invitado a dar un paseo y han ido a un concierto", "La ha llevado al teatro", "Han ido a un restaurante", "Se han quedado en casa"], "answer": 0 },
+        { "question": "¿Qué música han escuchado?", "ru": "Какую музыку они слушали?", "options": ["Ópera", "Jazz", "Rock en vivo", "Música clásica"], "answer": 2 },
+        { "question": "¿Qué le ha parecido a Sofía el concierto?", "ru": "Каким Софии показался концерт?", "options": ["No le ha gustado nada", "Le ha gustado mucho aunque dio un poco de vergüenza", "Le aburrió", "Se durmió"], "answer": 1 },
+        { "question": "¿Qué opina Laura de Daniel?", "ru": "Что думает Лаура о Даниэле?", "options": ["Que es aburrido", "Que habla demasiado", "Que es un chico interesante y educado", "Que no es simpático"], "answer": 2 },
+        { "question": "¿Qué ha hecho Pablo con Laura esta semana?", "ru": "Что Пабло и Лаура делали на этой неделе?", "options": ["Han ido a un concierto de rock", "Han viajado", "Han ido al cine", "Han ido al teatro y ha regalado bombones"], "answer": 3 },
+        { "question": "¿Por qué no quiere Sofía juntarse con ellos?", "ru": "Почему София не хочет к ним присоединиться?", "options": ["Porque está cansada de Daniel", "Porque no le gusta Laura", "Porque tiene frío", "Porque no tiene tiempo"], "answer": 0 },
+        { "question": "¿Dónde ha conocido Sofía a un chico?", "ru": "Где София познакомилась с парнем?", "options": ["En el teatro", "En el parque", "En el centro comercial", "En la escuela"], "answer": 2 },
+        { "question": "¿Por qué pueden charlar en casa de Laura?", "ru": "Почему они могут поболтать дома у Лауры?", "options": ["Porque su compañera de piso se ha ido de viaje", "Porque sus padres están fuera", "Porque es su cumpleaños", "Porque no tienen clases"], "answer": 0 }
+      ]
+    }
+  ],
+  "homework": [
+    "5 минут: повтори слова по теме «свидания, впечатления, отношения»",
+    "Практика: расскажи подруге/другу о недавнем свидании: me ha invitado..., me ha parecido..., me aburro con él/ella...",
+    "Дневник: опиши, как ты провёл(а) время с другом или партнёром на неделе. Используй pretérito perfecto",
+    "Грамматика: напиши 3 предложения с volver a + infinitivo, 3 с sin que + Subjuntivo, 3 с futuro simple"
+  ]
+}

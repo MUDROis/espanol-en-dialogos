@@ -1,0 +1,277 @@
+{
+  "id": 14,
+  "title": "Carlos habla por teléfono con su papá",
+  "titleRu": "Карлос разговаривает по телефону со своим папой",
+  "part": 2,
+  "level": "A2",
+  "theme": "Работа, новости, семья  El trabajo, las novedades, la familia",
+  "characters": ["papa", "carlos_hijo"],
+  "objectives": [
+    "Сообщать новости и планы (voy a, futuro simple)",
+    "Говорить о рабочем графике и расписании",
+    "Использовать futuro simple (ganaré, tendré)",
+    "Сравнивать: tanto como, las mismas... que, seguir + gerundio"
+  ],
+  "grammar": {
+    "futuro_simple": {
+      "title": "FUTURO SIMPLE: будущее время (буду делать)",
+      "description": "Futuro simple образуется от инфинитива + окончания -é, -ás, -á, -emos, -éis, -án. В диалоге: «ganaré un poco más» — «буду зарабатывать немного больше». У многих глаголов появляется неправильная основа: tener → tendré, saber → sabré.",
+      "forms": {
+        "yo": { "es": "ganaré", "ru": "я буду зарабатывать" },
+        "tu": { "es": "ganarás", "ru": "ты будешь зарабатывать" },
+        "el_ella": { "es": "ganará", "ru": "он/она будет зарабатывать" },
+        "nosotros": { "es": "ganaremos", "ru": "мы будем зарабатывать" },
+        "vosotros": { "es": "ganaréis", "ru": "вы будете зарабатывать" },
+        "ellos_ellas": { "es": "ganarán", "ru": "они будут зарабатывать" }
+      },
+      "examples": [
+        { "es": "Voy a trabajar las mismas horas pero ganaré un poco más.", "ru": "Я буду работать те же часы, но заработаю немного больше." },
+        { "es": "Mañana llamaré a mi hermana.", "ru": "Завтра я позвоню сестре." }
+      ]
+    },
+    "seguir_gerundio": {
+      "title": "Глагол SEGUIR + gerundio (продолжать делать)",
+      "description": "SEGUIR + gerundio — «продолжать что-то делать»: «Mamá sigue trabajando tanto como siempre» — «Мама всё ещё работает так же много, как всегда».",
+      "forms": {
+        "yo": { "es": "sigo trabajando", "ru": "я продолжаю работать" },
+        "tu": { "es": "sigues trabajando", "ru": "ты продолжаешь работать" },
+        "el_ella": { "es": "sigue trabajando", "ru": "он/она продолжает работать" },
+        "nosotros": { "es": "seguimos trabajando", "ru": "мы продолжаем работать" },
+        "vosotros": { "es": "seguís trabajando", "ru": "вы продолжаете работать" },
+        "ellos_ellas": { "es": "siguen trabajando", "ru": "они продолжают работать" }
+      },
+      "examples": [
+        { "es": "Mamá sigue trabajando tanto como siempre.", "ru": "Мама всё ещё работает так же много, как всегда." },
+        { "es": "Sigo aprendiendo portugués.", "ru": "Я продолжаю учить португальский." }
+      ]
+    },
+    "tanto_como": {
+      "title": "Сравнение количества: TANTO COMO, LAS MISMAS... QUE",
+      "description": "TANTO COMO — «столько же, сколько»; LAS MISMAS ... QUE — «те же самые ... что». В диалоге: «trabajar las mismas horas pero ganaré un poco más» — «работать те же часы, но зарабатывать немного больше».",
+      "list": [
+        { "es": "tanto como", "ru": "столько же, сколько" },
+        { "es": "tantas horas como", "ru": "столько же часов, сколько" },
+        { "es": "las mismas horas que", "ru": "те же часы, что" },
+        { "es": "el/la mismo/a", "ru": "тот же самый" }
+      ],
+      "examples": [
+        { "es": "Voy a trabajar las mismas horas pero ganaré un poco más.", "ru": "Я буду работать те же часы, но заработаю немного больше." },
+        { "es": "Mi hermana trabaja tanto como yo.", "ru": "Моя сестра работает столько же, сколько я." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "trabajo": [
+      { "es": "el empleo", "ru": "работа, должность" },
+      { "es": "el repartidor", "ru": "курьер" },
+      { "es": "la academia", "ru": "академия, курсы" },
+      { "es": "el profesor de inglés", "ru": "учитель английского" },
+      { "es": "el horario", "ru": "расписание, график" },
+      { "es": "cambiar de trabajo", "ru": "сменить работу" },
+      { "es": "dejar un empleo", "ru": "оставить работу" },
+      { "es": "empezar a trabajar", "ru": "начать работать" },
+      { "es": "ganar", "ru": "зарабатывать" },
+      { "es": "el distrito", "ru": "район" }
+    ],
+    "horario": [
+      { "es": "desde el miércoles", "ru": "со среды" },
+      { "es": "de diez a cuatro", "ru": "с десяти до четырёх" },
+      { "es": "el fin de semana", "ru": "выходные" },
+      { "es": "el próximo mes", "ru": "в следующем месяце" },
+      { "es": "las vacaciones", "ru": "отпуск, каникулы" },
+      { "es": "la playa", "ru": "пляж, море" },
+      { "es": "la semana", "ru": "неделя" }
+    ],
+    "frecuencia": [
+      { "es": "siempre", "ru": "всегда" },
+      { "es": "a menudo", "ru": "часто" },
+      { "es": "rara vez", "ru": "редко" },
+      { "es": "a veces", "ru": "иногда" },
+      { "es": "por la noche", "ru": "вечером, ночью" },
+      { "es": "más tarde", "ru": "позже" },
+      { "es": "por fin", "ru": "наконец-то" },
+      { "es": "como siempre", "ru": "как всегда" }
+    ],
+    "estudios_sentimientos": [
+      { "es": "el examen", "ru": "экзамен" },
+      { "es": "el portugués", "ru": "португальский язык" },
+      { "es": "la dificultad", "ru": "сложность" },
+      { "es": "entender mejor", "ru": "понимать лучше" },
+      { "es": "nervioso/a", "ru": "нервный, взволнованный" },
+      { "es": "contento/a", "ru": "довольный, рад" },
+      { "es": "agotado/a", "ru": "вымотанный" },
+      { "es": "preocuparse (no te preocupes)", "ru": "волноваться (не волнуйся)" },
+      { "es": "faltar a las clases", "ru": "пропускать занятия" },
+      { "es": "encontrar tiempo", "ru": "находить время" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Carlos", "es": "¿Todo bien, papá?", "ru": "Всё хорошо, папа?" },
+    { "speaker": "Papá", "es": "Sí, hijo. Tengo muchas novedades. Yo voy a cambiar de trabajo, porque en una academia necesitan profesor de inglés. Por fin puedo dejar mi empleo pesado como repartidor.", "ru": "Да, сынок. У меня много новостей. Я собираюсь сменить работу, потому что в одной академии нужен учитель английского. Наконец-то я могу оставить свою тяжёлую работу курьера." },
+    { "speaker": "Carlos", "es": "¡Qué buena noticia! ¿Es la academia que está cerca de nuestra casa?", "ru": "Какая хорошая новость! Это академия, которая находится рядом с нашим домом?" },
+    { "speaker": "Papá", "es": "No, es otra, pero está en el mismo distrito. Empiezo a trabajar desde el miércoles. Mi horario es genial: de diez a cuatro, cinco días a la semana, así que voy a tener libre el fin de semana. Y mira, voy a trabajar las mismas horas pero ganaré un poco más.", "ru": "Нет, другая, но она в том же районе. Я начинаю работать со среды. Моё расписание отличное: с десяти до четырёх, пять дней в неделю, так что у меня будет свободный уик-энд. И смотри, я буду работать столько же часов, но зарабатывать немного больше." },
+    { "speaker": "Carlos", "es": "¡Enhorabuena! Estoy muy contento por ti. ¿Y mamá? ¿Sigue trabajando tanto como siempre?", "ru": "Поздравляю! Я очень рад за тебя. А мама? Она всё ещё работает так же много, как всегда?" },
+    { "speaker": "Papá", "es": "Sí, vuelve a casa muy tarde y agotada, pobrecita. Pero el próximo mes va a tener tres semanas de vacaciones. Quiere viajar a la playa. Hijo, ¿cómo van las cosas en México?", "ru": "Да, возвращается домой поздно и уставшая, бедняжка. Но в следующем месяце у неё будет три недели отпуска. Она хочет поехать на море. Сынок, как дела в Мексике?" },
+    { "speaker": "Carlos", "es": "Bien, bien. Ahora ya no me siento tan nervioso por las noches como antes. Ya entiendo mejor el portugués, y no tengo dificultades con los exámenes.", "ru": "Хорошо, хорошо. Теперь по вечерам я уже не так нервничаю, как раньше. Я уже лучше понимаю португальский, и у меня нет проблем с экзаменами." },
+    { "speaker": "Papá", "es": "¿Y tu hermana?", "ru": "А твоя сестра?" },
+    { "speaker": "Carlos", "es": "Pues, como siempre. A menudo sale con sus amigas, va al cine, llega a casa por la noche. Pero no te preocupes, no sé cómo, pero siempre encuentra tiempo para estudiar y rara vez falta a las clases.", "ru": "Ну, как всегда. Часто гуляет с подругами, ходит в кино, приходит домой ночью. Но ты не волнуйся, не знаю, как, но она всегда находит время на учёбу и редко пропускает занятия." },
+    { "speaker": "Papá", "es": "Bueno. Voy a llamarla más tarde.", "ru": "Хорошо. Я позвоню ей попозже." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el empleo", "ru": "работа, должность" },
+        { "es": "el repartidor", "ru": "курьер" },
+        { "es": "el horario", "ru": "расписание, график" },
+        { "es": "las vacaciones", "ru": "отпуск, каникулы" },
+        { "es": "el examen", "ru": "экзамен" },
+        { "es": "a menudo", "ru": "часто" },
+        { "es": "rara vez", "ru": "редко" },
+        { "es": "el fin de semana", "ru": "выходные" }
+      ]
+    },
+    {
+      "type": "fill-gap-futuro_simple",
+      "title": "Практика: FUTURO SIMPLE",
+      "description": "Вставь правильную форму будущего времени",
+      "sentences": [
+        { "text": "Yo ___ un poco más con el nuevo empleo.", "ru": "С новой работой я буду зарабатывать немного больше", "answer": "ganaré", "options": ["ganaré", "ganarás", "ganarán"] },
+        { "text": "Mañana ___ libre.", "ru": "Завтра я буду свободен", "answer": "tendré", "options": ["tendré", "tendrás", "tendrán"] },
+        { "text": "Papá ___ a mi hermana más tarde.", "ru": "Папа позвонит моей сестре позже", "answer": "llamará", "options": ["llamará", "llamarás", "llamarán"] },
+        { "text": "Nosotros ___ cinco días a la semana.", "ru": "Мы будем работать пять дней в неделю", "answer": "trabajaremos", "options": ["trabajaremos", "trabajaréis", "trabajarán"] },
+        { "text": "Este año tú ___ más.", "ru": "В этом году ты будешь зарабатывать больше", "answer": "ganarás", "options": ["ganarás", "ganará", "ganaréis"] }
+      ]
+    },
+    {
+      "type": "fill-gap-seguir_gerundio",
+      "title": "Практика: SEGUIR + gerundio",
+      "description": "Вставь правильную форму глагола seguir",
+      "sentences": [
+        { "text": "Mamá ___ trabajando tanto como siempre.", "ru": "Мама всё ещё работает так же много, как всегда", "answer": "sigue", "options": ["sigue", "sigo", "siguen"] },
+        { "text": "Yo ___ aprendiendo portugués.", "ru": "Я продолжаю учить португальский", "answer": "sigo", "options": ["sigo", "sigues", "sigue"] },
+        { "text": "Ellos ___ saliendo con sus amigas.", "ru": "Они по-прежнему гуляют с подругами", "answer": "siguen", "options": ["siguen", "seguimos", "sigue"] },
+        { "text": "¿Tú ___ sintiéndote nervioso?", "ru": "Ты всё ещё нервничаешь?", "answer": "sigues", "options": ["sigues", "sigo", "sigue"] },
+        { "text": "Nosotros ___ trabajando en la academia.", "ru": "Мы продолжаем работать в академии", "answer": "seguimos", "options": ["seguimos", "seguís", "siguen"] }
+      ]
+    },
+    {
+      "type": "fill-gap-tanto_como",
+      "title": "Практика: TANTO COMO, LAS MISMAS",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Mi madre trabaja ___ como siempre.", "ru": "Моя мама работает столько же, как всегда", "answer": "tanto", "options": ["tanto", "tanta", "tan"] },
+        { "text": "Voy a trabajar las ___ horas pero ganaré más.", "ru": "Я буду работать те же часы, но заработаю больше", "answer": "mismas", "options": ["mismas", "mismos", "mismo"] },
+        { "text": "Ella tiene ___ horas de clase que yo.", "ru": "У неё столько же часов занятий, сколько у меня", "answer": "tantas", "options": ["tantas", "tanto", "tan"] },
+        { "text": "La academia está en el ___ distrito.", "ru": "Академия находится в том же районе", "answer": "mismo", "options": ["mismo", "misma", "mismas"] },
+        { "text": "Gano lo ___ que antes.", "ru": "Я зарабатываю столько же, сколько раньше", "answer": "mismo", "options": ["mismo", "misma", "tantos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Yo ___ más con el nuevo trabajo.", "ru": "Я буду зарабатывать больше с новой работой", "answer": "ganaré", "options": ["ganaré", "gano", "sigo"] },
+        { "text": "Mamá sigue ___ tarde y agotada.", "ru": "Мама по-прежнему приходит поздно и уставшая", "answer": "llegando", "options": ["llegando", "llega", "llegar"] },
+        { "text": "Voy a trabajar las mismas ___ pero ganaré más.", "ru": "Я буду работать те же часы, но заработаю больше", "answer": "horas", "options": ["horas", "días", "semanas"] },
+        { "text": "Trabaja ___ como siempre.", "ru": "Она работает столько же, как всегда", "answer": "tanto", "options": ["tanto", "tan", "muy"] },
+        { "text": "Empiezo a trabajar desde el ___ .", "ru": "Я начинаю работать со среды", "answer": "miércoles", "options": ["miércoles", "viernes", "lunes"] },
+        { "text": "¿Tú ___ vas al cine con tus amigos?", "ru": "Ты иногда ходишь в кино с друзьями?", "answer": "a veces", "options": ["a veces", "rara vez", "siempre"] },
+        { "text": "Voy a llamarla más ___ .", "ru": "Я позвоню ей позже", "answer": "tarde", "options": ["tarde", "temprano", "noche"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Отвечай на реплики папы своим голосом"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь папой",
+      "role": "Papá",
+      "description": "Теперь ты папа — отвечай Карлосу"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи по телефону о своих новостях, работе и учёбе",
+      "template": [
+        { "label": "У меня есть новости", "es": "Tengo noticias: ___" },
+        { "label": "Я собираюсь", "es": "Voy a ___" },
+        { "label": "Я буду зарабатывать", "es": "Ganaré ___" },
+        { "label": "Я продолжаю", "es": "Sigo ___" },
+        { "label": "Часто", "es": "A menudo ___" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Qué va a hacer el papá de Carlos?",
+          "ru": "Что собирается сделать папа Карлоса?",
+          "options": ["Cambiar de trabajo", "Ir a México", "Comprar una casa", "Jubilarse"],
+          "answer": 0
+        },
+        {
+          "question": "¿Dónde va a trabajar el papá?",
+          "ru": "Где будет работать папа?",
+          "options": ["En una academia", "En un restaurante", "En un hospital", "En un banco"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuál es el horario nuevo del papá?",
+          "ru": "Какое у папы новое расписание?",
+          "options": ["De diez a cuatro", "De ocho a seis", "De nueve a cinco", "De doce a ocho"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuántas semanas de vacaciones tendrá la mamá?",
+          "ru": "Сколько недель отпуска будет у мамы?",
+          "options": ["Una semana", "Dos semanas", "Tres semanas", "Un mes"],
+          "answer": 2
+        },
+        {
+          "question": "¿Dónde vive Carlos ahora?",
+          "ru": "Где сейчас живёт Карлос?",
+          "options": ["En México", "En Francia", "En España", "En Argentina"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué entiende mejor Carlos ahora?",
+          "ru": "Что Карлос теперь понимает лучше?",
+          "options": ["El portugués", "El inglés", "El francés", "El italiano"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué hace a menudo la hermana de Carlos?",
+          "ru": "Что часто делает сестра Карлоса?",
+          "options": ["Sale con sus amigas y va al cine", "Trabaja en la academia", "Viaja a la playa", "Estudia en México"],
+          "answer": 0
+        },
+        {
+          "question": "¿Falta a menudo la hermana a las clases?",
+          "ru": "Сестра Карлоса часто пропускает занятия?",
+          "options": ["Sí, siempre", "No, rara vez", "Sí, a veces", "Solo el viernes"],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить новые слова (работа, расписание, частота) в приложении",
+    "Практика: Расскажи партнёру (italki/Tandem) по телефону о своих новостях: Voy a ..., ganaré ..., sigo ...",
+    "Дневник: Напиши 3 плана на будущее, используя futuro simple (hablaré, tendré, ganaré)",
+    "Грамматика: Сравни свою неделю с неделей друга, используя tanto como / las mismas horas"
+  ]
+}

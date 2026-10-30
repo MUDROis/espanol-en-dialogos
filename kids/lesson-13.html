@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Me gusta… — Урок 13 · Español A0–A1</title>
+<meta name="description" content="Урок 13: нравится / не нравится — Me gusta, No me gusta. Сортировка по корзинам. Курс испанского A0–A1 для детей, блок 2.">
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body data-theme="gustar">
+
+<header class="lesson-head">
+  <a class="link-back" href="course.html">← Все уроки</a>
+  <span class="lh-title">Урок 13 · Me gusta…</span>
+  <span class="lh-spacer"></span>
+  <a class="link-ghost" href="lesson-14.html">Урок 14 →</a>
+</header>
+
+<div class="voice-note" id="voiceNote"></div>
+<div class="save-indicator" id="saveIndicator"> Прогресс сохранён</div>
+
+<div class="container">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ШАГ 1 -->
+  <section class="step active" id="step1">
+    <h1> Me gusta…</h1>
+    <p style="font-size:1.5em">¡Hola, amigo! Что тебе нравится? </p>
+    <p>Глагол <strong>gustar</strong> — самый «добрый» в испанском. Он отвечает на вопрос <strong>«Что тебе нравится?»</strong></p>
+    <h3>В этом уроке</h3>
+    <p> Глагол <strong>gustar</strong>: gusta, gustan<br>
+        Фразы «Me gusta», «No me gusta»<br>
+        Почему «нравится» — наоборот<br>
+        Игра «Разложи по корзинам»</p>
+    <div class="tip"> <strong>Совет:</strong> запомни главный секрет этого урока: «мне нравится» — это <strong>me gusta</strong>, а не «gusta me». Местоимение <em>me</em> всегда стоит впереди!</div>
+    <div class="nav-buttons center">
+      <button class="btn btn-primary" data-next>¡Vamos! Поехали! </button>
+    </div>
+  </section>
+
+  <!-- ШАГ 2 -->
+  <section class="step" id="step2">
+    <h2> Gustar — как это работает</h2>
+    <p>По-русски мы говорим: «<strong>Мне</strong> нравится <em>шоколад</em>». По-испански — наоборот: «<strong>Шоколад</strong> нравится <strong>мне</strong>».</p>
+    <div class="phonetics">
+      <div class="phon-card" data-say="Me gusta el chocolate.">
+        <div class="phon-letter">gusta</div>
+        <div class="phon-emoji">🍫</div>
+        <div class="phon-word">Me gusta el chocolate</div>
+        <div class="phon-hint">Мне нравится шоколад. Одно слово — <strong>gusta</strong></div>
+        <button class="mic-btn" data-mic="me gusta el chocolate" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="Me gustan los gatos.">
+        <div class="phon-letter long">gustan + S</div>
+        <div class="phon-emoji">🐱</div>
+        <div class="phon-word">Me gustan los gatos</div>
+        <div class="phon-hint">Мне нравятся кошки. Несколько — <strong>gustan</strong></div>
+        <button class="mic-btn" data-mic="me gustan los gatos" data-step="2" data-threshold="0.4">🎤</button>
+      </div>
+      <div class="phon-card" data-say="No me gusta.">
+        <div class="phon-letter long">No + me gusta</div>
+        <div class="phon-emoji">😐</div>
+        <div class="phon-word">No me gusta</div>
+        <div class="phon-hint">Мне не нравится. Перед словом — <strong>No</strong></div>
+        <button class="mic-btn" data-mic="no me gusta" data-step="2">🎤</button>
+      </div>
+    </div>
+    <div class="tip"> <strong>Простое правило:</strong> одно слово — <em>gusta</em>, много слов — <em>gustan</em>. А «нравится» всегда идёт <strong>после</strong> того, что нравится.</div>
+    <div class="feedback" id="feedback2"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 3 -->
+  <section class="step" id="step3">
+    <h2> Три слова-ключа</h2>
+    <p>Послушай и повтори. К этим словам ты вернёшься в каждом уроке блока!</p>
+    <div class="words" id="likeCards"></div>
+    <p style="margin-top:26px"><strong> Найди пары: фраза и значение</strong></p>
+    <div class="memory-grid" id="memoryGrid"></div>
+    <div class="memory-counter">Найдено пар: <span id="memoryCounter">0</span>/4</div>
+    <div class="feedback" id="feedback3"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 4 -->
+  <section class="step" id="step4">
+    <h2> Что тебе нравится?</h2>
+    <p>Дети обсуждают школьный праздник. Послушай и повтори.</p>
+    <div class="dialogue">
+      <div class="dialogue-line" data-say="¿Qué te gusta?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿Qué te gusta?<span class="ru">Что тебе нравится?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="qué te gusta" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Me gusta el fútbol.">
+        <div class="avatar">👦</div>
+        <div class="text">Me gusta el fútbol.<span class="ru">Мне нравится футбол.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="me gusta el fútbol" data-step="4" data-threshold="0.35">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="Me gustan los dibujos.">
+        <div class="avatar">🧑</div>
+        <div class="text">Me gustan los dibujos.<span class="ru">Мне нравятся рисунки.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="me gustan los dibujos" data-step="4" data-threshold="0.35">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="No me gusta la verdura.">
+        <div class="avatar">👧</div>
+        <div class="text">No me gusta la verdura.<span class="ru">Овощи мне не нравятся.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="no me gusta la verdura" data-step="4" data-threshold="0.35">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="¡A mí también!">
+        <div class="avatar">🧑</div>
+        <div class="text">¡A mí también!<span class="ru">Мне тоже!</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="a mí también" data-step="4">🎤</button>
+      </div>
+    </div>
+    <div class="bubble-row">
+      <button class="btn btn-primary" data-repeat='["¿Qué te gusta?","Me gusta el fútbol.","Me gustan los dibujos.","No me gusta la verdura.","¡A mí también!"]' data-gap="2500"> Слушать весь диалог</button>
+    </div>
+    <div class="tip"> <strong>Шпаргалка:</strong> <em>Me gusta el fútbol.</em> — <em>Me gustan los gatos.</em> — <em>No me gusta el frío.</em> — <em>¡A mí también!</em> (мне тоже)</div>
+    <div class="feedback" id="feedback4"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 5 · Сортировка -->
+  <section class="step" id="step5">
+    <h2> Разложи по корзинам</h2>
+    <p>Представь, что это <strong>твои</strong> вкусы. Нажми на предмет, потом на корзину: — нравится, — не нравится.</p>
+    <div class="game-box">
+      <div class="bank" id="assignBank"></div>
+      <div class="slots cols-2 people" id="assignTargets"></div>
+      <div class="assign-progress" id="assignProgress"></div>
+    </div>
+    <div class="tip"> <strong>Задание:</strong> расскажи другу о себе: <em>«Me gusta el …, no me gusta el …»</em> — минимум 3 фразы.</div>
+    <div class="feedback" id="feedback5"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 6 -->
+  <section class="step" id="step6">
+    <h2> Проверь себя!</h2>
+    <p>Три вопроса про <em>gustar</em>.</p>
+    <div id="quizContainer"></div>
+    <div class="assign-progress" id="quizScore"></div>
+    <div class="feedback" id="feedback6"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 7 -->
+  <section class="step" id="step7">
+    <div class="final">
+
+      <h1>¡Me gusta!</h1>
+      <p style="font-size:1.4em">Ты прошёл тринадцатый урок!</p>
+      <div class="medal"> Медаль «¡Me gusta!»</div>
+      <p>Сегодня ты узнал:</p>
+      <p> <strong>gustar</strong>: gusta (1) / gustan (несколько)<br>
+        Фразы «Me gusta…», «No me gusta…», «¡A mí también!»<br>
+        Местоимение — <strong>всегда впереди</strong> глагола</p>
+
+      <h3> ¡Yo puedo! — Я могу!</h3>
+      <div class="can-do" id="canDo"></div>
+
+      <div class="homework">
+        <strong> Домашнее задание</strong><br>
+        Спроси дома: <strong>«¿Qué te gusta?»</strong> и ответь за себя 4 фразами:<br>
+        <em>«Me gusta el chocolate. No me gusta la verdura. Me gustan los gatos.»</em>
+      </div>
+
+      <div class="nav-buttons center">
+        <button class="btn btn-secondary" data-restart> Пройти ещё раз</button>
+        <a class="btn btn-primary" href="lesson-14.html" style="text-decoration:none;display:inline-block">Урок 14 →</a>
+      </div>
+      <p style="margin-top:18px"><a class="link-ghost" href="course.html">← Ко всем урокам курса</a></p>
+    </div>
+  </section>
+</div>
+
+<script src="assets/lesson.js"></script>
+<script>
+/* ============================ ДАННЫЕ УРОКА 13 ============================ */
+var LIKE = [
+  { es: 'me gusta', ru: 'мне нравится', e: '👍' },
+  { es: 'me gustan', ru: 'мне нравятся', e: '👍👍' },
+  { es: 'no me gusta', ru: 'мне не нравится', e: '👎' },
+  { es: 'a mí también', ru: 'мне тоже', e: '💞' }
+];
+
+var MEMORY = LIKE.map(function (l) { return { a: l.es, b: l.e, sa: l.es, sb: null }; });
+
+/* Предметы: liked → в корзину «нравится», disliked → «не нравится» */
+var THINGS = [
+  { key: 'ok1', e: '⚽', label: 'el fútbol', group: 'like', say: 'Me gusta el fútbol' },
+  { key: 'ok2', e: '🎨', label: 'los dibujos', group: 'like', say: 'Me gustan los dibujos' },
+  { key: 'ok3', e: '🍦', label: 'el helado', group: 'like', say: 'Me gusta el helado' },
+  { key: 'no1', e: '🥬', label: 'la verdura', group: 'dislike', say: 'No me gusta la verdura' },
+  { key: 'no2', e: '🦗', label: 'el grillo', group: 'dislike', say: 'No me gusta el grillo' },
+  { key: 'no3', e: '🌧️', label: 'la lluvia', group: 'dislike', say: 'No me gusta la lluvia' }
+];
+
+var QUIZ = [
+  { q: ' Что значит «Me gusta el chocolate»?', opts: ['Мне нравится шоколад', 'Мне не нравится шоколад', 'Я ем шоколад', 'Шоколад вкусный'], correct: 'Мне нравится шоколад' },
+  { q: ' Когда пишем <strong>gustan</strong> (со S)?', opts: ['Когда нравится много вещей', 'Всегда', 'Когда нравится еда', 'Никогда'], correct: 'Когда нравится много вещей' },
+  { q: ' Что значит «¡A mí también!»', opts: ['Мне тоже!', 'Мне не нравится', 'Я не знаю', 'До свидания'], correct: 'Мне тоже!' }
+];
+
+var CAN_DO = [
+  'Я говорю «Me gusta …»',
+  'Я говорю «Me gustan …»',
+  'Я говорю «No me gusta …»',
+  'Я спрашиваю «¿Qué te gusta?»'
+];
+
+function renderLike() {
+  var box = document.getElementById('likeCards');
+  box.innerHTML = '';
+  LIKE.forEach(function (l) {
+    var c = EL.el('div', 'word-card');
+    c.setAttribute('data-say', l.es);
+    c.style.background = 'linear-gradient(140deg, var(--c3), var(--c1))';
+    c.innerHTML = '<span class="emoji">' + l.e + '</span><span class="es">' + l.es + '</span><span class="ru">' + l.ru + '</span>' +
+      '<button class="mic-btn" data-mic="' + l.es + '" data-step="3">🎤</button>';
+    box.appendChild(c);
+  });
+}
+
+function buildSort() {
+  var bank = document.getElementById('assignBank');
+  var grid = document.getElementById('assignTargets');
+  var prog = document.getElementById('assignProgress');
+  var selected = null;
+  var placed = EL.get('likeSort', []) || [];
+
+  grid.className = 'slots cols-2 people';
+  grid.innerHTML = '';
+  bank.innerHTML = '';
+
+  ['like', 'dislike'].forEach(function (g) {
+    var slot = EL.el('div', 'slot');
+    slot.dataset.group = g;
+    slot.innerHTML = '<div class="slot-emoji">' + (g === 'like' ? '' : '') + '</div>' +
+      '<div class="slot-label">' + (g === 'like' ? 'me gusta' : 'no me gusta') + '</div>';
+    slot.appendChild(EL.el('div', 'slot-drop'));
+    grid.appendChild(slot);
+  });
+
+  function chipFor(t) {
+    var c = EL.el('div', 'chip');
+    c.dataset.key = t.key;
+    c.dataset.group = t.group;
+    c.dataset.say = t.say;
+    c.innerHTML = '<span class="chip-emoji">' + t.e + '</span><span class="chip-label">' + t.label + '</span>';
+    c.setAttribute('role', 'button');
+    c.setAttribute('tabindex', '0');
+    c.addEventListener('click', function () { onTap(c); });
+    c.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); onTap(c); }
+    });
+    return c;
+  }
+
+  function render() {
+    var chips = bank.querySelectorAll('.chip');
+    Array.prototype.forEach.call(chips, function (c) { c.remove(); });
+    Array.prototype.forEach.call(grid.querySelectorAll('.chip'), function (c) { c.remove(); });
+    THINGS.forEach(function (t) {
+      var c = chipFor(t);
+      var slot = placed.filter(function (p) { return p.key === t.key; })[0];
+      if (slot) grid.querySelector('.slot[data-group="' + slot.group + '"] .slot-drop').appendChild(c);
+      else bank.appendChild(c);
+    });
+    updateProgress();
+  }
+
+  function clearSel() {
+    if (selected) selected.classList.remove('selected');
+    Array.prototype.forEach.call(grid.querySelectorAll('.slot'), function (s) { s.classList.remove('drop-ready'); });
+    selected = null;
+  }
+
+  function onTap(c) {
+    if (c.parentNode && c.parentNode.classList.contains('slot-drop')) {
+      placed = placed.filter(function (p) { return p.key !== c.dataset.key; });
+      EL.set('likeSort', placed);
+      EL.say(5, ' Вернули обратно. Куда это лучше?', 'info', 1800);
+      clearSel(); render();
+      return;
+    }
+    if (selected === c) { clearSel(); return; }
+    clearSel();
+    selected = c;
+    c.classList.add('selected');
+    EL.say(5, ' Выбрано: ' + c.querySelector('.chip-label').textContent + '. Теперь нажми на корзину.', 'info', 2600);
+    EL.speak(c.dataset.say);
+  }
+
+  function updateProgress() {
+    var ok = placed.filter(function (p) {
+      var it = null;
+      THINGS.forEach(function (t) { if (t.key === p.key) it = t; });
+      return it && it.group === p.group;
+    }).length;
+    prog.textContent = ok + '/' + THINGS.length;
+    if (ok === THINGS.length) {
+      prog.classList.add('complete');
+      if (!EL.get('likeSortDone')) {
+        EL.set('likeSortDone', true);
+        EL.say(5, ' ¡Perfecto! Все вещи разложены по корзинам!', 'success');
+        EL.confetti(60);
+      }
+    } else {
+      prog.classList.remove('complete');
+      EL.set('likeSortDone', false);
+    }
+  }
+
+  Array.prototype.forEach.call(grid.querySelectorAll('.slot'), function (slot) {
+    slot.addEventListener('click', function () {
+      if (!selected) return;
+      var chip = selected;
+      if (chip.dataset.group !== slot.dataset.group) {
+        slot.classList.add('slot-bad');
+        EL.say(5, ' ¡Casi! Реши сам: это тебе нравится или нет? Подумай!', 'error');
+        setTimeout(function () { slot.classList.remove('slot-bad'); }, 700);
+        return;
+      }
+      placed = placed.filter(function (p) { return p.key !== chip.dataset.key; });
+      placed.push({ key: chip.dataset.key, group: chip.dataset.group });
+      EL.set('likeSort', placed);
+      EL.speak(chip.dataset.say);
+      clearSel();
+      render();
+      if (placed.length >= THINGS.length) {
+        EL.say(5, ' Отлично! Теперь скажи: «Me gusta el fútbol, no me gusta la verdura». Правильно?', 'success', 6000);
+      }
+    });
+    slot.addEventListener('mouseenter', function () { if (selected) slot.classList.add('drop-ready'); });
+    slot.addEventListener('mouseleave', function () { slot.classList.remove('drop-ready'); });
+  });
+
+  render();
+}
+
+EL.init({
+  id: 13,
+  rate: 0.7,
+  resumeMsg: ' Продолжить урок 13 с шага ',
+  onStep: function (n) {
+    if (n === 3) { renderLike(); EL.memory(MEMORY, { step: 3 }); }
+    if (n === 5) buildSort();
+    if (n === 6) EL.quiz(QUIZ, { step: 6 });
+    if (n === 7) EL.canDo(CAN_DO);
+  },
+  onRestart: function () { renderLike(); EL.memory(MEMORY, { step: 3 }); buildSort(); }
+});
+</script>
+
+<script src="assets/gate.js"></script>
+</body>
+</html>

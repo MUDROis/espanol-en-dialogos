@@ -1,0 +1,729 @@
+{
+  "id": 61,
+  "title": "¿Cuánto cuesta?",
+  "titleRu": "Сколько стоит? Цены и числа",
+  "module": "a0-a1",
+  "block": 1,
+  "part": 1,
+  "blockTitle": "Часть 1 · Начальный уровень",
+  "level": "A0",
+  "theme": "Числа, цены и покупки  Los números, los precios y las compras",
+  "mission": "Понять цену товара, сравнить два варианта и оплатить покупку наличными или картой.",
+  "mapPoint": "Рынок Сентраль: первые покупки",
+  "duration": "45 минут",
+  "stepsCount": 7,
+  "readingNote": "Прочитайте цены вслух: следите за g = [х] в gente, за gu = [г] в guitarra и за qu = [к] в quince.",
+  "characters": [
+    "olga",
+    "mateo"
+  ],
+  "objectives": [
+    "Воспринимать на слух числа от 11 до 100: once, quince, treinta, cincuenta, cien",
+    "Спрашивать цену: ¿cuánto cuesta? — и понимать ответ: quince euros",
+    "Комментировать цену: es caro / es barato",
+    "Выбирать между двумя товарами и решать о покупке: vale, quiero…",
+    "Образовывать множественное число: la bolsa → las bolsas"
+  ],
+  "readingMini": {
+    "title": "G, gu y gue: [г] и [х]",
+    "description": "Буква g меняет звук так же, как c: перед a, o, u — [г] (pago), перед e, i — [х] (gente). Чтобы «вернуть» [г] перед e и i, после g пишут немаю u: gue, gui (guitarra звучит «ги-тар-ра», буква u не читается). Числа — лучшие слова-примеры: quince [кин-се], cincuenta [син-куэн-та].",
+    "words": [
+      {
+        "es": "pago",
+        "how": "«па-го» — g перед a = [г]"
+      },
+      {
+        "es": "gente",
+        "how": "«хэн-те» — g перед e = [х]"
+      },
+      {
+        "es": "guitarra",
+        "how": "«ги-та-рра» — gu = [г], u не читается"
+      },
+      {
+        "es": "quince",
+        "how": "«кин-се» — qu = [к], ci межзубное"
+      },
+      {
+        "es": "cincuenta",
+        "how": "«син-куэн-та» — длинное число по частям"
+      },
+      {
+        "es": "dieciséis",
+        "how": "«дие-си-́с» — единственное число с ударением на «и»"
+      },
+      {
+        "es": "sesenta",
+        "how": "«се-сен-та» — не путай с dieciséis (16)"
+      }
+    ]
+  },
+  "grammar": {
+    "preguntar_el_precio": {
+      "title": "¿Cuánto cuesta? — вопрос о цене",
+      "description": "Цену спрашивают одной формулой: ¿Cuánto cuesta esta bolsa? (сколько стоит эта сумка?). Продавец отвечает полной фразой: Quince euros, señora. Товар и деньги почти всегда во множественном числе: quince euros, dos tostadas. Комментарий о цене — es caro (дорого) или es barato (дёшево), а выбор между двумя товарами — ¿y esa bolsa?",
+      "list": [
+        {
+          "es": "¿Cuánto cuesta esta bolsa?",
+          "ru": "сколько стоит эта сумка?"
+        },
+        {
+          "es": "Quince euros, señora.",
+          "ru": "пятнадцать евро, сеньора"
+        },
+        {
+          "es": "Es caro.",
+          "ru": "это дорого."
+        },
+        {
+          "es": "¿Y esa bolsa?",
+          "ru": "а та сумка?"
+        },
+        {
+          "es": "Esa bolsa es más barata: doce euros.",
+          "ru": "та сумка дешевле: двенадцать евро"
+        },
+        {
+          "es": "Vale, quiero la bolsa barata.",
+          "ru": "хорошо, я хочу дешёвую сумку"
+        }
+      ],
+      "examples": [
+        {
+          "es": "¿Cuánto cuesta? — Quince euros.",
+          "ru": "Сколько стоит? — Пятнадцать евро."
+        },
+        {
+          "es": "Es barato. Lo compro.",
+          "ru": "Это дёшево. Я это покупаю."
+        }
+      ]
+    },
+    "numeros_11_100": {
+      "title": "Числа 11–100: десяток + y + единица",
+      "description": "Числа строятся по одной схеме: десяток + y + единица — treinta y cinco (35). 11–15 идут подряд: once, doce, trece, catorce, quince. 16–19 читаются как «десять и …»: dieciséis, diecisiete. Дальше десятки: veinte, treinta, cuarenta, cincuenta, cien. На слуху не путай quince (15) и cincuenta (50) — у них разные слоги.",
+      "list": [
+        {
+          "es": "once / doce",
+          "ru": "одиннадцать / двенадцать"
+        },
+        {
+          "es": "quince",
+          "ru": "пятнадцать"
+        },
+        {
+          "es": "dieciséis",
+          "ru": "шестнадцать"
+        },
+        {
+          "es": "veinte",
+          "ru": "двадцать"
+        },
+        {
+          "es": "treinta y cinco",
+          "ru": "тридцать пять"
+        },
+        {
+          "es": "cuarenta",
+          "ru": "сорок"
+        },
+        {
+          "es": "cincuenta",
+          "ru": "пятьдесят"
+        },
+        {
+          "es": "cien",
+          "ru": "сто"
+        }
+      ],
+      "examples": [
+        {
+          "es": "Tengo treinta y cinco años.",
+          "ru": "Мне тридцать пять лет."
+        },
+        {
+          "es": "¿Cuánto cuesta? — Cuarenta euros.",
+          "ru": "Сколько стоит? — Сорок евро."
+        }
+      ]
+    },
+    "plural_sustantivos": {
+      "title": "Множественное число: -s и -es",
+      "description": "Одна сумка — много сумок: la bolsa → las bolsas (гласная + s). Согласная + es: el reloj → los relojes, la llave → las llaves. В ценах и списках множественное число почти всегда: quince euros, dos tostadas. Правило звучит как итог, а не как условие: гласная + s, согласная + es.",
+      "list": [
+        {
+          "es": "la bolsa → las bolsas",
+          "ru": "сумка → сумки"
+        },
+        {
+          "es": "el euro → los euros",
+          "ru": "евро → евро (мн. ч.)"
+        },
+        {
+          "es": "la tostada → las tostadas",
+          "ru": "тост → тосты"
+        },
+        {
+          "es": "el libro → los libros",
+          "ru": "книга → книги"
+        },
+        {
+          "es": "la llave → las llaves",
+          "ru": "ключ → ключи"
+        }
+      ],
+      "examples": [
+        {
+          "es": "Son doce euros.",
+          "ru": "Двенадцать евро"
+        },
+        {
+          "es": "Quiero dos tostadas, por favor.",
+          "ru": "Я хочу два тоста, пожалуйста"
+        }
+      ]
+    }
+  },
+  "vocabulary": {
+    "los_numeros": [
+      {
+        "es": "once",
+        "ru": "одиннадцать"
+      },
+      {
+        "es": "doce",
+        "ru": "двенадцать"
+      },
+      {
+        "es": "quince",
+        "ru": "пятнадцать"
+      },
+      {
+        "es": "veinte",
+        "ru": "двадцать"
+      },
+      {
+        "es": "treinta",
+        "ru": "тридцать"
+      },
+      {
+        "es": "cuarenta",
+        "ru": "сорок"
+      },
+      {
+        "es": "cincuenta",
+        "ru": "пятьдесят"
+      },
+      {
+        "es": "cien",
+        "ru": "сто"
+      }
+    ],
+    "la_compra": [
+      {
+        "es": "¿cuánto cuesta?",
+        "ru": "сколько стоит?"
+      },
+      {
+        "es": "cuesta",
+        "ru": "стоит"
+      },
+      {
+        "es": "caro",
+        "ru": "дорого"
+      },
+      {
+        "es": "barato",
+        "ru": "дёшево"
+      },
+      {
+        "es": "la tarjeta",
+        "ru": "карта (банковская)"
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "Mateo",
+      "es": "Buenos días. Bienvenida al mercado.",
+      "ru": "Доброе утро. Добро пожаловать на рынок."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Buenos días. ¿Cuánto cuesta esta bolsa?",
+      "ru": "Доброе утро. Сколько стоит эта сумка?"
+    },
+    {
+      "speaker": "Mateo",
+      "es": "Quince euros, señora.",
+      "ru": "Пятнадцать евро, сеньора."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Quince… Es caro. ¿Y ese libro?",
+      "ru": "Пятнадцать… Это дорого. А эта книга?"
+    },
+    {
+      "speaker": "Mateo",
+      "es": "Veinte euros.",
+      "ru": "Двадцать евро."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Eso también es caro.",
+      "ru": "Это тоже дорого."
+    },
+    {
+      "speaker": "Mateo",
+      "es": "Mire: estas bolsas cuestan doce euros.",
+      "ru": "Смотрите: эти сумки стоят двенадцать евро."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Doce euros. Es barato.",
+      "ru": "Двенадцать евро. Это дёшево."
+    },
+    {
+      "speaker": "Mateo",
+      "es": "Y son muy bonitas.",
+      "ru": "И они очень красивые."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Vale, quiero la bolsa barata.",
+      "ru": "Хорошо, я хочу дешёвую сумку."
+    },
+    {
+      "speaker": "Mateo",
+      "es": "Perfecto. ¿Paga con tarjeta?",
+      "ru": "Отлично. Платите картой?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Sí, con tarjeta, gracias.",
+      "ru": "Да, картой, спасибо."
+    },
+    {
+      "speaker": "Mateo",
+      "es": "Son doce euros.",
+      "ru": "С вас двенадцать евро."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Aquí tiene. ¡Gracias!",
+      "ru": "Вот, пожалуйста. Спасибо!"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары: число и перевод",
+      "description": "Найди соответствие между числом и переводом. Слушай каждое число дважды",
+      "pairs": [
+        {
+          "es": "once",
+          "ru": "одиннадцать"
+        },
+        {
+          "es": "doce",
+          "ru": "двенадцать"
+        },
+        {
+          "es": "quince",
+          "ru": "пятнадцать"
+        },
+        {
+          "es": "veinte",
+          "ru": "двадцать"
+        },
+        {
+          "es": "treinta",
+          "ru": "тридцать"
+        },
+        {
+          "es": "cuarenta",
+          "ru": "сорок"
+        },
+        {
+          "es": "cincuenta",
+          "ru": "пятьдесят"
+        },
+        {
+          "es": "cien",
+          "ru": "сто"
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-preguntar_el_precio",
+      "title": "Практика: вопрос о цене",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "¿Cuánto ___ esta bolsa?",
+          "ru": "Сколько стоит эта сумка?",
+          "answer": "cuesta",
+          "options": [
+            "cuesta",
+            "es",
+            "está"
+          ]
+        },
+        {
+          "text": "___ euros, señora.",
+          "ru": "Пятнадцать евро, сеньора",
+          "answer": "Quince",
+          "options": [
+            "Quince",
+            "Cincuenta",
+            "Cinco"
+          ]
+        },
+        {
+          "text": "Es ___. Es muy caro.",
+          "ru": "Это дорого. Это очень дорого.",
+          "answer": "caro",
+          "options": [
+            "caro",
+            "barato",
+            "cuenta"
+          ]
+        },
+        {
+          "text": "¿Y ___ bolsa?",
+          "ru": "А та сумка?",
+          "answer": "esa",
+          "options": [
+            "esa",
+            "este",
+            "esos"
+          ]
+        },
+        {
+          "text": "Vale, ___ la bolsa barata.",
+          "ru": "Хорошо, я хочу дешёвую сумку",
+          "answer": "quiero",
+          "options": [
+            "quiero",
+            "quieres",
+            "queremos"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-numeros_11_100",
+      "title": "Практика: числа от 11 до 100",
+      "description": "Вставь пропущенное число",
+      "sentences": [
+        {
+          "text": "Cuarenta y ___ .",
+          "ru": "Сорок пять",
+          "answer": "cinco",
+          "options": [
+            "cinco",
+            "cincuenta",
+            "quince"
+          ]
+        },
+        {
+          "text": "Tengo ___ años.",
+          "ru": "Мне пятнадцать лет",
+          "answer": "quince",
+          "options": [
+            "quince",
+            "cincuenta",
+            "treinta"
+          ]
+        },
+        {
+          "text": "El libro cuesta veinte ___ .",
+          "ru": "Книга стоит двадцать евро",
+          "answer": "euros",
+          "options": [
+            "euros",
+            "euro",
+            "euroes"
+          ]
+        },
+        {
+          "text": "¿Cuánto cuesta? — ___ euros.",
+          "ru": "Сколько стоит? — Сорок евро",
+          "answer": "Cuarenta",
+          "options": [
+            "Cuarenta",
+            "Catorce",
+            "Cien"
+          ]
+        },
+        {
+          "text": "¿Cuánto cuesta la bolsa? — ___ euros.",
+          "ru": "Сколько стоит сумка? — Пятнадцать евро",
+          "answer": "Quince",
+          "options": [
+            "Quince",
+            "Cincuenta",
+            "Cien"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-plural_sustantivos",
+      "title": "Практика: единственное и множественное число",
+      "description": "Вставь пропущенную форму",
+      "sentences": [
+        {
+          "text": "la bolsa → las ___",
+          "ru": "сумка → сумки",
+          "answer": "bolsas",
+          "options": [
+            "bolsas",
+            "bolses",
+            "bolsa"
+          ]
+        },
+        {
+          "text": "el euro → los ___",
+          "ru": "евро → евро",
+          "answer": "euros",
+          "options": [
+            "euros",
+            "euro",
+            "es"
+          ]
+        },
+        {
+          "text": "la tostada → las ___",
+          "ru": "тост → тосты",
+          "answer": "tostadas",
+          "options": [
+            "tostadas",
+            "tostada",
+            "tostades"
+          ]
+        },
+        {
+          "text": "el libro → los ___",
+          "ru": "книга → книги",
+          "answer": "libros",
+          "options": [
+            "libros",
+            "libro",
+            "libres"
+          ]
+        },
+        {
+          "text": "la llave → las ___",
+          "ru": "ключ → ключи",
+          "answer": "llaves",
+          "options": [
+            "llaves",
+            "laves",
+            "llaveses"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика урока",
+      "description": "Вставь пропущенное слово: цены, числа и оплата",
+      "sentences": [
+        {
+          "text": "¿___ cuesta el café?",
+          "ru": "Сколько стоит кофе?",
+          "answer": "Cuánto",
+          "options": [
+            "Cuánto",
+            "Qué",
+            "Cómo"
+          ]
+        },
+        {
+          "text": "Es ___ , no es barato.",
+          "ru": "Это дорого, не дёшево",
+          "answer": "caro",
+          "options": [
+            "caro",
+            "barato",
+            "cuenta"
+          ]
+        },
+        {
+          "text": "Son doce ___ .",
+          "ru": "Двенадцать евро",
+          "answer": "euros",
+          "options": [
+            "euros",
+            "euro",
+            "euroes"
+          ]
+        },
+        {
+          "text": "___ , quiero la bolsa barata.",
+          "ru": "Хорошо, я хочу дешёвую сумку",
+          "answer": "Vale",
+          "options": [
+            "Vale",
+            "Alto",
+            "Bien"
+          ]
+        },
+        {
+          "text": "Pago con ___ , gracias.",
+          "ru": "Плачу картой, спасибо",
+          "answer": "tarjeta",
+          "options": [
+            "tarjeta",
+            "cuenta",
+            "agua"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай реплики покупки и повторяй вслух. Числа в ценах произноси раздельно: quince — пауза — euros."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Ольгой",
+      "role": "Olga",
+      "description": "Ты — Ольга на рынке. Спроси цену двух товаров, скажи es caro или es barato, выбери покупку и заплати: aquí tiene."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь продавцом",
+      "role": "Mateo",
+      "description": "Ты — продавец на рынке. Назови цену каждого товара, предложи более дешёвый вариант и прими оплату."
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Сыграй покупку на рынке: вопрос о цене, комментарий, выбор и оплата",
+      "template": [
+        {
+          "label": "Доброе утро",
+          "es": "Buenos días."
+        },
+        {
+          "label": "Сколько стоит эта сумка?",
+          "es": "¿Cuánto ___ esta bolsa?"
+        },
+        {
+          "label": "Это дорого",
+          "es": "Es ___ ."
+        },
+        {
+          "label": "Хорошо, я хочу дешёвую сумку",
+          "es": "Vale, quiero la bolsa ___ ."
+        },
+        {
+          "label": "Вот, пожалуйста",
+          "es": "Aquí ___ ."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "Аудио: «quince». Сколько?",
+          "ru": "Аудио: «quince». Сколько?",
+          "options": [
+            "5",
+            "15",
+            "50"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Аудио: «cincuenta». Сколько?",
+          "ru": "Аудио: «cincuenta». Сколько?",
+          "options": [
+            "15",
+            "60",
+            "50"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "¿Cómo se lee gu en la palabra guitarra?",
+          "ru": "Как читается gu в слове guitarra?",
+          "options": [
+            "[гу]",
+            "[ги]",
+            "[гв]"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "la bolsa → las ___",
+          "ru": "la bolsa → las ___",
+          "options": [
+            "bolsas",
+            "bolses",
+            "bolsa"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se pregunta о цене?",
+          "ru": "Как спросить о цене?",
+          "options": [
+            "¿Qué es esto?",
+            "¿Cuánto cuesta?",
+            "¿Dónde vives?"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Ты выбрал дешёвую сумку. Что скажешь?",
+          "ru": "Ты выбрал дешёвую сумку. Что скажешь?",
+          "options": [
+            "Es caro",
+            "Vale, quiero la bolsa barata",
+            "Aquí tiene, gracias"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Ольга выбрала дешёвую сумку. Сколько она стоит?",
+          "ru": "Сколько стоит дешёвая сумка?",
+          "options": [
+            "15 евро",
+            "12 евро",
+            "20 евро"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "la llave → las ___",
+          "ru": "la llave → las ___",
+          "options": [
+            "llaves",
+            "laves",
+            "llaveses"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    "Я понимаю числа от 11 до 100 на слух",
+    "Я спрашиваю цену: ¿cuánto cuesta?",
+    "Я говорю, что дорого, а что дёшево: caro / barato",
+    "Я образую множественное число: la bolsa → las bolsas",
+    "Я называю цену целиком: quince euros"
+  ],
+  "homework": [
+    "Озвучь 10 случайных чисел и 5 цен с генератором в приложении",
+    "Найди любой испанский магазин в интернете и прочитай вслух три реальные цены",
+    "Запиши 40-секундное аудио «я покупаю…» по модели диалога урока"
+  ]
+}

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>¡Hola, Mundo! — Урок 1 · Español A0–A1</title>
+<meta name="description" content="Урок 1 блока «¡Hola, Mundo!»: 5 испанских гласных, первые слова и фразы, микро-диалог. Курс испанского A0–A1 для детей.">
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body data-theme="hola">
+
+<header class="lesson-head">
+  <a class="link-back" href="course.html">← Все уроки</a>
+  <span class="lh-title">Урок 1 · ¡Hola, Mundo!</span>
+  <span class="lh-spacer"></span>
+  <a class="link-ghost" href="lesson-02.html">Урок 2 →</a>
+</header>
+
+<div class="voice-note" id="voiceNote"></div>
+<div class="save-indicator" id="saveIndicator"> Прогресс сохранён</div>
+
+<div class="container">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ШАГ 1 · Подготовка -->
+  <section class="step active" id="step1">
+    <h1>¡Hola, Mundo! </h1>
+    <p style="font-size:1.5em"> Привет, амиго!</p>
+    <p>Сегодня ты выучишь свои первые слова на испанском и сможешь поздороваться с любым человеком в мире!</p>
+    <h3>Что тебя ждёт</h3>
+    <p>
+       5 волшебных звуков<br>
+       5 важных слов<br>
+       Маленький диалог<br>
+       Игра с роботом
+    </p>
+    <div class="tip"> <strong>Совет:</strong> нажми на микрофон на карточке — и компьютер проверит, как ты произнёс слово. Лучше всего работает в Chrome, Edge или Яндекс.Браузере.</div>
+    <div class="nav-buttons center">
+      <button class="btn btn-primary" data-next>¡Vamos! Поехали! </button>
+    </div>
+  </section>
+
+  <!-- ШАГ 2 · Фонетика -->
+  <section class="step" id="step2">
+    <h2> 5 волшебных звуков</h2>
+    <p>В испанском гласные — королевы: они всегда звучат одинаково. Нажми на букву и послушай. Потом нажми на микрофон и повтори вслух.</p>
+    <div class="phonetics">
+      <div class="phon-card" data-say="A">
+        <div class="phon-letter">A</div><div class="phon-emoji">😮</div>
+        <div class="phon-word">a</div><div class="phon-hint">как «А!»</div>
+        <button class="mic-btn" data-mic="a" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="E">
+        <div class="phon-letter">E</div><div class="phon-emoji">🔍</div>
+        <div class="phon-word">e</div><div class="phon-hint">как «Э-э»</div>
+        <button class="mic-btn" data-mic="e" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="I">
+        <div class="phon-letter">I</div><div class="phon-emoji">🐭</div>
+        <div class="phon-word">i</div><div class="phon-hint">как «И-и»</div>
+        <button class="mic-btn" data-mic="i" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="O">
+        <div class="phon-letter">O</div><div class="phon-emoji">😲</div>
+        <div class="phon-word">o</div><div class="phon-hint">как «О!»</div>
+        <button class="mic-btn" data-mic="o" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="U">
+        <div class="phon-letter">U</div><div class="phon-emoji">👻</div>
+        <div class="phon-word">u</div><div class="phon-hint">как «У-у»</div>
+        <button class="mic-btn" data-mic="u" data-step="2">🎤</button>
+      </div>
+    </div>
+    <div class="feedback" id="feedback2"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 3 · Лексика + Memory -->
+  <section class="step" id="step3">
+    <h2> 5 важных слов</h2>
+    <p>Сначала послушай и повтори каждое слово. Нажми на микрофон — и компьютер проверит произношение.</p>
+    <div class="words">
+      <div class="word-card" data-say="¡Hola!">
+        <span class="emoji">🙋</span><span class="es">Hola</span><span class="ru">Привет!</span>
+        <button class="mic-btn" data-mic="hola" data-step="3">🎤</button>
+      </div>
+      <div class="word-card" data-say="Adiós">
+        <span class="emoji">👋</span><span class="es">Adiós</span><span class="ru">Пока!</span>
+        <button class="mic-btn" data-mic="adiós" data-step="3">🎤</button>
+      </div>
+      <div class="word-card" data-say="Sí">
+        <span class="emoji">👍</span><span class="es">Sí</span><span class="ru">Да</span>
+        <button class="mic-btn" data-mic="sí" data-step="3">🎤</button>
+      </div>
+      <div class="word-card" data-say="No">
+        <span class="emoji">👎</span><span class="es">No</span><span class="ru">Нет</span>
+        <button class="mic-btn" data-mic="no" data-step="3">🎤</button>
+      </div>
+      <div class="word-card" data-say="Gracias">
+        <span class="emoji">🎁</span><span class="es">Gracias</span><span class="ru">Спасибо</span>
+        <button class="mic-btn" data-mic="gracias" data-step="3">🎤</button>
+      </div>
+    </div>
+    <p style="margin-top:26px"><strong> А теперь игра! Найди пары: слово и картинка</strong></p>
+    <div class="memory-grid" id="memoryGrid"></div>
+    <div class="memory-counter">Найдено пар: <span id="memoryCounter">0</span>/5</div>
+    <div class="feedback" id="feedback3"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 4 · Диалог -->
+  <section class="step" id="step4">
+    <h2> Маленький диалог</h2>
+    <p>Два друга встретились на улице. Нажми на реплику, чтобы услышать её, затем на микрофон — и повтори вслух.</p>
+    <div class="dialogue">
+      <div class="dialogue-line" data-say="¡Hola!">
+        <div class="avatar">🧑</div>
+        <div class="text">¡Hola! <span class="ru">Привет!</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="hola" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="¡Hola!">
+        <div class="avatar">👧</div>
+        <div class="text">¡Hola! <span class="ru">Привет!</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="hola" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="¡Adiós!">
+        <div class="avatar">🧑</div>
+        <div class="text">¡Adiós! <span class="ru">Пока!</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="adiós" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="¡Adiós!">
+        <div class="avatar">👧</div>
+        <div class="text">¡Adiós! <span class="ru">Пока!</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="adiós" data-step="4">🎤</button>
+      </div>
+    </div>
+    <div class="bubble-row">
+      <button class="btn btn-primary" data-repeat='["¡Hola!","¡Hola!","¡Adiós!","¡Adiós!"]'> Слушать весь диалог</button>
+    </div>
+    <div class="feedback" id="feedback4"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 5 · Робот -->
+  <section class="step" id="step5">
+    <h2> Вежливый робот</h2>
+    <p>Робот понимает только слова вежливости. Помоги ему — выбери правильный ответ или скажи его вслух!</p>
+    <div class="game-box">
+      <span class="stage-big">🤖</span>
+      <div class="bubble" id="robotQuestion">…</div>
+      <div class="opt-row" id="robotOptions"></div>
+      <div class="bubble-row">
+        <button class="btn btn-secondary" id="robotVoice"> Ответить голосом</button>
+      </div>
+    </div>
+    <div class="feedback" id="feedback5"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 6 · Мини-тест -->
+  <section class="step" id="step6">
+    <h2> Мини-тест</h2>
+    <p>Проверим, что ты запомнил. Отвечай на вопросы или просто иди дальше — мы никого не торопим.</p>
+    <div id="quizContainer"></div>
+    <div class="assign-progress" id="quizScore"></div>
+    <div class="feedback" id="feedback6"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 7 · Финал -->
+  <section class="step" id="step7">
+    <div class="final">
+
+      <h1>¡Felicidades!</h1>
+      <p style="font-size:1.4em">Поздравляем! Ты прошёл первый урок!</p>
+      <div class="medal"> Медаль «¡Hola!»</div>
+      <p>Сегодня ты узнал:</p>
+      <p> 5 испанских гласных<br> 5 важных слов<br> Как поздороваться и попрощаться</p>
+
+      <h3> ¡Yo puedo! — Я могу!</h3>
+      <div class="can-do" id="canDo"></div>
+
+      <div class="homework">
+        <strong> Домашнее задание</strong><br>
+        Подойди к маме или папе, помаши рукой и скажи: <strong>«¡Hola!»</strong><br>
+        А потом скажи: <strong>«¡Adiós!»</strong> — и уходи в свою комнату <br>
+        <span style="color:#666666">Попроси близких записать тебя на видео — будет приятно пересмотреть через месяц.</span>
+      </div>
+
+      <div class="nav-buttons center">
+        <button class="btn btn-secondary" data-restart> Пройти ещё раз</button>
+        <a class="btn btn-primary" href="lesson-02.html" style="text-decoration:none;display:inline-block">Урок 2 →</a>
+      </div>
+      <p style="margin-top:18px"><a class="link-ghost" href="course.html">← Ко всем урокам курса</a></p>
+    </div>
+  </section>
+</div>
+
+<script src="assets/lesson.js"></script>
+<script>
+/* ============================ ДАННЫЕ УРОКА 1 ============================ */
+var VOWELS = [
+  { l: 'A', e: '😮', h: 'как «А!»' }, { l: 'E', e: '🔍', h: 'как «Э-э»' },
+  { l: 'I', e: '🐭', h: 'как «И-и»' }, { l: 'O', e: '😲', h: 'как «О!»' },
+  { l: 'U', e: '👻', h: 'как «У-у»' }
+];
+
+var MEMORY = [
+  { a: 'Hola', b: '🙋', sa: 'Hola', sb: 'Привет' },
+  { a: 'Adiós', b: '👋', sa: 'Adiós', sb: 'Пока' },
+  { a: 'Sí', b: '👍', sa: 'Sí', sb: 'Да' },
+  { a: 'No', b: '👎', sa: 'No', sb: 'Нет' },
+  { a: 'Gracias', b: '🎁', sa: 'Gracias', sb: 'Спасибо' }
+];
+
+var ROBOT = [
+  { q: ' Робот подарил тебе игрушку. Что скажем?', a: 'Gracias', opts: ['Hola', 'Gracias', 'Adiós', 'No'] },
+  { q: ' Ты уходишь домой. Что скажем?', a: 'Adiós', opts: ['Sí', 'No', 'Adiós', 'Gracias'] },
+  { q: ' Ты встретил друга. Что скажем?', a: 'Hola', opts: ['Hola', 'Gracias', 'No', 'Adiós'] },
+  { q: ' Тебя спрашивают: «Ты кот?» Ты не кот!', a: 'No', opts: ['Sí', 'No', 'Hola', 'Gracias'] },
+  { q: ' Тебя спрашивают: «Ты человек?» Ты человек!', a: 'Sí', opts: ['No', 'Adiós', 'Sí', 'Gracias'] }
+];
+
+var QUIZ = [
+  { q: ' Нажми «Прослушать» и услышь звук. Какой это звук?', audio: 'E', opts: ['A', 'E', 'I', 'O'], correct: 'E' },
+  { q: ' Как сказать «Спасибо»?', opts: ['Hola', 'No', 'Gracias', 'Sí'], correct: 'Gracias' },
+  { q: ' Как сказать «Нет»?', opts: ['Sí', 'No', 'Hola', 'Adiós'], correct: 'No' }
+];
+
+var CAN_DO = [
+  'Я читаю все 5 гласных одинаково',
+  'Я говорю «¡Hola!» и «¡Adiós!»',
+  'Я понимаю слова Sí и No',
+  'Я говорю «Gracias»'
+];
+
+/* ================================ ЛОГИКА ================================= */
+function renderRobot() {
+  var i = EL.get('robotIndex', 0);
+  var qBox = document.getElementById('robotQuestion');
+  var oBox = document.getElementById('robotOptions');
+  if (i >= ROBOT.length) {
+    qBox.textContent = ' ¡Robot feliz! Ты ответил правильно на все вопросы!';
+    oBox.innerHTML = '';
+    return;
+  }
+  var q = ROBOT[i];
+  qBox.textContent = q.q;
+  oBox.innerHTML = '';
+  EL.shuffle(q.opts).forEach(function (o) {
+    var b = EL.el('button', 'opt', o);
+    b.addEventListener('click', function () {
+      if (o === q.a) {
+        b.classList.add('right');
+        EL.speak(q.a);
+        EL.say(5, ' ¡Muy bien! Правильно: ' + q.a, 'success');
+        setTimeout(function () { EL.set('robotIndex', i + 1); renderRobot(); }, 1300);
+      } else {
+        b.classList.add('wrong');
+        EL.say(5, ' ¡Casi! Робот ждёт другое слово. Попробуй ещё раз!', 'error');
+        setTimeout(function () { b.classList.remove('wrong'); }, 700);
+      }
+    });
+    oBox.appendChild(b);
+  });
+}
+
+document.getElementById('robotVoice').addEventListener('click', function () {
+  var q = ROBOT[EL.get('robotIndex', 0)];
+  if (!q) return;
+  EL.listen({
+    expect: q.a, step: 5, threshold: 0.5,
+    onOk: function () {
+      EL.speak(q.a);
+      EL.say(5, ' Браво! Ты ответил голосом: ' + q.a, 'success');
+      setTimeout(function () { EL.set('robotIndex', EL.get('robotIndex', 0) + 1); renderRobot(); }, 1400);
+    }
+  });
+});
+
+EL.init({
+  id: 1,
+  rate: 0.72,
+  resumeMsg: ' Привет! Продолжить урок 1 с шага ',
+  onStep: function (n) {
+    if (n === 3) EL.memory(MEMORY, { step: 3 });
+    if (n === 5) renderRobot();
+    if (n === 6) EL.quiz(QUIZ, { step: 6 });
+    if (n === 7) EL.canDo(CAN_DO);
+  }
+});
+</script>
+</body>
+</html>

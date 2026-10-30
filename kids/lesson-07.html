@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Los días de la semana — Урок 7 · Español A0–A1</title>
+<meta name="description" content="Урок 7: дни недели по-испански, правило ударения и вопрос «¿Qué día es hoy?». Пазл-календарь. Курс испанского A0–A1 для детей.">
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body data-theme="semana">
+
+<header class="lesson-head">
+  <a class="link-back" href="course.html">← Все уроки</a>
+  <span class="lh-title">Урок 7 · Los días de la semana</span>
+  <span class="lh-spacer"></span>
+  <a class="link-ghost" href="lesson-08.html">Урок 8 →</a>
+</header>
+
+<div class="voice-note" id="voiceNote"></div>
+<div class="save-indicator" id="saveIndicator"> Прогресс сохранён</div>
+
+<div class="container">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ШАГ 1 -->
+  <section class="step active" id="step1">
+    <h1> Los días de la semana</h1>
+    <p style="font-size:1.5em">¡Hola, amigo! Какой сегодня день? </p>
+    <p>Сегодня ты выучишь все семь дней недели и научишься читать испанские слова с правильным ударением.</p>
+    <h3>В этом уроке</h3>
+    <p> Правило ударения в испанском<br>
+        Семь дней недели<br>
+        Фразы «Hoy es…», «Mañana es…»<br>
+        Пазл-календарь</p>
+    <div class="tip"> <strong>Совет:</strong> в испанском ударение почти всегда падает на <strong>предпоследний</strong> слог. Читай слово с выражением — и оно зазвучит правильно!</div>
+    <div class="nav-buttons center">
+      <button class="btn btn-primary" data-next>¡Vamos! Поехали! </button>
+    </div>
+  </section>
+
+  <!-- ШАГ 2 -->
+  <section class="step" id="step2">
+    <h2> Ударение — это просто</h2>
+    <p>Почти все испанские слова на <strong>-o, -a, -e</strong> и на <strong>-s, -n</strong> делают удар <strong>предпоследним</strong> слогом. Не гадай — просто чуть сильнее выдели слог второй с конца!</p>
+    <div class="phonetics">
+      <div class="phon-card" data-say="Sábado">
+        <div class="phon-letter long">sa·BA·do</div>
+        <div class="phon-emoji">🎯</div>
+        <div class="phon-word">sábado</div>
+        <div class="phon-hint">3 слога, удар на <strong>BA</strong> — второй с конца</div>
+        <button class="mic-btn" data-mic="sábado" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="Miércoles">
+        <div class="phon-letter long">mi·ÉR·co·les</div>
+        <div class="phon-emoji">📌</div>
+        <div class="phon-word">miércoles</div>
+        <div class="phon-hint">4 слога, а удар всё равно на <strong>ÉR</strong> — второй с конца, не последний!</div>
+        <button class="mic-btn" data-mic="miércoles" data-step="2">🎤</button>
+      </div>
+    </div>
+    <div class="tip"> <strong>Сравни:</strong> <em>casa</em> — ка́са (удар на предпоследний слог), а <em>sofá</em> — софа́: на конце буква <strong>á</strong>, ударение сразу на ней. Значок ударения — подсказка: где он стоит, тот слог и ударный.</div>
+    <div class="feedback" id="feedback2"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 3 -->
+  <section class="step" id="step3">
+    <h2> Семь дней недели</h2>
+    <p>Послушай каждый день и повтори. Все дни в Испании — <em>мужского</em> рода: <strong>el lunes</strong>.</p>
+    <div class="words" id="dayCards"></div>
+    <div class="bubble-row">
+      <button class="btn btn-secondary" data-say="hoy"> hoy — сегодня</button>
+      <button class="btn btn-secondary" data-say="mañana"> mañana — завтра</button>
+      <button class="btn btn-secondary" data-say="ayer"> ayer — вчера</button>
+    </div>
+    <p style="margin-top:26px"><strong> Найди пары: день и картинка</strong></p>
+    <div class="memory-grid" id="memoryGrid"></div>
+    <div class="memory-counter">Найдено пар: <span id="memoryCounter">0</span>/5</div>
+    <div class="feedback" id="feedback3"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 4 -->
+  <section class="step" id="step4">
+    <h2> Какой сегодня день?</h2>
+    <p>Дети спрашивают друг друга о планах. Послушай и повтори.</p>
+    <div class="dialogue">
+      <div class="dialogue-line" data-say="¿Qué día es hoy?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿Qué día es hoy?<span class="ru">Какой сегодня день?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="qué día es hoy" data-step="4" data-threshold="0.4">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Hoy es viernes.">
+        <div class="avatar">👧</div>
+        <div class="text">Hoy es viernes.<span class="ru">Сегодня пятница.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="hoy es viernes" data-step="4" data-threshold="0.4">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="¿Y mañana?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿Y mañana?<span class="ru">А завтра?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="y mañana" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Mañana es sábado.">
+        <div class="avatar">👧</div>
+        <div class="text">Mañana es sábado.<span class="ru">Завтра суббота.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="mañana es sábado" data-step="4" data-threshold="0.4">🎤</button>
+      </div>
+    </div>
+    <div class="bubble-row">
+      <button class="btn btn-primary" data-repeat='["¿Qué día es hoy?","Hoy es viernes.","¿Y mañana?","Mañana es sábado."]' data-gap="2500"> Слушать весь диалог</button>
+    </div>
+    <div class="tip"> <strong>Шпаргалка:</strong> <em>Hoy es [lunes].</em> (сегодня понедельник) — <em>Mañana es [martes].</em> (завтра вторник)</div>
+    <div class="feedback" id="feedback4"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 5 · Пазл-календарь -->
+  <section class="step" id="step5">
+    <h2> Собери неделю</h2>
+    <p>Разложи дни по порядку: с понедельника до воскресенья. Нажми на день, потом на его место.</p>
+    <div class="game-box">
+      <div class="bank" id="assignBank"></div>
+      <div class="slots week-row" id="assignTargets"></div>
+      <div class="assign-progress" id="assignProgress"></div>
+    </div>
+    <div class="homework" style="max-width:640px">
+      <strong> Запомни на всю жизнь:</strong> в Испании неделя начинается с <strong>lunes</strong> (понедельник),
+      а заканчивается <strong>domingo</strong> (воскресенье). <em>Fin de semana</em> — выходные: суббота и воскресенье!
+    </div>
+    <div class="feedback" id="feedback5"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 6 -->
+  <section class="step" id="step6">
+    <h2> Проверь себя!</h2>
+    <p>Три вопроса про дни недели и ударение.</p>
+    <div id="quizContainer"></div>
+    <div class="assign-progress" id="quizScore"></div>
+    <div class="feedback" id="feedback6"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 7 -->
+  <section class="step" id="step7">
+    <div class="final">
+
+      <h1>¡Muy bien!</h1>
+      <p style="font-size:1.4em">Ты прошёл седьмой урок!</p>
+      <div class="medal"> Медаль «¡La semana!»</div>
+      <p>Сегодня ты узнал:</p>
+      <p> Ударение падает на <strong>предпоследний</strong> слог<br>
+          Lunes, martes, miércoles, jueves, viernes, sábado, domingo<br>
+          Фразы «Hoy es…» и «Mañana es…»</p>
+
+      <h3> ¡Yo puedo! — Я могу!</h3>
+      <div class="can-do" id="canDo"></div>
+
+      <div class="homework">
+        <strong> Домашнее задание</strong><br>
+        Каждый вечер говори семье: <strong>«Hoy es …»</strong> и называй сегодняшний день.<br>
+        Спроси: <strong>«¿Qué día es hoy?»</strong> — и проверь, отгадал ли ты
+      </div>
+
+      <div class="nav-buttons center">
+        <button class="btn btn-secondary" data-restart> Пройти ещё раз</button>
+        <a class="btn btn-primary" href="lesson-08.html" style="text-decoration:none;display:inline-block">Урок 8 →</a>
+      </div>
+      <p style="margin-top:18px"><a class="link-ghost" href="course.html">← Ко всем урокам курса</a></p>
+    </div>
+  </section>
+</div>
+
+<script src="assets/lesson.js"></script>
+<script>
+/* ============================ ДАННЫЕ УРОКА 7 ============================ */
+var DAYS = [
+  { es: 'lunes', ru: 'понедельник', e: '1️⃣' },
+  { es: 'martes', ru: 'вторник', e: '2️⃣' },
+  { es: 'miércoles', ru: 'среда', e: '3️⃣' },
+  { es: 'jueves', ru: 'четверг', e: '4️⃣' },
+  { es: 'viernes', ru: 'пятница', e: '5️⃣' },
+  { es: 'sábado', ru: 'суббота', e: '6️⃣' },
+  { es: 'domingo', ru: 'воскресенье', e: '7️⃣' }
+];
+
+var MEMORY = [DAYS[0], DAYS[2], DAYS[4], DAYS[5], DAYS[6]].map(function (d) {
+  return { a: d.es, b: d.e, sa: d.es, sb: null };
+});
+
+var QUIZ = [
+  { q: ' Как по-испански «пятница»?', opts: ['lunes', 'viernes', 'sábado', 'jueves'], correct: 'viernes' },
+  { q: ' Ударение в испанском чаще всего падает…', opts: ['на последний слог', 'на предпоследний слог', 'на первый слог', 'везде одинаково'], correct: 'на предпоследний слог' },
+  { q: ' Какой день в Испании первый в неделе?', opts: ['domingo', 'lunes', 'sábado', 'martes'], correct: 'lunes' }
+];
+
+var CAN_DO = [
+  'Я называю семь дней недели',
+  'Я читаю слово с правильным ударением',
+  'Я говорю «Hoy es …»',
+  'Я спрашиваю «¿Qué día es hoy?»'
+];
+
+function renderDays() {
+  var box = document.getElementById('dayCards');
+  box.innerHTML = '';
+  DAYS.forEach(function (d) {
+    var c = EL.el('div', 'word-card');
+    c.setAttribute('data-say', d.es);
+    c.style.background = 'linear-gradient(140deg, var(--c2), var(--c1))';
+    c.innerHTML = '<span class="emoji">' + d.e + '</span><span class="es">' + d.es + '</span><span class="ru">' + d.ru + '</span>' +
+      '<button class="mic-btn" data-mic="' + d.es + '" data-step="3">🎤</button>';
+    box.appendChild(c);
+  });
+}
+
+function buildWeek() {
+  EL.assign({
+    bank: 'assignBank',
+    targets: 'assignTargets',
+    stateKey: 'weekPuzzle',
+    step: 5,
+    items: EL.shuffle(DAYS).map(function (d) {
+      return { key: d.es, label: d.es, emoji: d.e, say: d.es };
+    }),
+    slots: DAYS.map(function (d, i) {
+      return { key: String(i), label: (i + 1) + '-й день', accept: [d.es] };
+    }),
+    validate: function (itemKey, slotKey) {
+      var d = DAYS[+slotKey];
+      return !!d && d.es === itemKey;
+    },
+    badMsg: ' ¡Casi! Посмотри на номер места и попробуй другой день!',
+    winMsg: ' ¡Perfecto! Неделя собрана по порядку!',
+    onWin: function () {
+      EL.say(5, ' Отлично! Теперь ты знаешь всю неделю. Спроси дома: «¿Qué día es hoy?»', 'success');
+    }
+  });
+}
+
+EL.init({
+  id: 7,
+  rate: 0.7,
+  resumeMsg: ' Продолжить урок 7 с шага ',
+  onStep: function (n) {
+    if (n === 3) { renderDays(); EL.memory(MEMORY, { step: 3, cols: 5 }); }
+    if (n === 5) buildWeek();
+    if (n === 6) EL.quiz(QUIZ, { step: 6 });
+    if (n === 7) EL.canDo(CAN_DO);
+  },
+  onRestart: function () { renderDays(); EL.memory(MEMORY, { step: 3, cols: 5 }); buildWeek(); }
+});
+</script>
+
+<script src="assets/gate.js"></script>
+</body>
+</html>

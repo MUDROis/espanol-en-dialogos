@@ -1,0 +1,301 @@
+{
+  "id": 48,
+  "title": "Carlos y Luis hablan de las chicas",
+  "titleRu": "Карлос и Луис говорят о девушках",
+  "part": 6,
+  "level": "B2+",
+  "theme": "Отношения, знакомство, характер  Las relaciones, el encuentro, el carácter",
+  "characters": ["carlos", "luis"],
+  "objectives": [
+    "Рассказывать о человеке: es alta, tiene el pelo rubio y los ojos azules, es simpática y cariñosa",
+    "Использовать imperfecto de subjuntivo после no sabía que...: no sabía que tu novia fuera de allí",
+    "Выражать чувства и реакции: me alegro mucho por ti, tenéis razón, le encanta leer y viajar",
+    "Говорить о планах: vais a volver a veros, ella vendrá a Madrid en diciembre",
+    "Рассказывать о знакомстве: nos conocimos en un curso de verano en Dublín",
+    "Обсуждать отношения и будущее: planeáis la boda, tenemos que terminar los estudios"
+  ],
+  "grammar": {
+    "no_sabia_que": {
+      "title": "No sabía que + imperfecto de subjuntivo",
+      "description": "После no sabía que..., no pensaba que..., no creía que... используется imperfecto de subjuntivo, так как речь идёт о факте, который говорящий только что узнал: no sabía que tu novia fuera de allí (я не знал, что твоя девушка оттуда). Глагол-сказуемое ставится в форму -ra/-se: fuera (был, поехал), estuvieras (находился), viniera (приехал).",
+      "forms": {
+        "yo": { "es": "no sabía que estuvieras en Australia", "ru": "я не знал, что ты в Австралии" },
+        "tu": { "es": "no sabías que fuera de Melbourne", "ru": "ты не знал, что она из Мельбурна" },
+        "el_ella": { "es": "no pensaba que estudiara medicina", "ru": "я не думал, что она изучает медицину" },
+        "nosotros": { "es": "no sabíamos que viniera en diciembre", "ru": "мы не знали, что она приедет в декабре" },
+        "vosotros": { "es": "no sabíais que tuvieras novia", "ru": "вы не знали, что у тебя есть девушка" },
+        "ellos_ellas": { "es": "no creían que planeárais la boda", "ru": "они не верили, что вы планируете свадьбу" }
+      },
+      "examples": [
+        { "es": "No sabía que tu novia fuera de allí.", "ru": "Я не знал, что твоя девушка оттуда." },
+        { "es": "No pensaba que un día viajaras tan lejos.", "ru": "Я не думал, что когда-нибудь ты поедешь так далеко." }
+      ]
+    },
+    "sentimientos": {
+      "title": "Чувства и реакции: encantar, alegrarse, tener razón",
+      "description": "encantar + inf / sustantivo = «обожать»: le encanta leer y viajar (она обожает читать и путешествовать). alegrarse de/por = «радоваться»: me alegro mucho por ti (я очень рад за тебя). tener razón = «быть правым»: tenéis razón (вы правы). gracias a Dios = «слава Богу».",
+      "list": [
+        { "es": "le encanta leer y viajar", "ru": "она обожает читать и путешествовать" },
+        { "es": "me alegro mucho por ti", "ru": "я очень рад за тебя" },
+        { "es": "tenéis razón", "ru": "вы правы" },
+        { "es": "estoy bien, gracias a Dios", "ru": "я в порядке, слава Богу" },
+        { "es": "ella estaba de vacaciones", "ru": "она была в отпуске" },
+        { "es": "eres un buen amigo", "ru": "ты хороший друг" }
+      ],
+      "examples": [
+        { "es": "Le encanta leer y viajar, y por eso estudia medicina en otra ciudad.", "ru": "Она обожает читать и путешествовать, и поэтому изучает медицину в другом городе." },
+        { "es": "Claro, tenéis razón: primero tenemos que terminar los estudios.", "ru": "Конечно, вы правы: сначала нам нужно закончить учёбу." }
+      ]
+    },
+    "volver_a": {
+      "title": "VOLVER A + infinitivo и планы на будущее",
+      "description": "volver a + infinitivo = «снова делать что-то»: vais a volver a veros (вы снова увидитесь). Для планов используют futuro simple (vendrá, viajaré) или ir a + infinitivo: ella vendrá a Madrid en diciembre (она приедет в Мадрид в декабре), primero tenemos que terminar los estudios (сначала мы должны закончить учёбу).",
+      "list": [
+        { "es": "vais a volver a veros", "ru": "вы снова увидитесь" },
+        { "es": "ella vendrá a Madrid en diciembre", "ru": "она приедет в Мадрид в декабре" },
+        { "es": "en unos meses nos volveremos a encontrar", "ru": "через несколько месяцев мы снова встретимся" },
+        { "es": "primero tenemos que terminar los estudios", "ru": "сначала мы должны закончить учёбу" },
+        { "es": "ya estáis planeando la boda", "ru": "вы уже планируете свадьбу" }
+      ],
+      "examples": [
+        { "es": "¿Cuándo vais a volver a veros?", "ru": "Когда вы снова увидитесь?" },
+        { "es": "Ella vendrá a Madrid en diciembre, y nos volveremos a ver.", "ru": "Она приедет в Мадрид в декабре, и мы снова увидимся." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "las_relaciones": [
+      { "es": "la novia", "ru": "девушка, подруга (возлюбленная)" },
+      { "es": "el novio", "ru": "парень (возлюбленный)" },
+      { "es": "conocerse", "ru": "познакомиться" },
+      { "es": "el curso de verano", "ru": "летние курсы" },
+      { "es": "la boda", "ru": "свадьба" },
+      { "es": "estar de vacaciones", "ru": "быть в отпуске" },
+      { "es": "el horario", "ru": "расписание" }
+    ],
+    "la_descripcion": [
+      { "es": "guapa", "ru": "красивая" },
+      { "es": "alta", "ru": "высокая" },
+      { "es": "el pelo rubio", "ru": "светлые волосы" },
+      { "es": "los ojos azules", "ru": "голубые глаза" },
+      { "es": "simpática", "ru": "приветливая" },
+      { "es": "cariñosa", "ru": "ласковая" },
+      { "es": "inteligente", "ru": "умная" },
+      { "es": "lejano", "ru": "далёкий" }
+    ],
+    "los_estudios": [
+      { "es": "la medicina", "ru": "медицина" },
+      { "es": "estudiar", "ru": "изучать, учиться" },
+      { "es": "terminar los estudios", "ru": "закончить учёбу" },
+      { "es": "adaptarse a", "ru": "привыкнуть к чему-то" },
+      { "es": "encantar", "ru": "обожать" },
+      { "es": "viajar", "ru": "путешествовать" },
+      { "es": "planear", "ru": "планировать" },
+      { "es": "volver a + infinitivo", "ru": "снова что-то делать" }
+    ],
+    "los_verbos": [
+      { "es": "venir", "ru": "приходить, приезжать" },
+      { "es": "alegrarse de/por", "ru": "радоваться" },
+      { "es": "tener razón", "ru": "быть правым" },
+      { "es": "terminar", "ru": "заканчивать" },
+      { "es": "contar", "ru": "рассказывать" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Carlos", "es": "¿Qué tal el viaje? ¿Ya te has adaptado al horario?", "ru": "Как прошла поездка? Ты уже привык к смене времени?" },
+    { "speaker": "Luis", "es": "¡Hola! Ya estoy bien, gracias a Dios. Es que Australia es un país muy lejano.", "ru": "Привет! Я уже в порядке, слава Богу. Дело в том, что Австралия — очень далёкая страна." },
+    { "speaker": "Carlos", "es": "No sabía que tu novia fuera de allí. ¿Es de Sídney?", "ru": "Я не знал, что твоя девушка оттуда. Она из Сиднея?" },
+    { "speaker": "Luis", "es": "No, es de Melbourne. Es un lugar muy bonito.", "ru": "Нет, она из Мельбурна. Это очень красивое место." },
+    { "speaker": "Carlos", "es": "¿Cómo es? Cuéntame más.", "ru": "Какая она? Расскажи мне больше." },
+    { "speaker": "Luis", "es": "Es una chica muy guapa. Es alta, tiene el pelo rubio y los ojos azules. Es muy simpática y cariñosa.", "ru": "Она очень красивая девушка. Высокая, со светлыми волосами и голубыми глазами. Она очень приветливая и ласковая." },
+    { "speaker": "Carlos", "es": "¿Y qué estudia?", "ru": "А что она изучает?" },
+    { "speaker": "Luis", "es": "Estudia medicina. Es una chica muy inteligente. Le encanta leer y viajar.", "ru": "Она изучает медицину. Она очень умная девушка. Она обожает читать и путешествовать." },
+    { "speaker": "Carlos", "es": "¡Qué interesante! ¿Y cómo os conocisteis?", "ru": "Как интересно! А как вы познакомились?" },
+    { "speaker": "Luis", "es": "Nos conocimos en un curso de verano en Dublín. Ella estaba de vacaciones y yo también.", "ru": "Мы познакомились на летних курсах в Дублине. Она была в отпуске, и я тоже." },
+    { "speaker": "Carlos", "es": "¡Qué romántico! ¿Y cuándo vais a volver a veros?", "ru": "Как романтично! А когда вы снова увидитесь?" },
+    { "speaker": "Luis", "es": "En unos meses. Ella vendrá a Madrid en diciembre.", "ru": "Через несколько месяцев. Она приедет в Мадрид в декабре." },
+    { "speaker": "Carlos", "es": "¡Qué bien! Entonces, ¿ya estáis planeando la boda?", "ru": "Как здорово! Значит, вы уже планируете свадьбу?" },
+    { "speaker": "Luis", "es": "No, todavía no. Primero tenemos que terminar los estudios.", "ru": "Нет, ещё нет. Сначала нам нужно закончить учёбу." },
+    { "speaker": "Carlos", "es": "Claro, tenéis razón. Bueno, me alegro mucho por ti.", "ru": "Конечно, вы правы. Ну что ж, я очень рад за тебя." },
+    { "speaker": "Luis", "es": "Gracias, Carlos. Eres un buen amigo.", "ru": "Спасибо, Карлос. Ты хороший друг." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "la novia", "ru": "девушка (возлюбленная)" },
+        { "es": "conocerse", "ru": "познакомиться" },
+        { "es": "el curso de verano", "ru": "летние курсы" },
+        { "es": "la boda", "ru": "свадьба" },
+        { "es": "el pelo rubio", "ru": "светлые волосы" },
+        { "es": "los ojos azules", "ru": "голубые глаза" },
+        { "es": "simpática", "ru": "приветливая" },
+        { "es": "cariñosa", "ru": "ласковая" },
+        { "es": "adaptarse a", "ru": "привыкнуть к" },
+        { "es": "estar de vacaciones", "ru": "быть в отпуске" }
+      ]
+    },
+    {
+      "type": "fill-gap-no_sabia_que",
+      "title": "Практика: No sabía que + subjuntivo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "No sabía que tu novia ___ de allí.", "ru": "Я не знал, что твоя девушка оттуда", "answer": "fuera", "options": ["fuera", "es", "era"] },
+        { "text": "No sabía que ___ en Australia.", "ru": "Я не знал, что ты в Австралии", "answer": "estuvieras", "options": ["estuvieras", "estás", "estabas"] },
+        { "text": "No pensaba que ___ medicina.", "ru": "Я не думал, что она изучает медицину", "answer": "estudiara", "options": ["estudiara", "estudia", "estudiaba"] },
+        { "text": "No sabíamos que ___ en diciembre.", "ru": "Мы не знали, что она приедет в декабре", "answer": "viniera", "options": ["viniera", "viene", "vendrá"] },
+        { "text": "No creían que vosotros ___ la boda.", "ru": "Они не верили, что вы планируете свадьбу", "answer": "planearais", "options": ["planearais", "planeáis", "planeabais"] }
+      ]
+    },
+    {
+      "type": "fill-gap-sentimientos",
+      "title": "Практика: Чувства и реакции",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Le ___ leer y viajar.", "ru": "Она обожает читать и путешествовать", "answer": "encanta", "options": ["encanta", "molesta", "aburre"] },
+        { "text": "Me ___ mucho por ti.", "ru": "Я очень рад за тебя", "answer": "alegro", "options": ["alegro", "alegra", "alegró"] },
+        { "text": "Tenéis ___.", "ru": "Вы правы", "answer": "razón", "options": ["razón", "culpa", "cuidado"] },
+        { "text": "Estoy bien, gracias a ___.", "ru": "Я в порядке, слава Богу", "answer": "Dios", "options": ["Dios", "ti", "todo"] },
+        { "text": "Ella estaba de ___ cuando se conocieron.", "ru": "Она была в отпуске, когда они познакомились", "answer": "vacaciones", "options": ["vacaciones", "viaje", "trabajo"] }
+      ]
+    },
+    {
+      "type": "fill-gap-volver_a",
+      "title": "Практика: VOLVER A + infinitivo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Cuándo vais a ___ a veros?", "ru": "Когда вы снова увидитесь?", "answer": "volver", "options": ["volver", "venir", "ir"] },
+        { "text": "Ella ___ a Madrid en diciembre.", "ru": "Она приедет в Мадрид в декабре", "answer": "vendrá", "options": ["vendrá", "viene", "venía"] },
+        { "text": "Primero tenemos que ___ los estudios.", "ru": "Сначала нам нужно закончить учёбу", "answer": "terminar", "options": ["terminar", "acabar", "empezar"] },
+        { "text": "Quiero ___ a ver esa película.", "ru": "Я хочу снова посмотреть этот фильм", "answer": "volver", "options": ["volver", "salir", "decir"] },
+        { "text": "En unos meses nos ___ a encontrar.", "ru": "Через несколько месяцев мы снова встретимся", "answer": "volveremos", "options": ["volveremos", "volvemos", "volvimos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Ya te has ___ al horario?", "ru": "Ты уже привык к смене времени?", "answer": "adaptado", "options": ["adaptado", "olvidado", "despertado"] },
+        { "text": "Australia es un país muy ___.", "ru": "Австралия — очень далёкая страна", "answer": "lejano", "options": ["lejano", "cercano", "grande"] },
+        { "text": "No sabía que tu novia ___ de allí.", "ru": "Я не знал, что твоя девушка оттуда", "answer": "fuera", "options": ["fuera", "es", "será"] },
+        { "text": "Es alta, tiene el pelo ___ y los ojos azules.", "ru": "Она высокая, со светлыми волосами и голубыми глазами", "answer": "rubio", "options": ["rubio", "negro", "corto"] },
+        { "text": "Nos ___ en un curso de verano en Dublín.", "ru": "Мы познакомились на летних курсах в Дублине", "answer": "conocimos", "options": ["conocimos", "reconocimos", "salimos"] },
+        { "text": "Le ___ leer y viajar.", "ru": "Она обожает читать и путешествовать", "answer": "encanta", "options": ["encanta", "encantan", "molesta"] },
+        { "text": "¿Cuándo vais a ___ a veros?", "ru": "Когда вы снова увидитесь?", "answer": "volver", "options": ["volver", "venir", "ir"] },
+        { "text": "Ella ___ a Madrid en diciembre.", "ru": "Она приедет в Мадрид в декабре", "answer": "vendrá", "options": ["vendrá", "viene", "venía"] },
+        { "text": "Tenéis ___.", "ru": "Вы правы", "answer": "razón", "options": ["razón", "culpa", "prisa"] },
+        { "text": "Me ___ mucho por ti.", "ru": "Я очень рад за тебя", "answer": "alegro", "options": ["alegro", "alegra", "molesto"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Ты — Карлос, расспрашиваешь Луиса о его поездке и девушке"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Луисом",
+      "role": "Luis",
+      "description": "Ты — Луис, рассказываешь Карлосу о своей девушке"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи о знакомстве и своей девушке/парне: внешность, характер, планы",
+      "template": [
+        { "label": "Ты уже привык к расписанию?", "es": "¿Ya te has ___ al horario?" },
+        { "label": "Слава Богу", "es": "Gracias a ___." },
+        { "label": "Я не знал, что она оттуда", "es": "No sabía que ___ de allí." },
+        { "label": "Она высокая", "es": "Es ___, tiene el pelo rubio." },
+        { "label": "Обожает читать", "es": "Le ___ leer." },
+        { "label": "Мы познакомились", "es": "Nos ___ en un curso de verano." },
+        { "label": "Вы снова увидитесь", "es": "Vais a ___ a veros." },
+        { "label": "Она приедет", "es": "Ella ___ a Madrid en diciembre." },
+        { "label": "Вы правы", "es": "Tenéis ___." },
+        { "label": "Сначала нужно закончить учёбу", "es": "Primero tenemos que ___ los estudios." }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Dónde estudió Luis para adaptarse al horario?",
+          "ru": "Как прошла поездка у Луиса?",
+          "options": ["Fue a Australia", "Fue a Madrid", "Se quedó en casa", "Fue a Dublín"],
+          "answer": 0
+        },
+        {
+          "question": "¿De dónde es la novia de Luis?",
+          "ru": "Откуда девушка Луиса?",
+          "options": ["De Sídney", "De Melbourne", "De Dublín", "De Madrid"],
+          "answer": 1
+        },
+        {
+          "question": "¿Dónde se conocieron Luis y su novia?",
+          "ru": "Где познакомились Луис и его девушка?",
+          "options": ["En un curso de verano en Dublín", "En Madrid", "En Australia", "En la universidad"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué estudia la novia de Luis?",
+          "ru": "Что изучает девушка Луиса?",
+          "options": ["Medicina", "Ingeniería", "Derecho", "Filosofía"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo tiene el pelo la novia de Luis?",
+          "ru": "Какие волосы у девушки Луиса?",
+          "options": ["Rubio", "Negro", "Castaño", "Rojo"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué le encanta hacer a la novia de Luis?",
+          "ru": "Что обожает делать девушка Луиса?",
+          "options": ["Leer y viajar", "Cocinar", "Bailar", "Dibujar"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuándo vendrá ella a Madrid?",
+          "ru": "Когда она приедет в Мадрид?",
+          "options": ["En primavera", "En diciembre", "En verano", "El próximo año"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué pregunta Carlos sobre la boda?",
+          "ru": "О чём спрашивает Карлос про свадьбу?",
+          "options": ["Si ya están planeando la boda", "Si van a casarse en Australia", "Si su novia quiere una boda grande", "Si han invitado a Carlos"],
+          "answer": 0
+        },
+        {
+          "question": "¿Por qué no planean la boda todavía?",
+          "ru": "Почему они пока не планируют свадьбу?",
+          "options": ["Porque no se quieren casar", "Porque viven lejos", "Primero tienen que terminar los estudios", "Porque son muy jóvenes"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué dice Luis al final sobre Carlos?",
+          "ru": "Что Луис говорит в конце о Карлосе?",
+          "options": ["Que es un buen amigo", "Que debe viajar más", "Que tiene razón en todo", "Que es muy curioso"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повтори слова по теме «отношения, знакомство, характер»",
+    "Практика: расскажи о своём друге или подруге. Используй: es.../tiene..., le encanta..., nos conocimos..., vais a volver a...",
+    "Дневник: опиши человека, который тебе приятен (внешность и характер)",
+    "Грамматика: составь 4 предложения с no sabía que + subjuntivo (fuera, estuviera, viniera...)"
+  ]
+}

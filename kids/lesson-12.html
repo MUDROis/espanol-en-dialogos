@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tengo… — Урок 12 · Español A0–A1</title>
+<meta name="description" content="Урок 12: глагол TENER (tengo, tienes, tiene) — что у тебя? Собери свой рюкзак. Курс испанского A0–A1 для детей, блок 2.">
+<link rel="stylesheet" href="assets/course.css">
+</head>
+<body data-theme="tener">
+
+<header class="lesson-head">
+  <a class="link-back" href="course.html">← Все уроки</a>
+  <span class="lh-title">Урок 12 · TENER — tengo, tienes, tiene</span>
+  <span class="lh-spacer"></span>
+  <a class="link-ghost" href="lesson-13.html">Урок 13 →</a>
+</header>
+
+<div class="voice-note" id="voiceNote"></div>
+<div class="save-indicator" id="saveIndicator"> Прогресс сохранён</div>
+
+<div class="container">
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ШАГ 1 -->
+  <section class="step active" id="step1">
+    <h1> Tengo…</h1>
+    <p style="font-size:1.5em">¡Hola, amigo! Что у тебя в рюкзаке? </p>
+    <p>Сегодня мы познакомимся с глаголом <strong>tener</strong> — «иметь». Он отвечает на вопрос <strong>«Что у тебя есть?»</strong>.</p>
+    <h3>В этом уроке</h3>
+    <p> Глагол <strong>tener</strong>: tengo, tienes, tiene<br>
+        Фразы «Tengo un perro», «¿Qué tienes?»<br>
+        Что в рюкзаке<br>
+        Игра «Собери свой рюкзак»</p>
+    <div class="tip"> <strong>Совет:</strong> очень скоро ты заметишь: <em>yo tengo un gato</em> звучит совсем как английское <em>I have a cat</em>. Это не совпадение — испанский и английский «родственники»!</div>
+    <div class="nav-buttons center">
+      <button class="btn btn-primary" data-next>¡Vamos! Поехали! </button>
+    </div>
+  </section>
+
+  <!-- ШАГ 2 -->
+  <section class="step" id="step2">
+    <h2> Tener — всегда с нами</h2>
+    <p>У <em>tener</em> четыре главные формы, и все они начинаются с <strong>ten-</strong>. Запоминай легко!</p>
+    <div class="phonetics">
+      <div class="phon-card" data-say="Yo tengo un perro.">
+        <div class="phon-letter">tengo</div>
+        <div class="phon-emoji">🐕</div>
+        <div class="phon-word">Tengo un perro</div>
+        <div class="phon-hint">У меня есть собака. <strong>я</strong></div>
+        <button class="mic-btn" data-mic="tengo un perro" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="Tú tienes un gato.">
+        <div class="phon-letter">tienes</div>
+        <div class="phon-emoji">🐈</div>
+        <div class="phon-word">Tienes un gato</div>
+        <div class="phon-hint">У тебя есть кот. <strong>ты</strong></div>
+        <button class="mic-btn" data-mic="tienes un gato" data-step="2">🎤</button>
+      </div>
+      <div class="phon-card" data-say="Ella tiene una casa.">
+        <div class="phon-letter">tiene</div>
+        <div class="phon-emoji">🏡</div>
+        <div class="phon-word">Tiene una casa</div>
+        <div class="phon-hint">У неё есть дом. <strong>она / он</strong></div>
+        <button class="mic-btn" data-mic="tiene una casa" data-step="2">🎤</button>
+      </div>
+    </div>
+    <div class="tip"> <strong>Секрет:</strong> <em>tengo</em> «потерял» букву <strong>n</strong> — только в <strong>я</strong>. <em>Tienes</em> и <em>tiene</em> её сохранили.</div>
+    <div class="feedback" id="feedback2"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 3 -->
+  <section class="step" id="step3">
+    <h2> Что в рюкзаке?</h2>
+    <p>Послушай и повтори. Перед вещами нужен правильный артикль: <em>un</em> или <em>una</em>.</p>
+    <div class="words" id="haveCards"></div>
+    <p style="margin-top:26px"><strong> Найди пары: предмет и картинка</strong></p>
+    <div class="memory-grid" id="memoryGrid"></div>
+    <div class="memory-counter">Найдено пар: <span id="memoryCounter">0</span>/5</div>
+    <div class="feedback" id="feedback3"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 4 -->
+  <section class="step" id="step4">
+    <h2> Что у тебя есть?</h2>
+    <p>В школьной столовой дети делятся впечатлениями. Послушай и повтори.</p>
+    <div class="dialogue">
+      <div class="dialogue-line" data-say="¿Qué tienes?">
+        <div class="avatar">🧑</div>
+        <div class="text">¿Qué tienes?<span class="ru">Что у тебя есть?</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="qué tienes" data-step="4">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Tengo un bolígrafo.">
+        <div class="avatar">👧</div>
+        <div class="text">Tengo un bolígrafo.<span class="ru">У меня ручка.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="tengo un bolígrafo" data-step="4" data-threshold="0.35">🎤</button>
+      </div>
+      <div class="dialogue-line" data-say="Yo tengo una mochila.">
+        <div class="avatar">🧑</div>
+        <div class="text">Yo tengo una mochila.<span class="ru">А у меня рюкзак.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="yo tengo una mochila" data-step="4" data-threshold="0.35">🎤</button>
+      </div>
+      <div class="dialogue-line right" data-say="Tiene diez años.">
+        <div class="avatar">👧</div>
+        <div class="text">Tiene diez años.<span class="ru">Ему десять лет.</span></div>
+        <div class="play">🔊</div>
+        <button class="mic-btn" data-mic="tiene diez años" data-step="4" data-threshold="0.4">🎤</button>
+      </div>
+    </div>
+    <div class="bubble-row">
+      <button class="btn btn-primary" data-repeat='["¿Qué tienes?","Tengo un bolígrafo.","Yo tengo una mochila.","Tiene diez años."]' data-gap="2500"> Слушать весь диалог</button>
+    </div>
+    <div class="tip"> <strong>Шпаргалка:</strong> <em>Tengo un perro.</em> (у меня есть собака) — <em>Tienes una casa.</em> (у тебя есть дом)</div>
+    <div class="feedback" id="feedback4"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 5 · Рюкзак -->
+  <section class="step" id="step5">
+    <h2> Собери свой рюкзак</h2>
+    <p>Положи в рюкзак только то, что говорит «Tengo un/una…». Нажми на вещь, потом на рюкзак.</p>
+    <div class="game-box">
+      <div class="bank" id="assignBank"></div>
+      <div class="slots people" id="assignTargets"></div>
+      <div class="assign-progress" id="assignProgress"></div>
+    </div>
+    <div class="tip"> <strong>Задание:</strong> закрой экран и перечисли содержимое настоящего рюкзака: <em>«Tengo un cuaderno, tengo un lápiz»</em>.</div>
+    <div class="feedback" id="feedback5"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 6 -->
+  <section class="step" id="step6">
+    <h2> Проверь себя!</h2>
+    <p>Три вопроса про глагол <em>tener</em>.</p>
+    <div id="quizContainer"></div>
+    <div class="assign-progress" id="quizScore"></div>
+    <div class="feedback" id="feedback6"></div>
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" data-prev>← Назад</button>
+      <button class="btn btn-primary" data-next>Дальше →</button>
+    </div>
+  </section>
+
+  <!-- ШАГ 7 -->
+  <section class="step" id="step7">
+    <div class="final">
+
+      <h1>¡Qué cosas!</h1>
+      <p style="font-size:1.4em">Ты прошёл двенадцатый урок!</p>
+      <div class="medal"> Медаль «¡Yo tengo!»</div>
+      <p>Сегодня ты узнал:</p>
+      <p> <strong>tener</strong> = «иметь»: tengo, tienes, tiene, tenemos<br>
+        Фразы «Tengo un/una…», «¿Qué tienes?»<br>
+        <em>tengo</em> — единственная форма без <strong>n</strong></p>
+
+      <h3> ¡Yo puedo! — Я могу!</h3>
+      <div class="can-do" id="canDo"></div>
+
+      <div class="homework">
+        <strong> Домашнее задание</strong><br>
+        Расспроси друга: <strong>«¿Qué tienes?»</strong> — и расскажи о своих вещах:<br>
+        <em>«Tengo un perro», «Tengo diez años»</em>
+      </div>
+
+      <div class="nav-buttons center">
+        <button class="btn btn-secondary" data-restart> Пройти ещё раз</button>
+        <a class="btn btn-primary" href="lesson-13.html" style="text-decoration:none;display:inline-block">Урок 13 →</a>
+      </div>
+      <p style="margin-top:18px"><a class="link-ghost" href="course.html">← Ко всем урокам курса</a></p>
+    </div>
+  </section>
+</div>
+
+<script src="assets/lesson.js"></script>
+<script>
+/* ============================ ДАННЫЕ УРОКА 12 ============================ */
+var HAVE = [
+  { es: 'un perro', ru: 'собака', e: '🐕' },
+  { es: 'un gato', ru: 'кот', e: '🐈' },
+  { es: 'una casa', ru: 'дом', e: '🏡' },
+  { es: 'una mochila', ru: 'рюкзак', e: '🎒' },
+  { es: 'un bolígrafo', ru: 'ручка', e: '🖊️' }
+];
+
+var MEMORY = HAVE.map(function (h) { return { a: h.es, b: h.e, sa: h.es, sb: null }; });
+
+var ITEMS = [
+  { key: 'perro', e: '🐕', label: 'un perro', say: 'Tengo un perro' },
+  { key: 'gato', e: '🐈', label: 'un gato', say: 'Tengo un gato' },
+  { key: 'casa', e: '🏡', label: 'una casa', say: 'Tengo una casa' },
+  { key: 'mochila', e: '🎒', label: 'una mochila', say: 'Tengo una mochila' },
+  { key: 'bolígrafo', e: '🖊️', label: 'un bolígrafo', say: 'Tengo un bolígrafo' },
+  { key: 'libro', e: '📕', label: 'un libro', say: 'Tengo un libro' }
+];
+
+var QUIZ = [
+  { q: ' Как сказать «У меня есть кот»?', opts: ['Tengo un gato', 'Tienes un gato', 'Tiene un gato', 'Soy un gato'], correct: 'Tengo un gato' },
+  { q: ' Что значит «¿Qué tienes?»', opts: ['Что у тебя есть?', 'Кто ты?', 'Где ты?', 'Сколько тебе лет?'], correct: 'Что у тебя есть?' },
+  { q: ' В какой форме <em>tener</em> нет буквы N?', opts: ['tengo', 'tienes', 'tiene', 'tenemos'], correct: 'tengo' }
+];
+
+var CAN_DO = [
+  'Я говорю «Tengo un/una…»',
+  'Я говорю «Tienes…»',
+  'Я спрашиваю «¿Qué tienes?»',
+  'Я называю 5 вещей из рюкзака'
+];
+
+function renderHave() {
+  var box = document.getElementById('haveCards');
+  box.innerHTML = '';
+  HAVE.forEach(function (h) {
+    var c = EL.el('div', 'word-card');
+    c.setAttribute('data-say', h.es);
+    c.style.background = 'linear-gradient(140deg, var(--c3), var(--c1))';
+    c.innerHTML = '<span class="emoji">' + h.e + '</span><span class="es">' + h.es + '</span><span class="ru">' + h.ru + '</span>' +
+      '<button class="mic-btn" data-mic="' + h.es + '" data-step="3">🎤</button>';
+    box.appendChild(c);
+  });
+}
+
+function buildBag() {
+  EL.assign({
+    bank: 'assignBank',
+    targets: 'assignTargets',
+    stateKey: 'bagBuild',
+    step: 5,
+    items: EL.shuffle(ITEMS).map(function (h) {
+      return { key: h.key, label: h.label, emoji: '', say: h.say };
+    }),
+    slots: EL.shuffle(ITEMS).map(function (h) {
+      return { key: h.key, emoji: h.e, label: 'что это?' };
+    }),
+    badMsg: ' ¡Casi! Посмотри на картинку и найди ей правильное испанское название.',
+    winMsg: ' ¡Perfecto! Рюкзак собран — теперь перечисли его содержимое!',
+    onWin: function () {
+      EL.say(5, ' Отлично! Скажи вслух: «Tengo un perro, tengo una mochila…» — что у тебя есть?', 'success');
+    }
+  });
+}
+
+EL.init({
+  id: 12,
+  rate: 0.7,
+  resumeMsg: ' Продолжить урок 12 с шага ',
+  onStep: function (n) {
+    if (n === 3) { renderHave(); EL.memory(MEMORY, { step: 3 }); }
+    if (n === 5) buildBag();
+    if (n === 6) EL.quiz(QUIZ, { step: 6 });
+    if (n === 7) EL.canDo(CAN_DO);
+  },
+  onRestart: function () { renderHave(); EL.memory(MEMORY, { step: 3 }); buildBag(); }
+});
+</script>
+
+<script src="assets/gate.js"></script>
+</body>
+</html>

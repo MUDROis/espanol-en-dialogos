@@ -1,0 +1,315 @@
+{
+  "id": 36,
+  "title": "Lucía y Carlos buscan la información sobre Marruecos",
+  "titleRu": "Лусия и Карлос ищут информацию о Марокко",
+  "part": 4,
+  "level": "B1",
+  "theme": "Путешествие в Марокко, интернет, информация  El viaje a Marruecos, el internet, la información",
+  "characters": ["carlos", "lucia"],
+  "objectives": [
+    "Искать информацию в интернете: buscar por internet, las páginas web, los enlaces, los sitios",
+    "Рассказывать о сделанном: he mirado, he copiado, he guardado, he instalado, he entendido",
+    "Говорить о назначении предметов: la aplicación sirve para buscar..., sirve para ver precios",
+    "Обсуждать проблемы с техникой: se ha colgado, funciona mal, la contraseña es incorrecta",
+    "Планировать и предполагать: alquilaremos el coche, nos los enviarán mañana, serán suficientes",
+    "Говорить о деньгах и суммах: 1200€ serán suficientes, llevaré conmigo mil euros"
+  ],
+  "grammar": {
+    "pret_perfecto": {
+      "title": "Pretérito Perfecto: я уже сделал / мне уже отправили",
+      "description": "HABER в настоящем + participio для недавних действий: ya he mirado la información (я уже посмотрел информацию), he copiado toda la información y la he guardado en mi ordenador (я скопировал её, сохранил на компьютере). О недавнем действии других: ¿ya te han enviado los documentos? (тебе уже отправили документы?), aún no he recibido nada (я ещё ничего не получил).",
+      "forms": {
+        "yo": { "es": "he mirado la información", "ru": "я посмотрел информацию" },
+        "tu": { "es": "has instalado la aplicación", "ru": "ты установил приложение" },
+        "el_ella": { "es": "ha guardado el documento", "ru": "он/она сохранил документ" },
+        "nosotros": { "es": "hemos copiado los enlaces", "ru": "мы скопировали ссылки" },
+        "vosotros": { "es": "habéis escrito la contraseña", "ru": "вы ввели пароль" },
+        "ellos_ellas": { "es": "han enviado los documentos", "ru": "они отправили документы" }
+      },
+      "examples": [
+        { "es": "Ya he mirado la información en diferentes páginas web.", "ru": "Я уже посмотрел информацию на разных сайтах." },
+        { "es": "¿Ya te han enviado desde la agencia nuestros documentos?", "ru": "Тебе уже прислали из агентства наши документы?" }
+      ]
+    },
+    "sirve_para": {
+      "title": "SERVIR PARA + infinitivo: служить для",
+      "description": "SERVIR PARA + инфинитив — «служить для того, чтобы / для...»: la aplicación sirve para buscar toda la información sobre hoteles, precios y lugares de interés (приложение служит для поиска информации об отелях, ценах и достопримечательностях). Обычно используется 3-е лицо: sirve / sirven.",
+      "list": [
+        { "es": "sirve para buscar la información", "ru": "служит для поиска информации" },
+        { "es": "sirve para encontrar hoteles", "ru": "служит для поиска отелей" },
+        { "es": "sirve para ver los precios", "ru": "служит для просмотра цен" },
+        { "es": "sirve para entrar en los sitios web", "ru": "служит для входа на сайты" },
+        { "es": "los enlaces sirven para navegar", "ru": "ссылки служат для навигации" },
+        { "es": "¿para qué sirve la aplicación?", "ru": "для чего служит приложение?" }
+      ],
+      "examples": [
+        { "es": "He instalado una aplicación que sirve para buscar toda la información sobre hoteles, precios y lugares de interés.", "ru": "Я установила приложение, которое служит для поиска информации об отелях, ценах и достопримечательностях." }
+      ]
+    },
+    "volver_a_inf": {
+      "title": "VOLVER A + infinitivo: сделать снова",
+      "description": "VOLVER A + глагол — «снова/заново сделать что-то»: ¿Por qué no vuelves a cargar el ordenador? (Почему бы тебе не перезагрузить компьютер?), He vuelto a escribir la contraseña (Я снова ввёл пароль).",
+      "forms": {
+        "yo": { "es": "vuelvo a cargar el ordenador", "ru": "я снова перезагружаю компьютер" },
+        "tu": { "es": "vuelves a escribir la contraseña", "ru": "ты снова вводишь пароль" },
+        "el_ella": { "es": "vuelve a abrir los sitios", "ru": "он/она снова открывает сайты" },
+        "nosotros": { "es": "volvemos a mirar la información", "ru": "мы снова смотрим информацию" },
+        "vosotros": { "es": "volvéis a instalar la aplicación", "ru": "вы снова устанавливаете приложение" },
+        "ellos_ellas": { "es": "vuelven a enviar los documentos", "ru": "они снова отправляют документы" }
+      },
+      "examples": [
+        { "es": "¿Por qué no vuelves a cargar el ordenador?", "ru": "Почему бы тебе не перезагрузить компьютер?" },
+        { "es": "He vuelto a escribir la contraseña, pero sigue sin funcionar.", "ru": "Я снова ввёл пароль, но он всё ещё не работает." }
+      ]
+    },
+    "futuro_simple": {
+      "title": "Futuro Simple: планы и предположения",
+      "description": "Будущее время для планов и предположений: dónde alquilaremos el coche (где мы арендуем машину), nos los enviarán mañana (нам их отправят завтра), creo que 1200€ serán suficientes (думаю, 1200 евро хватит), la veré más tarde (посмотрю её позже).",
+      "forms": {
+        "yo": { "es": "la veré más tarde", "ru": "я посмотрю её позже" },
+        "tu": { "es": "llevarás el dinero contigo", "ru": "ты возьмёшь деньги с собой" },
+        "el_ella": { "es": "enviará los documentos", "ru": "он/она отправит документы" },
+        "nosotros": { "es": "alquilaremos el coche", "ru": "мы арендуем машину" },
+        "vosotros": { "es": "buscaréis la información", "ru": "вы поищете информацию" },
+        "ellos_ellas": { "es": "nos los enviarán mañana", "ru": "нам их отправят завтра" }
+      },
+      "examples": [
+        { "es": "Vamos a buscar por internet dónde alquilaremos el coche.", "ru": "Давай поищем в интернете, где мы арендуем машину." },
+        { "es": "Creo que 1200€ serán suficientes.", "ru": "Думаю, 1200 евро будет достаточно." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "internet_y_ordenador": [
+      { "es": "la página web", "ru": "веб-страница" },
+      { "es": "el enlace", "ru": "ссылка" },
+      { "es": "el sitio", "ru": "сайт" },
+      { "es": "el internet", "ru": "интернет" },
+      { "es": "el correo electrónico", "ru": "электронная почта" },
+      { "es": "la contraseña", "ru": "пароль" },
+      { "es": "el ordenador", "ru": "компьютер" },
+      { "es": "la tableta", "ru": "планшет" },
+      { "es": "el fichero", "ru": "файл, папка" },
+      { "es": "la aplicación", "ru": "приложение" }
+    ],
+    "verbos_tecnologia": [
+      { "es": "buscar", "ru": "искать" },
+      { "es": "instalar", "ru": "устанавливать" },
+      { "es": "guardar", "ru": "сохранять" },
+      { "es": "copiar", "ru": "копировать" },
+      { "es": "enviar", "ru": "отправлять" },
+      { "es": "escribir", "ru": "писать, вводить" },
+      { "es": "recibir", "ru": "получать" },
+      { "es": "cargar", "ru": "заряжать, перезагружать" },
+      { "es": "funcionar", "ru": "работать" },
+      { "es": "abrirse", "ru": "открываться" },
+      { "es": "colgado", "ru": "завис (об устройстве)" }
+    ],
+    "viaje_a_marruecos": [
+      { "es": "Marruecos", "ru": "Марокко" },
+      { "es": "la compañía", "ru": "компания" },
+      { "es": "alquilar", "ru": "арендовать" },
+      { "es": "el coche", "ru": "машина" },
+      { "es": "el hotel", "ru": "отель" },
+      { "es": "los lugares de interés", "ru": "достопримечательности" },
+      { "es": "la agencia", "ru": "агентство" },
+      { "es": "los documentos", "ru": "документы" },
+      { "es": "el dinero", "ru": "деньги" },
+      { "es": "el precio", "ru": "цена" },
+      { "es": "los euros", "ru": "евро" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Carlos", "es": "Vamos a buscar por internet dónde alquilaremos el coche.", "ru": "Давай поищем в интернете, где мы арендуем машину." },
+    { "speaker": "Lucía", "es": "Ya he mirado la información en diferentes páginas web. Aquí tienes dos enlaces a las compañías que me han parecido seguras y que tienen buen precio.", "ru": "Я уже посмотрела информацию на разных сайтах. Вот две ссылки на компании, которые мне показались надёжными и у которых хорошая цена." },
+    { "speaker": "Carlos", "es": "Gracias... No se abren...", "ru": "Спасибо... Не открываются..." },
+    { "speaker": "Lucía", "es": "¿Pasa algo con tu conexión a Internet?", "ru": "Что-то не так с подключением к Интернету?" },
+    { "speaker": "Carlos", "es": "No sé... Se ha colgado... Es que uso la tableta... Puedo entrar en los sitios en mi móvil, pero no es cómodo.", "ru": "Не знаю... Завис... Дело в том, что я использую планшет... Могу зайти на сайты с мобильного телефона, но это неудобно." },
+    { "speaker": "Lucía", "es": "He copiado toda la información y la he guardado en mi ordenador. ¿Cuál es tu correo electrónico? Ahora te la envío.", "ru": "Я скопировала всю информацию и сохранила её на своём компьютере. Какой у тебя адрес электронной почты? Сейчас тебе отправлю." },
+    { "speaker": "Carlos", "es": "carlos1992@hotmail.es", "ru": "carlos1992@hotmail.es" },
+    { "speaker": "Lucía", "es": "De los lugares que vamos a visitar... He instalado una aplicación en mi móvil que sirve para buscar toda la información sobre hoteles, precios y lugares de interés.", "ru": "Насчёт мест, которые мы посетим... Я установила приложение на телефон, которое служит для поиска информации об отелях, ценах и достопримечательностях." },
+    { "speaker": "Carlos", "es": "También la instalé a mi tableta... No puedo entrar en mi correo, dice que la contraseña es incorrecta.", "ru": "Я тоже установил его на планшет... Не могу зайти на свою почту, пишет, что пароль неверный." },
+    { "speaker": "Lucía", "es": "¿Por qué no vuelves a cargar el ordenador?", "ru": "Почему бы тебе не перезагрузить компьютер?" },
+    { "speaker": "Carlos", "es": "Ya he entendido qué pasa. Un botón en el teclado funciona mal. He escrito mal la contraseña y por eso no he podido entrar en mi correo.", "ru": "Уже понял, что происходит. Одна кнопка на клавиатуре плохо работает. Я неправильно ввёл пароль, поэтому не смог зайти на почту." },
+    { "speaker": "Lucía", "es": "¿No te han abierto los sitios?", "ru": "У тебя сайты не открылись?" },
+    { "speaker": "Carlos", "es": "Aún no. Bueno, ya he guardado la información que me has enviado en un fichero, la veré más tarde.", "ru": "Ещё нет. Ладно, я сохранил информацию, которую ты мне отправила, в папке, посмотрю её попозже." },
+    { "speaker": "Lucía", "es": "Está bien. ¿Ya te han enviado desde la agencia nuestros documentos?", "ru": "Хорошо. Тебе уже прислали из агентства наши документы?" },
+    { "speaker": "Carlos", "es": "Aún no he recibido nada. Hoy es domingo. Creo que nos los enviarán mañana.", "ru": "Я ещё ничего не получил. Сегодня воскресенье. Думаю, нам их отправят завтра." },
+    { "speaker": "Lucía", "es": "¿Cuánto dinero vas a llevar contigo?", "ru": "Сколько денег ты берёшь с собой?" },
+    { "speaker": "Carlos", "es": "Creo que 1200€ serán suficientes.", "ru": "Думаю, что 1200 евро достаточно." },
+    { "speaker": "Lucía", "es": "Sí, yo también llevaré conmigo mil euros.", "ru": "Да, я тоже возьму с собой тысячу евро." },
+    { "speaker": "Carlos", "es": "Pues, este asunto lo tenemos resuelto.", "ru": "Так, ну, это дело мы решили." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "la página web", "ru": "веб-страница" },
+        { "es": "el enlace", "ru": "ссылка" },
+        { "es": "el sitio", "ru": "сайт" },
+        { "es": "el internet", "ru": "интернет" },
+        { "es": "el correo electrónico", "ru": "электронная почта" },
+        { "es": "la contraseña", "ru": "пароль" },
+        { "es": "el ordenador", "ru": "компьютер" },
+        { "es": "la tableta", "ru": "планшет" },
+        { "es": "el fichero", "ru": "файл, папка" },
+        { "es": "la aplicación", "ru": "приложение" }
+      ]
+    },
+    {
+      "type": "fill-gap-pret_perfecto",
+      "title": "Практика: Pretérito Perfecto",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Ya ___ mirado la información en diferentes páginas web.", "ru": "Я уже посмотрел информацию на разных сайтах", "answer": "he", "options": ["he", "has", "ha"] },
+        { "text": "He copiado toda la información y la he ___ en mi ordenador.", "ru": "Я скопировал всю информацию и сохранил её на компьютере", "answer": "guardado", "options": ["guardado", "guardada", "guardar"] },
+        { "text": "¿Ya te ___ enviado los documentos desde la agencia?", "ru": "Тебе уже прислали из агентства документы?", "answer": "han", "options": ["han", "hacen", "están"] },
+        { "text": "Aún no ___ recibido nada.", "ru": "Я ещё ничего не получил", "answer": "he", "options": ["he", "ha", "habéis"] },
+        { "text": "He ___ mal la contraseña.", "ru": "Я неправильно ввёл пароль", "answer": "escrito", "options": ["escrito", "escribido", "escribe"] }
+      ]
+    },
+    {
+      "type": "fill-gap-sirve_para",
+      "title": "Практика: SERVIR PARA + infinitivo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "La aplicación ___ para buscar la información sobre hoteles.", "ru": "Приложение служит для поиска информации об отелях", "answer": "sirve", "options": ["sirve", "sirven", "sirvo"] },
+        { "text": "Los enlaces ___ para entrar en los sitios web.", "ru": "Ссылки служат для входа на сайты", "answer": "sirven", "options": ["sirven", "sirve", "sirviendo"] },
+        { "text": "La aplicación sirve para buscar lugares de ___.", "ru": "Приложение служит для поиска достопримечательностей", "answer": "interés", "options": ["interés", "interesante", "interesado"] },
+        { "text": "No me ___ el ordenador de mi hermano.", "ru": "Мне не подходит компьютер моего брата", "answer": "sirve", "options": ["sirve", "sirven", "servirá"] },
+        { "text": "¿Para qué ___ esta aplicación?", "ru": "Для чего служит это приложение?", "answer": "sirve", "options": ["sirve", "sirvo", "sirven"] }
+      ]
+    },
+    {
+      "type": "fill-gap-volver_a_inf",
+      "title": "Практика: VOLVER A + infinitivo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Por qué no ___ a cargar el ordenador?", "ru": "Почему бы тебе не перезагрузить компьютер?", "answer": "vuelves", "options": ["vuelves", "vuelve", "vuelvo"] },
+        { "text": "Voy a ___ a escribir la contraseña.", "ru": "Я собираюсь снова ввести пароль", "answer": "volver", "options": ["volver", "vuelve", "vuelvo"] },
+        { "text": "Si se ha colgado, ___ a empezar otra vez.", "ru": "Если он завис, начни заново", "answer": "vuelve", "options": ["vuelve", "vuelvo", "vuelven"] },
+        { "text": "Carlos ___ a mirar los enlaces de Lucía.", "ru": "Карлос снова смотрит ссылки Лусии", "answer": "vuelve", "options": ["vuelve", "vuelven", "volvemos"] },
+        { "text": "Hemos ___ a probar el ordenador y ahora funciona.", "ru": "Мы снова попробовали компьютер, и теперь он работает", "answer": "vuelto", "options": ["vuelto", "vuelta", "volver"] }
+      ]
+    },
+    {
+      "type": "fill-gap-futuro_simple",
+      "title": "Практика: Futuro Simple",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Vamos a buscar dónde ___ el coche.", "ru": "Давай поищем, где мы арендуем машину", "answer": "alquilaremos", "options": ["alquilaremos", "alquilamos", "alquilábamos"] },
+        { "text": "Creo que nos los ___ mañana.", "ru": "Думаю, нам их отправят завтра", "answer": "enviarán", "options": ["enviarán", "envían", "enviaron"] },
+        { "text": "Creo que 1200€ ___ suficientes.", "ru": "Думаю, 1200 евро будет достаточно", "answer": "serán", "options": ["serán", "son", "eran"] },
+        { "text": "La ___ más tarde.", "ru": "Я посмотрю её позже", "answer": "veré", "options": ["veré", "veo", "vería"] },
+        { "text": "Sí, yo también llevaré ___ mil euros.", "ru": "Да, я тоже возьму с собой тысячу евро", "answer": "conmigo", "options": ["conmigo", "contigo", "con él"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Ya ___ mirado la información.", "ru": "Я уже посмотрел информацию", "answer": "he", "options": ["he", "has", "ha"] },
+        { "text": "La aplicación ___ para buscar hoteles.", "ru": "Приложение служит для поиска отелей", "answer": "sirve", "options": ["sirve", "sirven", "sirvo"] },
+        { "text": "¿Por qué no ___ a cargar el ordenador?", "ru": "Почему бы тебе не перезагрузить компьютер?", "answer": "vuelves", "options": ["vuelves", "vuelve", "vuelvo"] },
+        { "text": "Vamos a buscar dónde ___ el coche.", "ru": "Давай поищем, где мы арендуем машину", "answer": "alquilaremos", "options": ["alquilaremos", "alquilamos", "alquilábamos"] },
+        { "text": "Creo que nos los ___ mañana.", "ru": "Думаю, нам их отправят завтра", "answer": "enviarán", "options": ["enviarán", "envían", "enviaron"] },
+        { "text": "He escrito mal la ___, por eso no puedo entrar.", "ru": "Я неправильно ввёл пароль, поэтому не могу войти", "answer": "contraseña", "options": ["contraseña", "clave", "cuenta"] },
+        { "text": "Sí, yo también llevaré ___ mil euros.", "ru": "Да, я тоже возьму с собой тысячу евро", "answer": "conmigo", "options": ["conmigo", "contigo", "con él"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Ты — Карлос, ищешь информацию об аренде машины и попадаешь в сложную ситуацию"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Ты — Лусия, помогаешь Карлосу с информацией, ссылками и документами"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Поговори с другом о подготовке к поездке и поиске информации в интернете",
+      "template": [
+        { "label": "Где мы арендуем машину?", "es": "¿Dónde ___ el coche?" },
+        { "label": "Приложение служит для поиска отелей", "es": "La aplicación ___ para buscar hoteles" },
+        { "label": "Почему бы тебе не перезагрузить компьютер?", "es": "¿Por qué no ___ a cargar el ordenador?" },
+        { "label": "Я уже посмотрел информацию", "es": "Ya he ___ la información" },
+        { "label": "У тебя уже открыты сайты?", "es": "¿Ya te han ___ los sitios?" },
+        { "label": "Ты возьмёшь деньги с собой", "es": "Llevarás el dinero ___" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Qué quieren buscar Carlos y Lucía por internet?",
+          "ru": "Что Карлос и Лусия хотят найти в интернете?",
+          "options": ["Los vuelos a Marruecos", "Dónde alquilaremos el coche", "Los mejores restaurantes", "El tiempo en Marruecos"],
+          "answer": 1
+        },
+        {
+          "question": "¿Por qué no se abren los enlaces que envía Lucía?",
+          "ru": "Почему не открываются ссылки, которые отправляет Лусия?",
+          "options": ["La conexión a Internet de Carlos no va", "Las páginas están cerradas", "No hay internet en la ciudad", "Los enlaces son falsos"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué ha hecho Lucía antes de enviar la información?",
+          "ru": "Что Лусия сделала перед отправкой информации?",
+          "options": ["La ha imprimido", "La ha copiado y guardado en su ordenador", "La ha olvidado", "La ha borrado"],
+          "answer": 1
+        },
+        {
+          "question": "¿Para qué sirve la aplicación que instaló Lucía?",
+          "ru": "Для чего служит приложение, которое установила Лусия?",
+          "options": ["Para jugar", "Para ver películas", "Para buscar información sobre hoteles, precios y lugares de interés", "Para hablar con amigos"],
+          "answer": 2
+        },
+        {
+          "question": "¿Por qué no puede entrar Carlos en su correo?",
+          "ru": "Почему Карлос не может войти в свою почту?",
+          "options": ["No tiene batería", "Ha escrito mal la contraseña", "El correo no existe", "La conexión es mala"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué le propone Lucía a Carlos?",
+          "ru": "Что предлагает Лусия Карлосу?",
+          "options": ["Comprar un móvil nuevo", "Ir a la agencia", "Cambiar de contraseña", "Volver a cargar el ordenador"],
+          "answer": 3
+        },
+        {
+          "question": "¿Cuándo enviarán los documentos de la agencia?",
+          "ru": "Когда пришлют документы из агентства?",
+          "options": ["El lunes de la semana que viene", "Mañana", "Han salido hoy", "No los enviarán"],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuánto dinero llevará Carlos?",
+          "ru": "Сколько денег возьмёт с собой Карлос?",
+          "options": ["1200 euros", "Mil euros", "900 euros", "Dos mil euros"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 минут: повтори слова по теме «интернет, компьютер, поездка»",
+    "Практика: расскажи, как ты искал(а) информацию о поездке в интернете. Используй: he buscado..., sirve para..., volver a..., nos enviarán...",
+    "Дневник: опиши, какими приложениями и сайтами ты пользуешься, планируя путешествие",
+    "Грамматика: составь 3 предложения с pretérito perfecto, 3 с sirve para + infinitivo, 3 с futuro simple"
+  ]
+}

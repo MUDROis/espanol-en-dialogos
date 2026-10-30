@@ -1,0 +1,302 @@
+{
+  "id": 54,
+  "title": "Lucía y Carlos hablan del deporte",
+  "titleRu": "Лусия и Карлос говорят о спорте",
+  "part": 6,
+  "level": "B2+",
+  "theme": "Спорт, увлечения и времяпрепровождение  El deporte, las aficiones y los planes",
+  "characters": ["lucia", "carlos"],
+  "objectives": [
+    "Извиняться и реагировать: perdona, vengo tarde, siento mucho que me hayas tenido que esperar, no te preocupes",
+    "Говорить о продолжительности: hace un rato que estoy aquí, hace dos años que juego al tenis",
+    "Обсуждать спорт и увлечения: practico el tenis, juego al fútbol, me gusta nadar, me encanta ver los partidos",
+    "Выражать желания и сомнения: quizás vaya a la montaña, ¡que tengas suerte!, seguro que te va a encantar",
+    "Употреблять gustar/encantar с A mí: a mí me gusta, a mí también, a ti me gusta + nombre",
+    "Говорить о планах: este fin de semana, el año pasado estuve en Italia, el año que viene quiero ir a Grecia"
+  ],
+  "grammar": {
+    "siento_que_subjuntivo_perfecto": {
+      "title": "Siento mucho que + perfecto de subjuntivo (disculpas)",
+      "description": "После siento mucho que / me alegro de que используется perfecto de subjuntivo (haya + participio): siento mucho que me hayas tenido que esperar (мне очень жаль, что тебе пришлось меня ждать), siento mucho que haya llegado tarde (мне очень жаль, что я опоздала), sentimos mucho que no hayáis podido venir (нам очень жаль, что вы не смогли прийти).",
+      "forms": {
+        "yo": { "es": "siento mucho que haya llegado tarde", "ru": "мне очень жаль, что я опоздала" },
+        "tu": { "es": "siento mucho que me hayas tenido que esperar", "ru": "мне очень жаль, что тебе пришлось меня ждать" },
+        "el_ella": { "es": "siento mucho que haya estado tan ocupado", "ru": "мне очень жаль, что он/она был(а) так занят(а)" },
+        "nosotros": { "es": "sentimos mucho que no hayáis podido venir", "ru": "нам очень жаль, что вы не смогли прийти" },
+        "vosotros": { "es": "sentís mucho que no haya podido avisar", "ru": "вам очень жаль, что я не смогла предупредить" },
+        "ellos_ellas": { "es": "sienten mucho que no hayan ganado el partido", "ru": "им очень жаль, что они не выиграли матч" }
+      },
+      "examples": [
+        { "es": "Perdona, vengo tarde. Siento mucho que me hayas tenido que esperar.", "ru": "Извини, я опаздываю. Мне очень жаль, что тебе пришлось меня ждать." },
+        { "es": "Sentimos mucho que no haya podido venir.", "ru": "Нам очень жаль, что я не смогла прийти." }
+      ]
+    },
+    "hace_tiempo_que": {
+      "title": "Hace + tiempo + QUE: сколько длится действие",
+      "description": "hace + время + que + verbo = «уже столько-то времени, как...»: hace un rato que estoy aquí (я уже давно здесь), hace dos años que juego al tenis (я уже два года играю в теннис), hace una semana que no nado (я уже неделю не плаваю). Вопрос: ¿cuánto tiempo hace que...? (сколько времени прошло с тех пор, как...?).",
+      "list": [
+        { "es": "hace un rato que estoy aquí", "ru": "я уже давно здесь" },
+        { "es": "hace dos años que juego al tenis", "ru": "я уже два года играю в теннис" },
+        { "es": "¿cuánto tiempo hace que juegas al fútbol?", "ru": "сколько времени ты уже играешь в футбол?" },
+        { "es": "hace una semana que no nado", "ru": "я уже неделю не плаваю" },
+        { "es": "hace mucho tiempo que no voy a la playa", "ru": "я уже давно не был на пляже" }
+      ],
+      "examples": [
+        { "es": "Hace un rato que estoy aquí. ¿Qué tal?", "ru": "Я уже давно здесь. Как дела?" },
+        { "es": "Hace dos años que juego al tenis, dos veces por semana.", "ru": "Я уже два года играю в теннис, два раза в неделю." }
+      ]
+    },
+    "quizas_subjuntivo_deseos": {
+      "title": "Quizás + subjuntivo; ¡Que + subjuntivo! (deseos)",
+      "description": "После quizás (может быть) при оттенке сомнения — subjuntivo: quizás vaya a la montaña con unos amigos (может быть, поеду в горы с друзьями), quizás juegue al tenis esta tarde (возможно, сыграю в теннис сегодня днём). Пожелание образуется с que + subjuntivo: ¡que tengas suerte! (удачи тебе!), ¡que disfrutes del fin de semana! (хороших выходных!).",
+      "list": [
+        { "es": "quizás vaya a la montaña con unos amigos", "ru": "может быть, поеду в горы с друзьями" },
+        { "es": "quizás juegue al tenis esta tarde", "ru": "возможно, сыграю в теннис сегодня днём" },
+        { "es": "quizás pueda ir a Grecia el año que viene", "ru": "может быть, смогу поехать в Грецию в следующем году" },
+        { "es": "¡que tengas suerte!", "ru": "удачи тебе!" },
+        { "es": "¡que disfrutes del fin de semana!", "ru": "хороших выходных!" },
+        { "es": "¡que lo pases bien en el partido!", "ru": "удачи тебе на матче!" }
+      ],
+      "examples": [
+        { "es": "No lo sé todavía. Quizás vaya a la montaña con unos amigos.", "ru": "Пока не знаю. Может быть, поеду в горы с друзьями." },
+        { "es": "¡Que tengas suerte!", "ru": "Удачи тебе!" }
+      ]
+    }
+  },
+  "vocabulary": {
+    "los_deportes": [
+      { "es": "el deporte", "ru": "спорт" },
+      { "es": "practicar un deporte", "ru": "заниматься спортом" },
+      { "es": "el tenis", "ru": "теннис" },
+      { "es": "el fútbol", "ru": "футбол" },
+      { "es": "el partido", "ru": "матч" },
+      { "es": "nadar", "ru": "плавать" },
+      { "es": "la piscina", "ru": "бассейн" },
+      { "es": "el mar", "ru": "море" },
+      { "es": "la playa", "ru": "пляж" },
+      { "es": "la natación", "ru": "плавание (вид спорта)" }
+    ],
+    "las_aficiones": [
+      { "es": "la afición", "ru": "увлечение" },
+      { "es": "el tiempo libre", "ru": "свободное время" },
+      { "es": "leer", "ru": "читать" },
+      { "es": "escuchar música", "ru": "слушать музыку" },
+      { "es": "pintar", "ru": "рисовать" },
+      { "es": "bailar", "ru": "танцевать" },
+      { "es": "viajar", "ru": "путешествовать" }
+    ],
+    "el_tiempo_y_los_planes": [
+      { "es": "dos veces por semana", "ru": "два раза в неделю" },
+      { "es": "los sábados por la mañana", "ru": "по субботам утром" },
+      { "es": "casi todos los días", "ru": "почти каждый день" },
+      { "es": "este fin de semana", "ru": "в эти выходные" },
+      { "es": "el año pasado", "ru": "в прошлом году" },
+      { "es": "el año que viene", "ru": "в следующем году" },
+      { "es": "hacer un montón de cosas", "ru": "делать кучу дел" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Lucía", "es": "Hola, Carlos. Perdona, vengo tarde. Siento mucho que me hayas tenido que esperar.", "ru": "Привет, Карлос. Извини, я опаздываю. Очень сожалею, что тебе пришлось меня ждать." },
+    { "speaker": "Carlos", "es": "No te preocupes. Hace un rato que estoy aquí. ¿Qué tal?", "ru": "Не беспокойся. Я уже давно здесь. Как дела?" },
+    { "speaker": "Lucía", "es": "Bien, gracias. He estado muy ocupada. He tenido que hacer un montón de cosas.", "ru": "Хорошо, спасибо. Я была очень занята. Мне пришлось сделать кучу дел." },
+    { "speaker": "Carlos", "es": "¿Y qué haces cuando tienes tiempo libre? ¿Practicas algún deporte?", "ru": "А что ты делаешь, когда у тебя есть свободное время? Занимаешься каким-нибудь спортом?" },
+    { "speaker": "Lucía", "es": "Sí, me gusta mucho el tenis. Juego dos veces por semana. ¿Y a ti?", "ru": "Да, я очень люблю теннис. Играю два раза в неделю. А ты?" },
+    { "speaker": "Carlos", "es": "A mí me gusta más el fútbol. Juego con mis amigos los sábados por la mañana.", "ru": "А мне больше нравится футбол. Играю с друзьями по субботам утром." },
+    { "speaker": "Lucía", "es": "¡Qué bien! Yo no soy muy buena con el fútbol, pero me encanta ver los partidos.", "ru": "Как здорово! Я не очень хорошо играю в футбол, но обожаю смотреть матчи." },
+    { "speaker": "Carlos", "es": "¿Y qué más te gusta hacer?", "ru": "А что ещё тебе нравится делать?" },
+    { "speaker": "Lucía", "es": "También me gusta nadar. En verano voy a la piscina casi todos los días.", "ru": "Ещё я люблю плавать. Летом хожу в бассейн почти каждый день." },
+    { "speaker": "Carlos", "es": "A mí también me gusta nadar, pero prefiero el mar.", "ru": "Я тоже люблю плавать, но предпочитаю море." },
+    { "speaker": "Lucía", "es": "¡Qué suerte! A mí también me encanta la playa. Bueno, y además de deporte, ¿tienes otras aficiones?", "ru": "Как здорово! Я тоже обожаю пляж. Ну, а кроме спорта, у тебя есть другие увлечения?" },
+    { "speaker": "Carlos", "es": "Sí, me gusta leer y escuchar música. ¿Y tú?", "ru": "Да, я люблю читать и слушать музыку. А ты?" },
+    { "speaker": "Lucía", "es": "A mí me gusta pintar y bailar. También me gusta mucho viajar.", "ru": "Мне нравится рисовать и танцевать. Ещё очень люблю путешествовать." },
+    { "speaker": "Carlos", "es": "¡Qué interesante! A mí también me gusta viajar. El año pasado estuve en Italia.", "ru": "Как интересно! Я тоже люблю путешествовать. В прошлом году я был в Италии." },
+    { "speaker": "Lucía", "es": "¡Qué envidia! Yo quiero ir a Grecia el año que viene.", "ru": "Как я завидую! Я хочу поехать в Грецию в следующем году." },
+    { "speaker": "Carlos", "es": "Seguro que te va a encantar. Bueno, ¿y qué vas a hacer este fin de semana?", "ru": "Уверен, тебе очень понравится. Ну, а что ты будешь делать в эти выходные?" },
+    { "speaker": "Lucía", "es": "No lo sé todavía. Quizás vaya a la montaña con unos amigos.", "ru": "Пока не знаю. Может быть, поеду в горы с друзьями." },
+    { "speaker": "Carlos", "es": "¡Qué bien! Yo voy a jugar un partido de fútbol el sábado.", "ru": "Как здорово! А я в субботу играю в футбольный матч." },
+    { "speaker": "Lucía", "es": "¡Que tengas suerte!", "ru": "Удачи тебе!" },
+    { "speaker": "Carlos", "es": "Gracias. Bueno, me tengo que ir. Ha sido un placer hablar contigo.", "ru": "Спасибо. Ну, мне пора идти. Было приятно с тобой поговорить." },
+    { "speaker": "Lucía", "es": "Igualmente. ¡Hasta pronto!", "ru": "Взаимно. До скорого!" }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el tenis", "ru": "теннис" },
+        { "es": "el fútbol", "ru": "футбол" },
+        { "es": "el partido", "ru": "матч" },
+        { "es": "nadar", "ru": "плавать" },
+        { "es": "la piscina", "ru": "бассейн" },
+        { "es": "la playa", "ru": "пляж" },
+        { "es": "viajar", "ru": "путешествовать" },
+        { "es": "la afición", "ru": "увлечение" },
+        { "es": "el tiempo libre", "ru": "свободное время" },
+        { "es": "bailar", "ru": "танцевать" }
+      ]
+    },
+    {
+      "type": "fill-gap-siento_que_subjuntivo_perfecto",
+      "title": "Практика: Siento mucho que + perfecto de subjuntivo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Siento mucho que me ___ tenido que esperar.", "ru": "Мне очень жаль, что тебе пришлось меня ждать", "answer": "hayas", "options": ["hayas", "has", "haya"] },
+        { "text": "Siento mucho que ___ llegado tarde.", "ru": "Мне очень жаль, что я опоздала", "answer": "haya", "options": ["haya", "he", "hay"] },
+        { "text": "Sentimos mucho que no ___ podido venir.", "ru": "Нам очень жаль, что вы не смогли прийти", "answer": "hayáis", "options": ["hayáis", "habéis", "hayamos"] },
+        { "text": "Sienten mucho que no ___ ganado el partido.", "ru": "Им очень жаль, что они не выиграли матч", "answer": "hayan", "options": ["hayan", "han", "habían"] },
+        { "text": "Siento mucho que ___ estado tan ocupada.", "ru": "Мне очень жаль, что он(а) был(а) так занят(а)", "answer": "haya", "options": ["haya", "ha", "hay"] }
+      ]
+    },
+    {
+      "type": "fill-gap-hace_tiempo_que",
+      "title": "Практика: Hace + tiempo + que",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Hace un ___ que estoy aquí.", "ru": "Я уже давно здесь", "answer": "rato", "options": ["rato", "siglo", "día"] },
+        { "text": "¿Cuánto tiempo ___ que juegas al fútbol?", "ru": "Сколько времени ты играешь в футбол?", "answer": "hace", "options": ["hace", "hago", "hay"] },
+        { "text": "Hace dos ___ que juego al tenis.", "ru": "Я уже два года играю в теннис", "answer": "años", "options": ["años", "días", "lunes"] },
+        { "text": "Hace una ___ que no nado.", "ru": "Я уже неделю не плаваю", "answer": "semana", "options": ["semana", "tarde", "noche"] },
+        { "text": "Hace mucho ___ que no voy a la playa.", "ru": "Я уже давно не был на пляже", "answer": "tiempo", "options": ["tiempo", "mes", "rato"] }
+      ]
+    },
+    {
+      "type": "fill-gap-quizas_subjuntivo_deseos",
+      "title": "Практика: Quizás + subjuntivo, ¡Que + subjuntivo!",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Quizás ___ a la montaña con unos amigos.", "ru": "Может быть, поеду в горы с друзьями", "answer": "vaya", "options": ["vaya", "voy", "va"] },
+        { "text": "Quizás pueda ___ a Grecia el año que viene.", "ru": "Может быть, смогу поехать в Грецию", "answer": "ir", "options": ["ir", "voy", "ido"] },
+        { "text": "¡Que ___ suerte!", "ru": "Удачи тебе!", "answer": "tengas", "options": ["tengas", "tienes", "tenga"] },
+        { "text": "¡Que ___ del fin de semana!", "ru": "Хороших выходных!", "answer": "disfrutes", "options": ["disfrutes", "disfrutas", "disfrutar"] },
+        { "text": "Quizás ___ al tenis esta tarde.", "ru": "Возможно, сыграю в теннис сегодня днём", "answer": "juegue", "options": ["juegue", "juego", "juegas"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Perdona, ___ tarde.", "ru": "Извини, я опаздываю", "answer": "vengo", "options": ["vengo", "volved", "salgo"] },
+        { "text": "He tenido que hacer un ___ de cosas.", "ru": "Мне пришлось сделать кучу дел", "answer": "montón", "options": ["montón", "poco", "par"] },
+        { "text": "¿Practicas algún ___?", "ru": "Занимаешься каким-нибудь спортом?", "answer": "deporte", "options": ["deporte", "juego", "plato"] },
+        { "text": "Juego al tenis dos veces por ___.", "ru": "Играю в теннис два раза в неделю", "answer": "semana", "options": ["semana", "año", "noche"] },
+        { "text": "Me encanta ver los ___.", "ru": "Обожаю смотреть матчи", "answer": "partidos", "options": ["partidos", "música", "líneas"] },
+        { "text": "En verano voy a la ___ casi todos los días.", "ru": "Летом я хожу в бассейн почти каждый день", "answer": "piscina", "options": ["piscina", "cocina", "escuela"] },
+        { "text": "Me gusta nadar, pero prefiero el ___.", "ru": "Люблю плавать, но предпочитаю море", "answer": "mar", "options": ["mar", "cerro", "cielo"] },
+        { "text": "El año pasado ___ en Italia.", "ru": "В прошлом году я был в Италии", "answer": "estuve", "options": ["estuve", "está", "estaré"] },
+        { "text": "Yo quiero ir a Grecia el año que ___.", "ru": "Я хочу поехать в Грецию в следующем году", "answer": "viene", "options": ["viene", "venía", "vendrá"] },
+        { "text": "Ha sido un ___ hablar contigo.", "ru": "Было приятно с тобой поговорить", "answer": "placer", "options": ["placer", "tiempo", "rato"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Ты — Лусия, извиняешься за опоздание и рассказываешь о своих увлечениях"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Ты — Карлос, успокаиваешь Лусию и делишься своими спортивными увлечениями"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи другу о своём любимом спорте и увлечениях",
+      "template": [
+        { "label": "Извини, я опаздываю", "es": "Perdona, ___ tarde." },
+        { "label": "Мне пришлось сделать кучу дел", "es": "He tenido que hacer un ___ de cosas." },
+        { "label": "Я уже давно здесь", "es": "Hace un ___ que estoy aquí." },
+        { "label": "Занимаешься спортом?", "es": "¿Practicas algún ___?" },
+        { "label": "Играю два раза в неделю", "es": "Juego dos veces por ___." },
+        { "label": "Играю по субботам утром", "es": "Juego los ___ por la mañana." },
+        { "label": "Обожаю смотреть матчи", "es": "Me encanta ver los ___." },
+        { "label": "Летом хожу в бассейн", "es": "En verano voy a la ___." },
+        { "label": "Но предпочитаю море", "es": "Pero prefiero el ___." },
+        { "label": "В прошлом году был в Италии", "es": "El año pasado ___ en Italia." },
+        { "label": "Хочу в Грецию", "es": "Quiero ir a ___ el año que viene." },
+        { "label": "Удачи!", "es": "¡Que ___ suerte!" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Por qué se disculpa Lucía al llegar?",
+          "ru": "За что Лусия извиняется при встрече?",
+          "options": ["Por llegar tarde", "Por no jugar al tenis", "Por no traer nada", "Por no llamar"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué deporte practica Lucía?",
+          "ru": "Каким спортом занимается Лусия?",
+          "options": ["El tenis", "El fútbol", "El baloncesto", "El esquí"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuántas veces por semana juega Lucía al tenis?",
+          "ru": "Сколько раз в неделю Лусия играет в теннис?",
+          "options": ["Dos veces", "Una vez", "Cinco veces", "Todos los días"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué deporte le gusta más a Carlos?",
+          "ru": "Какой спорт больше нравится Карлосу?",
+          "options": ["El fútbol", "El tenis", "La natación", "El balonmano"],
+          "answer": 0
+        },
+        {
+          "question": "¿Dónde nada Lucía en verano?",
+          "ru": "Где плавает Лусия летом?",
+          "options": ["En el río", "En la piscina", "En el lago", "En la bañera"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué prefiere Carlos para nadar?",
+          "ru": "Что предпочитает Карлос, когда плавает?",
+          "options": ["El río", "La piscina", "El mar", "El lago"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué aficiones tiene Carlos además del deporte?",
+          "ru": "Какие увлечения есть у Карлоса кроме спорта?",
+          "options": ["Leer y escuchar música", "Pintar y bailar", "Viajar y dibujar", "Cocinar"],
+          "answer": 0
+        },
+        {
+          "question": "¿A dónde fue Carlos el año pasado?",
+          "ru": "Куда ездил Карлос в прошлом году?",
+          "options": ["A Grecia", "A Italia", "A Francia", "A Portugal"],
+          "answer": 1
+        },
+        {
+          "question": "¿A dónde quiere ir Lucía el año que viene?",
+          "ru": "Куда хочет поехать Лусия в следующем году?",
+          "options": ["A Italia", "A México", "A Grecia", "A Japón"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué va a hacer Carlos el sábado?",
+          "ru": "Что Карлос будет делать в субботу?",
+          "options": ["Jugar un partido de fútbol", "Ir a la montaña", "Nadar en el mar", "Visitar a la familia"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повтори слова по теме «спорт, увлечения, планы»",
+    "Практика: расскажи о своём любимом спорте и увлечениях. Используй: practico..., juego..., me encanta..., prefiero..., hace + tiempo + que...",
+    "Дневник: опиши свои увлечения и планы на выходные (используй quizás + subjuntivo и ¡que + subjuntivo!)",
+    "Грамматика: составь 4 предложения с hace + время + que и 3 извинения с siento mucho que + perfecto de subjuntivo"
+  ]
+}

@@ -1,0 +1,669 @@
+{
+  "id": 63,
+  "title": "Mi familia",
+  "titleRu": "Моя семья",
+  "module": "a0-a1",
+  "block": 1,
+  "part": 1,
+  "blockTitle": "Часть 1 · Начальный уровень",
+  "level": "A0",
+  "theme": "Семья и близкие люди  La familia y las personas cercanas",
+  "mission": "Рассказать о своей семье по фотографии: кто есть в семье и как зовут близких.",
+  "mapPoint": "Видеозвонок домой: семья на экране",
+  "duration": "45 минут",
+  "stepsCount": 7,
+  "readingNote": "Прочитайте реплики вслух: y = [й] в yo, mayo и в связке madre y padre; x = [кс] в taxi, examen.",
+  "characters": [
+    "olga",
+    "mateo"
+  ],
+  "objectives": [
+    "Назвать членов семьи: la madre, el padre, el hermano, la hermana",
+    "Сказать, кто есть в семье: tengo un hermano / tengo una hermana",
+    "Назвать имя близкого человека: se llama Andréi",
+    "Употребить притяжательные mi / tu / su перед словом",
+    "Читать слова с y = [й] и x = [кс]"
+  ],
+  "grammar": {
+    "mi_tu_su": {
+      "title": "Mi, tu, su — мой, твой, его / её",
+      "description": "Притяжательные местоимения стоят перед словом и не меняются по родам и числам: mi familia, tu familia, su familia. Мой — mi, твой — tu, его и её — su. Сказать «это моя семья» — Esta es mi familia, а спросить о чужой — ¿Es tu madre?",
+      "forms": {
+        "yo": {
+          "es": "Mi familia está en Rusia",
+          "ru": "моя семья в России"
+        },
+        "tu": {
+          "es": "¿Y tu familia?",
+          "ru": "а твоя семья?"
+        },
+        "el_ella": {
+          "es": "Su familia está en España",
+          "ru": "его семья в Испании"
+        },
+        "nosotros": {
+          "es": "Nuestra familia es grande",
+          "ru": "наша семья большая"
+        }
+      },
+      "examples": [
+        {
+          "es": "Esta es mi familia.",
+          "ru": "Это моя семья."
+        },
+        {
+          "es": "¿Es tu madre? — Sí, es mi madre.",
+          "ru": "Это твоя мама? — Да, моя мама."
+        }
+      ]
+    },
+    "tener_familia": {
+      "title": "Tengo un hermano — у меня есть",
+      "description": "Конструкция tener + un / una + член семьи: tengo un hermano (у меня есть брат), tengo una hermana (у меня есть сестра). Вопрос про детей семьи: ¿Tienes hermanos? (есть братья или сёстры?). Отрицательный ответ — такой же вежливый: no, no tengo hermanos. Форму даём только в двух лицах: tengo / tienes — парадигму учим позже.",
+      "forms": {
+        "yo": {
+          "es": "Tengo un hermano",
+          "ru": "у меня есть брат"
+        },
+        "tu": {
+          "es": "¿Tienes hermanos?",
+          "ru": "у тебя есть братья или сёстры?"
+        },
+        "el_ella": {
+          "es": "Tiene una hija",
+          "ru": "у него или неё есть дочь"
+        },
+        "nosotros": {
+          "es": "Tenemos una hermana",
+          "ru": "у нас есть сестра"
+        }
+      },
+      "examples": [
+        {
+          "es": "Sí, tengo un hermano.",
+          "ru": "Да, у меня есть брат."
+        },
+        {
+          "es": "No, no tengo hermanos.",
+          "ru": "Нет, у меня нет братьев и сестёр."
+        }
+      ]
+    },
+    "se_llama": {
+      "title": "Se llama… — его / её зовут",
+      "description": "Имя близкого человека даётся блоком: mi hermano se llama Andréi (моего брата зовут Андрей). В вопросе se превращается в te: ¿Cómo se llama tu madre? → ¿Cómo te llamas? → Me llamo Olga. Никакой таблицы спряжения здесь нет — целая формула целиком.",
+      "list": [
+        {
+          "es": "Se llama Andréi.",
+          "ru": "его зовут Андрей"
+        },
+        {
+          "es": "¿Cómo se llama?",
+          "ru": "как его / её зовут?"
+        },
+        {
+          "es": "Me llamo Olga.",
+          "ru": "меня зовут Ольга"
+        },
+        {
+          "es": "Mi hermano se llama Andréi.",
+          "ru": "моего брата зовут Андрей"
+        },
+        {
+          "es": "¿Cómo te llamas?",
+          "ru": "как тебя зовут?"
+        }
+      ],
+      "examples": [
+        {
+          "es": "Mi madre se llama María.",
+          "ru": "Мою маму зовут Мария"
+        },
+        {
+          "es": "¿Cómo se llama tu hermana?",
+          "ru": "Как зовут твою сестру?"
+        }
+      ]
+    }
+  },
+  "vocabulary": {
+    "la_familia": [
+      {
+        "es": "la madre",
+        "ru": "мама"
+      },
+      {
+        "es": "el padre",
+        "ru": "папа"
+      },
+      {
+        "es": "los padres",
+        "ru": "родители"
+      },
+      {
+        "es": "el hermano",
+        "ru": "брат"
+      },
+      {
+        "es": "la hermana",
+        "ru": "сестра"
+      },
+      {
+        "es": "el hijo",
+        "ru": "сын"
+      },
+      {
+        "es": "la hija",
+        "ru": "дочь"
+      }
+    ],
+    "los_parientes": [
+      {
+        "es": "el marido",
+        "ru": "муж"
+      },
+      {
+        "es": "la esposa",
+        "ru": "жена"
+      },
+      {
+        "es": "el abuelo / la abuela",
+        "ru": "дедушка / бабушка"
+      }
+    ],
+    "mi_familia": [
+      {
+        "es": "mi familia",
+        "ru": "моя семья"
+      },
+      {
+        "es": "se llama",
+        "ru": "его / её зовут"
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "Mateo",
+      "es": "¡Hola, Olga! ¿Qué tal?",
+      "ru": "Привет, Ольга! Как дела?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Muy bien, gracias. Mira: esta es mi familia.",
+      "ru": "Очень хорошо, спасибо. Смотри: это моя семья."
+    },
+    {
+      "speaker": "Mateo",
+      "es": "¡Qué bonito! ¿Es tu madre?",
+      "ru": "Как мило! Это твоя мама?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Sí, es mi madre. Y este es mi padre.",
+      "ru": "Да, это моя мама. А это мой папа."
+    },
+    {
+      "speaker": "Mateo",
+      "es": "¿Tienes hermanos?",
+      "ru": "У тебя есть братья или сёстры?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Sí, tengo un hermano.",
+      "ru": "Да, у меня есть брат."
+    },
+    {
+      "speaker": "Mateo",
+      "es": "¿Cómo se llama?",
+      "ru": "Как его зовут?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Se llama Andréi.",
+      "ru": "Его зовут Андрей."
+    },
+    {
+      "speaker": "Mateo",
+      "es": "¡Muy bien, Olga! Yo tengo una hermana.",
+      "ru": "Отлично, Ольга! А у меня есть сестра."
+    },
+    {
+      "speaker": "Olga",
+      "es": "¿Y tu familia? ¿Está en Valencia?",
+      "ru": "А твоя семья? Она в Валенсии?"
+    },
+    {
+      "speaker": "Mateo",
+      "es": "Sí, mi familia está aquí. Mi hermana se llama Lucía.",
+      "ru": "Да, моя семья здесь. Мою сестру зовут Лусия."
+    },
+    {
+      "speaker": "Olga",
+      "es": "¿Y tu padre? ¿Es de España?",
+      "ru": "А твой папа? Он из Испании?"
+    },
+    {
+      "speaker": "Mateo",
+      "es": "Sí, es español. Habla español muy bien.",
+      "ru": "Да, он испанец. Он очень хорошо говорит по-испански."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Qué bien. Mi familia está en Rusia.",
+      "ru": "Как здорово. Моя семья в России."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары: член семьи и перевод",
+      "description": "Найди соответствие между членом семьи и переводом",
+      "pairs": [
+        {
+          "es": "la madre",
+          "ru": "мама"
+        },
+        {
+          "es": "el padre",
+          "ru": "папа"
+        },
+        {
+          "es": "los padres",
+          "ru": "родители"
+        },
+        {
+          "es": "el hermano",
+          "ru": "брат"
+        },
+        {
+          "es": "la hermana",
+          "ru": "сестра"
+        },
+        {
+          "es": "el hijo",
+          "ru": "сын"
+        },
+        {
+          "es": "la hija",
+          "ru": "дочь"
+        },
+        {
+          "es": "mi familia",
+          "ru": "моя семья"
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-mi_tu_su",
+      "title": "Практика: mi, tu, su",
+      "description": "Вставь пропущенное местоимение",
+      "sentences": [
+        {
+          "text": "___ familia está en Rusia.",
+          "ru": "Моя семья в России",
+          "answer": "Mi",
+          "options": [
+            "Mi",
+            "Tu",
+            "Su"
+          ]
+        },
+        {
+          "text": "Esta es ___ familia.",
+          "ru": "Это моя семья",
+          "answer": "mi",
+          "options": [
+            "mi",
+            "tu",
+            "su"
+          ]
+        },
+        {
+          "text": "¿Es ___ madre?",
+          "ru": "Это твоя мама?",
+          "answer": "tu",
+          "options": [
+            "tu",
+            "mi",
+            "su"
+          ]
+        },
+        {
+          "text": "___ madre es de Madrid.",
+          "ru": "Его мама из Мадрида",
+          "answer": "Su",
+          "options": [
+            "Su",
+            "Mi",
+            "Mis"
+          ]
+        },
+        {
+          "text": "¿Y ___ padres? Están en casa.",
+          "ru": "А твои родители? Они дома",
+          "answer": "tus",
+          "options": [
+            "tus",
+            "sus",
+            "mis"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-tener_familia",
+      "title": "Практика: tengo + член семьи",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Sí, ___ un hermano.",
+          "ru": "Да, у меня есть брат",
+          "answer": "tengo",
+          "options": [
+            "tengo",
+            "tienes",
+            "tiene"
+          ]
+        },
+        {
+          "text": "¿___ hermanos?",
+          "ru": "У тебя есть братья или сёстры?",
+          "answer": "Tienes",
+          "options": [
+            "Tienes",
+            "Tengo",
+            "Tiene"
+          ]
+        },
+        {
+          "text": "Tengo ___ hermana.",
+          "ru": "У меня есть сестра",
+          "answer": "una",
+          "options": [
+            "una",
+            "un",
+            "uno"
+          ]
+        },
+        {
+          "text": "No, no ___ hermanos.",
+          "ru": "Нет, у меня нет братьев и сестёр",
+          "answer": "tengo",
+          "options": [
+            "tengo",
+            "tiene",
+            "tienen"
+          ]
+        },
+        {
+          "text": "Mi ___ tiene una hija.",
+          "ru": "У моего брата есть дочь",
+          "answer": "hermano",
+          "options": [
+            "hermano",
+            "hermana",
+            "madre"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-se_llama",
+      "title": "Практика: se llama",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Mi hermano se ___ Andréi.",
+          "ru": "Моего брата зовут Андрей",
+          "answer": "llama",
+          "options": [
+            "llama",
+            "llamo",
+            "llamas"
+          ]
+        },
+        {
+          "text": "¿Cómo ___ llama tu madre?",
+          "ru": "Как зовут твою маму?",
+          "answer": "se",
+          "options": [
+            "se",
+            "me",
+            "te"
+          ]
+        },
+        {
+          "text": "Me ___ Olga.",
+          "ru": "Меня зовут Ольга",
+          "answer": "llamo",
+          "options": [
+            "llamo",
+            "llamas",
+            "llama"
+          ]
+        },
+        {
+          "text": "¿Cómo ___ llamas?",
+          "ru": "Как тебя зовут?",
+          "answer": "te",
+          "options": [
+            "te",
+            "me",
+            "se"
+          ]
+        },
+        {
+          "text": "Se ___ Lucía.",
+          "ru": "Её зовут Лусия",
+          "answer": "llama",
+          "options": [
+            "llama",
+            "llamo",
+            "llamas"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика урока",
+      "description": "Вставь пропущенное слово: семья, указательные и se llama",
+      "sentences": [
+        {
+          "text": "___ es mi madre.",
+          "ru": "Это моя мама",
+          "answer": "Esta",
+          "options": [
+            "Esta",
+            "Este",
+            "Estos"
+          ]
+        },
+        {
+          "text": "Y ___ es mi padre.",
+          "ru": "А это мой папа",
+          "answer": "este",
+          "options": [
+            "este",
+            "esta",
+            "estos"
+          ]
+        },
+        {
+          "text": "Tengo ___ hermano.",
+          "ru": "У меня есть брат",
+          "answer": "un",
+          "options": [
+            "un",
+            "una",
+            "uno"
+          ]
+        },
+        {
+          "text": "Mi madre se ___ María.",
+          "ru": "Мою маму зовут Мария",
+          "answer": "llama",
+          "options": [
+            "llama",
+            "llamo",
+            "llamas"
+          ]
+        },
+        {
+          "text": "¿Tienes ___ ?",
+          "ru": "У тебя есть братья или сёстры?",
+          "answer": "hermanos",
+          "options": [
+            "hermanos",
+            "hermana",
+            "hijo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай реплики о семье и повторяй вслух: слово с несколькими слогами произноси целиком, а не по буквам."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Ольгой",
+      "role": "Olga",
+      "description": "Ты — Ольга с фотографиями семьи на телефоне. Покажи семью, назови маму и папу, скажи, есть ли брат, и как его зовут."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Матео",
+      "role": "Mateo",
+      "description": "Ты — Матео, сосед Ольги. Расспроси о её семье: ¿Tienes hermanos?, ¿Cómo se llama? — и расскажи о своей сестре."
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи о своей семье: кто есть в семье и как зовут близких",
+      "template": [
+        {
+          "label": "Это моя семья",
+          "es": "Esta es ___ familia."
+        },
+        {
+          "label": "Это моя мама",
+          "es": "Es ___ madre."
+        },
+        {
+          "label": "У тебя есть братья или сёстры?",
+          "es": "¿Tienes ___ ?"
+        },
+        {
+          "label": "Да, у меня есть брат",
+          "es": "Sí, tengo ___ hermano."
+        },
+        {
+          "label": "Его зовут Андрей",
+          "es": "Se ___ Andréi."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "«У меня есть брат»",
+          "ru": "Как сказать «у меня есть брат»?",
+          "options": [
+            "Tengo un hermano",
+            "Tengo una hermana",
+            "Tengo un hijo"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Аудио: «mi hermana». Кто это?",
+          "ru": "Аудио: «mi hermana». Кто это?",
+          "options": [
+            "брат",
+            "сестра",
+            "бабушка"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo se lee la y en la palabra mayo?",
+          "ru": "Как читается y в слове mayo?",
+          "options": [
+            "[и]",
+            "[й]",
+            "[ж]"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "___ familia está en Rusia.",
+          "ru": "___ familia está en Rusia.",
+          "options": [
+            "Su",
+            "Tu",
+            "Mi"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Mi hermano se ___ Andréi.",
+          "ru": "Моего брата зовут…",
+          "options": [
+            "llamo",
+            "llama",
+            "llamas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Аудио и логика семьи: «Es la madre de mi padre». Кто это?",
+          "ru": "«Это мать моего отца». Кто это?",
+          "options": [
+            "la abuela",
+            "la hermana",
+            "la hija"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se dice «моя семья»?",
+          "ru": "Как сказать «моя семья»?",
+          "options": [
+            "mi familia",
+            "la ciudad",
+            "el país"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Olga: «Sí, tengo ___ hermano».",
+          "ru": "Ольга отвечает: «Sí, tengo ___ hermano».",
+          "options": [
+            "una",
+            "un",
+            "unos"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    "Я называю членов семьи: la madre, el padre, el hermano, la hermana",
+    "Я говорю, кто у меня есть: tengo un hermano / tengo una hermana",
+    "Я называю имена близких: se llama…",
+    "Я говорю о своей семье: esta es mi familia",
+    "Я читаю слова с y = [й] и x = [кс]"
+  ],
+  "homework": [
+    "Составь пять предложений о своей семье письменно и прочитай вслух",
+    "Покажи фото семьи воображаемому соседу и проведи «экскурсию» на 40 секунд",
+    "Послушай в приложении тренажёр «кто кому кем приходится» и повтори слова taxi, examen, yo, mayo"
+  ]
+}

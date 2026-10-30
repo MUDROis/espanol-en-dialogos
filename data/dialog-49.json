@@ -1,0 +1,300 @@
+{
+  "id": 49,
+  "title": "Carlos y Lucía hablan de la vida en el extranjero",
+  "titleRu": "Карлос и Лусия говорят о жизни за границей",
+  "part": 6,
+  "level": "B2+",
+  "theme": "Жизнь за границей, учёба за рубежом, адаптация  La vida en el extranjero, estudiar fuera, la adaptación",
+  "characters": ["carlos", "lucia"],
+  "objectives": [
+    "Говорить о жизни за границей: la experiencia, las oportunidades, el idioma, el extranjero",
+    "Использовать pretérito perfecto для опыта: he vivido, me he adaptado, he probado",
+    "Выражать желание и страх: me apetece aprender, no te da miedo irte, me costó mucho",
+    "Связывать события: al principio, luego, además, sin duda, al fin y al cabo",
+    "Рассказывать об адаптации: al principio es difícil, luego te acostumbras",
+    "Обсуждать планы на учёбу и путешествия: quiero estudiar allí, ya veremos qué pasa"
+  ],
+  "grammar": {
+    "perfecto_experiencias": {
+      "title": "Pretérito perfecto для опыта и достижений",
+      "description": "Pretérito perfecto (he + participio) используется, когда говорят о жизненном опыте и о том, что уже случилось к настоящему моменту: ya me he adaptado (я уже адаптировалась), ya he vivido en Francia (я уже жила во Франции), yo también he vivido en el extranjero (я тоже жил за границей), siempre me has dicho que quieres viajar (ты всегда говорила, что хочешь путешествовать).",
+      "forms": {
+        "yo": { "es": "he vivido en Francia", "ru": "я жил(а) во Франции" },
+        "tu": { "es": "has probado las salchichas", "ru": "ты пробовал(а) сосиски" },
+        "el_ella": { "es": "se ha adaptado", "ru": "он/она адаптировался(лась)" },
+        "nosotros": { "es": "hemos vivido en el extranjero", "ru": "мы жили за границей" },
+        "vosotros": { "es": "habéis estado en Italia", "ru": "вы были в Италии" },
+        "ellos_ellas": { "es": "han viajado por Europa", "ru": "они путешествовали по Европе" }
+      },
+      "examples": [
+        { "es": "Al fin y al cabo, ya he vivido en Francia.", "ru": "В конце концов, я уже жила во Франции." },
+        { "es": "Yo también he vivido en el extranjero.", "ru": "Я тоже жил за границей." }
+      ]
+    },
+    "verbos_gusto_miedo": {
+      "title": "Желание, страх, трудность: apetecer, dar miedo, costar + infinitivo",
+      "description": "Эти глаголы-«нравилки» управляют косвенным дополнением me/te/le: me apetece aprender el idioma (мне хочется выучить язык), ¿no te da miedo irte a un país tan lejano? (тебя не пугает уехать в такую далёкую страну?), al principio me costó mucho (сначала мне было очень трудно). Также es una suerte poder comunicarse (счастье — иметь возможность общаться).",
+      "list": [
+        { "es": "me apetece aprender el idioma", "ru": "мне хочется выучить язык" },
+        { "es": "no te da miedo irte a un país tan lejano", "ru": "тебя не пугает уехать в такую далёкую страну" },
+        { "es": "al principio me costó mucho (adaptarme)", "ru": "сначала мне было очень трудно (приспособиться)" },
+        { "es": "es una suerte poder comunicarse así", "ru": "это счастье — иметь возможность так общаться" },
+        { "es": "¡Qué envidia!", "ru": "Как я тебе завидую!" },
+        { "es": "seguro que te va a encantar", "ru": "уверен, тебе очень понравится" }
+      ],
+      "examples": [
+        { "es": "¿No te da miedo irte a un país tan lejano?", "ru": "Тебя не пугает уехать в такую далёкую страну?" },
+        { "es": "Al principio me costó mucho, pero luego conocí a gente maravillosa.", "ru": "Сначала мне было очень трудно, но потом я познакомился с замечательными людьми." }
+      ]
+    },
+    "conectores_tiempo": {
+      "title": "Выражения времени и контраста: al principio, luego, además, sin duda",
+      "description": "При рассказе о жизни за границей важны связки: al principio es difícil, pero luego te acostumbras (сначала трудно, потом привыкаешь), además hablaba con mi familia por internet (к тому же я общался с семьёй по интернету), la comida, sin duda (еда, без сомнения), al fin y al cabo (в конце концов), ya veremos qué pasa (посмотрим, что будет).",
+      "list": [
+        { "es": "al principio es difícil, pero luego te acostumbras", "ru": "сначала трудно, но потом привыкаешь" },
+        { "es": "al fin y al cabo", "ru": "в конце концов" },
+        { "es": "la comida, sin duda", "ru": "еда, без сомнения" },
+        { "es": "además, hablaba con mi familia", "ru": "к тому же я общался с семьёй" },
+        { "es": "seguro que te va a encantar", "ru": "уверен, тебе очень понравится" },
+        { "es": "ya veremos qué pasa", "ru": "посмотрим, что будет" }
+      ],
+      "examples": [
+        { "es": "Al principio me sentía solo, pero luego hice amigos.", "ru": "Сначала я чувствовал себя одиноко, но потом завёл друзей." },
+        { "es": "La comida italiana, sin duda, es lo que más me gusta.", "ru": "Итальянская еда, без сомнения, — то, что я люблю больше всего." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "la_vida_en_el_extranjero": [
+      { "es": "el extranjero", "ru": "заграница" },
+      { "es": "la experiencia", "ru": "опыт" },
+      { "es": "las oportunidades", "ru": "возможности" },
+      { "es": "el idioma", "ru": "язык (иностранный)" },
+      { "es": "adaptarse", "ru": "адаптироваться, приспособиться" },
+      { "es": "acostumbrarse", "ru": "привыкнуть" },
+      { "es": "comunicarse", "ru": "общаться" },
+      { "es": "la suerte", "ru": "счастье, удача" }
+    ],
+    "los_paises": [
+      { "es": "Alemania", "ru": "Германия" },
+      { "es": "Francia", "ru": "Франция" },
+      { "es": "Italia", "ru": "Италия" },
+      { "es": "Austria", "ru": "Австрия" },
+      { "es": "Suiza", "ru": "Швейцария" },
+      { "es": "lejano", "ru": "далёкий" },
+      { "es": "cercano", "ru": "соседний, близкий" }
+    ],
+    "la_comida": [
+      { "es": "la pasta", "ru": "паста" },
+      { "es": "la pizza", "ru": "пицца" },
+      { "es": "las salchichas", "ru": "сосиски" },
+      { "es": "la cerveza", "ru": "пиво" },
+      { "es": "delicioso", "ru": "вкусный, изумительный" },
+      { "es": "probar", "ru": "пробовать" }
+    ],
+    "los_sentimientos": [
+      { "es": "dar miedo", "ru": "пугать, внушать страх" },
+      { "es": "sentirse solo", "ru": "чувствовать себя одиноким" },
+      { "es": "tener envidia", "ru": "завидовать" },
+      { "es": "encantar", "ru": "очень нравиться" },
+      { "es": "apetecer", "ru": "хотеться" },
+      { "es": "costar", "ru": "даваться с трудом" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Lucía", "es": "¿Qué tal si te digo la verdad? Me alegra la idea de irme.", "ru": "Честно говоря, я рада идее уехать." },
+    { "speaker": "Carlos", "es": "Siempre me has dicho que quieres tener una experiencia en el extranjero.", "ru": "Ты всегда говорила, что хочешь получить опыт за границей." },
+    { "speaker": "Lucía", "es": "Sí, pero no creas que va a ser todo el tiempo. Me gustaría ir a Alemania. Es un país con muchas oportunidades.", "ru": "Да, но не думай, что это на всё время. Мне хотелось бы поехать в Германию. Это страна с большими возможностями." },
+    { "speaker": "Carlos", "es": "¿Y qué vas a hacer allí? ¿Estudiar o trabajar?", "ru": "А что ты там будешь делать? Учиться или работать?" },
+    { "speaker": "Lucía", "es": "Quiero estudiar allí. Me apetece aprender el idioma. Pero también quiero visitar otros países.", "ru": "Я хочу там учиться. Мне хочется выучить язык. Но я также хочу посетить другие страны." },
+    { "speaker": "Carlos", "es": "¿Y no te da miedo irte a un país tan lejano?", "ru": "А тебя не пугает уехать в такую далёкую страну?" },
+    { "speaker": "Lucía", "es": "Un poco, pero ya me he adaptado. Al fin y al cabo, ya he vivido en Francia. Al principio es difícil, pero luego te acostumbras.", "ru": "Немного, но я уже адаптировалась. В конце концов, я уже жила во Франции. Сначала трудно, но потом привыкаешь." },
+    { "speaker": "Carlos", "es": "Sí, es verdad. Yo también he vivido en el extranjero. Estuve en Italia. Al principio me costó mucho, pero luego conocí a gente maravillosa.", "ru": "Да, это правда. Я тоже жил за границей. Я был в Италии. Сначала мне было очень трудно, но потом я познакомился с замечательными людьми." },
+    { "speaker": "Lucía", "es": "¿Y no te sentías solo?", "ru": "А ты не чувствовал себя одиноким?" },
+    { "speaker": "Carlos", "es": "Al principio sí, pero luego hice amigos. Además, hablaba con mi familia por internet. Es una suerte poder comunicarse así.", "ru": "Сначала да, но потом я завёл друзей. К тому же я общался с семьёй по интернету. Это счастье — иметь возможность так общаться." },
+    { "speaker": "Lucía", "es": "Sí, es verdad. ¿Y qué es lo que más te gustaba de Italia?", "ru": "Да, это правда. А что тебе больше всего нравилось в Италии?" },
+    { "speaker": "Carlos", "es": "La comida, sin duda. La pasta, la pizza... ¡Es todo delicioso!", "ru": "Еда, без сомнения. Паста, пицца... Всё это очень вкусно!" },
+    { "speaker": "Lucía", "es": "¡Qué envidia! Yo quiero ir a Alemania para probar sus salchichas y su cerveza.", "ru": "Как я завидую! Я хочу поехать в Германию, чтобы попробовать их сосиски и пиво." },
+    { "speaker": "Carlos", "es": "Seguro que te va a encantar. Y también puedes visitar otros países cercanos, como Austria o Suiza.", "ru": "Уверен, тебе очень понравится. А ещё ты можешь посетить соседние страны, например Австрию или Швейцарию." },
+    { "speaker": "Lucía", "es": "Sí, me gustaría mucho. Bueno, ya veremos qué pasa.", "ru": "Да, мне бы очень хотелось. Ну что ж, посмотрим, что будет." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el extranjero", "ru": "заграница" },
+        { "es": "la experiencia", "ru": "опыт" },
+        { "es": "las oportunidades", "ru": "возможности" },
+        { "es": "adaptarse", "ru": "приспособиться" },
+        { "es": "acostumbrarse", "ru": "привыкнуть" },
+        { "es": "el idioma", "ru": "язык" },
+        { "es": "dar miedo", "ru": "пугать" },
+        { "es": "sentirse solo", "ru": "чувствовать себя одиноким" },
+        { "es": "la envidia", "ru": "зависть" },
+        { "es": "probar", "ru": "пробовать" }
+      ]
+    },
+    {
+      "type": "fill-gap-perfecto_experiencias",
+      "title": "Практика: Pretérito perfecto",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Ya ___ vivido en Francia.", "ru": "Я уже жила во Франции", "answer": "he", "options": ["he", "has", "había"] },
+        { "text": "Yo también ___ vivido en el extranjero.", "ru": "Я тоже жил за границей", "answer": "he", "options": ["he", "has", "hemos"] },
+        { "text": "Ya ___ adaptado a la vida en el extranjero.", "ru": "Я уже адаптировался к жизни за границей", "answer": "me he", "options": ["me he", "me has", "se ha"] },
+        { "text": "Siempre me has ___ que quieres viajar.", "ru": "Ты всегда говорила, что хочешь путешествовать", "answer": "dicho", "options": ["dicho", "decido", "digo"] },
+        { "text": "¿___ probado las salchichas alemanas?", "ru": "Ты пробовал немецкие сосиски?", "answer": "Has", "options": ["Has", "He", "Habéis"] }
+      ]
+    },
+    {
+      "type": "fill-gap-verbos_gusto_miedo",
+      "title": "Практика: apetecer, dar miedo, costar",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Me ___ aprender el idioma.", "ru": "Мне хочется выучить язык", "answer": "apetece", "options": ["apetece", "apetecen", "apeteció"] },
+        { "text": "¿No te da ___ irte a un país tan lejano?", "ru": "Тебя не пугает уехать в такую далёкую страну?", "answer": "miedo", "options": ["miedo", "gusto", "pena"] },
+        { "text": "Al principio me ___ mucho adaptarme.", "ru": "Сначала мне было очень трудно приспособиться", "answer": "costó", "options": ["costó", "cuesta", "costará"] },
+        { "text": "Es una ___ poder comunicarse así.", "ru": "Это счастье — иметь возможность так общаться", "answer": "suerte", "options": ["suerte", "pena", "vida"] },
+        { "text": "¡Qué ___ de tu viaje!", "ru": "Как я завидую твоей поездке!", "answer": "envidia", "options": ["envidia", "miedo", "hambre"] }
+      ]
+    },
+    {
+      "type": "fill-gap-conectores_tiempo",
+      "title": "Практика: al principio, luego, sin duda...",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Al ___ es difícil, pero luego te acostumbras.", "ru": "Сначала трудно, но потом привыкаешь", "answer": "principio", "options": ["principio", "fin", "final"] },
+        { "text": "Al fin y al ___, ya he vivido en Francia.", "ru": "В конце концов, я уже жила во Франции", "answer": "cabo", "options": ["cabo", "fin", "pie"] },
+        { "text": "La comida, ___ duda, es deliciosa.", "ru": "Еда, без сомнения, вкусная", "answer": "sin", "options": ["sin", "con", "en"] },
+        { "text": "Al principio me sentía solo, pero ___ hice amigos.", "ru": "Сначала я чувствовал себя одиноким, но потом завёл друзей", "answer": "luego", "options": ["luego", "antes", "nunca"] },
+        { "text": "Ya ___ qué pasa.", "ru": "Посмотрим, что будет", "answer": "veremos", "options": ["veremos", "vemos", "ver"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Me alegra la ___ de irme.", "ru": "Я рада идее уехать", "answer": "idea", "options": ["idea", "pena", "gana"] },
+        { "text": "Quieres tener una experiencia en el ___.", "ru": "Ты хочешь получить опыт за границей", "answer": "extranjero", "options": ["extranjero", "mundo", "país"] },
+        { "text": "Alemania es un país con muchas ___.", "ru": "Германия — страна с большими возможностями", "answer": "oportunidades", "options": ["oportunidades", "dificultades", "ciudades"] },
+        { "text": "Me apetece ___ el idioma.", "ru": "Мне хочется выучить язык", "answer": "aprender", "options": ["aprender", "enseñar", "hablar"] },
+        { "text": "¿No te da ___ irte a un país tan lejano?", "ru": "Тебя не пугает уехать в такую далёкую страну?", "answer": "miedo", "options": ["miedo", "frío", "prisa"] },
+        { "text": "Ya me ___ adaptado.", "ru": "Я уже адаптировалась", "answer": "he", "options": ["he", "has", "hemos"] },
+        { "text": "Al principio me ___ mucho, pero luego conocí a gente maravillosa.", "ru": "Сначала мне было очень трудно, но потом я познакомился с замечательными людьми", "answer": "costó", "options": ["costó", "cuesta", "costaba"] },
+        { "text": "Además, ___ con mi familia por internet.", "ru": "К тому же я общался с семьёй по интернету", "answer": "hablaba", "options": ["hablaba", "hablo", "hablaré"] },
+        { "text": "Quiero ir a Alemania para ___ sus salchichas.", "ru": "Я хочу поехать в Германию, чтобы попробовать их сосиски", "answer": "probar", "options": ["probar", "cambiar", "llevar"] },
+        { "text": "Ya veremos qué ___.", "ru": "Посмотрим, что будет", "answer": "pasa", "options": ["pasa", "pasó", "pasará"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Ты — Лусия, рассказываешь Карлосу о желании уехать учиться в Германию"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Ты — Карлос, делишься опытом жизни в Италии"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи о жизни за границей: опыт, адаптация, планы",
+      "template": [
+        { "label": "Я рада идее уехать", "es": "Me alegra la ___ de irme." },
+        { "label": "Опыт за границей", "es": "Una experiencia en el ___." },
+        { "label": "С большими возможностями", "es": "Un país con muchas ___." },
+        { "label": "Мне хочется выучить язык", "es": "Me apetece ___ el idioma." },
+        { "label": "Тебя не пугает уехать?", "es": "¿No te da ___ irte?" },
+        { "label": "Я уже жила во Франции", "es": "Ya ___ vivido en Francia." },
+        { "label": "Сначала трудно", "es": "Al ___ es difícil." },
+        { "label": "Сначала мне было трудно", "es": "Al principio me ___ mucho." },
+        { "label": "Без сомнения", "es": "___ duda." },
+        { "label": "Я завидую", "es": "¡Qué ___!" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿De qué idea se alegra Lucía?",
+          "ru": "Какой идее рада Лусия?",
+          "options": ["De irse", "De quedarse", "De viajar a Italia", "De probar cerveza"],
+          "answer": 0
+        },
+        {
+          "question": "¿A qué país quiere ir Lucía?",
+          "ru": "В какую страну хочет поехать Лусия?",
+          "options": ["A Alemania", "A Italia", "A Francia", "A Austria"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué quiere hacer Lucía allí?",
+          "ru": "Что Лусия хочет делать там?",
+          "options": ["Estudiar y aprender el idioma", "Trabajar", "Cuidar niños", "Vender comida"],
+          "answer": 0
+        },
+        {
+          "question": "¿Dónde ha vivido Lucía antes?",
+          "ru": "Где Лусия уже жила раньше?",
+          "options": ["En Francia", "En Italia", "En Alemania", "En España"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué le pasó a Carlos al principio en Italia?",
+          "ru": "Что было с Карлосом вначале в Италии?",
+          "options": ["Le costó mucho", "Nada", "No quería volver", "Aprendió el idioma"],
+          "answer": 0
+        },
+        {
+          "question": "¿Con quién hablaba Carlos por internet?",
+          "ru": "С кем Карлос общался по интернету?",
+          "options": ["Con su familia", "Con su novia", "Con sus profesores", "Con sus vecinos"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué es lo que más le gustaba a Carlos de Italia?",
+          "ru": "Что Карлосу нравилось в Италии больше всего?",
+          "options": ["La comida", "La música", "Las playas", "La gente"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué quiere probar Lucía en Alemania?",
+          "ru": "Что Лусия хочет попробовать в Германии?",
+          "options": ["Las salchichas y la cerveza", "La pasta y la pizza", "El pan", "El chocolate"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué países cercanos puede visitar Lucía?",
+          "ru": "Какие соседние страны может посетить Лусия?",
+          "options": ["Austria o Suiza", "Francia o Italia", "Polonia o Rusia", "Suecia o Noruega"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se sentía Carlos al principio en Italia?",
+          "ru": "Как чувствовал себя Карлос вначале в Италии?",
+          "options": ["Alegre", "Tranquilo", "Solo", "Enfadado"],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повтори слова по теме «жизнь за границей, учёба, адаптация»",
+    "Практика: расскажи, куда ты хотел(а) бы уехать учиться. Используй: me gustaría ir a..., me apetece..., no me da miedo..., al principio... luego...",
+    "Дневник: опиши свой опыт жизни в другом городе или стране",
+    "Грамматика: составь 4 предложения с pretérito perfecto (he vivido, me he adaptado) и 4 с me apetece / me da miedo / me costó"
+  ]
+}

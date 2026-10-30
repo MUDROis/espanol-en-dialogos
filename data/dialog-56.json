@@ -1,0 +1,333 @@
+{
+  "id": 56,
+  "title": "Me llamo Olga",
+  "titleRu": "Меня зовут Ольга",
+  "module": "a0-a1",
+  "block": 1,
+  "part": 1,
+  "blockTitle": "Часть 1 · Начальный уровень",
+  "level": "A0",
+  "theme": "Знакомство: имя и вежливость  Presentarse: el nombre y la cortesía",
+  "mission": "Представиться новому соседу и узнать его имя — с вежливыми формулами señor / señora.",
+  "mapPoint": "Квартал Руссафа: улица у дома",
+  "duration": "45 минут",
+  "stepsCount": 8,
+  "readingNote": "Прочитайте диалог вслух: реплики Ольги — по памяти, реплики Матео — с текстом.",
+  "characters": ["olga", "mateo"],
+  "objectives": [
+    "Представиться двумя способами: me llamo … и yo soy …",
+    "Спросить имя собеседника: ¿cómo te llamas?",
+    "Отреагировать на знакомство: mucho gusto, encantado / encantada",
+    "Поблагодарить и ответить: gracias — de nada",
+    "Читать вслух слова с ll = [ль] и с твёрдым s"
+  ],
+  "reading": {
+    "title": "Consonantes fáciles y la doble ele",
+    "description": "Четыре «лёгких» согласных — l, m, n, s — читаются почти как в русском. Единственная хитрость урока: s звучит без смягчения (solo = «со́ло»), а ll читается мягко, как русский [ль].",
+    "letters": [
+      { "es": "L", "ru": "[л] — в слове la", "name": "ele" },
+      { "es": "M", "ru": "[м] — в слове mesa", "name": "eme" },
+      { "es": "N", "ru": "[н] — в слове noqa", "name": "ene" },
+      { "es": "S", "ru": "[с] твёрдое, без смягчения", "name": "ese" },
+      { "es": "LL", "ru": "[ль] — в слове llamo", "name": "elle" },
+      { "es": "E", "ru": "[э] — в слове ella", "name": "e" },
+      { "es": "O", "ru": "[о] — в слове Olga", "name": "o" },
+      { "es": "A", "ru": "[а] — в слове Ana", "name": "a" }
+    ],
+    "syllables": [
+      {
+        "label": "Ряд с l",
+        "note": "Читаем как в русском: la-le-li-lo-lu",
+        "items": ["la", "le", "li", "lo", "lu"]
+      },
+      {
+        "label": "Ряд с n",
+        "note": "Проверьте носовое n на выдохе",
+        "items": ["na", "ne", "ni", "no", "nu"]
+      },
+      {
+        "label": "Ряд с s: твёрдое s",
+        "note": "solo = «со́ло», а не «со́льо»",
+        "items": ["sa", "se", "si", "so", "su"]
+      },
+      {
+        "label": "Ряд ll: мягкая двойная l",
+        "note": "ll = [ль]: lla, lle, lli, llo, llu",
+        "items": ["lla", "lle", "lli", "llo", "llu"]
+      }
+    ],
+    "words": [
+      { "es": "llamo", "how": "«лья́мо» — ll = [ль]" },
+      { "es": "señora", "how": "«се-ньо-ра» — ñ пока на слух" },
+      { "es": "mesa", "how": "«ме-са» — s твёрдое, без смягчения" },
+      { "es": "ella", "how": "«э-лья» — двойная ll" },
+      { "es": "Olga", "how": "«Оль-га» — читаем целиком" },
+      { "es": "Mateo", "how": "«Ма-те-о» — три слога" },
+      { "es": "Lucía", "how": "«лу-си-а» — ударение на си" }
+    ],
+    "rules": [
+      {
+        "title": "Твёрдое s",
+        "text": "Звук [с] в испанском s не смягчается: solo звучит как «со́ло», а не «со́льо». Это самый важный звуковой контраст урока: сравните пару «solo — соль» и произнесите только первый слог."
+      },
+      {
+        "title": "ll = [ль]",
+        "text": "Слитная ll читается мягко, как русский [ль]: llamo = «лья́мо», ella = «э́лья». Слова-носители правила: llamo, ella, ella misma."
+      },
+      {
+        "title": "l, m, n — как в русском",
+        "text": "Эти три согласных почти не отличаются от русских: la, mesa, noqa. Разница только в том, что испанская гласная после них никогда не редуцируется."
+      },
+      {
+        "title": "Читаем имена",
+        "text": "Имена героев курса учатся вслух сразу: Olga, Mateo, Lucía. Имя Lucía — «мостик» к уровню A2, поэтому произносите его с кастильским [с] на си."
+      }
+    ]
+  },
+  "grammar": {
+    "llamarse_me_llamo": {
+      "title": "Llamarse — «зваться»",
+      "description": "llamarse = «зваться». Me llamo = «меня зовут». Спрашивают имя так: ¿Cómo te llamas? — и отвечают теми же словами: Me llamo… Два способа представиться равнозначны: Me llamo Olga и Yo soy Olga.",
+      "forms": {
+        "yo": { "es": "Me llamo Olga", "ru": "меня зовут Ольга" },
+        "tu": { "es": "Tú te llamas Mateo", "ru": "ты зовёшься Матео" },
+        "el_ella": { "es": "Ella se llama Lucía", "ru": "её зовут Лусия" },
+        "nosotros": { "es": "Nosotros nos llamamos Ana y Olga", "ru": "мы зовёмся Ана и Ольга" }
+      },
+      "examples": [
+        { "es": "— ¿Cómo te llamas? — Me llamo Olga.", "ru": "— Как тебя зовут? — Меня зовут Ольга." },
+        { "es": "Hola, yo soy Olga. ¿Y tú, cómo te llamas?", "ru": "Привет, я Ольга. А тебя как зовут?" }
+      ]
+    },
+    "ser_yo_soy": {
+      "title": "Ser: yo soy — связка «я есть»",
+      "description": "Ser = «быть». Пока вводится только первое лицо: yo soy = «я есть, я — это…». Остальные формы (eres, es, somos) появятся в уроках 8 и 10, а пока их достаточно узнавать на слух.",
+      "forms": {
+        "yo": { "es": "Yo soy Ana", "ru": "я Ана" },
+        "tu": { "es": "Tú eres Roberto", "ru": "ты Роберто" },
+        "el_ella": { "es": "Él es Mateo", "ru": "он Матео" },
+        "nosotros": { "es": "Nosotros somos de Valencia", "ru": "мы из Валенсии" }
+      },
+      "examples": [
+        { "es": "Yo soy Olga. Soy de Rusia.", "ru": "Я Ольга. Я из России." },
+        { "es": "— ¿Y tú? — Yo soy Ana.", "ru": "— А ты? — Я Ана." }
+      ]
+    },
+    "mucho_gusto_y_encantado": {
+      "title": "Mucho gusto, encantado / encantada — вежливость знакомства",
+      "description": "Формула Encantado / Encantada повторяет говорящего: мужчина говорит encantado, женщина — encantada. На благодарность отвечают de nada.",
+      "list": [
+        { "es": "Mucho gusto", "ru": "очень приятно" },
+        { "es": "Encantado (говорит мужчина)", "ru": "очень приятно" },
+        { "es": "Encantada (говорит женщина)", "ru": "очень приятно" },
+        { "es": "Gracias", "ru": "спасибо" },
+        { "es": "De nada", "ru": "не за что" },
+        { "es": "¿Y tú?", "ru": "а у тебя?" }
+      ],
+      "examples": [
+        { "es": "— Encantado, Olga. — Mucho gusto, Mateo.", "ru": "— Очень приятно, Ольга. — Очень приятно, Матео." },
+        { "es": "— Gracias. — De nada.", "ru": "— Спасибо. — Не за что." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "presentarse": [
+      { "es": "me llamo", "ru": "меня зовут" },
+      { "es": "yo soy", "ru": "я есть (я — …)" },
+      { "es": "¿cómo te llamas?", "ru": "как тебя зовут?" },
+      { "es": "¿y tú?", "ru": "а ты?" }
+    ],
+    "la_cortesia": [
+      { "es": "mucho gusto", "ru": "очень приятно" },
+      { "es": "encantado / encantada", "ru": "очень приятно (муж. / жен.)" },
+      { "es": "gracias", "ru": "спасибо" },
+      { "es": "de nada", "ru": "не за что" },
+      { "es": "sí", "ru": "да" },
+      { "es": "no", "ru": "нет" }
+    ],
+    "los_tratamientos": [
+      { "es": "señor", "ru": "сеньор" },
+      { "es": "señora", "ru": "сеньора" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Mateo", "es": "Buenas tardes, señora.", "ru": "Добрый день, сеньора." },
+    { "speaker": "Olga", "es": "Buenas tardes. Me llamo Olga.", "ru": "Добрый день. Меня зовут Ольга." },
+    { "speaker": "Mateo", "es": "Encantado, Olga. Yo soy Mateo.", "ru": "Очень приятно, Ольга. А я Матео." },
+    { "speaker": "Olga", "es": "Mucho gusto, Mateo.", "ru": "Очень приятно, Матео." },
+    { "speaker": "Olga", "es": "¿Y tú, cómo te llamas? ¡Qué fácil!", "ru": "А тебя как зовут? Как просто!" },
+    { "speaker": "Mateo", "es": "Me llamo Mateo. Gracias, señora.", "ru": "Меня зовут Матео. Спасибо, сеньора." },
+    { "speaker": "Olga", "es": "Gracias, Mateo. ¿Tú eres de Valencia?", "ru": "Спасибо, Матео. Ты из Валенсии?" },
+    { "speaker": "Mateo", "es": "Sí, yo soy de Valencia. Aquí vivo yo.", "ru": "Да, я из Валенсии. Здесь я живу." },
+    { "speaker": "Olga", "es": "¡Qué bien! Yo soy de Rusia.", "ru": "Как здорово! Я из России." },
+    { "speaker": "Mateo", "es": "¡Encantado! Bueno, hasta luego, señora.", "ru": "Очень приятно! Ну, до скорого, сеньора." },
+    { "speaker": "Olga", "es": "De nada, Mateo. ¡Hasta luego!", "ru": "Не за что, Матео. До скорого!" }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между репликой знакомства и переводом",
+      "pairs": [
+        { "es": "me llamo", "ru": "меня зовут" },
+        { "es": "¿cómo te llamas?", "ru": "как тебя зовут?" },
+        { "es": "yo soy", "ru": "я есть" },
+        { "es": "mucho gusto", "ru": "очень приятно" },
+        { "es": "encantado / encantada", "ru": "очень приятно (муж. / жен.)" },
+        { "es": "de nada", "ru": "не за что" },
+        { "es": "gracias", "ru": "спасибо" },
+        { "es": "señor", "ru": "сеньор" },
+        { "es": "señora", "ru": "сеньора" },
+        { "es": "¿y tú?", "ru": "а ты?" }
+      ]
+    },
+    {
+      "type": "fill-gap-llamarse_me_llamo",
+      "title": "Практика: llamarse — «зваться»",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "— ¡Hola! ___ llamo Olga.", "ru": "— Привет! Меня зовут Ольга.", "answer": "Me", "options": ["Me", "Te", "So"] },
+        { "text": "— ¿Cómo ___ llamas?", "ru": "— Как тебя зовут?", "answer": "te", "options": ["te", "me", "se"] },
+        { "text": "— Ella ___ llama Lucía.", "ru": "— Её зовут Лусия.", "answer": "se", "options": ["se", "me", "te"] },
+        { "text": "Nosotros ___ llamamos Ana y Olga.", "ru": "Мы зовёмся Ана и Ольга.", "answer": "nos", "options": ["nos", "se", "me"] },
+        { "text": "Yo ___ llamo Olga. (Ольга представляется сама)", "ru": "Я — меня зовут Ольга. (Ольга представляется сама)", "answer": "me", "options": ["me", "te", "nos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-ser_yo_soy",
+      "title": "Практика: ser — yo soy",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "— Yo ___ Mateo.", "ru": "— А я Матео.", "answer": "soy", "options": ["soy", "estoy", "tengo"] },
+        { "text": "— ¿Y tú? — Yo ___ Ana.", "ru": "— А ты? — Я Ана.", "answer": "soy", "options": ["soy", "eres", "somos"] },
+        { "text": "Nosotros ___ de Valencia.", "ru": "Мы из Валенсии.", "answer": "somos", "options": ["somos", "soy", "son"] },
+        { "text": "Tú ___ Roberto, un vecino.", "ru": "Ты Роберто, сосед.", "answer": "eres", "options": ["eres", "soy", "somos"] },
+        { "text": "Yo ___ de Rusia.", "ru": "Я из России.", "answer": "soy", "options": ["soy", "tengo", "estoy"] }
+      ]
+    },
+    {
+      "type": "fill-gap-mucho_gusto_y_encantado",
+      "title": "Практика: вежливость знакомства",
+      "description": "Вставь пропущенное слово. Формула повторяет говорящего",
+      "sentences": [
+        { "text": "— Mucho ___ . — Gracias.", "ru": "— Очень приятно. — Спасибо.", "answer": "gusto", "options": ["gusto", "gustos", "gracias"] },
+        { "text": "— Encantada, señora. — ___ gusto.", "ru": "— Очень приятно, сеньора. — Очень приятно.", "answer": "Mucho", "options": ["Mucho", "Hola", "Hasta"] },
+        { "text": "— Gracias. — ___ nada.", "ru": "— Спасибо. — Не за что.", "answer": "De", "options": ["De", "Por", "Para"] },
+        { "text": "— Encantad___ , señora. (Говорит мужчина)", "ru": "— Очень приятно, сеньора. (Говорит мужчина)", "answer": "o", "options": ["o", "a", "e"] },
+        { "text": "— Mucho gusto, Olga. — Encantad___ . (Говорит женщина)", "ru": "— Очень приятно, Ольга. — Очень приятно. (Говорит женщина)", "answer": "a", "options": ["a", "o", "e"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика урока",
+      "description": "Вставь пропущенное слово: знакомство и вежливость",
+      "sentences": [
+        { "text": "Buenos días. ¿Cómo ___ llamas?", "ru": "Доброе утро. Как тебя зовут?", "answer": "te", "options": ["te", "me", "se"] },
+        { "text": "___ llamo Ana.", "ru": "Меня зовут Ана.", "answer": "Me", "options": ["Me", "Te", "So"] },
+        { "text": "Yo ___ de Valencia.", "ru": "Я из Валенсии.", "answer": "soy", "options": ["soy", "tengo", "estoy"] },
+        { "text": "— Mucho gusto. — ___ nada.", "ru": "— Очень приятно. — Не за что.", "answer": "De", "options": ["De", "Con", "Para"] },
+        { "text": "— Adiós, señora. — Hasta ___ .", "ru": "— До свидания, сеньора. — До скорого.", "answer": "luego", "options": ["luego", "días", "tarde"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Вопрос ¿Cómo te llamas? повтори трижды — это ключ урока."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Ольгой",
+      "role": "Olga",
+      "description": "Ты — Ольга. Поздоровайся с соседом, представься двумя способами, отреагируй на «Encantado» и спроси его имя."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Матео",
+      "role": "Mateo",
+      "description": "Ты — Матео. Поздоровайся, назови себя формулой yo soy, скажи «Encantado» и переспроси имя собеседника."
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Познакомься с соседом по лестнице: представься, спроси имя, ответь на вежливость",
+      "template": [
+        { "label": "Добрый день, сеньора", "es": "Buenas ___ , señora." },
+        { "label": "Меня зовут Ольга", "es": "___ llamo Olga." },
+        { "label": "А я Матео", "es": "Yo ___ Mateo." },
+        { "label": "Очень приятно", "es": "Encantad___ , Olga." },
+        { "label": "Как тебя зовут?", "es": "¿Cómo ___ llamas?" },
+        { "label": "Спасибо", "es": "___ , señora." },
+        { "label": "Не за что", "es": "___ nada." },
+        { "label": "До скорого", "es": "¡Hasta ___ !" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Cómo se dice «меня зовут Ольга»?",
+          "ru": "Как сказать «меня зовут Ольга»?",
+          "options": ["Me llamo Olga", "Yo estoy Olga", "Me llamas Olga", "Yo me Olga"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se pregunta «как тебя зовут?»",
+          "ru": "Как спросить «как тебя зовут?»",
+          "options": ["¿Cómo te llamas?", "¿Qué tal?", "¿Dónde estás?", "¿Qué es esto?"],
+          "answer": 0
+        },
+        {
+          "question": "Mateo se presenta. ¿Qué dice?",
+          "ru": "Матео представляется. Что он говорит?",
+          "options": ["Yo soy Mateo", "Yo estoy Mateo", "Me llamas Mateo", "Tengo Mateo"],
+          "answer": 0
+        },
+        {
+          "question": "Responde al audio: «Encantado». ¿Qué significa?",
+          "ru": "Ответь на аудио: «Encantado». Что это значит?",
+          "options": ["До свидания", "Очень приятно", "Спасибо", "Не за что"],
+          "answer": 1
+        },
+        {
+          "question": "Olga responde a «Gracias». ¿Qué dice?",
+          "ru": "Ольга отвечает на «Gracias». Что она говорит?",
+          "options": ["De nada", "Buenas noches", "Me llamo Olga", "Mucho tiempo"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se lee la ll en la palabra llamo?",
+          "ru": "Как читается ll в слове llamo?",
+          "options": ["[л]", "[ль]", "[й]", "не читается"],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo suena la s en la palabra mesa?",
+          "ru": "Как звучит s в слове mesa?",
+          "options": ["Мягко, как в «меся»", "Твёрдо, без смягчения", "Как [з]", "Не читается"],
+          "answer": 1
+        },
+        {
+          "question": "Habla una mujer. ¿Qué fórmula usa?",
+          "ru": "Говорит женщина. Какую формулу она использует?",
+          "options": ["Encantado", "Encantada", "Encantados", "Encantadas"],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    "Я могу представиться двумя способами: me llamo … и yo soy …",
+    "Я спрашиваю имя собеседника: ¿cómo te llamas?",
+    "Я отвечаю на знакомство: mucho gusto, encantado / encantada",
+    "Я отвечаю на благодарность: de nada",
+    "Я читаю вслух слова с ll = [ль] и с твёрдым s: llamo, mesa"
+  ],
+  "homework": [
+    "Запиши аудио-знакомство на 30 секунд: приветствие по времени суток, me llamo + имя, mucho gusto",
+    "Прочитай вслух имена Olga, Mateo, Lucía, слова señora, mesa, ella — проверь ll = [ль] и твёрдое s",
+    "Проговори вслух слоговые ряды: la-le-li-lo-lu, na-ne-ni-no-nu, sa-se-si-so-su, lla-lle-lli-llo-llu",
+    "Прослушай свою запись и эталон, выбери одну формулу, которую произнесёшь завтра на улице"
+  ]
+}
