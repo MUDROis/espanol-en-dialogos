@@ -1,0 +1,702 @@
+{
+  "id": 65,
+  "title": "En el hotel",
+  "titleRu": "В отеле: заселение и ключ",
+  "module": "a0-a1",
+  "block": 2,
+  "part": 2,
+  "blockTitle": "Часть 2 · Продолжение начального уровня",
+  "level": "A1",
+  "theme": "Отель: заселение и ключ  El hotel: la llegada y la llave",
+  "mission": "Самостоятельно заселиться в отель: подтвердить бронь, получить ключ и узнать про вай-фай, завтрак и этаж.",
+  "mapPoint": "Отель в Валенсии: старт путешествия",
+  "duration": "45 минут",
+  "stepsCount": 7,
+  "readingNote": "Прочитайте реплики вслух: h в hotel и hay не читается — «отел», «ай»; в desayuno три слога, y = [й].",
+  "characters": [
+    "olga",
+    "recepcionista_hotel"
+  ],
+  "objectives": [
+    "Подтвердить бронь и назвать своё имя: tengo una reserva. Me llamo Olga",
+    "Спросить об услуге вопросом ¿hay …?: ¿Hay wifi en la habitación?",
+    "Понять ключевые ответы администратора: этаж, номер и время завтрака",
+    "Сказать «ключ, пожалуйста» и поблагодарить: la llave, por favor. Gracias",
+    "Читать слова с дифтонгами ie и ue в одном слоге: bien, bueno, desayuno, quiero"
+  ],
+  "grammar": {
+    "hay": {
+      "title": "Hay: есть, имеется (слово без изменений)",
+      "description": "Hay значит «есть, имеется» и не спрягается: для всех лиц одно и то же слово. Поставьте его в начало фразы — получится вопрос: hay wifi → ¿Hay wifi? Добавьте no — получится ответ: no hay. Внимание: h в hay не читается, слово звучит «ай».",
+      "forms": {
+        "yo": {
+          "es": "hay una reserva",
+          "ru": "есть бронь"
+        },
+        "tu": {
+          "es": "¿hay un ascensor?",
+          "ru": "есть ли лифт?"
+        },
+        "el_ella": {
+          "es": "no hay wifi",
+          "ru": "вай-фая нет"
+        },
+        "nosotros": {
+          "es": "hay una habitación libre",
+          "ru": "есть свободный номер"
+        }
+      },
+      "examples": [
+        {
+          "es": "Buenas tardes. Tengo una reserva.",
+          "ru": "Добрый день. У меня бронь."
+        },
+        {
+          "es": "Sí, hay wifi en la habitación.",
+          "ru": "Да, в номере есть вай-фай."
+        }
+      ]
+    },
+    "hay_un_una": {
+      "title": "Hay + un / una: «есть один / одна»",
+      "description": "После hay можно поставить un или una: hay un hotel — есть один отель, hay una llave — есть ключ, hay una habitación libre — есть свободный номер. С отрицанием: no hay un ascensor — лифта нет.",
+      "list": [
+        {
+          "es": "hay un hotel aquí",
+          "ru": "здесь есть отель"
+        },
+        {
+          "es": "hay una habitación libre",
+          "ru": "есть свободный номер"
+        },
+        {
+          "es": "hay un ascensor",
+          "ru": "есть лифт"
+        },
+        {
+          "es": "no hay un restaurante",
+          "ru": "ресторана нет"
+        },
+        {
+          "es": "hay una llave en la mesa",
+          "ru": "на столе есть ключ"
+        },
+        {
+          "es": "hay una reserva a nombre de Olga",
+          "ru": "есть бронь на имя Ольги"
+        }
+      ],
+      "examples": [
+        {
+          "es": "En la planta dos hay un restaurante.",
+          "ru": "На втором этаже есть ресторан."
+        },
+        {
+          "es": "Lo siento, no hay llave.",
+          "ru": "Извините, ключа нет."
+        }
+      ]
+    },
+    "preguntas_hay": {
+      "title": "Вопрос ¿Hay …? и ответы sí / no",
+      "description": "Вопрос про наличие строится так: ¿Hay + то, о чём спрашиваем? Ответ: sí, hay … — да, есть; no, no hay … — нет. В вопросе первое слово всегда с большой буквы и со знаком ¿.",
+      "list": [
+        {
+          "es": "¿Hay wifi en la habitación?",
+          "ru": "В номере есть вай-фай?"
+        },
+        {
+          "es": "¿Hay un ascensor?",
+          "ru": "Есть ли лифт?"
+        },
+        {
+          "es": "¿Hay un restaurante en el hotel?",
+          "ru": "Есть ли в отеле ресторан?"
+        },
+        {
+          "es": "Sí, hay wifi.",
+          "ru": "Да, вай-фай есть."
+        },
+        {
+          "es": "No, no hay ascensor.",
+          "ru": "Нет, лифта нет."
+        },
+        {
+          "es": "¿A qué hora es el desayuno?",
+          "ru": "Во сколько завтрак?"
+        }
+      ],
+      "examples": [
+        {
+          "es": "¿Hay wifi en la habitación? — Sí, hay wifi.",
+          "ru": "В номере есть вай-фай? — Да, есть."
+        },
+        {
+          "es": "¿A qué hora es el desayuno? — De siete a diez.",
+          "ru": "Во сколько завтрак? — С семи до десяти."
+        }
+      ]
+    }
+  },
+  "vocabulary": {
+    "el_hotel": [
+      {
+        "es": "el hotel",
+        "ru": "отель"
+      },
+      {
+        "es": "la habitación",
+        "ru": "номер"
+      },
+      {
+        "es": "la llave",
+        "ru": "ключ"
+      },
+      {
+        "es": "la reserva",
+        "ru": "бронь"
+      },
+      {
+        "es": "el documento",
+        "ru": "документ"
+      }
+    ],
+    "en_el_hotel": [
+      {
+        "es": "el desayuno",
+        "ru": "завтрак"
+      },
+      {
+        "es": "el wifi",
+        "ru": "вай-фай"
+      },
+      {
+        "es": "la noche",
+        "ru": "ночь"
+      },
+      {
+        "es": "la planta",
+        "ru": "этаж"
+      },
+      {
+        "es": "el ascensor",
+        "ru": "лифт"
+      }
+    ],
+    "las_formulas_de_hay": [
+      {
+        "es": "hay",
+        "ru": "есть, имеется"
+      },
+      {
+        "es": "¿hay wifi en la habitación?",
+        "ru": "в номере есть вай-фай?"
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "Olga",
+      "es": "Buenas tardes. Tengo una reserva.",
+      "ru": "Добрый день. У меня бронь."
+    },
+    {
+      "speaker": "La recepcionista",
+      "es": "Buenas tardes. ¿Su nombre, por favor?",
+      "ru": "Добрый день. Ваше имя, пожалуйста?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Me llamo Olga. Olga Smirnova.",
+      "ru": "Меня зовут Ольга. Ольга Смирнова."
+    },
+    {
+      "speaker": "La recepcionista",
+      "es": "Sí, aquí está: habitación doble, tres noches.",
+      "ru": "Да, вот: двухместный номер, три ночи."
+    },
+    {
+      "speaker": "Olga",
+      "es": "¿Hay wifi en la habitación?",
+      "ru": "В номере есть вай-фай?"
+    },
+    {
+      "speaker": "La recepcionista",
+      "es": "Sí, hay wifi. ¿Algo más?",
+      "ru": "Да, вай-фай есть. Что-нибудь ещё?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "¿A qué hora es el desayuno?",
+      "ru": "Во сколько завтрак?"
+    },
+    {
+      "speaker": "La recepcionista",
+      "es": "El desayuno es de siete a diez.",
+      "ru": "Завтрак с семи до десяти."
+    },
+    {
+      "speaker": "Olga",
+      "es": "¿En qué planta está la habitación?",
+      "ru": "На каком этаже номер?"
+    },
+    {
+      "speaker": "La recepcionista",
+      "es": "En la tercera. El ascensor está a la derecha.",
+      "ru": "На третьем этаже. Лифт справа."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Gracias. La llave, por favor.",
+      "ru": "Спасибо. Ключ, пожалуйста."
+    },
+    {
+      "speaker": "La recepcionista",
+      "es": "Aquí tiene. Bienvenida a Valencia.",
+      "ru": "Вот, пожалуйста. Добро пожаловать в Валенсию."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        {
+          "es": "el hotel",
+          "ru": "отель"
+        },
+        {
+          "es": "la habitación",
+          "ru": "номер"
+        },
+        {
+          "es": "la llave",
+          "ru": "ключ"
+        },
+        {
+          "es": "el desayuno",
+          "ru": "завтрак"
+        },
+        {
+          "es": "el wifi",
+          "ru": "вай-фай"
+        },
+        {
+          "es": "la planta",
+          "ru": "этаж"
+        },
+        {
+          "es": "el ascensor",
+          "ru": "лифт"
+        },
+        {
+          "es": "la reserva",
+          "ru": "бронь"
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-hay",
+      "title": "Практика: Hay — есть, имеется",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "___ una habitación libre.",
+          "ru": "Есть свободный номер.",
+          "answer": "Hay",
+          "options": [
+            "Hay",
+            "Quiero",
+            "Está"
+          ]
+        },
+        {
+          "text": "Lo siento, ___ llave.",
+          "ru": "Извините, ключа нет.",
+          "answer": "no hay",
+          "options": [
+            "no hay",
+            "hay",
+            "no"
+          ]
+        },
+        {
+          "text": "En la planta dos ___ un restaurante.",
+          "ru": "На втором этаже есть ресторан.",
+          "answer": "hay",
+          "options": [
+            "hay",
+            "está",
+            "son"
+          ]
+        },
+        {
+          "text": "___ el desayuno en el hotel?",
+          "ru": "Есть ли в отеле завтрак?",
+          "answer": "¿Hay",
+          "options": [
+            "¿Hay",
+            "A qué",
+            "Cuánto"
+          ]
+        },
+        {
+          "text": "Sí, ___ wifi en la habitación.",
+          "ru": "Да, в номере есть вай-фай.",
+          "answer": "hay",
+          "options": [
+            "hay",
+            "está",
+            "es"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-hay_un_una",
+      "title": "Практика: Hay + un / una",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Hay ___ hotel en esta calle.",
+          "ru": "На этой улице есть отель.",
+          "answer": "un",
+          "options": [
+            "un",
+            "una",
+            "unos"
+          ]
+        },
+        {
+          "text": "Hay ___ habitación libre para tres noches.",
+          "ru": "Есть свободный номер на три ночи.",
+          "answer": "una",
+          "options": [
+            "una",
+            "un",
+            "uno"
+          ]
+        },
+        {
+          "text": "¿Hay ___ restaurante en el hotel?",
+          "ru": "Есть ли в отеле ресторан?",
+          "answer": "un",
+          "options": [
+            "un",
+            "una",
+            "una unos"
+          ]
+        },
+        {
+          "text": "Hay ___ reserva a nombre de Olga.",
+          "ru": "Есть бронь на имя Ольги.",
+          "answer": "una",
+          "options": [
+            "una",
+            "un",
+            "uno"
+          ]
+        },
+        {
+          "text": "Hay ___ ascensor a la derecha.",
+          "ru": "Справа есть лифт.",
+          "answer": "un",
+          "options": [
+            "un",
+            "una",
+            "la"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-preguntas_hay",
+      "title": "Практика: Вопрос ¿Hay …? и ответы",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "¿___ wifi en la habitación?",
+          "ru": "В номере есть вай-фай?",
+          "answer": "Hay",
+          "options": [
+            "Hay",
+            "Dónde",
+            "Cuánto"
+          ]
+        },
+        {
+          "text": "Sí, ___ wifi.",
+          "ru": "Да, вай-фай есть.",
+          "answer": "hay",
+          "options": [
+            "hay",
+            "está",
+            "es"
+          ]
+        },
+        {
+          "text": "No, ___ ascensor en este hotel.",
+          "ru": "Нет, лифта в этом отеле нет.",
+          "answer": "no hay",
+          "options": [
+            "no hay",
+            "hay",
+            "no está"
+          ]
+        },
+        {
+          "text": "¿___ hora es el desayuno?",
+          "ru": "Во сколько завтрак?",
+          "answer": "A qué",
+          "options": [
+            "A qué",
+            "Qué",
+            "Cómo"
+          ]
+        },
+        {
+          "text": "Pregunto: ¿___ una plaza libre?",
+          "ru": "Спрашиваю: есть ли свободное место?",
+          "answer": "Hay",
+          "options": [
+            "Hay",
+            "Dónde",
+            "Por"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Buenas tardes. Tengo ___ reserva.",
+          "ru": "Добрый день. У меня бронь.",
+          "answer": "una",
+          "options": [
+            "una",
+            "un",
+            "uno"
+          ]
+        },
+        {
+          "text": "¿___ hora es el desayuno?",
+          "ru": "Во сколько завтрак?",
+          "answer": "A qué",
+          "options": [
+            "A qué",
+            "Qué",
+            "Dónde"
+          ]
+        },
+        {
+          "text": "El desayuno es ___ siete a diez.",
+          "ru": "Завтрак с семи до десяти.",
+          "answer": "de",
+          "options": [
+            "de",
+            "a",
+            "en"
+          ]
+        },
+        {
+          "text": "La habitación está en ___ tercera planta.",
+          "ru": "Номер на третьем этаже.",
+          "answer": "la",
+          "options": [
+            "la",
+            "el",
+            "los"
+          ]
+        },
+        {
+          "text": "___ ascensor está a la derecha.",
+          "ru": "Лифт справа.",
+          "answer": "El",
+          "options": [
+            "El",
+            "La",
+            "Los"
+          ]
+        },
+        {
+          "text": "La llave, ___ favor.",
+          "ru": "Ключ, пожалуйста.",
+          "answer": "por",
+          "options": [
+            "por",
+            "para",
+            "con"
+          ]
+        },
+        {
+          "text": "No ___ wifi en la habitación.",
+          "ru": "В номере нет вай-фая.",
+          "answer": "hay",
+          "options": [
+            "hay",
+            "está",
+            "son"
+          ]
+        },
+        {
+          "text": "Gracias. ___ tiene.",
+          "ru": "Спасибо. Вот, пожалуйста.",
+          "answer": "Aquí",
+          "options": [
+            "Aquí",
+            "Allí",
+            "Ahí"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Ольгой",
+      "role": "Olga",
+      "description": "Ты — гостьница: подтверждаешь бронь, называешь имя и спрашиваешь про вай-фай, завтрак и этаж"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь администратором",
+      "role": "La recepcionista",
+      "description": "Ты — администратор отеля: спрашиваешь имя, рассказываешь про номер, завтрак и этаж и выдаёшь ключ"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Заселись в отель: подтверди бронь, задай два вопроса и попроси ключ",
+      "template": [
+        {
+          "label": "Добрый день, у меня бронь",
+          "es": "Buenas tardes. Tengo ___ reserva."
+        },
+        {
+          "label": "Меня зовут Ольга",
+          "es": "Me ___ Olga."
+        },
+        {
+          "label": "В номере есть вай-фай?",
+          "es": "¿___ wifi en la habitación?"
+        },
+        {
+          "label": "Во сколько завтрак?",
+          "es": "¿A qué ___ es el desayuno?"
+        },
+        {
+          "label": "Ключ, пожалуйста",
+          "es": "La llave, ___ favor."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Qué dice Olga al entrar en el hotel?",
+          "ru": "Что говорит Ольга, когда входит в отель?",
+          "options": [
+            "Tengo una reserva",
+            "La llave, por favor",
+            "¿En qué planta está?"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Quién entrega la llave a Olga?",
+          "ru": "Кто выдаёт Ольге ключ?",
+          "options": [
+            "La dependienta",
+            "La recepcionista",
+            "El taquillero"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué pregunta Olga sobre la habitación?",
+          "ru": "Что Ольга спрашивает о номере?",
+          "options": [
+            "¿Hay wifi en la habitación?",
+            "¿A cómo está el metro?",
+            "¿Dónde está el museo?"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿A qué hora es el desayuno?",
+          "ru": "Во сколько завтрак?",
+          "options": [
+            "De cinco a diez",
+            "De siete a diez",
+            "De siete a doce"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿En qué planta está la habitación?",
+          "ru": "На каком этаже находится номер?",
+          "options": [
+            "En la segunda",
+            "En la tercera",
+            "En la quinta"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Ana dice: «No hay wifi». ¿Qué significa?",
+          "ru": "Ана говорит: «No hay wifi». Что это значит?",
+          "options": [
+            "Вай-фай есть",
+            "Вай-фая нет",
+            "Вай-фай на третьем этаже"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué dice Olga en la última réplica?",
+          "ru": "Что говорит Ольга в последней реплике?",
+          "options": [
+            "Gracias. La llave, por favor",
+            "¿Hay un restaurante?",
+            "¿A qué hora es la cena?"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué significa hay?",
+          "ru": "Что значит hay?",
+          "options": [
+            "есть, имеется",
+            "спасибо",
+            "пожалуйста"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    "Я подтверждаю бронь фразой tengo una reserva и называю своё имя",
+    "Я задаю вопросы по формуле ¿Hay …?",
+    "Я понимаю на слух этаж, номер и время завтрака",
+    "Я прошу ключ и благодарю: la llave, por favor. Gracias",
+    "Я читаю слова с дифтонгами ie и ue: bien, bueno, desayuno, quiero"
+  ],
+  "homework": [
+    "Составь и запиши вслух 5 вопросов администратору: минимум два с ¿hay …?, один про завтрак, один про этаж",
+    "Прочитай вслух слова отеля по правилам чтения: hotel, hay, desayuno, habitación, bueno",
+    "Нарисуй план своего номера и подпиши его словами: la llave, el wifi, el desayuno, la planta",
+    "Выучи наизусть 12 слов урока и первые 6 пар для игры «Соедини пары»"
+  ]
+}

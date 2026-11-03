@@ -1,0 +1,305 @@
+{
+  "id": 23,
+  "title": "Laura y Sofía van a una reunión",
+  "titleRu": "Лаура и София собираются на встречу",
+  "part": 3,
+  "level": "B1",
+  "theme": "Одежда, внешний вид, встреча  La ropa, la apariencia, la cita",
+  "characters": ["laura", "sofia"],
+  "objectives": [
+    "Говорить об уходе за собой: lavarse la cara, arreglarse el pelo",
+    "Описывать, как что-то идёт: te sienta bien, te queda mejor, me veo baja",
+    "Обсуждать спешку и время: darse prisa, tardo mucho en arreglarme, llegar tarde",
+    "Использовать указательные местоимения: este, ese, aquel",
+    "Договариваться о встрече: quedamos a las cinco, nos encontramos en la fuente"
+  ],
+  "grammar": {
+    "lavarse_cara": {
+      "title": "Возвратные глаголы ухода за собой: LAVARSE, ARREGLARSE",
+      "description": "LAVARSE + часть тела — «умываться» (букв. «мыть себе лицо»), ARREGLARSE EL PELO — «причёсываться». Возвратное местоимение ставится перед глаголом или после инфинитива: me lavo la cara = lavarme la cara; debo arreglarme el pelo.",
+      "forms": {
+        "yo": { "es": "me lavo la cara", "ru": "я умываюсь" },
+        "tu": { "es": "te lavas la cara", "ru": "ты умываешься" },
+        "el_ella": { "es": "se lava la cara", "ru": "он/она умывается" },
+        "nosotros": { "es": "nos lavamos la cara", "ru": "мы умываемся" },
+        "vosotros": { "es": "os laváis la cara", "ru": "вы умываетесь" },
+        "ellos_ellas": { "es": "se lavan la cara", "ru": "они умываются" }
+      },
+      "examples": [
+        { "es": "Es que debo lavarme la cara y arreglarme el pelo.", "ru": "Просто мне надо умыться и причесаться." },
+        { "es": "Tardo mucho tiempo en arreglarme.", "ru": "Я очень долго собираюсь." }
+      ]
+    },
+    "quedar_sentar": {
+      "title": "Как идёт одежда: QUEDAR, SENTAR, VERSE",
+      "description": "QUEDAR BIEN / MEJOR — «подходить, идти» (об одежде): el marrón te queda mejor. SENTAR BIEN — «очень идти»: te sienta muy bien. VERSE — «выглядеть»: te ves muy elegante, me veo baja.",
+      "list": [
+        { "es": "te sienta muy bien", "ru": "тебе очень идёт" },
+        { "es": "el marrón te queda mejor", "ru": "коричневая подходит больше" },
+        { "es": "me veo un poco baja", "ru": "я кажусь немного низкой" },
+        { "es": "te ves muy elegante", "ru": "ты выглядишь очень элегантно" }
+      ],
+      "examples": [
+        { "es": "¡Qué bonita es la blusa que llevas! Te sienta muy bien.", "ru": "Какая красивая на тебе блузка! Тебе очень идёт." },
+        { "es": "El marrón te queda mejor.", "ru": "Коричневая подходит лучше." },
+        { "es": "¿No me veo un poco baja con ella?", "ru": "Я не кажусь в ней немного низкой?" }
+      ]
+    },
+    "tener_prisa": {
+      "title": "Спешка: DARSE PRISA, TENER PRISA, TARDAR EN",
+      "description": "DARSE PRISA — «торопиться»: ¿Necesitamos darnos prisa? TENER PRISA — «спешить»: no tenemos prisa. TARDAR + tiempo EN + инфинитив — «долго что-то делать»: tardo mucho tiempo en arreglarme.",
+      "list": [
+        { "es": "darnos prisa", "ru": "торопиться" },
+        { "es": "no tenemos prisa", "ru": "мы не спешим" },
+        { "es": "tardo mucho tiempo en arreglarme", "ru": "я очень долго собираюсь" },
+        { "es": "hago esperar a la gente", "ru": "я заставляю людей ждать" }
+      ],
+      "examples": [
+        { "es": "¿Necesitamos darnos prisa?", "ru": "Нам нужно торопиться?" },
+        { "es": "No tenemos prisa. Los chicos nos pueden esperar.", "ru": "Мы не спешим. Ребята могут нас подождать." }
+      ]
+    },
+    "demostrativos": {
+      "title": "Указательные местоимения: ESTE / ESE / AQUEL",
+      "description": "ESTE / ESTA — «этот, эта» (рядом), ESE / ESA — «тот, та» (подальше), AQUEL / AQUELLA — «вон тот, та» (далеко). В диалоге: este marrón o ese azul; Mira debajo del sofá, ¿no son esas?",
+      "list": [
+        { "es": "este bolso marrón", "ru": "эта коричневая сумка" },
+        { "es": "ese bolso azul", "ru": "та синяя сумка" },
+        { "es": "aquellos chicos del parque", "ru": "вон те ребята в парке" },
+        { "es": "¿no son esas?", "ru": "не они ли это?" }
+      ],
+      "examples": [
+        { "es": "¿Qué bolso elijo: este marrón o ese azul?", "ru": "Какую сумку выбрать: эту коричневую или ту синюю?" },
+        { "es": "Mira debajo del sofá, ¿no son esas?", "ru": "Посмотри под диваном, не они ли это?" }
+      ]
+    }
+  },
+  "vocabulary": {
+    "ropa_y_aspecto": [
+      { "es": "la falda", "ru": "юбка" },
+      { "es": "la blusa", "ru": "блузка" },
+      { "es": "el bolso", "ru": "сумка" },
+      { "es": "las gafas de sol", "ru": "солнечные очки" },
+      { "es": "negro/a", "ru": "чёрный" },
+      { "es": "blanco/a", "ru": "белый" },
+      { "es": "marrón", "ru": "коричневый" },
+      { "es": "azul", "ru": "синий" },
+      { "es": "elegante", "ru": "элегантный" },
+      { "es": "baja", "ru": "низкая (рост)" }
+    ],
+    "rutina_y_prisa": [
+      { "es": "arreglarse el pelo", "ru": "причёсываться" },
+      { "es": "lavarse la cara", "ru": "умываться" },
+      { "es": "probarse", "ru": "примерять" },
+      { "es": "ponerse", "ru": "надевать на себя" },
+      { "es": "darse prisa", "ru": "торопиться" },
+      { "es": "tardo mucho tiempo en...", "ru": "я долго ..." },
+      { "es": "llegar tarde", "ru": "опаздывать" },
+      { "es": "hacer esperar", "ru": "заставлять ждать" },
+      { "es": "tener razón", "ru": "быть правым" },
+      { "es": "enviar un mensaje", "ru": "отправить сообщение" }
+    ],
+    "cita_y_lugar": [
+      { "es": "la fuente", "ru": "фонтан" },
+      { "es": "el parque", "ru": "парк" },
+      { "es": "el sofá", "ru": "диван" },
+      { "es": "el campo", "ru": "загород, деревня" },
+      { "es": "debajo del sofá", "ru": "под диваном" },
+      { "es": "la quedada", "ru": "встреча, тусовка" },
+      { "es": "quedamos a las cinco", "ru": "договорились на пять" },
+      { "es": "nos encontramos", "ru": "мы встречаемся" },
+      { "es": "por la noche", "ru": "вечером" },
+      { "es": "quince minutos más", "ru": "ещё пятнадцать минут" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Sofía", "es": "¡Hola, Laura! ¿Ya estás lista?", "ru": "Привет, Лаура! Ты уже готова?" },
+    { "speaker": "Laura", "es": "Todavía no. No sé qué falda ponerme. ¿La negra o la blanca?", "ru": "Ещё нет. Не знаю, какую юбку надеть. Чёрную или белую?" },
+    { "speaker": "Sofía", "es": "Me gusta más la negra.", "ru": "Мне больше нравится чёрная." },
+    { "speaker": "Laura", "es": "¿No me veo un poco baja con ella?", "ru": "Я не кажусь в ней немного низкой?" },
+    { "speaker": "Sofía", "es": "¡Claro que no! ¡Qué tontería!", "ru": "Конечно, нет! Что за глупость!" },
+    { "speaker": "Laura", "es": "¡Qué bonita es la blusa que llevas! ¡Me encanta! Te sienta muy bien.", "ru": "Какая красивая на тебе блузка! Мне очень нравится! Тебе очень идёт." },
+    { "speaker": "Sofía", "es": "Gracias. Tú también te ves muy elegante.", "ru": "Спасибо. Ты тоже выглядишь очень элегантно." },
+    { "speaker": "Laura", "es": "¿Necesitamos darnos prisa? Es que debo lavarme la cara y arreglarme el pelo.", "ru": "Нам нужно торопиться? Просто мне надо умыться и причесаться." },
+    { "speaker": "Sofía", "es": "No te preocupes, aún tenemos quince minutos más. Quedamos a las cinco en el parque, pero Pedro me acaba de enviar un mensaje, dice que él y su amigo llegan diez minutos más tarde, así que nos encontramos a las cinco y diez en la fuente principal.", "ru": "Не волнуйся, у нас ещё пятнадцать минут. Мы договорились на пять в парке, но Педро только что отправил мне сообщение, что он и его друг опаздывают на десять минут, так что мы встречаемся в пять десять у главного фонтана." },
+    { "speaker": "Laura", "es": "Muy bien. Mira, ¿qué bolso elijo: este marrón o ese azul? Ahora me los pruebo...", "ru": "Хорошо. Смотри, какую сумку мне выбрать: эту коричневую или ту синюю? Сейчас померю..." },
+    { "speaker": "Sofía", "es": "El marrón te queda mejor.", "ru": "Коричневая подходит лучше." },
+    { "speaker": "Laura", "es": "Perfecto. Disculpa, siempre hago esperar a la gente, tardo mucho tiempo en arreglarme.", "ru": "Отлично. Извини, я всегда заставляю людей ждать, я очень долго собираюсь." },
+    { "speaker": "Sofía", "es": "No tenemos prisa. Los chicos nos pueden esperar. Te confieso algo: prefiero llegar un poco más tarde a las quedadas. Así somos nosotras, las mujeres.", "ru": "Мы не спешим. Ребята могут подождать. Признаюсь тебе кое в чём: я предпочитаю немного опаздывать на встречи. Мы такие, женщины." },
+    { "speaker": "Laura", "es": "Ja, ja, tienes razón. Pues, a ti te gusta Pedro, y a su amigo no lo conoces bien, ¿verdad?", "ru": "Ха-ха, ты права. Итак, тебе нравится Педро, а его друга ты не очень хорошо знаешь, да?" },
+    { "speaker": "Sofía", "es": "Muy poco, pero parece un chico agradable.", "ru": "Очень мало, но он кажется приятным парнем." },
+    { "speaker": "Laura", "es": "Bueno, ya podemos salir... No encuentro las gafas de sol... ¿Qué hago? No puedo irme sin ellas. Toda mi familia está en el campo, van a volver solo por la noche.", "ru": "Ну, уже можем выходить... Я не могу найти солнечные очки... Что делать? Я не могу уйти без них. Вся моя семья за городом, они вернутся только вечером." },
+    { "speaker": "Sofía", "es": "Mira debajo del sofá, ¿no son esas?", "ru": "Посмотри под диваном, не они ли это?" },
+    { "speaker": "Laura", "es": "Uf, qué alivio, sí. Vamos.", "ru": "Уф, какое облегчение, да. Пойдём." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "la falda", "ru": "юбка" },
+        { "es": "la blusa", "ru": "блузка" },
+        { "es": "el bolso", "ru": "сумка" },
+        { "es": "las gafas de sol", "ru": "солнечные очки" },
+        { "es": "marrón", "ru": "коричневый" },
+        { "es": "azul", "ru": "синий" },
+        { "es": "elegante", "ru": "элегантный" },
+        { "es": "la fuente", "ru": "фонтан" }
+      ]
+    },
+    {
+      "type": "fill-gap-lavarse_cara",
+      "title": "Практика: уход за собой",
+      "description": "Вставь правильную форму",
+      "sentences": [
+        { "text": "Debo ___ la cara y arreglarme el pelo.", "ru": "Мне надо умыться и причесаться", "answer": "lavarme", "options": ["lavarme", "lavarte", "lavar"] },
+        { "text": "Tardo mucho tiempo en ___ el pelo.", "ru": "Я очень долго причёсываюсь", "answer": "arreglarme", "options": ["arreglarme", "arreglarte", "arreglar"] },
+        { "text": "Por la mañana me ___ la cara con agua fría.", "ru": "Утром я умываюсь холодной водой", "answer": "lavo", "options": ["lavo", "lavas", "lava"] },
+        { "text": "Sofía ___ arregla el pelo antes de salir.", "ru": "София причёсывается перед выходом", "answer": "se", "options": ["se", "me", "te"] },
+        { "text": "¿A qué hora te ___ la cara?", "ru": "Во сколько ты умываешься?", "answer": "lavas", "options": ["lavas", "lavo", "lava"] }
+      ]
+    },
+    {
+      "type": "fill-gap-quedar_sentar",
+      "title": "Практика: QUEDAR / SENTAR / VERSE",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "La blusa te ___ muy bien.", "ru": "Блузка тебе очень идёт", "answer": "sienta", "options": ["sienta", "queda", "ves"] },
+        { "text": "El bolso marrón te ___ mejor.", "ru": "Коричневая сумка подходит больше", "answer": "queda", "options": ["queda", "sienta", "viste"] },
+        { "text": "Tú también te ___ muy elegante.", "ru": "Ты тоже выглядишь очень элегантно", "answer": "ves", "options": ["ves", "sienta", "queda"] },
+        { "text": "¿No me ___ un poco baja con la falda?", "ru": "Я не кажусь в ней немного низкой?", "answer": "veo", "options": ["veo", "ves", "ve"] },
+        { "text": "Estos pantalones me ___ muy bien.", "ru": "Эти брюки мне очень идут", "answer": "quedan", "options": ["quedan", "queda", "sienta"] }
+      ]
+    },
+    {
+      "type": "fill-gap-tener_prisa",
+      "title": "Практика: спешка и время",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Necesitamos darnos ___?", "ru": "Нам нужно торопиться?", "answer": "prisa", "options": ["prisa", "prisas", "pronto"] },
+        { "text": "No tenemos ___ , los chicos pueden esperar.", "ru": "Мы не спешим, ребята могут подождать", "answer": "prisa", "options": ["prisa", "tiempo", "miedo"] },
+        { "text": "Siempre ___ mucho tiempo en arreglarme.", "ru": "Я всегда очень долго собираюсь", "answer": "tardo", "options": ["tardo", "tarda", "tardas"] },
+        { "text": "Disculpa, siempre ___ esperar a la gente.", "ru": "Извини, я всегда заставляю людей ждать", "answer": "hago", "options": ["hago", "haces", "hace"] },
+        { "text": "Pedro y su amigo ___ diez minutos más tarde.", "ru": "Педро и его друг опаздывают на десять минут", "answer": "llegan", "options": ["llegan", "llegas", "llegamos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-demostrativos",
+      "title": "Практика: ESTE / ESE / AQUEL",
+      "description": "Вставь указательное местоимение",
+      "sentences": [
+        { "text": "¿Qué bolso elijo: ___ marrón o ese azul?", "ru": "Какую сумку выбрать: эту коричневую или ту синюю?", "answer": "este", "options": ["este", "ese", "aquel"] },
+        { "text": "¿Qué bolso elijo: este marrón o ___ azul?", "ru": "Какую сумку выбрать: эту коричневую или ту синюю?", "answer": "ese", "options": ["ese", "este", "aquel"] },
+        { "text": "Mira debajo del sofá, ¿no son ___?", "ru": "Посмотри под диваном, не они ли это?", "answer": "esas", "options": ["esas", "estas", "aquellas"] },
+        { "text": "___ chica que está allí es Laura.", "ru": "Вон та девушка — это Лаура", "answer": "Aquella", "options": ["Aquella", "Esta", "Ese"] },
+        { "text": "___ falda negra te queda muy bien.", "ru": "Та чёрная юбка тебе очень идёт", "answer": "Esa", "options": ["Esa", "Este", "Aquella"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Debo ___ la cara y arreglarme el pelo.", "ru": "Мне надо умыться и причесаться", "answer": "lavarme", "options": ["lavarme", "vestirme", "peinarme"] },
+        { "text": "La blusa te ___ muy bien.", "ru": "Блузка тебе очень идёт", "answer": "sienta", "options": ["sienta", "queda", "ves"] },
+        { "text": "El bolso marrón te ___ mejor.", "ru": "Коричневая сумка подходит больше", "answer": "queda", "options": ["queda", "sienta", "ves"] },
+        { "text": "¿Necesitamos darnos ___?", "ru": "Нам нужно торопиться?", "answer": "prisa", "options": ["prisa", "prisas", "miedo"] },
+        { "text": "¿Qué bolso elijo: este marrón o ___ azul?", "ru": "Какую сумку выбрать: эту коричневую или ту синюю?", "answer": "ese", "options": ["ese", "este", "aquel"] },
+        { "text": "Tardo mucho ___ en arreglarme.", "ru": "Я очень долго собираюсь", "answer": "tiempo", "options": ["tiempo", "prisa", "tarde"] },
+        { "text": "Mira debajo del sofá, ¿no son ___?", "ru": "Посмотри под диваном, не они ли это?", "answer": "esas", "options": ["esas", "estas", "esos"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лаурой",
+      "role": "Laura",
+      "description": "Выбирай, что надеть, и собирайся на встречу"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Софией",
+      "role": "Sofía",
+      "description": "Теперь ты София — успокаивай подругу и предлагай решение"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Обсуди с другом, что надеть на встречу",
+      "template": [
+        { "label": "Какая красивая блузка!", "es": "¡Qué ___ es la blusa!" },
+        { "label": "Тебе очень идёт", "es": "Te ___ muy bien" },
+        { "label": "Мне надо умыться и причесаться", "es": "Debo ___ la cara y arreglarme el pelo" },
+        { "label": "Нам нужно торопиться?", "es": "¿Necesitamos ___ prisa?" },
+        { "label": "Эту или ту?", "es": "¿Este marrón o ___ azul?" },
+        { "label": "Ты выглядишь очень элегантно", "es": "Te ___ muy elegante" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Qué falda le gusta más a Sofía?",
+          "ru": "Какая юбка больше нравится Софии?",
+          "options": ["La negra", "La blanca", "La marrón", "Las dos"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué le responde Sofía cuando Laura pregunta si se ve baja?",
+          "ru": "Что отвечает София, когда Лаура спрашивает, не кажется ли она низкой?",
+          "options": ["Que tiene razón", "Que es bonita", "Que es una tontería", "Que está baja"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué tiene que hacer Laura antes de salir?",
+          "ru": "Что нужно сделать Лауре перед выходом?",
+          "options": ["Lavarse la cara y arreglarse el pelo", "Comprar una blusa", "Llamar a Pedro", "Buscar el bolso"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué escribió Pedro en su mensaje?",
+          "ru": "Что написал Педро в сообщении?",
+          "options": ["Que no puede venir", "Que llega diez minutos más tarde", "Que está en el campo", "Que cancelan la cita"],
+          "answer": 1
+        },
+        {
+          "question": "¿Dónde se encuentran a las cinco y diez?",
+          "ru": "Где они встречаются в пять десять?",
+          "options": ["En la fuente principal", "En la entrada del parque", "En el cine", "En casa de Laura"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué bolso elige Laura?",
+          "ru": "Какую сумку выбирает Лаура?",
+          "options": ["El azul", "El negro", "El marrón", "El blanco"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué confiesa Sofía sobre las citas?",
+          "ru": "В чём признаётся София про встречи?",
+          "options": ["Que siempre llega puntual", "Que odia esperar", "Que se pierde", "Que prefiere llegar un poco más tarde"],
+          "answer": 3
+        },
+        {
+          "question": "¿Dónde están las gafas de sol de Laura?",
+          "ru": "Где солнечные очки Лауры?",
+          "options": ["En el bolso", "Debajo del sofá", "En el coche", "En la falda"],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить новые слова (одежда, внешний вид, время) в приложении",
+    "Практика: Расскажи партнёру (italki/Tandem), как ты собираешься на встречу: me pongo..., te sienta muy bien, tardo ... en..., quedamos a las ...",
+    "Дневник: Опиши, что ты надеваешь на встречу с друзьями и как долго собираешься",
+    "Грамматика: Напиши 3 предложения с возвратными глаголами ухода за собой, 3 с te sienta/te queda и 3 с este/ese/aquel"
+  ]
+}

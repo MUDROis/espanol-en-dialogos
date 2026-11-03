@@ -1,0 +1,309 @@
+{
+  "id": 17,
+  "title": "El primer día del trabajo de Laura Moreno, mamá de Carlos",
+  "titleRu": "Первый день работы Лауры Морено, мамы Карлоса",
+  "part": 2,
+  "level": "A2",
+  "theme": "Школа, расписание, рабочий день  La escuela, el horario, la jornada laboral",
+  "characters": ["laura_moreno", "director"],
+  "objectives": [
+    "Понимать и сообщать время начала и конца занятий",
+    "Говорить о длительности: desde... hasta..., durar, a partir de",
+    "Использовать глаголы расписания: empezar, terminar, acabar, durar, cerrar",
+    "Выражать цель: para + infinitivo, es hora de + infinitivo",
+    "Использовать связки: o sea, así que, como sabe, a partir de ahí"
+  ],
+  "grammar": {
+    "verbos_horario": {
+      "title": "Глаголы расписания: EMPEZAR / COMENZAR",
+      "description": "EMPEZAR / COMENZAR — «начинаться» (e → ie: empieza). Глаголы расписания: empezar (начинаться), durar (длиться), terminar / acabar (заканчиваться), cerrar (закрываться). Примеры: «Las clases comienzan a las ocho y media», «La primera clase dura desde las ocho y media hasta las nueve y cuarto».",
+      "forms": {
+        "yo": { "es": "empiezo", "ru": "я начинаю(сь)" },
+        "tu": { "es": "empiezas", "ru": "ты начинаешь(ся)" },
+        "el_ella": { "es": "empieza", "ru": "он/она начинается" },
+        "nosotros": { "es": "empezamos", "ru": "мы начинаем(ся)" },
+        "vosotros": { "es": "empezáis", "ru": "вы начинаете(сь)" },
+        "ellos_ellas": { "es": "empiezan", "ru": "они начинаются" }
+      },
+      "examples": [
+        { "es": "Las clases comienzan a las ocho y media.", "ru": "Занятия начинаются в половине девятого." },
+        { "es": "La primera clase dura desde las ocho y media hasta las nueve y cuarto.", "ru": "Первый урок длится с половины девятого до четверти десятого." }
+      ]
+    },
+    "desde_hasta": {
+      "title": "Длительность: DESDE... HASTA... / DE... A..., A PARTIR DE",
+      "description": "Чтобы сказать, сколько длится что-то, используем: desde ... hasta ... (с ... до ...), de ... a ... (с ... до ...), hasta ... (до ...), a partir de ... (начиная с ...): «La segunda clase empieza a las nueve y media y termina a las diez y veinte».",
+      "list": [
+        { "es": "desde las ocho y media hasta las nueve y cuarto", "ru": "с половины девятого до четверти десятого" },
+        { "es": "de nueve y cuarto a nueve y media", "ru": "с четверти десятого до половины десятого" },
+        { "es": "hasta las diez y cuarenta", "ru": "до десяти сорока" },
+        { "es": "a partir de las dos", "ru": "начиная с двух часов" }
+      ],
+      "examples": [
+        { "es": "La clase empieza en diez minutos.", "ru": "Урок начинается через десять минут." },
+        { "es": "La pausa para comer dura hasta las doce.", "ru": "Обеденный перерыв длится до двенадцати." }
+      ]
+    },
+    "para_infinitivo": {
+      "title": "Цель: PARA + infinitivo, ES HORA DE + infinitivo",
+      "description": "PARA + инфинитив — «чтобы/для того чтобы»: «cuarenta minutos para hablar» — «сорок минут на разговор». ES HORA DE + инфинитив — «пора что-то делать»: «Es hora de irnos» — «Пора идти».",
+      "list": [
+        { "es": "cuarenta minutos para hablar", "ru": "сорок минут на разговор" },
+        { "es": "la pausa para comer", "ru": "перерыв на еду" },
+        { "es": "es hora de irnos", "ru": "пора идти" },
+        { "es": "antes de empezar", "ru": "до начала" }
+      ],
+      "examples": [
+        { "es": "Tenemos cuarenta minutos para hablar.", "ru": "У нас есть сорок минут, чтобы поговорить." },
+        { "es": "Bueno, es hora de irnos.", "ru": "Ну что ж, пора идти." }
+      ]
+    },
+    "conectores": {
+      "title": "Связки и вводные слова: O SEA, ASÍ QUE, COMO SABE",
+      "description": "Связки помогают объяснять и уточнять: o sea (то есть), así que (так что), como sabe (как вы знаете), a partir de ahí (начиная с этого момента), un momento (минуточку), entendido (понял(а)).",
+      "list": [
+        { "es": "o sea", "ru": "то есть" },
+        { "es": "así que", "ru": "так что" },
+        { "es": "como sabe", "ru": "как вы знаете" },
+        { "es": "a partir de ahí", "ru": "начиная с этого момента" },
+        { "es": "un momento", "ru": "минуточку" },
+        { "es": "entendido", "ru": "понятно" }
+      ],
+      "examples": [
+        { "es": "Quince minutos menos, o sea, la clase es más corta.", "ru": "На пятнадцать минут меньше, то есть урок короче." },
+        { "es": "Como sabe, el centro cierra a las cinco.", "ru": "Как вы знаете, центр закрывается в пять." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "horario": [
+      { "es": "el plan de las lecciones", "ru": "план уроков" },
+      { "es": "el programa", "ru": "программа" },
+      { "es": "el horario", "ru": "расписание" },
+      { "es": "el cambio", "ru": "изменение" },
+      { "es": "la clase", "ru": "урок, занятие" },
+      { "es": "el recreo", "ru": "перемена" },
+      { "es": "la pausa", "ru": "пауза, перерыв" },
+      { "es": "el descanso", "ru": "перерыв, отдых" },
+      { "es": "el patio", "ru": "двор" },
+      { "es": "el tentempié", "ru": "перекус" },
+      { "es": "la tarea", "ru": "задание" },
+      { "es": "el aula", "ru": "класс, аудитория" },
+      { "es": "el centro", "ru": "центр, учебное заведение" },
+      { "es": "la jornada laboral", "ru": "рабочий день" }
+    ],
+    "tiempo": [
+      { "es": "los minutos", "ru": "минуты" },
+      { "es": "una hora", "ru": "один час" },
+      { "es": "quince minutos", "ru": "пятнадцать минут" },
+      { "es": "desde... hasta...", "ru": "с ... до ..." },
+      { "es": "a partir de", "ru": "начиная с" },
+      { "es": "en diez minutos", "ru": "через десять минут" },
+      { "es": "es hora de", "ru": "пора (что-то делать)" }
+    ],
+    "verbos": [
+      { "es": "comenzar / empezar", "ru": "начинать(ся)" },
+      { "es": "durar", "ru": "длиться" },
+      { "es": "terminar / acabar", "ru": "заканчивать(ся)" },
+      { "es": "anotar", "ru": "записывать" },
+      { "es": "quedarse", "ru": "оставаться" },
+      { "es": "volver", "ru": "возвращаться" },
+      { "es": "irse", "ru": "уходить" },
+      { "es": "hablar", "ru": "разговаривать" },
+      { "es": "cerrar", "ru": "закрывать(ся)" },
+      { "es": "tener libertad", "ru": "быть свободным" }
+    ],
+    "conectores": [
+      { "es": "o sea", "ru": "то есть" },
+      { "es": "así que", "ru": "так что" },
+      { "es": "como sabe", "ru": "как вы знаете" },
+      { "es": "a partir de ahí", "ru": "начиная с этого момента" },
+      { "es": "después", "ru": "затем" },
+      { "es": "luego", "ru": "потом" },
+      { "es": "un momento", "ru": "минуточку" },
+      { "es": "entendido", "ru": "понятно" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Laura", "es": "Buenos días, señor Gutiérrez. Llego unos minutos antes...", "ru": "Доброе утро, сеньор Гутьеррес. Я пришла на несколько минут раньше..." },
+    { "speaker": "El director", "es": "Buenos días, muy bien. Las clases comienzan a las ocho y media, así que tenemos cuarenta minutos para hablar. ¿Ya tiene preparado el plan de las lecciones?", "ru": "Доброе утро, очень хорошо. Занятия начинаются в половине девятого, так что у нас есть сорок минут, чтобы поговорить. У вас уже готов план уроков?" },
+    { "speaker": "Laura", "es": "Sí, aquí lo tengo. Todo está listo.", "ru": "Да, вот он. Всё готово." },
+    { "speaker": "El director", "es": "Perfecto. Tenemos un pequeño cambio en el horario: la primera clase dura desde las ocho y media hasta las nueve y cuarto, o sea, quince minutos menos de lo que pone en su programa. El recreo también es más corto, de nueve y cuarto a nueve y media.", "ru": "Отлично. У нас есть небольшое изменение в расписании: первый урок длится с половины девятого до четверти десятого, то есть на пятнадцать минут меньше, чем указано в вашей программе. Перемена тоже короче — с четверти десятого до половины десятого." },
+    { "speaker": "Laura", "es": "Un momento, voy a anotar... Entonces, la segunda clase empieza a las nueve y media y termina a las diez y veinte, ¿verdad?", "ru": "Секундочку, сейчас запишу... Значит, второй урок начинается в половине десятого и заканчивается в двадцать минут одиннадцатого, верно?" },
+    { "speaker": "El director", "es": "Sí. Después, hay un descanso hasta las diez y cuarenta, los alumnos pueden ir al patio o tomar un tentempié. La tercera clase acaba a las once y media, y la pausa para comer dura hasta las doce.", "ru": "Да. Затем перерыв до десяти сорока, ученики могут выйти во двор или перекусить. Третий урок заканчивается в половине двенадцатого, а обеденный перерыв длится до двенадцати." },
+    { "speaker": "Laura", "es": "Entendido. Luego, hay una hora más de clase, y después algunos vuelven a casa y otros se quedan a hacer tareas en el aula.", "ru": "Понятно. Потом ещё один час занятий, а после этого некоторые уходят домой, а другие остаются делать задания в классе." },
+    { "speaker": "El director", "es": "Así es. Como sabe, el centro cierra a las cinco o cinco y media, pero su jornada laboral termina a las dos, a partir de ahí usted tiene libertad.", "ru": "Именно так. Как вы знаете, центр закрывается в пять или половину шестого, но ваш рабочий день заканчивается в два, после этого вы свободны." },
+    { "speaker": "Laura", "es": "Muy bien. Bueno, la clase empieza en diez minutos, es hora de irnos.", "ru": "Отлично. Ну что ж, урок начинается через десять минут, пора идти." },
+    { "speaker": "El director", "es": "¡Mucha suerte!", "ru": "Удачи!" }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el plan de las lecciones", "ru": "план уроков" },
+        { "es": "el horario", "ru": "расписание" },
+        { "es": "el recreo", "ru": "перемена" },
+        { "es": "el descanso", "ru": "перерыв" },
+        { "es": "el tentempié", "ru": "перекус" },
+        { "es": "la tarea", "ru": "задание" },
+        { "es": "el aula", "ru": "класс, аудитория" },
+        { "es": "la jornada laboral", "ru": "рабочий день" }
+      ]
+    },
+    {
+      "type": "fill-gap-verbos_horario",
+      "title": "Практика: глаголы расписания",
+      "description": "Вставь правильную форму глагола",
+      "sentences": [
+        { "text": "Las clases ___ a las ocho y media.", "ru": "Занятия начинаются в половине девятого", "answer": "comienzan", "options": ["comienzan", "empieza", "comienza"] },
+        { "text": "La primera clase ___ desde las ocho y media hasta las nueve y cuarto.", "ru": "Первый урок длится с половины девятого до четверти десятого", "answer": "dura", "options": ["dura", "durante", "empieza"] },
+        { "text": "La segunda clase ___ a las nueve y media.", "ru": "Второй урок начинается в половине десятого", "answer": "empieza", "options": ["empieza", "empiezo", "empiezas"] },
+        { "text": "La tercera clase ___ a las once y media.", "ru": "Третий урок заканчивается в половине двенадцатого", "answer": "acaba", "options": ["acaba", "acaban", "acabo"] },
+        { "text": "La jornada laboral ___ a las dos.", "ru": "Рабочий день заканчивается в два", "answer": "termina", "options": ["termina", "terminas", "terminan"] }
+      ]
+    },
+    {
+      "type": "fill-gap-desde_hasta",
+      "title": "Практика: DESDE... HASTA...",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "La clase dura ___ las ocho y media hasta las nueve y cuarto.", "ru": "Урок длится с половины девятого до четверти десятого", "answer": "desde", "options": ["desde", "de", "hasta"] },
+        { "text": "Después hay una pausa ___ las doce.", "ru": "Затем перерыв до двенадцати", "answer": "hasta", "options": ["hasta", "desde", "a"] },
+        { "text": "El recreo va ___ nueve y cuarto a nueve y media.", "ru": "Перемена идёт с четверти десятого до половины десятого", "answer": "de", "options": ["de", "desde", "hasta"] },
+        { "text": "___ de las dos usted tiene libertad.", "ru": "Начиная с двух часов вы свободны", "answer": "A partir", "options": ["A partir", "Desde", "Hasta"] },
+        { "text": "La clase empieza ___ diez minutos.", "ru": "Урок начинается через десять минут", "answer": "en", "options": ["en", "a", "para"] }
+      ]
+    },
+    {
+      "type": "fill-gap-para_infinitivo",
+      "title": "Практика: PARA + infinitivo, ES HORA DE",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Tenemos cuarenta minutos ___ hablar.", "ru": "У нас сорок минут на разговор", "answer": "para", "options": ["para", "por", "a"] },
+        { "text": "Es hora ___ irnos.", "ru": "Пора идти", "answer": "de", "options": ["de", "para", "a"] },
+        { "text": "Los alumnos pueden ir al patio ___ descansar.", "ru": "Ученики могут пойти во двор отдохнуть", "answer": "a", "options": ["a", "para", "de"] },
+        { "text": "La pausa ___ comer dura hasta las doce.", "ru": "Перерыв на еду длится до двенадцати", "answer": "para", "options": ["para", "por", "a"] },
+        { "text": "El profesor llega antes ___ empezar la clase.", "ru": "Преподаватель приходит до начала урока", "answer": "de", "options": ["de", "para", "a"] }
+      ]
+    },
+    {
+      "type": "fill-gap-conectores",
+      "title": "Практика: связки",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Quince minutos menos, ___ sea, la clase es más corta.", "ru": "На пятнадцать минут меньше, то есть урок короче", "answer": "o", "options": ["o", "u", "ni"] },
+        { "text": "Las clases comienzan a las ocho y media, ___ que tenemos cuarenta minutos.", "ru": "Занятия начинаются в половине девятого, так что у нас сорок минут", "answer": "así", "options": ["así", "tan", "muy"] },
+        { "text": "___ sabe, el centro cierra a las cinco.", "ru": "Как вы знаете, центр закрывается в пять", "answer": "Como", "options": ["Como", "Qué", "Si"] },
+        { "text": "A partir de ___ , usted tiene libertad.", "ru": "Начиная с этого момента вы свободны", "answer": "ahí", "options": ["ahí", "aquí", "allá"] },
+        { "text": "Un ___ , voy a anotar el nuevo horario.", "ru": "Минуточку, я запишу новое расписание", "answer": "momento", "options": ["momento", "hora", "rato"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Las clases ___ a las ocho y media.", "ru": "Занятия начинаются в половине девятого", "answer": "comienzan", "options": ["comienzan", "terminan", "duran"] },
+        { "text": "La primera clase dura ___ las ocho y media hasta las nueve y cuarto.", "ru": "Первый урок длится с половины девятого до четверти десятого", "answer": "desde", "options": ["desde", "de", "para"] },
+        { "text": "Tenemos cuarenta minutos ___ hablar.", "ru": "У нас сорок минут на разговор", "answer": "para", "options": ["para", "por", "de"] },
+        { "text": "El centro cierra a las cinco ___ cinco y media.", "ru": "Центр закрывается в пять или половину шестого", "answer": "o", "options": ["o", "y", "ni"] },
+        { "text": "La jornada laboral ___ a las dos.", "ru": "Рабочий день заканчивается в два", "answer": "termina", "options": ["termina", "empieza", "dura"] },
+        { "text": "Es ___ de irnos.", "ru": "Пора идти", "answer": "hora", "options": ["hora", "tiempo", "momento"] },
+        { "text": "A partir de ahí, usted tiene ___ .", "ru": "Начиная с этого момента вы свободны", "answer": "libertad", "options": ["libertad", "tiempo", "hambre"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лаурой",
+      "role": "Laura",
+      "description": "Отвечай на реплики директора своим голосом"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь директором",
+      "role": "El director",
+      "description": "Теперь ты директор — объясняй Лауре расписание"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи директору или коллеге расписание своего рабочего/учебного дня",
+      "template": [
+        { "label": "Занятия начинаются", "es": "Las clases ___ a las ___" },
+        { "label": "Урок длится", "es": "La clase ___ desde ___ hasta ___" },
+        { "label": "Перерыв", "es": "Hay un descanso ___" },
+        { "label": "У меня есть время чтобы", "es": "Tengo tiempo para ___" },
+        { "label": "То есть", "es": "___ sea, ___" },
+        { "label": "Начиная с двух", "es": "A partir de las dos ___" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿A qué hora comienzan las clases?",
+          "ru": "Во сколько начинаются занятия?",
+          "options": ["A las ocho y media", "A las nueve y media", "A las diez y media", "A las dos"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuánto dura la primera clase?",
+          "ru": "Сколько длится первый урок?",
+          "options": ["Cuarenta y cinco minutos", "Una hora", "Treinta minutos", "Quince minutos"],
+          "answer": 0
+        },
+        {
+          "question": "¿De cuántos minutos es el recreo?",
+          "ru": "Сколько минут длится перемена?",
+          "options": ["Quince minutos", "Media hora", "Diez minutos", "Una hora"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué pueden hacer los alumnos en el descanso?",
+          "ru": "Что могут делать ученики в перерыве?",
+          "options": ["Ir al patio o tomar un tentempié", "Ir a casa", "Hacer tareas en el aula", "Hablar con el director"],
+          "answer": 0
+        },
+        {
+          "question": "¿A qué hora termina la jornada laboral de Laura?",
+          "ru": "Во сколько заканчивается рабочий день Лауры?",
+          "options": ["A las dos", "A las cinco", "A las cinco y media", "A las doce"],
+          "answer": 0
+        },
+        {
+          "question": "¿A qué hora cierra el centro?",
+          "ru": "Во сколько закрывается центр?",
+          "options": ["A las cinco o cinco y media", "A las dos", "A las tres", "A las once y media"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué preparó Laura para el primer día de trabajo?",
+          "ru": "Что Лаура подготовила к первому рабочему дню?",
+          "options": ["El plan de las lecciones", "El horario del recreo", "La lista de los alumnos", "Los libros"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué hacen algunos alumnos después de la última clase?",
+          "ru": "Что делают некоторые ученики после последнего урока?",
+          "options": ["Vuelven a casa y otros se quedan a hacer tareas", "Van al cine", "Comen en el patio", "Trabajan hasta las cinco"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить новые слова (школьное расписание, время, глаголы) в приложении",
+    "Практика: Расскажи партнёру (italki/Tandem) расписание своего дня: las clases comienzan a las ..., la clase dura desde ... hasta ..., es hora de ...",
+    "Дневник: Запиши расписание своего рабочего/учебного дня с временем начала и конца каждого занятия",
+    "Грамматика: Составь 4 предложения с desde... hasta... и 3 предложения с para + infinitivo"
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "id": 24,
+  "title": "El día de la fiesta de Pablo",
+  "titleRu": "День праздника Пабло",
+  "part": 3,
+  "level": "B1",
+  "theme": "Праздник, подготовка, дом  La fiesta, los preparativos, la casa",
+  "characters": ["amalia", "pablo_amalia", "susana"],
+  "objectives": [
+    "Говорить, сколько времени занимает действие: llevar + gerundio (lleváis toda la mañana colocando)",
+    "Выражать необходимость: hace falta + infinitivo (hace falta regar las plantas)",
+    "Сообщать о боли и дискомфорте: me duele la cabeza, le molesta hacer esto, se te va a pasar",
+    "Предлагать помощь и благодарить: me ocupo de esto, te agradezco mucho la ayuda",
+    "Понимать слова по теме праздника: la mesa, los cubiertos, los invitados, la tarta, la limonada"
+  ],
+  "grammar": {
+    "llevar_gerundio": {
+      "title": "LLEVAR + герундий: сколько времени делаю",
+      "description": "LLEVAR + gerundio + объект/время — «я уже (столько) делаю что-то». С указанием времени: llevo una hora buscando (я уже час ищу), lleváis toda la mañana colocando (вы всё утро расставляете).",
+      "forms": {
+        "yo": { "es": "llevo una hora buscando", "ru": "я уже час ищу" },
+        "tu": { "es": "llevas mucho tiempo esperando", "ru": "ты давно ждёшь" },
+        "el_ella": { "es": "lleva toda la mañana colocando", "ru": "она всё утро расставляет" },
+        "nosotros": { "es": "llevamos media hora cocinando", "ru": "мы полчаса готовим" },
+        "vosotros": { "es": "lleváis toda la mañana colocando las sillas", "ru": "вы всё утро расставляете стулья" },
+        "ellos_ellas": { "es": "llevan un rato regando", "ru": "они поливают уже какое-то время" }
+      },
+      "examples": [
+        { "es": "Lleváis toda la mañana colocándolas.", "ru": "Вы уже всё утро их расставляете." },
+        { "es": "Llevo una hora buscando las llaves por toda la casa.", "ru": "Я уже час ищу ключи по всей квартире." }
+      ]
+    },
+    "hacer_falta": {
+      "title": "HACER FALTA: нужно, не хватает",
+      "description": "HACER FALTA + инфинитив — «нужно сделать что-то»: hace falta regar las plantas (нужно полить цветы). Impersonal — одинаковые формы: hace falta / no hace falta / ¿hace falta? HACER FALTA也可 отвечать на вопрос «хватает ли?»: ¿Seguro que hace falta? (Ты уверен, что это нужно?).",
+      "list": [
+        { "es": "hace falta regar las plantas", "ru": "нужно полить цветы" },
+        { "es": "¿Seguro que hace falta?", "ru": "ты уверен, что это нужно?" },
+        { "es": "no hace falta comprar más bebidas", "ru": "нет нужды покупать ещё напитки" },
+        { "es": "hace falta limpiar la terraza", "ru": "нужно протереть террасу" },
+        { "es": "¿hace falta cocinar más?", "ru": "нужно готовить ещё?" }
+      ],
+      "examples": [
+        { "es": "Hace falta regar las plantas, limpiar la terraza y sacar la basura.", "ru": "Нужно полить цветы, протереть террасу и вынести мусор." },
+        { "es": "¿Seguro que hace falta? Ya tenéis un montón de bebidas.", "ru": "Ты уверен, что они нужны? У вас и так полно напитков." }
+      ]
+    },
+    "doler": {
+      "title": "DOLER, MOLESTAR: болит, мешает",
+      "description": "DOLER + часть тела — «болит»: me duele la cabeza (у меня болит голова), me duelen los pies (у меня болят ноги). Глагол спрягается по лицу: duele/duelen. MOLESTAR — «мешать, раздражать»: le molesta hacer esto (ему раздражает это делать). «Пройдёт» — se te va a pasar.",
+      "list": [
+        { "es": "me duele la cabeza", "ru": "у меня болит голова" },
+        { "es": "me duelen los pies", "ru": "у меня болят ноги" },
+        { "es": "le molesta hacer esto", "ru": "ему раздражает это делать" },
+        { "es": "¿te duele la cabeza también?", "ru": "у тебя тоже болит голова?" },
+        { "es": "se te va a pasar", "ru": "это у тебя пройдёт" }
+      ],
+      "examples": [
+        { "es": "Uf, estoy tan nervioso que me duele la cabeza.", "ru": "Уф, я так нервничаю, что голова заболела." },
+        { "es": "Ya sabes cuánto le molesta hacer esto a Pablo.", "ru": "Ты же знаешь, как Пабло это раздражает делать." }
+      ]
+    },
+    "ocuparse": {
+      "title": "OCUPARSE DE, AGRADECER: заняться, поблагодарить",
+      "description": "OCUPARSE DE + объект — «заняться чем-то, взять на себя»: yo me ocupo de esto (я займусь этим). AGRADECER + объект/дательное — «благодарить»: te agradezco mucho la ayuda (я тебе очень благодарен за помощь). «Сказать ей/ему» — se lo digo (с косвенным ударным местоимением).",
+      "list": [
+        { "es": "yo me ocupo de esto", "ru": "я займусь этим" },
+        { "es": "te agradezco mucho la ayuda", "ru": "я тебе очень благодарен за помощь" },
+        { "es": "¿quién se ocupa del jardín?", "ru": "кто занимается садом?" },
+        { "es": "ahora se lo digo", "ru": "сейчас я ей скажу" },
+        { "es": "ella se ocupa de la cocina", "ru": "она занимается кухней" }
+      ],
+      "examples": [
+        { "es": "Yo me ocupo de esto, mamá.", "ru": "Я займусь этим, мам." },
+        { "es": "Gracias, hermana, te agradezco mucho la ayuda.", "ru": "Спасибо, сестра, я тебе очень благодарен за помощь." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "cocina_y_fiesta": [
+      { "es": "la mesa", "ru": "стол" },
+      { "es": "los cubiertos", "ru": "столовые приборы" },
+      { "es": "los platos", "ru": "тарелки" },
+      { "es": "la limonada", "ru": "лимонад" },
+      { "es": "los pasteles", "ru": "пирожные" },
+      { "es": "los dulces", "ru": "сладости" },
+      { "es": "la tarta", "ru": "торт" },
+      { "es": "las galletas", "ru": "печенье" },
+      { "es": "el batido de fresa", "ru": "клубничный коктейль" },
+      { "es": "el pollo asado", "ru": "жареная курица" }
+    ],
+    "jardin_y_casa": [
+      { "es": "el jardín", "ru": "сад" },
+      { "es": "las sillas", "ru": "стулья" },
+      { "es": "las plantas", "ru": "цветы" },
+      { "es": "la terraza", "ru": "терраса" },
+      { "es": "la basura", "ru": "мусор" },
+      { "es": "los invitados", "ru": "гости" },
+      { "es": "la ensalada de pasta", "ru": "паста-салат" },
+      { "es": "las patatas", "ru": "картошка" },
+      { "es": "regar las plantas", "ru": "поливать цветы" },
+      { "es": "limpiar la terraza", "ru": "протирать террасу" }
+    ],
+    "verbos": [
+      { "es": "ayudar", "ru": "помогать" },
+      { "es": "colocar", "ru": "расставлять" },
+      { "es": "poner la mesa", "ru": "накрывать на стол" },
+      { "es": "sacar la basura", "ru": "выносить мусор" },
+      { "es": "regar", "ru": "поливать" },
+      { "es": "limpiar", "ru": "убирать, протирать" },
+      { "es": "ocuparse de", "ru": "заниматься чем-то" },
+      { "es": "agradecer", "ru": "благодарить" },
+      { "es": "cambiarse", "ru": "переодеваться" },
+      { "es": "llevar", "ru": "относить, переносить" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Amalia", "es": "¡Hijos! ¿Qué estáis haciendo? ¿Me ayudáis en la cocina?", "ru": "Дети! Что вы делаете? Поможете мне на кухне?" },
+    { "speaker": "Pablo", "es": "Ahora voy, mamá. Estamos colocando las sillas en el jardín.", "ru": "Сейчас иду, мам. Мы расставляем стулья в саду." },
+    { "speaker": "Amalia", "es": "Lleváis toda la mañana colocándolas. Ya está bonito. Vamos a poner la mesa que pronto vienen los invitados. Además, hace falta regar las plantas, limpiar la terraza y sacar la basura.", "ru": "Вы уже всё утро их расставляете. Уже красиво. Давайте накрывать на стол, скоро придут гости. К тому же надо полить цветы, протереть террасу и выбросить мусор." },
+    { "speaker": "Susana", "es": "Yo me ocupo de esto, mamá. Ya sabes cuánto le molesta hacer esto a Pablo.", "ru": "Я займусь этим, мам. Ты же знаешь, как Пабло это раздражает делать." },
+    { "speaker": "Pablo", "es": "Gracias, hermana, te agradezco mucho la ayuda. Uf, estoy tan nervioso que me duele la cabeza.", "ru": "Спасибо, сестра, я тебе очень благодарен за помощь. Уф, я так нервничаю, что голова заболела." },
+    { "speaker": "Amalia", "es": "Tranquilo, se te va a pasar. Ahora lleva al jardín los cubiertos, y después, estos platos. Es pollo asado y patatas. La ensalada de pasta ya está lista también.", "ru": "Спокойно, это пройдёт. Сейчас отнеси в сад столовые приборы, а потом эти тарелки. Это курица на гриле и картошка. Паста-салат уже тоже готов." },
+    { "speaker": "Pablo", "es": "¿Llevo la limonada también? ¿Los pasteles...?", "ru": "Отнести лимонад? А пирожные...?" },
+    { "speaker": "Amalia", "es": "La limonada, sí, pero los dulces, la tarta y las galletas, más tarde. Yo, mientras, voy a cambiarme.", "ru": "Лимонад — да, но сладости, торт и печенье — попозже. А я пока переоденусь." },
+    { "speaker": "Pablo", "es": "¿Pero, mamá, nos haces batidos de fresa?", "ru": "Но, мам, ты нам сделаешь клубничные коктейли?" },
+    { "speaker": "Amalia", "es": "¿Seguro que hace falta? Ya tenéis un montón de bebidas...", "ru": "Ты уверен, что они нужны? У вас и так полно напитков..." },
+    { "speaker": "Pablo", "es": "Te lo pido, por favor.", "ru": "Прошу тебя, пожалуйста." },
+    { "speaker": "Amalia", "es": "Bueno, sí... Susana me ayuda... ¿Qué está haciendo?", "ru": "Хорошо, если Сусанна мне поможет... Что она делает?" },
+    { "speaker": "Pablo", "es": "Sigue regando las plantas. Ahora se lo digo...", "ru": "Всё ещё поливает цветы. Сейчас ей скажу..." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "la mesa", "ru": "стол" },
+        { "es": "los cubiertos", "ru": "столовые приборы" },
+        { "es": "los platos", "ru": "тарелки" },
+        { "es": "la limonada", "ru": "лимонад" },
+        { "es": "el jardín", "ru": "сад" },
+        { "es": "las sillas", "ru": "стулья" },
+        { "es": "el pollo asado", "ru": "жареная курица" },
+        { "es": "la terraza", "ru": "терраса" }
+      ]
+    },
+    {
+      "type": "fill-gap-llevar_gerundio",
+      "title": "Практика: LLEVAR + герундий",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Lleváis toda la mañana ___ las sillas en el jardín.", "ru": "Вы уже всё утро расставляете стулья", "answer": "colocando", "options": ["colocando", "colocar", "colocadas"] },
+        { "text": "Llevo una hora ___ las llaves por toda la casa.", "ru": "Я уже час ищу ключи по всей квартире", "answer": "buscando", "options": ["buscando", "buscar", "busco"] },
+        { "text": "¿Cuánto tiempo ___ esperando aquí, Susana?", "ru": "Сколько времени ты здесь ждёшь, Сусанна?", "answer": "llevas", "options": ["llevas", "lleva", "llevo"] },
+        { "text": "Llevamos media hora ___ las sillas del jardín.", "ru": "Мы уже полчаса расставляем стулья в саду", "answer": "colocando", "options": ["colocando", "colocar", "poniendo"] },
+        { "text": "Mi hermana lleva toda la mañana ___ la mesa.", "ru": "Моя сестра всё утро накрывает на стол", "answer": "poniendo", "options": ["poniendo", "poner", "pone"] }
+      ]
+    },
+    {
+      "type": "fill-gap-hacer_falta",
+      "title": "Практика: HACER FALTA",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Hace ___ regar las plantas y limpiar la terraza.", "ru": "Нужно полить цветы и протереть террасу", "answer": "falta", "options": ["falta", "faltar", "falto"] },
+        { "text": "¿Seguro que ___ falta la limonada?", "ru": "Ты уверен, что нужен лимонад?", "answer": "hace", "options": ["hace", "hago", "hay"] },
+        { "text": "No hace falta ___ la basura hoy.", "ru": "Сегодня не нужно выносить мусор", "answer": "sacar", "options": ["sacar", "saco", "sacas"] },
+        { "text": "Hace falta ___ la terraza antes de la fiesta.", "ru": "Нужно протереть террасу перед праздником", "answer": "limpiar", "options": ["limpiar", "limpio", "limpia"] },
+        { "text": "¿___ falta comprar más bebidas?", "ru": "Нужно покупать ещё напитки?", "answer": "Hace", "options": ["Hace", "Hay", "Está"] }
+      ]
+    },
+    {
+      "type": "fill-gap-doler",
+      "title": "Практика: DOLER, MOLESTAR",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Estoy tan nervioso que me ___ la cabeza.", "ru": "Я так нервничаю, что голова заболела", "answer": "duele", "options": ["duele", "duelen", "doler"] },
+        { "text": "Me ___ los pies de tanto caminar por el jardín.", "ru": "У меня болят ноги от ходьбы по саду", "answer": "duelen", "options": ["duelen", "duele", "dolor"] },
+        { "text": "Le ___ hacer esto a Pablo.", "ru": "Пабло это раздражает делать", "answer": "molesta", "options": ["molesta", "molestan", "molestar"] },
+        { "text": "¿Te ___ la cabeza también, hermano?", "ru": "У тебя тоже болит голова, брат?", "answer": "duele", "options": ["duele", "duelen", "dolor"] },
+        { "text": "No te preocupes, se te ___ a pasar.", "ru": "Не волнуйся, это у тебя пройдёт", "answer": "va", "options": ["va", "vaya", "voy"] }
+      ]
+    },
+    {
+      "type": "fill-gap-ocuparse",
+      "title": "Практика: OCUPARSE DE, AGRADECER",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Yo me ___ de esto, mamá.", "ru": "Я займусь этим, мам", "answer": "ocupo", "options": ["ocupo", "ocupas", "ocupa"] },
+        { "text": "Te ___ mucho la ayuda, hermana.", "ru": "Я тебе очень благодарен за помощь, сестра", "answer": "agradezco", "options": ["agradezco", "agradeces", "agradece"] },
+        { "text": "¿Quién ___ ocupa del jardín?", "ru": "Кто занимается садом?", "answer": "se", "options": ["se", "me", "te"] },
+        { "text": "Ahora ___ lo digo a Susana.", "ru": "Сейчас я ей скажу", "answer": "se", "options": ["se", "le", "la"] },
+        { "text": "Pablo se ocupa ___ la basura los lunes.", "ru": "Пабло занимается мусором по понедельникам", "answer": "de", "options": ["de", "en", "por"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Lleváis toda la mañana ___ las sillas.", "ru": "Вы уже всё утро расставляете стулья", "answer": "colocando", "options": ["colocando", "colocar", "colocadas"] },
+        { "text": "Hace ___ regar las plantas y limpiar la terraza.", "ru": "Нужно полить цветы и протереть террасу", "answer": "falta", "options": ["falta", "faltar", "falto"] },
+        { "text": "Estoy tan nervioso que me ___ la cabeza.", "ru": "Я так нервничаю, что голова заболела", "answer": "duele", "options": ["duele", "duelen", "doler"] },
+        { "text": "Yo me ___ de esto, mamá.", "ru": "Я займусь этим, мам", "answer": "ocupo", "options": ["ocupo", "ocupas", "ocupa"] },
+        { "text": "Te ___ mucho la ayuda, hermana.", "ru": "Я тебе очень благодарен за помощь, сестра", "answer": "agradezco", "options": ["agradezco", "agradeces", "agradece"] },
+        { "text": "Ahora se ___ digo a Susana.", "ru": "Сейчас я ей скажу", "answer": "lo", "options": ["lo", "le", "la"] },
+        { "text": "¿Seguro que ___ falta? Ya tenéis un montón de bebidas.", "ru": "Ты уверен, что они нужны? У вас и так полно напитков.", "answer": "hace", "options": ["hace", "hago", "hay"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Амалией",
+      "role": "Amalia",
+      "description": "Ты — мама, готовишь праздник, просишь детей помочь на кухне и в саду"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Пабло",
+      "role": "Pablo",
+      "description": "Ты — сын, помогаешь маме с подготовкой праздника и нервничаешь"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Обсуди с другом, как готовишься к празднику дома",
+      "template": [
+        { "label": "Вы уже всё утро расставляете", "es": "Lleváis toda la mañana ___" },
+        { "label": "Поможете мне на кухне?", "es": "¿Me ___ en la cocina?" },
+        { "label": "Нужно полить цветы", "es": "Hace ___ regar las plantas" },
+        { "label": "У меня болит голова", "es": "Me ___ la cabeza" },
+        { "label": "Я займусь этим", "es": "Me ___ de esto" },
+        { "label": "Я очень благодарен за помощь", "es": "Te ___ mucho la ayuda" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Qué están haciendo Pablo y Susana al principio del diálogo?",
+          "ru": "Что делают Пабло и Сусанна в начале диалога?",
+          "options": ["Colocando las sillas en el jardín", "Poniendo la mesa", "Regando las plantas", "Lavando los platos"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué hace falta hacer antes de que lleguen los invitados?",
+          "ru": "Что нужно сделать до прихода гостей?",
+          "options": ["Regar, limpiar y sacar la basura", "Cocinar más comida", "Comprar pasteles", "Decorar el jardín"],
+          "answer": 1
+        },
+        {
+          "question": "¿Quién se ocupa de regar las plantas?",
+          "ru": "Кто занимается поливом цветов?",
+          "options": ["Pablo", "Amalia", "Susana", "Bárbara"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué le duele a Pablo por la mañana?",
+          "ru": "Что у Пабло болит утром?",
+          "options": ["Los pies", "La cabeza", "El estómago", "La espalda"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué lleva Pablo al jardín primero?",
+          "ru": "Что Пабло относит в сад первым?",
+          "options": ["Los platos", "La limonada", "Los cubiertos", "Los pasteles"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué llevan los hijos más tarde?",
+          "ru": "Что дети относят позже?",
+          "options": ["Los dulces, la tarta y las galletas", "Los cubiertos", "El pollo asado", "Las bebidas"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué pide Pablo a su mamá al final del diálogo?",
+          "ru": "Что Пабло просит у мамы в конце диалога?",
+          "options": ["La limonada", "Los pasteles", "Batidos de fresa", "Galletas"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué está haciendo Susana al final del diálogo?",
+          "ru": "Что Сусанна делает в конце диалога?",
+          "options": ["Poniendo la mesa", "Regando las plantas", "Buscando los cubiertos", "Haciendo batidos"],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 минут: повтори слова по теме «кухня, праздник, дом»",
+    "Практика: расскажи, как вы готовитесь к празднику дома. Используй: llevo una hora..., hace falta..., te agradezco...",
+    "Дневник: опиши, как вы готовитесь к празднику у себя дома. Что нужно сделать? Кто что делает?",
+    "Грамматика: составь 3 предложения с llevar + gerundio, 3 с hace falta, 3 с me duele / me duelen"
+  ]
+}

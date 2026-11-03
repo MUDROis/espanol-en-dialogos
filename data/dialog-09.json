@@ -1,0 +1,254 @@
+{
+  "id": 9,
+  "title": "Lucía habla con su amiga Carmen",
+  "titleRu": "Люсия разговаривает со своей подругой Кармен",
+  "part": 1,
+  "level": "A2",
+  "theme": "Квартира, дом, мебель  El piso, la casa, los muebles",
+  "characters": ["lucia", "carmen"],
+  "objectives": [
+    "Описать свою квартиру и мебель",
+    "Использовать hay / no hay / sólo hay (есть / нет)",
+    "Говорить о местонахождении: junto a, cerca de, en el centro",
+    "Использовать по eso (поэтому) и aunque (хотя)",
+    "Рассказать, где находится дом в городе"
+  ],
+  "grammar": {
+    "hay_no_hay": {
+      "title": "Hay / No hay / Sólo hay",
+      "description": "hay (есть, имеется) — безличный оборот для указания наличия. no hay (нет), sólo hay (есть только). Не изменяется по числам.",
+      "list": [
+        { "es": "Hay un frigorífico", "ru": "Есть холодильник" },
+        { "es": "hay una ducha", "ru": "есть душ" },
+        { "es": "no hay tendedero", "ru": "нет комнаты для сушки белья" },
+        { "es": "no hay ascensor", "ru": "нет лифта" },
+        { "es": "sólo hay una ducha", "ru": "есть только душ" },
+        { "es": "¿Hay bañera?", "ru": "Есть ванна?" }
+      ]
+    },
+    "tener_muebles": {
+      "title": "TENER + мебель",
+      "description": "Глагол TENER используется, чтобы говорить о наличии мебели и вещей в квартире.",
+      "forms": {
+        "yo": { "es": "tengo", "ru": "у меня есть" },
+        "tu": { "es": "tienes", "ru": "у тебя есть" },
+        "el_ella": { "es": "tiene", "ru": "у него/неё есть" },
+        "nosotros": { "es": "tenemos", "ru": "у нас есть" },
+        "vosotros": { "es": "tenéis", "ru": "у вас есть" },
+        "ellos_ellas": { "es": "tienen", "ru": "у них есть" }
+      }
+    },
+    "ubicacion_casa": {
+      "title": "Местонахождение в квартире и городе",
+      "description": "Предлоги и выражения места: junto a (рядом с / около), cerca de (недалеко от), en el centro de (в центре), en la calle (на улице).",
+      "list": [
+        { "es": "junto a la ventana", "ru": "около окна" },
+        { "es": "cerca de la carretera", "ru": "рядом с шоссе" },
+        { "es": "en el centro de la ciudad", "ru": "в центре города" },
+        { "es": "en la calle de las Flores", "ru": "на улице Цветов" },
+        { "es": "en el tercer piso", "ru": "на третьем этаже" }
+      ]
+    },
+    "por_eso_aunque": {
+      "title": "Por eso и aunque",
+      "description": "por eso (поэтому) вводит следствие; aunque (хотя) вводит уступку/контраст.",
+      "list": [
+        { "es": "por eso seco la ropa en el balcón", "ru": "поэтому сушу одежду на балконе" },
+        { "es": "por eso no hay ascensor", "ru": "поэтому нет лифта" },
+        { "es": "aunque el edificio no tiene ascensor", "ru": "хотя в здании нет лифта" },
+        { "es": "aunque es pequeño, es agradable", "ru": "хотя квартира маленькая, она приятная" }
+      ]
+    },
+    "alquilar_vivir": {
+      "title": "Alquilar y vivir",
+      "description": "alquilar (снимать) и vivir (жить) — глаголы для рассказа о жилье.",
+      "list": [
+        { "es": "Alquilo un piso", "ru": "я снимаю квартиру" },
+        { "es": "vivo en el tercer piso", "ru": "я живу на третьем этаже" },
+        { "es": "vivir en la residencia", "ru": "жить в общежитии" },
+        { "es": "vive en la calle de las Flores", "ru": "он/она живёт на улице Цветов" }
+      ]
+    }
+  },
+  "vocabulary": {
+    "la_casa": [
+      { "es": "el piso", "ru": "квартира" },
+      { "es": "el dormitorio", "ru": "спальня" },
+      { "es": "la cocina", "ru": "кухня" },
+      { "es": "el cuarto de baño", "ru": "ванная комната" },
+      { "es": "el balcón", "ru": "балкон" },
+      { "es": "el tercer piso", "ru": "третий этаж" },
+      { "es": "la residencia", "ru": "общежитие" },
+      { "es": "el edificio", "ru": "здание" }
+    ],
+    "los_muebles": [
+      { "es": "la cama", "ru": "кровать" },
+      { "es": "el espejo", "ru": "зеркало" },
+      { "es": "el escritorio", "ru": "письменный стол" },
+      { "es": "el frigorífico", "ru": "холодильник" },
+      { "es": "el fregadero", "ru": "раковина" },
+      { "es": "el microondas", "ru": "микроволновка" },
+      { "es": "la lavadora", "ru": "стиральная машина" },
+      { "es": "la ducha", "ru": "душ" },
+      { "es": "la bañera", "ru": "ванна" },
+      { "es": "la vajilla", "ru": "посуда" },
+      { "es": "el armario", "ru": "шкаф" },
+      { "es": "el tendedero", "ru": "место для сушки белья" }
+    ],
+    "la_ciudad": [
+      { "es": "el centro", "ru": "центр" },
+      { "es": "la calle", "ru": "улица" },
+      { "es": "la carretera", "ru": "шоссе" },
+      { "es": "la farmacia", "ru": "аптека" },
+      { "es": "la librería", "ru": "книжный магазин" },
+      { "es": "la cafetería", "ru": "кафе" },
+      { "es": "el centro comercial", "ru": "торговый центр" },
+      { "es": "cerca de", "ru": "рядом с" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Lucía", "es": "Muchas gracias por la fiesta, Carmen.", "ru": "Большое спасибо за праздник, Кармен." },
+    { "speaker": "Carmen", "es": "¡Estoy tan alegre hoy!", "ru": "Я так рада сегодня!" },
+    { "speaker": "Lucía", "es": "Sí, y tienes muchos regalos. Bueno, ya es tarde....", "ru": "Да, и у тебя много подарков. Ладно, уже поздно..." },
+    { "speaker": "Carmen", "es": "¿Dónde vives ahora? ¿En la residencia?", "ru": "Где ты сейчас живёшь? В общежитии?" },
+    { "speaker": "Lucía", "es": "Ya no. Alquilo un piso. Es pequeño, de un dormitorio, pero muy agradable.", "ru": "Уже нет. Я снимаю квартиру. Она маленькая, с одной спальней, но очень приятная." },
+    { "speaker": "Lucía", "es": "Tengo una cama muy ancha, un espejo junto a la ventana y un escritorio grande en mi cuarto.", "ru": "У меня широкая кровать, большое зеркало около окна и письменный стол в моей комнате." },
+    { "speaker": "Carmen", "es": "¡Qué bien! ¿Y la cocina....?", "ru": "Здорово! А кухня?" },
+    { "speaker": "Lucía", "es": "Es también pequeña, hay un frigorífico, armarios con vajilla, un fregadero pequeño, un microondas.... Y una lavadora.", "ru": "Тоже маленькая, есть холодильник, шкафчики с посудой, небольшая раковина, микроволновка... И стиральная машинка." },
+    { "speaker": "Lucía", "es": "Mi piso no tiene tendedero, por eso seco la ropa en el balcón.", "ru": "В квартире нет места для сушки белья, поэтому сушу одежду на балконе." },
+    { "speaker": "Carmen", "es": "¿Tienes la bañera?", "ru": "Есть ванная?" },
+    { "speaker": "Lucía", "es": "No, en el cuarto de baño sólo hay una ducha.", "ru": "Нет, в ванной комнате только душ." },
+    { "speaker": "Carmen", "es": "Pues, ¿estás contenta con el apartamento?", "ru": "Так ты довольна квартирой?" },
+    { "speaker": "Lucía", "es": "Sí, aunque el edificio no tiene ascensor, y yo vivo en el tercer piso.", "ru": "Да, хотя в здании нет лифта, а я живу на третьем этаже." },
+    { "speaker": "Lucía", "es": "Pero mi casa está en el centro de la ciudad, cerca hay farmacias, librerías, cafeterías y un centro comercial.", "ru": "Но зато мой дом находится прямо в центре города, рядом есть аптеки, книжные магазины, кафе и торговый центр." },
+    { "speaker": "Carmen", "es": "¿En qué calle está tu casa?", "ru": "На какой улице твой дом?" },
+    { "speaker": "Lucía", "es": "En la calle de las Flores, que está muy cerca de la carretera principal.", "ru": "На улице Цветов, которая совсем рядом с главным шоссе." },
+    { "speaker": "Lucía", "es": "Bueno, ¡hasta pronto!", "ru": "Ладно, до скорого!" },
+    { "speaker": "Carmen", "es": "¡Nos vemos!", "ru": "Увидимся!" }
+  ],
+  "exercises": [
+    {
+      "type": "fill-gap-hay_no_hay",
+      "title": "Hay / no hay",
+      "description": "Выберите правильный безличный оборот.",
+      "sentences": [
+        { "text": "En la cocina ___ un frigorífico.", "ru": "На кухне есть холодильник.", "answer": "hay", "options": ["hay", "hay que", "tiene"] },
+        { "text": "Mi piso no ___ tendedero.", "ru": "В моей квартире нет места для сушки белья.", "answer": "tiene", "options": ["tiene", "hay que", "hay"] },
+        { "text": "En el cuarto de baño sólo ___ una ducha.", "ru": "В ванной комнате есть только душ.", "answer": "hay", "options": ["hay", "no hay", "tienen"] },
+        { "text": "El edificio no ___ ascensor.", "ru": "В здании нет лифта.", "answer": "tiene", "options": ["tiene", "hay", "está"] },
+        { "text": "Cerca de mi casa ___ farmacias y librerías.", "ru": "Рядом с моим домом есть аптеки и книжные магазины.", "answer": "hay", "options": ["hay", "no hay", "tienen"] }
+      ]
+    },
+    {
+      "type": "fill-gap-tener_muebles",
+      "title": "Tener + muebles",
+      "description": "Вставьте правильную форму tener.",
+      "sentences": [
+        { "text": "___ una cama muy ancha.", "ru": "У меня есть очень широкая кровать.", "answer": "Tengo", "options": ["Tengo", "Tiene", "Tenemos"] },
+        { "text": "¿___ la bañera?", "ru": "У тебя есть ванна?", "answer": "Tienes", "options": ["Tienes", "Tengo", "Tenéis"] },
+        { "text": "Ella ___ un escritorio grande.", "ru": "У неё есть большой письменный стол.", "answer": "tiene", "options": ["tiene", "tengo", "tiene que"] },
+        { "text": "Nosotros ___ un microondas.", "ru": "У нас есть микроволновка.", "answer": "tenemos", "options": ["tenemos", "tiene", "tienen"] },
+        { "text": "Ellos ___ armarios con vajilla.", "ru": "У них есть шкафы с посудой.", "answer": "tienen", "options": ["tienen", "tengo", "tiene"] }
+      ]
+    },
+    {
+      "type": "fill-gap-ubicacion_casa",
+      "title": "Dónde está",
+      "description": "Выберите правильный предлог места.",
+      "sentences": [
+        { "text": "El espejo está ___ la ventana.", "ru": "Зеркало стоит около окна.", "answer": "junto a", "options": ["junto a", "lejos de", "antes"] },
+        { "text": "Mi casa está ___ el centro de la ciudad.", "ru": "Мой дом находится в центре города.", "answer": "en", "options": ["en", "junto", "sobre"] },
+        { "text": "El piso está muy ___ de la carretera.", "ru": "Квартира совсем рядом с шоссе.", "answer": "cerca", "options": ["cerca", "lejos", "encima"] },
+        { "text": "Vivo ___ el tercer piso.", "ru": "Я живу на третьем этаже.", "answer": "en", "options": ["en", "de", "a"] },
+        { "text": "La calle de las Flores está cerca de la ___.", "ru": "Улица Цветов находится рядом с шоссе.", "answer": "carretera", "options": ["carretera", "ducha", "cama"] }
+      ]
+    },
+    {
+      "type": "fill-gap-por_eso_aunque",
+      "title": "Por eso / aunque",
+      "description": "Выберите правильное слово-связку.",
+      "sentences": [
+        { "text": "No hay tendedero, ___ seco la ropa en el balcón.", "ru": "Нет места для сушки, поэтому сушу одежду на балконе.", "answer": "por eso", "options": ["por eso", "aunque", "cuando"] },
+        { "text": "Estoy contenta ___ el piso es pequeño.", "ru": "Я довольна, хотя квартира маленькая.", "answer": "aunque", "options": ["aunque", "por eso", "porque"] },
+        { "text": "___ no hay ascensor, vivo en el tercer piso.", "ru": "Хотя нет лифта, я живу на третьем этаже.", "answer": "Aunque", "options": ["Aunque", "Por eso", "Después"] },
+        { "text": "Mi casa está en el centro, ___ es muy cómodo.", "ru": "Мой дом в центре, поэтому это очень удобно.", "answer": "por eso", "options": ["por eso", "aunque", "si"] },
+        { "text": "El piso es pequeño ___ muy agradable.", "ru": "Квартира маленькая, но очень приятная.", "answer": "pero", "options": ["pero", "por eso", "aunque"] }
+      ]
+    },
+    {
+      "type": "fill-gap-alquilar_vivir",
+      "title": "Alquilar y vivir",
+      "description": "Выберите правильный глагол о жилье.",
+      "sentences": [
+        { "text": "Yo ___ un piso pequeño.", "ru": "Я снимаю маленькую квартиру.", "answer": "alquilo", "options": ["alquilo", "alquila", "vivir"] },
+        { "text": "¿Dónde ___ ahora?", "ru": "Где ты сейчас живёшь?", "answer": "vives", "options": ["vives", "vive", "alquilas"] },
+        { "text": "Antes vivía en la ___.", "ru": "Раньше я жил в общежитии.", "answer": "residencia", "options": ["residencia", "calle", "centro"] },
+        { "text": "Yo ___ el tercer piso.", "ru": "Я живу на третьем этаже.", "answer": "vivo en", "options": ["vivo en", "vive", "alquilo"] },
+        { "text": "Su casa ___ en el centro de la ciudad.", "ru": "Его дом находится в центре города.", "answer": "está", "options": ["está", "vive", "alquila"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Соедините всё: hay, tener, местонахождение, por eso.",
+      "sentences": [
+        { "text": "En la cocina ___ un frigorífico.", "ru": "На кухне есть холодильник.", "answer": "hay", "options": ["hay", "tiene", "está"] },
+        { "text": "___ una cama muy ancha.", "ru": "У меня есть очень широкая кровать.", "answer": "Tengo", "options": ["Tengo", "Hay", "Estoy"] },
+        { "text": "El espejo está ___ la ventana.", "ru": "Зеркало стоит около окна.", "answer": "junto a", "options": ["junto a", "lejos de", "antes"] },
+        { "text": "No hay tendedero, ___ seco la ropa en el balcón.", "ru": "Нет места для сушки, поэтому сушу одежду на балконе.", "answer": "por eso", "options": ["por eso", "aunque", "si"] },
+        { "text": "Estoy contenta ___ el piso es pequeño.", "ru": "Я довольна, хотя квартира маленькая.", "answer": "aunque", "options": ["aunque", "por eso", "porque"] },
+        { "text": "Mi casa está en ___ centro de la ciudad.", "ru": "Мой дом находится в центре города.", "answer": "el", "options": ["el", "la", "un"] }
+      ]
+    },
+    {
+      "type": "shadowing"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Люсией",
+      "role": "Lucía",
+      "description": "Опиши свою квартиру и ответь на вопросы Кармен."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Кармен",
+      "role": "Carmen",
+      "description": "Спроси Люсию о её квартире, мебели и местонахождении дома."
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи другу о своей квартире, доме и районе.",
+      "template": [
+        { "label": "Я снимаю квартиру", "es": "___ un piso" },
+        { "label": "В кухне есть холодильник", "es": "En la cocina ___ un frigorífico" },
+        { "label": "У меня есть кровать", "es": "___ una cama" },
+        { "label": "Зеркало около окна", "es": "El espejo está ___ la ventana" },
+        { "label": "Нет лифта, поэтому...", "es": "No hay ascensor, ___ ..." }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест по уроку 9",
+      "description": "Проверь, как ты понял урок про квартиру и дом.",
+      "questions": [
+        { "question": "¿Dónde vive ahora Lucía?", "ru": "Где сейчас живёт Люсия?", "options": ["En la residencia", "En un piso alquilado", "En casa de Carmen", "En un hotel"], "answer": 1 },
+        { "question": "¿Cómo es el piso de Lucía?", "ru": "Какая квартира у Люсии?", "options": ["Grande y moderno", "Pequeño pero agradable", "Lujoso", "Viejo"], "answer": 1 },
+        { "question": "¿Qué hay en el cuarto de Lucía?", "ru": "Что есть в комнате Люсии?", "options": ["Una cama, un espejo y un escritorio", "Una lavadora", "Una bañera", "Un tendedero"], "answer": 0 },
+        { "question": "¿Qué no tiene el piso de Lucía?", "ru": "Чего нет в квартире Люсии?", "options": ["Microondas", "Tendedero", "Lavadora", "Frigorífico"], "answer": 1 },
+        { "question": "¿Qué hay en el cuarto de baño?", "ru": "Что есть в ванной комнате?", "options": ["Una bañera", "Sólo una ducha", "Una lavadora", "Un espejo grande"], "answer": 1 },
+        { "question": "¿En qué piso vive Lucía?", "ru": "На каком этаже живёт Люсия?", "options": ["En el primero", "En el segundo", "En el tercero", "En el quinto"], "answer": 2 },
+        { "question": "¿Qué no tiene el edificio?", "ru": "Чего нет в здании?", "options": ["Ascensor", "Puerta", "Ventana", "Cocina"], "answer": 0 },
+        { "question": "¿Dónde está el piso de Lucía?", "ru": "Где находится квартира Люсии?", "options": ["En las afueras", "En el centro de la ciudad", "Junto a la carretera", "En el norte"], "answer": 1 },
+        { "question": "¿En qué calle está su casa?", "ru": "На какой улице её дом?", "options": ["En la calle Mayor", "En la calle de las Flores", "En la calle Nueva", "En la Avenida"], "answer": 1 },
+        { "question": "¿Por qué seca la ropa en el balcón?", "ru": "Почему Люсия сушит одежду на балконе?", "options": ["Porque no hay tendedero", "Porque hace sol", "Porque no hay lavadora", "Porque no le gusta el balcón"], "answer": 0 }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить слова в приложении",
+    "Практика: опиши свою комнату, используя hay / no hay / sólo hay",
+    "Дневник: напиши, какие предметы и мебель есть в твоей квартире",
+    "Грамматика: составь 3 предложения с por eso и 3 с aunque"
+  ]
+}

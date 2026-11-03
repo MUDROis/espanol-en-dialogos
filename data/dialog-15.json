@@ -1,0 +1,308 @@
+{
+  "id": 15,
+  "title": "Sofía y su tía pasean por el lago",
+  "titleRu": "София и её тётя гуляют по озеру",
+  "part": 2,
+  "level": "A2",
+  "theme": "Погода, планы, покупки  El tiempo, los planes, las compras",
+  "characters": ["sofia", "tia"],
+  "objectives": [
+    "Говорить о погоде (hace viento, está fresquito, va a nevar)",
+    "Использовать выражения с TENER (razón, frío, suerte, ganas de, tiempo)",
+    "Спрашивать и называть время (¿Qué hora es? Son las dos menos diez)",
+    "Строить условные предложения с SI + presente",
+    "Строить планы с IR A + infinitivo"
+  ],
+  "grammar": {
+    "tener_expresiones": {
+      "title": "Выражения с глаголом TENER (razón, frío, suerte, ganas de)",
+      "description": "Глагол TENER входит в устойчивые выражения: tener razón (быть правым), tener frío (мёрзнуть), tener suerte (везти), tener ganas de + infinitivo (хотеть), tener tiempo (иметь время). Примеры: «No tenemos suerte con el tiempo» — «Нам не везёт с погодой», «No tengo ganas de caminar» — «У меня нет желания гулять».",
+      "forms": {
+        "yo": { "es": "tengo razón", "ru": "я прав" },
+        "tu": { "es": "tienes razón", "ru": "ты прав" },
+        "el_ella": { "es": "tiene razón", "ru": "он/она прав(а)" },
+        "nosotros": { "es": "tenemos razón", "ru": "мы правы" },
+        "vosotros": { "es": "tenéis razón", "ru": "вы правы" },
+        "ellos_ellas": { "es": "tienen razón", "ru": "они правы" }
+      },
+      "examples": [
+        { "es": "Tienes razón, está muy fresquito.", "ru": "Ты прав, очень прохладно." },
+        { "es": "No tengo ganas de caminar mucho por jardines.", "ru": "У меня нет желания долго гулять по садам." },
+        { "es": "Hoy no tenemos suerte con el tiempo.", "ru": "Сегодня нам не везёт с погодой." }
+      ]
+    },
+    "ir_a_futuro": {
+      "title": "Конструкция IR A + infinitivo (собираться сделать)",
+      "description": "IR A + инфинитив — ближайшее будущее («собираться что-то сделать»): «Voy a mirar el horario en el móvil» — «Я посмотрю расписание в телефоне», «Parece que va a nevar en la montaña» — «Похоже, в горах будет снег».",
+      "forms": {
+        "yo": { "es": "voy a mirar el horario", "ru": "я посмотрю расписание" },
+        "tu": { "es": "vas a mirar el horario", "ru": "ты посмотришь расписание" },
+        "el_ella": { "es": "va a mirar el horario", "ru": "он/она посмотрит расписание" },
+        "nosotros": { "es": "vamos a mirar el horario", "ru": "мы посмотрим расписание" },
+        "vosotros": { "es": "vais a mirar el horario", "ru": "вы посмотрите расписание" },
+        "ellos_ellas": { "es": "van a mirar el horario", "ru": "они посмотрят расписание" }
+      },
+      "examples": [
+        { "es": "Voy a mirar el horario en el móvil más tarde.", "ru": "Я посмотрю расписание в телефоне попозже." },
+        { "es": "Pasado mañana vamos a ir de tiendas.", "ru": "Послезавтра мы пойдём по магазинам." }
+      ]
+    },
+    "la_hora": {
+      "title": "Который час? (La hora)",
+      "description": "Вопрос «который час» — «¿Qué hora es?». Ответ: es la una (час дня), son las dos (два часа), минуты: son las dos menos diez (без десяти два), a las seis y media (в полседьмого), en punto (ровно).",
+      "list": [
+        { "es": "es la una", "ru": "час (дня)" },
+        { "es": "son las dos / las tres", "ru": "два / три часа" },
+        { "es": "y cinco / y diez / y media", "ru": "пять минут / десять минут / половина" },
+        { "es": "menos cuarto / menos diez", "ru": "без четверти / без десяти" },
+        { "es": "a las seis y media", "ru": "в полседьмого" },
+        { "es": "en punto", "ru": "ровно" }
+      ],
+      "examples": [
+        { "es": "¿Qué hora es? Son las dos menos diez.", "ru": "Который час? Без десяти два." },
+        { "es": "La feria cierra a las seis y media.", "ru": "Ярмарка закрывается в полседьмого." },
+        { "es": "No nos da tiempo de llegar.", "ru": "Мы не успеем добраться." }
+      ]
+    },
+    "si_condicional": {
+      "title": "Условные предложения: SI + presente → presente",
+      "description": "SI + глагол в presente → настоящее время или будущее: «Si conoces una feria buena de cerámica, vamos» — «Если ты знаешь хорошую ярмарку керамики, пойдём», «Si está cerrada, podemos ir al mirador» — «Если она закрыта, можем пойти на смотровую площадку».",
+      "list": [
+        { "es": "si + presente → presente", "ru": "если ... , то ..." },
+        { "es": "si tenemos frío, tomamos chocolate caliente", "ru": "если замёрзнем, выпьем горячего шоколада" },
+        { "es": "si hace buen tiempo, vamos al parque", "ru": "если будет хорошая погода, пойдём в парк" },
+        { "es": "si cierra pronto, no llegamos", "ru": "если скоро закрывается, мы не успеем" }
+      ],
+      "examples": [
+        { "es": "Si conoces una feria buena de cerámica, vamos.", "ru": "Если ты знаешь хорошую ярмарку керамики, пойдём." },
+        { "es": "Si está cerrada, podemos ir al mirador y tomar un chocolate caliente.", "ru": "Если она закрыта, можем пойти на смотровую площадку и выпить горячего шоколада." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "tiempo": [
+      { "es": "hace viento", "ru": "ветрено" },
+      { "es": "el viento", "ru": "ветер" },
+      { "es": "tener frío", "ru": "мёрзнуть, замерзать" },
+      { "es": "fresquito", "ru": "прохладно" },
+      { "es": "el cielo", "ru": "небо" },
+      { "es": "está cubierto", "ru": "затянуто (облаками)" },
+      { "es": "va a nevar", "ru": "будет снег" },
+      { "es": "la montaña", "ru": "гора" },
+      { "es": "tener suerte", "ru": "везти, иметь удачу" },
+      { "es": "el tiempo", "ru": "погода" }
+    ],
+    "lugares": [
+      { "es": "el lago", "ru": "озеро" },
+      { "es": "la feria de artesanía", "ru": "ярмарка ремёсел" },
+      { "es": "la cerámica", "ru": "керамика" },
+      { "es": "el jardín botánico", "ru": "ботанический сад" },
+      { "es": "el mirador", "ru": "смотровая площадка" },
+      { "es": "la tienda", "ru": "магазин" },
+      { "es": "el sitio", "ru": "место" },
+      { "es": "el chocolate caliente", "ru": "горячий шоколад" },
+      { "es": "los regalos", "ru": "подарки" },
+      { "es": "los vecinos", "ru": "соседи" }
+    ],
+    "compras": [
+      { "es": "ir de tiendas", "ru": "ходить по магазинам" },
+      { "es": "los zapatos", "ru": "туфли" },
+      { "es": "la chaqueta de cuero", "ru": "кожаная куртка" },
+      { "es": "comprar", "ru": "покупать" }
+    ],
+    "hora_tiempo": [
+      { "es": "¿Qué hora es?", "ru": "Который час?" },
+      { "es": "Son las dos menos diez", "ru": "Без десяти два" },
+      { "es": "a las seis y media", "ru": "в полседьмого" },
+      { "es": "por la tarde", "ru": "вечером, после полудня" },
+      { "es": "hoy", "ru": "сегодня" },
+      { "es": "más tarde", "ru": "позже" },
+      { "es": "pasado mañana", "ru": "послезавтра" },
+      { "es": "otro día", "ru": "в другой раз" },
+      { "es": "el horario", "ru": "расписание" },
+      { "es": "el móvil", "ru": "мобильный телефон" },
+      { "es": "no nos da tiempo", "ru": "мы не успеваем" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Sofía", "es": "¿Estás bien, tía? Hace bastante viento, ¿no sientes frío?", "ru": "Ты в порядке, тётя? Довольно ветрено, тебе не холодно?" },
+    { "speaker": "Tía", "es": "Sí, tienes razón, está muy fresquito. Hoy no tenemos suerte con el tiempo: el cielo está cubierto y parece que va a nevar en la montaña.", "ru": "Да, ты права, очень прохладно. Сегодня нам не везёт с погодой: небо затянуто, и похоже, что в горах будет снег." },
+    { "speaker": "Sofía", "es": "Pues, por la tarde podemos ir a una feria de artesanía o a un jardín botánico.", "ru": "Тогда вечером мы можем сходить на ярмарку ремёсел или в ботанический сад." },
+    { "speaker": "Tía", "es": "Si conoces una feria buena de cerámica, vamos. No tengo ganas de caminar mucho por jardines.", "ru": "Если ты знаешь хорошую ярмарку керамики, пойдём. У меня нет желания много гулять по садам." },
+    { "speaker": "Sofía", "es": "Sí, conozco una pero no recuerdo el horario. Puede que cierre a las seis o a las seis y media.", "ru": "Да, знаю одну, но не помню расписание. Может быть, она закрывается в шесть или полседьмого." },
+    { "speaker": "Tía", "es": "¿Qué hora es ahora?", "ru": "Сколько сейчас времени?" },
+    { "speaker": "Sofía", "es": "Son las dos menos diez. Voy a mirar el horario en el móvil más tarde. Si está cerrada, podemos ir a un mirador y tomar un chocolate caliente. Conozco un sitio estupendo...", "ru": "Без десяти два. Я посмотрю расписание в телефоне попозже. Если она закрыта, мы можем пойти на смотровую площадку и выпить горячего шоколада. Я знаю отличное место..." },
+    { "speaker": "Tía", "es": "Sí, buena idea. Pasado mañana vamos de tiendas, quiero comprar zapatos y una chaqueta de cuero. Además, algunos regalos para los vecinos.", "ru": "Да, хорошая идея. Послезавтра пойдём по магазинам, я хочу купить туфли и кожаную куртку. А ещё несколько подарков для соседей." },
+    { "speaker": "Sofía", "es": "De acuerdo. Vaya, la feria hoy cierra a las cinco y media. No nos da tiempo de llegar. Pues, no queda otra que ir al mirador.", "ru": "Договорились. Так, ярмарка сегодня закрывается в половине шестого. Мы не успеем. Ну что ж, другого выхода нет — пойдём на смотровую площадку." },
+    { "speaker": "Tía", "es": "Bueno, a la feria podemos ir otro día.", "ru": "Ладно, на ярмарку сможем сходить в другой раз." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "la feria de artesanía", "ru": "ярмарка ремёсел" },
+        { "es": "la cerámica", "ru": "керамика" },
+        { "es": "el jardín botánico", "ru": "ботанический сад" },
+        { "es": "el mirador", "ru": "смотровая площадка" },
+        { "es": "el chocolate caliente", "ru": "горячий шоколад" },
+        { "es": "la chaqueta de cuero", "ru": "кожаная куртка" },
+        { "es": "los zapatos", "ru": "туфли" },
+        { "es": "los vecinos", "ru": "соседи" }
+      ]
+    },
+    {
+      "type": "fill-gap-tener_expresiones",
+      "title": "Практика: выражения с TENER",
+      "description": "Вставь правильную форму глагола tener",
+      "sentences": [
+        { "text": "Hoy no ___ suerte con el tiempo.", "ru": "Сегодня нам не везёт с погодой", "answer": "tenemos", "options": ["tenemos", "tienen", "tienes"] },
+        { "text": "Tú ___ razón, está muy fresquito.", "ru": "Ты прав, очень прохладно", "answer": "tienes", "options": ["tienes", "tiene", "tenemos"] },
+        { "text": "Yo no ___ ganas de caminar mucho.", "ru": "У меня нет желания много гулять", "answer": "tengo", "options": ["tengo", "tiene", "tienen"] },
+        { "text": "¿Vosotros ___ frío con este viento?", "ru": "Вам холодно при таком ветре?", "answer": "tenéis", "options": ["tenéis", "tenemos", "tienen"] },
+        { "text": "Mi hermana ___ tiempo el domingo.", "ru": "У моей сестры есть время в воскресенье", "answer": "tiene", "options": ["tiene", "tienen", "tengo"] }
+      ]
+    },
+    {
+      "type": "fill-gap-ir_a_futuro",
+      "title": "Практика: IR A + infinitivo",
+      "description": "Вставь правильную форму глагола ir",
+      "sentences": [
+        { "text": "Parece que ___ nevar en la montaña.", "ru": "Похоже, в горах будет снег", "answer": "va a", "options": ["va a", "voy a", "vamos a"] },
+        { "text": "Yo ___ mirar el horario en el móvil.", "ru": "Я посмотрю расписание в телефоне", "answer": "voy a", "options": ["voy a", "vas a", "va a"] },
+        { "text": "Pasado mañana nosotros ___ ir de tiendas.", "ru": "Послезавтра мы пойдём по магазинам", "answer": "vamos a", "options": ["vamos a", "vais a", "van a"] },
+        { "text": "¿Tú ___ tomar un chocolate caliente?", "ru": "Ты собираешься выпить горячего шоколада?", "answer": "vas a", "options": ["vas a", "va a", "voy a"] },
+        { "text": "Ellos ___ caminar por el jardín botánico.", "ru": "Они собираются гулять по ботаническому саду", "answer": "van a", "options": ["van a", "vamos a", "vais a"] }
+      ]
+    },
+    {
+      "type": "fill-gap-la_hora",
+      "title": "Практика: время",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Qué ___ es ahora?", "ru": "Который сейчас час?", "answer": "hora", "options": ["hora", "horas", "tiempo"] },
+        { "text": "Son las dos ___ diez.", "ru": "Без десяти два", "answer": "menos", "options": ["menos", "y", "media"] },
+        { "text": "La feria cierra a las seis y ___ .", "ru": "Ярмарка закрывается в полседьмого", "answer": "media", "options": ["media", "diez", "cuarto"] },
+        { "text": "La tienda abre a las diez en ___ .", "ru": "Магазин открывается ровно в десять", "answer": "punto", "options": ["punto", "punta", "hora"] },
+        { "text": "Es la una ___ la tarde.", "ru": "Час дня", "answer": "de", "options": ["de", "y", "menos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-si_condicional",
+      "title": "Практика: SI + presente",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "___ conoces una feria buena de cerámica, vamos.", "ru": "Если ты знаешь хорошую ярмарку керамики, пойдём", "answer": "Si", "options": ["Si", "Sí", "No"] },
+        { "text": "Si está ___ , podemos ir al mirador.", "ru": "Если она закрыта, можем пойти на смотровую площадку", "answer": "cerrada", "options": ["cerrada", "cerrado", "cerrar"] },
+        { "text": "Si hace buen ___ , vamos al parque.", "ru": "Если будет хорошая погода, пойдём в парк", "answer": "tiempo", "options": ["tiempo", "viento", "frío"] },
+        { "text": "Si ___ frío, tomamos un chocolate caliente.", "ru": "Если замёрзнем, выпьем горячего шоколада", "answer": "tenemos", "options": ["tenemos", "tienen", "tienes"] },
+        { "text": "Si la feria cierra pronto, ___ al lago.", "ru": "Если ярмарка скоро закроется, пойдём к озеру", "answer": "vamos", "options": ["vamos", "va", "van"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Hoy no ___ suerte con el tiempo.", "ru": "Сегодня нам не везёт с погодой", "answer": "tenemos", "options": ["tenemos", "hace", "hay"] },
+        { "text": "Tienes ___ , está muy fresquito.", "ru": "Ты прав, очень прохладно", "answer": "razón", "options": ["razón", "frío", "suerte"] },
+        { "text": "Parece que ___ a nevar en la montaña.", "ru": "Похоже, в горах будет снег", "answer": "va", "options": ["va", "voy", "vamos"] },
+        { "text": "¿Qué hora es? Son las dos ___ diez.", "ru": "Который час? Без десяти два", "answer": "menos", "options": ["menos", "y", "media"] },
+        { "text": "Si está cerrada, podemos ir al ___ .", "ru": "Если она закрыта, можем пойти на смотровую площадку", "answer": "mirador", "options": ["mirador", "lago", "jardín"] },
+        { "text": "Pasado mañana vamos de ___ .", "ru": "Послезавтра пойдём по магазинам", "answer": "tiendas", "options": ["tiendas", "regalos", "zapatos"] },
+        { "text": "A la feria podemos ir otro ___ .", "ru": "На ярмарку сможем сходить в другой раз", "answer": "día", "options": ["día", "hora", "tiempo"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Софией",
+      "role": "Sofía",
+      "description": "Отвечай на реплики тёти своим голосом"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь тётей",
+      "role": "Tía",
+      "description": "Теперь ты тётя — отвечай Софии"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Договорись с собеседником, куда пойти в выходные. Спроси время и предложи план.",
+      "template": [
+        { "label": "Который час?", "es": "¿Qué ___ es?" },
+        { "label": "Если завтра", "es": "Si mañana ___ , ___" },
+        { "label": "Я собираюсь", "es": "Voy a ___" },
+        { "label": "Мне не хочется", "es": "No tengo ganas de ___" },
+        { "label": "Мы не успеваем", "es": "No nos da ___ de ___" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Qué tiempo hace hoy?",
+          "ru": "Какая сегодня погода?",
+          "options": ["Hace bastante viento y está fresquito", "Hace calor y sol", "Llueve toda la tarde", "Nieva en la ciudad"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué parece que va a hacer en la montaña?",
+          "ru": "Что, похоже, будет в горах?",
+          "options": ["Nevar", "Llover", "Hacer calor", "Granizar"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué propone Sofía por la tarde?",
+          "ru": "Что предлагает София вечером?",
+          "options": ["Ir a una feria de artesanía o a un jardín botánico", "Ir al cine", "Ir a una tienda de zapatos", "Ir de compras"],
+          "answer": 0
+        },
+        {
+          "question": "¿Por qué no quiere la tía caminar por jardines?",
+          "ru": "Почему тётя не хочет гулять по садам?",
+          "options": ["Hace demasiado calor", "No tiene ganas de caminar mucho", "Está cansada", "Llueve"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué hora es?",
+          "ru": "Который час?",
+          "options": ["Son las dos menos diez", "Son las doce y media", "Es la una", "Son las seis y media"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué quiere comprar la tía pasado mañana?",
+          "ru": "Что тётя хочет купить послезавтра?",
+          "options": ["Zapatos y una chaqueta de cuero", "Unos guantes", "Un regalo", "Un abrigo"],
+          "answer": 0
+        },
+        {
+          "question": "¿A qué hora cierra la feria hoy?",
+          "ru": "Во сколько сегодня закрывается ярмарка?",
+          "options": ["A las seis", "A las cinco y media", "A las seis y media", "A las siete"],
+          "answer": 1
+        },
+        {
+          "question": "¿Dónde van al final Sofía y su tía?",
+          "ru": "Куда в итоге идут София и её тётя?",
+          "options": ["Al mirador", "A la feria", "Al jardín botánico", "A las tiendas"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить новые слова (погода, места, покупки, время) в приложении",
+    "Практика: Расскажи партнёру (italki/Tandem), договоритесь о плане на выходные: Si ..., vamos a ..., ¿qué hora es?, no tengo ganas de ...",
+    "Дневник: Напиши, какой сегодня день и что ты собираешься делать вечером (Voy a ..., va a ...)",
+    "Грамматика: Составь 3 предложения с tener (razón, frío, suerte) и 3 условных предложения с si + presente"
+  ]
+}

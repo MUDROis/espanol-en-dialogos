@@ -1,0 +1,317 @@
+{
+  "id": 37,
+  "title": "Carlos cuenta su viaje a Laura",
+  "titleRu": "Карлос рассказывает о своём путешествии Лауре",
+  "part": 4,
+  "level": "B1",
+  "theme": "Путешествие, впечатления, Марракеш  El viaje, las impresiones, Marrakech",
+  "characters": ["carlos", "laura"],
+  "objectives": [
+    "Рассказывать о недавней поездке: hemos vuelto, hemos visitado, nos ha gustado mucho",
+    "Выражать впечатления: me ha impresionado, me han parecido, a mi ver",
+    "Говорить о желании: me muero de ganas de verlas, tener ganas de + infinitivo",
+    "Описывать погоду: hace buen tiempo, hace mucho calor, en primavera hace bastante bueno",
+    "Использовать fututo simple для обещаний: ¿Me las enseñarás? Mañana te las enseño",
+    "Понимать слова о городе и архитектуре: la medina, la mezquita, el laberinto, la arquitectura"
+  ],
+  "grammar": {
+    "pret_perfecto": {
+      "title": "Pretérito Perfecto: рассказ о поездке",
+      "description": "HABER в настоящем + participio для недавних событий и впечатлений: hemos vuelto este jueves (мы вернулись в этот четверг), hemos visitado muchos lugares de interés (мы посетили много достопримечательностей), Marrakech nos ha gustado mucho (Марракеш нам очень понравился), no nos hemos visto desde tu cumpleaños (мы не виделись с твоего дня рождения).",
+      "forms": {
+        "yo": { "es": "he oído que habéis viajado", "ru": "я слышал, что вы путешествовали" },
+        "tu": { "es": "has vuelto de Marruecos", "ru": "ты вернулся из Марокко" },
+        "el_ella": { "es": "ha visto la exposición de arte", "ru": "он/она видел выставку искусства" },
+        "nosotros": { "es": "hemos visitado muchos lugares", "ru": "мы посетили много мест" },
+        "vosotros": { "es": "habéis hecho un montón de fotos", "ru": "вы сделали кучу фотографий" },
+        "ellos_ellas": { "es": "se han perdido en la medina", "ru": "они потерялись в медине" }
+      },
+      "examples": [
+        { "es": "Sí, hemos vuelto este jueves.", "ru": "Да, мы вернулись в этот четверг." },
+        { "es": "Marrakech nos ha gustado mucho.", "ru": "Марракеш нам очень понравился." }
+      ]
+    },
+    "ganas_de": {
+      "title": "TENER GANAS DE / MORIRSE DE GANAS: хотеть, умирать от желания",
+      "description": "TENER GANAS DE + infinitivo — «хотеть, иметь желание»: tengo ganas de verlas (мне хочется их посмотреть). Усиление — MORIRSE DE GANAS DE: Me muero de ganas de verlas (Умираю от желания их посмотреть).",
+      "forms": {
+        "yo": { "es": "me muero de ganas de verlas", "ru": "я умираю от желания их посмотреть" },
+        "tu": { "es": "tienes ganas de viajar", "ru": "тебе хочется путешествовать" },
+        "el_ella": { "es": "se muere de ganas de ver las fotos", "ru": "он/она умирает от желания увидеть фото" },
+        "nosotros": { "es": "tenemos ganas de pasear", "ru": "нам хочется погулять" },
+        "vosotros": { "es": "tenéis ganas de conocer Marrakech", "ru": "вам хочется узнать Марракеш" },
+        "ellos_ellas": { "es": "tienen ganas de volver", "ru": "им хочется вернуться" }
+      },
+      "examples": [
+        { "es": "Me muero de ganas de verlas.", "ru": "Умираю от желания их посмотреть." },
+        { "es": "Tengo muchas ganas de viajar a Marruecos otra vez.", "ru": "Мне очень хочется поехать в Марокко ещё раз." }
+      ]
+    },
+    "impresiones": {
+      "title": "Впечатления: ME HA IMPRESIONADO, ME HA PARECIDO, A MI VER",
+      "description": "О впечатлениях: me ha impresionado la mezquita (меня впечатлила мечеть), me han parecido muy amables (они показались мне очень приветливыми), a mi ver, son bastante simpáticos (на мой взгляд, они вполне симпатичные), ¡qué te ha parecido la gente! (как тебе показались люди!).",
+      "list": [
+        { "es": "a mi ver, es todo un laberinto", "ru": "на мой взгляд, это настоящий лабиринт" },
+        { "es": "me ha impresionado la mezquita", "ru": "меня впечатлила мечеть" },
+        { "es": "me han parecido muy amables", "ru": "они показались мне очень приветливыми" },
+        { "es": "¿qué te ha parecido la gente?", "ru": "как тебе показались люди?" },
+        { "es": "las calles las anuncian en francés", "ru": "названия улиц объявляют на французском" },
+        { "es": "la arquitectura es impresionante", "ru": "архитектура впечатляющая" }
+      ],
+      "examples": [
+        { "es": "Me ha impresionado la plaza Jemaa el-Fna y la mezquita Koutoubia.", "ru": "Меня впечатлила площадь Джемаа эль-Фна и мечеть Кутубия." },
+        { "es": "A mi ver, los marroquíes son muy amables.", "ru": "На мой взгляд, марокканцы очень приветливые." }
+      ]
+    },
+    "futuro_simple": {
+      "title": "Futuro Simple: обещания и планы",
+      "description": "Будущее время для обещаний и планов: ¿Me las enseñarás? (Ты мне их покажешь?), Mañana te enseño... — с будущим: te las enseñaré (я тебе их покажу), visitaremos la medina mañana (мы посетим медину завтра).",
+      "forms": {
+        "yo": { "es": "te las enseñaré mañana", "ru": "я тебе их покажу завтра" },
+        "tu": { "es": "las verás hoy en mi casa", "ru": "ты увидишь их сегодня у меня дома" },
+        "el_ella": { "es": "enseñará las fotos a Laura", "ru": "он/она покажет фото Лауре" },
+        "nosotros": { "es": "visitaremos la medina mañana", "ru": "мы посетим медину завтра" },
+        "vosotros": { "es": "pasaréis por mi casa", "ru": "вы зайдёте ко мне домой" },
+        "ellos_ellas": { "es": "verán las fotos en mi ordenador", "ru": "они увидят фото на моём компьютере" }
+      },
+      "examples": [
+        { "es": "¿Me las enseñarás? Me muero de ganas de verlas.", "ru": "Ты мне их покажешь? Умираю от желания их посмотреть." },
+        { "es": "Claro, las tengo en mi ordenador.", "ru": "Конечно, они у меня на компьютере." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "el_viaje_y_la_ciudad": [
+      { "es": "viajar", "ru": "путешествовать" },
+      { "es": "las fotos", "ru": "фотографии" },
+      { "es": "los lugares de interés", "ru": "достопримечательности" },
+      { "es": "el desierto", "ru": "пустыня" },
+      { "es": "el camello", "ru": "верблюд" },
+      { "es": "el jardín", "ru": "сад" },
+      { "es": "la primavera", "ru": "весна" },
+      { "es": "el tiempo", "ru": "погода, время" },
+      { "es": "el calor", "ru": "жара" },
+      { "es": "la gente", "ru": "люди" }
+    ],
+    "marruecos": [
+      { "es": "Marruecos", "ru": "Марокко" },
+      { "es": "Marrakech", "ru": "Марракеш" },
+      { "es": "la medina", "ru": "медина (старый город)" },
+      { "es": "la mezquita", "ru": "мечеть" },
+      { "es": "la plaza", "ru": "площадь" },
+      { "es": "el museo", "ru": "музей" },
+      { "es": "la exposición", "ru": "выставка" },
+      { "es": "el laberinto", "ru": "лабиринт" },
+      { "es": "la arquitectura", "ru": "архитектура" },
+      { "es": "el cartel", "ru": "вывеска, указатель" },
+      { "es": "el árabe", "ru": "арабский язык" },
+      { "es": "el francés", "ru": "французский язык" },
+      { "es": "los marroquíes", "ru": "марокканцы" }
+    ],
+    "verbos": [
+      { "es": "viajar", "ru": "путешествовать" },
+      { "es": "visitar", "ru": "посещать" },
+      { "es": "impresionar", "ru": "впечатлять" },
+      { "es": "parecer(se)", "ru": "казаться, показаться" },
+      { "es": "perderse", "ru": "теряться" },
+      { "es": "enseñar", "ru": "показывать" },
+      { "es": "pasear", "ru": "гулять" },
+      { "es": "andar", "ru": "ходить, идти пешком" },
+      { "es": "oír", "ru": "слышать" },
+      { "es": "volver", "ru": "возвращаться" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Laura", "es": "¡Hola, Carlos! ¡Cuánto tiempo! Me alegro tanto de verte.", "ru": "Привет, Карлос! Сколько времени! Я так рада тебя видеть." },
+    { "speaker": "Carlos", "es": "¡Hola, hola! Sí, no nos hemos visto desde tu cumpleaños. ¿Cómo andas?", "ru": "Привет, привет! Да, мы не виделись с твоего дня рождения. Как поживаешь?" },
+    { "speaker": "Laura", "es": "Todo bien, gracias. He oído que tú y Luis habéis viajado a Marruecos, ¿verdad?", "ru": "Всё хорошо, спасибо. Я слышала, что ты и Луис ездили в Марокко, правда?" },
+    { "speaker": "Carlos", "es": "Sí, hemos vuelto este jueves.", "ru": "Да, мы вернулись в этот четверг." },
+    { "speaker": "Laura", "es": "¿Qué tal lo habéis pasado?", "ru": "Как прошла поездка?" },
+    { "speaker": "Carlos", "es": "Oh, muy bien. Marrakech nos ha gustado mucho. Hemos visitado muchos lugares de interés. Me ha impresionado la plaza Jemaa el-Fna y la mezquita Koutoubia.", "ru": "О, очень хорошо. Марракеш нам очень понравился. Мы посетили много достопримечательностей. Меня впечатлила площадь Джемаа эль-Фна и мечеть Кутубия." },
+    { "speaker": "Laura", "es": "Me lo imagino... ¿Ha hecho buen tiempo?", "ru": "Представляю себе... Была хорошая погода?" },
+    { "speaker": "Carlos", "es": "Sí. Muchos dicen que en Marruecos hace mucho calor, pero en primavera hace bastante bueno. Por lo menos, en la ciudad.", "ru": "Да. Многие говорят, что в Марокко очень жарко, но весной довольно хорошо. По крайней мере, в городе." },
+    { "speaker": "Laura", "es": "¿Habéis visitado algunos museos?", "ru": "Вы ходили по каким-нибудь музеям?" },
+    { "speaker": "Carlos", "es": "Solo hemos tenido tiempo para ver la exposición de arte en el Museo de Marrakech. Además, hemos dado un paseo en camello por el desierto de Agafay y hemos visitado un par de jardines muy hermosos.", "ru": "У нас было только время посмотреть выставку искусства в Музее Марракеша. Кроме того, мы прокатились на верблюдах по пустыне Агафай и посетили пару красивых садов." },
+    { "speaker": "Laura", "es": "¿Qué te ha parecido la gente? He oído que los marroquíes son muy amables...", "ru": "Как тебе показались люди? Я слышала, что марокканцы очень любезные..." },
+    { "speaker": "Carlos", "es": "A mi ver, son muy amables. No hemos tenido ningún problema con los marroquíes, me han parecido bastante simpáticos.", "ru": "На мой взгляд, очень любезные. У нас не было ни одной проблемы с марокканцами, они мне показались достаточно приятными." },
+    { "speaker": "Laura", "es": "¿No os habéis perdido en la medina?", "ru": "Вы не потерялись в медине?" },
+    { "speaker": "Carlos", "es": "Un par de veces, sí. Es que casi toda la información en los carteles está en árabe. Pero las calles sí las anuncian en francés también. Sabes, la medina es todo un laberinto. Hemos hecho un montón de fotos, porque muchas casas tienen una arquitectura impresionante.", "ru": "Пару раз, да. Дело в том, что почти вся информация на вывесках на арабском. Но названия улиц объявляют также на французском. Знаешь, медина — это настоящий лабиринт. Мы сделали кучу фотографий, потому что у многих домов впечатляющая архитектура." },
+    { "speaker": "Laura", "es": "¿Me las enseñarás? Me muero de ganas de verlas.", "ru": "Покажешь мне их? Умираю от желания посмотреть их." },
+    { "speaker": "Carlos", "es": "Claro, las tengo en mi ordenador. ¿Quieres pasar a mi casa? Diez minutos andando.", "ru": "Конечно, они у меня на компьютере. Пройдёшь ко мне? Десять минут пешком." },
+    { "speaker": "Laura", "es": "Sí, vamos.", "ru": "Да, пошли." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "viajar", "ru": "путешествовать" },
+        { "es": "las fotos", "ru": "фотографии" },
+        { "es": "los lugares de interés", "ru": "достопримечательности" },
+        { "es": "el desierto", "ru": "пустыня" },
+        { "es": "el camello", "ru": "верблюд" },
+        { "es": "el jardín", "ru": "сад" },
+        { "es": "la primavera", "ru": "весна" },
+        { "es": "el tiempo", "ru": "погода, время" },
+        { "es": "el calor", "ru": "жара" },
+        { "es": "la gente", "ru": "люди" }
+      ]
+    },
+    {
+      "type": "fill-gap-pret_perfecto",
+      "title": "Практика: Pretérito Perfecto",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Sí, hemos ___ este jueves.", "ru": "Да, мы вернулись в этот четверг", "answer": "vuelto", "options": ["vuelto", "vuelta", "ver"] },
+        { "text": "Marrakech nos ha ___ mucho.", "ru": "Марракеш нам очень понравился", "answer": "gustado", "options": ["gustado", "gustada", "gustar"] },
+        { "text": "Me ha ___ la plaza Jemaa el-Fna.", "ru": "Меня впечатлила площадь Джемаа эль-Фна", "answer": "impresionado", "options": ["impresionado", "impresionada", "impresionar"] },
+        { "text": "Hemos ___ un paseo en camello por el desierto.", "ru": "Мы прокатились на верблюдах по пустыне", "answer": "dado", "options": ["dado", "dada", "dar"] },
+        { "text": "No nos hemos ___ desde tu cumpleaños.", "ru": "Мы не виделись с твоего дня рождения", "answer": "visto", "options": ["visto", "vista", "ver"] }
+      ]
+    },
+    {
+      "type": "fill-gap-ganas_de",
+      "title": "Практика: TENER GANAS DE, MORIRSE DE GANAS",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Me muero de ___ de verlas.", "ru": "Умираю от желания их посмотреть", "answer": "ganas", "options": ["ganas", "gana", "deseos"] },
+        { "text": "Tengo ___ de viajar a Marruecos otra vez.", "ru": "Мне очень хочется поехать в Марокко ещё раз", "answer": "ganas", "options": ["ganas", "gana", "miedo"] },
+        { "text": "¿Tienes ___ de ver las fotos?", "ru": "Тебе хочется посмотреть фотографии?", "answer": "ganas", "options": ["ganas", "gana", "ganan"] },
+        { "text": "No tenemos ___ de ir a la medina hoy.", "ru": "Нам сегодня не хочется идти в медину", "answer": "ganas", "options": ["ganas", "gana", "hora"] },
+        { "text": "Laura se muere de ganas de ___ las fotos.", "ru": "Лаура умирает от желания увидеть фотографии", "answer": "ver", "options": ["ver", "verlas", "viendo"] }
+      ]
+    },
+    {
+      "type": "fill-gap-impresiones",
+      "title": "Практика: Впечатления",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Qué te ha ___ la gente local?", "ru": "Как тебе показались местные люди?", "answer": "parecido", "options": ["parecido", "parecida", "parecer"] },
+        { "text": "Me han ___ bastante simpáticos.", "ru": "Они показались мне достаточно приятными", "answer": "parecido", "options": ["parecido", "parecidos", "parece"] },
+        { "text": "A mi ___, son muy amables.", "ru": "На мой взгляд, они очень приветливые", "answer": "ver", "options": ["ver", "parecer", "gustar"] },
+        { "text": "Me ha ___ la arquitectura de las casas.", "ru": "Меня впечатлила архитектура домов", "answer": "impresionado", "options": ["impresionado", "impresionada", "impresionar"] },
+        { "text": "La medina es todo un ___.", "ru": "Медина — это настоящий лабиринт", "answer": "laberinto", "options": ["laberinto", "museo", "jardín"] }
+      ]
+    },
+    {
+      "type": "fill-gap-futuro_simple",
+      "title": "Практика: Futuro Simple",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Me las ___?", "ru": "Ты мне их покажешь?", "answer": "enseñarás", "options": ["enseñarás", "enseñas", "enseñaste"] },
+        { "text": "Mañana te ___ las fotos de Marruecos.", "ru": "Завтра я покажу тебе фотографии из Марокко", "answer": "enseñaré", "options": ["enseñaré", "enseño", "enseñaba"] },
+        { "text": "___ la exposición del Museo de Marrakech.", "ru": "Мы посетим выставку Музея Марракеша", "answer": "Visitaremos", "options": ["Visitaremos", "Visitamos", "Visitábamos"] },
+        { "text": "¿Cuándo ___ a casa, Laura?", "ru": "Когда ты придёшь домой, Лаура?", "answer": "vendrás", "options": ["vendrás", "vienes", "viniste"] },
+        { "text": "El sábado ___ otra vez a la medina.", "ru": "В субботу мы снова пойдём в медину", "answer": "iremos", "options": ["iremos", "vamos", "íbamos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Marrakech nos ha ___ mucho.", "ru": "Марракеш нам очень понравился", "answer": "gustado", "options": ["gustado", "gustada", "gustar"] },
+        { "text": "Me muero de ___ de verlas.", "ru": "Умираю от желания их посмотреть", "answer": "ganas", "options": ["ganas", "gana", "deseos"] },
+        { "text": "¿Qué te ha ___ la gente?", "ru": "Как тебе показались люди?", "answer": "parecido", "options": ["parecido", "parecida", "parecer"] },
+        { "text": "La medina es todo un ___.", "ru": "Медина — это настоящий лабиринт", "answer": "laberinto", "options": ["laberinto", "museo", "jardín"] },
+        { "text": "¿Me las ___?", "ru": "Ты мне их покажешь?", "answer": "enseñarás", "options": ["enseñarás", "enseñas", "enseñaste"] },
+        { "text": "Hemos ___ un paseo en camello.", "ru": "Мы прокатились на верблюдах", "answer": "dado", "options": ["dado", "dada", "dar"] },
+        { "text": "Sí, hemos ___ este jueves.", "ru": "Да, мы вернулись в этот четверг", "answer": "vuelto", "options": ["vuelto", "vuelta", "ver"] },
+        { "text": "A mi ___, son muy amables.", "ru": "На мой взгляд, они очень приветливые", "answer": "ver", "options": ["ver", "parecer", "gustar"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Ты — Карлос, рассказываешь Лауре о поездке в Марокко и о своих впечатлениях"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лаурой",
+      "role": "Laura",
+      "description": "Ты — Лаура, расспрашиваешь Карлоса о поездке, погоде и людях"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи другу о своей последней поездке и впечатлениях",
+      "template": [
+        { "label": "Мы вернулись в этот четверг", "es": "Hemos ___ este jueves" },
+        { "label": "Марракеш нам очень понравился", "es": "Marrakech nos ha ___ mucho" },
+        { "label": "Умираю от желания их посмотреть", "es": "Me muero de ___ de verlas" },
+        { "label": "Как тебе показалась площадь?", "es": "¿Qué te ha ___ la plaza?" },
+        { "label": "Покажешь мне их?", "es": "¿Me las ___?" },
+        { "label": "Мы прокатились на верблюдах", "es": "Hemos ___ un paseo en camello" },
+        { "label": "На мой взгляд…", "es": "A mi ___..." }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Cuándo se habían visto por última vez Carlos y Laura?",
+          "ru": "Когда Карлос и Лаура виделись в последний раз?",
+          "options": ["Desde el cumpleaños de Laura", "Desde el año pasado", "Desde la escuela", "Desde Navidad"],
+          "answer": 0
+        },
+        {
+          "question": "¿A dónde viajaron Carlos y Luis?",
+          "ru": "Куда ездили Карлос и Луис?",
+          "options": ["A Francia", "A Marruecos", "A Italia", "A Portugal"],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuándo han vuelto de Marruecos?",
+          "ru": "Когда они вернулись из Марокко?",
+          "options": ["Este viernes", "Hace dos semanas", "Este jueves", "El lunes"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué ha impresionado a Carlos en Marrakech?",
+          "ru": "Что впечатлило Карлоса в Марракеше?",
+          "options": ["La plaza Jemaa el-Fna y la mezquita Koutoubia", "El museo y el parque", "Los restaurantes y los cafés", "Las playas y los puertos"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué tiempo hace en Marruecos en primavera?",
+          "ru": "Какая погода в Марокко весной?",
+          "options": ["Hace mucho calor en toda la ciudad", "Hace frío siempre", "Llueve todo el día", "Bastante bueno, por lo menos, en la ciudad"],
+          "answer": 3
+        },
+        {
+          "question": "¿Qué han hecho Carlos y Luis en el desierto de Agafay?",
+          "ru": "Что делали Карлос и Луис в пустыне Агафай?",
+          "options": ["Un paseo en coche", "Una excursión a pie", "Un paseo en camello", "Una carrera de caballos"],
+          "answer": 2
+        },
+        {
+          "question": "¿Por qué se perdieron en la medina?",
+          "ru": "Почему они заблудились в медине?",
+          "options": ["Porque no había carteles", "Porque llegaron de noche", "Porque no preguntaron", "Porque casi toda la información está en árabe y es todo un laberinto"],
+          "answer": 3
+        },
+        {
+          "question": "¿Qué quiere ver Laura?",
+          "ru": "Что хочет посмотреть Лаура?",
+          "options": ["Los recuerdos", "Los documentos", "Los billetes", "Las fotos"],
+          "answer": 3
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 минут: повтори слова по теме «путешествие, город, впечатления»",
+    "Практика: расскажи другу о своей последней поездке. Используй: hemos visitado..., me ha impresionado..., me muero de ganas de..., a mi ver...",
+    "Дневник: опиши город, который тебя впечатлил (достопримечательности, архитектура, погода)",
+    "Грамматика: составь 3 предложения с pretérito perfecto, 3 с tener ganas de + infinitivo, 3 с me ha parecido / me ha impresionado"
+  ]
+}

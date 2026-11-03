@@ -1,0 +1,362 @@
+{
+  "id": 56,
+  "title": "El grupo en la playa",
+  "titleRu": "Компания на пляже",
+  "part": 6,
+  "level": "C1",
+  "theme": "Пляж, отдых, мороженое  La playa, el descanso, el helado",
+  "characters": ["diego", "javier", "carmen", "ana", "tomas", "elena", "belen", "rafael", "marta", "alejandro", "miguel"],
+  "objectives": [
+    "Рассказывать о плане на пляже: primero vamos a..., ¿qué vamos a hacer después?, luego, al final",
+    "Просить и заказывать: quiero un helado de chocolate, prefiero uno de fresa, ¿quién quiere uno?",
+    "Просить осторожности и успокаивать: ten cuidado, no te alejes mucho, no te preocupes",
+    "Давать советы и обещать безопасность: soy un buen nadador, el agua está muy buena",
+    "Предлагать игры и планы: podemos jugar a las palas, tengo un par de palas, ¡buena idea!",
+    "Прощаться и желать приятного времени: ¡que os divirtáis!, nos vemos luego, vale"
+  ],
+  "grammar": {
+    "imperativo_tuteo": {
+      "title": "Imperativo afirmativo y negativo (tú / usted / ustedes)",
+      "description": "Повелительное наклонение: afirmativo — ten cuidado (будь осторожен), mira (посмотри); отрицательный образуется через no: no te preocupes (не беспокойся), no te alejes mucho (не заплывай далеко). Во множественном числе — vos вместо tú (¡no os mojéis!, ¡que os divirtáis!) и vosaltres вме de ustedes. Глаголы с местоимением получают ударение на окончании: buscar → búscate.",
+      "forms": {
+        "tu_afirmativo": { "es": "ten cuidado, mira el agua", "ru": "будь осторожен, посмотри на воду" },
+        "tu_negativo": { "es": "no te preocupes, no te alejes", "ru": "не беспокойся, не отплывай далеко" },
+        "el_ella_afirmativo": { "es": "pase el helado, venga aquí", "ru": "передайте мороженое, подойдите сюда" },
+        "el_ella_negativo": { "es": "no se preocupe, no se aleje", "ru": "не беспокойтесь, не отплывайте далеко" },
+        "nosotros_afirmativo": { "es": "nadamos, comamos el helado", "ru": "давайте плавать, давайте съедим мороженое" },
+        "nosotros_negativo": { "es": "no naduemos hoy, no comamos", "ru": "давайте не будем плавать сегодня, давайте не будем есть" },
+        "vosotros_afirmativo": { "es": "venid a la orilla, tomad el helado", "ru": "подходите к берегу, берите мороженое" },
+        "vosotros_negativo": { "es": "¡no os alejéis!, ¡no os mojéis!", "ru": "не отплывайте далеко!, не мочитесь!" }
+      },
+      "examples": [
+        { "es": "Sí, pero ten cuidado, no te alejes mucho.", "ru": "Да, но будь осторожен, не заплывай далеко." },
+        { "es": "No te preocupes, soy un buen nadador.", "ru": "Не беспокойся, я хорошо плаваю." }
+      ]
+    },
+    "tener_para_posesion_y_cuidado": {
+      "title": "TENER: possession, ten cuidado, un par de",
+      "description": "TENER в 1-м лице мн. числа совпадает с tener нашей формы: tenemos (у нас есть). TENER + существительное: tengo cuidado (я осторожен), tengo un par de palas (у меня есть пара ракеток), tengo hambre / sed (я голоден / хочу пить). Перед словом с числительным — un par de, un kilo de.",
+      "forms": {
+        "yo": { "es": "tengo un par de palas", "ru": "у меня есть пара ракеток" },
+        "tu": { "es": "¿tienes toalla?", "ru": "у тебя есть полотенце?" },
+        "el_ella": { "es": "tiene cuidado con las sombrillas", "ru": "он/она осторожен(на) с зонтиками" },
+        "nosotros": { "es": "tenemos sombrillas y toallas", "ru": "у нас есть зонтики и полотенца" },
+        "vosotros": { "es": "tenéis una crema solar", "ru": "у вас есть крем от солнца" },
+        "ellos_ellas": { "es": "tienen mucha sed", "ru": "у них сильная жажда" }
+      },
+      "examples": [
+        { "es": "Yo tengo un par de palas. Yo también tengo.", "ru": "У меня есть пара ракеток. У меня тоже есть." },
+        { "es": "Pero ten cuidado con el agua.", "ru": "Но будь осторожен с водой." }
+      ]
+    },
+    "querer_preferir_encargar": {
+      "title": "Querer, preferir y pedir en un puesto",
+      "description": "Querer (хотеть) и preferir (предпочитать) + существительное. В испанском не различают он/она, поэтому вместо uno/un/una можно сказать «(quiero) uno de chocolate» — то есть любой из вкусов. Perfumar: yo quiero un helado de limón — yo quiero uno de limón. Ответ на предложение: yo prefiero uno de fresa (я предпочитаю клубничное).",
+      "list": [
+        { "es": "Yo quiero uno de chocolate", "ru": "я хочу шоколадное" },
+        { "es": "Yo prefiero uno de fresa", "ru": "я предпочитаю клубничное" },
+        { "es": "Yo también quiero uno de limón", "ru": "я тоже хочу лимонное" },
+        { "es": "Pues yo quiero uno de vainilla", "ru": "ну а я хочу ванильное" },
+        { "es": "¿Quién quiere uno?", "ru": "кто хочет мороженое?" },
+        { "es": "me apetece uno de chocolate", "ru": "мне хочется шоколадное" }
+      ],
+      "examples": [
+        { "es": "¡Mirad! Hay un puesto de helados. ¿Quién quiere uno?", "ru": "Смотрите! Там киоск с мороженым. Кто хочет мороженое?" },
+        { "es": "Yo prefiero uno de fresa.", "ru": "Я предпочитаю клубничное." }
+      ]
+    },
+    "estar_valoracion_y_hay": {
+      "title": "Estar + adjetivo: оценка; hay: на пляже есть",
+      "description": "Estar + хорошо/плохо = оценка, субъективная характеристика: el agua está muy buena (вода очень хорошая), la playa está muy bien (пляж очень хорош), el helado está delicioso (мороженное великолепное). Hay (есть) сообщает, что на месте: hay un puesto de helados (есть киоск с мороженым), ¿hay duchas? (есть ли душевые?).",
+      "list": [
+        { "es": "El agua está muy buena", "ru": "вода очень хорошая" },
+        { "es": "La playa está muy bien", "ru": "пляж очень хорош" },
+        { "es": "El helado está delicioso", "ru": "мороженное великолепное" },
+        { "es": "Hay un puesto de helados", "ru": "есть киоск с мороженым" },
+        { "es": "¿Hay duchas en la playa?", "ru": "есть ли на пляже душевые?" },
+        { "es": "Hay mucha gente en la orilla", "ru": "на берегу много людей" }
+      ],
+      "examples": [
+        { "es": "¡Qué bien! Me encanta la playa. El agua está muy buena.", "ru": "Как здорово! Мне очень нравится пляж. Вода очень хорошая." },
+        { "es": "¡Mirad! Hay un puesto de helados.", "ru": "Смотрите! Там есть киоск с мороженым." }
+      ]
+    },
+    "orden_y_momento": {
+      "title": "Primero, después, luego: порядок планов",
+      "description": "Маркеры последовательности: primero (сначала), después (потом), luego (потом, позже), al final (в конце), ya (уже). Сначала согласуемся (primero vamos a...), потом действуем (después vamos a...). ¡Buena idea! — хорошая идея; vale — ладно, договорились; nos vemos luego — увидимся позже.",
+      "list": [
+        { "es": "primero vamos a poner las sombrillas", "ru": "сначала поставим зонтики" },
+        { "es": "después vamos a nadar", "ru": "потом пойдём плавать" },
+        { "es": "¿qué vamos a hacer después?", "ru": "что мы будем делать потом?" },
+        { "es": "Nos vemos luego", "ru": "увидимся позже" },
+        { "es": "Ya estamos en la playa", "ru": "мы уже на пляже" },
+        { "es": "¡Buena idea! / ¡Que os divirtáis!", "ru": "хорошая идея! / хорошо вам повеселиться!" }
+      ],
+      "examples": [
+        { "es": "No, primero vamos a poner las sombrillas y las toallas.", "ru": "Нет, сначала поставим зонтики и полотенца." },
+        { "es": "Bueno, ¿y qué vamos a hacer después?", "ru": "Ну, а что мы будем делать потом?" }
+      ]
+    }
+  },
+  "vocabulary": {
+    "la_playa": [
+      { "es": "la playa", "ru": "пляж" },
+      { "es": "el agua", "ru": "вода" },
+      { "es": "nadar", "ru": "плавать" },
+      { "es": "el nadador", "ru": "пловец" },
+      { "es": "la sombrilla", "ru": "зонтик от солнца" },
+      { "es": "la toalla", "ru": "полотенце" },
+      { "es": "la orilla", "ru": "берег, кромка воды" },
+      { "es": "dar un paseo", "ru": "гулять, прогуливаться" },
+      { "es": "el puesto", "ru": "киоск, ларёк" },
+      { "es": "la crema solar", "ru": "крем от солнца" }
+    ],
+    "el_helado": [
+      { "es": "el helado", "ru": "мороженое" },
+      { "es": "el puesto de helados", "ru": "киоск с мороженым" },
+      { "es": "de chocolate", "ru": "шоколадное" },
+      { "es": "de fresa", "ru": "клубничное" },
+      { "es": "de limón", "ru": "лимонное" },
+      { "es": "de vainilla", "ru": "ванильное" },
+      { "es": "rico/a", "ru": "вкусный" },
+      { "es": "preferir", "ru": "предпочитать" }
+    ],
+    "los_juegos_y_el_tiempo": [
+      { "es": "las palas", "ru": "ракетки (для пляжного тенниса)" },
+      { "es": "un par de palas", "ru": "пара ракеток" },
+      { "es": "jugar a las palas", "ru": "играть в ракетки" },
+      { "es": "el juego", "ru": "игра" },
+      { "es": "primero", "ru": "сначала" },
+      { "es": "después", "ru": "потом" },
+      { "es": "luego", "ru": "потом, позже" },
+      { "es": "una buena idea", "ru": "хорошая идея" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Diego", "es": "¡Hola! Ya estamos en la playa. Vamos a nadar.", "ru": "Привет! Мы уже на пляже. Давайте плавать." },
+    { "speaker": "Javier", "es": "No, primero vamos a poner las sombrillas y las toallas.", "ru": "Нет, сначала давайте поставим зонтики и постелим полотенца." },
+    { "speaker": "Diego", "es": "¡Qué bien! Me encanta la playa. El agua está muy buena.", "ru": "Как здорово! Мне очень нравится пляж. Вода очень хорошая." },
+    { "speaker": "Javier", "es": "Sí, pero ten cuidado, no te alejes mucho.", "ru": "Да, но будь осторожен, не заплывай далеко." },
+    { "speaker": "Diego", "es": "No te preocupes. Soy un buen nadador.", "ru": "Не беспокойся. Я хорошо плаваю." },
+    { "speaker": "Carmen", "es": "¡Mirad! Hay un puesto de helados. ¿Quién quiere uno?", "ru": "Смотрите! Там киоск с мороженым. Кто хочет мороженое?" },
+    { "speaker": "Ana", "es": "Yo quiero uno de chocolate.", "ru": "Я хочу шоколадное." },
+    { "speaker": "Tomás", "es": "Yo prefiero uno de fresa.", "ru": "А я предпочитаю клубничное." },
+    { "speaker": "Elena", "es": "Yo quiero uno de limón.", "ru": "Я хочу лимонное." },
+    { "speaker": "Belén", "es": "Yo también quiero uno de limón.", "ru": "Я тоже хочу лимонное." },
+    { "speaker": "Rafael", "es": "Pues yo quiero uno de vainilla.", "ru": "Ну а я хочу ванильное." },
+    { "speaker": "Marta", "es": "¡Qué rico! Me encanta el helado.", "ru": "Как вкусно! Мне очень нравится мороженое." },
+    { "speaker": "Alejandro", "es": "A mí también. Bueno, ¿y qué vamos a hacer después?", "ru": "Я тоже. Ну, а что мы будем делать потом?" },
+    { "speaker": "Miguel", "es": "Podemos jugar a las palas.", "ru": "Мы можем поиграть в ракетки." },
+    { "speaker": "Diego", "es": "Sí, buena idea. Yo tengo un par de palas.", "ru": "Да, хорошая идея. У меня есть пара ракеток." },
+    { "speaker": "Javier", "es": "Yo también tengo. Vamos a jugar.", "ru": "У меня тоже есть. Давайте играть." },
+    { "speaker": "Carmen", "es": "Nosotros vamos a dar un paseo por la orilla.", "ru": "А мы пойдём гулять по берегу." },
+    { "speaker": "Ana", "es": "Sí, vamos.", "ru": "Да, пойдём." },
+    { "speaker": "Tomás", "es": "Vale. Nos vemos luego.", "ru": "Хорошо. Увидимся позже." },
+    { "speaker": "Elena", "es": "¡Que os divirtáis!", "ru": "Хорошо вам повеселиться!" }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "la playa", "ru": "пляж" },
+        { "es": "la sombrilla", "ru": "зонтик от солнца" },
+        { "es": "la toalla", "ru": "полотенце" },
+        { "es": "la orilla", "ru": "берег, кромка воды" },
+        { "es": "el nadador", "ru": "пловец" },
+        { "es": "el puesto de helados", "ru": "киоск с мороженым" },
+        { "es": "de chocolate", "ru": "шоколадное" },
+        { "es": "de fresa", "ru": "клубничное" },
+        { "es": "de limón", "ru": "лимонное" },
+        { "es": "de vainilla", "ru": "ванильное" }
+      ]
+    },
+    {
+      "type": "fill-gap-imperativo_tuteo",
+      "title": "Практика: Imperativo afirmativo y negativo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Sí, pero ___ cuidado, no te alejes mucho.", "ru": "Да, но будь осторожен, не заплывай далеко", "answer": "ten", "options": ["ten", "tiene", "tenemos"] },
+        { "text": "No te preocupes. Soy un buen ___.", "ru": "Не беспокойся. Я хороший пловец", "answer": "nadador", "options": ["nadador", "nada", "nadar"] },
+        { "text": "¡___ cuidado con el agua!", "ru": "Будь осторожен с водой!", "answer": "Ten", "options": ["Ten", "Tiene", "Tener"] },
+        { "text": "¡No os ___! El agua está muy buena, pero cuidado.", "ru": "Не отплывайте далеко! Вода очень хорошая, но осторожно", "answer": "alejéis", "options": ["alejéis", "alejáis", "alejaos"] },
+        { "text": "¡___ os divirtáis!", "ru": "Хорошо вам повеселиться!", "answer": "Que", "options": ["Que", "Qué", "Quien"] }
+      ]
+    },
+    {
+      "type": "fill-gap-tener_para_posesion_y_cuidado",
+      "title": "Практика: Tener",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Yo ___ un par de palas.", "ru": "У меня есть пара ракеток", "answer": "tengo", "options": ["tengo", "tiene", "tenemos"] },
+        { "text": "Nosotros ___ sombrillas y toallas.", "ru": "У нас есть зонтики и полотенца", "answer": "tenemos", "options": ["tenemos", "tenéis", "tengo"] },
+        { "text": "Vosotros ___ una crema solar.", "ru": "У вас есть крем от солнца", "answer": "tenéis", "options": ["tenéis", "tenemos", "tienen"] },
+        { "text": "Ellos ___ mucha sed.", "ru": "У них сильная жажда", "answer": "tienen", "options": ["tienen", "tenemos", "tengo"] },
+        { "text": "Javier: ten ___ con el agua.", "ru": "Хавьер: будь осторожен с водой", "answer": "cuidado", "options": ["cuidado", "cuidados", "cuidar"] }
+      ]
+    },
+    {
+      "type": "fill-gap-querer_preferir_encargar",
+      "title": "Практика: Querer y preferir",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Yo ___ uno de chocolate.", "ru": "Я хочу шоколадное", "answer": "quiero", "options": ["quiero", "quieres", "quieren"] },
+        { "text": "Yo ___ uno de fresa.", "ru": "Я предпочитаю клубничное", "answer": "prefiero", "options": ["prefiero", "quiero", "prefieres"] },
+        { "text": "Yo también ___ uno de limón.", "ru": "Я тоже хочу лимонное", "answer": "quiero", "options": ["quiero", "quieren", "prefiero"] },
+        { "text": "Pues yo ___ uno de vainilla.", "ru": "Ну а я хочу ванильное", "answer": "quiero", "options": ["quiero", "queremos", "prefiero"] },
+        { "text": "¿Quién ___ uno?", "ru": "Кто хочет мороженое?", "answer": "quiere", "options": ["quiere", "quiero", "quieren"] }
+      ]
+    },
+    {
+      "type": "fill-gap-estar_valoracion_y_hay",
+      "title": "Практика: Estar + adjetivo, hay",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "El agua ___ muy buena.", "ru": "Вода очень хорошая", "answer": "está", "options": ["está", "es", "hay"] },
+        { "text": "El helado ___ delicioso.", "ru": "Мороженное великолепное", "answer": "está", "options": ["está", "es", "hay"] },
+        { "text": "___ un puesto de helados.", "ru": "Есть киоск с мороженым", "answer": "Hay", "options": ["Hay", "Es", "Está"] },
+        { "text": "La playa ___ muy bien.", "ru": "Пляж очень хорош", "answer": "está", "options": ["está", "es", "hay"] },
+        { "text": "¿___ duchas en la playa?", "ru": "Есть ли на пляже душевые?", "answer": "Hay", "options": ["Hay", "Es", "Son"] }
+      ]
+    },
+    {
+      "type": "fill-gap-orden_y_momento",
+      "title": "Практика: Primero, después, luego",
+      "description": "Выберите правильный маркер времени",
+      "sentences": [
+        { "text": "No, ___ vamos a poner las sombrillas.", "ru": "Нет, сначала поставим зонтики", "answer": "primero", "options": ["primero", "después", "finalmente"] },
+        { "text": "¿Y qué vamos a hacer ___?", "ru": "А что мы будем делать потом?", "answer": "después", "options": ["después", "primero", "ahora"] },
+        { "text": "___ estamos en la playa.", "ru": "Мы уже на пляже", "answer": "Ya", "options": ["Ya", "Aún", "No"] },
+        { "text": "Nos vemos ___.", "ru": "Увидимся позже", "answer": "luego", "options": ["luego", "antes", "todavía"] },
+        { "text": "Sí, ___ idea. Yo tengo un par de palas.", "ru": "Да, хорошая идея. У меня есть пара ракеток", "answer": "buena", "options": ["buena", "mala", "otra"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Ya estamos en la playa. Vamos a ___.", "ru": "Мы уже на пляже. Давайте плавать", "answer": "nadar", "options": ["nadar", "nada", "nadando"] },
+        { "text": "No, primero vamos a poner las sombrillas y las ___.", "ru": "Нет, сначала поставим зонтики и полотенца", "answer": "toallas", "options": ["toallas", "sombrillas", "cuidado"] },
+        { "text": "Pero ten ___, no te alejes mucho.", "ru": "Но будь осторожен, не заплывай далеко", "answer": "cuidado", "options": ["cuidado", "cuidados", "cuida"] },
+        { "text": "El agua ___ muy buena.", "ru": "Вода очень хорошая", "answer": "está", "options": ["está", "es", "hay"] },
+        { "text": "¡Mirad! ___ un puesto de helados.", "ru": "Смотрите! Есть киоск с мороженым", "answer": "Hay", "options": ["Hay", "Es", "Tengo"] },
+        { "text": "Yo ___ uno de chocolate.", "ru": "Я хочу шоколадное", "answer": "quiero", "options": ["quiero", "quieres", "quieren"] },
+        { "text": "Yo ___ un par de palas.", "ru": "У меня есть пара ракеток", "answer": "tengo", "options": ["tengo", "tiene", "tenemos"] },
+        { "text": "Nosotros vamos a ___ un paseo por la orilla.", "ru": "Мы пойдём гулять по берегу", "answer": "dar", "options": ["dar", "de", "dan"] },
+        { "text": "Vale. ___ vemos luego.", "ru": "Хорошо. Увидимся позже", "answer": "Nos", "options": ["Nos", "Me", "Os"] },
+        { "text": "¡___ os divirtáis!", "ru": "Хорошо вам повеселиться!", "answer": "Que", "options": ["Que", "Qué", "Quien"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Диего",
+      "role": "Diego",
+      "description": "Ты — Диего: хвалишь пляж и воду, говоришь, что хорошо плаваешь, и предлагаешь поиграть в ракетки"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Кармен",
+      "role": "Carmen",
+      "description": "Ты — Кармен: предлагаешь мороженое всем и зовёшь Анну гулять по берегу"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Договоритесь с друзьями о плане на пляже",
+      "template": [
+        { "label": "Мы уже на пляже", "es": "Ya estamos en la playa. Vamos a ___." },
+        { "label": "Сначала поставим зонтики", "es": "No, ___ vamos a poner las sombrillas y las toallas." },
+        { "label": "Вода очень хорошая", "es": "El agua ___ muy buena." },
+        { "label": "Будь осторожен", "es": "Pero ten ___, no te alejes mucho." },
+        { "label": "Не беспокойся", "es": "No te preocupes. Soy un buen ___." },
+        { "label": "Там есть киоск с мороженым", "es": "¡Mirad! ___ un puesto de helados." },
+        { "label": "Я хочу шоколадное", "es": "Yo ___ uno de chocolate." },
+        { "label": "Я предпочитаю клубничное", "es": "Yo ___ uno de fresa." },
+        { "label": "Хорошо вам повеселиться!", "es": "¡___ os divirtáis!" },
+        { "label": "Что будем делать потом?", "es": "Bueno, ¿y qué vamos a hacer ___?" },
+        { "label": "Мы можем играть в ракетки", "es": "Podemos jugar a las ___." },
+        { "label": "У меня есть пара ракеток", "es": "Yo ___ un par de palas." }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Dónde está el grupo?",
+          "ru": "Где находится компания?",
+          "options": ["En la piscina", "En la montaña", "En la playa", "En el mercado"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué hacen primero?",
+          "ru": "Что они делают сначала?",
+          "options": ["Nadan en el mar", "Ponen las sombrillas y las toallas", "Comen helado", "Juegan a las palas"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué le dice Javier a Diego?",
+          "ru": "Что Хавьер говорит Диего?",
+          "options": ["Que no nade", "Que tenga cuidado y que no se aleje mucho", "Que compre helado", "Que vaya a comprar sombrillas"],
+          "answer": 1
+        },
+        {
+          "question": "¿Por qué Diego no tiene miedo del agua?",
+          "ru": "Почему Диего не боится воды?",
+          "options": ["Porque es un buen nadador", "Porque el agua está fría", "Porque tiene una barca", "Porque no sabe nadar"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué encuentra el grupo en la playa?",
+          "ru": "Что компания находит на пляже?",
+          "options": ["Un restaurante", "Un puesto de helados", "Una biblioteca", "Una estación de autobuses"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué helado quiere Tomás?",
+          "ru": "Какое мороженое хочет Томас?",
+          "options": ["De chocolate", "De vainilla", "De limón", "De fresa"],
+          "answer": 3
+        },
+        {
+          "question": "¿Quién quiere dos helados iguales?",
+          "ru": "Кто хочет два одинаковых мороженых?",
+          "options": ["Ana y Rafael", "Elena y Belén", "Tomás y Marta", "Ana y Elena"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué juego propone Miguel?",
+          "ru": "Какую игру предлагает Мигель?",
+          "options": ["Jugar a las palas", "Jugar al fútbol", "Correr por la orilla", "Nadar en las rocas"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué hacen Carmen y Ana?",
+          "ru": "Что делают Кармен и Анна?",
+          "options": ["Comen helado", "Dan un paseo por la orilla", "Juegan a las palas", "Se duermen en las toallas"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué les desea Elena a los demás?",
+          "ru": "Что желает Елена остальным?",
+          "options": ["Que se diviertan", "Que nada más", "Que vuelvan pronto a casa", "Que compren helado"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повтори слова по теме «пляж, отдых, мороженое»",
+    "Практика: расскажи о своём дне на пляже. Используй: primero..., después..., ¿qué vamos a hacer después?, yo quiero uno de..., prefiero",
+    "Дневник: напиши, что ты всегда берёшь на пляже (слова из 3 групп) и что советует тебе друг",
+    "Грамматика: составь 4 предложения с imperativo (ten cuidado, no te preocupes, venid aquí, no os alejéis) и 3 фразы с tener (tengo un par de..., tenemos..., tienen...)"
+  ]
+}

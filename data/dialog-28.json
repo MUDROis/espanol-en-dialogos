@@ -1,0 +1,308 @@
+{
+  "id": 28,
+  "title": "Carlos y Lucía en el cine",
+  "titleRu": "Карлос и Лусия в кино",
+  "part": 3,
+  "level": "B1",
+  "theme": "Кино, фильмы, жанры  El cine, las películas, los géneros",
+  "characters": ["carlos", "lucia"],
+  "objectives": [
+    "Выражать чувства и оценку фильмов: me gustan, me aburro, me fastidia, me da asco, me parece",
+    "Говорить, о чём идёт речь: se trata de + существительное / de que…",
+    "Говорить «стоит / не стоит»: vale la pena + infinitivo, servir para",
+    "Использовать герундий в оборотах: viendo estas películas…, hablando sinceramente",
+    "Понимать слова по теме «кино, сюжет, эмоции»: la película, la comedia, el documental, el valor"
+  ],
+  "grammar": {
+    "gustar_type": {
+      "title": "Глаголы чувств и оценки: GUSTAR, ABURRIR, FASTIDIAR, PARECER",
+      "description": "При местоимении me/te/le/nos/os/les: me gustan las comedias (мне нравятся комедии), me aburro viendo comedias (мне скучно смотреть комедии), me fastidian las películas tontas (меня выводят из себя глупые фильмы), me dan asco (мне противно), me parecen aburridas (мне кажутся скучными).",
+      "forms": {
+        "yo": { "es": "me gustan las comedias", "ru": "мне нравятся комедии" },
+        "tu": { "es": "te aburres viendo comedias", "ru": "тебе скучно смотреть комедии" },
+        "el_ella": { "es": "le fastidian las películas tontas", "ru": "его выводят из себя глупые фильмы" },
+        "nosotros": { "es": "nos irritan estas pelis", "ru": "нас раздражают такие фильмы" },
+        "vosotros": { "es": "os parecen aburridas las románticas", "ru": "романтические вам кажутся скучными" },
+        "ellos_ellas": { "es": "les dan asco las películas violentas", "ru": "их тошнит от фильмов с насилием" }
+      },
+      "examples": [
+        { "es": "Me aburro viendo comedias, no son para mí.", "ru": "Мне скучно смотреть комедии, они не для меня." },
+        { "es": "A mí me fastidian las películas tontas, me irritan y me dan asco.", "ru": "Меня выводят из себя глупые фильмы, они меня раздражают и вызывают отвращение." }
+      ]
+    },
+    "se_trata_de": {
+      "title": "SE TRATA DE: о чём идёт речь",
+      "description": "SE TRATA DE + существительное — «речь идёт о...»: Se trata de un padre que protege a su hijo (речь идёт об отце, который защищает сына). SE TRATA DE QUE + глагол — «речь о том, что...». Вопрос: ¿De qué se trata esta película? (о чём этот фильм?).",
+      "list": [
+        { "es": "se trata de un padre que protege a su hijo", "ru": "речь идёт об отце, который защищает сына" },
+        { "es": "¿de qué se trata esta película?", "ru": "о чём этот фильм?" },
+        { "es": "se trata de que el bien vence al mal", "ru": "речь о том, что добро побеждает зло" },
+        { "es": "la historia trata de la guerra", "ru": "история о войне" },
+        { "es": "no se trata de eso", "ru": "дело не в этом" }
+      ],
+      "examples": [
+        { "es": "Se trata de un padre que sabe usar el humor y lucha contra el miedo.", "ru": "Речь идёт об отце, который умеет использовать юмор и борется со страхом." },
+        { "es": "La historia tiene mucho sentido: nos habla del amor, de la familia y del valor.", "ru": "История имеет большой смысл: она рассказывает нам о любви, семье и смелости." }
+      ]
+    },
+    "vale_la_pena": {
+      "title": "VALER LA PENA, SERVIR PARA: стоит, служит для",
+      "description": "VALER LA PENA + infinitivo — «стоит сделать»: vale la pena ver (стоит посмотреть), hay comedias que vale la pena ver (есть комедии, которые стоит посмотреть). SERVIR PARA — «служить для того, чтобы»: sirve para distraer (служит, чтобы отвлечь).",
+      "list": [
+        { "es": "vale la pena ver", "ru": "стоит посмотреть" },
+        { "es": "hay comedias que vale la pena ver", "ru": "есть комедии, которые стоит посмотреть" },
+        { "es": "no vale la pena discutir", "ru": "не стоит спорить" },
+        { "es": "sirve para distraer", "ru": "служит, чтобы отвлечь" },
+        { "es": "las comedias son para reírse", "ru": "комедии — чтобы смеяться" }
+      ],
+      "examples": [
+        { "es": "Hay muchas comedias que vale la pena ver.", "ru": "Есть много комедий, которые стоит посмотреть." },
+        { "es": "Este tipo de cine sirve para distraer a uno de los problemas que tiene.", "ru": "Этот вид кино служит, чтобы отвлечь человека от его проблем." }
+      ]
+    },
+    "gerundio": {
+      "title": "Герундий в оборотах: VIENDO, HABLANDO, BUSCANDO",
+      "description": "Герундий (viendo, hablando, buscando) описывает действие, одновременно с главным: Viendo estas películas la gente se relaja (Смотря эти фильмы, люди расслабляются), Hablando sinceramente... (Честно говоря...). Часто стоит в начале фразы.",
+      "list": [
+        { "es": "viendo estas películas la gente se relaja", "ru": "смотря эти фильмы, люди расслабляются" },
+        { "es": "hablando sinceramente", "ru": "честно говоря" },
+        { "es": "me aburro viendo comedias", "ru": "мне скучно смотреть комедии" },
+        { "es": "buscando algo que no tienen", "ru": "ища то, чего у них нет" },
+        { "es": "divirtiéndolo", "ru": "развлекая его" }
+      ],
+      "examples": [
+        { "es": "Viendo estas películas la gente se relaja y se olvida de los asuntos cotidianos.", "ru": "Смотря эти фильмы, люди расслабляются и забывают о повседневных делах." },
+        { "es": "Hablando sinceramente, me gustan las comedias o los documentales.", "ru": "Честно говоря, мне нравятся комедии или документальные фильмы." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "el_cine": [
+      { "es": "el cine", "ru": "кино" },
+      { "es": "la película", "ru": "фильм" },
+      { "es": "la comedia", "ru": "комедия" },
+      { "es": "el documental", "ru": "документальный фильм" },
+      { "es": "la película de fantasía", "ru": "фильм в жанре фэнтези" },
+      { "es": "la película romántica", "ru": "романтический фильм" }
+    ],
+    "la_historia": [
+      { "es": "el amor", "ru": "любовь" },
+      { "es": "la familia", "ru": "семья" },
+      { "es": "el valor", "ru": "смелость, ценность" },
+      { "es": "el odio", "ru": "ненависть" },
+      { "es": "la envidia", "ru": "зависть" },
+      { "es": "el miedo", "ru": "страх" },
+      { "es": "la guerra", "ru": "война" },
+      { "es": "el bien", "ru": "добро" },
+      { "es": "el mal", "ru": "зло" },
+      { "es": "la aventura", "ru": "приключение" }
+    ],
+    "verbos_y_emociones": [
+      { "es": "aburrirse", "ru": "скучать" },
+      { "es": "fastidiar", "ru": "раздражать, надоедать" },
+      { "es": "irritar", "ru": "раздражать" },
+      { "es": "dar asco", "ru": "вызывать отвращение" },
+      { "es": "valer la pena", "ru": "стоить (заслуживать)" },
+      { "es": "distraer", "ru": "отвлекать, развлекать" },
+      { "es": "relajarse", "ru": "расслабляться" },
+      { "es": "divertirse", "ru": "развлекаться" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Carlos", "es": "¿Qué película prefieres ver?", "ru": "Какой фильм предпочитаешь посмотреть?" },
+    { "speaker": "Lucía", "es": "No sé... A ver, qué hay...", "ru": "Не знаю... Посмотрим, что есть..." },
+    { "speaker": "Carlos", "es": "Te recomiendo ver «El laberinto del fauno», es una película de fantasía.", "ru": "Рекомендую посмотреть «Лабиринт фавна», это фильм в жанре фэнтези." },
+    { "speaker": "Lucía", "es": "Hablando sinceramente, me gustan las comedias o los documentales.", "ru": "Честно говоря, мне нравятся комедии или документальные фильмы." },
+    { "speaker": "Carlos", "es": "¿En serio? Pero las comedias son para reírse sin pensar...", "ru": "Серьёзно? Но комедии — они для того, чтобы смеяться не думая..." },
+    { "speaker": "Lucía", "es": "Te equivocas, no. Hay muchas comedias que vale la pena ver. ¿Te acuerdas de la historia de «La vida es bella»? Se trata de un padre que protege a su hijo durante la guerra, sabe usar el humor y lucha contra el miedo...", "ru": "Ты ошибаешься, нет. Есть много комедий, которые стоит посмотреть. Ты помнишь историю «Жизнь прекрасна»? Речь идёт об отце, который защищает своего сына во время войны, умеет использовать юмор и борется со страхом..." },
+    { "speaker": "Carlos", "es": "Claro que me acuerdo. El niño, su hijo, también vive muchas aventuras con él. Pero...", "ru": "Конечно, помню. Мальчик, его сын, тоже переживает с ним много приключений. Но..." },
+    { "speaker": "Lucía", "es": "No solo eso. La historia tiene mucho sentido, por ejemplo, nos habla de qué es el amor, la familia, el valor, a que lleva el odio y la envidia y, claro, que el bien siempre vence al mal.", "ru": "Не только это. История имеет много смысла, например, она нам рассказывает о том, что такое любовь, семья, смелость, к чему приводит ненависть и зависть и, конечно же, что добро всегда побеждает зло." },
+    { "speaker": "Carlos", "es": "Sí, puede ser... Pero me aburro viendo comedias, no son para mí. Hay muchas películas que nos traen cosas filosóficas y morales, que nos muestran diferentes valores...", "ru": "Да, может быть... Но мне скучно смотреть комедии, они не для меня. Есть много фильмов с философским и моральным смыслом, которые нам показывают различные ценности..." },
+    { "speaker": "Lucía", "es": "Sí, claro, hay de todo. Pero a mí me fastidian películas tontas, como comedias estúpidas o cuando una banda persigue a otra, un mafioso mata a todos por las drogas, etcétera. Me irritan y dan asco estas pelis.", "ru": "Да, конечно, есть множество всего. Но меня выводят из себя глупые фильмы, такие как глупые комедии, или когда одна банда преследует другую, какой-нибудь мафиози убивает всех из-за наркотиков и так далее. Меня раздражают и вызывают отвращение такие фильмы." },
+    { "speaker": "Carlos", "es": "Viendo estas películas la gente se relaja y se olvida de los asuntos cotidianos. A mucha gente no le gusta pensar, por eso este tipo de cine sirve para distraer a uno de los problemas que tiene, sólo divirtiéndolo.", "ru": "Смотря эти фильмы, люди расслабляются и забывают о повседневных делах. Многим людям не нравится думать, поэтому этот вид кино нужен, чтобы отвлечь кого-то от своих проблем, просто развлекая его." },
+    { "speaker": "Lucía", "es": "Pues, yo no necesito esta diversión. Vamos a ver algo interesante, con sentido.", "ru": "Ну, мне не нужно это развлечение. Давай посмотрим что-нибудь интересное, со смыслом." },
+    { "speaker": "Carlos", "es": "Supongo que ¿las películas románticas tampoco te gustan mucho?", "ru": "Предположу, что романтические фильмы тебе тоже не очень нравятся?" },
+    { "speaker": "Lucía", "es": "No, me parecen aburridas. Pero muchas mujeres las prefieren buscando en la película algo que no tienen en su vida...", "ru": "Нет, они мне кажутся скучными. Но многие женщины их предпочитают, потому что ищут в фильме то, чего у них нет в своей жизни..." },
+    { "speaker": "Carlos", "es": "¡Vaya filósofa que eres!", "ru": "Ну ты и философ!" }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el cine", "ru": "кино" },
+        { "es": "la película", "ru": "фильм" },
+        { "es": "la comedia", "ru": "комедия" },
+        { "es": "el documental", "ru": "документальный фильм" },
+        { "es": "la película de fantasía", "ru": "фильм в жанре фэнтези" },
+        { "es": "la película romántica", "ru": "романтический фильм" },
+        { "es": "el amor", "ru": "любовь" },
+        { "es": "la familia", "ru": "семья" },
+        { "es": "el valor", "ru": "смелость, ценность" },
+        { "es": "el odio", "ru": "ненависть" }
+      ]
+    },
+    {
+      "type": "fill-gap-gustar_type",
+      "title": "Практика: глаголы чувств и оценки",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "A mí me ___ las comedias o los documentales.", "ru": "Мне нравятся комедии или документальные фильмы", "answer": "gustan", "options": ["gustan", "gusta", "gustar"] },
+        { "text": "Me ___ viendo comedias, no son para mí.", "ru": "Мне скучно смотреть комедии, они не для меня", "answer": "aburro", "options": ["aburro", "aburre", "aburren"] },
+        { "text": "A mí me ___ las películas tontas.", "ru": "Меня выводят из себя глупые фильмы", "answer": "fastidian", "options": ["fastidian", "fastidia", "fastidiar"] },
+        { "text": "Me ___ asco las películas violentas.", "ru": "Мне противны фильмы с насилием", "answer": "dan", "options": ["dan", "da", "damos"] },
+        { "text": "Me ___ aburridas las películas románticas.", "ru": "Романтические фильмы мне кажутся скучными", "answer": "parecen", "options": ["parecen", "parece", "parecer"] }
+      ]
+    },
+    {
+      "type": "fill-gap-se_trata_de",
+      "title": "Практика: SE TRATA DE",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Se ___ de un padre que protege a su hijo.", "ru": "Речь идёт об отце, который защищает сына", "answer": "trata", "options": ["trata", "tratan", "tratar"] },
+        { "text": "¿De qué se ___ esta película?", "ru": "О чём этот фильм?", "answer": "trata", "options": ["trata", "tratan", "habla"] },
+        { "text": "Se trata de ___ el bien vence al mal.", "ru": "Речь о том, что добро побеждает зло", "answer": "que", "options": ["que", "lo", "como"] },
+        { "text": "La historia ___ de la guerra.", "ru": "История о войне", "answer": "trata", "options": ["trata", "tratan", "dice"] },
+        { "text": "No se trata de ___, se trata del miedo.", "ru": "Дело не в этом, дело в страхе", "answer": "eso", "options": ["eso", "este", "esa"] }
+      ]
+    },
+    {
+      "type": "fill-gap-vale_la_pena",
+      "title": "Практика: VALER LA PENA, SERVIR PARA",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Hay muchas comedias que vale la ___ ver.", "ru": "Есть много комедий, которые стоит посмотреть", "answer": "pena", "options": ["pena", "suerte", "risa"] },
+        { "text": "No vale la ___ discutir por una película.", "ru": "Не стоит спорить из-за фильма", "answer": "pena", "options": ["pena", "culpa", "miedo"] },
+        { "text": "Este cine sirve ___ distraer a la gente.", "ru": "Такое кино служит, чтобы отвлечь людей", "answer": "para", "options": ["para", "por", "de"] },
+        { "text": "Las comedias son para ___ sin pensar.", "ru": "Комедии — чтобы смеяться не думая", "answer": "reírse", "options": ["reírse", "reír", "ríe"] },
+        { "text": "Vale la pena ___ esta película de fantasía.", "ru": "Этот фильм в жанре фэнтези стоит посмотреть", "answer": "ver", "options": ["ver", "ves", "viendo"] }
+      ]
+    },
+    {
+      "type": "fill-gap-gerundio",
+      "title": "Практика: герундий в оборотах",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "___ estas películas la gente se relaja.", "ru": "Смотря эти фильмы, люди расслабляются", "answer": "Viendo", "options": ["Viendo", "Viendo a", "Ver"] },
+        { "text": "___ sinceramente, me gustan las comedias.", "ru": "Честно говоря, мне нравятся комедии", "answer": "Hablando", "options": ["Hablando", "Hable", "Hablar"] },
+        { "text": "Me aburro ___ comedias estúpidas.", "ru": "Мне скучно смотреть глупые комедии", "answer": "viendo", "options": ["viendo", "ver", "veo"] },
+        { "text": "Buscan ___ algo que no tienen en su vida.", "ru": "Они ищут что-то, чего у них нет в жизни", "answer": "en", "options": ["en", "de", "por"] },
+        { "text": "Solo divirtiéndolo.", "ru": "Просто развлекая его", "answer": "divirtiéndolo", "options": ["divirtiéndolo", "divertirlo", "divirtiendo"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "A mí me ___ las comedias o los documentales.", "ru": "Мне нравятся комедии или документальные фильмы", "answer": "gustan", "options": ["gustan", "gusta", "gustar"] },
+        { "text": "Se ___ de un padre que protege a su hijo.", "ru": "Речь идёт об отце, который защищает сына", "answer": "trata", "options": ["trata", "tratan", "tratar"] },
+        { "text": "Hay muchas comedias que vale la ___ ver.", "ru": "Есть много комедий, которые стоит посмотреть", "answer": "pena", "options": ["pena", "suerte", "risa"] },
+        { "text": "___ estas películas la gente se relaja.", "ru": "Смотря эти фильмы, люди расслабляются", "answer": "Viendo", "options": ["Viendo", "Ver", "Veo"] },
+        { "text": "Me ___ viendo comedias, no son para mí.", "ru": "Мне скучно смотреть комедии, они не для меня", "answer": "aburro", "options": ["aburro", "aburre", "aburren"] },
+        { "text": "El bien siempre ___ al mal.", "ru": "Добро всегда побеждает зло", "answer": "vence", "options": ["vence", "vienen", "vende"] },
+        { "text": "¿De qué se ___ esta película?", "ru": "О чём этот фильм?", "answer": "trata", "options": ["trata", "dicen", "hablan"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Ты — парень Лусии, предлагаешь фильмы в жанре фэнтези и споришь о комедиях"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Ты — девушка Карлоса, любишь комедии со смыслом и не терпишь глупых фильмов"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Обсуди с другом, какой фильм посмотреть",
+      "template": [
+        { "label": "Какой фильм предпочитаешь посмотреть?", "es": "¿Qué ___ prefieres ver?" },
+        { "label": "Мне нравятся комедии", "es": "A mí me ___ las comedias" },
+        { "label": "Речь идёт об отце, который...", "es": "Se ___ de un padre que..." },
+        { "label": "Есть комедии, которые стоит посмотреть", "es": "Hay comedias que vale la ___ ver" },
+        { "label": "Мне скучно смотреть комедии", "es": "Me ___ viendo comedias" },
+        { "label": "Меня раздражают глупые фильмы", "es": "Me ___ las películas tontas" },
+        { "label": "Добро всегда побеждает зло", "es": "El bien siempre ___ al mal" },
+        { "label": "Честно говоря", "es": "___ sinceramente" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Qué tipo de películas prefiere Lucía?",
+          "ru": "Какие фильмы предпочитает Лусия?",
+          "options": ["Las de fantasía", "Las comedias o documentales", "Las románticas", "Los westerns"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué película recomienda Carlos?",
+          "ru": "Какой фильм рекомендует Карлос?",
+          "options": ["«La vida es bella»", "Un documental", "«El laberinto del fauno»", "Una comedia"],
+          "answer": 2
+        },
+        {
+          "question": "¿De qué se trata «La vida es bella»?",
+          "ru": "О чём «Жизнь прекрасна»?",
+          "options": ["De un detective", "De un padre que protege a su hijo durante la guerra", "De un mafioso", "De una boda"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué nos enseña la historia según Lucía?",
+          "ru": "Чему нас учит история, по мнению Лусии?",
+          "options": ["Que la violencia gana siempre", "Que el bien siempre vence al mal", "Que el amor es tonto", "Que la familia es aburrida"],
+          "answer": 1
+        },
+        {
+          "question": "¿Por qué a Carlos no le gustan las comedias?",
+          "ru": "Почему Карлосу не нравятся комедии?",
+          "options": ["Son demasiado largas", "No tienen sentido", "Se aburre viendo comedias", "No le gusta el actor"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué películas fastidian a Lucía?",
+          "ru": "Какие фильмы выводят Лусию из себя?",
+          "options": ["Las románticas", "Las de fantasía", "Las estúpidas, de mafiosos y de bandas", "Los musicales"],
+          "answer": 2
+        },
+        {
+          "question": "¿Para qué sirve ese tipo de cine según Carlos?",
+          "ru": "Для чего служит такое кино, по мнению Карлоса?",
+          "options": ["Para educar a la gente", "Para hacer pensar", "Para distraer a la gente de sus problemas", "Para ganar premios"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué opina Lucía de las películas románticas?",
+          "ru": "Что Лусия думает о романтических фильмах?",
+          "options": ["Le parecen aburridas", "Le encantan", "Son las mejores", "No las ha visto"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué buscan las mujeres en las películas románticas según Lucía?",
+          "ru": "Что женщины ищут в романтических фильмах, по мнению Лусии?",
+          "options": ["Algo que no tienen en su vida", "Risas", "Acción", "Miedo"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 минут: повтори слова по теме «кино и эмоции»",
+    "Практика: расскажи, какой фильм тебе нравится и почему. Используй: me gustan..., me aburro viendo..., vale la pena ver..., se trata de...",
+    "Дневник: опиши свой любимый фильм. О чём он (¿de qué trata?)? Какие чувства он у тебя вызывает?",
+    "Грамматика: составь 3 предложения с me/te/le + gustar/irritar/fastidiar, 3 с vale la pena / sirve para и 3 с герундием (viendo, hablando)"
+  ]
+}

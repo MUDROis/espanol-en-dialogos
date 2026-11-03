@@ -1,0 +1,311 @@
+{
+  "id": 16,
+  "title": "Lucía va a Sevilla con Paula",
+  "titleRu": "Лусия едет в Севилью с Паулой",
+  "part": 2,
+  "level": "A2",
+  "theme": "Путешествие, транспорт, время  El viaje, el transporte, la hora",
+  "characters": ["lucia", "paula_amiga", "taquillero", "hombre"],
+  "objectives": [
+    "Спрашивать о времени отправления транспорта",
+    "Использовать притяжательные местоимения (mío, tuyo, suyo, vuestro)",
+    "Выражать обязанность и «по расписанию» (deber + infinitivo, según el horario)",
+    "Заказывать еду в кафе и описывать, что потерял(а)",
+    "Использовать восклицания: ¡Qué mala suerte!, ¡Vaya fastidio!, ¡Qué susto!"
+  ],
+  "grammar": {
+    "posesivos": {
+      "title": "Притяжательные после глагола SER: mío, tuyo, suyo",
+      "description": "Притяжательные местоимения ставятся после существительного или глагола SER и согласуются с ним в роде и числе: «¿Es suya esta mochila roja?» — «Это твой красный рюкзак?», «El tuyo está aquí, en mi bolsillo» — «Твой (билет) здесь, в моём кармане».",
+      "forms": {
+        "yo": { "es": "es mío / es mía", "ru": "это моё / моя" },
+        "tu": { "es": "es tuyo / es tuya", "ru": "это твоё / твоя" },
+        "el_ella": { "es": "es suyo / es suya", "ru": "это его / её" },
+        "nosotros": { "es": "es nuestro / es nuestra", "ru": "это наше / наша" },
+        "vosotros": { "es": "es vuestro / es vuestra", "ru": "это ваше / ваша" },
+        "ellos_ellas": { "es": "es suyo / es suya", "ru": "это их" }
+      },
+      "examples": [
+        { "es": "¿Es suya esta mochila roja?", "ru": "Это твой красный рюкзак?" },
+        { "es": "¡Claro que es mía!", "ru": "Конечно, он мой!" },
+        { "es": "El tuyo está aquí, en mi bolsillo.", "ru": "Твой (билет) здесь, в моём кармане." }
+      ]
+    },
+    "deber_infinitivo": {
+      "title": "Глагол DEBER + infinitivo (должен)",
+      "description": "DEBER + инфинитив — «должен»: по расписанию, по правилам или по обязанности. В диалоге: «Según el horario debe salir a las diez y media» — «По расписанию он должен отправляться в десять тридцать».",
+      "forms": {
+        "yo": { "es": "debo esperar", "ru": "я должен ждать" },
+        "tu": { "es": "debes esperar", "ru": "ты должен ждать" },
+        "el_ella": { "es": "debe esperar", "ru": "он/она должен(а) ждать" },
+        "nosotros": { "es": "debemos esperar", "ru": "мы должны ждать" },
+        "vosotros": { "es": "debéis esperar", "ru": "вы должны ждать" },
+        "ellos_ellas": { "es": "deben esperar", "ru": "они должны ждать" }
+      },
+      "examples": [
+        { "es": "Según el horario debe salir a las diez y media.", "ru": "По расписанию он должен отправляться в десять тридцать." },
+        { "es": "Tenemos que esperar más de una hora.", "ru": "Нам придётся ждать больше часа." }
+      ]
+    },
+    "imperativo_tu": {
+      "title": "Повелительное наклонение (tú): Mira, Oye",
+      "description": "Повелительная форма для tú образуется от 3-го лица единственного числа: mira (смотреть), oye (слушать), mira en la mochila. Vamos a ... — «пойдём ...» — приглашение к действию.",
+      "list": [
+        { "es": "Mira en la mochila.", "ru": "Посмотри в рюкзаке." },
+        { "es": "Oye, ¿dónde está mi carnet?", "ru": "Слушай, где мой документ?" },
+        { "es": "A ver...", "ru": "Давай посмотрим..." },
+        { "es": "Vamos a una cafetería.", "ru": "Пойдём в кафе." }
+      ],
+      "examples": [
+        { "es": "Mira en la mochila.", "ru": "Посмотри в рюкзаке." },
+        { "es": "Vamos a una cafetería a esperar.", "ru": "Пойдём в кафе подождать." }
+      ]
+    },
+    "exclamaciones": {
+      "title": "Восклицания: ¡Qué...!, ¡Vaya...!, ¡Uf!, ¡Ay!",
+      "description": "Восклицания выражают эмоции: ¡Qué + существительное! — «Какой/какая ...!», ¡Vaya + существительное! — «Ну и ...!», ¡Qué susto! — «Какой испуг!», ¡Uf! — «Уф!».",
+      "list": [
+        { "es": "¡Qué mala suerte!", "ru": "Какая неудача!" },
+        { "es": "¡Vaya fastidio!", "ru": "Какая досада!" },
+        { "es": "¡Qué susto!", "ru": "Какой испуг!" },
+        { "es": "¡Uf! / ¡Ay!", "ru": "Уф! / Ой!" }
+      ],
+      "examples": [
+        { "es": "¡Uf, vaya fastidio! ¡Qué mala suerte!", "ru": "Уф, какая досада! Какая неудача!" },
+        { "es": "¡Ay, gracias! ¡Qué susto!", "ru": "Ой, спасибо! Какой испуг!" }
+      ]
+    }
+  },
+  "vocabulary": {
+    "transporte": [
+      { "es": "el autobús", "ru": "автобус" },
+      { "es": "el taquillero", "ru": "кассир (на вокзале)" },
+      { "es": "el billete de autobús", "ru": "билет на автобус" },
+      { "es": "el horario", "ru": "расписание" },
+      { "es": "según el horario", "ru": "по расписанию" },
+      { "es": "salir con retraso", "ru": "отправляться с опозданием" },
+      { "es": "llegar con retraso", "ru": "прибывать с опозданием" },
+      { "es": "más de una hora", "ru": "больше часа" },
+      { "es": "por cuestiones técnicas", "ru": "по техническим причинам" },
+      { "es": "esperar", "ru": "ждать" }
+    ],
+    "en_cafeteria": [
+      { "es": "la cafetería", "ru": "кафе" },
+      { "es": "el bocadillo de atún", "ru": "бутерброд с тунцом" },
+      { "es": "el refresco de limón", "ru": "лимонад" },
+      { "es": "el zumo de naranja", "ru": "апельсиновый сок" },
+      { "es": "el vaso", "ru": "стакан" },
+      { "es": "pedir", "ru": "заказывать" },
+      { "es": "tener hambre", "ru": "хотеть есть" }
+    ],
+    "documentos": [
+      { "es": "el carnet de identidad", "ru": "удостоверение личности" },
+      { "es": "los documentos", "ru": "документы" },
+      { "es": "el dinero", "ru": "деньги" },
+      { "es": "el bolsillo", "ru": "карман" },
+      { "es": "los bolsillos", "ru": "карманы" },
+      { "es": "la mochila", "ru": "рюкзак" }
+    ],
+    "emociones_quejas": [
+      { "es": "¡Uf!", "ru": "Уф!" },
+      { "es": "¡Ay!", "ru": "Ой!" },
+      { "es": "¡Qué susto!", "ru": "Какой испуг!" },
+      { "es": "¡Qué mala suerte!", "ru": "Какая неудача!" },
+      { "es": "¡Vaya fastidio!", "ru": "Какая досада!" },
+      { "es": "el fastidio", "ru": "досада, неприятность" },
+      { "es": "la suerte", "ru": "удача" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Paula", "es": "¿Dónde está nuestro autobús? Ya son las diez y media.", "ru": "Где наш автобус? Уже половина одиннадцатого." },
+    { "speaker": "Lucía", "es": "Parece que llega con retraso. Voy a preguntar al taquillero... Señor, buenos días. ¿A qué hora va a salir el autobús para Sevilla?", "ru": "Похоже, он опаздывает. Я спрошу у кассира... Здравствуйте! Во сколько отправится автобус на Севилью?" },
+    { "speaker": "El taquillero", "es": "Un momento... Va a salir a las once y cuarenta.", "ru": "Минутку... Он отправится в одиннадцать сорок." },
+    { "speaker": "Lucía", "es": "Pero según el horario debe salir a las diez y media...", "ru": "Но по расписанию он должен отправляться в десять тридцать..." },
+    { "speaker": "El taquillero", "es": "Yo no sé nada. Por cuestiones técnicas va a salir a las once y cuarenta.", "ru": "Я ничего не знаю. По техническим причинам он отправится в одиннадцать сорок." },
+    { "speaker": "Lucía", "es": "¡Uf, vaya fastidio! ¡Qué mala suerte!", "ru": "Уф, какая досада! Какая неудача!" },
+    { "speaker": "Paula", "es": "Sí, tenemos que esperar más de una hora. Vamos a una cafetería, que con nuestras mochilas no podemos ir muy lejos...", "ru": "Да, нам придётся ждать больше часа. Пойдём в кафе, ведь с нашими рюкзаками далеко не уйдёшь..." },
+    { "speaker": "Lucía", "es": "Bueno, mejor. Tengo bastante hambre. Voy a pedir un bocadillo de atún y un refresco de limón.", "ru": "Ну, так даже лучше. Я очень проголодалась. Закажу бутерброд с тунцом и лимонад." },
+    { "speaker": "Paula", "es": "Y yo, solo un vaso de zumo de naranja. Oye, ¿dónde está mi carnet de identidad?", "ru": "А я только стакан апельсинового сока. Слушай, а где моё удостоверение личности?" },
+    { "speaker": "Lucía", "es": "No lo sé. Aquí solo tengo el mío.", "ru": "Не знаю. Здесь у меня только моё." },
+    { "speaker": "Paula", "es": "A ver... No, en mis bolsillos no está.", "ru": "Давай посмотрим... Нет, в моих карманах его нет." },
+    { "speaker": "Lucía", "es": "Mira en la mochila.", "ru": "Посмотри в рюкзаке." },
+    { "speaker": "Paula", "es": "En la mochila... Dios, ¿dónde está mi mochila?", "ru": "В рюкзаке... Боже, где мой рюкзак?" },
+    { "speaker": "Un hombre", "es": "Chicas, ¿es suya esta mochila roja?", "ru": "Девушки, это ваш красный рюкзак?" },
+    { "speaker": "Paula", "es": "Ay, muchas gracias, señor, es mía.", "ru": "Ой, большое спасибо, да, он мой." },
+    { "speaker": "Un hombre", "es": "De nada.", "ru": "Не за что." },
+    { "speaker": "Lucía", "es": "¿Están todos tus documentos dentro?", "ru": "Все твои документы внутри?" },
+    { "speaker": "Paula", "es": "El dinero, sí. El carnet, sí. No veo mi billete de autobús.", "ru": "Деньги — да. Удостоверение — да. Не вижу мой билет на автобус." },
+    { "speaker": "Lucía", "es": "A ver. Yo tengo dos, el tuyo está aquí, en mi bolsillo.", "ru": "Давай посмотрим. У меня два, твой здесь, в моём кармане." },
+    { "speaker": "Paula", "es": "¡Uf, qué susto!", "ru": "Уф, какой испуг!" }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el taquillero", "ru": "кассир на вокзале" },
+        { "es": "el billete de autobús", "ru": "билет на автобус" },
+        { "es": "la mochila", "ru": "рюкзак" },
+        { "es": "el bocadillo de atún", "ru": "бутерброд с тунцом" },
+        { "es": "el refresco de limón", "ru": "лимонад" },
+        { "es": "el zumo de naranja", "ru": "апельсиновый сок" },
+        { "es": "el carnet de identidad", "ru": "удостоверение личности" },
+        { "es": "los documentos", "ru": "документы" }
+      ]
+    },
+    {
+      "type": "fill-gap-posesivos",
+      "title": "Практика: притяжательные местоимения",
+      "description": "Вставь правильную форму притяжательного местоимения",
+      "sentences": [
+        { "text": "¿Es ___ esta mochila roja?", "ru": "Это твой красный рюкзак?", "answer": "suya", "options": ["suya", "mía", "tuyo"] },
+        { "text": "¡Claro que es ___ ! Gracias, señor.", "ru": "Конечно, он мой! Спасибо", "answer": "mía", "options": ["mía", "mío", "tuyo"] },
+        { "text": "Yo tengo dos billetes. El ___ está aquí, en mi bolsillo.", "ru": "У меня два билета. Твой здесь, в моём кармане", "answer": "tuyo", "options": ["tuyo", "mío", "suyo"] },
+        { "text": "Aquí solo tengo el ___ .", "ru": "Здесь у меня только мой", "answer": "mío", "options": ["mío", "mía", "tuyo"] },
+        { "text": "¿Son ___ estos billetes?", "ru": "Эти билеты ваши?", "answer": "vuestros", "options": ["vuestros", "suyos", "míos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-deber_infinitivo",
+      "title": "Практика: DEBER + infinitivo",
+      "description": "Вставь правильную форму глагола deber",
+      "sentences": [
+        { "text": "Según el horario, el autobús ___ salir a las diez y media.", "ru": "По расписанию автобус должен отправляться в десять тридцать", "answer": "debe", "options": ["debe", "debo", "debemos"] },
+        { "text": "Yo ___ esperar hasta las once y cuarenta.", "ru": "Я должен ждать до одиннадцати сорока", "answer": "debo", "options": ["debo", "debe", "debes"] },
+        { "text": "Tú ___ comprar el billete en la estación.", "ru": "Ты должен купить билет на станции", "answer": "debes", "options": ["debes", "debe", "deben"] },
+        { "text": "Nosotros ___ revisar nuestros bolsillos.", "ru": "Мы должны проверить наши карманы", "answer": "debemos", "options": ["debemos", "debéis", "deben"] },
+        { "text": "Ellos ___ llegar con retraso.", "ru": "Они должны прибыть с опозданием", "answer": "deben", "options": ["deben", "debemos", "debes"] }
+      ]
+    },
+    {
+      "type": "fill-gap-imperativo_tu",
+      "title": "Практика: повелительное наклонение",
+      "description": "Вставь правильную форму повелительного наклонения",
+      "sentences": [
+        { "text": "___ en la mochila.", "ru": "Посмотри в рюкзаке", "answer": "Mira", "options": ["Mira", "Mirar", "Miras"] },
+        { "text": "___ , ¿dónde está mi carnet de identidad?", "ru": "Слушай, где моё удостоверение личности?", "answer": "Oye", "options": ["Oye", "Oír", "Oyendo"] },
+        { "text": "___ a una cafetería, hace frío.", "ru": "Пойдём в кафе, холодно", "answer": "Vamos", "options": ["Vamos", "Vas", "Va"] },
+        { "text": "___ la mochila roja, por favor.", "ru": "Принеси, пожалуйста, красный рюкзак", "answer": "Trae", "options": ["Trae", "Traer", "Traes"] },
+        { "text": "___ los documentos dentro de la mochila.", "ru": "Проверь документы в рюкзаке", "answer": "Mira", "options": ["Mira", "Miran", "Miro"] }
+      ]
+    },
+    {
+      "type": "fill-gap-exclamaciones",
+      "title": "Практика: восклицания",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¡___ mala suerte!", "ru": "Какая неудача!", "answer": "Qué", "options": ["Qué", "Que", "Cuál"] },
+        { "text": "¡___ fastidio que el autobús llegue tarde!", "ru": "Какая досада, что автобус опаздывает!", "answer": "Vaya", "options": ["Vaya", "Qué", "Uf"] },
+        { "text": "¡Qué ___ ! Perdí mi billete.", "ru": "Какой испуг! Я потерял билет", "answer": "susto", "options": ["susto", "suerte", "tiempo"] },
+        { "text": "¡___ , qué tarde es!", "ru": "Уф, как поздно!", "answer": "Uf", "options": ["Uf", "Ay", "Vaya"] },
+        { "text": "¡___ , muchas gracias, señor!", "ru": "Ой, большое спасибо!", "answer": "Ay", "options": ["Ay", "Uf", "Qué"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Es ___ esta mochila roja?", "ru": "Это твой красный рюкзак?", "answer": "suya", "options": ["suya", "mía", "tuyo"] },
+        { "text": "Según el horario, el autobús ___ salir a las diez y media.", "ru": "По расписанию автобус должен отправляться в десять тридцать", "answer": "debe", "options": ["debe", "debo", "debemos"] },
+        { "text": "___ en la mochila, aquí no está.", "ru": "Посмотри в рюкзаке, здесь его нет", "answer": "Mira", "options": ["Mira", "Oye", "Vamos"] },
+        { "text": "El autobús llega con ___ .", "ru": "Автобус опаздывает", "answer": "retraso", "options": ["retraso", "noche", "carnet"] },
+        { "text": "Tengo bastante ___ .", "ru": "Я очень проголодалась", "answer": "hambre", "options": ["hambre", "frío", "miedo"] },
+        { "text": "Voy a pedir un bocadillo de ___ .", "ru": "Я закажу бутерброд с тунцом", "answer": "atún", "options": ["atún", "naranja", "limón"] },
+        { "text": "¡Qué ___ suerte!", "ru": "Какая неудача!", "answer": "mala", "options": ["mala", "buena", "nueva"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Отвечай на реплики Паулы своим голосом"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Паулой",
+      "role": "Paula",
+      "description": "Теперь ты Паула — отвечай Лусии"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Вы на вокзале: узнай время отправления автобуса, закажи еду в кафе и найди потерянную вещь",
+      "template": [
+        { "label": "По расписанию", "es": "Según el horario, el autobús sale a ___" },
+        { "label": "Во сколько", "es": "¿A qué hora ___?" },
+        { "label": "Мне нужно", "es": "Tengo que ___" },
+        { "label": "Посмотри", "es": "___ en la mochila" },
+        { "label": "Это моя", "es": "Es ___" },
+        { "label": "Какая неудача!", "es": "¡Qué ___!" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Dónde están Lucía y Paula?",
+          "ru": "Где находятся Лусия и Паула?",
+          "options": ["En una estación de autobuses", "En un aeropuerto", "En una tienda", "En un jardín"],
+          "answer": 0
+        },
+        {
+          "question": "¿A qué hora va a salir el autobús para Sevilla?",
+          "ru": "Во сколько отправится автобус на Севилью?",
+          "options": ["A las once y cuarenta", "A las diez y media", "A las once", "A las seis"],
+          "answer": 0
+        },
+        {
+          "question": "¿Por qué sale tarde el autobús?",
+          "ru": "Почему автобус отправляется позже?",
+          "options": ["Por cuestiones técnicas", "Porque llueve", "Porque no hay pasajeros", "Porque está rota la carretera"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué pide Lucía en la cafetería?",
+          "ru": "Что заказывает Лусия в кафе?",
+          "options": ["Un bocadillo de atún y un refresco de limón", "Un vaso de zumo de naranja", "Un café", "Un sándwich de queso"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué pide Paula?",
+          "ru": "Что заказывает Паула?",
+          "options": ["Un vaso de zumo de naranja", "Un refresco de limón", "Un bocadillo de atún", "Un chocolate caliente"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué pierde Paula?",
+          "ru": "Что теряет Паула?",
+          "options": ["Su mochila", "Su carnet de identidad", "Su billete de autobús", "Su dinero"],
+          "answer": 0
+        },
+        {
+          "question": "¿Quién devuelve la mochila?",
+          "ru": "Кто возвращает рюкзак?",
+          "options": ["Un hombre", "El taquillero", "La camarera", "Lucía"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué no ve Paula dentro de la mochila?",
+          "ru": "Что Паула не видит в рюкзаке?",
+          "options": ["Su billete de autobús", "Su carnet de identidad", "Su dinero", "Sus llaves"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить новые слова (транспорт, кафе, документы) в приложении",
+    "Практика: Расскажи партнёру (italki/Tandem) о поездке: el autobús sale a las ..., tengo que ..., es mío/tuyo, ¡qué susto!",
+    "Дневник: Опиши поездку на автобусе: во сколько вышел автобус, что ты заказал(а) в кафе, что нашёл(ла)/потерял(а)",
+    "Грамматика: Напиши 3 предложения с DEBER + infinitivo и 3 притяжательных местоимения (mío/tuyo/suyo)"
+  ]
+}

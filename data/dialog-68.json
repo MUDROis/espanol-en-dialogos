@@ -1,0 +1,719 @@
+{
+  "id": 68,
+  "title": "¿Dónde está?",
+  "titleRu": "Город: как пройти к вокзалу",
+  "module": "a0-a1",
+  "block": 2,
+  "part": 2,
+  "blockTitle": "Часть 2 · Продолжение начального уровня",
+  "level": "A1",
+  "theme": "Город: как пройти  La ciudad: cómo llegar",
+  "mission": "Спросить дорогу до музея или вокзала и понять ответ: направо, налево, прямо, рядом или далеко.",
+  "mapPoint": "Старый город Эль-Кармен",
+  "duration": "45 минут",
+  "stepsCount": 7,
+  "readingNote": "Прочитайте вслух маршрут: ll и y дают звук [й] — calle = «ка-йе», yo = «йо», plaza = «пла-са».",
+  "characters": [
+    "olga",
+    "paseante"
+  ],
+  "objectives": [
+    "Спросить, где находится объект: ¿dónde está la estación?",
+    "Понять указания: todo recto, a la derecha, a la izquierda",
+    "Сказать про расстояние и ответить о нём: cerca / lejos, cinco minutos",
+    "Самому объяснить маршрут туристу: todo recto y luego a la derecha",
+    "Читать названия улиц и площадей: calle, plaza, yo — звук [й]"
+  ],
+  "grammar": {
+    "estar_ubicacion": {
+      "title": "Estar + место: «находиться»",
+      "description": "Estar значит «находиться». Формула простая: [место] + está + [где]. La estación está cerca — вокзал рядом. В вопросе добавляем dónde: ¿Dónde está el museo? Для одного места está, для нескольких están: las tiendas están cerca.",
+      "forms": {
+        "yo": {
+          "es": "yo pregunto dónde está la estación",
+          "ru": "я спрашиваю, где вокзал"
+        },
+        "tu": {
+          "es": "tú dices dónde está el museo",
+          "ru": "ты говоришь, где музей"
+        },
+        "el_ella": {
+          "es": "ella mira dónde está la plaza",
+          "ru": "она смотрит, где площадь"
+        },
+        "nosotros": {
+          "es": "nosotros buscamos dónde está la parada",
+          "ru": "мы ищем, где остановка"
+        }
+      },
+      "examples": [
+        {
+          "es": "Perdone, ¿dónde está la estación?",
+          "ru": "Извините, где вокзал?"
+        },
+        {
+          "es": "El museo está en la plaza, a la izquierda.",
+          "ru": "Музей на площади, налево."
+        }
+      ]
+    },
+    "adverbios_de_lugar": {
+      "title": "Наречия места и направления",
+      "description": "Направления — это слова движения, их учат телом: todo recto — прямо, a la derecha — направо, a la izquierda — налево. Расстояние: cerca — рядом, lejos — далеко.",
+      "list": [
+        {
+          "es": "todo recto",
+          "ru": "прямо"
+        },
+        {
+          "es": "a la derecha",
+          "ru": "направо"
+        },
+        {
+          "es": "a la izquierda",
+          "ru": "налево"
+        },
+        {
+          "es": "cerca",
+          "ru": "рядом"
+        },
+        {
+          "es": "lejos",
+          "ru": "далеко"
+        },
+        {
+          "es": "a la derecha de + lugar",
+          "ru": "справа от …"
+        }
+      ],
+      "examples": [
+        {
+          "es": "Todo recto y luego a la derecha.",
+          "ru": "Прямо, потом направо."
+        },
+        {
+          "es": "Siga todo recto hasta la plaza.",
+          "ru": "Идите прямо до площади."
+        }
+      ]
+    },
+    "estar_cerca_lejos": {
+      "title": "Ответ про расстояние: ¿Está lejos de aquí?",
+      "description": "После вопроса про расстояние отвечаем ократко: no, está muy cerca — нет, совсем рядом; sí, está lejos — да, далеко. Предлоги: cerca de la plaza — рядом с площадью, lejos de aquí — далеко отсюда.",
+      "list": [
+        {
+          "es": "¿Dónde está el museo?",
+          "ru": "Где музей?"
+        },
+        {
+          "es": "La parada está cerca de la plaza.",
+          "ru": "Остановка рядом с площадью."
+        },
+        {
+          "es": "El supermercado está lejos: cinco minutos.",
+          "ru": "Супермаркет далеко: пять минут."
+        },
+        {
+          "es": "¿Está lejos de aquí?",
+          "ru": "Это далеко отсюда?"
+        },
+        {
+          "es": "No, está muy cerca.",
+          "ru": "Нет, совсем рядом."
+        },
+        {
+          "es": "De nada. ¡Adiós!",
+          "ru": "Пожалуйста. До свидания!"
+        }
+      ],
+      "examples": [
+        {
+          "es": "¿Está lejos de aquí? — No, está muy cerca. Cinco minutos.",
+          "ru": "Это далеко отсюда? — Нет, совсем рядом. Пять минут."
+        },
+        {
+          "es": "Muchas gracias. — De nada.",
+          "ru": "Большое спасибо. — Пожалуйста."
+        }
+      ]
+    }
+  },
+  "vocabulary": {
+    "los_lugares": [
+      {
+        "es": "la calle",
+        "ru": "улица"
+      },
+      {
+        "es": "la plaza",
+        "ru": "площадь"
+      },
+      {
+        "es": "la estación",
+        "ru": "вокзал"
+      },
+      {
+        "es": "el museo",
+        "ru": "музей"
+      },
+      {
+        "es": "el supermercado",
+        "ru": "супермаркет"
+      },
+      {
+        "es": "la parada",
+        "ru": "остановка"
+      }
+    ],
+    "las_direcciones": [
+      {
+        "es": "¿dónde está?",
+        "ru": "где находится?"
+      },
+      {
+        "es": "a la derecha",
+        "ru": "направо"
+      },
+      {
+        "es": "a la izquierda",
+        "ru": "налево"
+      },
+      {
+        "es": "todo recto",
+        "ru": "прямо"
+      },
+      {
+        "es": "cerca",
+        "ru": "рядом"
+      },
+      {
+        "es": "lejos",
+        "ru": "далеко"
+      }
+    ],
+    "las_expresiones": [
+      {
+        "es": "de nada",
+        "ru": "пожалуйста (на спасибо)"
+      },
+      {
+        "es": "buen viaje",
+        "ru": "хорошей поездки"
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "Olga",
+      "es": "Perdone, ¿dónde está la estación?",
+      "ru": "Извините, где вокзал?"
+    },
+    {
+      "speaker": "Un transeúnte",
+      "es": "La estación… Todo recto y luego a la derecha.",
+      "ru": "Вокзал… Прямо, потом направо."
+    },
+    {
+      "speaker": "Olga",
+      "es": "¿Está lejos de aquí?",
+      "ru": "Это далеко отсюда?"
+    },
+    {
+      "speaker": "Un transeúnte",
+      "es": "No, está muy cerca. Cinco minutos.",
+      "ru": "Нет, совсем рядом. Пять минут."
+    },
+    {
+      "speaker": "Olga",
+      "es": "¿Y el museo? ¿Dónde está el museo?",
+      "ru": "А музей? Где музей?"
+    },
+    {
+      "speaker": "Un transeúnte",
+      "es": "El museo está en la plaza, a la izquierda.",
+      "ru": "Музей на площади, налево."
+    },
+    {
+      "speaker": "Olga",
+      "es": "¿Y la parada del autobús?",
+      "ru": "А остановка автобуса?"
+    },
+    {
+      "speaker": "Un transeúnte",
+      "es": "La parada está a la derecha del museo.",
+      "ru": "Остановка справа от музея."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Todo recto y luego a la derecha. ¿Correcto?",
+      "ru": "Прямо, потом направо. Правильно?"
+    },
+    {
+      "speaker": "Un transeúnte",
+      "es": "Exacto. Siga todo recto hasta la plaza.",
+      "ru": "Верно. Идите прямо до площади."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Muchas gracias. ¡Adiós!",
+      "ru": "Большое спасибо. До свидания!"
+    },
+    {
+      "speaker": "Un transeúnte",
+      "es": "¡Hasta luego! ¡Buen viaje!",
+      "ru": "До скорого! Хорошей поездки!"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        {
+          "es": "la calle",
+          "ru": "улица"
+        },
+        {
+          "es": "la plaza",
+          "ru": "площадь"
+        },
+        {
+          "es": "la estación",
+          "ru": "вокзал"
+        },
+        {
+          "es": "el museo",
+          "ru": "музей"
+        },
+        {
+          "es": "el supermercado",
+          "ru": "супермаркет"
+        },
+        {
+          "es": "la parada",
+          "ru": "остановка"
+        },
+        {
+          "es": "a la derecha",
+          "ru": "направо"
+        },
+        {
+          "es": "a la izquierda",
+          "ru": "налево"
+        },
+        {
+          "es": "todo recto",
+          "ru": "прямо"
+        },
+        {
+          "es": "lejos",
+          "ru": "далеко"
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-estar_ubicacion",
+      "title": "Практика: Estar + место",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "¿Dónde ___ el museo?",
+          "ru": "Где музей?",
+          "answer": "está",
+          "options": [
+            "está",
+            "es",
+            "hay"
+          ]
+        },
+        {
+          "text": "La estación ___ muy cerca.",
+          "ru": "Вокзал совсем рядом.",
+          "answer": "está",
+          "options": [
+            "está",
+            "es",
+            "tiene"
+          ]
+        },
+        {
+          "text": "El supermercado ___ lejos: cinco minutos.",
+          "ru": "Супермаркет далеко: пять минут.",
+          "answer": "está",
+          "options": [
+            "está",
+            "es",
+            "hay"
+          ]
+        },
+        {
+          "text": "Las tiendas ___ cerca de la plaza.",
+          "ru": "Магазины рядом с площадью.",
+          "answer": "están",
+          "options": [
+            "están",
+            "está",
+            "son"
+          ]
+        },
+        {
+          "text": "Nosotros buscamos dónde ___ la parada.",
+          "ru": "Мы ищем, где остановка.",
+          "answer": "está",
+          "options": [
+            "está",
+            "es",
+            "son"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-adverbios_de_lugar",
+      "title": "Практика: Направо, налево, прямо, рядом",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Todo ___ y luego a la derecha.",
+          "ru": "Прямо, потом направо.",
+          "answer": "recto",
+          "options": [
+            "recto",
+            "cerca",
+            "lejos"
+          ]
+        },
+        {
+          "text": "La parada está a la ___ del museo.",
+          "ru": "Остановка слева от музея.",
+          "answer": "izquierda",
+          "options": [
+            "izquierda",
+            "derecha",
+            "derechas"
+          ]
+        },
+        {
+          "text": "___ recto hasta la plaza.",
+          "ru": "Прямо до площади.",
+          "answer": "Todo",
+          "options": [
+            "Todo",
+            "Toda",
+            "Todos"
+          ]
+        },
+        {
+          "text": "El museo está ___ de aquí.",
+          "ru": "Музей далеко отсюда.",
+          "answer": "lejos",
+          "options": [
+            "lejos",
+            "cerca",
+            "recto"
+          ]
+        },
+        {
+          "text": "El hotel está ___ de la plaza.",
+          "ru": "Отель рядом с площадью.",
+          "answer": "cerca",
+          "options": [
+            "cerca",
+            "lejos",
+            "todos"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-estar_cerca_lejos",
+      "title": "Практика: Вопросы о месте и расстоянии",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Perdone, ¿dónde ___ la estación?",
+          "ru": "Извините, где вокзал?",
+          "answer": "está",
+          "options": [
+            "está",
+            "es",
+            "hay"
+          ]
+        },
+        {
+          "text": "— ¿Está lejos de aquí? — No, ___ muy cerca.",
+          "ru": "— Это далеко отсюда? — Нет, совсем рядом.",
+          "answer": "está",
+          "options": [
+            "está",
+            "es",
+            "hay"
+          ]
+        },
+        {
+          "text": "El museo está en la plaza, a la ___.",
+          "ru": "Музей на площади, налево.",
+          "answer": "izquierda",
+          "options": [
+            "izquierda",
+            "derecha",
+            "lejos"
+          ]
+        },
+        {
+          "text": "Muchas gracias. — De ___.",
+          "ru": "Большое спасибо. — Пожалуйста.",
+          "answer": "nada",
+          "options": [
+            "nada",
+            "nadie",
+            "aquí"
+          ]
+        },
+        {
+          "text": "La parada está cerca ___ la plaza.",
+          "ru": "Остановка рядом с площадью.",
+          "answer": "de",
+          "options": [
+            "de",
+            "a",
+            "en"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Perdone, ¿dónde ___ la estación?",
+          "ru": "Извините, где вокзал?",
+          "answer": "está",
+          "options": [
+            "está",
+            "es",
+            "hay"
+          ]
+        },
+        {
+          "text": "Todo ___ y luego a la derecha.",
+          "ru": "Прямо, потом направо.",
+          "answer": "recto",
+          "options": [
+            "recto",
+            "cerca",
+            "lejos"
+          ]
+        },
+        {
+          "text": "El museo está en la plaza, a la ___.",
+          "ru": "Музей на площади, налево.",
+          "answer": "izquierda",
+          "options": [
+            "izquierda",
+            "derecha",
+            "cerca"
+          ]
+        },
+        {
+          "text": "No, está muy ___.",
+          "ru": "Нет, совсем рядом.",
+          "answer": "cerca",
+          "options": [
+            "cerca",
+            "lejos",
+            "recto"
+          ]
+        },
+        {
+          "text": "La parada está a la derecha ___ museo.",
+          "ru": "Остановка справа от музея.",
+          "answer": "del",
+          "options": [
+            "del",
+            "de la",
+            "de"
+          ]
+        },
+        {
+          "text": "___ recto hasta la plaza.",
+          "ru": "Прямо до площади.",
+          "answer": "Todo",
+          "options": [
+            "Todo",
+            "Toda",
+            "Todos"
+          ]
+        },
+        {
+          "text": "Muchas gracias. ¡___ luego!",
+          "ru": "Большое спасибо. До скорого!",
+          "answer": "Hasta",
+          "options": [
+            "Hasta",
+            "Hola",
+            "Bueno"
+          ]
+        },
+        {
+          "text": "Cinco minutos: no está ___.",
+          "ru": "Пять минут: это недалеко.",
+          "answer": "lejos",
+          "options": [
+            "lejos",
+            "cerca",
+            "recto"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Ольгой",
+      "role": "Olga",
+      "description": "Ты — туристка: спрашиваешь дорогу, уточняешь расстояние и благодаришь за маршрут"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь прохожим",
+      "role": "Un transeúnte",
+      "description": "Ты — прохожий: объясняешь маршрут к вокзалу и музею, отвечаешь, далеко ли это"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Спроси дорогу и повтори маршрут вслух: прямо, направо, рядом",
+      "template": [
+        {
+          "label": "Извините, где вокзал?",
+          "es": "Perdone, ¿dónde ___ la estación?"
+        },
+        {
+          "label": "Прямо, потом направо",
+          "es": "Todo ___ y luego a la derecha."
+        },
+        {
+          "label": "Это далеко отсюда?",
+          "es": "¿Está ___ de aquí?"
+        },
+        {
+          "label": "Нет, совсем рядом",
+          "es": "No, está muy ___."
+        },
+        {
+          "label": "Большое спасибо",
+          "es": "Muchas ___."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Dónde está la estación?",
+          "ru": "Где вокзал?",
+          "options": [
+            "Todo recto y luego a la derecha",
+            "Todo recto y luego a la izquierda",
+            "A la derecha del museo"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Está lejos la estación?",
+          "ru": "Вокзал далеко?",
+          "options": [
+            "Sí, muy lejos",
+            "No, está muy cerca",
+            "No hay estación"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Dónde está el museo?",
+          "ru": "Где музей?",
+          "options": [
+            "En la plaza, a la izquierda",
+            "En la calle, a la derecha",
+            "Lejos del supermercado"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué significa «todo recto»?",
+          "ru": "Что значит «todo recto»?",
+          "options": [
+            "налево",
+            "прямо",
+            "рядом"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Quién hace la pregunta sobre la estación?",
+          "ru": "Кто задаёт вопрос про вокзал?",
+          "options": [
+            "El transeúnte",
+            "Olga",
+            "Mateo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "«La parada está a la derecha del museo» — ¿qué significa?",
+          "ru": "«La parada está a la derecha del museo» — что это значит?",
+          "options": [
+            "Остановка справа от музея",
+            "Остановка слева от музея",
+            "Остановка рядом с площадью"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se lee «calle»?",
+          "ru": "Как читается «calle»?",
+          "options": [
+            "«калле»",
+            "«ка-йе»",
+            "«ка-лье»"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo se responde a «Muchas gracias»?",
+          "ru": "Как ответить на «Muchas gracias»?",
+          "options": [
+            "De nada",
+            "Hasta luego",
+            "Buen viaje"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    "Я спрашиваю дорогу вопросом ¿dónde está…?",
+    "Я понимаю указания: todo recto, a la derecha, a la izquierda",
+    "Я говорю о расстоянии: cerca, lejos",
+    "Я могу объяснить маршрут сам: todo recto y luego a la derecha",
+    "Я отвечаю на благодарность: de nada",
+    "Я читаю названия улиц и площадей: calle, plaza, yo"
+  ],
+  "homework": [
+    "Опиши маршрут от дома до ближайшего магазина в 3–4 реплики и запиши его вслух",
+    "Используй в маршруте todo recto, a la derecha / a la izquierda, cerca / lejos",
+    "Прочитай вслух названия на плане: calle Colón, plaza Mayor, calle de la Paz",
+    "Запиши в дневник прогресса 30 секунд речи: вопрос о дороге, маршрут, ответ про расстояние"
+  ]
+}

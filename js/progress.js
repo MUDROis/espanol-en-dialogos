@@ -1,0 +1,5 @@
+/**
+ * Copyright (c) 2019-2026 ИП Громова Анна Александровна
+ * Все права защищены. Копирование запрещено.
+ */
+const Progress={_uid:null,setUid(e){this._uid=e},async get(e){return this._uid?await FirestoreDB.getProgress(this._uid,e):{completed:!1,score:0,lastStep:0}},async set(e,t){if(!this._uid)return;const s=await this.get(e);if(void 0!==t.completed&&"boolean"==typeof t.completed&&await FirestoreDB.saveProgress(this._uid,e,s.completed?s.completed.length:0,t.completed),void 0!==t.lastStep){const s=await FirestoreDB.getUser(this._uid);if(s){const o=s.progress||{},i=o[e]||{completed:!1,score:0,lastStep:0};i.lastStep=t.lastStep,void 0!==t.completed&&(i.completed=t.completed),o[e]=i,await db.collection("users").doc(this._uid).update({progress:o})}}},async getAll(){return this._uid?await FirestoreDB.getAllProgress(this._uid):{}},async getStats(){const e=await this.getAll(),t=Object.values(e);return{total:t.length,completed:t.filter(e=>!0===e.completed||Array.isArray(e.completed)&&e.completed.length>0&&e.completed.some(Boolean)).length}}};

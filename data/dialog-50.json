@@ -1,0 +1,299 @@
+{
+  "id": 50,
+  "title": "Carlos y Lucía están en el teatro",
+  "titleRu": "Карлос и Лусия в театре",
+  "part": 6,
+  "level": "B2+",
+  "theme": "Театр, спектакль, впечатления  El teatro, el espectáculo, las impresiones",
+  "characters": ["carlos", "lucia"],
+  "objectives": [
+    "Обсуждать спектакль: el espectáculo, la actuación, las escenas, la función, la salida",
+    "Делиться впечатлениями с pretérito perfecto: me ha gustado, me ha sorprendido, me ha encantado",
+    "Использовать безличный HAY: ha habido demasiadas escenas tristes",
+    "Давать оценку: me ha parecido muy lento, ha estado fantástico, es muy emocionante",
+    "Выражать цель: antes de ir a casa, para felicitar a los actores",
+    "Предлагать и соглашаться: ¿Quieres tomar algo?, buena idea, vale, vamos"
+  ],
+  "grammar": {
+    "perfecto_valorar": {
+      "title": "Pretérito perfecto для впечатлений: me ha gustado, me ha parecido...",
+      "description": "После просмотра спектакля впечатления выражают pretérito perfecto: me ha gustado mucho (мне очень понравилось), me ha sorprendido el actor principal (меня удивил главный актёр), algunas partes me han parecido muy lentas (некоторые моменты мне показались затянутыми), ha sido una experiencia muy bonita (это был очень приятный опыт).",
+      "forms": {
+        "yo": { "es": "me ha gustado mucho", "ru": "мне очень понравилось" },
+        "tu": { "es": "te ha parecido lento", "ru": "тебе показалось затянутым" },
+        "el_ella": { "es": "le ha sorprendido el actor", "ru": "его/её удивил актёр" },
+        "nosotros": { "es": "nos ha encantado la música", "ru": "нам очень понравилась музыка" },
+        "vosotros": { "es": "os han parecido lentas", "ru": "вам показались затянутыми" },
+        "ellos_ellas": { "es": "les han gustado los actores", "ru": "им понравились актёры" }
+      },
+      "examples": [
+        { "es": "La actuación de los actores ha sido buena. Me ha sorprendido el actor principal.", "ru": "Игра актёров была хорошей. Меня удивил главный актёр." },
+        { "es": "Algunas partes me han parecido muy lentas.", "ru": "Некоторые моменты мне показались очень затянутыми." }
+      ]
+    },
+    "hay_impersonal": {
+      "title": "Безличный HAY: ha habido, había, habrá",
+      "description": "Безличный оборот hay (ha habido, había, habrá) описывает существование чего-то в единственном и множественном числе: ha habido demasiadas escenas tristes (было слишком много грустных сцен), también ha habido momentos muy divertidos (было и много весёлых моментов), había mucha gente en la salida (у выхода было много народу), mañana habrá dos funciones (завтра будет два представления).",
+      "list": [
+        { "es": "ha habido demasiadas escenas tristes", "ru": "было слишком много грустных сцен" },
+        { "es": "también ha habido momentos muy divertidos", "ru": "было и много весёлых моментов" },
+        { "es": "había mucha gente en la salida", "ru": "у выхода было много народу" },
+        { "es": "hoy hay dos funciones en el teatro", "ru": "сегодня в театре два представления" },
+        { "es": "mañana habrá otra función", "ru": "завтра будет ещё одно представление" },
+        { "es": "ha habido una experiencia muy bonita", "ru": "это был очень приятный опыт" }
+      ],
+      "examples": [
+        { "es": "Creo que ha habido demasiadas escenas tristes.", "ru": "По-моему, было слишком много грустных сцен." },
+        { "es": "También ha habido momentos muy divertidos y emocionantes.", "ru": "Были и очень весёлые и трогательные моменты." }
+      ]
+    },
+    "antes_de_para": {
+      "title": "Цель и последовательность: antes de + inf, para + inf",
+      "description": "antes de + infinitivo = «перед тем как»: antes de ir a casa (перед тем как идти домой). para + infinitivo = «чтобы»: para felicitar a los actores (чтобы поздравить актёров), vamos a un café para tomar algo (пойдём в кафе, чтобы что-нибудь выпить).",
+      "list": [
+        { "es": "antes de ir a casa", "ru": "перед тем как идти домой" },
+        { "es": "para felicitar a los actores", "ru": "чтобы поздравить актёров" },
+        { "es": "vamos a un café para tomar algo", "ru": "пойдём в кафе, чтобы что-нибудь выпить" },
+        { "es": "salimos temprano para no perder el comienzo", "ru": "мы вышли рано, чтобы не потерять начало" },
+        { "es": "antes de empezar la función", "ru": "перед началом представления" },
+        { "es": "quédate aquí para ver a los actores", "ru": "останься здесь, чтобы увидеть актёров" }
+      ],
+      "examples": [
+        { "es": "¿Quieres tomar algo antes de ir a casa?", "ru": "Хочешь что-нибудь выпить перед тем, как идти домой?" },
+        { "es": "Vamos a ver quién está en la salida del teatro para felicitar a los actores.", "ru": "Давай посмотрим, кто у выхода из театра, чтобы поздравить актёров." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "el_teatro": [
+      { "es": "el espectáculo", "ru": "представление, шоу" },
+      { "es": "la actuación", "ru": "игра (актёров)" },
+      { "es": "el actor principal", "ru": "главный актёр" },
+      { "es": "las escenas", "ru": "сцены" },
+      { "es": "la salida", "ru": "выход" },
+      { "es": "la función", "ru": "представление, спектакль" },
+      { "es": "el teatro", "ru": "театр" },
+      { "es": "los espectadores", "ru": "зрители" }
+    ],
+    "la_valoracion": [
+      { "es": "triste", "ru": "грустный" },
+      { "es": "lento/a", "ru": "медленный, затянутый" },
+      { "es": "divertido/a", "ru": "весёлый, забавный" },
+      { "es": "emocionante", "ru": "трогательный, захватывающий" },
+      { "es": "fantástico/a", "ru": "фантастический, великолепный" },
+      { "es": "precioso/a", "ru": "прекрасный" },
+      { "es": "bonito/a", "ru": "красивый, приятный" },
+      { "es": "interesante", "ru": "интересный" },
+      { "es": "demasiado", "ru": "слишком" },
+      { "es": "cercano/a", "ru": "близкий, ближайший" }
+    ],
+    "los_sustantivos": [
+      { "es": "la historia", "ru": "история, сюжет" },
+      { "es": "los momentos", "ru": "моменты" },
+      { "es": "la música", "ru": "музыка" },
+      { "es": "la experiencia", "ru": "опыт, впечатление" },
+      { "es": "el café cercano", "ru": "ближайшее кафе" },
+      { "es": "ir a casa", "ru": "идти домой" }
+    ],
+    "los_verbos": [
+      { "es": "parecer", "ru": "казаться" },
+      { "es": "sorprender", "ru": "удивлять" },
+      { "es": "encantar", "ru": "очень нравиться" },
+      { "es": "haber (ha habido)", "ru": "быть (иметься) — безлично" },
+      { "es": "felicitar", "ru": "поздравлять" },
+      { "es": "tomar algo", "ru": "выпить что-нибудь" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Lucía", "es": "¿Qué tal ha parecido el espectáculo?", "ru": "Как тебе показалось представление?" },
+    { "speaker": "Carlos", "es": "No está mal, me ha gustado mucho. La actuación de los actores ha sido buena. Me ha sorprendido el actor principal.", "ru": "Неплохо, мне очень понравилось. Игра актёров была хорошей. Меня удивил главный актёр." },
+    { "speaker": "Lucía", "es": "Sí, es verdad. Ha estado fantástico. Además, la historia era muy interesante.", "ru": "Да, верно. Он был великолепен. К тому же история была очень интересной." },
+    { "speaker": "Carlos", "es": "Sí, pero creo que ha habido demasiadas escenas tristes. Algunas partes me han parecido muy lentas.", "ru": "Да, но, по-моему, было слишком много грустных сцен. Некоторые моменты мне показались очень затянутыми." },
+    { "speaker": "Lucía", "es": "Ya, tienes razón. Pero también ha habido momentos muy divertidos y emocionantes.", "ru": "Да, ты прав. Но были и очень весёлые и трогательные моменты." },
+    { "speaker": "Carlos", "es": "Eso es cierto. Y la música era preciosa. Me ha encantado.", "ru": "Это точно. И музыка была прекрасной. Мне очень понравилось." },
+    { "speaker": "Lucía", "es": "A mí también. Ha sido una experiencia muy bonita.", "ru": "Мне тоже. Это был очень приятный опыт." },
+    { "speaker": "Carlos", "es": "¿Quieres tomar algo antes de ir a casa?", "ru": "Хочешь что-нибудь выпить перед тем, как идти домой?" },
+    { "speaker": "Lucía", "es": "Sí, buena idea. Vamos a un café cercano.", "ru": "Да, хорошая идея. Пойдём в ближайшее кафе." },
+    { "speaker": "Carlos", "es": "Perfecto. Pero primero vamos a ver quién está en la salida del teatro para felicitar a los actores.", "ru": "Отлично. Но сначала давай посмотрим, кто у выхода из театра, чтобы поздравить актёров." },
+    { "speaker": "Lucía", "es": "Vale. Vamos.", "ru": "Хорошо. Пойдём." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el espectáculo", "ru": "представление" },
+        { "es": "la actuación", "ru": "игра актёров" },
+        { "es": "el actor principal", "ru": "главный актёр" },
+        { "es": "las escenas", "ru": "сцены" },
+        { "es": "la salida", "ru": "выход" },
+        { "es": "la función", "ru": "спектакль" },
+        { "es": "los espectadores", "ru": "зрители" },
+        { "es": "emocionante", "ru": "трогательный" },
+        { "es": "lento/a", "ru": "затянутый" },
+        { "es": "felicitar", "ru": "поздравлять" }
+      ]
+    },
+    {
+      "type": "fill-gap-perfecto_valorar",
+      "title": "Практика: Pretérito perfecto для впечатлений",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "La actuación de los actores ___ sido buena.", "ru": "Игра актёров была хорошей", "answer": "ha", "options": ["ha", "has", "había"] },
+        { "text": "Me ha ___ el actor principal.", "ru": "Меня удивил главный актёр", "answer": "sorprendido", "options": ["sorprendido", "excitado", "cansado"] },
+        { "text": "Algunas partes me han ___ muy lentas.", "ru": "Некоторые моменты мне показались очень затянутыми", "answer": "parecido", "options": ["parecido", "parecían", "parecen"] },
+        { "text": "La música me ha ___.", "ru": "Мне очень понравилась музыка", "answer": "encantado", "options": ["encantado", "encantada", "encantó"] },
+        { "text": "___ sido una experiencia muy bonita.", "ru": "Это был очень приятный опыт", "answer": "Ha", "options": ["Ha", "He", "Han"] }
+      ]
+    },
+    {
+      "type": "fill-gap-hay_impersonal",
+      "title": "Практика: Безличный HAY",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Ha ___ demasiadas escenas tristes.", "ru": "Было слишком много грустных сцен", "answer": "habido", "options": ["habido", "había", "habrá"] },
+        { "text": "___ muchos momentos divertidos.", "ru": "Много весёлых моментов", "answer": "Hay", "options": ["Hay", "Ha", "Son"] },
+        { "text": "¿Quién está en la salida? ___ mucha gente.", "ru": "Кто у выхода? Там много народу", "answer": "Hay", "options": ["Hay", "Está", "Es"] },
+        { "text": "En la cola ___ unos diez espectadores.", "ru": "В очереди было около десяти зрителей", "answer": "había", "options": ["había", "hay", "habrá"] },
+        { "text": "Mañana ___ dos funciones en el teatro.", "ru": "Завтра в театре будет два представления", "answer": "habrá", "options": ["habrá", "hay", "había"] }
+      ]
+    },
+    {
+      "type": "fill-gap-antes_de_para",
+      "title": "Практика: antes de + inf, para + inf",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Quieres tomar algo antes de ___ a casa?", "ru": "Хочешь выпить что-нибудь перед тем, как идти домой?", "answer": "ir", "options": ["ir", "venir", "volver"] },
+        { "text": "Vamos a un café ___ tomar algo.", "ru": "Пойдём в кафе, чтобы что-нибудь выпить", "answer": "para", "options": ["para", "por", "antes"] },
+        { "text": "Vamos a ver quién está en la salida ___ felicitar a los actores.", "ru": "Посмотрим, кто у выхода, чтобы поздравить актёров", "answer": "para", "options": ["para", "para que", "desde"] },
+        { "text": "Salimos temprano para no ___ el comienzo.", "ru": "Мы вышли рано, чтобы не потерять начало", "answer": "perder", "options": ["perder", "perdamos", "perdimos"] },
+        { "text": "Antes de ___ la función, compramos el programa.", "ru": "Перед началом представления мы купили программку", "answer": "empezar", "options": ["empezar", "empiece", "empieza"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Qué tal ha ___ el espectáculo?", "ru": "Как тебе показалось представление?", "answer": "parecido", "options": ["parecido", "parecía", "parece"] },
+        { "text": "La actuación de los ___ ha sido buena.", "ru": "Игра актёров была хорошей", "answer": "actores", "options": ["actores", "espectadores", "músicos"] },
+        { "text": "Me ha ___ el actor principal.", "ru": "Меня удивил главный актёр", "answer": "sorprendido", "options": ["sorprendido", "aburrido", "tranquilo"] },
+        { "text": "Ha habido ___ muchas escenas tristes.", "ru": "Было слишком много грустных сцен", "answer": "demasiadas", "options": ["demasiadas", "pocas", "algunas"] },
+        { "text": "Algunas partes me han parecido muy ___.", "ru": "Некоторые моменты мне показались очень затянутыми", "answer": "lentas", "options": ["lentas", "rápidas", "cortas"] },
+        { "text": "También ha habido momentos muy ___ y emocionantes.", "ru": "Были и очень весёлые и трогательные моменты", "answer": "divertidos", "options": ["divertidos", "tristes", "oscuros"] },
+        { "text": "¿Quieres tomar algo antes de ___ a casa?", "ru": "Хочешь выпить что-нибудь перед тем, как идти домой?", "answer": "ir", "options": ["ir", "volver", "llegar"] },
+        { "text": "Vamos a un café ___.", "ru": "Пойдём в ближайшее кафе", "answer": "cercano", "options": ["cercano", "lejano", "grande"] },
+        { "text": "Vamos a ver quién está en la salida para ___ a los actores.", "ru": "Посмотрим, кто у выхода, чтобы поздравить актёров", "answer": "felicitar", "options": ["felicitar", "castigar", "esperar"] },
+        { "text": "Ha sido una experiencia muy ___.", "ru": "Это был очень приятный опыт", "answer": "bonita", "options": ["bonita", "larga", "rápida"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Ты — Карлос, делишься впечатлениями о спектакле и предлагаешь выпить кофе"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Ты — Лусия, обсуждаешь спектакль и соглашаешься пойти в кафе"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Обсуди спектакль: впечатления, оценка, планы после театра",
+      "template": [
+        { "label": "Как тебе показалось представление?", "es": "¿Qué tal ha ___ el espectáculo?" },
+        { "label": "Мне очень понравилось", "es": "Me ha ___ mucho." },
+        { "label": "Меня удивил главный актёр", "es": "Me ha ___ el actor principal." },
+        { "label": "Было слишком много грустных сцен", "es": "Ha habido ___ escenas tristes." },
+        { "label": "Мне показались затянутыми", "es": "Me han ___ muy lentas." },
+        { "label": "Весёлые и трогательные моменты", "es": "Momentos ___ y emocionantes." },
+        { "label": "Очень приятный опыт", "es": "Una experiencia muy ___." },
+        { "label": "Перед тем, как идти домой", "es": "Antes de ___ a casa." },
+        { "label": "Ближайшее кафе", "es": "Un café ___." },
+        { "label": "Поздравить актёров", "es": "Para ___ a los actores." }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Qué han visto Carlos y Lucía?",
+          "ru": "Что посмотрели Карлос и Лусия?",
+          "options": ["Un espectáculo de teatro", "Una película", "Un concierto", "Un partido"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué le ha sorprendido a Carlos?",
+          "ru": "Что удивило Карлоса?",
+          "options": ["El actor principal", "La música", "Las escenas tristes", "El café"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo ha estado el actor principal según Lucía?",
+          "ru": "Каким, по словам Лусии, был главный актёр?",
+          "options": ["Fantástico", "Lento", "Aburrido", "Nervioso"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué crítica hace Carlos del espectáculo?",
+          "ru": "Какую критику высказывает Карлос о спектакле?",
+          "options": ["Ha habido demasiadas escenas tristes y algunas partes lentas", "La música era fea", "Los actores hablaban bajito", "El teatro estaba vacío"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué momentos había también según Lucía?",
+          "ru": "Какие моменты были ещё, по словам Лусии?",
+          "options": ["Divertidos y emocionantes", "Tristes", "Aburridos", "Extraños"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué le ha encantado a Carlos?",
+          "ru": "Что очень понравилось Карлосу?",
+          "options": ["La música", "Las escenas tristes y las partes lentas", "El actor principal", "Las comedias"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué propone Carlos después del teatro?",
+          "ru": "Что предлагает Карлос после театра?",
+          "options": ["Ir a tomar algo a un café cercano", "Volver a casa", "Comer en el teatro", "Comprar entradas"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué quiere hacer Carlos antes de ir al café?",
+          "ru": "Что Карлос хочет сделать перед походом в кафе?",
+          "options": ["Felicitar a los actores", "Comprar un programa", "Llamar por teléfono", "Comprar flores"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué quiere tomar Lucía?",
+          "ru": "Что хочет сделать Лусия?",
+          "options": ["Tomar algo en el café", "Irse a casa ya", "Volver a ver la obra", "Hablar con los actores"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué opina Lucía del conjunto de la experiencia?",
+          "ru": "Как Лусия оценивает весь опыт в целом?",
+          "options": ["Ha sido muy bonita", "Ha sido corta", "No le ha gustado", "Era demasiado rápida"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повтори слова по теме «театр, спектакль, впечатления»",
+    "Практика: расскажи о последнем спектакле, фильме или концерте. Используй: me ha gustado/parecido..., ha habido..., me ha sorprendido...",
+    "Дневник: опиши свой поход в театр или кино",
+    "Грамматика: составь 4 предложения с me ha parecido + прилагательное и 4 с ha habido + существительное"
+  ]
+}

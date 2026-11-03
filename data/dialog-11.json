@@ -1,0 +1,364 @@
+{
+  "id": 11,
+  "title": "Laura y Pablo caminan por el jardín botánico",
+  "titleRu": "Лаура и Пабло гуляют по ботаническому саду",
+  "part": 2,
+  "level": "A2",
+  "theme": "Погода, планы, свободное время  El tiempo, los planes, el tiempo libre",
+  "characters": ["pablo", "laura"],
+  "objectives": [
+    "Говорить о погоде (En Valencia nunca nieva, a veces llovizna)",
+    "Строить планы с конструкцией IR A + infinitivo",
+    "Рассказывать об умениях и возможностях (saber, poder)",
+    "Говорить о привычках (soler + infinitivo) и желаниях (tener ganas de)"
+  ],
+  "grammar": {
+    "ir_a": {
+      "title": "Конструкция IR A + infinitivo (ближайшее будущее)",
+      "description": "IR A + инфинитив — способ сказать о планах на ближайшее будущее. Глагол IR спрягается, а смысловой глагол остаётся в инфинитиве: «Vamos a recorrer el centro».",
+      "forms": {
+        "yo": { "es": "voy a visitar", "ru": "я собираюсь посетить" },
+        "tu": { "es": "vas a visitar", "ru": "ты собираешься посетить" },
+        "el_ella": { "es": "va a venir", "ru": "он/она собирается прийти" },
+        "nosotros": { "es": "vamos a recorrer", "ru": "мы собираемся погулять" },
+        "vosotros": { "es": "vais a visitar", "ru": "вы собираетесь посетить" },
+        "ellos_ellas": { "es": "van a visitar", "ru": "они собираются посетить" }
+      },
+      "examples": [
+        { "es": "La próxima semana va a venir mi hermana.", "ru": "На следующей неделе приедет моя сестра." },
+        { "es": "Voy a apuntarme a clases de cocina.", "ru": "Я собираюсь записаться на уроки кулинарии." }
+      ]
+    },
+    "saber": {
+      "title": "Глагол SABER + infinitivo (уметь)",
+      "description": "SABER + инфинитив означает «уметь, знать как делать что-то»: «No sé montar en patineta» — «Я не умею кататься на скейтборде».",
+      "forms": {
+        "yo": { "es": "sé nadar", "ru": "я умею плавать" },
+        "tu": { "es": "sabes nadar", "ru": "ты умеешь плавать" },
+        "el_ella": { "es": "sabe nadar", "ru": "он/она умеет плавать" },
+        "nosotros": { "es": "sabemos nadar", "ru": "мы умеем плавать" },
+        "vosotros": { "es": "sabéis nadar", "ru": "вы умеете плавать" },
+        "ellos_ellas": { "es": "saben nadar", "ru": "они умеют плавать" }
+      },
+      "examples": [
+        { "es": "No sé montar en patineta.", "ru": "Я не умею кататься на скейтборде." },
+        { "es": "¿Sabes cocinar?", "ru": "Ты умеешь готовить?" }
+      ]
+    },
+    "poder": {
+      "title": "Глагол PODER + infinitivo (мочь)",
+      "description": "PODER + инфинитив означает «мочь, быть в состоянии»: «¿Puedo ver tus fotos?» — «Могу я посмотреть твои фотографии?».",
+      "forms": {
+        "yo": { "es": "puedo ir", "ru": "я могу пойти" },
+        "tu": { "es": "puedes ir", "ru": "ты можешь пойти" },
+        "el_ella": { "es": "puede ir", "ru": "он/она может пойти" },
+        "nosotros": { "es": "podemos ir", "ru": "мы можем пойти" },
+        "vosotros": { "es": "podéis ir", "ru": "вы можете пойти" },
+        "ellos_ellas": { "es": "pueden ir", "ru": "они могут пойти" }
+      },
+      "examples": [
+        { "es": "¿Puedo ver tus fotos?", "ru": "Можно посмотреть твои фотографии?" },
+        { "es": "Podemos tomar un helado.", "ru": "Можем съесть мороженое." }
+      ]
+    },
+    "soler": {
+      "title": "Глагол SOLER + infinitivo (обычно делать)",
+      "description": "SOLER + инфинитив описывает регулярные действия: «Suelo ir al gimnasio con mi primo» — «Я обычно хожу в спортзал с двоюродным братом».",
+      "forms": {
+        "yo": { "es": "suelo ir", "ru": "я обычно хожу" },
+        "tu": { "es": "sueles ir", "ru": "ты обычно ходишь" },
+        "el_ella": { "es": "suele ir", "ru": "он/она обычно ходит" },
+        "nosotros": { "es": "solemos ir", "ru": "мы обычно ходим" },
+        "vosotros": { "es": "soléis ir", "ru": "вы обычно ходите" },
+        "ellos_ellas": { "es": "suelen ir", "ru": "они обычно ходят" }
+      },
+      "examples": [
+        { "es": "Suelo ir al gimnasio los martes por la mañana.", "ru": "Я обычно хожу в спортзал по вторникам утром." }
+      ]
+    },
+    "pensar": {
+      "title": "Глагол PENSAR + infinitivo (намереваться)",
+      "description": "PENSAR + инфинитив означает «планировать, намереваться»: «Pienso apuntarme a clases de fotografía» — «Я собираюсь записаться на уроки фотографии».",
+      "forms": {
+        "yo": { "es": "pienso apuntarme", "ru": "я собираюсь записаться" },
+        "tu": { "es": "piensas apuntarte", "ru": "ты собираешься записаться" },
+        "el_ella": { "es": "piensa apuntarse", "ru": "он/она собирается записаться" },
+        "nosotros": { "es": "pensamos apuntarnos", "ru": "мы собираемся записаться" },
+        "vosotros": { "es": "pensáis apuntaros", "ru": "вы собираетесь записаться" },
+        "ellos_ellas": { "es": "piensan apuntarse", "ru": "они собираются записаться" }
+      },
+      "examples": [
+        { "es": "Pienso apuntarme a clases de fotografía.", "ru": "Я собираюсь записаться на уроки фотографии." }
+      ]
+    },
+    "tener_mas": {
+      "title": "TENER + ganas de / frío / calor (желания и ощущения)",
+      "description": "TENER + существительное выражает желания и ощущения: «tengo ganas de un café caliente» — «мне хочется горячего кофе». Запомни: по-русски «хочется», «мёрзну», а в испанском — всегда TENER.",
+      "list": [
+        { "es": "tener ganas de + infinitivo", "ru": "хотеться сделать что-то" },
+        { "es": "tener ganas de + sustantivo", "ru": "хотеться чего-то" },
+        { "es": "tener frío", "ru": "мёрзнуть" },
+        { "es": "tener calor", "ru": "чувствовать жару" },
+        { "es": "tener hambre", "ru": "хотеть есть" },
+        { "es": "tener sed", "ru": "хотеть пить" }
+      ],
+      "examples": [
+        { "es": "Tengo ganas de un café caliente.", "ru": "Мне хочется горячего кофе." },
+        { "es": "¿No tienes frío?", "ru": "Тебе не холодно?" }
+      ]
+    }
+  },
+  "vocabulary": {
+    "weather": [
+      { "es": "el sol", "ru": "солнце" },
+      { "es": "las nubes", "ru": "облака" },
+      { "es": "la brisa", "ru": "ветерок" },
+      { "es": "la temperatura", "ru": "температура" },
+      { "es": "la humedad", "ru": "влажность" },
+      { "es": "los rayos", "ru": "молнии" },
+      { "es": "lloviznar", "ru": "моросить" },
+      { "es": "nevar", "ru": "идти снегу (о погоде)" }
+    ],
+    "city": [
+      { "es": "el puerto", "ru": "порт" },
+      { "es": "la patineta", "ru": "скейтборд" },
+      { "es": "el helado", "ru": "мороженое" },
+      { "es": "los barcos", "ru": "корабли" },
+      { "es": "el mercado central", "ru": "центральный рынок" },
+      { "es": "la cerámica", "ru": "керамика" },
+      { "es": "la feria artesanal", "ru": "ярмарка ремёсел" },
+      { "es": "la exposición", "ru": "выставка" },
+      { "es": "la terraza", "ru": "терраса" },
+      { "es": "la escuela", "ru": "школа" }
+    ],
+    "classes": [
+      { "es": "las clases de cocina", "ru": "уроки кулинарии" },
+      { "es": "el chef", "ru": "шеф-повар" },
+      { "es": "las clases de fotografía", "ru": "уроки фотографии" },
+      { "es": "retratar", "ru": "снимать (фотографировать)" },
+      { "es": "los edificios antiguos", "ru": "старые здания" },
+      { "es": "la técnica", "ru": "техника, мастерство" },
+      { "es": "apuntarse a", "ru": "записаться на" },
+      { "es": "enseñar", "ru": "учить, обучать" }
+    ],
+    "family_time": [
+      { "es": "el gimnasio", "ru": "спортзал" },
+      { "es": "el primo", "ru": "двоюродный брат" },
+      { "es": "la hermana", "ru": "сестра" },
+      { "es": "el fin de semana", "ru": "выходные" },
+      { "es": "la próxima semana", "ru": "на следующей неделе" },
+      { "es": "los martes por la mañana", "ru": "по вторникам утром" },
+      { "es": "tener ganas de", "ru": "хотеться" },
+      { "es": "tener frío", "ru": "мёрзнуть" },
+      { "es": "recorrer", "ru": "прогуливаться, обходить" },
+      { "es": "cerca de", "ru": "рядом с" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Laura", "es": "¡Qué agradable está hoy! No hay nubes, brilla el sol.", "ru": "Как приятно сегодня! Нет облаков, светит солнце." },
+    { "speaker": "Pablo", "es": "Sí, y la brisa es fresca.", "ru": "Да, и ветерок свежий." },
+    { "speaker": "Laura", "es": "En Valencia nunca nieva. En otoño la temperatura ronda los 15 grados, pero a veces llovizna y hay bastante humedad.", "ru": "В Валенсии никогда не бывает снега. Осенью температура около 15 градусов, но иногда моросит дождь и довольно влажно." },
+    { "speaker": "Pablo", "es": "¿Te asustan los rayos?", "ru": "Тебя пугают молнии?" },
+    { "speaker": "Laura", "es": "No especialmente. Depende de si caen cerca.", "ru": "Не особенно. Смотря если они падают близко." },
+    { "speaker": "Pablo", "es": "¿Te apetece ir al puerto? El fin de semana que viene podemos visitar la Marina.", "ru": "Хочешь поехать в порт? На следующих выходных можем посетить Марину." },
+    { "speaker": "Laura", "es": "Sí, buena idea. Pero no sé montar en patineta.", "ru": "Да, хорошая идея. Но я не умею кататься на скейтборде." },
+    { "speaker": "Pablo", "es": "No hay problema, te enseño. Podemos tomar un helado, ver los barcos…", "ru": "Нет проблем, я научу. Можем съесть мороженое, посмотреть на корабли…" },
+    { "speaker": "Laura", "es": "Vale. Creo que desde octubre voy a apuntarme a clases de cocina, con un chef. Cerca de mi trabajo hay una escuela.", "ru": "Ладно. Думаю, с октября я запишусь на уроки кулинарии, с шеф-поваром. Рядом с моей работой есть школа." },
+    { "speaker": "Pablo", "es": "Y yo pienso apuntarme a clases de fotografía. A veces retrato edificios antiguos: catedrales, plazas, murallas, puentes. Pero quiero mejorar mi técnica.", "ru": "А я думаю записаться на уроки фотографии. Иногда я снимаю старые здания: соборы, площади, крепостные стены, мосты. Но хочу улучшить свою технику." },
+    { "speaker": "Laura", "es": "¿Puedo ver tus fotos?", "ru": "Можно посмотреть твои фотографии?" },
+    { "speaker": "Pablo", "es": "Claro. Oye, ¿qué haces los martes por la mañana?", "ru": "Конечно. Слушай, что ты делаешь по вторникам утром?" },
+    { "speaker": "Laura", "es": "Suelo ir al gimnasio con mi primo Carlos. Pero la próxima semana va a venir mi hermana, así que estaré con ella.", "ru": "Я обычно хожу в спортзал со своим двоюродным братом Карлосом. Но на следующей неделе приедет моя сестра, так что я проведу время с ней." },
+    { "speaker": "Pablo", "es": "¿Cuánto tiempo se queda en Valencia?", "ru": "Сколько она пробудет в Валенсии?" },
+    { "speaker": "Laura", "es": "Solo tres días. Vamos a recorrer el centro, visitar el mercado central e ir a una exposición. Mi hermana quiere comprar cerámica, y justo hay una feria artesanal…", "ru": "Только три дня. Мы будем гулять по центру, посетим центральный рынок и сходим на выставку. Моя сестра хочет купить керамику, как раз сейчас проходит ярмарка ремёсел…" },
+    { "speaker": "Pablo", "es": "Comprendo. Tiene sentido… Oye, ¿no tienes frío?", "ru": "Понимаю. Логично… Тебе не холодно?" },
+    { "speaker": "Laura", "es": "Sí, un poco. Y además, tengo ganas de un café caliente.", "ru": "Да, немного. К тому же, хочется горячего кофе." },
+    { "speaker": "Pablo", "es": "Pues, vamos a una terraza.", "ru": "Тогда пойдём на террасу." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el sol", "ru": "солнце" },
+        { "es": "las nubes", "ru": "облака" },
+        { "es": "la brisa", "ru": "ветерок" },
+        { "es": "la humedad", "ru": "влажность" },
+        { "es": "los rayos", "ru": "молнии" },
+        { "es": "la patineta", "ru": "скейтборд" },
+        { "es": "el helado", "ru": "мороженое" },
+        { "es": "el puerto", "ru": "порт" }
+      ]
+    },
+    {
+      "type": "fill-gap-ir_a",
+      "title": "Практика: IR A + infinitivo",
+      "description": "Вставь правильную форму конструкции ir a",
+      "sentences": [
+        { "text": "Este fin de semana ___ visitar la Marina.", "ru": "В эти выходные мы собираемся посетить Марину", "answer": "vamos a", "options": ["vamos a", "van a", "vais a"] },
+        { "text": "Laura ___ recorrer el centro.", "ru": "Лаура собирается погулять по центру", "answer": "va a", "options": ["va a", "voy a", "van a"] },
+        { "text": "Yo ___ apuntarme a clases de cocina.", "ru": "Я собираюсь записаться на уроки кулинарии", "answer": "voy a", "options": ["voy a", "vas a", "va a"] },
+        { "text": "Mi hermana ___ venir la próxima semana.", "ru": "Моя сестра собирается приехать на следующей неделе", "answer": "va a", "options": ["va a", "voy a", "van a"] },
+        { "text": "¿Vosotros ___ tomar un helado?", "ru": "Вы собираетесь съесть мороженое?", "answer": "vais a", "options": ["vais a", "van a", "vamos a"] }
+      ]
+    },
+    {
+      "type": "fill-gap-saber",
+      "title": "Практика: SABER",
+      "description": "Вставь правильную форму глагола saber",
+      "sentences": [
+        { "text": "Yo no ___ montar en patineta.", "ru": "Я не умею кататься на скейтборде", "answer": "sé", "options": ["sé", "sabe", "sabes"] },
+        { "text": "¿Tú ___ cocinar?", "ru": "Ты умеешь готовить?", "answer": "sabes", "options": ["sabes", "sé", "sabemos"] },
+        { "text": "Mi hermana ___ nadar muy bien.", "ru": "Моя сестра умеет очень хорошо плавать", "answer": "sabe", "options": ["sabe", "sabes", "sé"] },
+        { "text": "Nosotros ___ hablar español.", "ru": "Мы умеем говорить по-испански", "answer": "sabemos", "options": ["sabemos", "saben", "sabéis"] },
+        { "text": "Ellos ___ retratar edificios antiguos.", "ru": "Они умеют фотографировать старые здания", "answer": "saben", "options": ["saben", "sabemos", "sabéis"] }
+      ]
+    },
+    {
+      "type": "fill-gap-poder",
+      "title": "Практика: PODER",
+      "description": "Вставь правильную форму глагола poder",
+      "sentences": [
+        { "text": "Yo ___ ver tus fotos esta tarde.", "ru": "Я могу посмотреть твои фотографии сегодня днём", "answer": "puedo", "options": ["puedo", "puedes", "podemos"] },
+        { "text": "Nosotros ___ tomar un helado.", "ru": "Мы можем съесть мороженое", "answer": "podemos", "options": ["podemos", "puedo", "pueden"] },
+        { "text": "¿Tú ___ enseñarme a montar en patineta?", "ru": "Ты можешь научить меня кататься на скейтборде?", "answer": "puedes", "options": ["puedes", "puedo", "puede"] },
+        { "text": "Ella no ___ venir el fin de semana.", "ru": "Она не может прийти на выходных", "answer": "puede", "options": ["puede", "puedes", "puedo"] },
+        { "text": "Ellos ___ ir al puerto el sábado.", "ru": "Они могут поехать в порт в субботу", "answer": "pueden", "options": ["pueden", "podemos", "puede"] }
+      ]
+    },
+    {
+      "type": "fill-gap-soler",
+      "title": "Практика: SOLER",
+      "description": "Вставь правильную форму глагола soler",
+      "sentences": [
+        { "text": "Yo ___ ir al gimnasio los martes.", "ru": "Я обычно хожу в спортзал по вторникам", "answer": "suelo", "options": ["suelo", "suele", "sueles"] },
+        { "text": "Mi primo ___ nadar por la mañana.", "ru": "Мой двоюродный брат обычно плавает утром", "answer": "suele", "options": ["suele", "suelo", "solemos"] },
+        { "text": "¿Tú ___ comer helado en verano?", "ru": "Ты обычно ешь мороженое летом?", "answer": "sueles", "options": ["sueles", "suele", "suelo"] },
+        { "text": "Nosotros ___ ver los barcos en el puerto.", "ru": "Мы обычно смотрим на корабли в порту", "answer": "solemos", "options": ["solemos", "suelen", "sueles"] },
+        { "text": "Ellos ___ visitar el mercado central.", "ru": "Они обычно посещают центральный рынок", "answer": "suelen", "options": ["suelen", "solemos", "suele"] }
+      ]
+    },
+    {
+      "type": "fill-gap-pensar",
+      "title": "Практика: PENSAR + infinitivo",
+      "description": "Вставь правильную форму глагола pensar",
+      "sentences": [
+        { "text": "Yo ___ apuntarme a clases de cocina.", "ru": "Я собираюсь записаться на уроки кулинарии", "answer": "pienso", "options": ["pienso", "piensa", "piensas"] },
+        { "text": "Pablo ___ aprender fotografía.", "ru": "Пабло собирается учиться фотографии", "answer": "piensa", "options": ["piensa", "pienso", "pensáis"] },
+        { "text": "¿Tú ___ visitar el mercado central?", "ru": "Ты планируешь посетить центральный рынок?", "answer": "piensas", "options": ["piensas", "piensa", "pienso"] },
+        { "text": "Nosotros ___ ir a la exposición.", "ru": "Мы планируем пойти на выставку", "answer": "pensamos", "options": ["pensamos", "piensan", "piensas"] },
+        { "text": "Ellos ___ comprar cerámica.", "ru": "Они планируют купить керамику", "answer": "piensan", "options": ["piensan", "pensamos", "piensa"] }
+      ]
+    },
+    {
+      "type": "fill-gap-tener_mas",
+      "title": "Практика: TENER + ganas de / frío / calor",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Tengo ___ de un café caliente.", "ru": "Мне хочется горячего кофе", "answer": "ganas", "options": ["ganas", "frío", "calor"] },
+        { "text": "¿No tienes ___?", "ru": "Тебе не холодно?", "answer": "frío", "options": ["frío", "calor", "ganas"] },
+        { "text": "Tenemos ___ de ver los barcos.", "ru": "Нам хочется посмотреть на корабли", "answer": "ganas", "options": ["ganas", "hambre", "sed"] },
+        { "text": "En verano los turistas tienen ___.", "ru": "Летом туристам жарко", "answer": "calor", "options": ["calor", "frío", "sed"] },
+        { "text": "¿Tienes ___? Vamos a la terraza.", "ru": "Ты хочешь пить? Пойдём на террасу", "answer": "sed", "options": ["sed", "hambre", "frío"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика: saber, poder, soler, pensar, ir a, tener",
+      "description": "Вставь правильную форму",
+      "sentences": [
+        { "text": "Yo no ___ montar en patineta.", "ru": "Я не умею кататься на скейтборде", "answer": "sé", "options": ["sé", "puedo", "quiero"] },
+        { "text": "Este sábado ___ visitar la Marina.", "ru": "В субботу мы собираемся посетить Марину", "answer": "vamos a", "options": ["vamos a", "sabemos", "solemos"] },
+        { "text": "Nosotros ___ tomar un helado.", "ru": "Мы можем съесть мороженое", "answer": "podemos", "options": ["podemos", "solemos", "pensamos"] },
+        { "text": "Mi hermana ___ comprar cerámica.", "ru": "Моя сестра хочет купить керамику", "answer": "quiere", "options": ["quiere", "puede", "sabe"] },
+        { "text": "Laura ___ ir al gimnasio los martes.", "ru": "Лаура обычно ходит в спортзал по вторникам", "answer": "suele", "options": ["suele", "piensa", "viene"] },
+        { "text": "Pablo ___ apuntarse a clases de fotografía.", "ru": "Пабло планирует записаться на уроки фотографии", "answer": "piensa", "options": ["piensa", "sabe", "suelo"] },
+        { "text": "Tengo ___ de un café caliente.", "ru": "Мне хочется горячего кофе", "answer": "ganas", "options": ["ganas", "frío", "calor"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Пабло",
+      "role": "Pablo",
+      "description": "Отвечай на реплики Лауры своим голосом"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лаурой",
+      "role": "Laura",
+      "description": "Теперь ты Лаура — отвечай Пабло"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Договорись о встрече на выходных и расскажи о планах",
+      "template": [
+        { "label": "Я собираюсь", "es": "Voy a ___" },
+        { "label": "Я умею", "es": "Sé ___" },
+        { "label": "Обычно я", "es": "Suelo ___" },
+        { "label": "Я планирую", "es": "Pienso ___" },
+        { "label": "Мне хочется", "es": "Tengo ganas de ___" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Qué tiempo hace en Valencia en otoño?",
+          "ru": "Какая погода в Валенсии осенью?",
+          "options": ["Hace mucho frío y nieva", "La temperatura ronda los 15 grados y a veces llovizna", "Siempre hace sol", "Hay tormentas con rayos"],
+          "answer": 1
+        },
+        {
+          "question": "¿A qué se quiere apuntar Laura?",
+          "ru": "На что хочет записаться Лаура?",
+          "options": ["A clases de fotografía", "A clases de cocina", "A clases de natación", "A clases de baile"],
+          "answer": 1
+        },
+        {
+          "question": "¿A qué se piensa apuntar Pablo?",
+          "ru": "На что планирует записаться Пабло?",
+          "options": ["A clases de cocina", "A clases de fotografía", "A clases de inglés", "A clases de yoga"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué hace Laura los martes por la mañana?",
+          "ru": "Что делает Лаура по вторникам утром?",
+          "options": ["Va al mercado", "Va al gimnasio", "Va al puerto", "Va a la escuela"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué quiere comprar la hermana de Laura?",
+          "ru": "Что хочет купить сестра Лауры?",
+          "options": ["Helados", "Ropa", "Cerámica", "Fotografías"],
+          "answer": 2
+        },
+        {
+          "question": "¿Cuánto tiempo se queda la hermana de Laura en Valencia?",
+          "ru": "Сколько сестра Лауры пробудет в Валенсии?",
+          "options": ["Tres días", "Tres semanas", "Un mes", "Una semana"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué propone Pablo al final del diálogo?",
+          "ru": "Что предлагает Пабло в конце диалога?",
+          "options": ["Tomar un café en una terraza", "Ir al gimnasio", "Ir al mercado central", "Ver los barcos"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить новые слова (погода, город, занятия) в приложении",
+    "Практика: Найди партнёра на italki/Tandem и договорись о прогулке. Используй ir a + infinitivo и tener ganas de",
+    "Дневник: Напиши 3 плана на выходные, используя voy a / pienso / quiero",
+    "Грамматика: Опиши свои привычки (soler) и умения (saber, poder) в 5 предложениях"
+  ]
+}

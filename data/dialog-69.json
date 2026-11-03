@@ -1,0 +1,715 @@
+{
+  "id": 69,
+  "title": "El transporte",
+  "titleRu": "Вокзал: билет и платформа",
+  "module": "a0-a1",
+  "block": 2,
+  "part": 2,
+  "blockTitle": "Часть 2 · Продолжение начального уровня",
+  "level": "A1",
+  "theme": "Транспорт: билет и платформа  El transporte: el billete y el andén",
+  "mission": "Купить билет на поезд, узнать время отправления и найти свою платформу.",
+  "mapPoint": "Вокзал Эстасьон-Норте: поезд в Мадрид",
+  "duration": "45 минут",
+  "stepsCount": 7,
+  "readingNote": "Прочитайте вслух табло: tr, dr, bl, pl произносятся слитно — tren = «трен», andén = «ан-ден», plaza = «пла-са».",
+  "characters": [
+    "olga",
+    "taquillero_tren"
+  ],
+  "objectives": [
+    "Купить билет по формуле un billete a Madrid, por favor",
+    "Ответить на вопрос про билет: de ida y vuelta / solo ida",
+    "Спросить время отправления: ¿a qué hora sale el próximo tren?",
+    "Понять объявление на табло: andén dos, vía cinco, la hora",
+    "Сказать voy a + город и читать кластеры tr, dr, bl, pl"
+  ],
+  "grammar": {
+    "ir_voy_a": {
+      "title": "Voy a + город: форма глагола ir",
+      "description": "Глагол ir значит «ехать». В курсе нужна только одна форма — voy a: voy a Madrid, voy a Valencia. Больше ничего спрягать не нужно: город всегда идёт после a, а перед названием города предлог не опускается.",
+      "forms": {
+        "yo": {
+          "es": "voy a Madrid",
+          "ru": "я еду в Мадрид"
+        },
+        "tu": {
+          "es": "¿vas a Madrid?",
+          "ru": "ты едешь в Мадрид?"
+        },
+        "el_ella": {
+          "es": "ella va a Valencia",
+          "ru": "она едет в Валенсию"
+        },
+        "nosotros": {
+          "es": "vamos a Madrid el domingo",
+          "ru": "мы едем в Мадрид в воскресенье"
+        }
+      },
+      "examples": [
+        {
+          "es": "Un billete a Madrid, por favor.",
+          "ru": "Один билет до Мадрида, пожалуйста."
+        },
+        {
+          "es": "Mañana voy a Madrid.",
+          "ru": "Завтра я еду в Мадрид."
+        }
+      ]
+    },
+    "hora_sale_llega": {
+      "title": "¿A qué hora sale el tren? — время, sale y llega",
+      "description": "Вопрос о времени строится так: ¿A qué hora …? — во сколько …? Ответ: a las diez y media, a las doce y veinte. Два действия: sale — отправляется, llega — прибывает.",
+      "list": [
+        {
+          "es": "¿A qué hora sale el tren?",
+          "ru": "Во сколько отправляется поезд?"
+        },
+        {
+          "es": "El tren sale a las diez y media.",
+          "ru": "Поезд отправляется в половине одиннадцатого."
+        },
+        {
+          "es": "El tren llega a las doce y veinte.",
+          "ru": "Поезд прибывает в двенадцать двадцать."
+        },
+        {
+          "es": "la hora",
+          "ru": "час"
+        },
+        {
+          "es": "a las nueve",
+          "ru": "в девять"
+        },
+        {
+          "es": "y media / y cuarto",
+          "ru": "и половина / и четверть"
+        }
+      ],
+      "examples": [
+        {
+          "es": "A las diez y media, andén dos.",
+          "ru": "В половине одиннадцатого, платформа два."
+        },
+        {
+          "es": "¿Y a qué hora llega?",
+          "ru": "А когда прибывает?"
+        }
+      ]
+    },
+    "billete_anden": {
+      "title": "Билет и платформа: de ida y vuelta, andén, vía",
+      "description": "Кассир всегда спрашивает, нужен ли билет туда и обратно. На табло читают andén (платформа) и vía (путь). Сумму произносит кассир — ученик только понимает: ¿cuánto es?",
+      "list": [
+        {
+          "es": "un billete a Madrid, por favor",
+          "ru": "билет до Мадрида, пожалуйста"
+        },
+        {
+          "es": "¿de ida y vuelta?",
+          "ru": "туда и обратно?"
+        },
+        {
+          "es": "solo ida",
+          "ru": "только туда"
+        },
+        {
+          "es": "el andén dos",
+          "ru": "вторая платформа"
+        },
+        {
+          "es": "la vía cinco",
+          "ru": "пятый путь"
+        },
+        {
+          "es": "¿cuánto es?",
+          "ru": "сколько стоит?"
+        },
+        {
+          "es": "son treinta y dos euros",
+          "ru": "тридцать два евро"
+        }
+      ],
+      "examples": [
+        {
+          "es": "¿A qué hora llega? — A las doce y veinte.",
+          "ru": "Когда прибывает? — В двенадцать двадцать."
+        },
+        {
+          "es": "Sí, andén dos, vía cinco. ¡Buen viaje!",
+          "ru": "Да, платформа два, путь пять. Хорошей поездки!"
+        }
+      ]
+    }
+  },
+  "vocabulary": {
+    "los_transportes": [
+      {
+        "es": "el tren",
+        "ru": "поезд"
+      },
+      {
+        "es": "el autobús",
+        "ru": "автобус"
+      },
+      {
+        "es": "el metro",
+        "ru": "метро"
+      },
+      {
+        "es": "el billete",
+        "ru": "билет"
+      }
+    ],
+    "en_la_estacion": [
+      {
+        "es": "el andén",
+        "ru": "платформа"
+      },
+      {
+        "es": "la vía",
+        "ru": "путь"
+      },
+      {
+        "es": "la hora",
+        "ru": "час"
+      },
+      {
+        "es": "el próximo",
+        "ru": "следующий"
+      }
+    ],
+    "el_billete_y_el_anden": [
+      {
+        "es": "sale",
+        "ru": "отправляется"
+      },
+      {
+        "es": "llega",
+        "ru": "прибывает"
+      },
+      {
+        "es": "de ida y vuelta",
+        "ru": "туда и обратно"
+      },
+      {
+        "es": "¿a qué hora?",
+        "ru": "во сколько?"
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "Olga",
+      "es": "Buenas. Un billete a Madrid, por favor.",
+      "ru": "Добрый день. Один билет до Мадрида, пожалуйста."
+    },
+    {
+      "speaker": "El taquillero",
+      "es": "¿De ida y vuelta?",
+      "ru": "Туда и обратно?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "Sí, de ida y vuelta.",
+      "ru": "Да, туда и обратно."
+    },
+    {
+      "speaker": "El taquillero",
+      "es": "¿A qué hora quiere viajar?",
+      "ru": "Во сколько вы хотите ехать?"
+    },
+    {
+      "speaker": "Olga",
+      "es": "¿A qué hora sale el próximo tren?",
+      "ru": "Во сколько отправляется следующий поезд?"
+    },
+    {
+      "speaker": "El taquillero",
+      "es": "A las diez y media, andén dos.",
+      "ru": "В половине одиннадцатого, платформа два."
+    },
+    {
+      "speaker": "Olga",
+      "es": "¿Y a qué hora llega a Madrid?",
+      "ru": "А когда прибывает в Мадрид?"
+    },
+    {
+      "speaker": "El taquillero",
+      "es": "A las doce y veinte.",
+      "ru": "В двенадцать двадцать."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Gracias. ¿Y cuánto es el billete?",
+      "ru": "Спасибо. А сколько стоит билет?"
+    },
+    {
+      "speaker": "El taquillero",
+      "es": "Son treinta y dos euros. Andén dos, vía cinco.",
+      "ru": "Тридцать два евро. Платформа два, путь пять."
+    },
+    {
+      "speaker": "Olga",
+      "es": "Gracias. ¿Andén dos? Repito: a las diez y media.",
+      "ru": "Спасибо. Платформа два? Повторяю: в половине одиннадцатого."
+    },
+    {
+      "speaker": "El taquillero",
+      "es": "Exacto. ¡Buen viaje!",
+      "ru": "Верно. Хорошей поездки!"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        {
+          "es": "el tren",
+          "ru": "поезд"
+        },
+        {
+          "es": "el autobús",
+          "ru": "автобус"
+        },
+        {
+          "es": "el metro",
+          "ru": "метро"
+        },
+        {
+          "es": "el billete",
+          "ru": "билет"
+        },
+        {
+          "es": "el andén",
+          "ru": "платформа"
+        },
+        {
+          "es": "la vía",
+          "ru": "путь"
+        },
+        {
+          "es": "sale",
+          "ru": "отправляется"
+        },
+        {
+          "es": "llega",
+          "ru": "прибывает"
+        },
+        {
+          "es": "de ida y vuelta",
+          "ru": "туда и обратно"
+        },
+        {
+          "es": "¿a qué hora?",
+          "ru": "во сколько?"
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-ir_voy_a",
+      "title": "Практика: Voy a + город",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Voy ___ Madrid.",
+          "ru": "Я еду в Мадрид.",
+          "answer": "a",
+          "options": [
+            "a",
+            "en",
+            "de"
+          ]
+        },
+        {
+          "text": "___ a Valencia el lunes.",
+          "ru": "В понедельник я еду в Валенсию.",
+          "answer": "Voy",
+          "options": [
+            "Voy",
+            "Vamos",
+            "Vas"
+          ]
+        },
+        {
+          "text": "Yo ___ a Barcelona en tren.",
+          "ru": "Я еду в Барселону на поезде.",
+          "answer": "voy",
+          "options": [
+            "voy",
+            "va",
+            "van"
+          ]
+        },
+        {
+          "text": "¿___ a Madrid, señora?",
+          "ru": "Вы едете в Мадрид, сеньора?",
+          "answer": "Vas",
+          "options": [
+            "Vas",
+            "Voy",
+            "Va"
+          ]
+        },
+        {
+          "text": "Mañana ___ a Madrid. Voy a Madrid.",
+          "ru": "Завтра я еду в Мадрид.",
+          "answer": "voy",
+          "options": [
+            "voy",
+            "vas",
+            "van"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-hora_sale_llega",
+      "title": "Практика: ¿A qué hora…?, sale и llega",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "¿A qué ___ sale el tren?",
+          "ru": "Во сколько отправляется поезд?",
+          "answer": "hora",
+          "options": [
+            "hora",
+            "horas",
+            "dónde"
+          ]
+        },
+        {
+          "text": "El tren ___ a las diez y media.",
+          "ru": "Поезд отправляется в половине одиннадцатого.",
+          "answer": "sale",
+          "options": [
+            "sale",
+            "llega",
+            "está"
+          ]
+        },
+        {
+          "text": "El tren ___ a las doce y veinte.",
+          "ru": "Поезд прибывает в двенадцать двадцать.",
+          "answer": "llega",
+          "options": [
+            "llega",
+            "sale",
+            "tiene"
+          ]
+        },
+        {
+          "text": "___ las nueve y cuarto.",
+          "ru": "В девять пятнадцать.",
+          "answer": "A",
+          "options": [
+            "A",
+            "De",
+            "En"
+          ]
+        },
+        {
+          "text": "La ___ del tren: las diez.",
+          "ru": "Время поезда: десять часов.",
+          "answer": "hora",
+          "options": [
+            "hora",
+            "vía",
+            "andén"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-billete_anden",
+      "title": "Практика: Билет, andén и vía",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Un billete ___ Madrid, por favor.",
+          "ru": "Билет до Мадрида, пожалуйста.",
+          "answer": "a",
+          "options": [
+            "a",
+            "en",
+            "de"
+          ]
+        },
+        {
+          "text": "¿De ___ y vuelta?",
+          "ru": "Туда и обратно?",
+          "answer": "ida",
+          "options": [
+            "ida",
+            "vuelta",
+            "solo"
+          ]
+        },
+        {
+          "text": "___ dos: a las diez y media.",
+          "ru": "Платформа два: в половине одиннадцатого.",
+          "answer": "Andén",
+          "options": [
+            "Andén",
+            "Vía",
+            "Hora"
+          ]
+        },
+        {
+          "text": "El tren llega por la vía ___.",
+          "ru": "Поезд прибывает по пятому пути.",
+          "answer": "cinco",
+          "options": [
+            "cinco",
+            "dos",
+            "nueve"
+          ]
+        },
+        {
+          "text": "¿Cuánto ___? — Treinta y dos euros.",
+          "ru": "Сколько стоит? — Тридцать два евро.",
+          "answer": "es",
+          "options": [
+            "es",
+            "está",
+            "son"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        {
+          "text": "Buenas. Un ___ a Madrid, por favor.",
+          "ru": "Добрый день. Один билет до Мадрида, пожалуйста.",
+          "answer": "billete",
+          "options": [
+            "billete",
+            "andén",
+            "vía"
+          ]
+        },
+        {
+          "text": "¿De ida y ___?",
+          "ru": "Туда и обратно?",
+          "answer": "vuelta",
+          "options": [
+            "vuelta",
+            "ida",
+            "venido"
+          ]
+        },
+        {
+          "text": "El tren ___ a las diez y media.",
+          "ru": "Поезд отправляется в половине одиннадцатого.",
+          "answer": "sale",
+          "options": [
+            "sale",
+            "llega",
+            "está"
+          ]
+        },
+        {
+          "text": "El tren ___ a las doce y veinte.",
+          "ru": "Поезд прибывает в двенадцать двадцать.",
+          "answer": "llega",
+          "options": [
+            "llega",
+            "sale",
+            "tiene"
+          ]
+        },
+        {
+          "text": "___ Madrid el domingo.",
+          "ru": "Я еду в Мадрид в воскресенье.",
+          "answer": "Voy",
+          "options": [
+            "Voy",
+            "Vas",
+            "Va"
+          ]
+        },
+        {
+          "text": "¿A qué ___ sale el próximo tren?",
+          "ru": "Во сколько отправляется следующий поезд?",
+          "answer": "hora",
+          "options": [
+            "hora",
+            "vía",
+            "andén"
+          ]
+        },
+        {
+          "text": "El próximo ___ sale a las diez.",
+          "ru": "Следующий поезд отправляется в десять.",
+          "answer": "tren",
+          "options": [
+            "tren",
+            "vía",
+            "billete"
+          ]
+        },
+        {
+          "text": "Gracias. ¡Buen ___!",
+          "ru": "Спасибо. Хорошей поездки!",
+          "answer": "viaje",
+          "options": [
+            "viaje",
+            "andén",
+            "billete"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Ольгой",
+      "role": "Olga",
+      "description": "Ты — пассажирка: покупаешь билет, спрашиваешь время и повторяешь данные билета вслух"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь кассиром",
+      "role": "El taquillero",
+      "description": "Ты — кассир вокзала: спрашиваешь про билет, объявляешь время, платформу, путь и сумму"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Купи билет на поезд: назови город, уточни время и повтори данные билета",
+      "template": [
+        {
+          "label": "Билет до Мадрида, пожалуйста",
+          "es": "Un billete ___ Madrid, por favor."
+        },
+        {
+          "label": "Туда и обратно?",
+          "es": "¿De ida y ___?"
+        },
+        {
+          "label": "Во сколько следующий поезд?",
+          "es": "¿A qué ___ sale el próximo tren?"
+        },
+        {
+          "label": "Поезд прибывает…",
+          "es": "El tren ___ a las doce y veinte."
+        },
+        {
+          "label": "Хорошей поездки!",
+          "es": "¡Buen ___!"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿A qué ciudad viaja Olga?",
+          "ru": "В какой город едет Ольга?",
+          "options": [
+            "Madrid",
+            "Valencia",
+            "Barcelona"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué compra Olga en la estación?",
+          "ru": "Что покупает Ольга на вокзале?",
+          "options": [
+            "Un billete de ida y vuelta",
+            "Dos billetes",
+            "Un billete de ida"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿A qué hora sale el próximo tren?",
+          "ru": "Во сколько отправляется следующий поезд?",
+          "options": [
+            "A las diez y media",
+            "A las doce y veinte",
+            "A las nueve y cuarto"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿De qué andén sale el tren?",
+          "ru": "С какой платформы отправляется поезд?",
+          "options": [
+            "Andén dos",
+            "Andén cinco",
+            "Andén tres"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué significa «llega»?",
+          "ru": "Что значит «llega»?",
+          "options": [
+            "отправляется",
+            "прибывает",
+            "опаздывает"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué significa «voy a Madrid»?",
+          "ru": "Что значит «voy a Madrid»?",
+          "options": [
+            "Я еду в Мадрид",
+            "Я в Мадриде",
+            "Я приехал в Мадрид"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se lee «tren»?",
+          "ru": "Как читается «tren»?",
+          "options": [
+            "«тырен»",
+            "«трен»",
+            "«трэ-н» — два слога"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuánto cuesta el billete?",
+          "ru": "Сколько стоит билет?",
+          "options": [
+            "Treinta y dos euros",
+            "Veinticinco euros",
+            "Cuatro euros con cincuenta"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    "Я покупаю билет: un billete a Madrid, por favor",
+    "Я отвечаю на вопрос de ida y vuelta",
+    "Я спрашиваю время отправления: ¿a qué hora sale…?",
+    "Я понимаю платформу и путь: andén dos, vía cinco",
+    "Я говорю voy a + город",
+    "Я читаю кластеры tr, dr, bl, pl: tren, plaza, blanca"
+  ],
+  "homework": [
+    "Найди в приложении реальное расписание поездов и выпиши город, время и платформу одной строкой",
+    "Прочитай вслух три строки табло: «10:30 — andén dos», «12:20 — andén cinco»",
+    "Запиши в дневник прогресса 30 секунд речи: покупка билета, вопрос времени, повтор данных билета",
+    "Прочитай вслух слова с кластерами: tren, tres, plaza, grande, blanca"
+  ]
+}

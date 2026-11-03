@@ -1,0 +1,310 @@
+{
+  "id": 30,
+  "title": "Un paseo por San Petersburgo",
+  "titleRu": "Прогулка по Санкт-Петербургу",
+  "part": 3,
+  "level": "B1",
+  "theme": "Прогулка, транспорт, достопримечательности  El paseo, el transporte, los lugares de interés",
+  "characters": ["carlos", "luis"],
+  "objectives": [
+    "Строить условные предложения: si + настоящее → будущее (si no hacemos una pausa, moriré de cansancio)",
+    "Говорить о затраченном времени: tardar media hora en llegar, gastar el mismo tiempo",
+    "Говорить, сколько уже длится действие: estar + gerundio + desde, llevar + gerundio",
+    "Делать предположения: debe de haber un café en alguna parte",
+    "Понимать слова по теме «прогулка, транспорт, достопримечательности»: el museo, la catedral, el autobús, el parque"
+  ],
+  "grammar": {
+    "condicional": {
+      "title": "Условные предложения: SI + настоящее → будущее",
+      "description": "SI + глагол в настоящем → будущее (результат): Si no hacemos una pausa, moriré de cansancio (если мы не сделаем паузу, я умру от усталости), Si tomamos un taxi, gastaremos el mismo tiempo (если возьмём такси, потратим столько же времени).",
+      "forms": {
+        "yo": { "es": "si no me siento, me caigo de hambre", "ru": "если я не сяду, упаду от голода" },
+        "tu": { "es": "si tomas un taxi, gastarás el mismo tiempo", "ru": "если возьмёшь такси, потратишь столько же времени" },
+        "el_ella": { "es": "si hace una pausa, se recupera", "ru": "если он сделает паузу, то отдохнёт" },
+        "nosotros": { "es": "si vamos en autobús, tenemos que hacer un transbordo", "ru": "если поедем на автобусе, нам нужно сделать пересадку" },
+        "vosotros": { "es": "si vais en taxi, llegaréis más rápido", "ru": "если поедете на такси, приедете быстрее" },
+        "ellos_ellas": { "es": "si no hacen una pausa, morirán de cansancio", "ru": "если они не сделают паузу, умрут от усталости" }
+      },
+      "examples": [
+        { "es": "Si no hacemos una pausa, moriré de cansancio.", "ru": "Если мы не сделаем паузу, я умру от усталости." },
+        { "es": "Si tomamos un taxi, gastaremos el mismo tiempo en llegar que en el autobús.", "ru": "Если мы возьмём такси, потратим столько же времени на дорогу, как и на автобусе." }
+      ]
+    },
+    "tardar_en": {
+      "title": "TARDAR EN, GASTAR TIEMPO EN: потратить время на",
+      "description": "TARDAR + время + EN + infinitivo — «потратить (время) на что-то»: Vamos a tardar media hora en llegar (мы потратим полчаса на дорогу). GASTAR el mismo tiempo — «потратить столько же времени». PERDER tiempo — «терять время».",
+      "list": [
+        { "es": "vamos a tardar media hora en llegar", "ru": "мы потратим полчаса на дорогу" },
+        { "es": "gastaremos el mismo tiempo en llegar", "ru": "мы потратим столько же времени на дорогу" },
+        { "es": "¿cuánto tiempo tardamos en llegar al parque?", "ru": "сколько времени мы потратим, чтобы дойти до парка?" },
+        { "es": "no quiero perder tiempo", "ru": "я не хочу терять время" },
+        { "es": "el autobús tarda veinte minutos", "ru": "автобус идёт двадцать минут" }
+      ],
+      "examples": [
+        { "es": "Vamos a tardar media hora en llegar.", "ru": "Мы потратим полчаса на дорогу." },
+        { "es": "No quiero perder tiempo regresando allí.", "ru": "Я не хочу терять время, возвращаясь туда." }
+      ]
+    },
+    "estar_gerundio_desde": {
+      "title": "ESTAR + gerundio + DESDE: сколько уже длится",
+      "description": "ESTAR + gerundio указывает на действие, которое происходит сейчас: Estamos paseando desde las nueve (мы гуляем с девяти). LLEVAR + gerundio — «уже (время) делать»: llevamos medio día moviéndonos (мы уже полдня в движении).",
+      "list": [
+        { "es": "estamos paseando desde las nueve de la mañana", "ru": "мы гуляем с девяти утра" },
+        { "es": "llevamos medio día moviéndonos", "ru": "мы уже полдня в движении" },
+        { "es": "¿desde cuándo estáis paseando?", "ru": "с какого времени вы гуляете?" },
+        { "es": "llevamos una hora buscando un café", "ru": "мы уже час ищем кафе" },
+        { "es": "estoy caminando desde hace media hora", "ru": "я гуляю уже полчаса" }
+      ],
+      "examples": [
+        { "es": "Estamos paseando desde las nueve de la mañana.", "ru": "Мы гуляем с девяти утра." },
+        { "es": "Llevamos medio día moviéndonos y viendo los lugares de interés.", "ru": "Мы уже полдня в движении и смотрим достопримечательности." }
+      ]
+    },
+    "deber_de": {
+      "title": "DEBER DE + infinitivo: предположение",
+      "description": "DEBER DE + infinitivo — «должно быть, наверное» (предположение): Debe de haber un café en alguna parte (должно же где-то быть кафе), Deben de ser las cinco (наверное, уже пять). Не путать с DEBER + infinitivo — «должен».",
+      "list": [
+        { "es": "debe de haber un café en alguna parte", "ru": "наверное, где-то есть кафе" },
+        { "es": "debe de estar muy cansado", "ru": "он, наверное, очень устал" },
+        { "es": "deben de ser las cinco de la tarde", "ru": "наверное, уже пять часов вечера" },
+        { "es": "debe de hacer frío en el parque", "ru": "в парке, наверное, холодно" },
+        { "es": "deben de tardar media hora en llegar", "ru": "они, наверное, потратят полчаса на дорогу" }
+      ],
+      "examples": [
+        { "es": "Debe de haber uno en alguna parte.", "ru": "Должно же быть какое-то где-нибудь." },
+        { "es": "Debe de estar cansado después de tanto paseo.", "ru": "Он, наверное, устал после такой прогулки." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "el_paseo": [
+      { "es": "el paseo", "ru": "прогулка" },
+      { "es": "los lugares de interés", "ru": "достопримечательности" },
+      { "es": "el museo", "ru": "музей" },
+      { "es": "la catedral", "ru": "собор" },
+      { "es": "el palacio", "ru": "дворец" },
+      { "es": "el parque", "ru": "парк" }
+    ],
+    "el_transporte": [
+      { "es": "el autobús", "ru": "автобус" },
+      { "es": "el taxi", "ru": "такси" },
+      { "es": "la avenida", "ru": "проспект, авеню" },
+      { "es": "el centro comercial", "ru": "торговый центр" },
+      { "es": "el transbordo", "ru": "пересадка" },
+      { "es": "el mapa", "ru": "карта" }
+    ],
+    "la_pausa": [
+      { "es": "la pausa", "ru": "пауза, перерыв" },
+      { "es": "el banco", "ru": "лавочка" },
+      { "es": "el café", "ru": "кафе, кофе" },
+      { "es": "la cafetería", "ru": "кафетерий" },
+      { "es": "los pasteles", "ru": "пирожные" },
+      { "es": "el cansancio", "ru": "усталость" },
+      { "es": "el hambre", "ru": "голод" },
+      { "es": "el rato", "ru": "время, минутка" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Luis", "es": "Uf, me siento muy cansado. Estamos paseando desde las nueve de la mañana.", "ru": "Уф, я чувствую себя очень уставшим. Мы гуляем с девяти утра." },
+    { "speaker": "Carlos", "es": "Claro, llevamos medio día moviéndonos y viendo los lugares de interés. ¡Todo es tan interesante! Sobre todo, el Museo del Hermitage, la Catedral de San Isaac y el Palacio de Catalina.", "ru": "Конечно, мы уже полдня в движении и смотрим достопримечательности. Всё так интересно! Особенно Эрмитаж, Исаакиевский собор и Екатерининский дворец." },
+    { "speaker": "Luis", "es": "Si no hacemos una pausa, moriré de cansancio.", "ru": "Если мы не сделаем паузу, я умру от усталости." },
+    { "speaker": "Carlos", "es": "¿Piensas ir a un café ahora? Me parece que, mejor, vamos ahora hacia el parque, allí podemos encontrar algún café.", "ru": "Думаешь пойти в кафе сейчас? Мне кажется, лучше пойдём до парка, там сможем найти какое-нибудь кафе." },
+    { "speaker": "Luis", "es": "¿Queda lejos de aquí?", "ru": "Он далеко отсюда?" },
+    { "speaker": "Carlos", "es": "A ver el mapa... Pues, si vamos en autobús, tenemos que hacer un transbordo. Vamos a tardar media hora en llegar.", "ru": "Посмотрим карту... Так, если поедем на автобусе, нам надо будет сделать пересадку. Мы потратим полчаса на дорогу." },
+    { "speaker": "Luis", "es": "Creo que si tomamos un taxi gastaremos el mismo tiempo en llegar que en el autobús. De todos modos, prefiero hacer una pausa ahora mismo.", "ru": "Думаю, что если мы возьмём такси, потратим столько же времени на дорогу, как и на автобусе. В любом случае, предпочитаю сделать перерыв сейчас." },
+    { "speaker": "Carlos", "es": "Bueno, vamos a buscar un restaurante o un café. Es que no veo ninguno cerca.", "ru": "Ладно, пойдём в ресторан или кафе. Просто я не вижу ни одного рядом." },
+    { "speaker": "Luis", "es": "Creo que en el centro comercial en la avenida Nevski hay algo de comer.", "ru": "Думаю, что в торговом центре на Невском проспекте есть что-нибудь поесть." },
+    { "speaker": "Carlos", "es": "Pero ya estamos un poco lejos de él... No quiero perder tiempo regresando allí.", "ru": "Но мы уже немного далеко от него... Я не хочу терять время, возвращаясь туда." },
+    { "speaker": "Luis", "es": "Pero si no hay nada cerca... Si no me siento ahora, me caigo de hambre.", "ru": "Но если ничего рядом нет... Если я сейчас не сяду, упаду от голода." },
+    { "speaker": "Carlos", "es": "Pues, puedes esperarme un rato en este banco. Yo, mientras, voy a ver qué hay cerca, debe de haber uno en alguna parte.", "ru": "Ну, можешь подождать меня немного на этой лавочке. А я пока пойду посмотреть, что есть рядом. Должно же что-то быть где-нибудь." },
+    { "speaker": "Luis", "es": "De acuerdo. Gracias.", "ru": "Хорошо. Спасибо." },
+    { "speaker": "Carlos", "es": "Sabes, parece que aquí no hay restaurantes. A cinco minutos de aquí solo hay una cafetería donde venden café y pasteles.", "ru": "Знаешь, кажется, что здесь нет ресторанов. В пяти минутах отсюда есть только кафе, где продают кофе и пирожные." },
+    { "speaker": "Luis", "es": "Bueno, ya no me importa mucho, hay lo que hay.", "ru": "Ладно, мне уже не сильно важно, есть, что есть." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el paseo", "ru": "прогулка" },
+        { "es": "los lugares de interés", "ru": "достопримечательности" },
+        { "es": "el museo", "ru": "музей" },
+        { "es": "la catedral", "ru": "собор" },
+        { "es": "el palacio", "ru": "дворец" },
+        { "es": "el parque", "ru": "парк" },
+        { "es": "el autobús", "ru": "автобус" },
+        { "es": "el taxi", "ru": "такси" },
+        { "es": "la avenida", "ru": "проспект, авеню" },
+        { "es": "el centro comercial", "ru": "торговый центр" }
+      ]
+    },
+    {
+      "type": "fill-gap-condicional",
+      "title": "Практика: SI + настоящее → будущее",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Si no hacemos una pausa, ___ de cansancio.", "ru": "Если мы не сделаем паузу, я умру от усталости", "answer": "moriré", "options": ["moriré", "muero", "moría"] },
+        { "text": "Si vamos en autobús, tenemos que hacer un ___.", "ru": "Если поедем на автобусе, нам нужно сделать пересадку", "answer": "transbordo", "options": ["transbordo", "billete", "camino"] },
+        { "text": "Si tomamos un taxi, ___ el mismo tiempo.", "ru": "Если возьмём такси, потратим столько же времени", "answer": "gastaremos", "options": ["gastaremos", "gastamos", "gastar"] },
+        { "text": "Si no me siento ahora, me ___ de hambre.", "ru": "Если я сейчас не сяду, упаду от голода", "answer": "caigo", "options": ["caigo", "caeré", "caía"] },
+        { "text": "Si vais en taxi, ___ más rápido.", "ru": "Если поедете на такси, приедете быстрее", "answer": "llegaréis", "options": ["llegaréis", "llegamos", "llegar"] }
+      ]
+    },
+    {
+      "type": "fill-gap-tardar_en",
+      "title": "Практика: TARDAR EN, PERDER TIEMPO",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Vamos a ___ media hora en llegar.", "ru": "Мы потратим полчаса на дорогу", "answer": "tardar", "options": ["tardar", "tardamos", "tarda"] },
+        { "text": "Gastaremos el mismo ___ en llegar que en el autobús.", "ru": "Потратим столько же времени на дорогу, как и на автобусе", "answer": "tiempo", "options": ["tiempo", "dinero", "rato"] },
+        { "text": "¿Cuánto tiempo ___ en llegar al parque?", "ru": "Сколько времени мы потратим, чтобы дойти до парка?", "answer": "tardamos", "options": ["tardamos", "tardo", "tarda"] },
+        { "text": "No quiero ___ tiempo regresando allí.", "ru": "Я не хочу терять время, возвращаясь туда", "answer": "perder", "options": ["perder", "pierdo", "perdido"] },
+        { "text": "El autobús ___ veinte minutos en llegar.", "ru": "Автобус идёт двадцать минут", "answer": "tarda", "options": ["tarda", "tardamos", "tardar"] }
+      ]
+    },
+    {
+      "type": "fill-gap-estar_gerundio_desde",
+      "title": "Практика: ESTAR + gerundio + DESDE",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Estamos ___ desde las nueve de la mañana.", "ru": "Мы гуляем с девяти утра", "answer": "paseando", "options": ["paseando", "pasar", "pasear"] },
+        { "text": "Llevamos medio día ___ por la ciudad.", "ru": "Мы уже полдня в движении по городу", "answer": "moviéndonos", "options": ["moviéndonos", "mover", "movido"] },
+        { "text": "¿Desde cuándo ___ paseando Luis y Carlos?", "ru": "С какого времени гуляют Луис и Карлос?", "answer": "están", "options": ["están", "está", "estás"] },
+        { "text": "Llevamos una hora ___ un café.", "ru": "Мы уже час ищем кафе", "answer": "buscando", "options": ["buscando", "buscar", "busco"] },
+        { "text": "Estoy ___ desde hace media hora.", "ru": "Я гуляю уже полчаса", "answer": "caminando", "options": ["caminando", "caminar", "camino"] }
+      ]
+    },
+    {
+      "type": "fill-gap-deber_de",
+      "title": "Практика: DEBER DE + infinitivo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Debe de ___ un café en alguna parte.", "ru": "Должно же где-то быть кафе", "answer": "haber", "options": ["haber", "hay", "había"] },
+        { "text": "Debe de estar muy ___ después de tanto paseo.", "ru": "Он, наверное, очень устал после такой прогулки", "answer": "cansado", "options": ["cansado", "cansados", "cansar"] },
+        { "text": "Deben de ___ las cinco de la tarde.", "ru": "Наверное, уже пять часов вечера", "answer": "ser", "options": ["ser", "son", "estar"] },
+        { "text": "Debe de hacer mucho ___ en el parque.", "ru": "В парке, наверное, очень холодно", "answer": "frío", "options": ["frío", "fría", "caliente"] },
+        { "text": "Deben de ___ media hora en llegar.", "ru": "Они, наверное, потратят полчаса на дорогу", "answer": "tardar", "options": ["tardar", "tarda", "tarde"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Si no hacemos una pausa, ___ de cansancio.", "ru": "Если мы не сделаем паузу, я умру от усталости", "answer": "moriré", "options": ["moriré", "muero", "moría"] },
+        { "text": "Vamos a ___ media hora en llegar.", "ru": "Мы потратим полчаса на дорогу", "answer": "tardar", "options": ["tardar", "tardamos", "tarda"] },
+        { "text": "Estamos ___ desde las nueve de la mañana.", "ru": "Мы гуляем с девяти утра", "answer": "paseando", "options": ["paseando", "pasar", "pasear"] },
+        { "text": "Debe de ___ un café en alguna parte.", "ru": "Должно же где-то быть кафе", "answer": "haber", "options": ["haber", "hay", "había"] },
+        { "text": "Si vamos en autobús, tenemos que hacer un ___.", "ru": "Если поедем на автобусе, нам нужно сделать пересадку", "answer": "transbordo", "options": ["transbordo", "billete", "camino"] },
+        { "text": "No quiero ___ tiempo regresando allí.", "ru": "Я не хочу терять время, возвращаясь туда", "answer": "perder", "options": ["perder", "pierdo", "perdido"] },
+        { "text": "Llevamos medio día ___ por la ciudad.", "ru": "Мы уже полдня в движении по городу", "answer": "moviéndonos", "options": ["moviéndonos", "mover", "movido"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Ты — друг Луиса, предлагаешь, как провести время и где найти кафе"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Луисом",
+      "role": "Luis",
+      "description": "Ты — друг Карлоса, очень устал от прогулки и хочешь сделать паузу"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Обсуди прогулку по городу и где сделать паузу",
+      "template": [
+        { "label": "Я чувствую себя очень уставшим", "es": "Me ___ muy cansado" },
+        { "label": "Мы гуляем с девяти утра", "es": "Estamos ___ desde las nueve de la mañana" },
+        { "label": "Если мы не сделаем паузу, я умру", "es": "Si no hacemos una ___, moriré" },
+        { "label": "Мы потратим полчаса на дорогу", "es": "Vamos a ___ media hora en llegar" },
+        { "label": "Нам нужно сделать пересадку", "es": "Tenemos que hacer un ___" },
+        { "label": "Если возьмём такси, потратим столько же", "es": "Si tomamos un ___, gastaremos el mismo tiempo" },
+        { "label": "Наверное, рядом есть кафе", "es": "Debe de ___ un café cerca" },
+        { "label": "Подожди меня на этой лавочке", "es": "Puedes ___ un rato en este banco" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Desde cuándo pasean Luis y Carlos?",
+          "ru": "С какого времени Луис и Карлос гуляют?",
+          "options": ["Desde las nueve de la mañana", "Desde el mediodía", "Desde las cinco", "Desde ayer"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué lugares de interés han visto?",
+          "ru": "Какие достопримечательности они видели?",
+          "options": ["El Hermitage y el Palacio de Catalina", "La Catedral de San Isaac", "Todo eso: el Hermitage, la Catedral y el Palacio", "Solo el parque"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué le pasa a Luis?",
+          "ru": "Что с Луисом?",
+          "options": ["Quiere ir al museo otra vez", "Está cansado y tiene hambre", "Tiene frío", "Quiere ver el río"],
+          "answer": 1
+        },
+        {
+          "question": "Si van en autobús, ¿qué tienen que hacer?",
+          "ru": "Если они поедут на автобусе, что им нужно сделать?",
+          "options": ["Un transbordo", "Comprar un billete", "Esperar el autobús", "Nada"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuánto tiempo tardan en llegar en autobús?",
+          "ru": "Сколько они потратят времени на дорогу на автобусе?",
+          "options": ["Diez minutos", "Media hora", "Una hora", "Cinco minutos"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué prefieren hacer ahora mismo?",
+          "ru": "Что они предпочитают сделать прямо сейчас?",
+          "options": ["Seguir paseando", "Hacer una pausa en un café", "Ir a casa", "Comprar recuerdos"],
+          "answer": 1
+        },
+        {
+          "question": "¿Dónde propone Luis buscar algo de comer?",
+          "ru": "Где Луис предлагает поискать еду?",
+          "options": ["En la cafetería del parque", "En el centro comercial de la avenida Nevski", "En el hotel", "En el museo"],
+          "answer": 1
+        },
+        {
+          "question": "¿Por qué no quiere Carlos ir al centro comercial?",
+          "ru": "Почему Карлос не хочет идти в торговый центр?",
+          "options": ["Es muy caro", "Está cerrado", "Ya están lejos y no quiere perder tiempo", "No le gusta ese centro"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué hay a cinco minutos de donde están?",
+          "ru": "Что есть в пяти минутах от того места, где они находятся?",
+          "options": ["Un restaurante", "Una cafetería donde venden café y pasteles", "Un supermercado", "Un bar de tapas"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué le dice Carlos a Luis que haga mientras tanto?",
+          "ru": "Что Карлос говорит Луису делать пока он идёт смотреть?",
+          "options": ["Que le espere en el banco", "Que vuelva al hotel", "Que tome un taxi", "Que compre comida"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 минут: повтори слова по теме «прогулка, транспорт, достопримечательности»",
+    "Практика: расскажи о прогулке по городу. Используй: llevamos... paseando, si vamos en..., tardamos... en llegar, debe de haber...",
+    "Дневник: опиши прогулку по твоему городу. Что ты видел(а)? Как долго гулял(а)? Где делал(а) паузу?",
+    "Грамматика: составь 3 предложения с si + настоящее → будущее, 3 с tardar en llegar и 3 с debe de + infinitivo"
+  ]
+}

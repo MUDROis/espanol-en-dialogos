@@ -1,0 +1,334 @@
+{
+  "id": 58,
+  "title": "Los números del 0 al 10",
+  "titleRu": "Числа от 0 до 10",
+  "module": "a0-a1",
+  "block": 1,
+  "part": 1,
+  "blockTitle": "Часть 1 · Начальный уровень",
+  "level": "A0",
+  "theme": "Числа 0–10, телефон и возраст  Los números del 0 al 10, el teléfono y la edad",
+  "mission": "Продиктовать номер телефона и ответить, сколько вам лет, — например, при оформлении абонемента.",
+  "mapPoint": "Дом Ольги: первый абонемент",
+  "duration": "45 минут",
+  "stepsCount": 8,
+  "readingNote": "Прочитайте диалог вслух: цифровые реплики произносите по одной цифре, с паузами.",
+  "characters": ["olga", "ana_valencia"],
+  "objectives": [
+    "Считать от cero до diez и понимать числа на слух",
+    "Продиктовать номер телефона по цифрам",
+    "Спросить возраст: ¿cuántos años tienes?",
+    "Ответить о возрасте формулой: tengo … años",
+    "Читать слова с межзубным звуком [с]: cinco, diez, gracias"
+  ],
+  "reading": {
+    "title": "Consonantes d, t y la s interdental",
+    "description": "Звук d в испанском мягче русского, t — без придыхания. Главное открытие урока — межзубный [с]: буква z и сочетание c перед e, i читаются с высунутым кончиком языка. Это визитная карточка кастильской нормы.",
+    "letters": [
+      { "es": "C", "ru": "[к] перед a, o, u; [с] перед e, i", "name": "ce" },
+      { "es": "Z", "ru": "всегда межзубное [с] — diez", "name": "zeta" },
+      { "es": "D", "ru": "мягкое [д] — dos, edad", "name": "de" },
+      { "es": "T", "ru": "[т] без придыхания — tener", "name": "te" },
+      { "es": "S", "ru": "[с] в словах seis, dos", "name": "ese" },
+      { "es": "A", "ru": "[а] — antes de c y z", "name": "a" },
+      { "es": "E", "ru": "[э] — после c: cinco, doce", "name": "e" },
+      { "es": "I", "ru": "[и] — после c: cinco, gracias", "name": "i" },
+      { "es": "O", "ru": "[о] — в слове ocho", "name": "o" }
+    ],
+    "syllables": [
+      {
+        "label": "Ряд с d",
+        "note": "Звук мягче русского, между гласными почти «зубное д»",
+        "items": ["da", "de", "di", "do", "du"]
+      },
+      {
+        "label": "Ряд с t",
+        "note": "t без придыхания, как в слове «стол»",
+        "items": ["ta", "te", "ti", "to", "tu"]
+      },
+      {
+        "label": "Межзубный [с]: cinco — «синк»",
+        "note": "Покажи язык зажиму: z, ce, ci читаются с высунутым кончиком языка",
+        "items": ["cinco", "diez", "doce", "gracias", "dos"]
+      }
+    ],
+    "words": [
+      { "es": "cinco", "how": "«синько» → «синьк» — c перед i межзубное" },
+      { "es": "diez", "how": "«диэс» — z межзубное" },
+      { "es": "doce", "how": "«досэ» — c перед e межзубное" },
+      { "es": "gracias", "how": "«грасиас» — ci межзубное" },
+      { "es": "dos", "how": "«дос» — обычное s, d мягче русского" },
+      { "es": "cuatro", "how": "«куа-тро» — два слога" },
+      { "es": "seis", "how": "«сейс» — дифтонг ei" },
+      { "es": "siete", "how": "«сье-те» — не путать с seis" }
+    ],
+    "rules": [
+      {
+        "title": "Межзубный [с] — визитная карточка кастильской нормы",
+        "text": "Буква z и сочетание c перед e, i читаются с высунутым между зубами кончиком языка: cinco, diez, doce, gracias. Фонетический якорь: «покажи язык зажиму». Русское «синко» — ошибка, эталон — «синьк»."
+      },
+      {
+        "title": "Звуки d и t",
+        "text": "d в испанском мягче русского, между гласными почти «зубное [д]». t — без придыхания, как в слове «стол», а не как английское t. Сравните dos, edad, tener."
+      },
+      {
+        "title": "Анти-пара seis / siete",
+        "text": "seis и siete рифмуются и легко смешиваются на слух: seis = «сейс» [ei], siete = «сье́те» [ie]. Диктор ставит между ними паузу 0,4 секунды и произносит в контрастном ряду."
+      },
+      {
+        "title": "Числа читаются подряд, цифры — по одной",
+        "text": "Номер телефона не читают как число: «шесть, ноль, четыре, два…» — одна цифра за раз, с одиночными паузами. В естественном темпе паузы короче, цифры слитнее."
+      }
+    ]
+  },
+  "grammar": {
+    "tener_tengo_tienes": {
+      "title": "Tener = «иметь»: tengo / tienes",
+      "description": "Tener = иметь. По-испански возраст «имеют», а не «живут»: tengo treinta y cinco años — «мне тридцать пять лет». Число вставляется в середину блока: tengo + число + años. Остальные числа 11–100 подробно учатся в уроке 7.",
+      "forms": {
+        "yo": { "es": "Tengo treinta y cinco años", "ru": "мне тридцать пять лет" },
+        "tu": { "es": "¿Cuántos años tienes?", "ru": "сколько тебе лет?" },
+        "el_ella": { "es": "Mi compañera tiene veintiocho años", "ru": "моей однокурснице двадцать восемь лет" },
+        "nosotros": { "es": "Nosotros tenemos un número de teléfono", "ru": "у нас есть номер телефона" }
+      },
+      "examples": [
+        { "es": "— ¿Cuántos años tienes? — Tengo treinta y cinco años.", "ru": "— Сколько тебе лет? — Мне тридцать пять лет." },
+        { "es": "— ¿Y tú? — Tengo veintiocho.", "ru": "— А тебе? — Мне двадцать восемь." }
+      ]
+    },
+    "formula_de_la_edad": {
+      "title": "La fórmula de la edad y el teléfono",
+      "description": "Возраст и телефон — два речевых блока, которые вводятся целиком. Числа 11–100 в диалоге даны «на понимание» (treinta y cinco, veintiocho) и не разбираются.",
+      "list": [
+        { "es": "¿Cuántos años tienes?", "ru": "сколько тебе лет?" },
+        { "es": "Tengo … años", "ru": "мне … лет" },
+        { "es": "¿Cuál es tu teléfono?", "ru": "какой у тебя телефон?" },
+        { "es": "Mi número es seis, cero, cuatro", "ru": "мой номер: шесть, ноль, четыре" },
+        { "es": "¿Cómo? Repite, por favor", "ru": "как? повторите, пожалуйста" }
+      ],
+      "examples": [
+        { "es": "Seis, cero, cuatro, dos, uno, siete, cinco.", "ru": "Шесть, ноль, четыре, два, один, семь, пять." },
+        { "es": "Mi número es seis, siete, ocho, cuatro, uno, dos, tres.", "ru": "Мой номер: шесть, семь, восемь, четыре, один, два, три." }
+      ]
+    },
+    "numeros_del_cero_al_diez": {
+      "title": "Los números del cero al diez",
+      "description": "Числа 0–10 учатся на слух и на письме: сначала по порядку, потом «вразброс». Телефон диктуется по одной цифре — сначала медленно, потом в темпе живой речи.",
+      "list": [
+        { "es": "cero", "ru": "ноль" },
+        { "es": "uno", "ru": "один" },
+        { "es": "dos", "ru": "два" },
+        { "es": "tres", "ru": "три" },
+        { "es": "cuatro", "ru": "четыре" },
+        { "es": "cinco", "ru": "пять" },
+        { "es": "seis", "ru": "шесть" },
+        { "es": "siete", "ru": "семь" },
+        { "es": "ocho", "ru": "восемь" },
+        { "es": "nueve", "ru": "девять" },
+        { "es": "diez", "ru": "десять" }
+      ],
+      "examples": [
+        { "es": "Cero, uno, dos, tres, cuatro, cinco.", "ru": "Ноль, один, два, три, четыре, пять." },
+        { "es": "Seis, siete, ocho, nueve, diez.", "ru": "Шесть, семь, восемь, девять, десять." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "los_numeros": [
+      { "es": "cero", "ru": "ноль" },
+      { "es": "uno", "ru": "один" },
+      { "es": "dos", "ru": "два" },
+      { "es": "tres", "ru": "три" },
+      { "es": "cuatro", "ru": "четыре" },
+      { "es": "cinco", "ru": "пять" },
+      { "es": "seis", "ru": "шесть" },
+      { "es": "siete", "ru": "семь" },
+      { "es": "ocho", "ru": "восемь" },
+      { "es": "nueve", "ru": "девять" },
+      { "es": "diez", "ru": "десять" }
+    ],
+    "la_edad_y_el_telefono": [
+      { "es": "¿cuántos años tienes?", "ru": "сколько тебе лет?" },
+      { "es": "¿cuál es tu teléfono?", "ru": "какой у тебя телефон?" },
+      { "es": "el teléfono", "ru": "телефон" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Ana", "es": "¡Hola! Soy Ana, tu compañera de clase.", "ru": "Привет! Я Ана, твоя однокурсница." },
+    { "speaker": "Olga", "es": "¡Encantada, Ana!", "ru": "Очень приятно, Ана!" },
+    { "speaker": "Ana", "es": "¿Cuántos años tienes, Olga?", "ru": "Сколько тебе лет, Ольга?" },
+    { "speaker": "Olga", "es": "Tengo treinta y cinco años. ¿Y tú?", "ru": "Мне тридцать пять лет. А тебе?" },
+    { "speaker": "Ana", "es": "Veintiocho. Oye, ¿cuál es tu teléfono?", "ru": "Двадцать восемь. Слушай, какой у тебя телефон?" },
+    { "speaker": "Olga", "es": "Seis, cero, cuatro, dos, uno, siete, cinco.", "ru": "Шесть, ноль, четыре, два, один, семь, пять." },
+    { "speaker": "Ana", "es": "¿Cómo? Repite, por favor.", "ru": "Как? Повторите, пожалуйста." },
+    { "speaker": "Olga", "es": "Seis, cero, cuatro, dos, uno, siete, cinco.", "ru": "Шесть, ноль, четыре, два, один, семь, пять." },
+    { "speaker": "Ana", "es": "Gracias. Mi número es seis, siete, ocho, cuatro, uno, dos, tres.", "ru": "Спасибо. Мой номер: шесть, семь, восемь, четыре, один, два, три." },
+    { "speaker": "Olga", "es": "Gracias, Ana. ¡Hasta luego!", "ru": "Спасибо, Ана. До скорого!" }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары: цифра и слово",
+      "description": "Найди соответствие между числом и словом. Обрати внимание на анти-пару seis / siete",
+      "pairs": [
+        { "es": "cero", "ru": "ноль" },
+        { "es": "uno", "ru": "один" },
+        { "es": "dos", "ru": "два" },
+        { "es": "tres", "ru": "три" },
+        { "es": "cuatro", "ru": "четыре" },
+        { "es": "cinco", "ru": "пять" },
+        { "es": "seis", "ru": "шесть" },
+        { "es": "siete", "ru": "семь" },
+        { "es": "diez", "ru": "десять" },
+        { "es": "¿cuántos años tienes?", "ru": "сколько тебе лет?" }
+      ]
+    },
+    {
+      "type": "fill-gap-tener_tengo_tienes",
+      "title": "Практика: tener — tengo / tienes",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Cuántos años ___ ?", "ru": "Сколько тебе лет?", "answer": "tienes", "options": ["tienes", "tengo", "tiene"] },
+        { "text": "Yo ___ treinta y cinco años.", "ru": "Мне тридцать пять лет.", "answer": "Tengo", "options": ["Tengo", "Tienes", "Tiene"] },
+        { "text": "Mi compañera ___ veintiocho años.", "ru": "Моей однокурснице двадцать восемь лет.", "answer": "tiene", "options": ["tiene", "tengo", "tienes"] },
+        { "text": "Nosotros ___ un número de teléfono.", "ru": "У нас есть номер телефона.", "answer": "tenemos", "options": ["tenemos", "tengo", "tienes"] },
+        { "text": "— ¿Y tú? — ___ veinticinco.", "ru": "— А тебе? — Двадцать пять.", "answer": "Tengo", "options": ["Tengo", "Tiene", "Tienen"] }
+      ]
+    },
+    {
+      "type": "fill-gap-formula_de_la_edad",
+      "title": "Практика: формула возраста и телефона",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "___ cuántos años tienes? — Tengo treinta y cinco años.", "ru": "Сколько тебе лет? — Мне тридцать пять лет.", "answer": "Cuántos", "options": ["Cuántos", "Qué", "Cómo"] },
+        { "text": "Tengo ___ años.", "ru": "Мне … лет.", "answer": "treinta y cinco", "options": ["treinta y cinco", "nueve", "diez"] },
+        { "text": "Mi ___ es seis, cero, cuatro, dos, uno, siete, cinco.", "ru": "Мой номер: шесть, ноль, четыре, два, один, семь, пять.", "answer": "número", "options": ["número", "nombre", "apellido"] },
+        { "text": "— ¿Cuál es tu ___ ? — Mi número es seis, siete, ocho.", "ru": "— Какой у тебя телефон? — Мой номер: шесть, семь, восемь.", "answer": "teléfono", "options": ["teléfono", "letra", "alfabeto"] },
+        { "text": "— ¿Cuántos años tienes? — ___ veintiocho.", "ru": "— Сколько тебе лет? — Двадцать восемь.", "answer": "Tengo", "options": ["Tengo", "Tiene", "Tienes"] }
+      ]
+    },
+    {
+      "type": "fill-gap-numeros_del_cero_al_diez",
+      "title": "Практика: числа от нуля до десяти",
+      "description": "Вставь пропущенное число",
+      "sentences": [
+        { "text": "___ , uno, dos, tres, cuatro.", "ru": "Ноль, один, два, три, четыре.", "answer": "cero", "options": ["cero", "cinco", "diez"] },
+        { "text": "Cinco, seis, ___ , ocho, nueve.", "ru": "Пять, шесть, ?, восемь, девять.", "answer": "siete", "options": ["siete", "seis", "ocho"] },
+        { "text": "Ocho, ___ .", "ru": "Восемь, ?. (Последнее число ряда)", "answer": "diez", "options": ["diez", "nueve", "cero"] },
+        { "text": "Dos, tres, ___ , cinco.", "ru": "Два, три, ?, пять.", "answer": "cuatro", "options": ["cuatro", "seis", "siete"] },
+        { "text": "Mi número es cero, ___ , dos.", "ru": "Мой номер: ноль, ?, два.", "answer": "uno", "options": ["uno", "siete", "nueve"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика урока",
+      "description": "Вставь пропущенное слово: числа, возраст и телефон",
+      "sentences": [
+        { "text": "— ¿Cuántos años ___ ? — Tengo treinta y cinco años.", "ru": "— Сколько тебе лет? — Мне тридцать пять лет.", "answer": "tienes", "options": ["tienes", "tengo", "tiene"] },
+        { "text": "___ , cinco, seis, siete.", "ru": "Четыре, пять, шесть, семь.", "answer": "cuatro", "options": ["cuatro", "dos", "tres"] },
+        { "text": "Mi número es seis, cero, cuatro, ___ , uno, siete, cinco.", "ru": "Мой номер: шесть, ноль, четыре, ?, один, семь, пять.", "answer": "dos", "options": ["dos", "tres", "diez"] },
+        { "text": "Tengo ___ años.", "ru": "Мне тридцать пять лет.", "answer": "treinta y cinco", "options": ["treinta y cinco", "siete", "nueve"] },
+        { "text": "— ¿Todo bien? — Sí, ___ .", "ru": "— Всё хорошо? — Да, спасибо.", "answer": "gracias", "options": ["gracias", "teléfono", "años"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай и повторяй вслух. Цифровые реплики произноси по одной цифре с паузами."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Ольгой",
+      "role": "Olga",
+      "description": "Ты — Ольга. Диктуй свой телефон по цифрам в двух темпах и назови свой возраст формулой tengo … años."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Аной",
+      "role": "Ana",
+      "description": "Ты — Ана, однокурсница. Спроси телефон и возраст, переспроси номер: «¿Cómo? Repite, por favor»."
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Обменяйся контактами с однокурсницей: спроси возраст, назови свой, продиктуй номер",
+      "template": [
+        { "label": "Сколько тебе лет?", "es": "¿Cuántos años ___ ?" },
+        { "label": "Мне тридцать пять", "es": "___ treinta y cinco años." },
+        { "label": "Какой у тебя телефон?", "es": "¿Cuál es tu ___ ?" },
+        { "label": "Мой номер: шесть, ноль", "es": "Mi ___ es seis, cero, cuatro, dos." },
+        { "label": "Повторите, пожалуйста", "es": "¿Cómo? ___, por favor." },
+        { "label": "Спасибо", "es": "___ , Ana." },
+        { "label": "До скорого", "es": "¡Hasta ___ !" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "Audio: «cinco». ¿Qué número has oído?",
+          "ru": "Аудио: «cinco». Какое число прозвучало?",
+          "options": ["4", "5", "6"],
+          "answer": 1
+        },
+        {
+          "question": "Audio: «siete». ¿Qué número has oído?",
+          "ru": "Аудио: «siete». Какое число прозвучало?",
+          "options": ["6", "7", "8"],
+          "answer": 1
+        },
+        {
+          "question": "Ana dicta un número: 6-0-4-2-1-7-5. ¿Cómo lo dice Olga?",
+          "ru": "Ана диктует номер: 6-0-4-2-1-7-5. Как его повторяет Ольга?",
+          "options": ["Seiscientos cuarenta y dos mil", "Seis, cero, cuatro, dos, uno, siete, cinco", "Sesenta, cuatro, veintiuno", "Seis-cuatro-cero"],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo responde Olga a la pregunta «¿Cuántos años tienes?»?",
+          "ru": "Как Ольга отвечает на вопрос «Сколько тебе лет?»",
+          "options": ["Soy treinta y cinco", "Tengo treinta y cinco años", "Vivo treinta y cinco años", "Me llamo treinta y cinco"],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo se lee la letra z en la palabra diez?",
+          "ru": "Как читается буква z в слове diez?",
+          "options": ["[з]", "межзубное [с]", "не читается"],
+          "answer": 1
+        },
+        {
+          "question": "Elige la traducción correcta: «Мне двадцать восемь лет»",
+          "ru": "Выбери верный перевод: «Мне двадцать восемь лет»",
+          "options": ["Tengo veintiocho años", "Soy veintiocho años", "Tengo años veintiocho", "Estoy veintiocho años"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuál es el número «cero»?",
+          "ru": "Какое число — «cero»?",
+          "options": ["0", "1", "10"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué número falta? Cuatro, cinco, seis, …",
+          "ru": "Какого числа не хватает? Четыре, пять, шесть, …",
+          "options": ["tres", "siete", "ocho"],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    "Я считаю от cero до diez и понимаю числа на слух",
+    "Я диктую номер телефона по цифрам",
+    "Я спрашиваю возраст: ¿cuántos años tienes?",
+    "Я говорю свой возраст формулой: tengo … años",
+    "Я читаю слова с межзубным звуком: cinco, diez, gracias"
+  ],
+  "homework": [
+    "Запиши на аудио три диктовки номера в трёх темпах: медленно, средне, быстро",
+    "Проговори вслух числа от cero до diez по порядку, затем вразброс: ocho, tres, cinco, cero, diez",
+    "Назови вслух возраст трёх членов семьи числами, которые ты уже знаешь (0–10) или округлённо",
+    "Послушай аудио-тренажёр «услышь и набери»: набери на цифровой панели 10 рядов чисел"
+  ]
+}

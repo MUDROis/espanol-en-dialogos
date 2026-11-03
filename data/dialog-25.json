@@ -1,0 +1,300 @@
+{
+  "id": 25,
+  "title": "El atasco de Lucía y Pedro",
+  "titleRu": "Пробка Лусии и Педро",
+  "part": 3,
+  "level": "B1",
+  "theme": "Дорога, пробка, автомобиль  La carretera, el atasco, el coche",
+  "characters": ["lucia", "pedro"],
+  "objectives": [
+    "Говорить, сколько уже длится ситуация: hace + время + que (hace dos semanas que no funciona)",
+    "Сообщать о начале действия: empezar a + infinitivo (por fin empezamos a movernos)",
+    "Выражать долженствование и бесполезность: deber + infinitivo, no servir de nada (debo llevar el coche al taller)",
+    "Говорить о том, что заканчивается: se + me/nos + acaba (se nos acaba la gasolina)",
+    "Понимать слова по теме «дорога, пробка, автомобиль»: el atasco, el tráfico, la calefacción, el navegador"
+  ],
+  "grammar": {
+    "hace_que": {
+      "title": "HACE + время + QUE: сколько уже длится",
+      "description": "HACE + отрезок времени + QUE + глагол — «уже (столько времени) что-то ...»: Hace dos semanas que no funciona (уже две недели не работает). Такая конструкция отвечает на вопрос ¿cuánto tiempo hace que...? (сколько времени уже...).",
+      "forms": {
+        "yo": { "es": "hace un año que estudio francés", "ru": "я уже год учу французский" },
+        "tu": { "es": "hace dos horas que esperas", "ru": "ты уже два часа ждёшь" },
+        "el_ella": { "es": "hace dos semanas que la calefacción no funciona", "ru": "печка уже две недели не работает" },
+        "nosotros": { "es": "hace tiempo que no visitamos a mi padre", "ru": "мы давно не навещали моего отца" },
+        "vosotros": { "es": "hace un mes que no usáis el coche", "ru": "вы уже месяц не пользуетесь машиной" },
+        "ellos_ellas": { "es": "hace mucho que no viajan", "ru": "они давно не путешествуют" }
+      },
+      "examples": [
+        { "es": "Hace dos semanas que la calefacción no funciona, ¿no lo recuerdas?", "ru": "Печка уже две недели не работает, не помнишь?" },
+        { "es": "¿Cuánto tiempo hace que esperáis aquí, Lucía y Pedro?", "ru": "Сколько времени вы уже ждёте здесь, Лусия и Педро?" }
+      ]
+    },
+    "empezar_a": {
+      "title": "EMPEZAR A, ACABAR DE + infinitivo: начать и только что",
+      "description": "EMPEZAR A + infinitivo — «начать делать»: por fin empezamos a movernos (наконец-то мы трогаемся), empiezo a ponerme nervioso (я начинаю нервничать). ACABAR DE + infinitivo — «только что сделать»: acaban de salir (они только что вышли).",
+      "list": [
+        { "es": "empezar a moverse", "ru": "начать двигаться" },
+        { "es": "por fin empezamos a movernos", "ru": "наконец-то мы трогаемся" },
+        { "es": "empiezo a ponerme nervioso", "ru": "я начинаю нервничать" },
+        { "es": "acaban de salir", "ru": "они только что вышли" },
+        { "es": "empieza a llover", "ru": "начинается дождь" },
+        { "es": "acabar de llegar", "ru": "только что приехать" }
+      ],
+      "examples": [
+        { "es": "¡Oh, por fin empezamos a movernos!", "ru": "О, наконец-то мы трогаемся!" },
+        { "es": "Ya me estoy poniendo muy nervioso con tanto tráfico.", "ru": "Я уже становлюсь очень нервным из-за такого движения." }
+      ]
+    },
+    "deber": {
+      "title": "DEBER + infinitivo: должен; NO SERVIR DE NADA: бесполезно",
+      "description": "DEBER + infinitivo — «должен, нужно»: Debo llevar el coche al taller (мне надо отвезти машину в мастерскую). NO SERVIR DE NADA — «быть бесполезным»: Enfadarse no sirve de nada (злиться бесполезно).",
+      "list": [
+        { "es": "debo llevar el coche al taller", "ru": "мне нужно отвезти машину в мастерскую" },
+        { "es": "no sirve de nada", "ru": "бесполезно" },
+        { "es": "debemos llamar a mi padre", "ru": "мы должны позвонить моему отцу" },
+        { "es": "debes esperar un poco", "ru": "тебе нужно немного подождать" },
+        { "es": "enfadarse no sirve de nada", "ru": "злиться бесполезно" }
+      ],
+      "examples": [
+        { "es": "Debo llevar el coche al taller.", "ru": "Мне нужно отвезти машину в мастерскую." },
+        { "es": "Tranquilo, enfadarse no sirve de nada.", "ru": "Спокойно, злиться бесполезно." }
+      ]
+    },
+    "se_acaba": {
+      "title": "SE + me/te/nos + ACABAR: заканчивается",
+      "description": "SE + me/te/le/nos + ACABAR — «у меня/у тебя/у нас заканчивается...»: Se nos acaba la gasolina (у нас заканчивается бензин), Se me acaba el tiempo (у меня заканчивается время). Конструкция показывает, что что-то кончается само собой, часто — про бензин, время и терпение.",
+      "list": [
+        { "es": "se nos acaba la gasolina", "ru": "у нас заканчивается бензин" },
+        { "es": "se me acaba el tiempo", "ru": "у меня заканчивается время" },
+        { "es": "se le acaba la paciencia", "ru": "у него заканчивается терпение" },
+        { "es": "¿se te acaba la batería?", "ru": "у тебя садится батарея?" },
+        { "es": "se les acaban las ideas", "ru": "у них заканчиваются идеи" }
+      ],
+      "examples": [
+        { "es": "¡Madre mía! ¡Se nos acaba la gasolina!", "ru": "Боже мой! У нас заканчивается бензин!" },
+        { "es": "Vamos, rápido, se me acaba el tiempo.", "ru": "Давай, быстрее, у меня заканчивается время." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "el_coche": [
+      { "es": "el atasco", "ru": "пробка" },
+      { "es": "el tráfico", "ru": "движение (машин)" },
+      { "es": "la carretera", "ru": "шоссе, дорога" },
+      { "es": "las obras", "ru": "дорожные работы" },
+      { "es": "la calefacción", "ru": "отопление, печка" },
+      { "es": "el taller", "ru": "мастерская, автосервис" }
+    ],
+    "el_viaje": [
+      { "es": "la gasolina", "ru": "бензин" },
+      { "es": "el navegador", "ru": "навигатор" },
+      { "es": "la cobertura", "ru": "связь, сигнал" },
+      { "es": "el medio camino", "ru": "полпути" },
+      { "es": "la velocidad de tortugas", "ru": "черепашья скорость" },
+      { "es": "la mala suerte", "ru": "невезение" }
+    ],
+    "verbos": [
+      { "es": "irritar", "ru": "раздражать" },
+      { "es": "enfadarse", "ru": "злиться" },
+      { "es": "encender", "ru": "включать (печку)" },
+      { "es": "llevar", "ru": "отвозить, относить" },
+      { "es": "moverse", "ru": "двигаться" },
+      { "es": "llamar", "ru": "звонить" },
+      { "es": "acabarse", "ru": "заканчиваться" },
+      { "es": "esperar", "ru": "ждать" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Lucía", "es": "¡Vaya mala suerte! Llevamos casi dos horas en el atasco.", "ru": "Ну и неудача! Мы уже почти два часа стоим в пробке." },
+    { "speaker": "Pedro", "es": "A mí también me irrita mucho. No entiendo por qué hay tanto tráfico a esta hora.", "ru": "Меня это тоже сильно раздражает. Не понимаю, почему столько машин в такой час." },
+    { "speaker": "Lucía", "es": "Creo que hay obras en la carretera. Con la lluvia que hace es imposible seguir así. ¿Por qué no enciendes la calefacción?", "ru": "Думаю, что там ремонт дороги. Из-за дождя уже невозможно. Почему не включишь печку?" },
+    { "speaker": "Pedro", "es": "Hace dos semanas que no funciona, ¿no lo recuerdas? Debo llevar el coche al taller. Caramba, con este tráfico vamos a llegar muy tarde. Ya me estoy poniendo muy nervioso.", "ru": "Она уже две недели как не работает, не помнишь? Нужно отвезти машину в мастерскую. Чёрт, с такой пробкой мы приедем очень поздно. Я уже начинаю нервничать." },
+    { "speaker": "Lucía", "es": "Tranquilo. Enfadarse no sirve de nada. ¿Pongo la radio?", "ru": "Спокойно. Злость не поможет. Включить радио?" },
+    { "speaker": "Pedro", "es": "No, ahora todo me molesta. ¡Nos estamos moviendo a velocidad de tortugas!", "ru": "Нет, меня сейчас всё напрягает. Мы движемся со скоростью черепахи!" },
+    { "speaker": "Lucía", "es": "Según el navegador, el atasco acaba en dos kilómetros. Voy a llamar al señor Ramírez a decir que estamos llegando tarde... ¡Otra vez mala suerte! Aquí no hay cobertura... ¿En qué estás pensando?", "ru": "Согласно навигатору, пробка заканчивается через два километра. Сейчас позвоню сеньору Рамиресу, скажу, что мы задерживаемся... Ну что за неудача! Здесь сеть не ловит... О чём ты думаешь?" },
+    { "speaker": "Pedro", "es": "En la mala suerte que nos persigue todo el día. Primero, las obras en la otra carretera no nos permiten pasar, luego, el atasco, después, que no hay cobertura, y ahora... ¡Se nos acaba la gasolina!", "ru": "О невезении, которое нас преследует весь день. Сначала ремонт на другом шоссе, который не даёт нам проехать, потом — пробка, затем — что нет связи... А сейчас... У нас заканчивается бензин!" },
+    { "speaker": "Lucía", "es": "¡Madre mía! Si nos paramos en medio camino, me muero.", "ru": "О, нет! Если мы встанем посреди дороги, я умру." },
+    { "speaker": "Pedro", "es": "Ni siquiera podemos llamar a mi padre que, seguro, nos está esperando con impaciencia y ya está preocupado. Oh, ¡por fin empezamos a movernos!", "ru": "Мы даже не можем позвонить папе, который, скорее всего, нас ждёт с нетерпением и уже волнуется. О, наконец-то мы движемся!" }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el atasco", "ru": "пробка" },
+        { "es": "el tráfico", "ru": "движение (машин)" },
+        { "es": "la carretera", "ru": "шоссе, дорога" },
+        { "es": "las obras", "ru": "дорожные работы" },
+        { "es": "la calefacción", "ru": "отопление, печка" },
+        { "es": "el taller", "ru": "мастерская, автосервис" },
+        { "es": "la gasolina", "ru": "бензин" },
+        { "es": "el navegador", "ru": "навигатор" },
+        { "es": "la cobertura", "ru": "связь, сигнал" },
+        { "es": "el medio camino", "ru": "полпути" }
+      ]
+    },
+    {
+      "type": "fill-gap-hace_que",
+      "title": "Практика: HACE + время + QUE",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Hace dos ___ que la calefacción no funciona.", "ru": "Печка уже две недели не работает", "answer": "semanas", "options": ["semanas", "días", "horas"] },
+        { "text": "Hace ___ horas que estamos en el atasco.", "ru": "Мы уже два часа в пробке", "answer": "dos", "options": ["dos", "una", "tres"] },
+        { "text": "¿Cuánto tiempo ___ que esperáis aquí, Pedro y Lucía?", "ru": "Сколько времени вы уже здесь ждёте, Педро и Лусия?", "answer": "hace", "options": ["hace", "hago", "hay"] },
+        { "text": "Hace un ___ que no visitamos a mi padre.", "ru": "Уже месяц мы не навещали моего отца", "answer": "mes", "options": ["mes", "año", "día"] },
+        { "text": "Hace tiempo que ___ viajamos en coche.", "ru": "Мы уже давно не путешествуем на машине", "answer": "no", "options": ["no", "sí", "ya"] }
+      ]
+    },
+    {
+      "type": "fill-gap-empezar_a",
+      "title": "Практика: EMPEZAR A, ACABAR DE",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¡Por fin empezamos a ___!", "ru": "Наконец-то мы трогаемся!", "answer": "movernos", "options": ["movernos", "mover", "movamos"] },
+        { "text": "Ya empiezo a ponerme muy ___.", "ru": "Я уже становлюсь очень нервным", "answer": "nervioso", "options": ["nervioso", "nerviosa", "nervios"] },
+        { "text": "Acaban de ___ de casa.", "ru": "Они только что вышли из дома", "answer": "salir", "options": ["salir", "salen", "salgo"] },
+        { "text": "Empieza a ___ muy fuerte.", "ru": "Начинается сильный дождь", "answer": "llover", "options": ["llover", "llueve", "lloviendo"] },
+        { "text": "Empezamos a ___ más rápido.", "ru": "Мы начали двигаться быстрее", "answer": "movernos", "options": ["movernos", "moverse", "mover"] }
+      ]
+    },
+    {
+      "type": "fill-gap-deber",
+      "title": "Практика: DEBER, NO SERVIR DE NADA",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "___ llevar el coche al taller.", "ru": "Мне нужно отвезти машину в мастерскую", "answer": "Debo", "options": ["Debo", "Debes", "Debe"] },
+        { "text": "Debemos ___ a mi padre.", "ru": "Мы должны позвонить моему отцу", "answer": "llamar", "options": ["llamar", "llamo", "llamas"] },
+        { "text": "Enfadarse no ___ de nada.", "ru": "Злиться бесполезно", "answer": "sirve", "options": ["sirve", "sirven", "servir"] },
+        { "text": "Debes ___ un poco, la calma le ayuda a cualquiera.", "ru": "Тебе нужно немного подождать, спокойствие помогает любому", "answer": "esperar", "options": ["esperar", "espero", "esperas"] },
+        { "text": "¿Debemos ___ llegar hasta el final de la carretera?", "ru": "Нам нужно доехать до конца дороги?", "answer": "intentar", "options": ["intentar", "intento", "intentas"] }
+      ]
+    },
+    {
+      "type": "fill-gap-se_acaba",
+      "title": "Практика: SE + me/te/nos + ACABAR",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Se nos ___ la gasolina.", "ru": "У нас заканчивается бензин", "answer": "acaba", "options": ["acaba", "acaban", "acabo"] },
+        { "text": "Se me acaba el ___; vamos rápido.", "ru": "У меня заканчивается время; пошли быстрее", "answer": "tiempo", "options": ["tiempo", "dinero", "camino"] },
+        { "text": "Se le acaba la ___ en el atasco.", "ru": "У него заканчивается терпение в пробке", "answer": "paciencia", "options": ["paciencia", "cabeza", "suerte"] },
+        { "text": "¿Se te acaba la ___ del móvil?", "ru": "У тебя садится батарея телефона?", "answer": "batería", "options": ["batería", "baterias", "gasolina"] },
+        { "text": "Se les acaban las ___.", "ru": "У них заканчиваются идеи", "answer": "ideas", "options": ["ideas", "idea", "ideando"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Hace dos ___ que la calefacción no funciona.", "ru": "Печка уже две недели не работает", "answer": "semanas", "options": ["semanas", "meses", "horas"] },
+        { "text": "¡Por fin empezamos a ___!", "ru": "Наконец-то мы трогаемся!", "answer": "movernos", "options": ["movernos", "mover", "movamos"] },
+        { "text": "Debo ___ el coche al taller.", "ru": "Мне нужно отвезти машину в мастерскую", "answer": "llevar", "options": ["llevar", "llevo", "llevas"] },
+        { "text": "Se nos ___ la gasolina.", "ru": "У нас заканчивается бензин", "answer": "acaba", "options": ["acaba", "acaban", "acabo"] },
+        { "text": "Llevamos ___ dos horas en el atasco.", "ru": "Мы уже почти два часа в пробке", "answer": "casi", "options": ["casi", "solo", "más"] },
+        { "text": "Enfadarse no ___ de nada.", "ru": "Злиться бесполезно", "answer": "sirve", "options": ["sirve", "sirven", "servir"] },
+        { "text": "Empiezo a ponerme muy ___.", "ru": "Я начинаю очень нервничать", "answer": "nervioso", "options": ["nervioso", "nerviosa", "nervios"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Ты — жена Педро, стараешься сохранять спокойствие и немного успокоить мужа в пробке"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Педро",
+      "role": "Pedro",
+      "description": "Ты — муж Лусии, нервничаешь из-за пробки и череды неудач по дороге"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи о поездке в машине в пробке",
+      "template": [
+        { "label": "Мы уже почти два часа в пробке", "es": "Llevamos casi dos horas en el ___" },
+        { "label": "Почему не включишь печку?", "es": "¿Por qué no ___ la calefacción?" },
+        { "label": "Мне нужно отвезти машину в мастерскую", "es": "Debo ___ el coche al taller" },
+        { "label": "Злиться бесполезно", "es": "Enfadarse no ___ de nada" },
+        { "label": "Мы движемся со скоростью черепахи", "es": "Nos estamos moviendo a velocidad de ___" },
+        { "label": "Сейчас позвоню сеньору Рамиресу", "es": "Voy a ___ al señor Ramírez" },
+        { "label": "У нас заканчивается бензин!", "es": "Se nos ___ la gasolina" },
+        { "label": "Наконец-то мы движемся!", "es": "Por fin empezamos a ___" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Cuánto tiempo llevan Lucía y Pedro en el atasco?",
+          "ru": "Сколько времени Лусия и Педро стоят в пробке?",
+          "options": ["Casi dos horas", "Media hora", "Unos minutos", "Todo el día"],
+          "answer": 0
+        },
+        {
+          "question": "¿Por qué hay tanto tráfico a esa hora?",
+          "ru": "Почему столько машин в этот час?",
+          "options": ["Hay obras en la carretera", "Hay una fiesta", "No hay gasolina", "Hay un accidente"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué no funciona en el coche?",
+          "ru": "Что не работает в машине?",
+          "options": ["La calefacción", "El navegador", "La radio", "El motor"],
+          "answer": 0
+        },
+        {
+          "question": "¿Adónde debe llevar Pedro el coche?",
+          "ru": "Куда Педро должен отвезти машину?",
+          "options": ["Al taller", "A casa de su padre", "Al aeropuerto", "A la estación"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué le propone Lucía a Pedro para calmarse?",
+          "ru": "Что Лусия предлагает Педро, чтобы успокоиться?",
+          "options": ["Poner la radio", "Comprar gasolina", "Volver a casa", "Llamar a su padre"],
+          "answer": 0
+        },
+        {
+          "question": "¿Según qué acaba el atasco en dos kilómetros?",
+          "ru": "Согласно чему пробка заканчивается через два километра?",
+          "options": ["Al navegador", "A la radio", "A un mapa", "Al teléfono"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué no hay en el coche para poder llamar?",
+          "ru": "Чего нет в машине, чтобы позвонить?",
+          "options": ["Cobertura", "Gasolina", "Batería", "Radio"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué se les acaba al final del diálogo?",
+          "ru": "Что у них заканчивается в конце диалога?",
+          "options": ["La gasolina", "El tiempo", "La paciencia", "Las ideas"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué empiezan a hacer al final?",
+          "ru": "Что они начинают делать в конце?",
+          "options": ["A moverse", "A llover", "A dormir", "A cantar"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 минут: повтори слова по теме «дорога, транспорт, автомобиль»",
+    "Практика: расскажи о поездке, когда ты попал в пробку или опоздал. Используй: hace + время + que..., deber + infinitivo, empezar a + infinitivo, se me/te/nos acaba...",
+    "Дневник: опиши случай из жизни, когда всё шло не по плану. Что не работало? Что ты делал? Что в итоге случилось?",
+    "Грамматика: составь 3 предложения с hace + que, 3 с empezar a + infinitivo и 3 с se me / se nos acaba..."
+  ]
+}

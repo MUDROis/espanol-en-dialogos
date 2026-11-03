@@ -1,0 +1,308 @@
+{
+  "id": 26,
+  "title": "Sofía compra una blusa",
+  "titleRu": "София покупает блузку",
+  "part": 3,
+  "level": "B1",
+  "theme": "Покупка одежды, магазин, стиль  La compra de ropa, la tienda, el estilo",
+  "characters": ["sofia", "dependienta"],
+  "objectives": [
+    "Говорить, как сидит одежда: quedar / sentar / parecer (te queda muy bien, no parezco gorda)",
+    "Использовать местоимения lo/la/los/las с глаголами: me la voy a probar, se lo recomiendo",
+    "Строить будущее время: ir a + infinitivo (vas a ver lo bien que te sienta)",
+    "Использовать отрицания: ninguna, nada, nunca (no me atrae ninguna, casi nunca voy a bodas)",
+    "Понимать слова по теме «одежда, цвета, магазин»: la blusa, la falda, la marca, la caja"
+  ],
+  "grammar": {
+    "quedar_sentar_parecer": {
+      "title": "QUEDAR, SENTAR, PARECER: как сидит и идёт одежда",
+      "description": "QUEDAR — «сидеть, идти» об одежде: te queda muy bien (тебе очень идёт), me queda un poco grande (мне немного велико). SENTAR — «подходить, хорошо смотреться»: te sienta muy bien (тебе очень идёт). PARECER — «казаться»: no parezco un poco gorda? (я не кажусь немного толстой?).",
+      "forms": {
+        "yo": { "es": "me queda bien", "ru": "мне идёт" },
+        "tu": { "es": "te queda muy bien", "ru": "тебе очень идёт" },
+        "el_ella": { "es": "le queda un poco grande", "ru": "ей немного велико" },
+        "nosotros": { "es": "nos quedan cortas", "ru": "нам коротко (о юбках)" },
+        "vosotros": { "es": "os quedan largas", "ru": "вам длинно (о юбках)" },
+        "ellos_ellas": { "es": "les quedan bien", "ru": "им идёт" }
+      },
+      "examples": [
+        { "es": "Te queda un poco grande, ahora te traigo otra.", "ru": "Оно тебе немного велико, сейчас принесу другое." },
+        { "es": "Si te la pones, vas a ver lo bien que te sienta, estoy segura.", "ru": "Если наденешь её, увидишь, как хорошо она тебе идёт, я уверена." }
+      ]
+    },
+    "pronombres_objeto": {
+      "title": "Местоимения LO, LA, LOS, LAS: примерю её, рекомендую его",
+      "description": "Местоимения lo/la/los/las заменяют объект (вещь): Lo recomiendo (рекомендую его), Me la voy a probar (я её примерю), Me las pruebo todas (примеряю их все). С возвратными глаголами (probarse, ponerse) местоимение ставится перед глаголом: me la voy a probar.",
+      "list": [
+        { "es": "me la voy a probar", "ru": "я её примерю" },
+        { "es": "me la pruebo también", "ru": "я её тоже примерю" },
+        { "es": "me las pruebo todas", "ru": "примеряю их все" },
+        { "es": "se lo recomiendo", "ru": "я его/её рекомендую" },
+        { "es": "la elijo", "ru": "я выбираю её" },
+        { "es": "ponérsela", "ru": "надеть её" }
+      ],
+      "examples": [
+        { "es": "Me la voy a probar. Pero quiero ver algo más.", "ru": "Я её примерю. Но хочу посмотреть что-нибудь ещё." },
+        { "es": "Es un modelo muy bueno, se lo recomiendo.", "ru": "Очень хорошая модель, рекомендую её вам." }
+      ]
+    },
+    "ir_a": {
+      "title": "IR A + infinitivo: будущее (vas a ver, van a enamorarse)",
+      "description": "IR A + infinitivo — «собираться, буду + глагол»: vas a ver (увидишь), van a enamorarse (влюбятся). Часто используется в магазине: te la voy a probar, va a gustarte.",
+      "list": [
+        { "es": "vas a ver", "ru": "ты увидишь" },
+        { "es": "van a enamorarse de ti", "ru": "они влюбятся в тебя" },
+        { "es": "me la voy a probar", "ru": "я её примерю" },
+        { "es": "va a gustarte", "ru": "она тебе понравится" },
+        { "es": "¿vamos a ir a la boda?", "ru": "мы пойдём на свадьбу?" }
+      ],
+      "examples": [
+        { "es": "Vas a ver lo bien que te sienta, estoy segura.", "ru": "Ты увидишь, как хорошо она тебе идёт, я уверена." },
+        { "es": "Seguro que todos los chicos van a enamorarse de ti.", "ru": "Точно все мальчики влюбятся в тебя." }
+      ]
+    },
+    "negaciones": {
+      "title": "Отрицания: NINGUNA, NADA, NUNCA",
+      "description": "NINGUNO/A — «ни один/ни одна»: no me atrae ninguna (меня не привлекает ни одна). NADA — «ничего»: no encuentro nada (ничего не нахожу). NUNCA — «никогда»: casi nunca voy a bodas (я почти никогда не хожу на свадьбы). В испанском двойное отрицание (no...ninguna) — норма.",
+      "list": [
+        { "es": "no me atrae ninguna", "ru": "меня не привлекает ни одна" },
+        { "es": "casi nunca voy a bodas", "ru": "я почти никогда не хожу на свадьбы" },
+        { "es": "no encuentro nada", "ru": "я ничего не нахожу" },
+        { "es": "ninguna de estas faldas", "ru": "ни одна из этих юбок" },
+        { "es": "no quiero nada de esto", "ru": "я не хочу ничего из этого" }
+      ],
+      "examples": [
+        { "es": "De estas, no me atrae ninguna. Son demasiado largas para mí.", "ru": "Из этих меня не привлекает ни одна. Они слишком длинные для меня." },
+        { "es": "Casi nunca voy a bodas. Necesito una blusa casual.", "ru": "Я почти никогда не хожу на свадьбы. Мне нужна блузка на каждый день." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "la_ropa": [
+      { "es": "la blusa", "ru": "блузка" },
+      { "es": "la falda", "ru": "юбка" },
+      { "es": "el modelo", "ru": "модель" },
+      { "es": "la marca", "ru": "марка" },
+      { "es": "la caja", "ru": "касса" },
+      { "es": "la boda", "ru": "свадьба" }
+    ],
+    "los_colores": [
+      { "es": "el color", "ru": "цвет" },
+      { "es": "azul claro", "ru": "светло-синий" },
+      { "es": "beige", "ru": "бежевый" },
+      { "es": "gris", "ru": "серый" },
+      { "es": "rosa claro", "ru": "светло-розовый" },
+      { "es": "de colores suaves", "ru": "мягких (пастельных) цветов" }
+    ],
+    "verbos": [
+      { "es": "probarse", "ru": "примерять" },
+      { "es": "recomendar", "ru": "рекомендовать" },
+      { "es": "quedar bien", "ru": "идти, сидеть (об одежде)" },
+      { "es": "sentar bien", "ru": "идти, подходить" },
+      { "es": "parecer", "ru": "казаться" },
+      { "es": "elegir", "ru": "выбирать" },
+      { "es": "vestirse", "ru": "одеваться" },
+      { "es": "enamorarse", "ru": "влюбиться" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "La dependienta", "es": "Buenas tardes. ¿En qué puedo servirle?", "ru": "Добрый день. Чем могу помочь?" },
+    { "speaker": "Sofía", "es": "Estoy buscando alguna blusa elegante para mí.", "ru": "Я ищу какую-нибудь элегантную блузку для себя." },
+    { "speaker": "La dependienta", "es": "¿Le gusta esta? Es un modelo muy bueno, se lo recomiendo. Mi sobrina, más o menos de su edad, prefiere este tipo de blusas.", "ru": "Тебе нравится эта? Очень хорошая модель, рекомендую. Моя племянница, примерно твоего возраста, предпочитает этот тип блузок." },
+    { "speaker": "Sofía", "es": "Sí, es bonita. Me la voy a probar. Pero quiero ver algo más.", "ru": "Да, красивая. Я её померю. Но хочу посмотреть что-нибудь ещё." },
+    { "speaker": "La dependienta", "es": "Claro... ¿Tal vez te gustan algunas de estas faldas?", "ru": "Конечно... Может, тебе понравятся какие-нибудь из этих юбок?" },
+    { "speaker": "Sofía", "es": "No, de estas, no me atrae ninguna. Son demasiado largas para mí. Además, no me gustan estos colores.", "ru": "Нет, из этих меня не привлекает ни одна. Они слишком длинные для меня. К тому же, мне не нравятся эти цвета." },
+    { "speaker": "La dependienta", "es": "Ah, verdad. Hablando de los colores... Ahora las jóvenes prefieren vestirse de colores suaves, como beige, gris, rosa claro...", "ru": "Да, верно. Кстати, о цветах... Сейчас молодёжь предпочитает одеваться в мягкие цвета, например, бежевый, серый, светло-розовый..." },
+    { "speaker": "Sofía", "es": "Eso. A mí me encanta el azul claro.", "ru": "Да. Мне нравится светло-синий." },
+    { "speaker": "La dependienta", "es": "¿Quieres una blusa para salir? ¿Para ir a una boda o a una cena?", "ru": "Тебе нужна блузка на выход? Чтобы пойти на свадьбу или на ужин?" },
+    { "speaker": "Sofía", "es": "Casi nunca voy a bodas. Necesito una blusa casual.", "ru": "Я почти никогда не хожу на свадьбы. Мне нужна блузка на каждый день." },
+    { "speaker": "La dependienta", "es": "Bueno, entonces te puedo ofrecer esta. Mira el color, el que te gusta tanto.", "ru": "Хорошо, тогда я могу предложить тебе эту. Посмотри на цвет, тот, который тебе так нравится." },
+    { "speaker": "Sofía", "es": "Sí, verdad. Es muy linda. Me la pruebo también.", "ru": "Да, верно. Очень симпатичная. Тоже её примерю." },
+    { "speaker": "La dependienta", "es": "¿Qué piensas de esta?", "ru": "Что думаешь об этой?" },
+    { "speaker": "Sofía", "es": "Es que una amiga mía tiene una blusa del mismo color y marca. Creo que son iguales. No, gracias.", "ru": "Дело в том, что у одной моей подруги есть блузка такого же цвета и этой марки. Думаю, что они одинаковые. Нет, спасибо." },
+    { "speaker": "La dependienta", "es": "Hay otra, también de color azul claro. A ver... No lo encuentro... Ah, ya. Ésta. Si te la pones, vas a ver lo bien que te sienta, estoy segura.", "ru": "Есть ещё одна, тоже светло-синего цвета. Посмотрим... Не могу найти её... А, вот. Эта. Если ты её наденешь, увидишь, как хорошо она тебе идёт, я уверена." },
+    { "speaker": "Sofía", "es": "Gracias, ahora me las pruebo todas.", "ru": "Спасибо, я сейчас все примерю." },
+    { "speaker": "La dependienta", "es": "¿Qué tal?", "ru": "Ну, как?" },
+    { "speaker": "Sofía", "es": "Me gusta esta, la última... Pero...", "ru": "Мне нравится эта, последняя... Но..." },
+    { "speaker": "La dependienta", "es": "Oh, estás muy hermosa, te queda muy bien.", "ru": "О, какая ты красивая, тебе очень идёт." },
+    { "speaker": "Sofía", "es": "¿No parezco un poco gorda?", "ru": "Я не кажусь немного толстой?" },
+    { "speaker": "La dependienta", "es": "No, por supuesto que no. A ver, a ver... Te queda un poco grande, ahora te traigo otra.", "ru": "Нет, конечно же нет. Ну-ка, ну-ка... Оно тебе немного велико, я сейчас принесу другое." },
+    { "speaker": "Sofía", "es": "... Sí, éste es mejor. Los otros también son lindos, pero elijo éste.", "ru": "... Да, это лучше. Другие тоже красивые, но я выбираю это." },
+    { "speaker": "La dependienta", "es": "Muy bien. Te ves muy linda. Seguro que todos los chicos, al verte con esta blusa, van a enamorarse de ti.", "ru": "Отлично. Очень хорошо выглядишь. Все мальчики, увидев тебя в этой блузке, точно влюбятся." },
+    { "speaker": "Sofía", "es": "Ja, ja, gracias.", "ru": "Ха-ха, спасибо." },
+    { "speaker": "La dependienta", "es": "Bueno, me ocupo de la blusa. Te espero en la caja.", "ru": "Итак, я займусь блузкой. Жду тебя на кассе." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "la blusa", "ru": "блузка" },
+        { "es": "la falda", "ru": "юбка" },
+        { "es": "el modelo", "ru": "модель" },
+        { "es": "la marca", "ru": "марка" },
+        { "es": "la caja", "ru": "касса" },
+        { "es": "la boda", "ru": "свадьба" },
+        { "es": "el color", "ru": "цвет" },
+        { "es": "azul claro", "ru": "светло-синий" },
+        { "es": "beige", "ru": "бежевый" },
+        { "es": "gris", "ru": "серый" }
+      ]
+    },
+    {
+      "type": "fill-gap-quedar_sentar_parecer",
+      "title": "Практика: QUEDAR, SENTAR, PARECER",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Te ___ muy bien, esta blusa.", "ru": "Тебе очень идёт эта блузка", "answer": "queda", "options": ["queda", "quedan", "quedar"] },
+        { "text": "No parezco un poco ___?", "ru": "Я не кажусь немного толстой?", "answer": "gorda", "options": ["gorda", "gordo", "grande"] },
+        { "text": "Me ___ un poco grande, traigo otra.", "ru": "Мне немного велико, принесу другое", "answer": "queda", "options": ["queda", "quedas", "quedan"] },
+        { "text": "Vas a ver lo bien que te ___ esta blusa.", "ru": "Ты увидишь, как хорошо тебе идёт эта блузка", "answer": "sienta", "options": ["sienta", "siente", "sentar"] },
+        { "text": "¿Qué ___ de esta falda?", "ru": "Что думаешь об этой юбке?", "answer": "piensas", "options": ["piensas", "piensa", "pensar"] }
+      ]
+    },
+    {
+      "type": "fill-gap-pronombres",
+      "title": "Практика: местоимения LO, LA, LOS, LAS",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Me ___ voy a probar.", "ru": "Я её примерю", "answer": "la", "options": ["la", "lo", "las"] },
+        { "text": "Se ___ recomiendo, es un modelo muy bueno.", "ru": "Рекомендую её, очень хорошая модель", "answer": "lo", "options": ["lo", "la", "los"] },
+        { "text": "Me ___ pruebo todas.", "ru": "Примеряю их все", "answer": "las", "options": ["las", "la", "les"] },
+        { "text": "Esta blusa es linda, ___ elijo.", "ru": "Эта блузка симпатичная, я её выбираю", "answer": "la", "options": ["la", "lo", "el"] },
+        { "text": "Si te ___ pones, te va a gustar.", "ru": "Если ты её наденешь, она тебе понравится", "answer": "la", "options": ["la", "lo", "las"] }
+      ]
+    },
+    {
+      "type": "fill-gap-ir_a",
+      "title": "Практика: IR A + infinitivo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Vas a ___ lo bien que te sienta.", "ru": "Ты увидишь, как хорошо тебе идёт", "answer": "ver", "options": ["ver", "ves", "viste"] },
+        { "text": "Todos los chicos van a ___ de ti.", "ru": "Все мальчики влюбятся в тебя", "answer": "enamorarse", "options": ["enamorarse", "enamoran", "enamorado"] },
+        { "text": "Me la ___ a probar también.", "ru": "Я её тоже примерю", "answer": "voy", "options": ["voy", "va", "vas"] },
+        { "text": "¿Vamos a ___ a la boda?", "ru": "Мы пойдём на свадьбу?", "answer": "ir", "options": ["ir", "vamos", "van"] },
+        { "text": "Te va a ___ esta blusa.", "ru": "Тебе понравится эта блузка", "answer": "gustar", "options": ["gustar", "gusta", "gustas"] }
+      ]
+    },
+    {
+      "type": "fill-gap-negaciones",
+      "title": "Практика: отрицания NINGUNA, NADA, NUNCA",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "De estas faldas, no me atrae ___.", "ru": "Из этих юбок меня не привлекает ни одна", "answer": "ninguna", "options": ["ninguna", "ninguno", "nada"] },
+        { "text": "Casi ___ voy a bodas.", "ru": "Я почти никогда не хожу на свадьбы", "answer": "nunca", "options": ["nunca", "nada", "ninguna"] },
+        { "text": "No encuentro ___ en el probador.", "ru": "Я ничего не нахожу в примерочной", "answer": "nada", "options": ["nada", "nunca", "nadie"] },
+        { "text": "___ de estas blusas me gusta.", "ru": "Ни одна из этих блузок мне не нравится", "answer": "Ninguna", "options": ["Ninguna", "Nada", "Nunca"] },
+        { "text": "No quiero ___ de este color.", "ru": "Я не хочу ничего этого цвета", "answer": "nada", "options": ["nada", "nunca", "ninguna"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Te ___ muy bien esta blusa.", "ru": "Тебе очень идёт эта блузка", "answer": "queda", "options": ["queda", "quedan", "quedar"] },
+        { "text": "Me ___ voy a probar.", "ru": "Я её примерю", "answer": "la", "options": ["la", "lo", "las"] },
+        { "text": "Vas a ___ lo bien que te sienta.", "ru": "Ты увидишь, как хорошо тебе идёт", "answer": "ver", "options": ["ver", "ves", "viste"] },
+        { "text": "Casi ___ voy a bodas.", "ru": "Я почти никогда не хожу на свадьбы", "answer": "nunca", "options": ["nunca", "nada", "ninguna"] },
+        { "text": "De estas, no me atrae ___.", "ru": "Из этих меня не привлекает ни одна", "answer": "ninguna", "options": ["ninguna", "ninguno", "nada"] },
+        { "text": "Mi amiga tiene una blusa del mismo color y ___.", "ru": "У моей подруги есть блузка такого же цвета и марки", "answer": "marca", "options": ["marca", "modelo", "talla"] },
+        { "text": "Te espero en la ___.", "ru": "Жду тебя на кассе", "answer": "caja", "options": ["caja", "falda", "boda"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Софией",
+      "role": "Sofía",
+      "description": "Ты — покупательница, ищешь элегантную блузку и пробуешь разные модели"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь продавщицей",
+      "role": "La dependienta",
+      "description": "Ты — продавщица, предлагаешь Софии блузки и помогаешь выбрать"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Разыграй поход в магазин одежды",
+      "template": [
+        { "label": "Я ищу блузку для себя", "es": "Estoy buscando una ___ para mí" },
+        { "label": "Чем могу помочь?", "es": "¿En qué puedo ___?" },
+        { "label": "Я её примерю", "es": "Me la ___ a probar" },
+        { "label": "Тебе очень идёт", "es": "Te ___ muy bien" },
+        { "label": "Я почти никогда не хожу на свадьбы", "es": "Casi ___ voy a bodas" },
+        { "label": "Мне нравится светло-синий", "es": "A mí me encanta el ___ claro" },
+        { "label": "Все мальчики влюбятся в тебя", "es": "Todos los chicos van a ___ de ti" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Qué está buscando Sofía en la tienda?",
+          "ru": "Что София ищет в магазине?",
+          "options": ["Una falda", "Un vestido", "Una blusa elegante", "Un abrigo"],
+          "answer": 2
+        },
+        {
+          "question": "¿Por qué no le gustan las faldas a Sofía?",
+          "ru": "Почему Софии не нравятся юбки?",
+          "options": ["Son demasiado estrechas", "Son demasiado largas y no le gustan los colores", "Son muy caras", "Son demasiado cortas"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué color le encanta a Sofía?",
+          "ru": "Какой цвет нравится Софии?",
+          "options": ["El beige", "El gris", "El rosa claro", "El azul claro"],
+          "answer": 3
+        },
+        {
+          "question": "¿Cuándo va Sofía a bodas?",
+          "ru": "Как часто София ходит на свадьбы?",
+          "options": ["Casi nunca", "Siempre", "Cada semana", "Solo en verano"],
+          "answer": 0
+        },
+        {
+          "question": "¿Por qué no quiere Sofía la blusa del mismo color y marca que la de su amiga?",
+          "ru": "Почему София не хочет блузку того же цвета и марки, что у подруги?",
+          "options": ["Porque cree que son iguales", "Porque es demasiado cara", "Porque no le gusta el color", "Porque es de otra talla"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué piensa la dependienta de la última blusa?",
+          "ru": "Что продавщица думает о последней блузке?",
+          "options": ["Que es demasiado grande", "Que le queda un poco grande y trae otra", "Que no le gusta", "Que es de otra marca"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué blusa elige Sofía al final?",
+          "ru": "Какую блузку София выбирает в итоге?",
+          "options": ["La primera", "La de su amiga", "La última, azul claro", "La de color beige"],
+          "answer": 2
+        },
+        {
+          "question": "¿Dónde espera la dependienta a Sofía?",
+          "ru": "Где продавщица ждёт Софию?",
+          "options": ["En la caja", "En la puerta", "En el probador", "En la calle"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 минут: повтори слова по теме «одежда, цвета, магазин»",
+    "Практика: опиши, что ты ищешь в магазине одежды. Используй: estoy buscando..., me la voy a probar..., te queda bien, casi nunca...",
+    "Дневник: опиши последнюю покупку одежды. Что ты примерял(а)? Что тебе подошло, а что нет?",
+    "Грамматика: составь 3 предложения с me/te queda, 3 с me la / me las voy a probar и 3 с ninguna / nada / nunca"
+  ]
+}

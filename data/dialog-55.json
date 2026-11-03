@@ -1,0 +1,324 @@
+{
+  "id": 55,
+  "title": "¡Hola, Valencia!",
+  "titleRu": "Привет, Валенсия!",
+  "module": "a0-a1",
+  "block": 1,
+  "part": 1,
+  "blockTitle": "Часть 1 · Начальный уровень",
+  "level": "A0",
+  "theme": "Приветствия и прощания в течение дня  Saludos y despedidas según la hora del día",
+  "mission": "Поздороваться и попрощаться в любое время суток — с соседом, официантом, водителем такси.",
+  "mapPoint": "Аэропорт Манисес: прибытие в Валенсию",
+  "duration": "45 минут",
+  "stepsCount": 8,
+  "readingNote": "Прочитайте диалог вслух: сначала с текстом, потом реплики Ольги — по памяти.",
+  "characters": ["olga", "mateo"],
+  "objectives": [
+    "Приветствовать по времени суток: buenos días / buenas tardes / buenas noches",
+    "Отвечать на вопрос ¿qué tal? реакциями bien, muy bien, gracias, sí, no",
+    "Прощаться тремя способами: adiós, hasta luego, hasta mañana",
+    "Здороваться коротко в любое время суток: hola",
+    "Читать слова с немая h и с b / v = [б]"
+  ],
+  "reading": {
+    "title": "Las cinco vocales — cinco sonidos",
+    "description": "Пять гласных испанского звучат всегда одинаково: в испанском нет редукции, как в русском. Сегодня учим открытый слог и два «чудесных исключения»: немая h и b = v = [б].",
+    "letters": [
+      { "es": "A", "ru": "[а] — в слове gracias", "name": "a" },
+      { "es": "E", "ru": "[э] — в слове tarde", "name": "e" },
+      { "es": "I", "ru": "[и] — в слове sí", "name": "i" },
+      { "es": "O", "ru": "[о] — в слове hola", "name": "o" },
+      { "es": "U", "ru": "[у] — в слове tú", "name": "u" },
+      { "es": "H", "ru": "немая буква — hola = «ола»", "name": "hache" },
+      { "es": "B", "ru": "[б] — в слове buenas", "name": "be" },
+      { "es": "V", "ru": "[б] — в слове Valencia", "name": "uve" }
+    ],
+    "syllables": [
+      {
+        "label": "Открытый слог: m + гласная",
+        "note": "Согласная и гласная читаются раздельно, гласная звучит полностью",
+        "items": ["ma", "me", "mi", "mo", "mu"]
+      },
+      {
+        "label": "Открытый слог: p + гласная",
+        "note": "Второй ряд для тренировки артикуляции",
+        "items": ["pa", "pe", "pi", "po", "pu"]
+      },
+      {
+        "label": "Контрастное чтение",
+        "note": "hola — ola (h не читается); vaso — baso (v = b = [б])",
+        "items": ["hola", "ola", "vaso", "baso"]
+      }
+    ],
+    "words": [
+      { "es": "hola", "how": "«о-ла» — h не читается" },
+      { "es": "adiós", "how": "«а-ди-óс» — ударение на ó" },
+      { "es": "mañana", "how": "«ма-ньа-на» — ñ пока на слух" },
+      { "es": "gracias", "how": "«гра-сиас» — i и a читаются раздельно" },
+      { "es": "Valencia", "how": "«ва-лен-сиа» — v как [б], ударение на си" }
+    ],
+    "rules": [
+      {
+        "title": "Пять гласных — пять звуков",
+        "text": "a [а], e [э], i [и], o [о], u [у] читаются одинаково всегда. В русском гласная в безударном слоге «съедается» (молоко → «малако»), в испанском редукции нет: каждая гласная звучит так же, как в алфавите."
+      },
+      {
+        "title": "Открытый слог",
+        "text": "Согласная + гласная = два слога, читаются раздельно: ma-me-mi-mo-mu, pa-pe-pi-po-pu. Ряд произносится с подсветкой: сначала один слог, потом весь ряд."
+      },
+      {
+        "title": "Немая h",
+        "text": "Буква h не читается никогда: hola = «ола», hasta = «аста», hola — o-la. Самая частая ошибка русскоязычных — произносить h как [х]."
+      },
+      {
+        "title": "b и v — один звук [б]",
+        "text": "Буквы b и v в испанском не различаются: buenas, Valencia, vaso. Губы сомкнуты полностью, звука [в] нет. Записывайте сначала b, чтобы не путать."
+      }
+    ]
+  },
+  "grammar": {
+    "saludos_por_hora_del_dia": {
+      "title": "Saludos según la hora del día — приветствия по часам",
+      "description": "Формулу выбирают по часам, а не «на глаз»: 9:00 — buenos días, 15:00 — buenas tardes, 22:00 — buenas noches. Короткое hola подходит в любое время дня. Ничего спрягать не нужно — формулы вводятся целиком.",
+      "list": [
+        { "es": "¡Hola!", "ru": "привет (в любое время дня)" },
+        { "es": "Buenos días", "ru": "доброе утро (до обеда, 9:00)" },
+        { "es": "Buenas tardes", "ru": "добрый день (после обеда, 15:00)" },
+        { "es": "Buenas noches", "ru": "добрый вечер / спокойной ночи (22:00)" },
+        { "es": "Buenos días, señora", "ru": "доброе утро, сеньора" }
+      ],
+      "examples": [
+        { "es": "— Buenos días, señora. — Buenos días.", "ru": "— Доброе утро, сеньора. — Доброе утро." },
+        { "es": "Buenas noches, Olga. ¿Qué tal?", "ru": "Доброй ночи, Ольга. Как дела?" }
+      ]
+    },
+    "despedidas": {
+      "title": "Tres maneras de despedirse — три способа прощаться",
+      "description": "Прощание выбирают по ситуации: adiós — «до свидания», hasta luego — «до скорого» (скоро увидимся), hasta mañana — «до завтра». Поздним вечером прощание выполняет и формула buenas noches.",
+      "list": [
+        { "es": "¡Adiós!", "ru": "до свидания!" },
+        { "es": "¡Hasta luego!", "ru": "до скорого!" },
+        { "es": "¡Hasta mañana!", "ru": "до завтра!" },
+        { "es": "Buenas noches, hasta mañana", "ru": "доброй ночи, до завтра" }
+      ],
+      "examples": [
+        { "es": "Gracias. ¡Adiós! ¡Hasta luego!", "ru": "Спасибо. До свидания! До скорого!" },
+        { "es": "¡Hasta mañana, Olga! Buenas noches.", "ru": "До завтра, Ольга! Доброй ночи." }
+      ]
+    },
+    "respuestas_a_que_tal": {
+      "title": "Respuestas a ¿qué tal? — ответы на «как дела?»",
+      "description": "На вопрос ¿qué tal? отвечают короткой реакцией, а не длинным рассказом. Всё, что нужно для зачёта: bien, muy bien, gracias, sí, no. Добавляйте формулу вежливости — и реплика готова.",
+      "list": [
+        { "es": "Bien, gracias", "ru": "хорошо, спасибо" },
+        { "es": "Muy bien, gracias", "ru": "очень хорошо, спасибо" },
+        { "es": "Sí, todo bien", "ru": "да, всё хорошо" },
+        { "es": "No, gracias", "ru": "нет, спасибо" },
+        { "es": "Bien, gracias. ¿Y tú?", "ru": "хорошо, спасибо. А у тебя?" }
+      ],
+      "examples": [
+        { "es": "— ¿Qué tal? — Bien, gracias. ¿Y tú?", "ru": "— Как дела? — Хорошо, спасибо. А у тебя?" },
+        { "es": "— ¿Todo bien? — Sí, todo bien.", "ru": "— Всё хорошо? — Да, всё хорошо." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "los_saludos": [
+      { "es": "hola", "ru": "привет" },
+      { "es": "buenos días", "ru": "доброе утро (до обеда)" },
+      { "es": "buenas tardes", "ru": "добрый день (после обеда)" },
+      { "es": "buenas noches", "ru": "добрый вечер / спокойной ночи" },
+      { "es": "¿qué tal?", "ru": "как дела?" }
+    ],
+    "las_despedidas": [
+      { "es": "adiós", "ru": "до свидания" },
+      { "es": "hasta luego", "ru": "до скорого" },
+      { "es": "hasta mañana", "ru": "до завтра" }
+    ],
+    "las_respuestas": [
+      { "es": "bien", "ru": "хорошо" },
+      { "es": "gracias", "ru": "спасибо" },
+      { "es": "sí", "ru": "да" },
+      { "es": "no", "ru": "нет" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Olga", "es": "¡Hola! Buenas tardes.", "ru": "Привет! Добрый день." },
+    { "speaker": "Mateo", "es": "Buenas tardes, Olga. ¿Qué tal?", "ru": "Добрый день, Ольга. Как дела?" },
+    { "speaker": "Olga", "es": "Bien, gracias. ¿Y tú?", "ru": "Хорошо, спасибо. А у тебя?" },
+    { "speaker": "Mateo", "es": "Muy bien, gracias. Yo hablo español y un poco de ruso.", "ru": "Очень хорошо, спасибо. Я говорю по-испански и чуть-чуть по-русски." },
+    { "speaker": "Olga", "es": "No, no hablo español. Solo hola.", "ru": "Нет, я не говорю по-испански. Только «привет»." },
+    { "speaker": "Mateo", "es": "¡Perfecto! ¡Bienvenida a Valencia!", "ru": "Отлично! Добро пожаловать в Валенсию!" },
+    { "speaker": "Olga", "es": "Gracias. ¿Hablas español?", "ru": "Спасибо. Ты говоришь по-испански?" },
+    { "speaker": "Mateo", "es": "Un poco: ¡hola! ¿qué tal? ¡adiós!", "ru": "Немного: «привет», «как дела», «до свидания»!" },
+    { "speaker": "Olga", "es": "Gracias. ¡Adiós! ¡Hasta luego!", "ru": "Спасибо. До свидания! До скорого!" },
+    { "speaker": "Mateo", "es": "¡Hasta mañana, Olga! Buenas noches.", "ru": "До завтра, Ольга! Доброй ночи." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары: ситуация и формула",
+      "description": "Найди соответствие между испанской формулой и русским значением. Утро — 9:00, день — 15:00, вечер — 22:00",
+      "pairs": [
+        { "es": "hola", "ru": "привет" },
+        { "es": "buenos días", "ru": "доброе утро (до обеда)" },
+        { "es": "buenas tardes", "ru": "добрый день (после обеда)" },
+        { "es": "buenas noches", "ru": "добрый вечер / спокойной ночи" },
+        { "es": "¿qué tal?", "ru": "как дела?" },
+        { "es": "adiós", "ru": "до свидания" },
+        { "es": "hasta luego", "ru": "до скорого" },
+        { "es": "hasta mañana", "ru": "до завтра" },
+        { "es": "bien, gracias", "ru": "хорошо, спасибо" },
+        { "es": "no", "ru": "нет" }
+      ]
+    },
+    {
+      "type": "fill-gap-saludos_por_hora_del_dia",
+      "title": "Практика: приветствия по часам",
+      "description": "Вставь пропущенное слово. Смотри на часы в скобках",
+      "sentences": [
+        { "text": "Buenos ___ , señora. (Сейчас 9:00)", "ru": "Доброе утро, сеньора", "answer": "días", "options": ["días", "noches", "tardes"] },
+        { "text": "Buenas ___ , Olga. (Сейчас 15:00)", "ru": "Добрый день, Ольга", "answer": "tardes", "options": ["tardes", "días", "noches"] },
+        { "text": "___ noches, Mateo. (Сейчас 22:00)", "ru": "Доброй ночи, Матео", "answer": "Buenas", "options": ["Buenas", "Buenos", "Hasta"] },
+        { "text": "___ , Olga! (Любое время дня)", "ru": "Привет, Ольга!", "answer": "Hola", "options": ["Hola", "Adiós", "Gracias"] },
+        { "text": "— ¡Hola! ¿Qué tal? — Bien, ___ . ¿Y tú?", "ru": "— Привет! Как дела? — Хорошо, спасибо. А у тебя?", "answer": "gracias", "options": ["gracias", "adiós", "luego"] }
+      ]
+    },
+    {
+      "type": "fill-gap-despedidas",
+      "title": "Практика: три способа прощаться",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¡Hasta ___ , Olga!", "ru": "До скорого, Ольга!", "answer": "luego", "options": ["luego", "días", "tarde"] },
+        { "text": "¡Adiós! ¡Hasta ___ !", "ru": "До свидания! До завтра!", "answer": "mañana", "options": ["mañana", "noches", "tarde"] },
+        { "text": "Son las 22:00. ___ , Mateo.", "ru": "Сейчас 22:00. Доброй ночи, Матео.", "answer": "Buenas noches", "options": ["Buenas noches", "Buenos días", "Buenas tardes"] },
+        { "text": "— ¡Hasta luego, Olga! — ___ .", "ru": "— До скорого, Ольга! — До свидания.", "answer": "Adiós", "options": ["Adiós", "Gracias", "Bien"] }
+      ]
+    },
+    {
+      "type": "fill-gap-respuestas_a_que_tal",
+      "title": "Практика: ответы на ¿qué tal?",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "— ¿Qué tal? — ___ , gracias.", "ru": "— Как дела? — Хорошо, спасибо.", "answer": "Bien", "options": ["Bien", "Noches", "Tardes"] },
+        { "text": "— ¿Qué tal? — ___ bien, gracias.", "ru": "— Как дела? — Очень хорошо, спасибо.", "answer": "Muy", "options": ["Muy", "Poco", "Nada"] },
+        { "text": "— ¿Todo bien? — ___ , todo bien.", "ru": "— Всё хорошо? — Да, всё хорошо.", "answer": "Sí", "options": ["Sí", "No", "Gracias"] },
+        { "text": "— ¿Todo bien? — ___ , gracias.", "ru": "— Всё хорошо? — Нет, спасибо.", "answer": "No", "options": ["No", "Sí", "Hola"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика урока",
+      "description": "Вставь пропущенное слово: приветствия, ответы и прощания",
+      "sentences": [
+        { "text": "___ , Valencia! ¿Qué tal?", "ru": "Привет, Валенсия! Как дела?", "answer": "Hola", "options": ["Hola", "Hasta", "No"] },
+        { "text": "Buenas ___ , Mateo.", "ru": "Добрый день, Матео.", "answer": "tardes", "options": ["tardes", "días", "mañanas"] },
+        { "text": "— ¿Qué tal? — Muy ___ , gracias.", "ru": "— Как дела? — Очень хорошо, спасибо.", "answer": "bien", "options": ["bien", "gusto", "años"] },
+        { "text": "— ¿Cómo? — ___ , gracias.", "ru": "— Что? — Да, спасибо.", "answer": "Sí", "options": ["Sí", "Hola", "Adiós"] },
+        { "text": "¡Hasta ___ , Olga!", "ru": "До скорого, Ольга!", "answer": "luego", "options": ["luego", "días", "noches"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Реплики Ольги — обязательно по памяти, реплики Матео — по желанию."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Ольгой",
+      "role": "Olga",
+      "description": "Ты — Ольга, только что приехала в Валенсию. Поздоровайся с соседом по времени суток, ответь на ¿qué tal? и попрощайся тремя способами."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Матео",
+      "role": "Mateo",
+      "description": "Ты — Матео, сосед Ольги. Поздоровайся, спроси ¿qué tal? и попрощайся с ней вежливо."
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Познакомься с соседом: поздоровайся, спроси, как дела, ответь и попрощайся",
+      "template": [
+        { "label": "Привет!", "es": "___ , Valencia!" },
+        { "label": "Доброе утро", "es": "Buenos ___ , señora." },
+        { "label": "Добрый день", "es": "Buenas ___ , Olga." },
+        { "label": "Доброй ночи", "es": "___ noches, Mateo." },
+        { "label": "Как дела?", "es": "— ¿Qué ___ ? — Bien, gracias." },
+        { "label": "Очень хорошо", "es": "— Muy bien, ___ ." },
+        { "label": "До свидания", "es": "¡___ , Olga!" },
+        { "label": "До скорого", "es": "¡Hasta ___ !" },
+        { "label": "До завтра", "es": "¡Hasta ___ !" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "Es la una de la tarde. ¿Qué saludas?",
+          "ru": "Сейчас час дня. Как ты поздороваешься?",
+          "options": ["Buenos días", "Buenas tardes", "Buenas noches", "Adiós"],
+          "answer": 1
+        },
+        {
+          "question": "Es la una de la noche. ¿Cuál es la fórmula correcta?",
+          "ru": "Сейчас час ночи. Какая формула верна?",
+          "options": ["Buenos días", "Buenas tardes", "Buenas noches", "Hasta luego"],
+          "answer": 2
+        },
+        {
+          "question": "¿Cómo responde Olga a la pregunta «¿Qué tal?»?",
+          "ru": "Как Ольга отвечает на вопрос «Как дела?»?",
+          "options": ["Bien, gracias. ¿Y tú?", "Me llamo Olga", "Adiós", "Hasta luego"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué significa «hasta mañana»?",
+          "ru": "Что значит «hasta mañana»?",
+          "options": ["До скорого", "До свидания", "До завтра", "Доброй ночи"],
+          "answer": 2
+        },
+        {
+          "question": "Mateo dice: «¡Hasta mañana, Olga! Buenas noches.» ¿Qué hora es?",
+          "ru": "Матео говорит: «До завтра, Ольга! Доброй ночи». Который час?",
+          "options": ["9:00", "15:00", "22:00", "7:00"],
+          "answer": 2
+        },
+        {
+          "question": "¿Cómo se lee la letra h en la palabra hola?",
+          "ru": "Как читается буква h в слове hola?",
+          "options": ["[х]", "не читается", "[г]", "[б]"],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo suenan las letras b y v?",
+          "ru": "Как звучат буквы b и v?",
+          "options": ["Одинаково, как [б]", "Одна как [б], другая как [в]", "Обе не читаются", "Как [х]"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué dos palabras usaste en el diálogo para despedirte?",
+          "ru": "Какие две формулы прощания были в диалоге?",
+          "options": ["adiós y hasta luego", "buenos días y hasta luego", "qué tal y bien", "gracias y hasta mañana"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    "Я приветствую по времени суток тремя формулами: buenos días, buenas tardes, buenas noches",
+    "Я отвечаю на вопрос ¿qué tal? реакцией bien, gracias",
+    "Я прощаюсь тремя способами: adiós, hasta luego, hasta mañana",
+    "Я здороваюсь коротко в любое время: hola",
+    "Я читаю вслух слова с немая h и с b / v = [б]: hola, Valencia"
+  ],
+  "homework": [
+    "5 мин: произнеси вслух пять приветствий из жизни дня — утром buenos días, днём hola, вечером buenas noches",
+    "Проговори вслух: реплики Ольги из диалога — по памяти, реплики Матео — с текстом",
+    "Запиши на телефон аудио на 30 секунд: приветствие по времени суток, ¿qué tal?, ответ, прощание",
+    "Выучи наизусть слоговые ряды ma-me-mi-mo-mu и pa-pe-pi-po-pu"
+  ]
+}

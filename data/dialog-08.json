@@ -1,0 +1,233 @@
+{
+  "id": 8,
+  "title": "La tía de Lucía, Julia, habla con su marido, Antonio",
+  "titleRu": "Тётя Люсии, Юлия, разговаривает со своим мужем, Антонио",
+  "part": 1,
+  "level": "A2",
+  "theme": "Еда, кухня, завтрак  La comida, la cocina, el desayuno",
+  "characters": ["julia", "antonio"],
+  "objectives": [
+    "Обсудить еду и напитки за столом",
+    "Описать вкус и состояние еды: estar + rico, malo, caliente",
+    "Использовать вопросительные конструкции «¿Es que...?» и аргументацию",
+    "Просить и получать предметы: aquí tienes...",
+    "Предложить напиток: ¿Te preparo café o té?"
+  ],
+  "grammar": {
+    "estar_estado_comida": {
+      "title": "ESTAR + вкус и состояние",
+      "description": "Глагол ESTAR + прилагательное описывает состояние еды (rico — вкусный, malo — невкусный, caliente — горячий) и человека (cansado/a — усталый, bien — хорошо).",
+      "forms": {
+        "yo": { "es": "estoy", "ru": "я нахожусь / я чувствую" },
+        "tu": { "es": "estás", "ru": "ты находишься" },
+        "el_ella": { "es": "está", "ru": "он/она находится" },
+        "nosotros": { "es": "estamos", "ru": "мы находимся" },
+        "vosotros": { "es": "estáis", "ru": "вы находитесь" },
+        "ellos_ellas": { "es": "están", "ru": "они находятся" }
+      }
+    },
+    "tener_objetos": {
+      "title": "TENER + предметы",
+      "description": "Глагол TENER используется, чтобы говорить о наличии предметов: tengo cuchillo (у меня есть нож), tenemos pan (у нас есть хлеб).",
+      "list": [
+        { "es": "tengo un cuchillo", "ru": "у меня есть нож" },
+        { "es": "tenemos pan", "ru": "у нас есть хлеб" },
+        { "es": "no tenemos nada", "ru": "у нас ничего нет" },
+        { "es": "tener un frigorífico", "ru": "иметь холодильник" },
+        { "es": "no tengo hambre", "ru": "я не голоден" }
+      ]
+    },
+    "es_que": {
+      "title": "La explicación: «Es que...»",
+      "description": "«Es que...» значит «дело в том, что...» / «просто...». Используется, чтобы объяснить или оправдать что-то.",
+      "list": [
+        { "es": "Es que no tengo cuchillo", "ru": "Просто у меня нет ножа" },
+        { "es": "Es que estoy cansado", "ru": "Дело в том, что я устал" },
+        { "es": "Es que hace mucho frío", "ru": "Просто очень холодно" },
+        { "es": "Es que tengo poco tiempo", "ru": "Дело в том, что у меня мало времени" }
+      ]
+    },
+    "aqui_tienes": {
+      "title": "Aquí tienes... (вот...)",
+      "description": "«Aquí tienes + предмет» используется, когда вручаешь что-то собеседнику: Aquí tienes el pan (вот хлеб).",
+      "list": [
+        { "es": "Aquí tienes el cuchillo", "ru": "Вот тебе нож" },
+        { "es": "Aquí tienes el pan", "ru": "Вот хлеб" },
+        { "es": "Aquí tienes la cuchara", "ru": "Вот ложка" },
+        { "es": "Aquí tienes tu café", "ru": "Вот твой кофе" }
+      ]
+    },
+    "preparar_ofrecer": {
+      "title": "¿Te preparo...? (предложить)",
+      "description": "Вопрос «¿Te preparo + предмет?» — вежливое предложение: приготовить/сделать что-то для собеседника.",
+      "list": [
+        { "es": "¿Te preparo café o té?", "ru": "Приготовить тебе кофе или чай?" },
+        { "es": "¿Te preparo la sopa?", "ru": "Приготовить тебе суп?" },
+        { "es": "¿Te ofrezco pan?", "ru": "Предложить тебе хлеб?" },
+        { "es": "¿Te compro algo?", "ru": "Купить тебе что-нибудь?" }
+      ]
+    }
+  },
+  "vocabulary": {
+    "la_comida": [
+      { "es": "el pollo", "ru": "курица" },
+      { "es": "el pan", "ru": "хлеб" },
+      { "es": "la sopa", "ru": "суп" },
+      { "es": "el café", "ru": "кофе" },
+      { "es": "el té", "ru": "чай" },
+      { "es": "el desayuno", "ru": "завтрак" },
+      { "es": "el frigorífico", "ru": "холодильник" },
+      { "es": "el microondas", "ru": "микроволновка" },
+      { "es": "el cuchillo", "ru": "нож" },
+      { "es": "la cuchara", "ru": "ложка" }
+    ],
+    "la_cocina": [
+      { "es": "comer", "ru": "есть" },
+      { "es": "preparar", "ru": "готовить" },
+      { "es": "comprar", "ru": "купить" },
+      { "es": "la cocina", "ru": "кухня" },
+      { "es": "caliente", "ru": "горячий" },
+      { "es": "rico", "ru": "вкусный" },
+      { "es": "cansado", "ru": "усталый" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Julia", "es": "Querido, ¿por qué no comes el pollo? ¿Es que está malo?", "ru": "Дорогой, почему ты не ешь курицу? Разве она невкусная?" },
+    { "speaker": "Antonio", "es": "Es que no tengo cuchillo.", "ru": "Просто у меня ножа нет." },
+    { "speaker": "Julia", "es": "Aquí tienes el cuchillo.", "ru": "Вот тебе нож." },
+    { "speaker": "Antonio", "es": "¿Tenemos pan?", "ru": "У нас есть хлеб?" },
+    { "speaker": "Julia", "es": "Sí, aquí tienes el pan y la cuchara.", "ru": "Да, вот хлеб и ложка." },
+    { "speaker": "Antonio", "es": "Oh, el pollo está muy rico.", "ru": "О, курица очень вкусная." },
+    { "speaker": "Julia", "es": "¡Cuidado! Está todavía muy caliente.", "ru": "Осторожно! Она ещё очень горячая." },
+    { "speaker": "Antonio", "es": "¿Qué preparas en el microondas?", "ru": "Что ты готовишь в микроволновке?" },
+    { "speaker": "Julia", "es": "La sopa. ¿Te preparo café o té?", "ru": "Суп. Приготовить тебе кофе или чай?" },
+    { "speaker": "Antonio", "es": "Café, gracias. ¿No estás cansada? Todo el día estás en la cocina...", "ru": "Кофе, спасибо. Ты не устала? Целый день на кухне..." },
+    { "speaker": "Julia", "es": "No, estoy bien. Querido, no tenemos nada en el frigorífico, ¿compras algo para el desayuno?", "ru": "Нет, со мной всё хорошо. Дорогой, у нас ничего нет в холодильнике, купишь что-нибудь на завтрак?" },
+    { "speaker": "Antonio", "es": "Claro que sí.", "ru": "Конечно." }
+  ],
+  "exercises": [
+    {
+      "type": "fill-gap-estar_estado_comida",
+      "title": "Estar + comida y estado",
+      "description": "Выберите правильную форму глагола estar.",
+      "sentences": [
+        { "text": "El pollo ___ muy rico.", "ru": "Курица очень вкусная.", "answer": "está", "options": ["está", "estoy", "están"] },
+        { "text": "La sopa ___ caliente.", "ru": "Суп горячий.", "answer": "está", "options": ["está", "estás", "estoy"] },
+        { "text": "Antonio, ¿no ___ cansada?", "ru": "Антонио, ты не устала?", "answer": "estás", "options": ["estás", "está", "estoy"] },
+        { "text": "Yo ___ bien.", "ru": "Со мной всё хорошо.", "answer": "estoy", "options": ["estoy", "está", "estás"] },
+        { "text": "¿El pollo ___ malo?", "ru": "Курица невкусная?", "answer": "está", "options": ["está", "estoy", "están"] }
+      ]
+    },
+    {
+      "type": "fill-gap-tener_objetos",
+      "title": "Tener + objetos",
+      "description": "Вставьте правильную форму tener.",
+      "sentences": [
+        { "text": "No ___ cuchillo.", "ru": "У меня нет ножа.", "answer": "tengo", "options": ["tengo", "tiene", "tenemos"] },
+        { "text": "¿___ pan?", "ru": "У нас есть хлеб?", "answer": "Tenemos", "options": ["Tenemos", "Tengo", "Tiene"] },
+        { "text": "No ___ nada en el frigorífico.", "ru": "У нас ничего нет в холодильнике.", "answer": "tenemos", "options": ["tenemos", "tengo", "tienes"] },
+        { "text": "Ella ___ un microondas nuevo.", "ru": "У неё новая микроволновка.", "answer": "tiene", "options": ["tiene", "tengo", "tienen"] },
+        { "text": "¿___ la sopa en el horno?", "ru": "У тебя есть суп в духовке?", "answer": "Tienes", "options": ["Tienes", "Tengo", "Tiene"] }
+      ]
+    },
+    {
+      "type": "fill-gap-es_que",
+      "title": "Es que...",
+      "description": "Выберите правильное объяснение с «Es que...».",
+      "sentences": [
+        { "text": "¿Por qué no comes? — ___ no tengo cuchillo.", "ru": "Почему ты не ешь? — Просто у меня нет ножа.", "answer": "Es que", "options": ["Es que", "Por eso", "A veces"] },
+        { "text": "¿Por qué estás cansado? — ___ estoy todo el día en la cocina.", "ru": "Почему ты устал? — Дело в том, что я весь день на кухне.", "answer": "Es que", "options": ["Es que", "Antes", "Tampoco"] },
+        { "text": "¿Por qué no hay pan? — ___ no hay nada en el frigorífico.", "ru": "Почему нет хлеба? — Просто в холодильнике ничего нет.", "answer": "Es que", "options": ["Es que", "Después", "Nunca"] },
+        { "text": "¿Por qué no comes el pollo? — ___ está muy caliente.", "ru": "Почему ты не ешь курицу? — Просто она очень горячая.", "answer": "Es que", "options": ["Es que", "Ya", "Cuando"] },
+        { "text": "¿Por qué no tomas café? — ___ no me gusta el café.", "ru": "Почему ты не пьёшь кофе? — Просто я не люблю кофе.", "answer": "Es que", "options": ["Es que", "Todavía", "Muy"] }
+      ]
+    },
+    {
+      "type": "fill-gap-aqui_tienes",
+      "title": "Aquí tienes...",
+      "description": "Вставьте правильное слово для вручения предмета.",
+      "sentences": [
+        { "text": "___ tienes el cuchillo.", "ru": "Вот тебе нож.", "answer": "Aquí", "options": ["Aquí", "Ahí", "Allá"] },
+        { "text": "Aquí ___ el pan y la cuchara.", "ru": "Вот хлеб и ложка.", "answer": "tienes", "options": ["tienes", "tiene", "tengo"] },
+        { "text": "Aquí tienes ___ café.", "ru": "Вот твой кофе.", "answer": "tu", "options": ["tu", "mi", "su"] },
+        { "text": "Aquí tienes ___ sopa caliente.", "ru": "Вот горячий суп.", "answer": "la", "options": ["la", "el", "los"] },
+        { "text": "— ¿Dónde está mi pan? — ___ tienes.", "ru": "— Где мой хлеб? — Вот он.", "answer": "Aquí", "options": ["Aquí", "Quién", "Cuándo"] }
+      ]
+    },
+    {
+      "type": "fill-gap-preparar_ofrecer",
+      "title": "¿Te preparo...?",
+      "description": "Дополните предложения-предложения.",
+      "sentences": [
+        { "text": "¿Te ___ café o té?", "ru": "Приготовить тебе кофе или чай?", "answer": "preparo", "options": ["preparo", "prepara", "preparan"] },
+        { "text": "¿Te preparo ___ sopa?", "ru": "Приготовить тебе суп?", "answer": "la", "options": ["la", "el", "los"] },
+        { "text": "¿Te ___ pan?", "ru": "Предложить тебе хлеб?", "answer": "ofrezco", "options": ["ofrezco", "ofreces", "come"] },
+        { "text": "¿___ algo para el desayuno?", "ru": "Купишь что-нибудь на завтрак?", "answer": "Compras", "options": ["Compras", "Compro", "Compra"] },
+        { "text": "¿Te ___ un poco de té?", "ru": "Налить тебе немного чая?", "answer": "echo", "options": ["echo", "comes", "está"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Соедините всё: еда, кухня, tener, estar.",
+      "sentences": [
+        { "text": "El pollo ___ muy rico.", "ru": "Курица очень вкусная.", "answer": "está", "options": ["está", "estoy", "tiene"] },
+        { "text": "No ___ cuchillo.", "ru": "У меня нет ножа.", "answer": "tengo", "options": ["tengo", "estoy", "tiene"] },
+        { "text": "___ tienes el pan.", "ru": "Вот хлеб.", "answer": "Aquí", "options": ["Aquí", "Es que", "Cuándo"] },
+        { "text": "¿___ preparo café o té?", "ru": "Приготовить тебе кофе или чай?", "answer": "Te", "options": ["Te", "Me", "Se"] },
+        { "text": "— ¿Por qué no comes? — ___ no tengo cuchillo.", "ru": "— Почему ты не ешь? — Просто у меня нет ножа.", "answer": "Es que", "options": ["Es que", "Aquí", "Tienes"] },
+        { "text": "La sopa está ___ caliente.", "ru": "Суп ещё горячий.", "answer": "muy", "options": ["muy", "poco", "harto"] }
+      ]
+    },
+    {
+      "type": "shadowing"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Юлией",
+      "role": "Julia",
+      "description": "Ты готовишь ужин. Отвечай мужу и предложи напиток."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Антонио",
+      "role": "Antonio",
+      "description": "Ты за столом. Попроси предметы и спроси, что готовится."
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Разговор за ужином: еда, кухня, предложения напитков.",
+      "template": [
+        { "label": "Курица очень вкусная", "es": "El pollo está muy ___" },
+        { "label": "Почему ты не ешь?", "es": "¿Por qué no ___?" },
+        { "label": "Просто у меня нет ножа", "es": "Es que no ___ cuchillo" },
+        { "label": "Вот хлеб", "es": "Aquí ___ el pan" },
+        { "label": "Приготовить тебе кофе?", "es": "¿Te ___ café?" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест по уроку 8",
+      "description": "Проверь, как ты понял урок про еду и кухню.",
+      "questions": [
+        { "question": "¿Por qué no come el pollo Antonio al principio?", "ru": "Почему Антонио сначала не ест курицу?", "options": ["No tiene hambre", "No tiene cuchillo", "Está malo", "Hace frío"], "answer": 1 },
+        { "question": "¿Qué le da Julia a Antonio primero?", "ru": "Что Юлия сначала даёт Антонио?", "options": ["El pan", "El cuchillo", "La cuchara", "El café"], "answer": 1 },
+        { "question": "¿Qué prepara Julia en el microondas?", "ru": "Что Юлия готовит в микроволновке?", "options": ["El pollo", "La sopa", "El café", "El té"], "answer": 1 },
+        { "question": "¿Qué quiere Antonio: café o té?", "ru": "Что хочет Антонио: кофе или чай?", "options": ["Té", "Café", "Los dos", "Nada"], "answer": 1 },
+        { "question": "¿Dónde no hay nada?", "ru": "Где ничего нет?", "options": ["En el horno", "En el frigorífico", "En el microondas", "En la mesa"], "answer": 1 },
+        { "question": "¿Qué dice Antonio sobre el pollo?", "ru": "Что Антонио говорит о курице?", "options": ["Está malo", "Está muy rico", "Está caliente", "Está frío"], "answer": 1 },
+        { "question": "¿Qué compra Antonio?", "ru": "Что покупает Антонио?", "options": ["Algo para la cena", "Algo para el desayuno", "Algo para la sopa", "Un microondas"], "answer": 1 },
+        { "question": "¿Por qué pregunta Antonio si Julia está cansada?", "ru": "Почему Антонио спрашивает, устала ли Юлия?", "options": ["Porque está de vacaciones", "Porque todo el día está en la cocina", "Porque trabaja mucho", "Porque está enferma"], "answer": 1 },
+        { "question": "Julia dice: «___ tienes el pan y la cuchara»", "ru": "Юлия говорит: «Вот хлеб и ложка»", "options": ["Allí", "Aquí", "Dónde", "Cuándo"], "answer": 1 },
+        { "question": "Antonio responde a la pregunta de comprar: «___ que sí»", "ru": "Антонио отвечает на вопрос о покупках: «___ да»", "options": ["Nunca", "Claro", "A veces", "No"], "answer": 1 }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить слова в приложении",
+    "Практика: опиши ужин вчера вечером, используя estar + прилагательное (rico, caliente, malo)",
+    "Дневник: напиши, что ты ешь и пьёшь на завтрак и что есть в твоём холодильнике",
+    "Грамматика: составь 3 предложения с «Es que...» и 3 с «Aquí tienes...»"
+  ]
+}

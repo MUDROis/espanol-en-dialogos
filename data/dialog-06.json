@@ -1,0 +1,246 @@
+{
+  "id": 6,
+  "title": "En la fiesta de Carmen",
+  "titleRu": "На празднике Кармен",
+  "part": 1,
+  "level": "A2",
+  "theme": "Праздник, описание внешности, люди  La fiesta, la descripción física, las personas",
+  "characters": ["carmen", "lucia"],
+  "objectives": [
+    "Научиться представлять и описывать людей на празднике",
+    "Использовать указательные местоимения esta/esa/aquella для описания людей",
+    "Описать внешность: волосы, очки, бороду, усы",
+    "Использовать относительные предложения с que (которая, который)",
+    "Поздравить с днём рождения и вручить подарок"
+  ],
+  "grammar": {
+    "demostrativos": {
+      "title": "Указательные местоимения (esta, esa, aquella)",
+      "description": "Используются, чтобы указать на человека или предмет. Esta — рядом (близко), esa — недалеко, aquella — далеко.",
+      "list": [
+        { "es": "esta chica", "ru": "эта девушка (рядом)" },
+        { "es": "estas dos chicas", "ru": "эти две девушки (рядом)" },
+        { "es": "ese joven", "ru": "тот парень (недалеко)" },
+        { "es": "esa chica que lleva gafas", "ru": "та девушка, которая носит очки" },
+        { "es": "aquel señor", "ru": "тот сеньор (далеко)" },
+        { "es": "aquella niña", "ru": "та девочка (далеко)" }
+      ]
+    },
+    "descripcion_pelo": {
+      "title": "Описание волос",
+      "description": "Чтобы описать волосы человека, используем de pelo + длина/цвет/форма.",
+      "list": [
+        { "es": "de pelo largo", "ru": "с длинными волосами" },
+        { "es": "de pelo corto", "ru": "с короткими волосами" },
+        { "es": "de pelo rizado", "ru": "с кудрявыми волосами" },
+        { "es": "de pelo liso", "ru": "с прямыми волосами" },
+        { "es": "de pelo ondulado", "ru": "с волнистыми волосами" },
+        { "es": "rubio/a", "ru": "светловолосый/ая, блондин(ка)" },
+        { "es": "moreno/a", "ru": "темноволосый/ая, брюнет(ка)" }
+      ]
+    },
+    "caracteristicas_fisicas": {
+      "title": "Другие особенности внешности",
+      "description": "Выражения для описания внешних особенностей: лица, зрения, роста.",
+      "list": [
+        { "es": "llevar gafas", "ru": "носить очки" },
+        { "es": "calvo/a", "ru": "лысый/ая" },
+        { "es": "la barba", "ru": "борода" },
+        { "es": "el bigote", "ru": "усы" },
+        { "es": "guapo/a", "ru": "симпатичный/ая, красивый/ая" }
+      ]
+    },
+    "oraciones_relativas": {
+      "title": "Относительные предложения с que (которая, который)",
+      "description": "Que соединяет описание с человеком. После que глагол употребляется в 3-м лице.",
+      "list": [
+        { "es": "la chica que lleva gafas", "ru": "девушка, которая носит очки" },
+        { "es": "el señor que lee el periódico", "ru": "сеньор, который читает газету" },
+        { "es": "las muchachas que preparan la comida", "ru": "девушки, которые готовят еду" },
+        { "es": "la niña que está junto a mi hermano", "ru": "девочка, которая стоит рядом с моим братом" }
+      ]
+    },
+    "estar_ubicacion": {
+      "title": "Глагол ESTAR (находиться) — местоположение",
+      "description": "ESTAR используется для указания места, где кто-то находится.",
+      "forms": {
+        "yo": { "es": "estoy", "ru": "я нахожусь" },
+        "tu": { "es": "estás", "ru": "ты находишься" },
+        "el_ella": { "es": "está", "ru": "он/она находится" },
+        "nosotros": { "es": "estamos", "ru": "мы находимся" },
+        "vosotros": { "es": "estáis", "ru": "вы находитесь" },
+        "ellos_ellas": { "es": "están", "ru": "они находятся" }
+      }
+    }
+  },
+  "vocabulary": {
+    "la_fiesta": [
+      { "es": "el regalo", "ru": "подарок" },
+      { "es": "el balcón", "ru": "балкон" },
+      { "es": "el periódico", "ru": "газета" },
+      { "es": "la ventana", "ru": "окно" },
+      { "es": "la comida", "ru": "еда" },
+      { "es": "¡Feliz cumpleaños!", "ru": "С днём рождения!" },
+      { "es": "¡cuánta gente!", "ru": "сколько народу!" },
+      { "es": "presentar", "ru": "представлять" }
+    ],
+    "la_apariencia": [
+      { "es": "la barba", "ru": "борода" },
+      { "es": "el bigote", "ru": "усы" },
+      { "es": "de pelo largo", "ru": "с длинными волосами" },
+      { "es": "de pelo corto", "ru": "с короткими волосами" },
+      { "es": "de pelo rizado", "ru": "с кудрявыми волосами" },
+      { "es": "de pelo liso", "ru": "с прямыми волосами" },
+      { "es": "de pelo ondulado", "ru": "с волнистыми волосами" },
+      { "es": "rubio", "ru": "светловолосый" },
+      { "es": "moreno", "ru": "темноволосый" },
+      { "es": "calvo", "ru": "лысый" },
+      { "es": "llevar gafas", "ru": "носить очки" }
+    ],
+    "las_personas": [
+      { "es": "la cuñada", "ru": "невестка (жена брата)" },
+      { "es": "el primo", "ru": "кузен" },
+      { "es": "el hermano menor", "ru": "младший брат" },
+      { "es": "la compañera", "ru": "одногруппница" },
+      { "es": "la vecina", "ru": "соседка" },
+      { "es": "la amiga", "ru": "подруга" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Lucía", "es": "¡Feliz cumpleaños! Aquí tienes tu regalo, Carmen.", "ru": "С днём рождения! Держи подарок, Кармен." },
+    { "speaker": "Carmen", "es": "¡Muchas gracias! Pasa, pasa.", "ru": "Большое спасибо! Проходи, проходи." },
+    { "speaker": "Lucía", "es": "Oh, ¡cuánta gente!", "ru": "О, сколько народу!" },
+    { "speaker": "Carmen", "es": "Sí, mira. Esta chica morena, de pelo largo, es mi amiga Irene. Es italiana pero habla bien español y francés.", "ru": "Да, смотри. Эта темноволосая девушка, с длинными волосами, моя подруга Ирене. Она итальянка, но хорошо говорит по-испански и по-французски." },
+    { "speaker": "Carmen", "es": "Estas dos chicas de pelo corto y rizado, que están junto a la ventana, son mis compañeras de las clases de baile.", "ru": "Эти две девушки с короткими кудрявыми волосами, которые стоят около окна, учатся со мной на курсах танцев." },
+    { "speaker": "Carmen", "es": "Esa chica que lleva gafas es mi cuñada Paula. Ese joven de pelo largo, rubio y liso es su primo Hugo.", "ru": "Эта девушка в очках – жена моего брата, Паула. Тот парень с длинными светлыми прямыми волосами – её кузен Уго." },
+    { "speaker": "Lucía", "es": "¿Quién es aquel señor calvo, de barba y bigote? El que lee un periódico en el balcón?", "ru": "Кто тот лысый сеньор, с бородой и усами? Который читает газету на балконе?" },
+    { "speaker": "Carmen", "es": "Es mi hermano menor, Álvaro. Y aquella niña, que está junto a mi hermano, es su hija Lea.", "ru": "Это мой младший брат, Альваро. Та девочка, которая стоит рядом с моим братом, их дочь Леа." },
+    { "speaker": "Carmen", "es": "Esas muchachas guapas, que preparan la comida, son mis amigas vecinas que viven enfrente. La chica de pelo corto y ondulado se llama Nora y la otra, Silvia.", "ru": "Эти симпатичные девушки, которые готовят еду, мои подруги-соседки, живут напротив. Девушку с короткими волнистыми волосами зовут Нора, а вторую – Сильвия." },
+    { "speaker": "Lucía", "es": "Ay, verdad, ¡son muy guapas!", "ru": "Правда, очень симпатичные!" },
+    { "speaker": "Carmen", "es": "Espero a dos amigas más. Bueno, ahora te presento a todas...", "ru": "Я жду ещё двух подруг. Итак, сейчас я тебя всем представлю..." }
+  ],
+  "exercises": [
+    {
+      "type": "fill-gap-demostrativos",
+      "title": "Estas / esas / aquella",
+      "description": "Выберите правильное указательное местоимение.",
+      "sentences": [
+        { "text": "___ chica morena está cerca de mí.", "ru": "Эта темноволосая девушка стоит рядом со мной.", "answer": "Esta", "options": ["Esta", "Aquel", "Ese"] },
+        { "text": "___ señor calvo lee el periódico en el balcón.", "ru": "Тот лысый сеньор читает газету на балконе (далеко).", "answer": "Aquel", "options": ["Aquel", "Esta", "Estas"] },
+        { "text": "___ dos chicas están junto a la ventana.", "ru": "Эти две девушки стоят около окна.", "answer": "Estas", "options": ["Estas", "Aquel", "Esa"] },
+        { "text": "___ joven de pelo rubio es Hugo.", "ru": "Тот парень со светлыми волосами — Уго (недалеко).", "answer": "Ese", "options": ["Ese", "Esta", "Aquel"] },
+        { "text": "___ chica que lleva gafas es mi cuñada.", "ru": "Эта девушка, которая носит очки, — моя невестка.", "answer": "Esa", "options": ["Esa", "Aquel", "Estas"] }
+      ]
+    },
+    {
+      "type": "fill-gap-descripcion_pelo",
+      "title": "Cómo es el pelo",
+      "description": "Заполните пропуски, описывая волосы.",
+      "sentences": [
+        { "text": "Irene es morena, de pelo __.", "ru": "Ирене темноволосая, с длинными волосами.", "answer": "largo", "options": ["largo", "rizado", "gafas"] },
+        { "text": "Las compañeras de baile tienen el pelo corto y __.", "ru": "У одногруппниц по танцам короткие кудрявые волосы.", "answer": "rizado", "options": ["rizado", "liso", "calvo"] },
+        { "text": "Hugo tiene el pelo __ y rubio.", "ru": "У Уго прямые светлые волосы.", "answer": "liso", "options": ["liso", "moreno", "corto"] },
+        { "text": "Nora tiene el pelo corto y __.", "ru": "У Норы короткие волнистые волосы.", "answer": "ondulado", "options": ["ondulado", "largo", "barba"] },
+        { "text": "El señor ___ es calvo y tiene barba.", "ru": "Тот сеньор — лысый, с бородой.", "answer": "moreno", "options": ["moreno", "rubio", "liso"] }
+      ]
+    },
+    {
+      "type": "fill-gap-caracteristicas_fisicas",
+      "title": "La apariencia",
+      "description": "Выберите правильное слово для описания внешности.",
+      "sentences": [
+        { "text": "Paula ___ gafas.", "ru": "Паула носит очки.", "answer": "lleva", "options": ["lleva", "es", "tiene"] },
+        { "text": "Álvaro es ___.", "ru": "Альваро лысый.", "answer": "calvo", "options": ["calvo", "liso", "guapo"] },
+        { "text": "El señor tiene ___ y bigote.", "ru": "У сеньора есть борода и усы.", "answer": "barba", "options": ["barba", "gafas", "pelo"] },
+        { "text": "Las muchachas son muy ___.", "ru": "Девушки очень симпатичные.", "answer": "guapas", "options": ["guapas", "calvas", "rubios"] },
+        { "text": "Hugo tiene el pelo largo, rubio y ___.", "ru": "У Уго длинные светлые прямые волосы.", "answer": "liso", "options": ["liso", "rizado", "corto"] }
+      ]
+    },
+    {
+      "type": "fill-gap-oraciones_relativas",
+      "title": "Con que",
+      "description": "Дополните относительные предложения с que.",
+      "sentences": [
+        { "text": "La chica ___ lleva gafas es Paula.", "ru": "Девушка, которая носит очки, — Паула.", "answer": "que", "options": ["que", "donde", "quien"] },
+        { "text": "El señor ___ lee el periódico es Álvaro.", "ru": "Сеньор, который читает газету, — Альваро.", "answer": "que", "options": ["que", "cuando", "es"] },
+        { "text": "Las muchachas ___ preparan la comida son mis vecinas.", "ru": "Девушки, которые готовят еду, — мои соседки.", "answer": "que", "options": ["que", "está", "dónde"] },
+        { "text": "La niña ___ está junto a mi hermano es Lea.", "ru": "Девочка, которая стоит рядом с моим братом, — Леа.", "answer": "que", "options": ["que", "son", "de"] },
+        { "text": "El hombre ___ lee en el balcón tiene barba.", "ru": "Мужчина, который читает на балконе, носит бороду.", "answer": "que", "options": ["que", "lleva", "por"] }
+      ]
+    },
+    {
+      "type": "fill-gap-estar_ubicacion",
+      "title": "Estar — местоположение",
+      "description": "Вставьте правильную форму глагола estar.",
+      "sentences": [
+        { "text": "Las chicas ___ junto a la ventana.", "ru": "Девушки находятся около окна.", "answer": "están", "options": ["están", "está", "estoy"] },
+        { "text": "Yo ___ en la fiesta de Carmen.", "ru": "Я на празднике Кармен.", "answer": "estoy", "options": ["estoy", "estás", "está"] },
+        { "text": "La niña ___ junto a su padre.", "ru": "Девочка находится рядом со своим отцом.", "answer": "está", "options": ["está", "están", "estamos"] },
+        { "text": "Nosotros ___ en el balcón.", "ru": "Мы на балконе.", "answer": "estamos", "options": ["estamos", "está", "estás"] },
+        { "text": "Las vecinas ___ enfrente.", "ru": "Соседки находятся напротив.", "answer": "están", "options": ["están", "está", "estoy"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Соедините всё: указательные местоимения, описание внешности и глагол estar.",
+      "sentences": [
+        { "text": "___ chica morena es mi amiga.", "ru": "Эта темноволосая девушка — моя подруга.", "answer": "Esta", "options": ["Esta", "Aquel", "Ese"] },
+        { "text": "El señor ___ tiene barba y bigote.", "ru": "Тот сеньор — лысый, с бородой и усами.", "answer": "calvo", "options": ["calvo", "guapo", "liso"] },
+        { "text": "Hugo tiene el pelo ___, rubio y liso.", "ru": "У Уго длинные светлые прямые волосы.", "answer": "largo", "options": ["largo", "rizado", "corto"] },
+        { "text": "Las muchachas ___ preparan la comida.", "ru": "Девушки, которые готовят еду.", "answer": "que", "options": ["que", "donde", "está"] },
+        { "text": "Las chicas ___ junto a la ventana.", "ru": "Девушки находятся около окна.", "answer": "están", "options": ["están", "está", "estoy"] },
+        { "text": "Paula ___ gafas.", "ru": "Паула носит очки.", "answer": "lleva", "options": ["lleva", "es", "tiene"] }
+      ]
+    },
+    {
+      "type": "shadowing"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Кармен",
+      "role": "Carmen",
+      "description": "Отвечай на реплики Люсии своим голосом, представляя гостей."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Люсией",
+      "role": "Lucía",
+      "description": "Поздравь Кармен и задавай вопросы о гостях."
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Опиши людей на празднике, используя указательные местоимения, описание внешности и que.",
+      "template": [
+        { "label": "С днём рождения!", "es": "¡Feliz ___!" },
+        { "label": "Эта девушка, которая...", "es": "___ chica que ___ ..." },
+        { "label": "Тот парень с короткими волосами", "es": "___ joven de pelo ___" },
+        { "label": "Девушка в очках", "es": "La chica que ___ gafas" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест по уроку 6",
+      "description": "Проверь, как ты понял урок про праздник и описание внешности.",
+      "questions": [
+        { "question": "¿Cómo se dice «С днём рождения»?", "ru": "Как по-испански «С днём рождения»?", "options": ["Many thanks", "¡Feliz cumpleaños!", "See you", "Good night"], "answer": 1 },
+        { "question": "Irene, ¿de dónde es?", "ru": "Ирене, откуда она?", "options": ["Es italiana", "Es española", "Es francesa", "Es vecina"], "answer": 0 },
+        { "question": "¿Quién es Paula?", "ru": "Кто такая Паула?", "options": ["La hermana de Carmen", "La prima de Carmen", "La cuñada de Carmen", "La madre de Carmen"], "answer": 2 },
+        { "question": "Álvaro es...", "ru": "Альваро...", "options": ["el primo de Carmen", "el hermano menor de Carmen", "el cuñado de Carmen", "el padre de Carmen"], "answer": 1 },
+        { "question": "¿Quién es Lea?", "ru": "Кто такая Леа?", "options": ["La hija de Álvaro", "La hermana de Hugo", "La vecina de Carmen", "La compañera de baile"], "answer": 0 },
+        { "question": "Las muchachas que preparan la comida son...", "ru": "Девушки, которые готовят еду, — это...", "options": ["las hermanas de Carmen", "las tías de Carmen", "las amigas vecinas de Carmen", "las madres de Carmen"], "answer": 2 },
+        { "question": "Hugo es...", "ru": "Уго — это...", "options": ["el primo de Paula", "el hermano de Carmen", "el padre de Lea", "el cuñado de Paula"], "answer": 0 },
+        { "question": "¿Cómo es el pelo de Nora?", "ru": "Какие волосы у Норы?", "options": ["Largo y liso", "Corto y ondulado", "Rubio y rizado", "Calvo"], "answer": 1 },
+        { "question": "¿Qué tiene el señor del balcón?", "ru": "Что есть у сеньора на балконе?", "options": ["El gran bigote", "La barba y el bigote", "Las gafas", "El pelo largo"], "answer": 1 },
+        { "question": "¿Quién lleva gafas?", "ru": "Кто носит очки?", "options": ["Paula", "Irene", "Lucía", "Nora"], "answer": 0 }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить слова в приложении",
+    "Практика: опиши 3 человек разного возраста, используя указательные местоимения (esta/esa/aquella) и описание волос",
+    "Дневник: опиши свой праздник или вечеринку, кого ты видишь вокруг",
+    "Грамматика: составь 3 предложения с относительным предложением que"
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": 35,
+  "title": "Carlos y Lucía esperan a Pablo y a Marta para cenar",
+  "titleRu": "Карлос и Лусия ждут Пабло и Марту, чтобы вместе поужинать",
+  "part": 4,
+  "level": "B1",
+  "theme": "Ресторан, ожидание, опоздания  El restaurante, la espera, los retrasos",
+  "characters": ["carlos", "lucia", "camarera"],
+  "objectives": [
+    "Говорить об ожидании и опозданиях: esperaremos, llegar a tiempo, está retrasado, nos reunimos a las ocho",
+    "Объяснять причину опоздания: me he quedado sin batería, he perdido 15 minutos en buscar el cargador",
+    "Использовать VOLVER A + infinitivo о повторном действии: ¿Por qué no lo vuelves a llamar?",
+    "Выражать трудность при помощи COSTAR: me cuesta encontrarlas",
+    "Планировать с Futuro Simple: cargaré el móvil, esperaremos, nos la quitarán, seremos nosotros",
+    "Бронировать стол в ресторане: tener reservada una mesa, a nombre de, para cuatro personas"
+  ],
+  "grammar": {
+    "volver_a_inf": {
+      "title": "VOLVER A + infinitivo: делать что-то снова",
+      "description": "VOLVER A + глагол — «снова/опять сделать что-то»: ¿Por qué no lo vuelves a llamar? (Почему бы тебе снова ему не позвонить?), esta vez está comunicando (на этот раз занято). Спряжение VOLVER: vuelvo, vuelves, vuelve...",
+      "forms": {
+        "yo": { "es": "vuelvo a llamar a Pablo", "ru": "я снова звоню Пабло" },
+        "tu": { "es": "vuelves a llamar", "ru": "ты снова звонишь" },
+        "el_ella": { "es": "vuelve a preguntar", "ru": "он/она снова спрашивает" },
+        "nosotros": { "es": "volvemos a esperar", "ru": "мы снова ждём" },
+        "vosotros": { "es": "volvéis a intentar", "ru": "вы снова пытаетесь" },
+        "ellos_ellas": { "es": "vuelven a llegar tarde", "ru": "они снова опаздывают" }
+      },
+      "examples": [
+        { "es": "¿Por qué no lo vuelves a llamar?", "ru": "Почему бы тебе снова ему не позвонить?" },
+        { "es": "Ahora le vuelvo a enviar un mensaje a Pablo.", "ru": "Сейчас я снова отправлю Пабло сообщение." }
+      ]
+    },
+    "quedarse_sin": {
+      "title": "QUEDARSE SIN: остаться без",
+      "description": "QUEDARSE SIN + существительное — «остаться без, что-то кончилось»: me he quedado sin batería (у меня села батарея). В pretérito perfecto: me he quedado, te has quedado, se ha quedado... Если не придём — nos quedaremos sin mesa (останемся без столика).",
+      "forms": {
+        "yo": { "es": "me he quedado sin batería", "ru": "я остался без батареи" },
+        "tu": { "es": "te has quedado sin dinero", "ru": "ты остался без денег" },
+        "el_ella": { "es": "se ha quedado sin tiempo", "ru": "он/она остался без времени" },
+        "nosotros": { "es": "nos hemos quedado sin mesa", "ru": "мы остались без столика" },
+        "vosotros": { "es": "os habéis quedado sin cargador", "ru": "вы остались без зарядки" },
+        "ellos_ellas": { "es": "se han quedado sin batería", "ru": "они остались без батареи" }
+      },
+      "examples": [
+        { "es": "Es que me he quedado sin batería, por eso he perdido estos 15 minutos en buscar el cargador.", "ru": "Просто у меня села батарея на телефоне, поэтому я потратила эти 15 минут, чтобы найти зарядку." },
+        { "es": "Si no llegamos, nos quedaremos sin mesa reservada.", "ru": "Если мы не придём, мы останемся без забронированного столика." }
+      ]
+    },
+    "costar_encontrar": {
+      "title": "COSTAR + infinitivo: мне трудно",
+      "description": "COSTAR в форме «cuesta» (3-е лицо ед.ч.) + infinitivo и косвенное местоимение — «быть трудным»: me cuesta encontrarlas (мне трудно их найти). По лицам: me cuesta, te cuesta, le cuesta... В беспорядке я ничего не теряю — En el desorden casi no pierdo nada.",
+      "forms": {
+        "yo": { "es": "me cuesta encontrar las cosas", "ru": "мне трудно находить вещи" },
+        "tu": { "es": "te cuesta buscar el cargador", "ru": "тебе трудно искать зарядку" },
+        "el_ella": { "es": "le cuesta recordar los lugares", "ru": "ему/ей трудно запоминать места" },
+        "nosotros": { "es": "nos cuesta esperar mucho tiempo", "ru": "нам трудно долго ждать" },
+        "vosotros": { "es": "os cuesta llegar a tiempo", "ru": "вам трудно приходить вовремя" },
+        "ellos_ellas": { "es": "les cuesta entender el mensaje", "ru": "им трудно понять сообщение" }
+      },
+      "examples": [
+        { "es": "Cuando muevo las cosas, después me cuesta encontrarlas.", "ru": "Когда я переставляю вещи, потом мне сложно их найти." },
+        { "es": "En el desorden casi no pierdo nada.", "ru": "А вот в беспорядке я ничего не теряю." }
+      ]
+    },
+    "futuro_simple": {
+      "title": "Futuro Simple: планы и предсказания",
+      "description": "Будущее время -aré/-eré/-iré + окончания: cargaré el móvil en el restaurante (заряжу телефон в ресторане), esperaremos dentro (подождём внутри), nos la quitarán (у нас его отберут), los que hoy llegarán tarde, seremos nosotros (кто сегодня опоздает, так это мы).",
+      "forms": {
+        "yo": { "es": "cargaré el móvil en el restaurante", "ru": "я заряжу телефон в ресторане" },
+        "tu": { "es": "llegarás a tiempo", "ru": "ты придёшь вовремя" },
+        "el_ella": { "es": "llegará tarde esta vez", "ru": "он/она на этот раз опоздает" },
+        "nosotros": { "es": "esperaremos dentro del restaurante", "ru": "мы подождём внутри ресторана" },
+        "vosotros": { "es": "encontraréis una mesa", "ru": "вы найдёте столик" },
+        "ellos_ellas": { "es": "nos la quitarán", "ru": "у нас его отберут" }
+      },
+      "examples": [
+        { "es": "En el restaurante cargaré el móvil.", "ru": "В ресторане я заряжу телефон." },
+        { "es": "Parece que los que hoy llegarán tarde, seremos nosotros.", "ru": "Похоже, что кто сегодня опоздает, так это мы." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "restaurante": [
+      { "es": "la mesa", "ru": "стол" },
+      { "es": "la reserva", "ru": "бронирование" },
+      { "es": "la camarera", "ru": "официантка" },
+      { "es": "el restaurante", "ru": "ресторан" },
+      { "es": "la dirección", "ru": "адрес" },
+      { "es": "lleno/a", "ru": "полный, занятый" },
+      { "es": "la persona", "ru": "человек" },
+      { "es": "a nombre de", "ru": "на имя" },
+      { "es": "en punto", "ru": "ровно (о времени)" },
+      { "es": "a tiempo", "ru": "вовремя" }
+    ],
+    "movil": [
+      { "es": "el móvil", "ru": "телефон" },
+      { "es": "la batería", "ru": "батарея" },
+      { "es": "el cargador", "ru": "зарядка" },
+      { "es": "el mensaje", "ru": "сообщение" },
+      { "es": "el tono", "ru": "гудок" },
+      { "es": "el teléfono", "ru": "телефон, аппарат" },
+      { "es": "comunicando", "ru": "занято (о линии)" },
+      { "es": "desconectado", "ru": "недоступен, отключён" },
+      { "es": "descuelga", "ru": "снимает трубку" },
+      { "es": "el bolso", "ru": "сумка" }
+    ],
+    "desorden": [
+      { "es": "el desorden", "ru": "беспорядок" },
+      { "es": "desordenado", "ru": "в беспорядке" },
+      { "es": "el lugar", "ru": "место" },
+      { "es": "limpiar", "ru": "убирать, чистить" },
+      { "es": "arreglar", "ru": "разбирать, приводить в порядок" },
+      { "es": "mover", "ru": "переставлять" }
+    ],
+    "verbos": [
+      { "es": "esperar", "ru": "ждать" },
+      { "es": "perder", "ru": "терять, тратить" },
+      { "es": "buscar", "ru": "искать" },
+      { "es": "encontrar", "ru": "находить" },
+      { "es": "olvidar", "ru": "забывать" },
+      { "es": "recordar", "ru": "напоминать" },
+      { "es": "reservar", "ru": "бронировать" },
+      { "es": "cargar", "ru": "заряжать" },
+      { "es": "tardar en", "ru": "тратить время на" },
+      { "es": "llegar tarde", "ru": "опаздывать" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Carlos", "es": "Pablo no descuelga. No sé por qué está retrasado.", "ru": "Пабло не берёт трубку. Не знаю, почему он опаздывает." },
+    { "speaker": "Lucía", "es": "No importa, esperaremos. Puede ser, Marta ha tardado en llegar y ahora están retrasando los dos.", "ru": "Неважно, подождём. Может быть, Марта задержалась, и сейчас они оба опаздывают." },
+    { "speaker": "Carlos", "es": "Y tú, amor, ¿por qué has llegado tarde 15 minutos?", "ru": "А ты, любовь моя, почему опоздала на 15 минут?" },
+    { "speaker": "Lucía", "es": "Ja, ja. Soy una mujer. Bueno, es que me he quedado sin batería, por eso he perdido estos 15 minutos en buscar el cargador. En el restaurante cargaré el móvil.", "ru": "Ха-ха. Я же женщина. Ладно, просто у меня села батарея на телефоне, поэтому я потратила эти 15 минут, чтобы найти зарядку. В ресторане заряжу телефон." },
+    { "speaker": "Carlos", "es": "¿15 minutos en buscarlo? ¿Está tan desordenado tu bolso?", "ru": "15 минут, чтобы найти её? У тебя такой беспорядок в сумке?" },
+    { "speaker": "Lucía", "es": "Al contrario. Lo he limpiado, he arreglado las cosas y las he puesto en su lugar y exactamente por eso ahora no sé dónde están.", "ru": "Наоборот. Я её убрала, разобрала вещи и положила их на своё место, и именно поэтому сейчас я не знаю, где они." },
+    { "speaker": "Carlos", "es": "¿Has olvidado dónde están las cosas? ¡No me digas!", "ru": "Ты забыла, куда положила свои вещи? Да ладно!" },
+    { "speaker": "Lucía", "es": "Sí, cuando muevo las cosas, después me cuesta encontrarlas. En el desorden casi no pierdo nada.", "ru": "Да, когда я переставляю вещи, потом мне сложно их найти. А вот в беспорядке я ничего не теряю." },
+    { "speaker": "Carlos", "es": "¡Qué curioso! Bueno, ahora le envío un mensaje a Pablo.", "ru": "Как любопытно! Так, сейчас отправляю Пабло сообщение." },
+    { "speaker": "Lucía", "es": "¿Por qué no lo vuelves a llamar?", "ru": "Почему бы тебе снова ему не позвонить?" },
+    { "speaker": "Carlos", "es": "Ahora... Oh, esta vez está comunicando.", "ru": "Сейчас... О, а теперь у него занято." },
+    { "speaker": "Lucía", "es": "¿Estás seguro de que le has dicho que nos reunimos a las ocho?", "ru": "Ты уверен, что сказал ему, что мы встречаемся в восемь?" },
+    { "speaker": "Carlos", "es": "Sí, es más, se lo he recordado esta mañana. Me ha dicho que llegará a tiempo. Oh, me está llamando. Aló. ¿Pablo? ¿Aló? ¿Sigues ahí? ¡Vaya tono!... Y ahora su teléfono está desconectado. ¡Caramba!", "ru": "Да, более того, я напомнил ему об этом этим утром. Он мне сказал, что придёт вовремя. О, он мне звонит. Алло. Пабло? Алло? Ты ещё там? Какой странный гудок!... А сейчас его телефон недоступен! Чёрт!" },
+    { "speaker": "Lucía", "es": "Querido, vamos a esperarlos dentro del restaurante. Es que hemos reservado la mesa para las ocho en punto y si no llegamos, nos la quitarán.", "ru": "Дорогой, давай подождём их в ресторане. Просто мы забронировали столик ровно на восемь, и если мы не придём, у нас его отберут." },
+    { "speaker": "Carlos", "es": "Vamos... Buenas noches, tenemos reservada una mesa para cuatro personas.", "ru": "Пойдём... Добрый вечер, у нас забронирован столик на четверых." },
+    { "speaker": "La camarera", "es": "¿A nombre de quién ha hecho la reserva?", "ru": "На чьё имя вы бронировали?" },
+    { "speaker": "Carlos", "es": "A nombre de Carlos Méndez.", "ru": "На имя Карлоса Мендеса." },
+    { "speaker": "La camarera", "es": "Lo siento, a su nombre no hay ninguna mesa reservada. El restaurante está lleno, disculpe.", "ru": "Мне жаль, но на ваше имя нет забронированного столика. Ресторан полон, извините." },
+    { "speaker": "Carlos", "es": "¿Cómo? No puede ser. He llamado esta tarde y...", "ru": "Как? Не может быть. Я звонил сегодня днём и..." },
+    { "speaker": "La camarera", "es": "Lo siento, no puedo ayudarle.", "ru": "Мне жаль, не могу вам помочь." },
+    { "speaker": "Lucía", "es": "¿No te has equivocado de restaurante?", "ru": "Ты не ошибся рестораном?" },
+    { "speaker": "Carlos", "es": "Puede ser, puede ser... Un momento. ¿Diga? Hola, hola, ¿dónde estáis? Sí, es mi culpa, me he equivocado de dirección del restaurante. Ahora llegamos.", "ru": "Может быть, может быть... Момент. Алло? Привет, привет... Где вы?.. Да, это моя вина, я ошибся с адресом ресторана. Сейчас придём." },
+    { "speaker": "Lucía", "es": "Parece que los que hoy llegarán tarde, seremos nosotros.", "ru": "Похоже, что кто сегодня опоздает, так это мы!" }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "la mesa", "ru": "стол" },
+        { "es": "la reserva", "ru": "бронирование" },
+        { "es": "la camarera", "ru": "официантка" },
+        { "es": "el restaurante", "ru": "ресторан" },
+        { "es": "la dirección", "ru": "адрес" },
+        { "es": "lleno/a", "ru": "полный, занятый" },
+        { "es": "la persona", "ru": "человек" },
+        { "es": "el móvil", "ru": "телефон" },
+        { "es": "la batería", "ru": "батарея" },
+        { "es": "el cargador", "ru": "зарядка" }
+      ]
+    },
+    {
+      "type": "fill-gap-volver_a_inf",
+      "title": "Практика: VOLVER A + infinitivo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Por qué no lo ___ a llamar?", "ru": "Почему бы тебе снова ему не позвонить?", "answer": "vuelves", "options": ["vuelves", "vuelve", "vuelvo"] },
+        { "text": "Ahora le ___ a enviar un mensaje a Pablo.", "ru": "Сейчас я снова отправлю Пабло сообщение", "answer": "vuelvo", "options": ["vuelvo", "vuelves", "vuelve"] },
+        { "text": "Si está comunicando, ___ a llamar más tarde.", "ru": "Если занято, позвони снова позже", "answer": "vuelve", "options": ["vuelve", "vuelvo", "vuelven"] },
+        { "text": "Carlos y Lucía ___ a esperar a sus amigos.", "ru": "Карлос и Лусия снова ждут своих друзей", "answer": "vuelven", "options": ["vuelven", "volvemos", "volvéis"] },
+        { "text": "Podemos ___ a llamar dentro de diez minutos.", "ru": "Мы можем перезвонить через десять минут", "answer": "volver", "options": ["volver", "vuelve", "volvemos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-quedarse_sin",
+      "title": "Практика: QUEDARSE SIN",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Me he ___ sin batería, por eso he perdido 15 minutos.", "ru": "У меня села батарея, поэтому я потеряла 15 минут", "answer": "quedado", "options": ["quedado", "perdido", "encontrado"] },
+        { "text": "¿Te has ___ sin dinero otra vez?", "ru": "Ты снова остался без денег?", "answer": "quedado", "options": ["quedado", "quedada", "quedar"] },
+        { "text": "Se ha ___ sin batería el teléfono de Pablo.", "ru": "У Пабло села батарея на телефоне", "answer": "quedado", "options": ["quedado", "quedar", "quedándose"] },
+        { "text": "Nos hemos ___ sin mesa reservada.", "ru": "Мы остались без забронированного столика", "answer": "quedado", "options": ["quedado", "quedados", "quedar"] },
+        { "text": "Me he quedado ___ batería y no puedo llamar.", "ru": "У меня села батарея, и я не могу позвонить", "answer": "sin", "options": ["sin", "con", "de"] }
+      ]
+    },
+    {
+      "type": "fill-gap-costar_encontrar",
+      "title": "Практика: COSTAR + infinitivo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Cuando muevo las cosas, me ___ encontrarlas.", "ru": "Когда я переставляю вещи, мне трудно их найти", "answer": "cuesta", "options": ["cuesta", "cuestan", "costar"] },
+        { "text": "¿Te ___ encontrar el cargador en el bolso?", "ru": "Тебе трудно найти зарядку в сумке?", "answer": "cuesta", "options": ["cuesta", "cuestan", "cueste"] },
+        { "text": "Nos ___ esperar tanto tiempo.", "ru": "Нам трудно ждать так долго", "answer": "cuesta", "options": ["cuesta", "cuestan", "costar"] },
+        { "text": "Le ___ recordar dónde ha puesto las cosas.", "ru": "Ему трудно запомнить, куда он положил вещи", "answer": "cuesta", "options": ["cuesta", "cuestan", "costar"] },
+        { "text": "A ellos les ___ llegar a tiempo siempre.", "ru": "Им всегда трудно приходить вовремя", "answer": "cuesta", "options": ["cuesta", "cuestan", "costar"] }
+      ]
+    },
+    {
+      "type": "fill-gap-futuro_simple",
+      "title": "Практика: Futuro Simple",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "En el restaurante ___ el móvil.", "ru": "В ресторане я заряжу телефон", "answer": "cargaré", "options": ["cargaré", "cargo", "cargaba"] },
+        { "text": "Esperaremos ___ del restaurante.", "ru": "Мы подождём внутри ресторана", "answer": "dentro", "options": ["dentro", "fuera", "cerca"] },
+        { "text": "Si no llegamos, nos ___ la mesa.", "ru": "Если мы не придём, у нас отберут столик", "answer": "quitarán", "options": ["quitarán", "quitan", "quitaron"] },
+        { "text": "Pablo me ha dicho que ___ a tiempo.", "ru": "Пабло мне сказал, что придёт вовремя", "answer": "llegará", "options": ["llegará", "llegó", "llega"] },
+        { "text": "Los que hoy llegarán tarde, ___ nosotros.", "ru": "Те, кто сегодня опоздает, — это мы", "answer": "seremos", "options": ["seremos", "somos", "éramos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Por qué no lo ___ a llamar?", "ru": "Почему бы тебе снова ему не позвонить?", "answer": "vuelves", "options": ["vuelves", "vuelve", "vuelvo"] },
+        { "text": "Me he ___ sin batería.", "ru": "У меня села батарея", "answer": "quedado", "options": ["quedado", "perdido", "encontrado"] },
+        { "text": "Cuando muevo las cosas, me ___ encontrarlas.", "ru": "Когда я переставляю вещи, мне трудно их найти", "answer": "cuesta", "options": ["cuesta", "cuestan", "costar"] },
+        { "text": "En el restaurante ___ el móvil.", "ru": "В ресторане я заряжу телефон", "answer": "cargaré", "options": ["cargaré", "cargo", "cargaba"] },
+        { "text": "Si no llegamos, nos ___ la mesa.", "ru": "Если мы не придём, у нас отберут столик", "answer": "quitarán", "options": ["quitarán", "quitan", "quitaron"] },
+        { "text": "¿A nombre de quién ha hecho la ___?", "ru": "На чьё имя вы бронировали?", "answer": "reserva", "options": ["reserva", "reservada", "mesa"] },
+        { "text": "Parece que los que hoy llegarán tarde, ___ nosotros.", "ru": "Похоже, что кто сегодня опоздает, — это мы", "answer": "seremos", "options": ["seremos", "somos", "éramos"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Ты — Карлос, ждёшь Пабло и Марту, звонишь им и объясняешь ошибку с рестораном"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Ты — Лусия, объясняешь своё опоздание, успокаиваешь Карлоса и ждёшь друзей в ресторане"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Поговори с другом о том, как вы ждёте остальных в кафе",
+      "template": [
+        { "label": "Почему бы тебе снова ему не позвонить?", "es": "¿Por qué no lo ___ a llamar?" },
+        { "label": "У меня села батарея", "es": "Me he ___ sin batería" },
+        { "label": "Мне трудно их найти", "es": "Me ___ encontrarlas" },
+        { "label": "В ресторане я заряжу телефон", "es": "En el restaurante ___ el móvil" },
+        { "label": "Мы подождём внутри", "es": "___ dentro del restaurante" },
+        { "label": "Мы забронировали столик на четверых", "es": "Hemos ___ una mesa para cuatro personas" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿A quién esperan Carlos y Lucía para cenar?",
+          "ru": "Кого ждут Карлос и Лусия, чтобы поужинать?",
+          "options": ["A Pablo y a Marta", "A Javier y a Ana", "A Lucía y a Carlos", "A sus padres"],
+          "answer": 0
+        },
+        {
+          "question": "¿Por qué ha llegado tarde Lucía?",
+          "ru": "Почему Лусия опоздала?",
+          "options": ["Ha perdido el autobús", "Se ha quedado sin batería y buscaba el cargador", "Tenía clases extra", "Ha ido de compras"],
+          "answer": 1
+        },
+        {
+          "question": "¿Dónde piensa cargar el móvil Lucía?",
+          "ru": "Где Лусия собирается зарядить телефон?",
+          "options": ["En casa", "En la biblioteca", "En el restaurante", "En el metro"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué ha hecho Lucía con las cosas de su bolso?",
+          "ru": "Что Лусия сделала с вещами в своей сумке?",
+          "options": ["Las ha limpiado, arreglado y puesto en su lugar", "Las ha tirado", "Las ha regalado", "Las ha perdido"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué número está comunicando cuando Carlos vuelve a llamar?",
+          "ru": "Какой номер занят, когда Карлос снова звонит?",
+          "options": ["El de Marta", "El de Pablo", "El de la camarera", "El de Lucía"],
+          "answer": 1
+        },
+        {
+          "question": "¿Carlos ha recordado a Pablo dónde se reúnen?",
+          "ru": "Карлос напомнил Пабло, где они встречаются?",
+          "options": ["Sí, se lo ha recordado esta mañana", "No, se le ha olvidado", "Sí, ayer", "No, no le ha dicho nada"],
+          "answer": 0
+        },
+        {
+          "question": "¿A nombre de quién hizo Carlos la reserva de la mesa?",
+          "ru": "На чьё имя Карлос забронировал столик?",
+          "options": ["A nombre de Lucía", "A nombre de Carlos Méndez", "A nombre de Pablo", "A nombre de Marta"],
+          "answer": 1
+        },
+        {
+          "question": "¿Quiénes llegarán tarde al final del diálogo?",
+          "ru": "Кто в конце диалога окажется опоздавшим?",
+          "options": ["Pablo y Marta", "Solo Pablo", "La camarera", "Carlos y Lucía"],
+          "answer": 3
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 минут: повтори слова по теме «ресторан, телефон, ожидание»",
+    "Практика: расскажи, почему ты опоздал(а) и как ждал(а) друзей. Используй: me he quedado sin..., me cuesta..., volver a..., esperaremos...",
+    "Дневник: опиши ситуацию, когда ты ждал(а) кого-то в кафе или ресторане",
+    "Грамматика: составь 3 предложения с volver a + infinitivo, 3 с me cuesta + infinitivo, 3 с futuro simple"
+  ]
+}

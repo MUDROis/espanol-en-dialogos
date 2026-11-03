@@ -1,0 +1,339 @@
+{
+  "id": 57,
+  "title": "El alfabeto español",
+  "titleRu": "Испанский алфавит",
+  "module": "a0-a1",
+  "block": 1,
+  "part": 1,
+  "blockTitle": "Часть 1 · Начальный уровень",
+  "level": "A0",
+  "theme": "Алфавит и диктовка имени  El alfabeto español y el dictado por letras",
+  "mission": "Продиктовать своё имя и фамилию по буквам при записи в языковую школу и понять простые вывески.",
+  "mapPoint": "Языковая школа: стойка регистрации",
+  "duration": "45 минут",
+  "stepsCount": 8,
+  "readingNote": "Прочитайте диалог вслух: буквенные цепочки произносятся медленно, с паузой между буквами.",
+  "characters": ["olga", "ana_valencia"],
+  "objectives": [
+    "Назвать все 27 букв испанского алфавита",
+    "Продиктовать своё имя и фамилию по буквам",
+    "Спросить, как пишется слово: ¿cómo se escribe?",
+    "Ответить на вопрос формулой: se escribe …",
+    "Прочитать вывески SALIDA, ENTRADA, BAÑO, ABIERTO, CERRADO"
+  ],
+  "reading": {
+    "title": "El alfabeto español: 27 letras",
+    "description": "Главный шаг урока — названия букв. Без них нельзя продиктовать имя: испанцы на стойке регистрации пишут, а вслух говорят «O-L-G-A». Таблица даётся блоками, с акцентом на буквы, которых «не хватает» русскому уху.",
+    "letters": [
+      { "es": "A", "ru": "«а» — в словах Ana, agua", "name": "a" },
+      { "es": "B", "ru": "«бэ» — в слове bien", "name": "be" },
+      { "es": "C", "ru": "«сэ» — в слове cerrado", "name": "ce" },
+      { "es": "E", "ru": "«э» — в слове el", "name": "e" },
+      { "es": "H", "ru": "«аче» — немая буква", "name": "hache" },
+      { "es": "J", "ru": "«хота» — звук [х]", "name": "jota" },
+      { "es": "K", "ru": "«ка» — редкая буква", "name": "ka" },
+      { "es": "M", "ru": "«эмэ» — в слове mañana", "name": "eme" },
+      { "es": "N", "ru": "«энэ» — в слове nombre", "name": "ene" },
+      { "es": "Ñ", "ru": "«эньэ» — звук [нь]", "name": "eñe" },
+      { "es": "W", "ru": "«добле увэ» — в слове wifi", "name": "doble uve" },
+      { "es": "X", "ru": "«экис» — в слове éxito", "name": "equis" },
+      { "es": "Y", "ru": "«йе» — и конъюнкция, и буква", "name": "ye" }
+    ],
+    "syllables": [
+      {
+        "label": "Пять гласных подряд",
+        "note": "Названия букв произносятся раздельно: a — e — i — o — u",
+        "items": ["a", "e", "i", "o", "u"]
+      },
+      {
+        "label": "Слоги с ñ",
+        "note": "ñ = [нь]: eñe, ña, ñe, ño, ñu",
+        "items": ["ña", "ñe", "ño", "ñu", "eñe"]
+      },
+      {
+        "label": "Слоги с h и j",
+        "note": "h не читается, j = [х]: jota, ha, he, je, ja",
+        "items": ["ja", "je", "ji", "jo", "ju"]
+      }
+    ],
+    "words": [
+      { "es": "mañana", "how": "«ма-ньа-на» — ñ = [нь]" },
+      { "es": "niño", "how": "«ни-ньо» — ñ в середине слова" },
+      { "es": "hola", "how": "«о-ла» — hache не читается" },
+      { "es": "jueves", "how": "«хуэ-вес» — jota = [х]" },
+      { "es": "calle", "how": "«ка-лье» — ll = [ль]" },
+      { "es": "baño", "how": "«бан-йо» — ñ = [нь]" },
+      { "es": "salida", "how": "«са-ли-да» — ударение на да" },
+      { "es": "teléfono", "how": "«те-ле-фо-но» — f твёрдый" }
+    ],
+    "rules": [
+      {
+        "title": "В алфавите 27 букв",
+        "text": "Современный испанский алфавит содержит 27 букв. Сочетания ch и ll отдельными буквами не считаются с 2010 года, а rr вообще не буква, хотя звук раскатистого [рр] в словах есть (perro). Это отвечает на вопрос «почему в учебнике 29 букв»."
+      },
+      {
+        "title": "Названия букв — рабочая лексика",
+        "text": "Без названий букв невозможно продиктовать имя: eñe — это ñ, jota — это j, doble uve — это w, equis — это x, ye — это y. Диктор делает паузу 0,5 секунды между буквами в цепочке."
+      },
+      {
+        "title": "Буквы, которых «не хватает» русскому уху",
+        "text": "h (hache) не читается никогда: hola = «ола». j (jota) читается как русский [х]: jueves = «хуэ́вес». ñ (eñe) читается как [нь]: mañana, baño, señor."
+      },
+      {
+        "title": "K и W — редкие",
+        "text": "K (ka) и W (doble uve) почти не встречаются в обычных словах: их видим в kilómetro и wifi. Двойная u в w называется doble uve — «двойное у»."
+      }
+    ]
+  },
+  "grammar": {
+    "como_se_escribe": {
+      "title": "¿Cómo se escribe? — «Как пишется?»",
+      "description": "Единственная конструкция урока: спрашиваем, как пишется слово, — и отвечаем формулой se escribe + само слово (по буквам). Глагольных форм здесь нет.",
+      "list": [
+        { "es": "¿Cómo se escribe?", "ru": "как пишется?" },
+        { "es": "Se escribe «baño».", "ru": "пишется «бан-йо»." },
+        { "es": "¿Cómo se escribe su apellido?", "ru": "как пишется ваша фамилия?" },
+        { "es": "Se escribe S-M-I-R-N-O-V-A.", "ru": "пишется С-эме-и-эрре-эне-о-уве-а." },
+        { "es": "Perfecto, gracias.", "ru": "отлично, спасибо." }
+      ],
+      "examples": [
+        { "es": "¿Cómo se escribe tu nombre?", "ru": "Как пишется твоё имя?" },
+        { "es": "¿Cómo se escribe «salida»? — Se escribe S-A-L-I-D-A.", "ru": "Как пишется «salida»? — Пишется С-а-ли-да." }
+      ]
+    },
+    "dictado_por_letras": {
+      "title": "Dictado por letras — диктовка по буквам",
+      "description": "В испанском имя не произносят, а продиктовывают: «O-L-G-A». На стойке регистрации слова собирают из буквенных плиток, а в бумажной анкете пишут латиницей. Русские имена передаются транслитерацией: Olga, Smirnova, Iván.",
+      "list": [
+        { "es": "O-L-G-A = OLGA", "ru": "Ольга" },
+        { "es": "S-M-I-R-N-O-V-A = SMIRNOVA", "ru": "Смирнова" },
+        { "es": "E-L-U-C-Í-A = LUCÍA", "ru": "Лусия" },
+        { "es": "B-A-Ñ-O = BAÑO", "ru": "бан-йо" },
+        { "es": "S-A-L-I-D-A = SALIDA", "ru": "выход" }
+      ],
+      "examples": [
+        { "es": "Me llamo Olga. O-L-G-A.", "ru": "Меня зовут Ольга. О-эле-ге-а." },
+        { "es": "La salida se escribe S-A-L-I-D-A.", "ru": "Выход пишется С-а-ли-да." }
+      ]
+    },
+    "nombres_de_las_letras": {
+      "title": "Los nombres de las letras — названия букв",
+      "description": "Название буквы не совпадает с её звуком: be = [б], jota = [х], eñe = [нь]. Их учат наизусть — это и есть «латынь» для диктовки.",
+      "list": [
+        { "es": "a — «а»", "ru": "буква а" },
+        { "es": "be — «бэ»", "ru": "буква b" },
+        { "es": "efe — «эфэ»", "ru": "буква f" },
+        { "es": "hache — «аче» (немая)", "ru": "буква h" },
+        { "es": "jota — «хота» ([х])", "ru": "буква j" },
+        { "es": "ele — «эле»", "ru": "буква l" },
+        { "es": "eñe — «эньэ» ([нь])", "ru": "буква ñ" },
+        { "es": "doble uve — «добле увэ»", "ru": "буква w" },
+        { "es": "equis — «экис»", "ru": "буква x" },
+        { "es": "ye — «йе»", "ru": "буква y" }
+      ],
+      "examples": [
+        { "es": "La letra J se llama «jota».", "ru": "Буква J называется «хота»." },
+        { "es": "Ñ = eñe, H = hache, W = doble uve.", "ru": "Ñ = эньэ, H = аче, W = добле увэ." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "el_alfabeto": [
+      { "es": "la letra", "ru": "буква" },
+      { "es": "el alfabeto", "ru": "алфавит" },
+      { "es": "el nombre", "ru": "имя" },
+      { "es": "el apellido", "ru": "фамилия" }
+    ],
+    "la_escritura": [
+      { "es": "¿cómo se escribe?", "ru": "как пишется?" },
+      { "es": "se escribe", "ru": "пишется" }
+    ],
+    "las_senales": [
+      { "es": "la salida", "ru": "выход" },
+      { "es": "la entrada", "ru": "вход" },
+      { "es": "el baño", "ru": "туалет" },
+      { "es": "abierto", "ru": "открыто" },
+      { "es": "cerrado", "ru": "закрыто" },
+      { "es": "el teléfono", "ru": "телефон" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Ana", "es": "Buenos días. ¿Su nombre, por favor?", "ru": "Доброе утро. Ваше имя, пожалуйста?" },
+    { "speaker": "Olga", "es": "Olga. O-L-G-A.", "ru": "Ольга. О-эле-ге-а." },
+    { "speaker": "Ana", "es": "¿Y su apellido?", "ru": "А фамилия?" },
+    { "speaker": "Olga", "es": "Smirnova. S-M-I-R-N-O-V-A.", "ru": "Смирнова. С-эме-и-эрре-эне-о-уве-а." },
+    { "speaker": "Ana", "es": "Perfecto, señora. ¿Cómo se escribe su nombre?", "ru": "Отлично, сеньора. Как пишется ваше имя?" },
+    { "speaker": "Olga", "es": "Se escribe O-L-G-A.", "ru": "Пишется О-эле-ге-а." },
+    { "speaker": "Ana", "es": "Y la salida, ¿cómo se escribe?", "ru": "А «выход» — как пишется?" },
+    { "speaker": "Olga", "es": "Se escribe S-A-L-I-D-A.", "ru": "Пишется С-а-ли-да." },
+    { "speaker": "Ana", "es": "Muy bien. La salida está abierta.", "ru": "Очень хорошо. Выход открыт." },
+    { "speaker": "Olga", "es": "Gracias. ¡Hasta luego!", "ru": "Спасибо. До скорого!" }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары: вывеска и значение",
+      "description": "Найди соответствие между словом и переводом — это скрытая репетиция чтения",
+      "pairs": [
+        { "es": "la letra", "ru": "буква" },
+        { "es": "el alfabeto", "ru": "алфавит" },
+        { "es": "el nombre", "ru": "имя" },
+        { "es": "el apellido", "ru": "фамилия" },
+        { "es": "¿cómo se escribe?", "ru": "как пишется?" },
+        { "es": "se escribe", "ru": "пишется" },
+        { "es": "la salida", "ru": "выход" },
+        { "es": "la entrada", "ru": "вход" },
+        { "es": "el baño", "ru": "туалет" },
+        { "es": "cerrado", "ru": "закрыто" }
+      ]
+    },
+    {
+      "type": "fill-gap-como_se_escribe",
+      "title": "Практика: ¿Cómo se escribe?",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Cómo se ___ tu nombre?", "ru": "Как пишется твоё имя?", "answer": "escribe", "options": ["escribe", "llamo", "digo"] },
+        { "text": "Se ___ S-A-L-I-D-A.", "ru": "Пишется С-а-ли-да.", "answer": "escribe", "options": ["escribe", "habla", "gusta"] },
+        { "text": "— ¿Cómo se escribe «baño»? — ___ : B-A-Ñ-O.", "ru": "— Как пишется «бан-йо»? — Пишется: Б-а-энье-о.", "answer": "Se escribe", "options": ["Se escribe", "Me llamo", "Tengo"] },
+        { "text": "La letra H se ___ «hache».", "ru": "Буква H называется «аче».", "answer": "llama", "options": ["llama", "lee", "es"] },
+        { "text": "— ¿Cómo se escribe su apellido? — Se ___ S-M-I-R-N-O-V-A.", "ru": "— Как пишется ваша фамилия? — Пишется С-эме-и-эрре-эне-о-уве-а.", "answer": "escribe", "options": ["escribe", "tengo", "estoy"] }
+      ]
+    },
+    {
+      "type": "fill-gap-dictado_por_letras",
+      "title": "Практика: собери слово из букв",
+      "description": "Вставь пропущенную букву диктовки",
+      "sentences": [
+        { "text": "S-M-I-R-N-___-V-A = Smirnova", "ru": "Смирнова", "answer": "O", "options": ["O", "A", "U"] },
+        { "text": "B-A-___-O = baño", "ru": "бан-йо", "answer": "Ñ", "options": ["Ñ", "N", "M"] },
+        { "text": "S-A-L-I-___-A = salida", "ru": "выход", "answer": "D", "options": ["D", "T", "B"] },
+        { "text": "T-E-L-É-___-O = teléfono", "ru": "телефон", "answer": "F", "options": ["F", "S", "P"] },
+        { "text": "E-L-U-C-Í-A = Lucía. La tercera letra es ___.", "ru": "Лусия. Третья буква — какая?", "answer": "C", "options": ["C", "G", "J"] }
+      ]
+    },
+    {
+      "type": "fill-gap-nombres_de_las_letras",
+      "title": "Практика: названия букв",
+      "description": "Вставь пропущенное название буквы",
+      "sentences": [
+        { "text": "J es ___. (Звук [х], como en jueves)", "ru": "J = хота. (Звук [х], как в jueves)", "answer": "jota", "options": ["jota", "hache", "eñe"] },
+        { "text": "Ñ es ___. (Звук [нь], como en mañana)", "ru": "Ñ = эньэ. (Звук [нь], как в mañana)", "answer": "eñe", "options": ["eñe", "ene", "equis"] },
+        { "text": "H es ___. (Немая буква, hola = «ола»)", "ru": "H = аче. (Немая буква, hola = «ола»)", "answer": "hache", "options": ["hache", "jota", "ye"] },
+        { "text": "W es doble ___.", "ru": "W = двойное какое?", "answer": "uve", "options": ["uve", "erre", "eta"] },
+        { "text": "X es ___.", "ru": "X = ?", "answer": "equis", "options": ["equis", "ese", "efe"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика урока",
+      "description": "Вставь пропущенное слово: имена, написание и названия букв",
+      "sentences": [
+        { "text": "— ¿Su nombre, por favor? — ___ llamo Olga.", "ru": "— Ваше имя, пожалуйста? — Меня зовут Ольга.", "answer": "Me", "options": ["Me", "Te", "So"] },
+        { "text": "Smirnova. Se ___ S-M-I-R-N-O-V-A.", "ru": "Смирнова. Пишется С-эме-и-эрре-эне-о-уве-а.", "answer": "escribe", "options": ["escribe", "llamo", "hablo"] },
+        { "text": "La letra J se ___ «jota».", "ru": "Буква J называется «хота».", "answer": "llama", "options": ["llama", "lee", "es"] },
+        { "text": "C-E-R-R-A-D-O: ¿cómo se ___ ?", "ru": "Закрыто: как пишется?", "answer": "escribe", "options": ["escribe", "digo", "tengo"] },
+        { "text": "A-B-I-E-R-T-O: la letra T se ___ «te».", "ru": "Открыто: буква T называется «тэ».", "answer": "llama", "options": ["llama", "lee", "dice"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай и повторяй вслух. Буквенные цепочки произноси с паузой 0,5 секунды между буквами."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Ольгой",
+      "role": "Olga",
+      "description": "Ты — Ольга на стойке регистрации. Назови имя и фамилию по буквам и ответь на вопрос, как пишется твоё имя."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Аной",
+      "role": "Ana",
+      "description": "Ты — Ана, которая помогает Ольге у стойки школы. Спроси имя, фамилию и попроси записать слово по буквам."
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Заполни анкету: продиктуй имя, фамилию и спроси, как пишется слово",
+      "template": [
+        { "label": "Ваше имя, пожалуйста", "es": "¿Su ___ , por favor?" },
+        { "label": "Меня зовут Ольга", "es": "Me ___ Olga. O-L-G-A." },
+        { "label": "А фамилия?", "es": "¿Y su ___ ?" },
+        { "label": "Пишется С-а-ли-да", "es": "Se ___ S-A-L-I-D-A." },
+        { "label": "Как пишется?", "es": "¿Cómo se ___ «baño»?" },
+        { "label": "Буква J — это «хота»", "es": "J es ___ ." },
+        { "label": "Спасибо", "es": "___ , señora." },
+        { "label": "До скорого", "es": "¡Hasta ___ !" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "El profesor dice la letra «jota». ¿Qué letra es?",
+          "ru": "Преподаватель называет букву «хота». Это какая буква?",
+          "options": ["G", "J", "Y"],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo se lee la letra ñ?",
+          "ru": "Как читается буква ñ?",
+          "options": ["[н]", "[нь]", "[нг]"],
+          "answer": 1
+        },
+        {
+          "question": "Audio: «BE-A-EÑE-O». ¿Qué palabra se forma?",
+          "ru": "Аудио: «бе-а-энье-о». Какое слово получается?",
+          "options": ["BAÑO", "PANO", "VANO"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué significa la señal «CERRADO»?",
+          "ru": "Что значит вывеска «CERRADO»?",
+          "options": ["Открыто", "Вход", "Закрыто"],
+          "answer": 2
+        },
+        {
+          "question": "¿Cómo pregunta Olga cómo пишется слово?",
+          "ru": "Как Ольга спрашивает, как пишется слово?",
+          "options": ["¿Cómo se escribe?", "¿Cómo se dice?", "¿Qué es esto?", "¿Qué tal?"],
+          "answer": 0
+        },
+        {
+          "question": "Audio: «ELE-UVE-CE-Í-A». ¿Qué nombre se forma?",
+          "ru": "Аудио: «эле-уве-се-и-а». Какое имя получается?",
+          "options": ["ELENA", "LUCÍA", "NADIA"],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuántas letras tiene el alfabeto español actual?",
+          "ru": "Сколько букв в современном испанском алфавите?",
+          "options": ["25", "27", "29"],
+          "answer": 1
+        },
+        {
+          "question": "¿Cómo se escribe фамилия Olga по-испански в анкете?",
+          "ru": "Как Ольга произносит фамилию в анкете?",
+          "options": ["Просто OLGA", "По буквам: O-L-G-A", "Только гласными", "Не пишет"],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    "Я знаю названия 27 букв испанского алфавита",
+    "Я диктую своё имя и фамилию по буквам",
+    "Я спрашиваю, как пишется слово: ¿cómo se escribe?",
+    "Я отвечаю: se escribe …",
+    "Я читаю вывески выхода, входа и таблички ABIERTO / CERRADO"
+  ],
+  "homework": [
+    "Прочитай вслух 8 вывесок на интерактивной карте школы: SALIDA, ENTRADA, BAÑO, ABIERTO, CERRADO, TELÉFONO, ALFABETO, LETRA",
+    "Запиши на аудио диктовку своего имени и фамилии по буквам: O-L-G-A, затем свою фамилию",
+    "Выучи названия шести букв: hache, jota, eñe, ele, doble uve, equis",
+    "Найди в городе или на фото любую испанскую вывеску, прочитай её вслух и запиши в дневник"
+  ]
+}

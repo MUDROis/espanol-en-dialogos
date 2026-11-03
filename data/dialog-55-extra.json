@@ -1,0 +1,353 @@
+{
+  "id": 55,
+  "title": "Carlos y Lucía celebran la Nochevieja en casa",
+  "titleRu": "Карлос и Лусия вместе встречают Новый год",
+  "part": 6,
+  "level": "C1",
+  "theme": "Новый год, семейный ужин, традиции  La Nochevieja, la cena familiar, las tradiciones",
+  "characters": ["carlos", "lucia"],
+  "objectives": [
+    "Рассказывать о праздничной традиции: la Nochevieja, la cena de Año Nuevo, tomar uvas, brindar con champán",
+    "Выражать планы и намерения: ir a + infinitivo (vamos a cenar, vamos a tomar uvas, vamos a brindar)",
+    "Говорить о семейном застолье: el cordero asado con patatas, de postre turrón y mazapán",
+    "Употреблять gustar / encantar с местоимениями: me gusta mucho, me encanta, a mí también, a mí me gusta más",
+    "Выражать радость с subjuntivo: me alegro de que + subjuntivo (me alegro de que estemos todos juntos)",
+    "Различать ser y estar в описании праздника: es una noche especial / la casa está llena de gente"
+  ],
+  "grammar": {
+    "ir_a_infinitivo": {
+      "title": "Ir a + infinitivo (Vamos a cenar)",
+      "description": "Глагол IR в настоящем времени + инфинитив выражает план или намерение, которое вот-вот осуществится: vamos a cenar (мы сейчас будем ужинать), vamos a tomar uvas (мы будем есть виноград), y después vamos a brindar con champán (а потом будем пить шампанское). Утверждение: vamos a cenar. Вопрос: ¿vamos a cenar?",
+      "forms": {
+        "yo": { "es": "voy a cenar", "ru": "я буду ужинать" },
+        "tu": { "es": "vas a cenar", "ru": "ты будешь ужинать" },
+        "el_ella": { "es": "va a cenar", "ru": "он/она будет ужинать" },
+        "nosotros": { "es": "vamos a cenar", "ru": "мы будем ужинать" },
+        "vosotros": { "es": "vais a cenar", "ru": "вы будете ужинать" },
+        "ellos_ellas": { "es": "van a cenar", "ru": "они будут ужинать" }
+      },
+      "examples": [
+        { "es": "Vamos a cenar cordero asado con patatas y ensalada.", "ru": "Мы будем ужинать жареной бараниной с картошкой и салатом." },
+        { "es": "Después de cenar, vamos a tomar uvas y a brindar con champán.", "ru": "После ужина мы будем есть виноград и пить шампанское." }
+      ]
+    },
+    "me_alegro_de_que_subjuntivo": {
+      "title": "Me alegro de que + subjuntivo",
+      "description": "После me alegro de que (я рад, что) всегда употребляется subjuntivo: me alegro de que estemos todos juntos (я рад, что мы все вместе). Здесь нужна форма estar в subjuntivo.",
+      "forms": {
+        "yo": { "es": "me alegro de que estemos juntos", "ru": "я рад(а), что мы вместе" },
+        "tu": { "es": "me alegro de que estés con nosotros", "ru": "я рад(а), что ты с нами" },
+        "el_ella": { "es": "me alegro de que esté aquí", "ru": "я рад(а), что он/она здесь" },
+        "nosotros": { "es": "me alegro de que tengamos tiempo", "ru": "я рад(а), что у нас есть время" },
+        "vosotros": { "es": "me alegro de que estéis en casa", "ru": "я рад(а), что вы дома" },
+        "ellos_ellas": { "es": "me alegro de que hayan venido", "ru": "я рад(а), что они пришли" }
+      },
+      "examples": [
+        { "es": "Me alegro de que podamos celebrar el Año Nuevo juntos.", "ru": "Я рад(а), что мы можем вместе встретить Новый год." },
+        { "es": "Me alegro de que haya venido toda la familia.", "ru": "Я рад(а), что пришла вся семья." }
+      ]
+    },
+    "gustar_encantar": {
+      "title": "Gustar и encantar",
+      "description": "Me gusta (мне нравится) / me encanta (мне очень нравится) — нравится не действие, а человек, который его выполняет: Me gusta la Nochevieja. A mí también (мне тоже) — короткий ответ; a mí me gusta más (мне больше нравится) — сравнение.",
+      "list": [
+        { "es": "Me gusta mucho cuando nos reunimos toda la familia", "ru": "мне очень нравится, когда собирается вся семья" },
+        { "es": "Me encanta el cordero asado", "ru": "мне очень нравится жареная баранина" },
+        { "es": "A mí también me gusta", "ru": "мне тоже нравится" },
+        { "es": "A mí me gusta más el turrón", "ru": "мне больше нравится туррон" },
+        { "es": "Me encantan las uvas de la Nochevieja", "ru": "мне очень нравятся виноградинки на Новый год" },
+        { "es": "Me gusta esta tradición", "ru": "мне нравится эта традиция" }
+      ],
+      "examples": [
+        { "es": "¡Qué rico! Me encanta el cordero asado.", "ru": "Как вкусно! Мне очень нравится жареная баранина." },
+        { "es": "Sí, a mí también. Y después de cenar vamos a tomar uvas.", "ru": "Да, мне тоже. А после ужина мы будем есть виноград." }
+      ]
+    },
+    "ser_estar_celebracion": {
+      "title": "Ser y estar: описание праздника",
+      "description": "SER — характеристика, суть предмета: es una noche muy especial (это очень особенная ночь), es una ocasión especial (это особенный случай), son las doce (полночь). ESTAR — состояние и место: la casa está llena de gente (дом полон людей), ya están todos en casa (все уже дома), estamos muy contentos (мы очень рады).",
+      "list": [
+        { "es": "La Nochevieja es una ocasión muy especial", "ru": "Канун Нового года — очень особенный случай" },
+        { "es": "Es una noche muy especial", "ru": "это очень особенная ночь" },
+        { "es": "La casa está llena de gente", "ru": "дом полон людей" },
+        { "es": "Ya están todos en casa", "ru": "все уже дома" },
+        { "es": "Todos estamos muy contentos", "ru": "все мы очень рады" },
+        { "es": "Los abuelos están en la sala", "ru": "бабушки и дедушки в гостиной" }
+      ],
+      "examples": [
+        { "es": "Sí, es verdad. La casa está llena de gente.", "ru": "Да, это правда. Дом полон людей." },
+        { "es": "Todos estamos muy contentos esta noche.", "ru": "Все мы очень рады сегодня вечером." }
+      ]
+    },
+    "exclamaciones_que": {
+      "title": "Восклицания с Qué",
+      "description": "Эмоциональные восклицания: ¡Qué bien! (как здорово!), ¡Qué rico! (как вкусно!), ¡Qué tradición tan bonita! (какая красивая традиция!). После qué + наречие + прилагательное часто стоит tan: qué día tan especial (какой особенный день!).",
+      "list": [
+        { "es": "¡Qué bien!", "ru": "Как здорово!" },
+        { "es": "¡Qué rico!", "ru": "Как вкусно!" },
+        { "es": "¡Qué tradición tan bonita!", "ru": "Какая красивая традиция!" },
+        { "es": "¡Qué día tan especial!", "ru": "Какой особенный день!" },
+        { "es": "¡Qué alegría!", "ru": "Какая радость!" },
+        { "es": "¡Feliz Año Nuevo!", "ru": "С Новым годом!" }
+      ],
+      "examples": [
+        { "es": "¡Qué bien! Ya están todos en casa.", "ru": "Как здорово! Все уже дома." },
+        { "es": "¡Qué tradición tan bonita! Me gusta mucho.", "ru": "Какая красивая традиция! Мне очень нравится." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "la_familia_y_la_noche": [
+      { "es": "la familia", "ru": "семья" },
+      { "es": "los abuelos", "ru": "бабушки и дедушки" },
+      { "es": "los tíos", "ru": "тёти и дяди" },
+      { "es": "los primos", "ru": "двоюродные братья и сёстры" },
+      { "es": "la gente", "ru": "люди" },
+      { "es": "la casa", "ru": "дом" },
+      { "es": "el Año Nuevo", "ru": "Новый год" },
+      { "es": "la Nochevieja", "ru": "канун Нового года" },
+      { "es": "la noche", "ru": "ночь" },
+      { "es": "la fiesta de Año Nuevo", "ru": "праздник Нового года" }
+    ],
+    "la_cena": [
+      { "es": "la cena", "ru": "ужин" },
+      { "es": "cenar", "ru": "ужинать" },
+      { "es": "el cordero asado", "ru": "жареная баранина" },
+      { "es": "las patatas", "ru": "картошка" },
+      { "es": "la ensalada", "ru": "салат" },
+      { "es": "el postre", "ru": "десерт" },
+      { "es": "el turrón", "ru": "туррон" },
+      { "es": "el mazapán", "ru": "марципан" },
+      { "es": "las uvas", "ru": "виноград" },
+      { "es": "el champán", "ru": "шампанское" }
+    ],
+    "las_tradiciones": [
+      { "es": "la tradición", "ru": "традиция" },
+      { "es": "la costumbre", "ru": "обычай" },
+      { "es": "la ocasión", "ru": "повод, случай" },
+      { "es": "especial", "ru": "особенный" },
+      { "es": "rico/a", "ru": "вкусный" },
+      { "es": "(se) reunir", "ru": "собирать(ся)" },
+      { "es": "tomar uvas", "ru": "есть виноград (по одной ягоде на каждый удар часов)" },
+      { "es": "brindar con champán", "ru": "пить шампанское, чокаться" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Carlos", "es": "¡Qué bien! Ya están todos en casa. Vamos a cenar.", "ru": "Как здорово! Все уже дома. Давайте ужинать." },
+    { "speaker": "Lucía", "es": "Sí, es una noche muy especial. Me gusta mucho cuando nos reunimos toda la familia.", "ru": "Да, это очень особенная ночь. Мне очень нравится, когда собирается вся семья." },
+    { "speaker": "Carlos", "es": "Sí, es verdad. La casa está llena de gente. Los abuelos, los tíos, los primos... Todos estamos muy contentos.", "ru": "Да, это правда. Дом полон людей. Бабушки и дедушки, тёти, дяди, двоюродные братья и сёстры... Все мы очень рады." },
+    { "speaker": "Lucía", "es": "¿Y qué vamos a cenar?", "ru": "А что мы будем есть на ужин?" },
+    { "speaker": "Carlos", "es": "Vamos a cenar cordero asado con patatas y ensalada. De postre, turrón y mazapán.", "ru": "Мы будем есть жареную баранину с картошкой и салат. На десерт — туррон и марципан." },
+    { "speaker": "Lucía", "es": "¡Qué rico! Me encanta el cordero asado.", "ru": "Как вкусно! Мне очень нравится жареная баранина." },
+    { "speaker": "Carlos", "es": "Sí, a mí también. Y después de cenar, vamos a tomar uvas y a brindar con champán.", "ru": "Да, мне тоже. А после ужина мы будем есть виноград и пить шампанское." },
+    { "speaker": "Lucía", "es": "¡Qué tradición tan bonita! Me gusta mucho.", "ru": "Какая красивая традиция! Мне очень нравится." },
+    { "speaker": "Carlos", "es": "Sí, es una noche muy especial. Me alegro de que estemos todos juntos.", "ru": "Да, это очень особенная ночь. Я рад, что мы все вместе." },
+    { "speaker": "Lucía", "es": "Yo también. Feliz Año Nuevo, Carlos.", "ru": "Я тоже. С Новым годом, Карлос." },
+    { "speaker": "Carlos", "es": "Feliz Año Nuevo, Lucía.", "ru": "С Новым годом, Лусия." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "la familia", "ru": "семья" },
+        { "es": "los abuelos", "ru": "бабушки и дедушки" },
+        { "es": "los tíos", "ru": "тёти и дяди" },
+        { "es": "los primos", "ru": "двоюродные братья и сёстры" },
+        { "es": "la Nochevieja", "ru": "канун Нового года" },
+        { "es": "el Año Nuevo", "ru": "Новый год" },
+        { "es": "la cena", "ru": "ужин" },
+        { "es": "el cordero asado", "ru": "жареная баранина" },
+        { "es": "el turrón", "ru": "туррон" },
+        { "es": "las uvas", "ru": "виноград" }
+      ]
+    },
+    {
+      "type": "fill-gap-ir_a_infinitivo",
+      "title": "Практика: Ir a + infinitivo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Vamos a ___ ahora.", "ru": "Мы сейчас будем ужинать", "answer": "cenar", "options": ["cenar", "cenas", "cenó"] },
+        { "text": "Después de cenar, vamos a ___ uvas.", "ru": "После ужина мы будем есть виноград", "answer": "tomar", "options": ["tomar", "tomamos", "tomó"] },
+        { "text": "Y vamos a ___ con champán.", "ru": "И мы будем пить шампанское", "answer": "brindar", "options": ["brindar", "brinda", "bebe"] },
+        { "text": "Yo ___ a ver a mis abuelos.", "ru": "Я собираюсь навестить своих бабушек и дедушек", "answer": "voy", "options": ["voy", "vas", "va"] },
+        { "text": "¿___ vamos a cenar?", "ru": "Мы будем ужинать?", "answer": "Qué", "options": ["Qué", "Que", "Cómo"] }
+      ]
+    },
+    {
+      "type": "fill-gap-me_alegro_de_que_subjuntivo",
+      "title": "Практика: Me alegro de que + subjuntivo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Me alegro de que ___ todos juntos.", "ru": "Я рад(а), что мы все вместе", "answer": "estemos", "options": ["estemos", "estamos", "esté"] },
+        { "text": "Me alegro de que ___ aquí esta noche.", "ru": "Я рад(а), что ты будешь здесь сегодня вечером", "answer": "estés", "options": ["estés", "estás", "esté"] },
+        { "text": "Me alegro de que los abuelos ___ venido.", "ru": "Я рад(а), что бабушки и дедушки пришли", "answer": "hayan", "options": ["hayan", "han", "habían"] },
+        { "text": "Me alegro de que ___ el Año Nuevo en familia.", "ru": "Я рад(а), что мы встречаем Новый год в семье", "answer": "celebremos", "options": ["celebramos", "celebremos", "celebráis"] },
+        { "text": "Me alegro de que pueda ___ con vosotros.", "ru": "Я рад(а), что я смогу ужинать с вами", "answer": "cenar", "options": ["cenar", "cene", "cenó"] }
+      ]
+    },
+    {
+      "type": "fill-gap-gustar_encantar",
+      "title": "Практика: Gustar и encantar",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Me ___ mucho el cordero asado.", "ru": "Мне очень нравится жареная баранина", "answer": "encanta", "options": ["encanta", "encantan", "encanto"] },
+        { "text": "A mí ___ me gusta el mazapán.", "ru": "А мне нравится марципан", "answer": "también", "options": ["también", "tampoco", "ya"] },
+        { "text": "Me ___ cuando nos reunimos toda la familia.", "ru": "Мне нравится, когда собирается вся семья", "answer": "gusta", "options": ["gusta", "gustan", "gusto"] },
+        { "text": "A mí me ___ más el turrón que el mazapán.", "ru": "Мне больше нравится туррон, чем марципан", "answer": "gusta", "options": ["gusta", "gustan", "gustó"] },
+        { "text": "¡Qué rico! Me ___ las uvas.", "ru": "Как вкусно! Мне очень нравятся виноградинки", "answer": "encantan", "options": ["encantan", "encanta", "encanto"] }
+      ]
+    },
+    {
+      "type": "fill-gap-ser_estar_celebracion",
+      "title": "Практика: Ser y estar",
+      "description": "Выберите правильную форму глагола",
+      "sentences": [
+        { "text": "La Nochevieja ___ una ocasión muy especial.", "ru": "Канун Нового года — очень особенный случай", "answer": "es", "options": ["es", "está", "son"] },
+        { "text": "La casa ___ llena de gente.", "ru": "Дом полон людей", "answer": "está", "options": ["está", "es", "hay"] },
+        { "text": "Ya ___ todos en casa.", "ru": "Все уже дома", "answer": "están", "options": ["están", "son", "hay"] },
+        { "text": "Nosotros ___ muy contentos.", "ru": "Мы очень рады", "answer": "estamos", "options": ["estamos", "somos", "hay"] },
+        { "text": "Esta noche ___ una ocasión especial para la familia.", "ru": "Эта ночь — особенный случай для семьи", "answer": "es", "options": ["es", "está", "hay"] }
+      ]
+    },
+    {
+      "type": "fill-gap-exclamaciones_que",
+      "title": "Практика: Восклицания с Qué",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¡___ bien! Ya están todos en casa.", "ru": "Как здорово! Все уже дома", "answer": "Qué", "options": ["Qué", "Que", "Cuándo"] },
+        { "text": "¡Qué ___! Me encanta el cordero asado.", "ru": "Как вкусно! Мне очень нравится жареная баранина", "answer": "rico", "options": ["rico", "viejo", "normal"] },
+        { "text": "¡Qué ___ tan bonita! Me gusta mucho esta costumbre.", "ru": "Какая красивая традиция! Мне очень нравится этот обычай", "answer": "tradición", "options": ["tradición", "casa", "comida"] },
+        { "text": "¡Qué día tan ___!", "ru": "Какой особенный день!", "answer": "especial", "options": ["especial", "normal", "triste"] },
+        { "text": "¡Qué ___! Estamos todos juntos.", "ru": "Какая радость! Мы все вместе", "answer": "alegría", "options": ["alegría", "duda", "prisa"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Vamos a ___ cordero asado con patatas.", "ru": "Мы будем есть жареную баранину с картошкой", "answer": "cenar", "options": ["cenar", "cenas", "cenó"] },
+        { "text": "De ___, turrón y mazapán.", "ru": "На десерт — туррон и марципан", "answer": "postre", "options": ["postre", "postura", "precio"] },
+        { "text": "La casa está ___ de gente.", "ru": "Дом полон людей", "answer": "llena", "options": ["llena", "lleno", "llenas"] },
+        { "text": "Me ___ mucho cuando nos reunimos toda la familia.", "ru": "Мне очень нравится, когда собирается вся семья", "answer": "gusta", "options": ["gusta", "gustan", "gusto"] },
+        { "text": "Me alegro de que ___ todos juntos.", "ru": "Я рад(а), что мы все вместе", "answer": "estemos", "options": ["estemos", "estamos", "esté"] },
+        { "text": "Después de cenar, vamos a ___ con champán.", "ru": "После ужина мы будем пить шампанское", "answer": "brindar", "options": ["brindar", "beber", "bebe"] },
+        { "text": "Los abuelos, los tíos, los ___...", "ru": "Бабушки и дедушки, тёти, дяди, двоюродные братья и сёстры...", "answer": "primos", "options": ["primos", "puntos", "prendas"] },
+        { "text": "¡Qué ___ tan bonita!", "ru": "Какая красивая традиция!", "answer": "tradición", "options": ["tradición", "cena", "casa"] },
+        { "text": "Todos ___ muy contentos.", "ru": "Все мы очень рады", "answer": "estamos", "options": ["estamos", "somos", "hay"] },
+        { "text": "¡___ Año Nuevo!", "ru": "С Новым годом!", "answer": "Feliz", "options": ["Feliz", "Felices", "Felicidades"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Ты — Лусия: поздравь Карлоса с Новым годом, расскажи, что тебе нравится в семейном ужине и в традиции есть виноград"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Ты — Карлос: расскажи, что будете есть на ужин, спроси Лусию, что ей нравится, и скажи, что рад, что все вместе"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи другу о своём праздничном ужине и традициях",
+      "template": [
+        { "label": "Все уже дома", "es": "Ya ___ todos en casa." },
+        { "label": "Мы будем ужинать", "es": "Vamos a ___." },
+        { "label": "Мы будем есть жареную баранину", "es": "Vamos a cenar ___ asado con patatas." },
+        { "label": "На десерт — туррон", "es": "De postre, ___ y mazapán." },
+        { "label": "Дом полон людей", "es": "La casa está ___ de gente." },
+        { "label": "Мне очень нравится", "es": "Me ___ mucho la Nochevieja." },
+        { "label": "После ужина мы будем пить шампанское", "es": "Después de cenar, vamos a ___ con champán." },
+        { "label": "Мы будем есть виноград", "es": "Vamos a ___ uvas." },
+        { "label": "Я рад, что мы все вместе", "es": "Me alegro de que ___ todos juntos." },
+        { "label": "Какая красивая традиция!", "es": "¡Qué ___ tan bonita!" },
+        { "label": "Мне тоже нравится", "es": "A mí ___ me gusta." },
+        { "label": "С Новым годом!", "es": "¡___ Año Nuevo!" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Qué celebra la familia esta noche?",
+          "ru": "Что празднует семья сегодня вечером?",
+          "options": ["Su cumpleaños", "La Nochevieja", "La boda de un primo", "El Carnaval"],
+          "answer": 1
+        },
+        {
+          "question": "¿Quiénes están en casa?",
+          "ru": "Кто находится дома?",
+          "options": ["Los abuelos, los tíos y los primos", "Los vecinos de la calle", "Sólo Carlos y Lucía", "Los profesores de la escuela"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué van a cenar?",
+          "ru": "Что они будут есть на ужин?",
+          "options": ["Cordero asado con patatas y ensalada", "Pescado con arroz", "Sopa con pan", "Pollo con patatas"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué hay de postre?",
+          "ru": "Что будет на десерт?",
+          "options": ["Tarta de queso", "Fruta con helado", "Flan con nata", "Turrón y mazapán"],
+          "answer": 3
+        },
+        {
+          "question": "¿Qué hacen después de cenar?",
+          "ru": "Что они делают после ужина?",
+          "options": ["Comen uvas y champán", "Van a dormir", "Miran la televisión", "Salen a la calle"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué le encanta a Lucía?",
+          "ru": "Что очень нравится Лусии?",
+          "options": ["La ensalada", "El mazapán", "El cordero asado", "Las patatas"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué expresa «me alegro de que estemos todos juntos»?",
+          "ru": "Что выражает «я рад, что мы все вместе»?",
+          "options": ["Que se alegra de que la familia esté reunida", "Que tiene mucha hambre", "Que está muy cansado", "Que quiere salir de casa"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué tradición de la Nochevieja se menciona en el diálogo?",
+          "ru": "Какая традиция кануна Нового года упоминается в диалоге?",
+          "options": ["Comer uvas y brindar con champán", "Regalar regalos a los niños", "Adornar la playa", "Bailar en la plaza"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué es la Nochevieja?",
+          "ru": "Что такое канун Нового года?",
+          "options": ["El día de Reyes", "La Semana Santa", "La fiesta de Año Nuevo", "El primer día de clase"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué se dicen al final del diálogo?",
+          "ru": "Что они говорят друг другу в конце диалога?",
+          "options": ["«Feliz Año Nuevo»", "«Buenos días»", "«Hasta mañana»", "«Buenas noches, hasta luego»"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повтори слова по теме «Новый год, семейный ужин, традиции»",
+    "Практика: расскажи о праздничном ужине в своей семье. Используй: vamos a + infinitivo, me encanta, de postre..., a mí también",
+    "Дневник: напиши, какие традиции есть в твоей стране в новогоднюю ночь и что ты ешь на десерт",
+    "Грамматика: составь 3 предложения с ir a + infinitivo, 3 фразы с me alegro de que + subjuntivo и 3 восклицания с qué"
+  ]
+}

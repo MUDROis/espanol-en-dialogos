@@ -1,0 +1,309 @@
+{
+  "id": 38,
+  "title": "Lucía y Marta están en la clase de pintura",
+  "titleRu": "Лусия и Марта находятся на уроке рисования",
+  "part": 4,
+  "level": "B1",
+  "theme": "Урок рисования, школа, животные  La clase de dibujo, la escuela, los animales",
+  "characters": ["profesora", "lucia", "marta"],
+  "objectives": [
+    "Объяснять, почему кто-то отсутствует: se ha ido con su médico, no se siente bien, han llegado sus primos",
+    "Рассказывать о недавних действиях: hemos dibujado, me habéis convencido, ¿habéis traído?",
+    "Планировать занятие: hoy practicaremos, a partir de septiembre dibujaremos, entonces empezaremos",
+    "Говорить об умениях: no habéis aprendido a dibujar bien este animal",
+    "Выражать необходимость: tendrán que dibujar el caballo otro día",
+    "Понимать слова о рисовании: el dibujo, el lápiz, el tema, el color, el animal"
+  ],
+  "grammar": {
+    "pret_perfecto": {
+      "title": "Pretérito Perfecto: что произошло к уроку",
+      "description": "HABER в настоящем + participio для недавних событий: ya hemos dibujado dos caballos esta semana (мы уже нарисовали двух лошадей на этой неделе), han llegado algunos de sus primos (приехали некоторые её родственники), me habéis convencido (вы меня убедили), ¿habéis traído vuestros lápices? (вы принесли карандаши?).",
+      "forms": {
+        "yo": { "es": "he pensado en dibujar un castillo", "ru": "я подумала нарисовать замок" },
+        "tu": { "es": "has traído los lápices", "ru": "ты принёс карандаши" },
+        "el_ella": { "es": "ha dicho que no vendrá hoy", "ru": "он/она сказал, что не придёт сегодня" },
+        "nosotros": { "es": "hemos dibujado dos caballos", "ru": "мы нарисовали двух лошадей" },
+        "vosotros": { "es": "habéis aprendido a dibujar bien", "ru": "вы научились хорошо рисовать" },
+        "ellos_ellas": { "es": "han llegado algunos primos", "ru": "приехали некоторые родственники" }
+      },
+      "examples": [
+        { "es": "Ya hemos dibujado dos caballos esta semana.", "ru": "Мы уже нарисовали двух лошадей на этой неделе." },
+        { "es": "Bueno, me habéis convencido.", "ru": "Ладно, вы меня убедили." }
+      ]
+    },
+    "futuro_simple": {
+      "title": "Futuro Simple: планы и предсказания",
+      "description": "Будущее для планов и предсказаний: hoy practicaremos este dibujo (сегодня мы потренируем этот рисунок), a partir de septiembre ya dibujaremos algo diferente (с сентября уже нарисуем что-то другое), Julia ha dicho que no vendrá hoy (Хулия сказала, что не придёт сегодня), seguro que lo podremos hacer (точно у нас получится), entonces empezaremos (тогда начнём).",
+      "forms": {
+        "yo": { "es": "dibujaré el castillo hoy", "ru": "я нарисую замок сегодня" },
+        "tu": { "es": "dibujarás el tigre", "ru": "ты нарисуешь тигра" },
+        "el_ella": { "es": "no vendrá hoy", "ru": "он/она не придёт сегодня" },
+        "nosotros": { "es": "practicaremos este dibujo", "ru": "мы потренируем этот рисунок" },
+        "vosotros": { "es": "dibujaréis algo diferente", "ru": "вы нарисуете что-то другое" },
+        "ellos_ellas": { "es": "tendrán que dibujar otro día", "ru": "им придётся рисовать в другой день" }
+      },
+      "examples": [
+        { "es": "Julia ha dicho que no vendrá hoy.", "ru": "Хулия сказала, что не придёт сегодня." },
+        { "es": "Será demasiado difícil para vosotras.", "ru": "Это будет слишком сложно для вас." }
+      ]
+    },
+    "aprender_a": {
+      "title": "APRENDER A + infinitivo: учиться делать",
+      "description": "APRENDER A + глагол — «учиться чему-то»: aún no habéis aprendido a dibujar bien este animal (вы ещё не научились хорошо рисовать это животное). Спряжение aprender: aprendo, aprendes, aprende...",
+      "forms": {
+        "yo": { "es": "aprendo a dibujar animales", "ru": "я учусь рисовать животных" },
+        "tu": { "es": "aprendes a pintar rápido", "ru": "ты учишься быстро рисовать" },
+        "el_ella": { "es": "aprende a usar los lápices", "ru": "он/она учится пользоваться карандашами" },
+        "nosotros": { "es": "aprendemos a dibujar juntos", "ru": "мы учимся рисовать вместе" },
+        "vosotros": { "es": "aprendéis a elegir el tema", "ru": "вы учитесь выбирать тему" },
+        "ellos_ellas": { "es": "aprenden a mezclar colores", "ru": "они учатся смешивать краски" }
+      },
+      "examples": [
+        { "es": "Es que aún no habéis aprendido a dibujar bien este animal.", "ru": "Дело в том, что вы ещё не научились хорошо рисовать это животное." },
+        { "es": "Hoy practicaremos este dibujo, y a partir de septiembre ya dibujaremos algo diferente.", "ru": "Сегодня потренируем этот рисунок, а с сентября уже нарисуем что-нибудь другое." }
+      ]
+    },
+    "tener_que": {
+      "title": "TENER QUE + infinitivo: обязанность и необходимость",
+      "description": "TENER QUE + глагол — «должен, приходится, нужно»: seguro que tendrán que dibujar el caballo otro día (точно им придётся рисовать лошадь в другой день), hoy no tenemos que dibujar (сегодня нам не нужно рисовать).",
+      "list": [
+        { "es": "tendrán que dibujar el caballo otro día", "ru": "им придётся рисовать лошадь в другой день" },
+        { "es": "tenemos que practicar este dibujo", "ru": "мы должны потренировать этот рисунок" },
+        { "es": "tengo que traer los lápices a clase", "ru": "я должен принести карандаши на занятие" },
+        { "es": "hoy no tienen que dibujar", "ru": "сегодня им не нужно рисовать" },
+        { "es": "¿tienes que empezar ya?", "ru": "тебе уже нужно начинать?" }
+      ],
+      "examples": [
+        { "es": "Hoy no han venido los chicos, seguro que tendrán que dibujar el caballo otro día.", "ru": "Сегодня не пришли ребята, точно им придётся рисовать лошадь в другой день." },
+        { "es": "Nosotras podremos hacerlo con ellos.", "ru": "Мы сможем сделать это вместе с ними." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "la_clase_de_pintura": [
+      { "es": "la clase", "ru": "урок, занятие" },
+      { "es": "la profesora", "ru": "учительница" },
+      { "es": "el dibujo", "ru": "рисунок" },
+      { "es": "el tema", "ru": "тема" },
+      { "es": "el lápiz", "ru": "карандаш" },
+      { "es": "el color", "ru": "цвет" },
+      { "es": "el animal", "ru": "животное" },
+      { "es": "el caballo", "ru": "лошадь" },
+      { "es": "el tigre", "ru": "тигр" },
+      { "es": "el león", "ru": "лев" },
+      { "es": "el castillo", "ru": "замок" },
+      { "es": "la princesa", "ru": "принцесса" }
+    ],
+    "los_verbos": [
+      { "es": "dibujar", "ru": "рисовать" },
+      { "es": "pintar", "ru": "рисовать, раскрашивать" },
+      { "es": "elegir", "ru": "выбирать" },
+      { "es": "practicar", "ru": "тренировать, практиковать" },
+      { "es": "aprender", "ru": "учиться" },
+      { "es": "convencer", "ru": "убеждать" },
+      { "es": "traer", "ru": "приносить" },
+      { "es": "sentirse", "ru": "чувствовать себя" },
+      { "es": "pasar el tiempo", "ru": "проводить время" },
+      { "es": "venir", "ru": "приходить" }
+    ],
+    "el_tiempo": [
+      { "es": "la semana", "ru": "неделя" },
+      { "es": "la mañana", "ru": "утро" },
+      { "es": "el día", "ru": "день" },
+      { "es": "septiembre", "ru": "сентябрь" },
+      { "es": "hoy", "ru": "сегодня" },
+      { "es": "otro día", "ru": "в другой день" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Profesora", "es": "Hola, chicas. ¿Por qué hoy solo estáis vosotras dos? ¿Por qué no han venido los otros?", "ru": "Привет, девочки. Почему вы сегодня только вдвоём? Почему не пришли остальные?" },
+    { "speaker": "Lucía", "es": "Solo sabemos que la madre de Andrés se ha ido con su médico esta mañana, él no se siente bien. Raúl se ha ido con sus padres a Francia una semana y Julia ha dicho que no vendrá hoy porque han llegado algunos de sus primos y están pasando el tiempo juntos.", "ru": "Мы только знаем, что мама Андреса отвела его к врачу этим утром, он не очень хорошо себя чувствует. Рауль уехал с родителями во Францию на неделю, а Хулия сказала, что не придёт сегодня, потому что приехали какие-то её родственники, и они вместе проводят время." },
+    { "speaker": "Profesora", "es": "Pues, mejor para vosotras. Hoy vamos a dibujar un caballo.", "ru": "Что ж, вам же лучше. Сегодня будем рисовать лошадь." },
+    { "speaker": "Marta", "es": "Pero ya hemos dibujado dos caballos esta semana. ¿Podemos elegir otro tema?", "ru": "Но мы уже рисовали две лошади на этой неделе. Мы можем выбрать другую тему?" },
+    { "speaker": "Profesora", "es": "Es que aún no habéis aprendido a dibujar bien este animal. Hoy practicaremos este dibujo, y a partir de septiembre ya dibujaremos algo diferente.", "ru": "Дело в том, что вы ещё не научились хорошо рисовать это животное. Сегодня займёмся этим рисунком, а с сентября нарисуем что-нибудь другое." },
+    { "speaker": "Lucía", "es": "Pero, profesora, por favor. Hoy no han venido los chicos, seguro que tendrán que dibujar el caballo otro día. Nosotras podremos hacerlo con ellos.", "ru": "Но, учительница, пожалуйста. Сегодня не пришли ребята, им точно придётся рисовать лошадь в другой день. И мы сможем сделать это с ними." },
+    { "speaker": "Marta", "es": "Sí, es que hoy estamos solas... ¿Por qué no practicamos otra cosa?", "ru": "Да, ведь сегодня мы одни. Почему бы нам не попрактиковать что-нибудь другое?" },
+    { "speaker": "Profesora", "es": "Bueno, me habéis convencido. Podemos dibujar un tigre, por ejemplo, o un león.", "ru": "Ладно, вы меня убедили. Мы можем нарисовать тигра, например, или льва." },
+    { "speaker": "Lucía", "es": "He pensado en dibujar un castillo con una princesa a su lado.", "ru": "Я подумала нарисовать замок и принцессу рядом с ним." },
+    { "speaker": "Profesora", "es": "Pero, hija, será demasiado difícil para vosotras.", "ru": "Но, дорогая, это будет слишком сложно для вас." },
+    { "speaker": "Marta", "es": "Seguro que lo podremos hacer. Algo simple.", "ru": "У нас точно получится. Что-нибудь простое." },
+    { "speaker": "Profesora", "es": "Está bien. ¿Habéis traído vuestros lápices?", "ru": "Хорошо. Вы принесли ваши карандаши?" },
+    { "speaker": "Lucía", "es": "Claro, estamos preparadas.", "ru": "Конечно, мы готовы." },
+    { "speaker": "Profesora", "es": "Bueno, entonces empezaremos.", "ru": "Тогда начнём." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "la clase", "ru": "урок, занятие" },
+        { "es": "la profesora", "ru": "учительница" },
+        { "es": "el dibujo", "ru": "рисунок" },
+        { "es": "el tema", "ru": "тема" },
+        { "es": "el lápiz", "ru": "карандаш" },
+        { "es": "el color", "ru": "цвет" },
+        { "es": "el animal", "ru": "животное" },
+        { "es": "el caballo", "ru": "лошадь" },
+        { "es": "el tigre", "ru": "тигр" },
+        { "es": "el león", "ru": "лев" }
+      ]
+    },
+    {
+      "type": "fill-gap-pret_perfecto",
+      "title": "Практика: Pretérito Perfecto",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Ya hemos ___ dos caballos esta semana.", "ru": "Мы уже нарисовали двух лошадей на этой неделе", "answer": "dibujado", "options": ["dibujado", "dibujados", "dibujar"] },
+        { "text": "La madre de Andrés se ha ___ con su médico.", "ru": "Мама Андреса отвела его к врачу", "answer": "ido", "options": ["ido", "ida", "ir"] },
+        { "text": "Julia ha ___ que no vendrá hoy.", "ru": "Хулия сказала, что не придёт сегодня", "answer": "dicho", "options": ["dicho", "dicha", "decir"] },
+        { "text": "Bueno, me habéis ___.", "ru": "Ладно, вы меня убедили", "answer": "convencido", "options": ["convencido", "convencida", "convencer"] },
+        { "text": "¿Habéis ___ vuestros lápices?", "ru": "Вы принесли свои карандаши?", "answer": "traído", "options": ["traído", "traída", "traer"] }
+      ]
+    },
+    {
+      "type": "fill-gap-futuro_simple",
+      "title": "Практика: Futuro Simple",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Hoy ___ este dibujo.", "ru": "Сегодня мы потренируем этот рисунок", "answer": "practicaremos", "options": ["practicaremos", "practicamos", "practicábamos"] },
+        { "text": "A partir de septiembre ya ___ algo diferente.", "ru": "С сентября мы уже нарисуем что-то другое", "answer": "dibujaremos", "options": ["dibujaremos", "dibujamos", "dibujábamos"] },
+        { "text": "Julia ha dicho que no ___ hoy.", "ru": "Хулия сказала, что не придёт сегодня", "answer": "vendrá", "options": ["vendrá", "viene", "vino"] },
+        { "text": "Seguro que lo ___ hacer.", "ru": "У нас точно получится", "answer": "podremos", "options": ["podremos", "podemos", "podíamos"] },
+        { "text": "___ demasiado difícil para vosotras.", "ru": "Это будет слишком сложно для вас", "answer": "Será", "options": ["Será", "Es", "Era"] },
+        { "text": "Bueno, entonces ___.", "ru": "Ладно, тогда начнём", "answer": "empezaremos", "options": ["empezaremos", "empezamos", "empezábamos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-aprender_a",
+      "title": "Практика: APRENDER A + infinitivo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Aún no habéis ___ a dibujar bien este animal.", "ru": "Вы ещё не научились хорошо рисовать это животное", "answer": "aprendido", "options": ["aprendido", "aprendida", "aprender"] },
+        { "text": "Hoy ___ a mezclar los colores.", "ru": "Сегодня мы учимся смешивать краски", "answer": "aprendemos", "options": ["aprendemos", "aprende", "aprendéis"] },
+        { "text": "¿Cuándo ___ a dibujar el tigre?", "ru": "Когда ты научишься рисовать тигра?", "answer": "aprenderás", "options": ["aprenderás", "aprendes", "aprendiste"] },
+        { "text": "Ellos ___ a elegir los temas.", "ru": "Они учатся выбирать темы", "answer": "aprenden", "options": ["aprenden", "aprende", "aprender"] },
+        { "text": "Vosotras ___ a pintar muy rápido.", "ru": "Вы учитесь рисовать очень быстро", "answer": "aprendéis", "options": ["aprendéis", "aprenden", "aprendes"] }
+      ]
+    },
+    {
+      "type": "fill-gap-tener_que",
+      "title": "Практика: TENER QUE + infinitivo",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Tendrán que ___ el caballo otro día.", "ru": "Им придётся рисовать лошадь в другой день", "answer": "dibujar", "options": ["dibujar", "dibujan", "dibujando"] },
+        { "text": "Hoy no ___ que dibujar.", "ru": "Сегодня им не нужно рисовать", "answer": "tienen", "options": ["tienen", "tendrán", "tiene"] },
+        { "text": "Nosotras tenemos que ___ este tema hoy.", "ru": "Мы должны потренировать эту тему сегодня", "answer": "practicar", "options": ["practicar", "practican", "practicamos"] },
+        { "text": "Tengo que ___ los lápices a clase.", "ru": "Я должен принести карандаши на занятие", "answer": "traer", "options": ["traer", "traigo", "traído"] },
+        { "text": "¿___ que practicar mucho?", "ru": "Нам придётся много тренироваться?", "answer": "Tendremos", "options": ["Tendremos", "Tenemos", "Tendréis"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Ya hemos ___ dos caballos esta semana.", "ru": "Мы уже нарисовали двух лошадей на этой неделе", "answer": "dibujado", "options": ["dibujado", "dibujados", "dibujar"] },
+        { "text": "Hoy ___ este dibujo.", "ru": "Сегодня мы потренируем этот рисунок", "answer": "practicaremos", "options": ["practicaremos", "practicamos", "practicábamos"] },
+        { "text": "Aún no habéis ___ a dibujar bien este animal.", "ru": "Вы ещё не научились хорошо рисовать это животное", "answer": "aprendido", "options": ["aprendido", "aprendida", "aprender"] },
+        { "text": "Tendrán que ___ el caballo otro día.", "ru": "Им придётся рисовать лошадь в другой день", "answer": "dibujar", "options": ["dibujar", "dibujan", "dibujando"] },
+        { "text": "Julia ha dicho que no ___ hoy.", "ru": "Хулия сказала, что не придёт сегодня", "answer": "vendrá", "options": ["vendrá", "viene", "vino"] },
+        { "text": "Seguro que lo ___ hacer.", "ru": "У нас точно получится", "answer": "podremos", "options": ["podremos", "podemos", "podíamos"] },
+        { "text": "Bueno, me habéis ___.", "ru": "Ладно, вы меня убедили", "answer": "convencido", "options": ["convencido", "convencida", "convencer"] },
+        { "text": "¿Habéis ___ vuestros lápices?", "ru": "Вы принесли свои карандаши?", "answer": "traído", "options": ["traído", "traída", "traer"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Ты — Лусия, объясняешь, почему не пришли ребята, и уговариваешь учительницу"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Мартой",
+      "role": "Marta",
+      "description": "Ты — Марта, поддерживаешь Лусию и просишь выбрать другую тему для рисунка"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Поговори с одноклассником о том, что рисовать на уроке",
+      "template": [
+        { "label": "Мы уже нарисовали двух лошадей", "es": "Ya hemos ___ dos caballos" },
+        { "label": "Сегодня мы потренируем этот рисунок", "es": "Hoy ___ este dibujo" },
+        { "label": "Вы ещё не научились рисовать", "es": "Aún no habéis ___ a dibujar" },
+        { "label": "Им придётся рисовать в другой день", "es": "___ que dibujar otro día" },
+        { "label": "Она не придёт сегодня", "es": "No ___ hoy" },
+        { "label": "У нас точно получится", "es": "Seguro que lo ___ hacer" },
+        { "label": "Вы меня убедили", "es": "Me habéis ___" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Quién se ha ido con sus padres a Francia una semana?",
+          "ru": "Кто уехал с родителями во Францию на неделю?",
+          "options": ["Raúl", "Andrés", "Julia", "Marta"],
+          "answer": 0
+        },
+        {
+          "question": "¿Quién no se siente bien?",
+          "ru": "Кто плохо себя чувствует?",
+          "options": ["Julia", "Raúl", "Andrés", "Lucía"],
+          "answer": 2
+        },
+        {
+          "question": "¿Por qué no viene Julia a la clase?",
+          "ru": "Почему Хулия не приходит на занятие?",
+          "options": ["Está enferma", "Ha llegado su médico", "Han llegado algunos de sus primos", "Se ha ido a Francia"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué va a dibujar la clase hoy?",
+          "ru": "Что класс будет рисовать сегодня?",
+          "options": ["El tigre", "El león", "El castillo", "El caballo"],
+          "answer": 3
+        },
+        {
+          "question": "¿Qué han dibujado Lucía y Marta esta semana?",
+          "ru": "Что Лусия и Марта уже рисовали на этой неделе?",
+          "options": ["Dos caballos", "Un tigre", "Un castillo", "Una princesa"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué quiere dibujar Lucía?",
+          "ru": "Что хочет нарисовать Лусия?",
+          "options": ["Un tigre", "Un león", "Un castillo con una princesa", "Un caballo"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué opina la profesora del castillo?",
+          "ru": "Что думает учительница о замке?",
+          "options": ["Será demasiado difícil", "Es una idea genial", "Lo dibujarán en septiembre", "Será muy fácil"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué deben traer las chicas a la clase?",
+          "ru": "Что должны принести девочки на занятие?",
+          "options": ["Los libros", "Los lápices", "Los colores", "Las fotos"],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 минут: повтори слова по теме «урок рисования, животные, время»",
+    "Практика: расскажи, что вы делаете на уроке рисования. Используй: hemos dibujado..., hoy practicaremos..., aún no he aprendido a..., tendré que...",
+    "Дневник: опиши свой любимый урок и что вы на нём делаете",
+    "Грамматика: составь 3 предложения с futuro simple, 3 с aprender a + infinitivo, 3 с tener que + infinitivo"
+  ]
+}

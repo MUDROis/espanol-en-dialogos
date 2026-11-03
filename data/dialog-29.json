@@ -1,0 +1,307 @@
+{
+  "id": 29,
+  "title": "Carlos y Lucía en un restaurante",
+  "titleRu": "Карлос и Лусия в ресторане",
+  "part": 3,
+  "level": "B1",
+  "theme": "Ресторан, заказ блюд, еда  El restaurante, el pedido, la comida",
+  "characters": ["carlos", "lucia", "camarero"],
+  "objectives": [
+    "Строить заказ по курсу блюд: de primero, de segundo, de postre, para beber",
+    "Использовать будущее время: voy a pedir..., pediré...",
+    "Давать советы: te recomiendo probar, ¿les puedo aconsejar algo?",
+    "Связывать предложения: aunque... porque...",
+    "Понимать слова по теме «ресторан, блюда, напитки»: la carta, la sopa, el salmón, el postre"
+  ],
+  "grammar": {
+    "de_primero": {
+      "title": "Структура заказа: DE PRIMERO, DE SEGUNDO, DE POSTRE",
+      "description": "DE PRIMERO — «на первое», DE SEGUNDO — «на второе», DE POSTRE — «на десерт»: ¿Qué quieres comer de primero? (что хочешь на первое?), De postre quiero un helado (на десерт хочу мороженое). PARA ENTRAR — «на закуску», PARA BEBER — «из напитков».",
+      "list": [
+        { "es": "¿qué quieres comer de primero?", "ru": "что ты хочешь есть на первое?" },
+        { "es": "¿qué tomamos de segundo, carne o pescado?", "ru": "что возьмём на второе, мясо или рыбу?" },
+        { "es": "de postre quiero un helado", "ru": "на десерт я хочу мороженое" },
+        { "es": "para entrar vamos a pedir una ración de jamón", "ru": "на закуску закажем порцию хамона" },
+        { "es": "para beber pienso pedir zumo de naranja", "ru": "из напитков, думаю, закажу апельсиновый сок" }
+      ],
+      "examples": [
+        { "es": "¿Qué quieres comer de primero? Estoy pensando... hay sopa de verduras, de pescado, de mariscos.", "ru": "Что ты хочешь на первое? Я думаю... есть овощной суп, рыбный, из морепродуктов." },
+        { "es": "De postre quiero un helado, ¿y tú? Yo tomo frutas con nata.", "ru": "На десерт я хочу мороженое, а ты? Я возьму фрукты со сливками." }
+      ]
+    },
+    "futuro": {
+      "title": "Будущее: IR A + infinitivo и будущее простое (PEDIRÉ)",
+      "description": "Близкое будущее — IR A + infinitivo: Voy a pedir ensalada (я закажу салат). Будущее простое — пиши глагол с -ré/-rás/-rá: pediré (закажу), probaré (попробую). Обе формы говорят о планах на заказ в ресторане.",
+      "forms": {
+        "yo": { "es": "voy a pedir la ensalada mixta", "ru": "я закажу салат ассорти" },
+        "tu": { "es": "probarás el caldo de pescado", "ru": "ты попробуешь рыбный бульон" },
+        "el_ella": { "es": "pedirá salmón con patatas", "ru": "он закажет лосось с картошкой" },
+        "nosotros": { "es": "vamos a pedir un plato de frutas", "ru": "мы закажем фруктовое блюдо" },
+        "vosotros": { "es": "pediréis carne o pescado", "ru": "вы закажете мясо или рыбу" },
+        "ellos_ellas": { "es": "van a pedir marisco", "ru": "они закажут морепродукты" }
+      },
+      "examples": [
+        { "es": "Yo también voy a pedir ensalada mixta de verduras.", "ru": "Я тоже закажу салат ассорти из овощей." },
+        { "es": "Para beber pienso que pediré un vaso de zumo de naranja o un refresco.", "ru": "Из напитков, думаю, попрошу стакан апельсинового сока или прохладительный напиток." }
+      ]
+    },
+    "recomendar": {
+      "title": "RECOMENDAR, ACONSEJAR: советы в ресторане",
+      "description": "RECOMENDAR / ACONSEJAR + infinitivo — «советовать что-то сделать»: Te recomiendo probar el caldo (советую попробовать бульон), ¿Les puedo aconsejar algo? (могу вам что-то посоветовать?).",
+      "list": [
+        { "es": "te recomiendo probar el caldo", "ru": "советую попробовать бульон" },
+        { "es": "¿les puedo aconsejar algo?", "ru": "могу вам что-нибудь посоветовать?" },
+        { "es": "te recomiendo pedir salmón", "ru": "советую заказать лосось" },
+        { "es": "¿qué me recomiendas?", "ru": "что ты мне посоветуешь?" },
+        { "es": "te aconsejo tomar la sopa de verduras", "ru": "советую взять овощной суп" }
+      ],
+      "examples": [
+        { "es": "Te lo recomiendo probar. Aquí lo preparan muy rico.", "ru": "Рекомендую тебе его попробовать. Здесь его очень вкусно готовят." },
+        { "es": "¿Les puedo aconsejar algo? ¿Qué tal el bacalao?", "ru": "Могу вам что-нибудь посоветовать? Как насчёт трески?" }
+      ]
+    },
+    "aunque_porque": {
+      "title": "Придаточные с AUNQUE и PORQUE",
+      "description": "PORQUE — «потому что» (причина): el plato es picante porque añaden pimiento rojo (блюдо острое, потому что добавляют красный перец). AUNQUE — «хотя» (уступка): el bacalao es rico, aunque es picante (треска вкусная, хотя острая).",
+      "list": [
+        { "es": "porque añaden pimiento rojo", "ru": "потому что добавляют красный перец" },
+        { "es": "aunque es un plato picante", "ru": "хотя это острое блюдо" },
+        { "es": "aunque prefiero la carne", "ru": "хотя я предпочитаю мясо" },
+        { "es": "porque va bien con pescado", "ru": "потому что хорошо идёт с рыбой" },
+        { "es": "aunque es rico, es picante", "ru": "хотя вкусно, но остро" }
+      ],
+      "examples": [
+        { "es": "El bacalao también es rico aquí, aunque es un plato un poco picante porque añaden pimiento rojo.", "ru": "Треска здесь тоже вкусная, хотя это блюдо немного острое, потому что в него добавляют красный перец." },
+        { "es": "Y yo, una copa de vino blanco. Va bien con pescado.", "ru": "А я — бокал белого вина. Оно хорошо идёт с рыбой." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "el_pedido": [
+      { "es": "la carta", "ru": "меню" },
+      { "es": "el camarero", "ru": "официант" },
+      { "es": "la ración", "ru": "порция" },
+      { "es": "la sopa", "ru": "суп" },
+      { "es": "el caldo", "ru": "бульон" },
+      { "es": "la ensalada", "ru": "салат" }
+    ],
+    "los_platos": [
+      { "es": "el salmón", "ru": "лосось" },
+      { "es": "el bacalao", "ru": "треска" },
+      { "es": "el filete de pollo", "ru": "куриное филе" },
+      { "es": "el jamón", "ru": "хамон" },
+      { "es": "las aceitunas", "ru": "оливки" },
+      { "es": "el embutido", "ru": "колбаса" },
+      { "es": "las patatas al horno", "ru": "картофель в духовке" },
+      { "es": "el pimiento rojo", "ru": "красный перец" },
+      { "es": "la salsa de tomate", "ru": "томатный соус" }
+    ],
+    "el_postre_y_la_bebida": [
+      { "es": "el helado", "ru": "мороженое" },
+      { "es": "la nata", "ru": "сливки" },
+      { "es": "la tarta", "ru": "торт" },
+      { "es": "el zumo de naranja", "ru": "апельсиновый сок" },
+      { "es": "el refresco", "ru": "прохладительный напиток" },
+      { "es": "el vino blanco", "ru": "белое вино" },
+      { "es": "el arroz", "ru": "рис" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Carlos", "es": "¡Camarero! Nos trae la carta, por favor.", "ru": "Официант! Принесите нам меню, пожалуйста." },
+    { "speaker": "Camarero", "es": "Aquí tienen. ¿Les puedo aconsejar algo?", "ru": "Держите. Я могу вам посоветовать что-нибудь?" },
+    { "speaker": "Lucía", "es": "No, gracias. Vamos a ver qué tienen...", "ru": "Нет, спасибо. Давай посмотрим, что есть..." },
+    { "speaker": "Carlos", "es": "¿Qué quieres comer de primero?", "ru": "Что ты хочешь на первое?" },
+    { "speaker": "Lucía", "es": "Estoy pensando... Hay sopa de verduras, de pescado, de mariscos, ensalada... Sopa de crema de calabaza. No sé qué elegir.", "ru": "Я думаю... Есть суп из овощей, из рыбы, из морепродуктов, салат... Крем-суп из тыквы. Не знаю, что выбрать." },
+    { "speaker": "Carlos", "es": "Y yo prefiero el caldo de pescado con arroz. Te lo recomiendo probar. Aquí lo preparan muy rico.", "ru": "А я предпочитаю рыбный бульон с рисом. Рекомендую тебе его попробовать. Здесь его очень вкусно готовят." },
+    { "speaker": "Lucía", "es": "Está bien. ¿Qué tomamos de segundo, carne o pescado?", "ru": "Хорошо. Что мы возьмём на второе, мясо или рыбу?" },
+    { "speaker": "Carlos", "es": "Yo quiero salmón con patatas al horno. El bacalao también es rico aquí, aunque es un plato un poco picante porque añaden pimiento rojo.", "ru": "Я хочу лосось с картофелем в духовке. Треска здесь тоже вкусная, хотя это блюдо немного острое, потому что в него добавляют красный перец." },
+    { "speaker": "Lucía", "es": "Creo que esta vez pruebo el filete de pollo con arroz. Viene con salsa de tomate.", "ru": "Думаю, что в этот раз я попробую куриное филе с рисом. Подаётся с томатным соусом." },
+    { "speaker": "Carlos", "es": "Bien. Yo también voy a pedir ensalada mixta de verduras.", "ru": "Хорошо. Я также закажу салат ассорти из овощей." },
+    { "speaker": "Lucía", "es": "Ah, para entrar vamos a pedir una ración de jamón con aceitunas o embutido.", "ru": "А, и вначале давай возьмём порцию хамона с оливками или колбасу." },
+    { "speaker": "Carlos", "es": "El jamón está bien. De postre quiero un helado, ¿y tú?", "ru": "Хамон — отлично. На десерт я хочу мороженое, а ты?" },
+    { "speaker": "Lucía", "es": "Frutas con nata o un pequeño pedazo de tarta...", "ru": "Фрукты со сливками или маленький кусочек торта..." },
+    { "speaker": "Carlos", "es": "Vamos a pedir un plato grande de frutas para los dos.", "ru": "Давай закажем большое фруктовое блюдо на двоих." },
+    { "speaker": "Lucía", "es": "Sí, buena idea. Para beber pienso que pediré un vaso de zumo de naranja o un refresco.", "ru": "Да, хорошая идея. Из напитков, думаю, попрошу стакан апельсинового сока или прохладительный напиток." },
+    { "speaker": "Carlos", "es": "Y yo, una copa de vino blanco. Va bien con pescado. Bueno, ¡camarero! Ya estamos listos.", "ru": "А я — бокал белого вина. Оно хорошо идёт с рыбой. Официант! Мы готовы." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "la carta", "ru": "меню" },
+        { "es": "el camarero", "ru": "официант" },
+        { "es": "la ración", "ru": "порция" },
+        { "es": "la sopa", "ru": "суп" },
+        { "es": "el caldo", "ru": "бульон" },
+        { "es": "la ensalada", "ru": "салат" },
+        { "es": "el salmón", "ru": "лосось" },
+        { "es": "el bacalao", "ru": "треска" },
+        { "es": "el filete de pollo", "ru": "куриное филе" },
+        { "es": "el jamón", "ru": "хамон" }
+      ]
+    },
+    {
+      "type": "fill-gap-de_primero",
+      "title": "Практика: структура заказа",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Qué quieres comer de ___?", "ru": "Что ты хочешь на первое?", "answer": "primero", "options": ["primero", "segundo", "postre"] },
+        { "text": "¿Qué tomamos de ___, carne o pescado?", "ru": "Что возьмём на второе, мясо или рыбу?", "answer": "segundo", "options": ["segundo", "primero", "bebida"] },
+        { "text": "De ___ quiero un helado, ¿y tú?", "ru": "На десерт я хочу мороженое, а ты?", "answer": "postre", "options": ["postre", "primero", "café"] },
+        { "text": "Para ___ vamos a pedir una ración de jamón.", "ru": "На закуску закажем порцию хамона", "answer": "entrar", "options": ["entrar", "salir", "empezar"] },
+        { "text": "Para ___ pienso pedir zumo de naranja.", "ru": "Из напитков думаю заказать апельсиновый сок", "answer": "beber", "options": ["beber", "comer", "probar"] }
+      ]
+    },
+    {
+      "type": "fill-gap-futuro",
+      "title": "Практика: будущее время",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Vamos a ___ un plato grande de frutas.", "ru": "Мы закажем большое фруктовое блюдо", "answer": "pedir", "options": ["pedir", "pido", "pidiendo"] },
+        { "text": "Pienso que ___ un vaso de zumo de naranja.", "ru": "Думаю, что закажу стакан апельсинового сока", "answer": "pediré", "options": ["pediré", "pedido", "pido"] },
+        { "text": "Yo también voy a ___ ensalada mixta.", "ru": "Я тоже закажу салат ассорти", "answer": "pedir", "options": ["pedir", "pido", "pides"] },
+        { "text": "Está bien, ___ el filete de pollo con arroz.", "ru": "Хорошо, я попробую куриное филе с рисом", "answer": "probaré", "options": ["probaré", "probar", "pruebo"] },
+        { "text": "Ellos van a ___ marisco.", "ru": "Они закажут морепродукты", "answer": "pedir", "options": ["pedir", "pido", "pides"] }
+      ]
+    },
+    {
+      "type": "fill-gap-recomendar",
+      "title": "Практика: RECOMENDAR, ACONSEJAR",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Te lo ___ probar.", "ru": "Рекомендую тебе его попробовать", "answer": "recomiendo", "options": ["recomiendo", "recomienda", "recomendar"] },
+        { "text": "¿Les puedo ___ algo?", "ru": "Могу вам что-нибудь посоветовать?", "answer": "aconsejar", "options": ["aconsejar", "aconsejo", "aconsejan"] },
+        { "text": "Te ___ probar el caldo de pescado.", "ru": "Советую тебе попробовать рыбный бульон", "answer": "recomiendo", "options": ["recomiendo", "recomienda", "recomendamos"] },
+        { "text": "¿Qué me ___, el salmón o el bacalao?", "ru": "Что мне посоветуешь, лосось или треску?", "answer": "recomiendas", "options": ["recomiendas", "recomiendo", "recomienda"] },
+        { "text": "Aquí lo preparan muy ___, vale la pena.", "ru": "Здесь его очень вкусно готовят, стоит попробовать", "answer": "rico", "options": ["rico", "rica", "ricos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-aunque_porque",
+      "title": "Практика: AUNQUE, PORQUE",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "El bacalao es rico, ___ es un plato un poco picante.", "ru": "Треска вкусная, хотя и немного острая", "answer": "aunque", "options": ["aunque", "porque", "pero"] },
+        { "text": "Es picante ___ añaden pimiento rojo.", "ru": "Оно острое, потому что добавляют красный перец", "answer": "porque", "options": ["porque", "aunque", "como"] },
+        { "text": "Probaré el salmón ___ prefiero la carne.", "ru": "Я попробую лосось, хотя предпочитаю мясо", "answer": "aunque", "options": ["aunque", "porque", "para"] },
+        { "text": "Pido vino blanco ___ va bien con pescado.", "ru": "Заказываю белое вино, потому что оно хорошо идёт с рыбой", "answer": "porque", "options": ["porque", "aunque", "que"] },
+        { "text": "___ es un plato picante, me gusta mucho.", "ru": "Хотя это острое блюдо, мне оно очень нравится", "answer": "Aunque", "options": ["Aunque", "Porque", "Como"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Qué quieres comer de ___?", "ru": "Что ты хочешь на первое?", "answer": "primero", "options": ["primero", "segundo", "postre"] },
+        { "text": "Te lo ___ probar, aquí lo preparan muy rico.", "ru": "Рекомендую тебе его попробовать, здесь его очень вкусно готовят", "answer": "recomiendo", "options": ["recomiendo", "recomienda", "recomendar"] },
+        { "text": "Vamos a ___ un plato grande de frutas.", "ru": "Закажем большое фруктовое блюдо", "answer": "pedir", "options": ["pedir", "pido", "pidiendo"] },
+        { "text": "El bacalao es rico, ___ es picante.", "ru": "Треска вкусная, хотя острая", "answer": "aunque", "options": ["aunque", "porque", "pero"] },
+        { "text": "Pido vino blanco ___ va bien con pescado.", "ru": "Заказываю белое вино, потому что оно хорошо идёт с рыбой", "answer": "porque", "options": ["porque", "aunque", "que"] },
+        { "text": "De ___ quiero un helado, ¿y tú?", "ru": "На десерт я хочу мороженое, а ты?", "answer": "postre", "options": ["postre", "primero", "café"] },
+        { "text": "Pienso que ___ un vaso de zumo de naranja.", "ru": "Думаю, что закажу стакан апельсинового сока", "answer": "pediré", "options": ["pediré", "pedido", "pido"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Ты — гость ресторана, делаешь заказ и советуешь блюда Лусии"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь официантом",
+      "role": "Camarero",
+      "description": "Ты — официант, приносишь меню и предлагаешь помощь с выбором блюд"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Разыграй заказ в ресторане",
+      "template": [
+        { "label": "Принесите нам меню, пожалуйста", "es": "Nos ___ la carta, por favor" },
+        { "label": "Что ты хочешь на первое?", "es": "¿Qué quieres comer de ___?" },
+        { "label": "Что возьмём на второе?", "es": "¿Qué tomamos de ___?" },
+        { "label": "Рекомендую тебе его попробовать", "es": "Te lo ___ probar" },
+        { "label": "Я закажу салат ассорти", "es": "Voy a ___ ensalada mixta" },
+        { "label": "На десерт я хочу мороженое", "es": "De ___ quiero un helado" },
+        { "label": "Закажем фруктовое блюдо", "es": "Vamos a ___ un plato de frutas" },
+        { "label": "Хорошо идёт с рыбой", "es": "Va ___ con pescado" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Qué pide Carlos al principio?",
+          "ru": "Что Карлос просит в начале?",
+          "options": ["La carta", "El vino", "Una sopa", "El postre"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué sopas hay en el restaurante?",
+          "ru": "Какие супы есть в ресторане?",
+          "options": ["Solo sopa de pescado", "De verduras, de pescado, de mariscos y crema de calabaza", "Solo crema de calabaza", "No hay sopas"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué prefiere Carlos de primero?",
+          "ru": "Что Карлос выбирает на первое?",
+          "options": ["El caldo de pescado con arroz", "La sopa de verduras", "El filete de pollo", "El bacalao"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué quiere Carlos de segundo?",
+          "ru": "Что Карлос хочет на второе?",
+          "options": ["El filete de pollo", "El bacalao", "Salmón con patatas al horno", "La ensalada"],
+          "answer": 2
+        },
+        {
+          "question": "¿Por qué es picante el bacalao?",
+          "ru": "Почему треска острая?",
+          "options": ["Lo cocinan mucho", "Porque añaden pimiento rojo", "Porque es caro", "No es picante"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué quiere probar Lucía esta vez?",
+          "ru": "Что Лусия хочет попробовать в этот раз?",
+          "options": ["El filete de pollo con arroz", "El salmón", "El bacalao", "El caldo"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué piden para entrar?",
+          "ru": "Что они заказывают на закуску?",
+          "options": ["Una ración de jamón con aceitunas", "Una sopa", "Un helado", "Una ensalada"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué piden de postre?",
+          "ru": "Что они заказывают на десерт?",
+          "options": ["Un helado y una tarta", "Frutas con nata", "Un plato grande de frutas para los dos", "Un pastel"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué va a beber Carlos?",
+          "ru": "Что будет пить Карлос?",
+          "options": ["Zumo de naranja", "Un refresco", "Una copa de vino blanco", "Un café"],
+          "answer": 2
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 минут: повтори слова по теме «ресторан и еда»",
+    "Практика: разыграй заказ в ресторане. Используй: de primero..., de segundo..., de postre..., te recomiendo..., voy a pedir...",
+    "Дневник: опиши свой любимый ресторан или блюдо. Что ты обычно заказываешь? Что тебе советуют друзья?",
+    "Грамматика: составь 3 предложения с de primero / de segundo / de postre, 3 с te recomiendo / te aconsejo и 3 с aunque / porque"
+  ]
+}

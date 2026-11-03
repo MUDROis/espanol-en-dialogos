@@ -1,0 +1,304 @@
+{
+  "id": 44,
+  "title": "Lucía (que acaba de llegar a Italia) habla con Marta",
+  "titleRu": "Лусия (только что приехавшая в Италию) разговаривает с Мартой",
+  "part": 5,
+  "level": "B2",
+  "theme": "Самолёт, аэропорт, неудачи в пути  El avión, el aeropuerto, la mala suerte en el viaje",
+  "characters": ["lucia", "marta"],
+  "objectives": [
+    "Говорить о полёте и аэропорте: el retraso, el mostrador de registro, la puerta de embarque, el equipaje de mano",
+    "Рассказывать, что случилось раньше другого действия в прошлом: la había olvidado, habían cambiado la puerta",
+    "Выражать обязанность в прошлом: tuve que pagar por el sobrepeso, tuve que volver corriendo",
+    "Описывать события, которые почти не произошли: por poco me quedo en tierra, cogí el avión por los pelos",
+    "Рассказывать о неудачном путешествии: cuatro horas de retraso, las turbulencias, el aterrizaje forzoso",
+    "Выражать страх и облегчение: me dio bastante miedo, menos mal, al fin"
+  ],
+  "grammar": {
+    "pluscuamperfecto": {
+      "title": "Pretérito pluscuamperfecto: действие, которое случилось раньше",
+      "description": "Pluscuamperfecto (haber + participio) описывает действие, которое произошло РАНЬШЕ другого действия в прошлом: la bolsa... la había olvidado en el mostrador (я забыла её на стойке) — до того, как me di cuenta (я заметила). Mientras dormía, habían cambiado la puerta de embarque (пока я спала, они уже сменили выход на посадку).",
+      "forms": {
+        "yo": { "es": "había olvidado", "ru": "я забыл(а)" },
+        "tu": { "es": "habías facturado", "ru": "ты сдал(а) багаж" },
+        "el_ella": { "es": "había cerrado la pista", "ru": "он/она закрыл(а) взлётную полосу" },
+        "nosotros": { "es": "habíamos esperado", "ru": "мы подождали" },
+        "vosotros": { "es": "habíais embarcado", "ru": "вы прошли посадку" },
+        "ellos_ellas": { "es": "habían cambiado la puerta", "ru": "они сменили выход на посадку" }
+      },
+      "examples": [
+        { "es": "La bolsa ya no estaba donde la había dejado.", "ru": "Сумки уже не было там, где я её оставила." },
+        { "es": "Cuando desperté, habían cambiado la puerta de embarque.", "ru": "Когда я проснулась, они уже сменили выход на посадку." }
+      ]
+    },
+    "obligacion_pasado": {
+      "title": "Обязанность в прошлом: TUVE QUE..., DEBÍ...",
+      "description": "Чтобы сказать, что в прошлом что-то пришлось сделать, используют indefinido tener que + infinitivo (tuve que pagar — мне пришлось заплатить) или deber (debí pagar — я должна была заплатить). tuvo que hacer un aterrizaje forzoso (ему пришлось совершить вынужденную посадку).",
+      "forms": {
+        "yo": { "es": "tuve que pagar", "ru": "я должен(а) был(а) заплатить" },
+        "tu": { "es": "tuviste que esperar", "ru": "ты должен(а) был(а) ждать" },
+        "el_ella": { "es": "tuvo que volver", "ru": "он/она был(а) вынужден(а) вернуться" },
+        "nosotros": { "es": "tuvimos que buscar", "ru": "мы должны были искать" },
+        "vosotros": { "es": "tuvisteis que pagar por el sobrepeso", "ru": "вы должны были заплатить за перевес" },
+        "ellos_ellas": { "es": "tuvieron que aterrizar", "ru": "они были вынуждены приземлиться" }
+      },
+      "examples": [
+        { "es": "En el aeropuerto tuve que pagar por el sobrepeso del equipaje.", "ru": "В аэропорту мне пришлось заплатить за перевес багажа." },
+        { "es": "El piloto tuvo que hacer un aterrizaje forzoso por el mal tiempo.", "ru": "Пилоту пришлось совершить вынужденную посадку из-за плохой погоды." }
+      ]
+    },
+    "por_poco": {
+      "title": "«Чуть не...», «еле успел...»: POR POCO, POR LOS PELOS",
+      "description": "Рассказывая о том, что почти случилось или было на грани провала, используют: por poco me quedo en tierra (я чуть не осталась на земле), por poco no cojo el avión (я чуть не опоздала на самолёт), cogí el avión por los pelos (я еле успела на самолёт, букв. «за волосы»), justo en el último momento (как раз в последний момент).",
+      "list": [
+        { "es": "por poco me quedo en tierra", "ru": "я чуть не остался(ась) на земле" },
+        { "es": "por poco no cojo el avión", "ru": "я чуть не опоздал(а) на самолёт" },
+        { "es": "cogí el avión por los pelos", "ru": "я еле успел(а) на самолёт (в последний момент)" },
+        { "es": "justo en el último momento", "ru": "как раз в последний момент" },
+        { "es": "menos mal", "ru": "хорошо ещё, что...; слава богу" },
+        { "es": "al fin", "ru": "наконец" }
+      ],
+      "examples": [
+        { "es": "Por poco me quedo en tierra y me pierdo las vacaciones.", "ru": "Я чуть не осталась на земле и не потеряла бы отпуск." },
+        { "es": "Corrí por todo el aeropuerto y cogí el avión por los pelos.", "ru": "Я пробежала весь аэропорт и еле успела на самолёт." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "el_avion_y_el_vuelo": [
+      { "es": "el avión", "ru": "самолёт" },
+      { "es": "el vuelo", "ru": "рейс, полёт" },
+      { "es": "el retraso", "ru": "задержка, опоздание" },
+      { "es": "la demora", "ru": "задержка (рейса)" },
+      { "es": "la pista de despegue", "ru": "взлётно-посадочная полоса" },
+      { "es": "la turbulencia", "ru": "турбулентность" },
+      { "es": "el aterrizaje forzoso", "ru": "вынужденная посадка" },
+      { "es": "la azafata", "ru": "стюардесса" }
+    ],
+    "en_el_aeropuerto": [
+      { "es": "el mostrador de registro", "ru": "стойка регистрации" },
+      { "es": "facturar (el equipaje)", "ru": "сдать багаж" },
+      { "es": "el control de pasaporte", "ru": "паспортный контроль" },
+      { "es": "la sala de espera", "ru": "зал ожидания" },
+      { "es": "la puerta de embarque", "ru": "выход на посадку" },
+      { "es": "el embarque", "ru": "посадка (в самолёт)" },
+      { "es": "el altavoz", "ru": "громкоговоритель, динамик" },
+      { "es": "la oficina de objetos perdidos", "ru": "бюро находок" }
+    ],
+    "el_equipaje": [
+      { "es": "el equipaje", "ru": "багаж" },
+      { "es": "el equipaje de mano", "ru": "ручная кладь" },
+      { "es": "la maleta", "ru": "чемодан" },
+      { "es": "la bolsa", "ru": "сумка" },
+      { "es": "el sobrepeso", "ru": "перевес багажа" },
+      { "es": "coger el avión", "ru": "успеть на самолёт" }
+    ],
+    "los_verbos": [
+      { "es": "olvidar", "ru": "забывать" },
+      { "es": "darse cuenta de", "ru": "замечать, осознавать" },
+      { "es": "anunciar", "ru": "объявлять" },
+      { "es": "despegar", "ru": "взлетать" },
+      { "es": "aterrizar", "ru": "приземляться" },
+      { "es": "embarcar", "ru": "садиться в самолёт" },
+      { "es": "dormirse", "ru": "засыпать" },
+      { "es": "correr", "ru": "бежать" },
+      { "es": "dar miedo", "ru": "быть страшным, пугать" },
+      { "es": "lanzarse en paracaídas", "ru": "прыгать с парашютом" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Lucía", "es": "¡Hola, Marta! ¡Por fin estoy aquí! Menudo viaje... he tenido muy mala suerte con el avión.", "ru": "Привет, Марта! Наконец-то я здесь! Ну и поездочка... Мне очень не повезло с самолётом." },
+    { "speaker": "Marta", "es": "¿Qué ha pasado?", "ru": "Что случилось?" },
+    { "speaker": "Lucía", "es": "El vuelo a Roma tenía cuatro horas de retraso. Además, tuve que pagar por el sobrepeso del equipaje, y luego perdí otra hora más buscando mi bolsa en la oficina de objetos perdidos.", "ru": "Рейс в Рим задержали на четыре часа. К тому же мне пришлось заплатить за перевес багажа, а потом я потеряла ещё час, разыскивая свою сумку в бюро находок." },
+    { "speaker": "Marta", "es": "¿La olvidaste en el avión?", "ru": "Ты забыла её в самолёте?" },
+    { "speaker": "Lucía", "es": "No, la había olvidado en el mostrador de registro cuando facturé las maletas. Me di cuenta justo después de pasar el control de pasaporte y tuve que volver corriendo a buscarla.", "ru": "Нет, я оставила её на стойке регистрации, когда сдавала чемоданы. Я заметила это сразу после паспортного контроля, и мне пришлось бегом возвращаться за ней." },
+    { "speaker": "Marta", "es": "¡Qué susto! ¿Y la encontraste?", "ru": "Какой ужас! И ты её нашла?" },
+    { "speaker": "Lucía", "es": "Sí, al fin la encontré. Pero cuando llegué a la sala de espera, anunciaron por los altavoces una nueva demora: habían cerrado la pista de despegue por un problema técnico.", "ru": "Да, наконец нашла. Но когда я дошла до зала ожидания, по громкоговорителю объявили о новой задержке: взлётную полосу закрыли из-за технической проблемы." },
+    { "speaker": "Marta", "es": "¡Y encima el retraso era de cuatro horas!", "ru": "И вдобавок задержка была четыре часа!" },
+    { "speaker": "Lucía", "es": "Exacto. Esperamos más de dos horas en la sala de espera. Escuché a dos azafatas que hablaban de un problema en la pista. Yo estaba tan cansada que me dormí un rato...", "ru": "Именно. Мы ждали в зале ожидания больше двух часов. Я услышала, как две стюардессы говорили о проблеме на полосе. Я так устала, что немного задремала..." },
+    { "speaker": "Marta", "es": "¿Y por poco no coges el avión?", "ru": "И ты чуть не опоздала на самолёт?" },
+    { "speaker": "Lucía", "es": "Por poco me quedo en tierra. Mientras yo dormía, habían cambiado la puerta de embarque sin anunciarlo por los altavoces. Cuando desperté, casi todo el mundo se estaba embarcando.", "ru": "Я чуть не осталась на земле. Пока я спала, выход на посадку сменили, не объявив об этом по громкоговорителю. Когда я проснулась, почти все уже проходили посадку." },
+    { "speaker": "Marta", "es": "¡Y qué hiciste?", "ru": "И что же ты сделала?" },
+    { "speaker": "Lucía", "es": "Corrí por todo el aeropuerto con el equipaje de mano y embarqué justo en el último momento. ¡Cogí el avión por los pelos!", "ru": "Я пробежала весь аэропорт с ручной кладью и села в самолёт в самый последний момент. Я еле успела!" },
+    { "speaker": "Marta", "es": "Menos mal...", "ru": "Хорошо ещё, что так вышло..." },
+    { "speaker": "Lucía", "es": "Sí, pero luego tuvimos unas turbulencias fuertes y me dio bastante miedo. Al fin aterrizamos bien en Roma, con cuatro horas de retraso.", "ru": "Да, но потом нас сильно потрясло, и мне было довольно страшно. В конце концов мы благополучно приземлились в Риме, правда с опозданием на четыре часа." },
+    { "speaker": "Marta", "es": "Mi padre una vez me contó que tuvo que hacer un aterrizaje forzoso por el mal tiempo. Por eso no entiende a la gente que se lanza en paracaídas.", "ru": "Мой отец однажды рассказывал, что ему пришлось совершить вынужденную посадку из-за плохой погоды. Поэтому он не понимает людей, которые прыгают с парашютом." },
+    { "speaker": "Lucía", "es": "Yo tampoco la entiendo. Prefiero tener los pies en la tierra.", "ru": "Я их тоже не понимаю. Я предпочитаю стоять на земле обеими ногами." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el retraso", "ru": "задержка" },
+        { "es": "la pista de despegue", "ru": "взлётная полоса" },
+        { "es": "el mostrador de registro", "ru": "стойка регистрации" },
+        { "es": "el control de pasaporte", "ru": "паспортный контроль" },
+        { "es": "la puerta de embarque", "ru": "выход на посадку" },
+        { "es": "la oficina de objetos perdidos", "ru": "бюро находок" },
+        { "es": "el equipaje de mano", "ru": "ручная кладь" },
+        { "es": "el sobrepeso", "ru": "перевес багажа" },
+        { "es": "las turbulencias", "ru": "турбулентность" },
+        { "es": "el aterrizaje forzoso", "ru": "вынужденная посадка" }
+      ]
+    },
+    {
+      "type": "fill-gap-pluscuamperfecto",
+      "title": "Практика: Pluscuamperfecto",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "La bolsa... la ___ olvidado en el mostrador de registro.", "ru": "Сумку... я оставила её на стойке регистрации", "answer": "había", "options": ["había", "he", "habré"] },
+        { "text": "Cuando desperté, ___ cambiado la puerta de embarque.", "ru": "Когда я проснулась, они уже сменили выход на посадку", "answer": "habían", "options": ["habían", "han", "habrán"] },
+        { "text": "Ya no estaba donde la ___ dejado.", "ru": "Её уже не было там, где я её оставила", "answer": "había", "options": ["había", "he", "tuve"] },
+        { "text": "Antes de facturar, ___ comprado el billete por internet.", "ru": "Перед сдачей багажа я уже купила билет через интернет", "answer": "había", "options": ["había", "habías", "ha"] },
+        { "text": "¿Ya ___ pasado por el control de pasaporte?", "ru": "Вы уже прошли паспортный контроль?", "answer": "habíais", "options": ["habíais", "habéis", "habías"] }
+      ]
+    },
+    {
+      "type": "fill-gap-obligacion_pasado",
+      "title": "Практика: TUVE QUE... в прошлом",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "___ que pagar por el sobrepeso del equipaje.", "ru": "Мне пришлось заплатить за перевес багажа", "answer": "Tuve", "options": ["Tuve", "Tengo", "Tenía"] },
+        { "text": "___ que volver corriendo a buscar mi bolsa.", "ru": "Мне пришлось бегом возвращаться за сумкой", "answer": "Tuve", "options": ["Tuve", "Tenía", "Tengo"] },
+        { "text": "El piloto ___ que hacer un aterrizaje forzoso.", "ru": "Пилоту пришлось совершить вынужденную посадку", "answer": "tuvo", "options": ["tuvo", "tiene", "tenía"] },
+        { "text": "Nosotros ___ que esperar más de dos horas.", "ru": "Нам пришлось ждать больше двух часов", "answer": "tuvimos", "options": ["tuvimos", "teníamos", "tendremos"] },
+        { "text": "¿Vosotros ___ que cambiar de puerta de embarque?", "ru": "Вам пришлось сменить выход на посадку?", "answer": "tuvisteis", "options": ["tuvisteis", "teníais", "tenéis"] }
+      ]
+    },
+    {
+      "type": "fill-gap-por_poco",
+      "title": "Практика: POR POCO, POR LOS PELOS",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Por poco me ___ en tierra.", "ru": "Я чуть не осталась на земле", "answer": "quedo", "options": ["quedo", "quedé", "quedaré"] },
+        { "text": "Cogí el avión por los ___.", "ru": "Я еле успела на самолёт", "answer": "pelos", "options": ["pelos", "pies", "manos"] },
+        { "text": "Embarcó ___ en el último momento.", "ru": "Он сел в самолёт как раз в последний момент", "answer": "justo", "options": ["justo", "luego", "antes"] },
+        { "text": "___ mal que la encontré.", "ru": "Хорошо, что я её нашла", "answer": "Menos", "options": ["Menos", "Más", "Peor"] },
+        { "text": "___ fin aterrizamos bien en Roma.", "ru": "Наконец мы благополучно приземлились в Риме", "answer": "Al", "options": ["Al", "El", "En"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "El vuelo tenía cuatro horas de ___.", "ru": "Рейс задержали на четыре часа", "answer": "retraso", "options": ["retraso", "embarque", "aterrizaje"] },
+        { "text": "Tuve que pagar por el ___ del equipaje.", "ru": "Мне пришлось заплатить за перевес багажа", "answer": "sobrepeso", "options": ["sobrepeso", "vuelo", "billete"] },
+        { "text": "La bolsa, la ___ olvidado en el mostrador de registro.", "ru": "Сумку я оставила на стойке регистрации", "answer": "había", "options": ["había", "he", "tuve"] },
+        { "text": "___ que volver corriendo a buscarla.", "ru": "Мне пришлось бегом возвращаться за ней", "answer": "Tuve", "options": ["Tuve", "Tengo", "Tenía"] },
+        { "text": "Anunciaron por los ___ una nueva demora.", "ru": "По громкоговорителям объявили о новой задержке", "answer": "altavoces", "options": ["altavoces", "bombillas", "armarios"] },
+        { "text": "Por poco me ___ en tierra.", "ru": "Я чуть не осталась на земле", "answer": "quedo", "options": ["quedo", "quedé", "quedaba"] },
+        { "text": "Cogí el avión por los ___.", "ru": "Я еле успела на самолёт", "answer": "pelos", "options": ["pelos", "pies", "brazos"] },
+        { "text": "___ fin aterrizamos bien en Roma.", "ru": "Наконец мы благополучно приземлились в Риме", "answer": "Al", "options": ["Al", "A la", "En"] },
+        { "text": "Me dio bastante ___ durante las turbulencias.", "ru": "Мне было довольно страшно во время турбулентности", "answer": "miedo", "options": ["miedo", "frío", "calor"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Ты — Лусия, рассказываешь Марте о своём неудачном перелёте в Италию"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Мартой",
+      "role": "Marta",
+      "description": "Ты — Марта, слушаешь Лусию и рассказываешь о своём отце"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи об авиаперелёте: задержка, багаж, посадка",
+      "template": [
+        { "label": "Рейс задержали на четыре часа", "es": "El vuelo tenía cuatro horas de ___." },
+        { "label": "Мне пришлось заплатить за перевес", "es": "Tuve que ___ por el sobrepeso." },
+        { "label": "Я оставила сумку на стойке регистрации", "es": "Había ___ la bolsa en el mostrador de registro." },
+        { "label": "Бюро находок", "es": "La oficina de ___ perdidos." },
+        { "label": "Зал ожидания", "es": "La sala de ___." },
+        { "label": "Они сменили выход на посадку", "es": "Habían ___ la puerta de embarque." },
+        { "label": "Я еле успела на самолёт", "es": "Cogí el avión por los ___." },
+        { "label": "Я чуть не осталась на земле", "es": "Por ___ me quedo en tierra." }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Cuánto retraso tenía el vuelo de Lucía?",
+          "ru": "Сколько составила задержка рейса Лусии?",
+          "options": ["Una hora", "Dos horas", "Cuatro horas", "Media hora"],
+          "answer": 2
+        },
+        {
+          "question": "¿Por qué tuvo que pagar Lucía en el aeropuerto?",
+          "ru": "За что пришлось заплатить Лусии в аэропорту?",
+          "options": ["Por el sobrepeso del equipaje", "Por el billete", "Por el visado", "Por el servicio de wifi"],
+          "answer": 0
+        },
+        {
+          "question": "¿Dónde había olvidado Lucía su bolsa?",
+          "ru": "Где Лусия оставила свою сумку?",
+          "options": ["En el avión", "En el mostrador de registro", "En la sala de espera", "En la oficina de objetos perdidos"],
+          "answer": 1
+        },
+        {
+          "question": "¿Dónde encontró Lucía la bolsa?",
+          "ru": "Где Лусия нашла сумку?",
+          "options": ["En la oficina de objetos perdidos", "En la puerta de embarque", "En el control de pasaporte", "En la tienda"],
+          "answer": 0
+        },
+        {
+          "question": "¿Por qué anunciaron una nueva demora?",
+          "ru": "Почему объявили о новой задержке?",
+          "options": ["Por el mal tiempo", "Por un problema técnico en la pista", "Porque el piloto estaba enfermo", "Por el tráfico aéreo"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué escuchó Lucía de dos azafatas?",
+          "ru": "Что Лусия услышала от двух стюардесс?",
+          "options": ["Que había un problema en la pista", "Que el vuelo estaba cancelado", "Que habían perdido el equipaje", "Que tenían miedo"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué hicieron mientras Lucía dormía?",
+          "ru": "Что сделали, пока Лусия спала?",
+          "options": ["Cambiaron la puerta de embarque", "Cancelaron el vuelo", "Perdieron su maleta", "Anunciaron la salida"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo cogió Lucía el avión?",
+          "ru": "Как Лусия успела на самолёт?",
+          "options": ["Por los pelos", "Media hora antes", "Por la ventana", "No lo cogió"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué le pasó a Lucía durante el vuelo?",
+          "ru": "Что случилось с Лусией во время полёта?",
+          "options": ["Tuvo unas turbulencias fuertes y le dio miedo", "Se mareó todo el vuelo", "Se quedó dormida", "No le pasó nada"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué hizo una vez el padre de Marta?",
+          "ru": "Что однажды пришлось сделать отцу Марты?",
+          "options": ["Hizo un aterrizaje forzoso por el mal tiempo", "Se lanzó en paracaídas", "Perdió el avión", "Trabajó de azafata"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повтори слова по теме «самолёт, аэропорт, перелёт»",
+    "Практика: расскажи о своём неудачном перелёте или поездке. Используй: tuve que...; había + participio; por poco..., cogí el tren/avión por los pelos",
+    "Дневник: опиши, как ты добирался(лась) туда, где сейчас находишься",
+    "Грамматика: составь 4 предложения с pluscuamperfecto (había hecho...) и 4 с tuve que + infinitivo"
+  ]
+}

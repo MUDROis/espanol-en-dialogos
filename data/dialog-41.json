@@ -1,0 +1,317 @@
+{
+  "id": 41,
+  "title": "Mario acompaña a Lucía al aeropuerto",
+  "titleRu": "Марио провожает Лусию в аэропорт",
+  "part": 5,
+  "level": "B2",
+  "theme": "Аэропорт, рейс, возвращение домой  El aeropuerto, el vuelo, el regreso a casa",
+  "characters": ["mario", "lucia"],
+  "objectives": [
+    "Говорить о причинах и обстоятельствах в прошлом: mi cuñada se había ido de viaje de negocios, mi hermano había encontrado un buen trabajo",
+    "Использовать pluscuamperfecto для объяснения предпосылок: todavía no había acabado los cursos",
+    "Называть членов семьи и их занятость: la cuñada, el hermano, los miembros de la familia",
+    "Рассказывать о завершённых событиях: acabé los cursos, tuve un examen, me entregaron el certificado",
+    "Говорить о будущих планах: el año que viene seguiré visitando las clases",
+    "Понимать информацию в аэропорту: el vuelo, el mostrador, la maleta"
+  ],
+  "grammar": {
+    "pluscuamperfecto": {
+      "title": "Pluscuamperfecto: предпосылки и причина",
+      "description": "Pluscuamperfecto (había + причастие) объясняет, что произошло ДО другого прошлого события и создаёт контекст: mi cuñada se había ido de viaje de negocios (невестка уехала в командировку — поэтому Лусия не поехала); todavía no había acabado los cursos (курсы ещё не были окончены).",
+      "forms": {
+        "yo": { "es": "había acabado", "ru": "я окончил(а)" },
+        "tu": { "es": "habías vuelto", "ru": "ты вернулся(ась)" },
+        "el_ella": { "es": "se había ido", "ru": "он/она уехал(а)" },
+        "nosotros": { "es": "habíamos vivido", "ru": "мы прожили" },
+        "vosotros": { "es": "habíais encontrado", "ru": "вы нашли" },
+        "ellos_ellas": { "es": "habían dejado", "ru": "они оставили" }
+      },
+      "examples": [
+        { "es": "Mi cuñada se había ido de viaje de negocios y mi hermano, para aquel momento, había encontrado un buen trabajo.", "ru": "Моя невестка уехала в командировку, а мой брат к тому моменту нашёл хорошую работу." },
+        { "es": "Todavía no había acabado mis cursos de guitarra, por eso no tenía tanta prisa en volver.", "ru": "Я ещё не окончила свои курсы по гитаре, поэтому не спешила возвращаться." }
+      ]
+    },
+    "condicional_podia": {
+      "title": "El condicional de PODER: возможность в прошлом",
+      "description": "Podría / podrían (условное наклонение) выражает возможность, предположение или гипотетическую ситуацию в рассказе: los padres de mi cuñada dijeron que David podría vivir por un tiempo en su casa (мог бы пожить). В отличие от podía (мог — реально), podría — «мог бы» (гипотетически).",
+      "forms": {
+        "yo": { "es": "podría quedarme", "ru": "я мог бы остаться" },
+        "tu": { "es": "podrías volver", "ru": "ты мог бы вернуться" },
+        "el_ella": { "es": "podría vivir", "ru": "он/она мог бы жить" },
+        "nosotros": { "es": "podríamos ayudar", "ru": "мы могли бы помочь" },
+        "vosotros": { "es": "podríais visitar", "ru": "вы могли бы навестить" },
+        "ellos_ellas": { "es": "podrían ocuparse", "ru": "они могли бы позаботиться" }
+      },
+      "examples": [
+        { "es": "Los padres de mi cuñada dijeron que David podría vivir por un tiempo en su casa.", "ru": "Родители моей невестки сказали, что Давид мог бы пожить какое-то время у них дома." },
+        { "es": "Podríamos llegar al aeropuerto más temprano.", "ru": "Мы могли бы приехать в аэропорт пораньше." }
+      ]
+    },
+    "conectores_causa": {
+      "title": "Conectores de causa y consecuencia",
+      "description": "Связки для объяснения причины и следствия в рассказе: por eso (поэтому), así que (так что), de todos modos (в любом случае), para aquel momento (к тому моменту), por lo tanto (следовательно).",
+      "list": [
+        { "es": "David se quedaba solo, por eso no quise hacer mi viaje", "ru": "Давид оставался один, поэтому я не решилась на поездку" },
+        { "es": "mi hermano salía muy temprano, así que volvía tarde", "ru": "мой брат уходил очень рано, так что возвращался поздно" },
+        { "es": "de todos modos, todavía no había acabado mis cursos", "ru": "в любом случае, я ещё не окончила свои курсы" },
+        { "es": "para aquel momento, había encontrado un buen trabajo", "ru": "к тому моменту он нашёл хорошую работу" },
+        { "es": "casi todos trabajaban; por lo tanto, nadie podía ocuparse del chico", "ru": "почти все работали; следовательно, никто не мог заняться мальчиком" }
+      ],
+      "examples": [
+        { "es": "Por eso no tenía tanta prisa en volver a casa.", "ru": "Поэтому я не спешила возвращаться домой." }
+      ]
+    },
+    "seguir_gerundio": {
+      "title": "SEGUIR + gerundio: продолжать делать",
+      "description": "SEGUIR + gerundio означает «продолжать что-то делать» и легко сочетается с будущим временем: el año que viene seguiré visitando las clases (в следующем году я продолжу посещать занятия); voy a seguir tocando la guitarra (я продолжу играть на гитаре).",
+      "list": [
+        { "es": "el año que viene seguiré visitando las clases", "ru": "в следующем году я продолжу посещать занятия" },
+        { "es": "voy a seguir tocando la guitarra", "ru": "я продолжу играть на гитаре" },
+        { "es": "sigue aprendiendo español", "ru": "он продолжает учить испанский" },
+        { "es": "seguimos estudiando italiano", "ru": "мы продолжаем заниматься итальянским" },
+        { "es": "¿vas a seguir viajando?", "ru": "ты продолжишь путешествовать?" }
+      ],
+      "examples": [
+        { "es": "El año que viene seguiré visitando las clases.", "ru": "В следующем году я продолжу посещать занятия." },
+        { "es": "Además, voy a seguir tocando la guitarra.", "ru": "Кроме того, я продолжу играть на гитаре." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "el_viaje_y_el_aeropuerto": [
+      { "es": "el aeropuerto", "ru": "аэропорт" },
+      { "es": "el vuelo", "ru": "рейс" },
+      { "es": "el mostrador", "ru": "стойка регистрации" },
+      { "es": "la maleta", "ru": "чемодан" },
+      { "es": "el viaje de negocios", "ru": "командировка" }
+    ],
+    "la_familia": [
+      { "es": "la familia", "ru": "семья" },
+      { "es": "la cuñada", "ru": "невестка" },
+      { "es": "el hermano", "ru": "брат" },
+      { "es": "el hijo", "ru": "сын" },
+      { "es": "los miembros de la familia", "ru": "члены семьи" }
+    ],
+    "los_estudios": [
+      { "es": "el curso", "ru": "курс (обучения)" },
+      { "es": "el examen", "ru": "экзамен" },
+      { "es": "el certificado", "ru": "сертификат" },
+      { "es": "las canciones", "ru": "песни, мелодии" },
+      { "es": "los profesores", "ru": "преподаватели" },
+      { "es": "los compañeros", "ru": "одногруппники, товарищи" },
+      { "es": "la guitarra", "ru": "гитара" }
+    ],
+    "los_verbos": [
+      { "es": "acabar", "ru": "заканчивать" },
+      { "es": "volver", "ru": "возвращаться" },
+      { "es": "quedarse", "ru": "оставаться" },
+      { "es": "ocuparse de", "ru": "заниматься, присматривать за" },
+      { "es": "irse", "ru": "уезжать, уходить" },
+      { "es": "entregar", "ru": "вручать" },
+      { "es": "equivocarse", "ru": "ошибаться" },
+      { "es": "seguir", "ru": "продолжать" },
+      { "es": "visitar", "ru": "посещать" },
+      { "es": "tocar", "ru": "играть (на гитаре)" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Lucía", "es": "Estoy esperando tanto ver por fin a mi familia.", "ru": "Я так жду встречи со своей семьёй, наконец-то!" },
+    { "speaker": "Mario", "es": "Te comprendo. No la has visto casi un año. ¿Por qué no volviste a casa en junio, cuando acabaron los cursos de italiano?", "ru": "Понимаю тебя. Ты не видела их почти год. Почему ты не вернулась домой в июне, когда закончились курсы итальянского языка?" },
+    { "speaker": "Lucía", "es": "Es que mi cuñada se había ido de viaje de negocios y mi hermano, para aquel momento, había encontrado un buen trabajo, así que salía de casa muy temprano y volvía tarde. David, su hijo, se quedaba solo, por eso no quise hacer mi viaje.", "ru": "Дело в том, что моя невестка уехала в командировку, а мой брат к тому моменту нашёл хорошую работу, поэтому уходил из дома очень рано и возвращался поздно. Давид, их сын, оставался один, поэтому я не решилась на поездку." },
+    { "speaker": "Mario", "es": "¿Y otros miembros de la familia? ¿No podían ocuparse del chico?", "ru": "А другие члены семьи? Не могли заняться мальчиком?" },
+    { "speaker": "Lucía", "es": "Casi todos trabajaban o se han ido de viaje. Los padres de mi cuñada dijeron que David podría vivir por un tiempo en su casa, pero ellos también están ocupados todos los días. De todos modos, todavía no había acabado mis cursos de guitarra, por eso no tenía tanta prisa en volver a casa.", "ru": "Почти все работали или уехали в путешествие. Родители моей невестки сказали, что Давид мог бы пожить какое-то время у них дома, но они тоже заняты все дни. В любом случае, я всё ещё не окончила курсы по гитаре, поэтому не спешила возвращаться домой." },
+    { "speaker": "Mario", "es": "Ah, verdad. Acabaste los cursos la semana pasada, ¿no?", "ru": "А, точно. Ты окончила курсы на прошлой неделе, да?" },
+    { "speaker": "Lucía", "es": "Sí. Tuve un examen el viernes pasado, te he hablado de él.", "ru": "Да. У меня был экзамен в прошлую пятницу, я тебе говорила о нём." },
+    { "speaker": "Mario", "es": "Sí, lo recuerdo. Tocaste tres canciones antes de los profesores y tus compañeros de clases. Me dijiste que estabas muy nerviosa y te equivocaste un par de veces.", "ru": "Да, помню. Ты сыграла три мелодии перед преподавателями и своими одногруппниками. Ты мне говорила, что очень нервничала и ошиблась пару раз." },
+    { "speaker": "Lucía", "es": "Sí, pero me entregaron el certificado. El año que viene seguiré visitando las clases.", "ru": "Да, но мне вручили сертификат. В следующем году я продолжу посещать занятия." },
+    { "speaker": "Mario", "es": "Bueno, ya estamos en el aeropuerto. A ver, ¿cuál es tu vuelo?", "ru": "Так, мы уже в аэропорту. Посмотрим... Какой у тебя рейс?" },
+    { "speaker": "Lucía", "es": "El 5674. Mostrador... 7-12.", "ru": "5674. Стойка регистрации... 7-12." },
+    { "speaker": "Mario", "es": "Vamos, te ayudo con tu maleta.", "ru": "Пойдём, помогу тебе с чемоданом." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el aeropuerto", "ru": "аэропорт" },
+        { "es": "el vuelo", "ru": "рейс" },
+        { "es": "el mostrador", "ru": "стойка регистрации" },
+        { "es": "la maleta", "ru": "чемодан" },
+        { "es": "el viaje de negocios", "ru": "командировка" },
+        { "es": "la familia", "ru": "семья" },
+        { "es": "la cuñada", "ru": "невестка" },
+        { "es": "el hermano", "ru": "брат" },
+        { "es": "el hijo", "ru": "сын" },
+        { "es": "los miembros de la familia", "ru": "члены семьи" }
+      ]
+    },
+    {
+      "type": "fill-gap-pluscuamperfecto",
+      "title": "Практика: Pluscuamperfecto",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Mi cuñada se ___ ido de viaje de negocios.", "ru": "Моя невестка уехала в командировку", "answer": "había", "options": ["había", "ha", "habrá"] },
+        { "text": "Mi hermano, para aquel momento, ___ encontrado un buen trabajo.", "ru": "Мой брат к тому моменту нашёл хорошую работу", "answer": "había", "options": ["había", "habría", "ha"] },
+        { "text": "Todavía no ___ acabado mis cursos de guitarra.", "ru": "Я ещё не окончила свои курсы по гитаре", "answer": "había", "options": ["había", "he", "habíamos"] },
+        { "text": "Cuando ___ vuelto, mi familia ya me esperaba.", "ru": "Когда я вернулась, семья уже ждала меня", "answer": "había", "options": ["había", "he", "habrá"] },
+        { "text": "Antes del examen, Lucía no ___ tocado nunca delante de mucha gente.", "ru": "До экзамена Лусия никогда не играла перед многими людьми", "answer": "había", "options": ["había", "ha", "hay"] }
+      ]
+    },
+    {
+      "type": "fill-gap-condicional_podia",
+      "title": "Практика: CONDICIONAL de PODER",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Los abuelos dijeron que David ___ vivir en su casa un tiempo.", "ru": "Бабушка с дедушкой сказали, что Давид мог бы пожить у них какое-то время", "answer": "podría", "options": ["podría", "puede", "podía"] },
+        { "text": "Con más tiempo en casa, yo ___ ayudar con el niño.", "ru": "Будь у меня больше времени дома, я мог бы помочь с мальчиком", "answer": "podría", "options": ["podría", "puedo", "podía"] },
+        { "text": "Ellos también están ocupados, así que no ___ venir.", "ru": "Они тоже заняты, так что не могли бы приехать", "answer": "podrían", "options": ["podrían", "pueden", "podrán"] },
+        { "text": "Me dijiste que el año que viene ___ volver a casa.", "ru": "Ты сказал, что в следующем году мог бы вернуться домой", "answer": "podrías", "options": ["podrías", "puedes", "podías"] },
+        { "text": "¿Qué ___ comprar para el viaje?", "ru": "Что мы могли бы купить для поездки?", "answer": "podríamos", "options": ["podríamos", "podemos", "podíamos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-conectores_causa",
+      "title": "Практика: Conectores de causa",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "David se quedaba solo, ___ eso no quise hacer mi viaje.", "ru": "Давид оставался один, поэтому я не решилась на поездку", "answer": "por", "options": ["por", "de", "al"] },
+        { "text": "Mi hermano salía muy temprano, ___ que volvía tarde.", "ru": "Мой брат уходил очень рано, так что возвращался поздно", "answer": "así", "options": ["así", "más", "tanto"] },
+        { "text": "De todos ___, no tenía prisa en volver.", "ru": "В любом случае, я не спешила возвращаться", "answer": "modos", "options": ["modos", "modo", "manos"] },
+        { "text": "Para ___ momento, mi hermano había encontrado un buen trabajo.", "ru": "К тому моменту мой брат нашёл хорошую работу", "answer": "aquel", "options": ["aquel", "este", "cual"] },
+        { "text": "Casi todos trabajaban o se habían ido, ___ que nadie podía ocuparse del chico.", "ru": "Почти все работали или уехали, так что никто не мог заняться мальчиком", "answer": "así", "options": ["así", "sea", "o"] }
+      ]
+    },
+    {
+      "type": "fill-gap-seguir_gerundio",
+      "title": "Практика: SEGUIR + gerundio",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "El año que viene ___ visitando las clases.", "ru": "В следующем году я продолжу посещать занятия", "answer": "seguiré", "options": ["seguiré", "seguía", "sigo"] },
+        { "text": "Voy a seguir ___ la guitarra.", "ru": "Я продолжу играть на гитаре", "answer": "tocando", "options": ["tocando", "tocar", "toqué"] },
+        { "text": "Sigue ___ español con nosotros.", "ru": "Он продолжает учить испанский с нами", "answer": "aprendiendo", "options": ["aprendiendo", "aprender", "aprende"] },
+        { "text": "¿Vas a seguir ___ clases el año que viene?", "ru": "Ты будешь продолжать посещать занятия в следующем году?", "answer": "visitando", "options": ["visitando", "visitar", "visito"] },
+        { "text": "Seguimos ___ los cursos de italiano.", "ru": "Мы продолжаем заниматься на курсах итальянского", "answer": "estudiando", "options": ["estudiando", "estudiar", "estudiamos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Mi cuñada se había ___ de viaje de negocios.", "ru": "Моя невестка уехала в командировку", "answer": "ido", "options": ["ido", "ida", "yendo"] },
+        { "text": "David se quedaba solo, por eso no ___ hacer mi viaje.", "ru": "Давид оставался один, поэтому я не решилась на поездку", "answer": "quise", "options": ["quise", "quería", "quiero"] },
+        { "text": "Los abuelos dijeron que David ___ vivir con ellos un tiempo.", "ru": "Бабушка с дедушкой сказали, что Давид мог бы пожить у них какое-то время", "answer": "podría", "options": ["podría", "puede", "podía"] },
+        { "text": "Tocaste tres ___ antes de los profesores.", "ru": "Ты сыграла три мелодии перед преподавателями", "answer": "canciones", "options": ["canciones", "cuentos", "clases"] },
+        { "text": "Me ___ el certificado después del examen.", "ru": "Мне вручили сертификат после экзамена", "answer": "entregaron", "options": ["entregaron", "entregan", "entregaban"] },
+        { "text": "El año que viene ___ visitando las clases.", "ru": "В следующем году я продолжу посещать занятия", "answer": "seguiré", "options": ["seguiré", "seguía", "sigo"] },
+        { "text": "Todavía no había ___ mis cursos de guitarra.", "ru": "Я ещё не окончила свои курсы по гитаре", "answer": "acabado", "options": ["acabado", "acabando", "acabar"] },
+        { "text": "Es normal ___ en un examen.", "ru": "Нормально ошибиться на экзамене", "answer": "equivocarse", "options": ["equivocarse", "equivocar", "equivoca"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Лусией",
+      "role": "Lucía",
+      "description": "Ты — Лусия, рассказываешь Марио, почему не ездила домой, и находишь свой рейс"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Марио",
+      "role": "Mario",
+      "description": "Ты — Марио, провожаешь Лусию в аэропорт и помогаешь ей с чемоданом"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Поговори о поездке: почему ты не ездил(а) домой, что было на занятиях и что будешь делать в следующем году",
+      "template": [
+        { "label": "Я жду встречи со своей семьёй", "es": "Estoy esperando ___ a mi familia." },
+        { "label": "Моя невестка уехала в командировку", "es": "Mi cuñada se había ___ de viaje de negocios." },
+        { "label": "Он уходил рано и возвращался поздно", "es": "Salía muy temprano y ___ tarde." },
+        { "label": "Он оставался один", "es": "Se ___ solo." },
+        { "label": "Я ещё не окончила свои курсы", "es": "Todavía no había ___ mis cursos." },
+        { "label": "В следующем году я продолжу посещать занятия", "es": "El año que viene ___ visitando las clases." },
+        { "label": "Какой у тебя рейс?", "es": "¿Cuál es tu ___?" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Cuándo acabaron los cursos de italiano de Lucía?",
+          "ru": "Когда закончились курсы итальянского у Лусии?",
+          "options": ["En junio", "En julio", "En agosto", "En septiembre"],
+          "answer": 0
+        },
+        {
+          "question": "¿Por qué no volvió Lucía a casa en junio?",
+          "ru": "Почему Лусия не вернулась домой в июне?",
+          "options": ["Porque estaba enferma", "Porque David se quedaba solo y no tenía con quién dejarle", "Porque no tenía dinero", "Porque perdió el vuelo"],
+          "answer": 1
+        },
+        {
+          "question": "¿Podían ocuparse del chico otros miembros de la familia?",
+          "ru": "Могли ли другие члены семьи заняться мальчиком?",
+          "options": ["Sí, todos podían", "Casi todos trabajaban o se habían ido de viaje", "Nadie quería", "No lo sabe"],
+          "answer": 1
+        },
+        {
+          "question": "¿Por qué no tenía tanta prisa Lucía en volver a casa?",
+          "ru": "Почему Лусия не спешила возвращаться домой?",
+          "options": ["Porque no extrañaba a su familia", "Porque no había acabado sus cursos de guitarra", "Porque perdía el vuelo", "Porque no le gustaba viajar"],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuándo tuvo Lucía el examen?",
+          "ru": "Когда у Лусии был экзамен?",
+          "options": ["El lunes pasado", "El jueves pasado", "El viernes pasado", "El domingo pasado"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué hizo Lucía en el examen?",
+          "ru": "Что сделала Лусия на экзамене?",
+          "options": ["Cantó tres canciones", "Tocó tres canciones", "Escribió tres canciones", "Bailó tres canciones"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué le entregaron a Lucía después del examen?",
+          "ru": "Что вручили Лусии после экзамена?",
+          "options": ["El pasaporte", "El certificado", "El billete", "El diploma"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué hará Lucía el año que viene?",
+          "ru": "Что Лусия будет делать в следующем году?",
+          "options": ["Seguirá visitando las clases", "Dejará el colegio", "Se mudará a Italia", "Empezará a trabajar"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cuál es el número del vuelo de Lucía?",
+          "ru": "Какой номер рейса у Лусии?",
+          "options": ["5674", "7-12", "5671", "7645"],
+          "answer": 0
+        },
+        {
+          "question": "¿Dónde deben ir Lucía y Mario en el aeropuerto?",
+          "ru": "Куда должны пойти Лусия и Марио в аэропорту?",
+          "options": ["A la puerta de embarque", "Al mostrador 7-12", "A la terminal", "Al aparcamiento"],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повтори слова по теме «аэропорт, семья, учёба»",
+    "Практика: объясни, почему ты не приехал(а) домой в прошлом. Используй: se había / había..., así que / por eso..., el año que viene + futuro",
+    "Дневник: опиши поездку — как ты провожал(а) кого-то в аэропорт или встречал(а)",
+    "Грамматика: составь 5 предложений с pluscuamperfecto и 5 с conectores (así que, por eso, de todos modos)"
+  ]
+}

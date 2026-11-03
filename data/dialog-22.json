@@ -1,0 +1,310 @@
+{
+  "id": 22,
+  "title": "Carlos no puede dormirse, habla con su hermana Elena",
+  "titleRu": "Карлос не может уснуть, разговаривает со своей сестрой Еленой",
+  "part": 3,
+  "level": "B1",
+  "theme": "Дом, соседи, ночной шум  La casa, los vecinos, el ruido nocturno",
+  "characters": ["carlos", "elena_hermana", "portero", "chica_vecina"],
+  "objectives": [
+    "Говорить «только что сделал»: acabar de + infinitivo (acabo de ver, acaban de llamar)",
+    "Выражать степень: tan + прилаг., tanto + сущ., что... (tanto escándalo que no me dejas dormir)",
+    "Использовать возвратные глаголы: dormirse, levantarse, vestirse, acostarse",
+    "Возмущаться по-испански: ¡Qué rabia me dan!, ¡Caramba!",
+    "Решать конфликт с соседями: llamar al portero, dejar una nota, hablar con el dueño"
+  ],
+  "grammar": {
+    "acabar_de": {
+      "title": "«Только что сделать»: ACABAR DE + infinitivo",
+      "description": "ACABAR DE + infinitivo — «только что что-то сделал». В диалоге: Acabo de ver a unos chicos — «Я только что видел парней»; la película acaba de empezar — «фильм только что начался»; Nos acaban de llamar — «Нам только что позвонили».",
+      "forms": {
+        "yo": { "es": "acabo de + infinitivo", "ru": "я только что ..." },
+        "tu": { "es": "acabas de + infinitivo", "ru": "ты только что ..." },
+        "el_ella": { "es": "acaba de + infinitivo", "ru": "он/она только что ..." },
+        "nosotros": { "es": "acabamos de + infinitivo", "ru": "мы только что ..." },
+        "vosotros": { "es": "acabáis de + infinitivo", "ru": "вы только что ..." },
+        "ellos_ellas": { "es": "acaban de + infinitivo", "ru": "они только что ..." }
+      },
+      "examples": [
+        { "es": "Acabo de ver a unos chicos en el ascensor con bolsas de palomitas y refrescos.", "ru": "Я только что видела в лифте парней с пакетами попкорна и газировки." },
+        { "es": "Parece que la película acaba de empezar.", "ru": "Похоже, фильм только что начался." },
+        { "es": "Nos acaban de llamar y decir que en su piso hay un ruido que molesta a los vecinos.", "ru": "Нам только что позвонили и сказали, что в вашей квартире шум, который мешает соседям." }
+      ]
+    },
+    "tan_tanto_que": {
+      "title": "«Так... что»: TAN + прилаг., TANTO + сущ. + QUE",
+      "description": "TAN + прилагательное/наречие + QUE — «так ..., что ...»: la tele tan alto — «телевизор так громко». TANTO + существительное + QUE — «такой ..., что ...»: tanto escándalo que no me dejas dormir — «такой шум, что ты не даёшь мне спать».",
+      "list": [
+        { "es": "tanto escándalo que no me dejas dormir", "ru": "такой шум, что ты не даёшь мне спать" },
+        { "es": "la tele tan alto por la noche", "ru": "телевизор так громко ночью" },
+        { "es": "tanto ruido que no se oye nada", "ru": "такой шум, что ничего не слышно" },
+        { "es": "con sonido muy alto", "ru": "с очень громким звуком" }
+      ],
+      "examples": [
+        { "es": "Estás haciendo tanto escándalo que no me dejas dormir.", "ru": "Ты поднимаешь такой шум, что не даёшь мне спать." },
+        { "es": "¿Por qué están viendo la tele tan alto por la noche?", "ru": "Почему вы смотрите телевизор так громко ночью?" }
+      ]
+    },
+    "reflexivos": {
+      "title": "Возвратные глаголы: DORMIRSE, LEVANTARSE, VESTIRSE, ACOSTARSE",
+      "description": "Возвратные глаголы указывают действие на себя и используют местоимения me, te, se, nos, os: Carlos se levanta de la cama — «Карлос встаёт с кровати»; Elena y Carlos se acuestan — «ложатся спать»; no puede dormirse — «не может уснуть»; me visto — «я одеваюсь».",
+      "list": [
+        { "es": "me visto", "ru": "я одеваюсь" },
+        { "es": "se levanta de la cama", "ru": "он встаёт с кровати" },
+        { "es": "se acuestan", "ru": "они ложатся спать" },
+        { "es": "no puede dormirse", "ru": "он не может уснуть" }
+      ],
+      "examples": [
+        { "es": "Ahora mismo me visto y les digo todo lo que pienso de esto.", "ru": "Сейчас же я оденусь и выскажу им всё, что думаю об этом." },
+        { "es": "Carlos se levanta de la cama y la abre.", "ru": "Карлос встаёт с кровати и открывает." },
+        { "es": "El portero se va. Carlos y Elena se acuestan.", "ru": "Консьерж уходит. Карлос и Елена ложатся спать." }
+      ]
+    },
+    "exclamaciones": {
+      "title": "Восклицания: ¡QUÉ + существительное!",
+      "description": "¡QUÉ + существительное! — сильное чувство: ¡Qué rabia me dan! — «Как они меня бесят!». ¡QUÉ + tan + прилагательное! — ¡Qué película tan larga! — «Какой же длинный фильм!».",
+      "list": [
+        { "es": "¡Caramba!", "ru": "Чёрт возьми!" },
+        { "es": "¡Qué rabia me dan!", "ru": "Как они меня бесят!" },
+        { "es": "¡Qué razón tienes!", "ru": "Как ты прав(а)!" },
+        { "es": "¡Qué película tan larga!", "ru": "Какой же длинный фильм!" }
+      ],
+      "examples": [
+        { "es": "¡Caramba! ¡Qué rabia me dan!", "ru": "Чёрт возьми! Как они меня бесят!" },
+        { "es": "¡Qué rabia! Otro escándalo por la noche.", "ru": "Какая досада! Опять шум ночью." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "casa_y_vecinos": [
+      { "es": "el escándalo", "ru": "шум, переполох" },
+      { "es": "el ruido", "ru": "шум" },
+      { "es": "los vecinos de arriba", "ru": "соседи сверху" },
+      { "es": "el piso", "ru": "квартира" },
+      { "es": "el apartamento", "ru": "квартира, апартаменты" },
+      { "es": "el ascensor", "ru": "лифт" },
+      { "es": "el portero automático", "ru": "домофон" },
+      { "es": "el contador de la luz", "ru": "электросчётчик" },
+      { "es": "la nota", "ru": "записка" },
+      { "es": "la puerta", "ru": "дверь" }
+    ],
+    "noche_y_tele": [
+      { "es": "la madrugada", "ru": "ночь, время после полуночи" },
+      { "es": "las palomitas", "ru": "попкорн" },
+      { "es": "los refrescos", "ru": "газировка, прохладительные напитки" },
+      { "es": "la película", "ru": "фильм" },
+      { "es": "la tele", "ru": "телевизор" },
+      { "es": "a todo volumen", "ru": "на полную громкость" },
+      { "es": "el examen", "ru": "экзамен" },
+      { "es": "el dueño", "ru": "хозяин" },
+      { "es": "el compañero de trabajo", "ru": "коллега по работе" },
+      { "es": "el sonido", "ru": "звук" }
+    ],
+    "verbos": [
+      { "es": "dormirse", "ru": "засыпать" },
+      { "es": "levantarse", "ru": "вставать" },
+      { "es": "vestirse", "ru": "одеваться" },
+      { "es": "acostarse", "ru": "ложиться спать" },
+      { "es": "esconderse", "ru": "прятаться" },
+      { "es": "molestar", "ru": "мешать, беспокоить" },
+      { "es": "faltar", "ru": "пропускать, отсутствовать" },
+      { "es": "abrir", "ru": "открывать" },
+      { "es": "resolver", "ru": "решать (проблему)" },
+      { "es": "llegar tarde", "ru": "приходить поздно" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Carlos", "es": "Elena, ya son las dos de la madrugada, ¿por qué llegas tan tarde a casa? Estás haciendo tanto escándalo que no me dejas dormir.", "ru": "Елена, уже два часа ночи, почему ты так поздно возвращаешься домой? Ты поднимаешь такой шум, что не даёшь мне спать." },
+    { "speaker": "Elena", "es": "Tranquilo, hermano. No hago ningún escándalo. ¿Oyes? Son los vecinos de arriba que están viendo una película a todo volumen. Acabo de ver a unos chicos en el ascensor con bolsas de palomitas y refrescos. Parece que la película acaba de empezar.", "ru": "Спокойно, брат. Я не шумлю. Слышишь? Это соседи сверху смотрят фильм на полную громкость. Я только что видела в лифте парней с пакетами попкорна и газировки. Похоже, фильм только начался." },
+    { "speaker": "Carlos", "es": "¡Caramba! ¡Qué rabia me dan! Mañana tengo que levantarme muy temprano porque no puedo faltar al examen.", "ru": "Чёрт возьми! Как они меня бесят! Завтра мне нужно встать очень рано, потому что я не могу пропустить экзамен." },
+    { "speaker": "Elena", "es": "Ya los conoces, a veces ponen la tele muy alta sin pensar que molestan a los demás.", "ru": "Ты же их знаешь, иногда они включают телевизор очень громко, не думая, что мешают другим." },
+    { "speaker": "Carlos", "es": "Ahora mismo me visto y les digo todo lo que pienso de esto.", "ru": "Сейчас же я оденусь и выскажу им всё, что думаю об этом." },
+    { "speaker": "Elena", "es": "Creo que hablar con ellos no sirve para nada. No te van a abrir la puerta.", "ru": "Думаю, разговаривать с ними бесполезно. Они тебе дверь не откроют." },
+    { "speaker": "Carlos", "es": "Pues, no me queda otro remedio que llamar al portero automático.", "ru": "Тогда мне ничего не остаётся, кроме как вызвать консьержа." },
+    { "speaker": "Narrador", "es": "Se oye que alguien llama a la puerta. Carlos se levanta de la cama y la abre.", "ru": "Слышно, как кто-то стучит в дверь. Карлос встаёт с кровати и открывает." },
+    { "speaker": "Portero", "es": "Buenas noches. Nos acaban de llamar y decir que en su piso hay un ruido que molesta a los vecinos.", "ru": "Доброй ночи. Нам только что позвонили и сказали, что в вашей квартире шум, который мешает соседям." },
+    { "speaker": "Carlos", "es": "Se equivoca, no somos nosotros, son los vecinos de arriba que llevan una hora haciendo ruido viendo una película con sonido muy alto.", "ru": "Вы ошибаетесь, это не мы, это соседи сверху, которые уже час шумят, смотрят фильм на очень высокой громкости." },
+    { "speaker": "Portero", "es": "No oigo nada. ¿De qué apartamento viene el ruido?", "ru": "Я ничего не слышу. Из какой квартиры идёт шум?" },
+    { "speaker": "Elena", "es": "Parece que ya está todo tranquilo. Pero, le aseguro, son los vecinos del 4º B.", "ru": "Похоже, уже всё стихло. Но я вас уверяю, это соседи из 4-го «Б»." },
+    { "speaker": "Narrador", "es": "El portero llama a la puerta de los vecinos. Abre una chica.", "ru": "Консьерж звонит в квартиру соседей. Открывает девушка." },
+    { "speaker": "Portero", "es": "¿Por qué están viendo la tele tan alto por la noche?", "ru": "Почему вы смотрите телевизор так громко ночью?" },
+    { "speaker": "La chica", "es": "No soy yo. Estaba durmiendo. Si quiere, puede pasar y ver que no hay nadie.", "ru": "Это не я. Я спала. Если хотите, можете пройти и убедиться, что никого нет." },
+    { "speaker": "Narrador", "es": "El portero entra un rato y sale dentro de dos minutos.", "ru": "Консьерж заходит ненадолго и выходит через две минуты." },
+    { "speaker": "Portero", "es": "Bueno, perdone la molestia. Si no hay ruido, me voy.", "ru": "Хорошо, извините за беспокойство. Раз нет шума, я ухожу." },
+    { "speaker": "Narrador", "es": "El portero se va. Carlos y Elena se acuestan. Otra vez se escucha la televisión. Carlos, enfurecido, llama a la puerta del vecino pero no abre nadie.", "ru": "Консьерж уходит. Карлос и Елена ложатся спать. Снова слышится телевизор. Карлос, в ярости, стучит в дверь соседа, но никто не открывает." },
+    { "speaker": "Elena", "es": "Bueno, hermano. Vamos a dormir, que así no resuelves el problema. Se esconden cuando viene el portero. No podemos llamarlo toda la noche.", "ru": "Ладно, брат. Пойдём спать, ты так не решишь проблему. Они прячутся, когда приходит консьерж. Мы не можем вызывать его всю ночь." },
+    { "speaker": "Carlos", "es": "No lo dejo así. Les voy a dejar una nota en la puerta. A ver qué hacen mañana. O les tiro el contador de la luz.", "ru": "Я так этого не оставлю. Я оставлю им записку на двери. Посмотрим, что они будут делать завтра. Или вырублю им счётчик." },
+    { "speaker": "Elena", "es": "Tranquilo, no es necesario. Esta chica alquila el piso. Mañana llamamos al dueño de este apartamento, le conozco bien, que es compañero de trabajo de mi jefe, y hablamos.", "ru": "Спокойно, не надо. Эта девушка снимает квартиру. Завтра позвоним хозяину этой квартиры, я его хорошо знаю, он коллега моего начальника, и поговорим." },
+    { "speaker": "Carlos", "es": "Bueno, lo espero. Si no, seguro que nos peleamos con esa chica mentirosa.", "ru": "Ладно, надеюсь. Если нет, мы точно подерёмся с этой лгуньей." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el escándalo", "ru": "шум, переполох" },
+        { "es": "los vecinos de arriba", "ru": "соседи сверху" },
+        { "es": "el ascensor", "ru": "лифт" },
+        { "es": "el portero automático", "ru": "домофон" },
+        { "es": "el contador de la luz", "ru": "электросчётчик" },
+        { "es": "la nota", "ru": "записка" },
+        { "es": "las palomitas", "ru": "попкорн" },
+        { "es": "a todo volumen", "ru": "на полную громкость" }
+      ]
+    },
+    {
+      "type": "fill-gap-acabar_de",
+      "title": "Практика: ACABAR DE + infinitivo",
+      "description": "Вставь правильную форму глагола acabar",
+      "sentences": [
+        { "text": "___ de ver a unos chicos en el ascensor.", "ru": "Я только что видел парней в лифте", "answer": "Acabo", "options": ["Acabo", "Acaba", "Acabas"] },
+        { "text": "Parece que la película ___ de empezar.", "ru": "Похоже, фильм только что начался", "answer": "acaba", "options": ["acaba", "acabo", "acaban"] },
+        { "text": "Nos ___ de llamar para decir que hay un ruido.", "ru": "Нам только что позвонили и сказали, что есть шум", "answer": "acaban", "options": ["acaban", "acaba", "acabamos"] },
+        { "text": "¿___ de llegar de la escuela?", "ru": "Ты только что пришёл из школы?", "answer": "Acabas", "options": ["Acabas", "Acaba", "Acabamos"] },
+        { "text": "Mi hermana ___ de comprar las palomitas.", "ru": "Моя сестра только что купила попкорн", "answer": "acaba", "options": ["acaba", "acabo", "acaban"] }
+      ]
+    },
+    {
+      "type": "fill-gap-tan_tanto_que",
+      "title": "Практика: TAN / TANTO ... QUE",
+      "description": "Вставь tan или tanto",
+      "sentences": [
+        { "text": "Estás haciendo ___ escándalo que no me dejas dormir.", "ru": "Ты поднимаешь такой шум, что не даёшь мне спать", "answer": "tanto", "options": ["tanto", "tan", "mucho"] },
+        { "text": "¿Por qué ven la tele ___ alto por la noche?", "ru": "Почему они смотрят телевизор так громко ночью?", "answer": "tan", "options": ["tan", "tanto", "muy"] },
+        { "text": "La película es ___ larga que dura tres horas.", "ru": "Фильм такой длинный, что идёт три часа", "answer": "tan", "options": ["tan", "tanto", "cuán"] },
+        { "text": "Hacen ___ ruido que no se oye nada.", "ru": "Они поднимают такой шум, что ничего не слышно", "answer": "tanto", "options": ["tanto", "tan", "muy"] },
+        { "text": "Ponen la música ___ alta que se escucha en todo el edificio.", "ru": "Они включают музыку так громко, что слышно во всём доме", "answer": "tan", "options": ["tan", "tanto", "tanta"] }
+      ]
+    },
+    {
+      "type": "fill-gap-reflexivos",
+      "title": "Практика: возвратные глаголы",
+      "description": "Вставь правильную форму",
+      "sentences": [
+        { "text": "Carlos se ___ de la cama y abre la puerta.", "ru": "Карлос встаёт с кровати и открывает дверь", "answer": "levanta", "options": ["levanta", "levanto", "levantan"] },
+        { "text": "Ahora mismo me ___ y les digo todo.", "ru": "Сейчас же я оденусь и всё им скажу", "answer": "visto", "options": ["visto", "viste", "visten"] },
+        { "text": "Carlos y Elena se ___ muy tarde, a las tres.", "ru": "Карлос и Елена ложатся спать очень поздно, в три", "answer": "acuestan", "options": ["acuestan", "acuesta", "levantan"] },
+        { "text": "¿A qué hora te ___ para ir al examen?", "ru": "Во сколько ты встаёшь, чтобы пойти на экзамен?", "answer": "levantas", "options": ["levantas", "levanta", "levanto"] },
+        { "text": "Elena se ___ cuando oye la televisión otra vez.", "ru": "Елена просыпается, когда снова слышит телевизор", "answer": "despierta", "options": ["despierta", "duerme", "viste"] }
+      ]
+    },
+    {
+      "type": "fill-gap-exclamaciones",
+      "title": "Практика: ¡QUÉ + существительное!",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¡Qué ___ me dan estos vecinos!", "ru": "Как они меня бесят, эти соседи!", "answer": "rabia", "options": ["rabia", "miedo", "suerte"] },
+        { "text": "¡Qué ___ tan alta pone la música!", "ru": "Какую громкую музыку он включает!", "answer": "música", "options": ["música", "tele", "gente"] },
+        { "text": "¡Qué ___ tan larga es esta película!", "ru": "Какой длинный этот фильм!", "answer": "película", "options": ["película", "canción", "nota"] },
+        { "text": "¡Qué ___ tienes, Elena!", "ru": "Какая ты права, Елена!", "answer": "razón", "options": ["razón", "duda", "miedo"] },
+        { "text": "¡Qué ___ tenemos que levantarnos mañana!", "ru": "Как рано нам надо вставать завтра!", "answer": "pronto", "options": ["pronto", "tarde", "lejos"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "___ de ver a unos chicos en el ascensor.", "ru": "Я только что видел парней в лифте", "answer": "Acabo", "options": ["Acabo", "Acaba", "Visto"] },
+        { "text": "La película ___ de empezar.", "ru": "Фильм только что начался", "answer": "acaba", "options": ["acaba", "acabo", "abre"] },
+        { "text": "Estás haciendo ___ escándalo que no me dejas dormir.", "ru": "Ты поднимаешь такой шум, что не даёшь мне спать", "answer": "tanto", "options": ["tanto", "tan", "muy"] },
+        { "text": "Carlos se ___ de la cama y abre la puerta.", "ru": "Карлос встаёт с кровати и открывает дверь", "answer": "levanta", "options": ["levanta", "levanto", "acuesta"] },
+        { "text": "¡Qué ___ me dan estos vecinos!", "ru": "Как они меня бесят, эти соседи!", "answer": "rabia", "options": ["rabia", "miedo", "pronto"] },
+        { "text": "Nos ___ de llamar del piso 4º B.", "ru": "Нам только что позвонили из квартиры 4-го «Б»", "answer": "acaban", "options": ["acaban", "acaba", "acabamos"] },
+        { "text": "Carlos y Elena se ___ muy tarde, cansados.", "ru": "Карлос и Елена ложатся спать очень поздно, уставшие", "answer": "acuestan", "options": ["acuestan", "acuesta", "levantan"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Жалуйся на шумных соседей и решай, что делать"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Еленой",
+      "role": "Elena",
+      "description": "Теперь ты Елена — успокаивай брата и предлагай решение"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Обсуди с другом, что делать, если соседи мешают спать",
+      "template": [
+        { "label": "Ты только что вернулся", "es": "___ de llegar a casa" },
+        { "label": "Уже два часа ночи", "es": "Ya son las dos de la ___" },
+        { "label": "Такой шум, что не даёт спать", "es": "Tanto ___ que no me deja dormir" },
+        { "label": "Я только что видел в лифте", "es": "___ de ver en el ascensor" },
+        { "label": "Они встают и одеваются", "es": "Se ___ y se ___" },
+        { "label": "Как он меня бесит!", "es": "¡Qué ___ me da!" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Por qué Carlos no puede dormir?",
+          "ru": "Почему Карлос не может уснуть?",
+          "options": ["Los vecinos de arriba ponen la tele muy alta", "Elena hace escándalo en casa", "Carlos tiene calor", "Hay una fiesta en su piso"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué acaba de ver Elena en el ascensor?",
+          "ru": "Кого только что видела Елена в лифте?",
+          "options": ["A la policía", "A unos chicos con bolsas de palomitas", "Al portero", "A los vecinos del 4º B"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué tiene Carlos mañana por la mañana?",
+          "ru": "Что у Карлоса завтра утром?",
+          "options": ["Un examen", "Un viaje", "Una reunión", "Un entrenamiento"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué quiere hacer Carlos al principio?",
+          "ru": "Что хочет сделать Карлос сначала?",
+          "options": ["Llamar al portero", "Dejar una nota", "Decirles todo lo que piensa", "Tirar el contador de la luz"],
+          "answer": 2
+        },
+        {
+          "question": "¿Quién llama a la puerta de Carlos?",
+          "ru": "Кто стучится в дверь к Карлосу?",
+          "options": ["La chica del 4º B", "El portero", "El dueño del piso", "La policía"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué dice la chica del 4º B?",
+          "ru": "Что говорит девушка из 4-го «Б»?",
+          "options": ["Que estaba viendo una película", "Que estaba durmiendo y no hay nadie", "Que no tiene tele", "Que se va de casa"],
+          "answer": 1
+        },
+        {
+          "question": "¿Qué plan propone Elena para mañana?",
+          "ru": "Какой план предлагает Елена на завтра?",
+          "options": ["Llamar al portero otra vez", "Dejar una nota", "Llamar al dueño del apartamento", "Comprar tapones"],
+          "answer": 2
+        },
+        {
+          "question": "¿Qué quiere dejar Carlos en la puerta del vecino?",
+          "ru": "Что хочет оставить Карлос на двери соседа?",
+          "options": ["Un contador", "Una nota", "Una cámara", "Un mensaje de la policía"],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить новые слова (дом, соседи, ночь) в приложении",
+    "Практика: Расскажи партнёру (italki/Tandem) про шумных соседей: acabo de + inf..., hacen tanto ruido que..., ¡qué rabia me dan!",
+    "Дневник: Опиши вечер: что ты только что сделал, кто и как тебе мешает, как ты решил проблему",
+    "Грамматика: Напиши 3 предложения с acabar de + infinitivo, 3 с tan/tanto ... que и 3 с возвратными глаголами (levantarse, vestirse, acostarse)"
+  ]
+}

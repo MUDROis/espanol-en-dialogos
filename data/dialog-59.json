@@ -1,0 +1,289 @@
+{
+  "id": 59,
+  "title": "¿Qué es esto?",
+  "titleRu": "Что это?",
+  "module": "a0-a1",
+  "block": 1,
+  "part": 1,
+  "blockTitle": "Часть 1 · Начальный уровень",
+  "level": "A0",
+  "theme": "Предметы быта и артикли  Los objetos de casa y los artículos el / la / un / una",
+  "mission": "Назвать вещи в новой квартире и спросить у соседа, что это за предмет — первый шаг к самостоятельному быту.",
+  "mapPoint": "Новая квартира: обустройство",
+  "duration": "45 минут",
+  "stepsCount": 7,
+  "readingNote": "Прочитайте диалог вслух: предметы на экране подсвечиваются, повторяйте названия с артиклем.",
+  "characters": ["olga", "mateo"],
+  "objectives": [
+    "Назвать 10 предметов быта с правильным артиклем",
+    "Спросить, что это: ¿qué es esto?",
+    "Ответить о предмете: es un / es una …",
+    "Определить род существительного по артиклю el / la",
+    "Читать слова с p, f и не путать b / v — оба звука [б]"
+  ],
+  "readingMini": {
+    "title": "B y V = [б], p sin aspiración",
+    "description": "Согласные p и f читаются как в русском, только p — без придыхания. В испанском нет противопоставления «б — в»: обе буквы звучат как [б]. Это облегчение: угадывать не нужно.",
+    "words": [
+      { "es": "puerta", "how": "«пуэр-та» — p без придыхания" },
+      { "es": "ventana", "how": "«вен-та-на» — v = [б]: «бен-та-на»" },
+      { "es": "móvil", "how": "«мо-биль» — v = [б]" },
+      { "es": "foto", "how": "«фо-то» — f твёрдый" },
+      { "es": "mesa", "how": "«ме-са» — s твёрдое, без смягчения" },
+      { "es": "lámpara", "how": "«лам-па-ра» — ударение на первый слог" },
+      { "es": "reloj", "how": "«ре-лох» — ll = [ль], j = [х]" },
+      { "es": "llave", "how": "«лья-ве» — ll = [ль]" }
+    ]
+  },
+  "grammar": {
+    "articulos_el_la": {
+      "title": "El y la: мужской и женский род",
+      "description": "У каждого испанского слова есть пол — мужской или женский, и его показывает артикль: el — мужской, la — женский. Большинство слов на -o — мужские, на -a — женские, но пол живёт в словаре: учите слово сразу с артиклем. Слова nunca не показываются без артикля.",
+      "list": [
+        { "es": "el libro", "ru": "книга" },
+        { "es": "el móvil", "ru": "мобильный телефон" },
+        { "es": "el reloj", "ru": "часы" },
+        { "es": "la mesa", "ru": "стол" },
+        { "es": "la silla", "ru": "стул" },
+        { "es": "la puerta", "ru": "дверь" },
+        { "es": "la ventana", "ru": "окно" },
+        { "es": "la llave", "ru": "ключ" },
+        { "es": "la bolsa", "ru": "сумка, пакет" },
+        { "es": "la lámpara", "ru": "лампа" }
+      ],
+      "examples": [
+        { "es": "¿Qué es esto? — La mesa.", "ru": "Что это? — Стол." },
+        { "es": "El reloj está en la mesa.", "ru": "Часы лежат на столе." }
+      ]
+    },
+    "un_una": {
+      "title": "Un y una — «один» или «какой-то»",
+      "description": "Un (муж.) и una (жен.) — это «один» или «какой-то» из нескольких: es un libro — это (одна из) книга, es una lámpara. Род тот же, что у el / la: un libro, una lámpara. Когда говорящий представляет предмет, он ставит un / una вместо el / la.",
+      "list": [
+        { "es": "es un libro", "ru": "это книга" },
+        { "es": "es una lámpara", "ru": "это лампа" },
+        { "es": "es un reloj", "ru": "это часы" },
+        { "es": "es una silla", "ru": "это стул" },
+        { "es": "es una bolsa", "ru": "это сумка" }
+      ],
+      "examples": [
+        { "es": "Esto es una lámpara, Mateo.", "ru": "Это лампа, Матео." },
+        { "es": "Es un libro nuevo.", "ru": "Это новая книга." }
+      ]
+    },
+    "esto_es_y_que_es_esto": {
+      "title": "Esto es… — ¿Qué es esto?",
+      "description": "Вопрос о предмете — ¿Qué es esto? (что это?). Ответ строится двумя способами: esto es + un / una (полная форма) и es un / una + слово (короткая форма). Это первая в курсе «показываю и называю» модель.",
+      "list": [
+        { "es": "¿Qué es esto?", "ru": "что это?" },
+        { "es": "Esto es una lámpara", "ru": "это лампа" },
+        { "es": "Esto es un libro", "ru": "это книга" },
+        { "es": "Es un reloj", "ru": "это часы" },
+        { "es": "¿Y esto?", "ru": "а это?" }
+      ],
+      "examples": [
+        { "es": "— ¿Qué es esto? — Esto es una ventana.", "ru": "— Что это? — Это окно." },
+        { "es": "— ¿Y esto? — Es un libro nuevo.", "ru": "— А это? — Это новая книга." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "los_objetos_de_la_casa": [
+      { "es": "la mesa", "ru": "стол" },
+      { "es": "la silla", "ru": "стул" },
+      { "es": "la puerta", "ru": "дверь" },
+      { "es": "la ventana", "ru": "окно" },
+      { "es": "la llave", "ru": "ключ" },
+      { "es": "el libro", "ru": "книга" },
+      { "es": "el móvil", "ru": "мобильный телефон" },
+      { "es": "la bolsa", "ru": "сумка, пакет" },
+      { "es": "el reloj", "ru": "часы" },
+      { "es": "la lámpara", "ru": "лампа" }
+    ],
+    "las_formulas": [
+      { "es": "esto es", "ru": "это есть (это —)" },
+      { "es": "¿qué es esto?", "ru": "что это?" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Mateo", "es": "¡Hola, Olga! ¿Qué es esto?", "ru": "Привет, Ольга! Что это?" },
+    { "speaker": "Olga", "es": "Esto es una lámpara, Mateo.", "ru": "Это лампа, Матео." },
+    { "speaker": "Mateo", "es": "¿Y esto?", "ru": "А это?" },
+    { "speaker": "Olga", "es": "Es un reloj. Está en la mesa.", "ru": "Это часы. Они на столе." },
+    { "speaker": "Mateo", "es": "Muy bonito. ¿Y esto? ¿La silla?", "ru": "Очень красиво. А это? Стул?" },
+    { "speaker": "Olga", "es": "Sí, esto es una silla.", "ru": "Да, это стул." },
+    { "speaker": "Mateo", "es": "¿Y el libro? ¿La bolsa?", "ru": "А книга? Сумка?" },
+    { "speaker": "Olga", "es": "Sí, el libro es nuevo. Y la bolsa es grande.", "ru": "Да, книга новая. А сумка большая." },
+    { "speaker": "Mateo", "es": "¿Tienes la llave de la puerta?", "ru": "У тебя есть ключ от двери?" },
+    { "speaker": "Olga", "es": "Sí, aquí está. Gracias, Mateo.", "ru": "Да, вот он. Спасибо, Матео." },
+    { "speaker": "Mateo", "es": "De nada. ¿Y la ventana?", "ru": "Не за что. А окно?" },
+    { "speaker": "Olga", "es": "La ventana. Esto es una ventana, y esto es el móvil.", "ru": "Окно. Это окно, а это мобильный телефон." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары: слово и картинка",
+      "description": "Найди соответствие между предметом и переводом. Артикль в плитках сохранён — учите слово сразу с ним",
+      "pairs": [
+        { "es": "la mesa", "ru": "стол" },
+        { "es": "la silla", "ru": "стул" },
+        { "es": "la puerta", "ru": "дверь" },
+        { "es": "la ventana", "ru": "окно" },
+        { "es": "la llave", "ru": "ключ" },
+        { "es": "el libro", "ru": "книга" },
+        { "es": "el móvil", "ru": "мобильный телефон" },
+        { "es": "la bolsa", "ru": "сумка, пакет" },
+        { "es": "el reloj", "ru": "часы" },
+        { "es": "la lámpara", "ru": "лампа" }
+      ]
+    },
+    {
+      "type": "fill-gap-articulos_el_la",
+      "title": "Практика: артикли el и la",
+      "description": "Вставь пропущенный артикль",
+      "sentences": [
+        { "text": "Esto es ___ mesa grande.", "ru": "Это большой стол.", "answer": "la", "options": ["la", "el", "un"] },
+        { "text": "___ libro es nuevo.", "ru": "Книга новая.", "answer": "El", "options": ["El", "La", "Un"] },
+        { "text": "— ¿Qué es esto? — ___ ventana.", "ru": "— Что это? — Окно.", "answer": "La", "options": ["La", "El", "Una"] },
+        { "text": "___ móvil está en la mesa.", "ru": "Мобильный телефон лежит на столе.", "answer": "El", "options": ["El", "La", "Un"] },
+        { "text": "___ llave está en la puerta.", "ru": "Ключ на двери.", "answer": "La", "options": ["La", "El", "Una"] }
+      ]
+    },
+    {
+      "type": "fill-gap-un_una",
+      "title": "Практика: un и una",
+      "description": "Вставь пропущенный артикль",
+      "sentences": [
+        { "text": "Esto es ___ lámpara.", "ru": "Это лампа.", "answer": "una", "options": ["una", "un", "el"] },
+        { "text": "Es ___ libro nuevo.", "ru": "Это новая книга.", "answer": "un", "options": ["un", "una", "la"] },
+        { "text": "Esto es ___ silla.", "ru": "Это стул.", "answer": "una", "options": ["una", "un", "el"] },
+        { "text": "Es ___ bolsa pequeña.", "ru": "Это маленькая сумка.", "answer": "una", "options": ["una", "un", "el"] },
+        { "text": "Esto es ___ reloj grande.", "ru": "Это большие часы.", "answer": "un", "options": ["un", "una", "la"] }
+      ]
+    },
+    {
+      "type": "fill-gap-esto_es_y_que_es_esto",
+      "title": "Практика: esto es — ¿qué es esto?",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "— ___ es esto? — Esto es una lámpara.", "ru": "— Что это? — Это лампа.", "answer": "¿Qué", "options": ["¿Qué", "¿Quién", "¿Dónde"] },
+        { "text": "___ es esto? — Esto es una mesa.", "ru": "Что это? — Это стол.", "answer": "¿Qué", "options": ["¿Qué", "¿Cómo", "¿Cuánto"] },
+        { "text": "Esto ___ un libro.", "ru": "Это книга.", "answer": "es", "options": ["es", "está", "son"] },
+        { "text": "— ¿Qué es esto? — Esto ___ una ventana.", "ru": "— Что это? — Это окно.", "answer": "es", "options": ["es", "está", "son"] },
+        { "text": "Esto es ___ lámpara de la mesa.", "ru": "Это лампа стола.", "answer": "la", "options": ["la", "el", "los"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика урока",
+      "description": "Вставь пропущенное слово: вопрос о предмете и артикли",
+      "sentences": [
+        { "text": "— ¿Qué es ___ ? — Esto es una lámpara.", "ru": "— Что это? — Это лампа.", "answer": "esto", "options": ["esto", "esta", "es"] },
+        { "text": "Esto ___ un libro nuevo.", "ru": "Это новая книга.", "answer": "es", "options": ["es", "está", "son"] },
+        { "text": "___ silla es mi silla.", "ru": "Стул — мой стул.", "answer": "La", "options": ["La", "El", "Un"] },
+        { "text": "Esto es ___ bolsa.", "ru": "Это сумка.", "answer": "una", "options": ["una", "un", "el"] },
+        { "text": "— ¿Qué es esto? — Es ___ reloj.", "ru": "— Что это? — Это часы.", "answer": "un", "options": ["un", "una", "la"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Название предмета всегда произноси вместе с артиклем."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Ольгой",
+      "role": "Olga",
+      "description": "Ты — Ольга, хозяинка квартиры. Показывай предметы и отвечай es un / es una; один раз спроси сама: ¿Qué es esto?"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Матео",
+      "role": "Mateo",
+      "description": "Ты — Матео, сосед, который помогает с коробками. Спрашивай ¿Qué es esto? и ¿Y esto? о предметах квартиры."
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Осмотри квартиру: спрашивай о предметах и называй их с артиклем",
+      "template": [
+        { "label": "Привет, Ольга!", "es": "¡Hola, Olga!" },
+        { "label": "Что это?", "es": "¿Qué es ___ ?" },
+        { "label": "Это лампа", "es": "Esto es ___ lámpara." },
+        { "label": "А это?", "es": "¿Y ___ ?" },
+        { "label": "Это книга", "es": "Esto es ___ libro." },
+        { "label": "Это часы", "es": "Es ___ reloj." },
+        { "label": "У тебя есть ключ?", "es": "¿Tienes ___ llave de la puerta?" },
+        { "label": "Спасибо", "es": "___ , Mateo." }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "Elige el artículo correcto: ___ puerta.",
+          "ru": "Выбери правильный артикль: ___ puerta.",
+          "options": ["el", "la", "un"],
+          "answer": 1
+        },
+        {
+          "question": "Audio: «la llave». ¿Qué es?",
+          "ru": "Аудио: «la llave». Что это?",
+          "options": ["Ключ", "Книга", "Окно"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se lee la ll en la palabra llave?",
+          "ru": "Как читается ll в слове llave?",
+          "options": ["[л]", "[ль]", "[й]"],
+          "answer": 1
+        },
+        {
+          "question": "Traduce: «Это лампа».",
+          "ru": "Переведи: «Это лампа».",
+          "options": ["Esto es una lámpara", "Esto es un lámpara", "Esto la lámpara", "Esto es el lámpara"],
+          "answer": 0
+        },
+        {
+          "question": "Mateo muestra el libro. ¿Qué responde Olga?",
+          "ru": "Матео показывает книгу. Что отвечает Ольга?",
+          "options": ["Es un libro", "Es una libro", "Esto es la libro", "Es el libro nuevo"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo suenan las letras b y v en español?",
+          "ru": "Как звучат буквы b и v в испанском?",
+          "options": ["Одинаково, как [б]", "Одна как [б], другая как [в]", "Обе не читаются", "Как [х]"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué palabra lleva el artículo «el»?",
+          "ru": "Какое слово идёт с артиклем «el»?",
+          "options": ["la mesa", "el móvil", "la silla", "la ventana"],
+          "answer": 1
+        },
+        {
+          "question": "Lee en voz alta: puerta, ventana, móvil. ¿Qué se comprueba?",
+          "ru": "Прочитай вслух: puerta, ventana, móvil. Что проверяем?",
+          "options": ["Que b y v suenan [б]", "Que h no se lee", "Que la ll es [ль]", "Que z es [с]"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    "Я называю десять вещей квартиры с правильным артиклем el / la",
+    "Я спрашиваю, что это: ¿qué es esto?",
+    "Я отвечаю: es un / es una + слово",
+    "Я знаю, что для «одной из вещей» нужен un / una",
+    "Я читаю слова с p, f и не путаю b / v — оба звука [б]"
+  ],
+  "homework": [
+    "Наклей восемь стикеров с артиклями на предметы дома: la mesa, el libro, la silla, el reloj",
+    "Вечером пройдись по квартире и назови вслух каждую вещь с артиклем",
+    "Запиши 30-секундное аудио «экскурсия по квартире»: 4–5 фраз es un / es una",
+    "Послушай в приложении аудио-тренажёр и проверь, не путаешь ли ты seis / siete и b / v"
+  ]
+}

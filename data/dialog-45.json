@@ -1,0 +1,300 @@
+{
+  "id": 45,
+  "title": "La mala suerte de Pablo",
+  "titleRu": "Невезение Пабло",
+  "part": 5,
+  "level": "B2",
+  "theme": "Болезни, травмы, лечение  Las enfermedades, las lesiones, el tratamiento",
+  "characters": ["carlos", "pablo"],
+  "objectives": [
+    "Говорить о травмах и лечении: el cabestrillo, los rasguños, la radiografía, la pomada, la venda",
+    "Описывать симптомы: el dolor de espalda, la fiebre, la lesión en la rodilla, le costaba respirar",
+    "Рассказывать о врачах и процедурах: el fisioterapeuta, el traumatólogo, dar de alta, guardar cama",
+    "Использовать pluscuamperfecto, чтобы описать, что случилось раньше: me había aplicado una crema",
+    "Связывать события: empezó a toser, salí a correr, tuve que tomar un somnífero",
+    "Передавать слова врача: me dijo que tengo una lesión, prescribió una pomada"
+  ],
+  "grammar": {
+    "pluscuamperfecto": {
+      "title": "Pluscuamperfecto: что случилось раньше",
+      "description": "Pluscuamperfecto (haber + participio) описывает действие, которое произошло раньше другого действия в прошлом: mi espalda se puso muy roja porque el especialista me había aplicado una crema (спина покраснела, потому что специалист заранее нанёс крем). Используйте его, когда рассказываете, ЧТО было до этого.",
+      "forms": {
+        "yo": { "es": "había tomado antibióticos", "ru": "я принял(а) антибиотики" },
+        "tu": { "es": "habías estado en tratamiento", "ru": "ты проходил(а) лечение" },
+        "el_ella": { "es": "me había aplicado una crema", "ru": "он/она нанёс(ла) мне крем" },
+        "nosotros": { "es": "habíamos llamado a la ambulancia", "ru": "мы вызвали скорую" },
+        "vosotros": { "es": "habíais hecho los análisis", "ru": "вы сделали анализы" },
+        "ellos_ellas": { "es": "le habían dado de alta", "ru": "его выписали из больницы" }
+      },
+      "examples": [
+        { "es": "Me dolía la espalda porque había pasado un mal fin de semana.", "ru": "У меня болела спина, потому что прошли плохие выходные." },
+        { "es": "No sabía que había tenido fiebre por la noche.", "ru": "Я не знал, что ночью у меня была температура." }
+      ]
+    },
+    "verbos_medicos": {
+      "title": "Глаголы лечения с косвенным дополнением: ME..., LE...",
+      "description": "Многие глаголы медицины сопровождаются косвенным дополнением me/te/le/nos/os/les, которое показывает, НАД КЕМ выполняют действие: el fisioterapeuta me dio un masaje (он сделал мне массаж), el traumatólogo me hizo la radiografía (сделал мне рентген), a mi padre le dieron de alta (отца выписали), le prescribieron antibióticos (ему прописали антибиотики), me cubrió la pierna con la venda (забинтовал мне ногу).",
+      "list": [
+        { "es": "el fisioterapeuta me dio un masaje", "ru": "физиотерапевт сделал мне массаж" },
+        { "es": "me hizo la radiografía", "ru": "он сделал мне рентген" },
+        { "es": "me cubrió la pierna con la venda", "ru": "он забинтовал мне ногу" },
+        { "es": "prescribió una pomada", "ru": "он прописал мазь" },
+        { "es": "a mi padre le dieron de alta", "ru": "отца выписали из больницы" },
+        { "es": "le prescribieron antibióticos", "ru": "ему прописали антибиотики" }
+      ],
+      "examples": [
+        { "es": "El traumatólogo me hizo la radiografía y me dijo que tenía una lesión.", "ru": "Травматолог сделал мне рентген и сказал, что у меня повреждение." },
+        { "es": "Hace una semana a mi padre le dieron de alta.", "ru": "Неделю назад отца выписали из больницы." }
+      ]
+    },
+    "empezar_a_costar": {
+      "title": "EMPEZAR A + infinitivo, COSTAR + infinitivo",
+      "description": "empezar a + infinitivo обозначает НАЧАЛО действия: empezó a toser (он начал кашлять). costar + infinitivo обозначает трудность: le costaba respirar (ему было трудно дышать). также salí a correr por el parque (пошёл побегать) — глагол движения + a + цель.",
+      "list": [
+        { "es": "empezó a toser", "ru": "он начал кашлять" },
+        { "es": "le costaba respirar", "ru": "ему было трудно дышать" },
+        { "es": "salí a correr por el parque", "ru": "я пошёл побегать в парк" },
+        { "es": "empezó a dolerme la rodilla", "ru": "у меня начала болеть нога" },
+        { "es": "le costaba levantarse de la cama", "ru": "ему было трудно вставать с постели" },
+        { "es": "en cuanto salí, se me puso roja la espalda", "ru": "как только я вышел, спина покраснела" }
+      ],
+      "examples": [
+        { "es": "Empezó a toser y le costaba respirar, por eso llamamos a la ambulancia.", "ru": "Он начал кашлять, и ему было трудно дышать, поэтому мы вызвали скорую." },
+        { "es": "Salí a correr por el parque y me caí.", "ru": "Я пошёл побегать в парк и упал." }
+      ]
+    }
+  },
+  "vocabulary": {
+    "los_sintomas": [
+      { "es": "el dolor de espalda", "ru": "боль в спине" },
+      { "es": "la fiebre", "ru": "температура, жар" },
+      { "es": "los rasguños", "ru": "царапины" },
+      { "es": "la lesión", "ru": "повреждение, травма" },
+      { "es": "la infección", "ru": "инфекция" },
+      { "es": "la pulmonía", "ru": "пневмония" },
+      { "es": "el asma bronquial", "ru": "бронхиальная астма" },
+      { "es": "el agotamiento físico", "ru": "физическое истощение" }
+    ],
+    "los_tratamientos": [
+      { "es": "el masaje", "ru": "массаж" },
+      { "es": "la crema", "ru": "крем" },
+      { "es": "la pomada", "ru": "мазь" },
+      { "es": "la venda", "ru": "повязка, бинт" },
+      { "es": "la radiografía", "ru": "рентген" },
+      { "es": "los antibióticos", "ru": "антибиотики" },
+      { "es": "el somnífero", "ru": "снотворное" },
+      { "es": "el tratamiento", "ru": "лечение" }
+    ],
+    "los_medicos": [
+      { "es": "el fisioterapeuta", "ru": "физиотерапевт" },
+      { "es": "el traumatólogo", "ru": "травматолог" },
+      { "es": "la ambulancia", "ru": "скорая помощь" },
+      { "es": "dar de alta", "ru": "выписывать (из больницы)" },
+      { "es": "guardar cama", "ru": "соблюдать постельный режим" },
+      { "es": "el cabestrillo", "ru": "перевязь для руки (суспензорий)" }
+    ],
+    "los_verbos": [
+      { "es": "caerse", "ru": "падать" },
+      { "es": "fracturarse (el brazo)", "ru": "сломать (руку)" },
+      { "es": "aplicar", "ru": "наносить (крем)" },
+      { "es": "cubrir", "ru": "обмотать, покрыть" },
+      { "es": "prescribir", "ru": "прописывать" },
+      { "es": "recetar", "ru": "выписывать (лекарство)" },
+      { "es": "toser", "ru": "кашлять" },
+      { "es": "respirar", "ru": "дышать" },
+      { "es": "cortar la fiebre", "ru": "сбивать температуру" },
+      { "es": "entretener", "ru": "развлекать" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Carlos", "es": "Hola, amigo. ¿Qué te pasó? ¿Por qué llevas el cabestrillo? ¿Y estos rasguños en la cara...?", "ru": "Привет, друг. Что с тобой случилось? Почему у тебя рука на перевязи? И эти царапины на лице...?" },
+    { "speaker": "Pablo", "es": "Tuve un muy mal fin de semana. El sábado por la mañana tuve un tremendo dolor de espalda y fui al fisioterapeuta. Me dio un masaje y dijo que había que hacer unos ejercicios. En cuanto salí, mi espalda se puso muy roja: el especialista me había aplicado una crema.", "ru": "У меня были очень плохие выходные. В субботу утром у меня сильно заболела спина, и я пошёл к физиотерапевту. Он сделал мне массаж и сказал, что нужно делать упражнения. Как только я вышел, спина сильно покраснела: специалист нанёс мне крем." },
+    { "speaker": "Carlos", "es": "¡Pobre!", "ru": "Бедняга!" },
+    { "speaker": "Pablo", "es": "El mismo día por la tarde tuve fiebre y tomé antibióticos para cortarla. El domingo me sentí mejor y salí a correr por el parque... y me caí.", "ru": "В тот же день вечером у меня поднялась температура, и я принял антибиотики, чтобы сбить её. В воскресенье я почувствовал себя лучше и пошёл побегать в парке... и упал." },
+    { "speaker": "Carlos", "es": "¿Te fracturaste el brazo?", "ru": "Ты сломал руку?" },
+    { "speaker": "Pablo", "es": "Eso. El traumatólogo me hizo la radiografía y me dijo que, además, tengo una lesión en la rodilla derecha. Me cubrió la pierna con la venda y prescribió una pomada. No pude dormir toda la noche y por eso por la mañana tuve que tomar un somnífero.", "ru": "Именно. Травматолог сделал мне рентген и сказал, что, к тому же, у меня повреждена правая коленная чашечка. Он забинтовал мне ногу и прописал мазь. Я не мог спать всю ночь, поэтому утром мне пришлось принять снотворное." },
+    { "speaker": "Carlos", "es": "¡Cuánto lo siento! No sé qué está pasando. Hace una semana a mi padre le dieron de alta — ya sabes que estaba en tratamiento por el agotamiento físico — y mira, otra vez tuvimos que llamar a la ambulancia porque empezó a toser y le costaba respirar.", "ru": "Как мне тебя жаль! Не знаю, что происходит. Неделю назад моего отца выписали из больницы — ты же знаешь, он проходил лечение от физического истощения — и вот опять нам пришлось вызывать скорую, потому что он начал кашлять и ему было трудно дышать." },
+    { "speaker": "Pablo", "es": "¿Qué le dijeron los médicos?", "ru": "Что сказали врачи?" },
+    { "speaker": "Carlos", "es": "Le hicieron unos análisis y, por suerte, no se trata de una inflamación ni del asma bronquial ni de pulmonía, sino de una infección.", "ru": "Ему сделали анализы, и, к счастью, это не воспаление, не бронхиальная астма и не пневмония, а инфекция." },
+    { "speaker": "Pablo", "es": "¿Le prescribieron antibióticos?", "ru": "Ему прописали антибиотики?" },
+    { "speaker": "Carlos", "es": "Sí. Son nocivos, pero qué le vamos a hacer... Debe guardar cama una semana.", "ru": "Да. Они вредны, но что поделать... Ему нужно соблюдать постельный режим неделю." },
+    { "speaker": "Pablo", "es": "Yo tampoco saldré de casa no sé dentro de cuánto tiempo...", "ru": "Я тоже не скоро выйду из дома..." },
+    { "speaker": "Carlos", "es": "Me quedaré contigo para entretenerte un poco.", "ru": "Я останусь с тобой, чтобы немного развлечь тебя." }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "el dolor de espalda", "ru": "боль в спине" },
+        { "es": "los rasguños", "ru": "царапины" },
+        { "es": "la lesión", "ru": "травма" },
+        { "es": "la radiografía", "ru": "рентген" },
+        { "es": "la pomada", "ru": "мазь" },
+        { "es": "la venda", "ru": "повязка, бинт" },
+        { "es": "el somnífero", "ru": "снотворное" },
+        { "es": "la ambulancia", "ru": "скорая помощь" },
+        { "es": "el cabestrillo", "ru": "перевязь для руки" },
+        { "es": "guardar cama", "ru": "соблюдать постельный режим" }
+      ]
+    },
+    {
+      "type": "fill-gap-pluscuamperfecto",
+      "title": "Практика: Pluscuamperfecto",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Mi espalda se puso roja porque el especialista me ___ aplicado una crema.", "ru": "Спина покраснела, потому что специалист нанёс мне крем", "answer": "había", "options": ["había", "ha", "habré"] },
+        { "text": "___ estado en tratamiento por el agotamiento físico.", "ru": "Он проходил лечение от физического истощения", "answer": "Había", "options": ["Había", "Ha", "Habría"] },
+        { "text": "No pude dormir: ___ tenido fiebre toda la noche.", "ru": "Я не мог спать: у меня всю ночь была температура", "answer": "había", "options": ["había", "he", "habré"] },
+        { "text": "Ya ___ llamado a la ambulancia cuando empezó a toser.", "ru": "Мы уже вызвали скорую, когда он начал кашлять", "answer": "habíamos", "options": ["habíamos", "hemos", "habremos"] },
+        { "text": "Le ___ hecho la radiografía antes de prescribir la pomada.", "ru": "Ему сделали рентген до того, как прописали мазь", "answer": "habían", "options": ["habían", "han", "habrán"] }
+      ]
+    },
+    {
+      "type": "fill-gap-verbos_medicos",
+      "title": "Практика: Глаголы лечения",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "El fisioterapeuta me ___ un masaje.", "ru": "Физиотерапевт сделал мне массаж", "answer": "dio", "options": ["dio", "da", "daba"] },
+        { "text": "El traumatólogo me ___ la radiografía.", "ru": "Травматолог сделал мне рентген", "answer": "hizo", "options": ["hizo", "hace", "hará"] },
+        { "text": "Me ___ la pierna con la venda.", "ru": "Он забинтовал мне ногу", "answer": "cubrió", "options": ["cubrió", "cubre", "cubría"] },
+        { "text": "A mi padre le ___ de alta hace una semana.", "ru": "Отца выписали из больницы неделю назад", "answer": "dieron", "options": ["dieron", "dan", "darán"] },
+        { "text": "Le ___ unos análisis y no encontraron nada.", "ru": "Ему сделали анализы и ничего не нашли", "answer": "hicieron", "options": ["hicieron", "hacen", "harán"] }
+      ]
+    },
+    {
+      "type": "fill-gap-empezar_a_costar",
+      "title": "Практика: EMPEZAR A..., COSTAR...",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "Empezó a ___ y le costaba respirar.", "ru": "Он начал кашлять, и ему было трудно дышать", "answer": "toser", "options": ["toser", "tosía", "tose"] },
+        { "text": "Le ___ respirar después de correr.", "ru": "Ему было трудно дышать после бега", "answer": "costaba", "options": ["costaba", "cuesta", "costará"] },
+        { "text": "Salí a ___ por el parque y me caí.", "ru": "Я пошёл побегать в парке и упал", "answer": "correr", "options": ["correr", "corría", "corro"] },
+        { "text": "En cuanto salí, ___ a dolerme la espalda.", "ru": "Как только я вышел, у меня начала болеть спина", "answer": "empezó", "options": ["empezó", "empieza", "empezará"] },
+        { "text": "Le costaba ___ de la cama por el dolor.", "ru": "Ему было трудно вставать с постели из-за боли", "answer": "levantarse", "options": ["levantarse", "levanta", "levantó"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика",
+      "description": "Вставь пропущенное слово",
+      "sentences": [
+        { "text": "¿Por qué llevas el ___?", "ru": "Почему у тебя рука на перевязи?", "answer": "cabestrillo", "options": ["cabestrillo", "somnífero", "rasguño"] },
+        { "text": "Tuve un tremendo ___ de espalda.", "ru": "У меня была очень сильная боль в спине", "answer": "dolor", "options": ["dolor", "masaje", "análisis"] },
+        { "text": "El especialista me ___ aplicado una crema.", "ru": "Специалист нанёс мне крем", "answer": "había", "options": ["había", "ha", "hubiera"] },
+        { "text": "Tomé antibióticos para ___ la fiebre.", "ru": "Я принял антибиотики, чтобы сбить температуру", "answer": "cortar", "options": ["cortar", "coger", "cubrir"] },
+        { "text": "El traumatólogo me hizo la ___.", "ru": "Травматолог сделал мне рентген", "answer": "radiografía", "options": ["radiografía", "pomada", "venda"] },
+        { "text": "Por la mañana tuve que tomar un ___.", "ru": "Утром мне пришлось принять снотворное", "answer": "somnífero", "options": ["somnífero", "antibiótico", "masaje"] },
+        { "text": "Le ___ de alta hace una semana.", "ru": "Его выписали неделю назад", "answer": "dieron", "options": ["dieron", "dieron a", "dio"] },
+        { "text": "Empezó a toser y le ___ respirar.", "ru": "Он начал кашлять, и ему было трудно дышать", "answer": "costaba", "options": ["costaba", "cuesta", "costó"] },
+        { "text": "Debe ___ cama una semana.", "ru": "Ему нужно соблюдать постельный режим неделю", "answer": "guardar", "options": ["guardar", "guardar en", "gastar"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Пабло",
+      "role": "Pablo",
+      "description": "Ты — Пабло, рассказываешь Карлосу о своём неудачном уик-энде"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Карлосом",
+      "role": "Carlos",
+      "description": "Ты — Карлос, сочувствуешь Пабло и рассказываешь о болезни отца"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи о травме и лечении: симптомы, врач, лекарства",
+      "template": [
+        { "label": "Что с тобой случилось?", "es": "¿Qué te ___?" },
+        { "label": "У меня была сильная боль в спине", "es": "Tuve un tremendo ___ de espalda." },
+        { "label": "Физиотерапевт сделал мне массаж", "es": "El fisioterapeuta me ___ un masaje." },
+        { "label": "Он нанёс мне крем", "es": "Me había ___ una crema." },
+        { "label": "Я пошёл побегать и упал", "es": "Salí a ___ por el parque y me caí." },
+        { "label": "Ты сломал руку?", "es": "¿Te ___ el brazo?" },
+        { "label": "Ему было трудно дышать", "es": "Le ___ respirar." },
+        { "label": "Соблюдать постельный режим", "es": "Guardar ___." }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Por qué lleva Pablo el cabestrillo?",
+          "ru": "Почему у Пабло рука на перевязи?",
+          "options": ["Se fracturó el brazo", "Le dolía la espalda", "Tuvo fiebre", "Porque se cayó en la calle"],
+          "answer": 0
+        },
+        {
+          "question": "¿A quién visitó Pablo el sábado por la mañana?",
+          "ru": "К кому Пабло ходил в субботу утром?",
+          "options": ["Al fisioterapeuta", "Al traumatólogo", "Al médico de familia", "A la farmacia"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué le hizo el especialista a Pablo?",
+          "ru": "Что сделал специалист для Пабло?",
+          "options": ["Le dio un masaje", "Le hizo una radiografía", "Le puso una venda", "Le recetó antibióticos"],
+          "answer": 0
+        },
+        {
+          "question": "¿Por qué se puso roja la espalda de Pablo?",
+          "ru": "Почему спина Пабло покраснела?",
+          "options": ["Porque le habían aplicado una crema", "Por el sol", "Por el masaje", "Por la fiebre"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué hizo Pablo por la tarde del sábado?",
+          "ru": "Что делал Пабло вечером в субботу?",
+          "options": ["Tomó antibióticos para cortar la fiebre", "Salio a correr", "Fue al traumatólogo", "Durmió todo el día"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué le encontró el traumatólogo a Pablo?",
+          "ru": "Что нашёл травматолог у Пабло?",
+          "options": ["Una lesión en la rodilla derecha", "Una infección", "Asma bronquial", "Nada"],
+          "answer": 0
+        },
+        {
+          "question": "¿Por qué tuvo que tomar un somnífero?",
+          "ru": "Почему Пабло пришлось принять снотворное?",
+          "options": ["Porque no podía dormir", "Por el dolor de espalda", "Porque se aburría", "Por la fiebre"],
+          "answer": 0
+        },
+        {
+          "question": "¿Por qué llamaron a la ambulancia para el padre de Carlos?",
+          "ru": "Почему для отца Карлоса вызвали скорую?",
+          "options": ["Porque empezó a toser y le costaba respirar", "Porque se cayó", "Porque tenía fiebre", "Porque se fracturó un brazo"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué le diagnosticaron al padre de Carlos?",
+          "ru": "Что диагностировали отцу Карлоса?",
+          "options": ["Una infección", "Pulmonía", "Asma bronquial", "Una inflamación"],
+          "answer": 0
+        },
+        {
+          "question": "¿Qué tiene que hacer el padre de Carlos?",
+          "ru": "Что должен делать отец Карлоса?",
+          "options": ["Guardar cama una semana", "Tomar somníferos", "Hacer ejercicios", "Correr por el parque"],
+          "answer": 0
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повтори слова по теме «травмы, лечение, врачи»",
+    "Практика: расскажи о своей последней травме или болезни. Используй: tuve un dolor de..., me hizo/fue..., me había..., empezó a..., me costaba...",
+    "Дневник: опиши, что ты делал(а), когда болел(а), и что тебе прописали",
+    "Грамматика: составь 4 предложения с pluscuamperfecto (había...) и 4 с empezar a + infinitivo"
+  ]
+}

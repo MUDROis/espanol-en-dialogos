@@ -1,0 +1,249 @@
+{
+  "id": 2,
+  "title": "Pablo y Sofía están en la escuela",
+  "titleRu": "Пабло и София находятся в школе",
+  "part": 1,
+  "level": "A2",
+  "theme": "La escuela, la familia, la vida diaria (Школа, семья, повседневная жизнь)",
+  "characters": ["pablo", "sofia"],
+  "objectives": [
+    "Выражать состояния и чувства с глаголом estar",
+    "Говорить о семье и совместном проживании",
+    "Использовать конструкцию estar acostumbrado a",
+    "Указывать возраст с глаголом tener"
+  ],
+  "grammar": {
+    "estar_adjectives": {
+      "title": "Глагол ESTAR + прилагательные (быть каким-то)",
+      "description": "ESTAR с прилагательным используется для описания временных состояний и настроения: contento, cansado, ocupado.",
+      "forms": {
+        "yo": { "es": "estoy contento/a", "ru": "я доволен/довольна" },
+        "tu": { "es": "estás contento/a", "ru": "ты доволен/довольна" },
+        "el_ella": { "es": "está contento/a", "ru": "он/она доволен/довольна" },
+        "nosotros": { "es": "estamos contentos/as", "ru": "мы довольны" },
+        "vosotros": { "es": "estáis contentos/as", "ru": "вы довольны" },
+        "ellos_ellas": { "es": "están contentos/as", "ru": "они довольны" }
+      }
+    },
+    "estar_acostumbrado": {
+      "title": "Конструкция ESTAR acostumbrado/a a (быть привыкшим к)",
+      "description": "ESTAR acostumbrado/a a + существительное или глагол означает «быть привыкшим к чему-либо».",
+      "forms": {
+        "yo": { "es": "estoy acostumbrado/a", "ru": "я привык/привыкла" },
+        "tu": { "es": "estás acostumbrado/a", "ru": "ты привык/привыкла" },
+        "el_ella": { "es": "está acostumbrado/a", "ru": "он/она привык/привыкла" },
+        "nosotros": { "es": "estamos acostumbrados/as", "ru": "мы привыкли" },
+        "vosotros": { "es": "estáis acostumbrados/as", "ru": "вы привыкли" },
+        "ellos_ellas": { "es": "están acostumbrados/as", "ru": "они привыкли" }
+      }
+    },
+    "tener": {
+      "title": "Глагол TENER (иметь, возраст)",
+      "description": "TENER используется для указания возраста (tengo 15 años), а также когда говорим о том, что у нас что-то есть.",
+      "forms": {
+        "yo": { "es": "tengo", "ru": "я имею" },
+        "tu": { "es": "tienes", "ru": "ты имеешь" },
+        "el_ella": { "es": "tiene", "ru": "он/она имеет" },
+        "nosotros": { "es": "tenemos", "ru": "мы имеем" },
+        "vosotros": { "es": "tenéis", "ru": "вы имеете" },
+        "ellos_ellas": { "es": "tienen", "ru": "они имеют" }
+      }
+    },
+    "vivir": {
+      "title": "Глагол VIVIR (жить)",
+      "description": "VIVIR используется, чтобы сказать, где и с кем ты живёшь: vivo con mi hermano, vivimos juntos.",
+      "forms": {
+        "yo": { "es": "vivo", "ru": "я живу" },
+        "tu": { "es": "vives", "ru": "ты живёшь" },
+        "el_ella": { "es": "vive", "ru": "он/она живёт" },
+        "nosotros": { "es": "vivimos", "ru": "мы живём" },
+        "vosotros": { "es": "vivís", "ru": "вы живёте" },
+        "ellos_ellas": { "es": "viven", "ru": "они живут" }
+      }
+    }
+  },
+  "vocabulary": {
+    "feelings": [
+      { "es": "contento/a", "ru": "довольный" },
+      { "es": "cansado/a", "ru": "усталый" },
+      { "es": "ocupado/a", "ru": "занятой" },
+      { "es": "preocupado/a", "ru": "обеспокоенный" },
+      { "es": "acostumbrado/a", "ru": "привыкший" }
+    ],
+    "school": [
+      { "es": "la escuela", "ru": "школа" },
+      { "es": "el profesor / la profesora", "ru": "преподаватель" },
+      { "es": "la tarea", "ru": "домашнее задание" },
+      { "es": "las clases en grupo", "ru": "групповые занятия" },
+      { "es": "los estudios", "ru": "учёба" },
+      { "es": "fácil", "ru": "лёгкий" }
+    ],
+    "family": [
+      { "es": "la familia", "ru": "семья" },
+      { "es": "el hermano menor", "ru": "младший брат" },
+      { "es": "el primo / la prima", "ru": "двоюродный брат / сестра" },
+      { "es": "el compañero de piso", "ru": "сосед по комнате" },
+      { "es": "los amigos", "ru": "друзья" },
+      { "es": "la chica", "ru": "девушка" }
+    ],
+    "phrases": [
+      { "es": "estar acostumbrado/a a", "ru": "быть привыкшим к" },
+      { "es": "vivir juntos", "ru": "жить вместе" },
+      { "es": "vivir con", "ru": "жить с" },
+      { "es": "tener años", "ru": "иметь лет / быть возраста" },
+      { "es": "cómo te va", "ru": "как у тебя дела" }
+    ]
+  },
+  "dialogue": [
+    { "speaker": "Sofía", "es": "¿Cómo te va con el español? ¿Ya estás acostumbrado a la escuela?", "ru": "Как у тебя с испанским? Уже привык к школе?" },
+    { "speaker": "Pablo", "es": "Sí, estoy contento, aunque no estoy acostumbrado a las clases en grupo. Los profesores son buenos, pero a veces estoy cansado porque tengo mucha tarea.", "ru": "Да, я доволен, хотя ещё не привык к групповым занятиям. Преподаватели хорошие, но иногда я устаю, потому что много домашнего задания." },
+    { "speaker": "Sofía", "es": "Yo también estoy ocupada. Mi hermano tiene 15 años y también estudia aquí, pero no le gusta la escuela. Pasa mucho tiempo con sus amigas.", "ru": "Я тоже занята. Моему брату 15 лет, он тоже учится здесь, но ему не нравится школа. Он проводит много времени с подругами." },
+    { "speaker": "Pablo", "es": "¿Vivís juntos?", "ru": "Вы живёте вместе?" },
+    { "speaker": "Sofía", "es": "Sí, vivo con mi hermano en casa de unos amigos de la familia.", "ru": "Да, я живу с братом в доме друзей семьи." },
+    { "speaker": "Pablo", "es": "Yo vivo con un compañero de piso, de Portugal. Estamos acostumbrados a cocinar juntos.", "ru": "Я живу с соседом по комнате, из Португалии. Мы привыкли готовить вместе." },
+    { "speaker": "Sofía", "es": "¿Y tu familia, están en Buenos Aires?", "ru": "А твоя семья, они в Буэнос-Айресе?" }
+  ],
+  "exercises": [
+    {
+      "type": "memory",
+      "title": "Соедини пары",
+      "description": "Найди соответствие между испанским словом и переводом",
+      "pairs": [
+        { "es": "contento", "ru": "довольный" },
+        { "es": "cansado", "ru": "усталый" },
+        { "es": "preocupado", "ru": "обеспокоенный" },
+        { "es": "acostumbrado", "ru": "привыкший" },
+        { "es": "el compañero de piso", "ru": "сосед по комнате" },
+        { "es": "la tarea", "ru": "домашнее задание" },
+        { "es": "el hermano menor", "ru": "младший брат" },
+        { "es": "los amigos", "ru": "друзья" }
+      ]
+    },
+    {
+      "type": "fill-gap-estar_adjectives",
+      "title": "Практика: ESTAR + прилагательные",
+      "description": "Вставь правильную форму глагола estar",
+      "sentences": [
+        { "text": "Yo ___ contento con el curso.", "ru": "Я доволен курсом", "answer": "estoy", "options": ["estoy", "soy", "tengo"] },
+        { "text": "Ella ___ cansada de la escuela.", "ru": "Она устала от школы", "answer": "está", "options": ["está", "es", "tiene"] },
+        { "text": "Nosotros ___ ocupados con los estudios.", "ru": "Мы заняты учёбой", "answer": "estamos", "options": ["estamos", "somos", "tenemos"] },
+        { "text": "Tú ___ contenta con la tarea.", "ru": "Ты довольна заданием", "answer": "estás", "options": ["estás", "eres", "tienes"] }
+      ]
+    },
+    {
+      "type": "fill-gap-estar_acostumbrado",
+      "title": "Практика: ESTAR acostumbrado a",
+      "description": "Вставь правильную форму конструкции",
+      "sentences": [
+        { "text": "Yo ___ acostumbrado a las clases en grupo.", "ru": "Я привык к групповым занятиям", "answer": "estoy", "options": ["estoy", "soy", "tengo"] },
+        { "text": "Ella ___ acostumbrada a cocinar.", "ru": "Она привыкла готовить", "answer": "está", "options": ["está", "es", "tiene"] },
+        { "text": "Nosotros ___ acostumbrados a vivir juntos.", "ru": "Мы привыкли жить вместе", "answer": "estamos", "options": ["estamos", "somos", "tenemos"] },
+        { "text": "Tú ___ acostumbrado a la vida aquí.", "ru": "Ты привык к жизни здесь", "answer": "estás", "options": ["estás", "eres", "tienes"] }
+      ]
+    },
+    {
+      "type": "fill-gap-tener",
+      "title": "Практика: TENER",
+      "description": "Вставь правильную форму глагола tener",
+      "sentences": [
+        { "text": "Yo ___ 20 años.", "ru": "Мне 20 лет", "answer": "tengo", "options": ["tengo", "tienes", "tiene"] },
+        { "text": "Mi hermano ___ 15 años.", "ru": "Моему брату 15 лет", "answer": "tiene", "options": ["tiene", "tengo", "tenemos"] },
+        { "text": "Nosotros ___ mucha tarea.", "ru": "У нас много домашнего задания", "answer": "tenemos", "options": ["tenemos", "tienen", "tenéis"] },
+        { "text": "Ellos ___ muchos amigos.", "ru": "У них много друзей", "answer": "tienen", "options": ["tienen", "tenemos", "tiene"] }
+      ]
+    },
+    {
+      "type": "fill-gap-vivir",
+      "title": "Практика: VIVIR",
+      "description": "Вставь правильную форму глагола vivir",
+      "sentences": [
+        { "text": "Yo ___ con mi hermano.", "ru": "Я живу с братом", "answer": "vivo", "options": ["vivo", "vives", "vive"] },
+        { "text": "Ana ___ con su familia.", "ru": "Анна живёт с семьёй", "answer": "vive", "options": ["vive", "vivo", "viven"] },
+        { "text": "Nosotros ___ juntos.", "ru": "Мы живём вместе", "answer": "vivimos", "options": ["vivimos", "viven", "vivís"] },
+        { "text": "¿Vosotros ___ con amigos?", "ru": "Вы живёте с друзьями?", "answer": "vivís", "options": ["vivís", "vivimos", "viven"] }
+      ]
+    },
+    {
+      "type": "fill-gap-combined",
+      "title": "Общая практика: estar, tener, vivir",
+      "description": "Вставь правильную форму одного из глаголов",
+      "sentences": [
+        { "text": "Ella ___ contenta.", "ru": "Она довольна", "answer": "está", "options": ["está", "tiene", "vive"] },
+        { "text": "Yo ___ 18 años.", "ru": "Мне 18 лет", "answer": "tengo", "options": ["tengo", "estoy", "vivo"] },
+        { "text": "Nosotros ___ con un compañero de piso.", "ru": "Мы живём с соседом по комнате", "answer": "vivimos", "options": ["vivimos", "estamos", "tenemos"] },
+        { "text": "Mi hermano ___ acostumbrado a la escuela.", "ru": "Мой брат привык к школе", "answer": "está", "options": ["está", "tiene", "vive"] },
+        { "text": "Ellos ___ muchos amigos.", "ru": "У них много друзей", "answer": "tienen", "options": ["tienen", "están", "viven"] }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "title": "Повтори за диктором",
+      "description": "Слушай фразу и повторяй вслух. Твой голос запишется."
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Пабло",
+      "role": "Pablo",
+      "description": "Отвечай на реплики Софии своим голосом"
+    },
+    {
+      "type": "roleplay",
+      "title": "Будь Софией",
+      "role": "Sofía",
+      "description": "Теперь ты София — отвечай Пабло"
+    },
+    {
+      "type": "create-dialogue",
+      "title": "Создай свой диалог",
+      "description": "Расскажи о своей учёбе и семье",
+      "template": [
+        { "label": "Я доволен/довольна", "es": "Estoy ___ con..." },
+        { "label": "Я занят/а", "es": "Estoy ___ con..." },
+        { "label": "Я живу с", "es": "Vivo con ___" },
+        { "label": "У меня есть", "es": "Tengo ___" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "Тест",
+      "description": "Проверь, что ты усвоил",
+      "questions": [
+        {
+          "question": "¿Cómo se dice «я доволен»?",
+          "ru": "Как сказать «я доволен»?",
+          "options": ["Estoy contento", "Soy contento", "Tengo contento", "Estoy cansado"],
+          "answer": 0
+        },
+        {
+          "question": "¿Cómo se dice «привыкший»?",
+          "ru": "Как сказать «привыкший»?",
+          "options": ["ocupado", "acostumbrado", "preocupado", "cansado"],
+          "answer": 1
+        },
+        {
+          "question": "¿Con quién vive Sofía?",
+          "ru": "С кем живёт София?",
+          "options": ["Con su hermana", "Con su hermano", "Con Pablo", "Con su prima"],
+          "answer": 1
+        },
+        {
+          "question": "¿Cuántos años tiene el hermano de Sofía?",
+          "ru": "Сколько лет брату Софии?",
+          "options": ["13", "14", "15", "16"],
+          "answer": 2
+        },
+        {
+          "question": "¿De dónde es el compañero de piso de Pablo?",
+          "ru": "Откуда сосед Пабло по комнате?",
+          "options": ["De Argentina", "De Portugal", "De España", "De Brasil"],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+  "homework": [
+    "5 мин: Повторить новые слова (чувства и семья) в приложении",
+    "Практика: Расскажи другу на испанском о своей семье и учёбе",
+    "Дневник: Напиши 5 предложений о том, чем ты доволен/не доволен"
+  ]
+}
